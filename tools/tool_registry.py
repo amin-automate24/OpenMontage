@@ -246,7 +246,96 @@ class ToolRegistry:
                 summary[tier.value] = counts
         return summary
 
-    def provider_menu(self) -> dict[str, dict[str, Any]]:
+    # ---- Opt-in credential validation ----
+
+    def validate_credentials(
+        self,
+        *,
+        force: bool = False,
+        timeout: Optional[float] = None,
+        http_get: Any = None,
+    ) -> dict[str, dict[str, Any]]:
+        """Check configured API keys against their providers (network, opt-in).
+
+        One free, read-only request per provider family (list models, a
+        1-result search, an account lookup). Never spends credits, and never
+        returns key values. Results are cached per process. See
+        ``tools/credential_validation.py`` for the probe table.
+
+        Returns ``{env_var: {"env_var", "family", "status", "http_status",
+        "detail"}}`` for every supported env var that is set.
+        """
+        from tools import credential_validation as cv
+
+        self._load_dotenv()
+        kwargs: dict[str, Any] = {"force": force, "http_get": http_get}
+        if timeout is not None:
+            kwargs["timeout"] = timeout
+        return cv.validate_credentials(**kwargs)
+
+    def _tools_blocked_by_invalid_keys(
+        self, invalid_env_vars: list[str]
+    ) -> dict[str, list[str]]:
+        """Map tool name -> invalid env vars its AVAILABLE status depends on.
+
+        Most API tools decide availability with ``os.environ.get(...)`` inside
+        a custom ``get_status()`` rather than declaring ``env:`` dependencies,
+        so the only reliable way to learn which tools an invalid key is
+        propping up is to ask them: temporarily unset the invalid vars,
+        re-check status, and restore. ``get_status()`` is a cheap local check
+        (no network), and the environment is restored in ``finally``.
+
+        A tool with another, valid credential path (for example both
+        ``GEMINI_API_KEY`` and a service-account file) stays available.
+        """
+        import os
+
+        if not invalid_env_vars:
+            return {}
+        candidates = [
+            t for t in self._tools.values()
+            if t.provider != "selector" and t.get_status() == ToolStatus.AVAILABLE
+        ]
+        saved = {v: os.environ[v] for v in invalid_env_vars if v in os.environ}
+        blocked: dict[str, list[str]] = {}
+        try:
+            for var in saved:
+                del os.environ[var]
+            flipped = [t for t in candidates if t.get_status() != ToolStatus.AVAILABLE]
+            if not flipped:
+                return {}
+            # Attribute: which single invalid var restores each flipped tool?
+            for var, value in saved.items():
+                os.environ[var] = value
+                try:
+                    for t in flipped:
+                        if t.get_status() == ToolStatus.AVAILABLE:
+                            blocked.setdefault(t.name, []).append(var)
+                finally:
+                    del os.environ[var]
+            # Tools that need several of the invalid vars together.
+            for t in flipped:
+                blocked.setdefault(t.name, sorted(saved))
+        finally:
+            os.environ.update(saved)
+        return blocked
+
+    def _credential_report(self) -> tuple[dict[str, dict[str, Any]], dict[str, list[str]]]:
+        """Validate keys and compute which tools the invalid ones affect."""
+        checks = self.validate_credentials()
+        invalid = sorted(
+            name for name, check in checks.items() if check.get("status") == "invalid"
+        )
+        return checks, self._tools_blocked_by_invalid_keys(invalid)
+
+    def provider_menu(
+        self,
+        validate_keys: bool = False,
+        *,
+        _credential_report: Optional[
+            tuple[dict[str, dict[str, Any]], dict[str, list[str]]]
+        ] = None,
+    ) -> dict[str, dict[str, Any]]:
         """Generate a capability-grouped provider menu for user-facing display.
 
         Returns a dict like:
@@ -263,8 +352,17 @@ class ToolRegistry:
         This powers the agent's preflight provider menu — the agent reads this
         output and presents it to the user.  Adding a new tool to tools/ is
         enough; this method auto-discovers it.
+
+        ``validate_keys=True`` (opt-in, uses the network) checks configured
+        API keys with free read-only provider calls. Tools whose only
+        credential was rejected move to ``unavailable`` with
+        ``status: "unavailable"`` and a ``credential_issue`` entry naming the
+        env var. The default stays offline.
         """
         self.ensure_discovered()
+        if _credential_report is None and validate_keys:
+            _credential_report = self._credential_report()
+        checks, blocked = _credential_report or ({}, {})
         menu: dict[str, dict[str, Any]] = {}
 
         # Skip selectors — they aggregate, they aren't providers themselves
@@ -300,6 +398,18 @@ class ToolRegistry:
                 if extra_key in info:
                     entry[extra_key] = info[extra_key]
 
+            if status == ToolStatus.AVAILABLE and tool.name in blocked:
+                bad_vars = blocked[tool.name]
+                status = ToolStatus.UNAVAILABLE
+                entry["status"] = status.value
+                entry["credential_issue"] = {
+                    "kind": "invalid_api_key",
+                    "env_vars": bad_vars,
+                    "details": {
+                        var: checks.get(var, {}).get("detail", "") for var in bad_vars
+                    },
+                }
+
             if status == ToolStatus.AVAILABLE:
                 menu[cap]["available"].append(entry)
                 menu[cap]["configured"] += 1
@@ -313,7 +423,7 @@ class ToolRegistry:
 
         return dict(sorted(menu.items()))
 
-    def provider_menu_summary(self) -> dict[str, Any]:
+    def provider_menu_summary(self, validate_keys: bool = False) -> dict[str, Any]:
         """Compact, human-ready rollup of provider_menu() for onboarding/preflight.
 
         Returns a dict shaped for the "N of M configured" capability menu the
@@ -349,9 +459,18 @@ class ToolRegistry:
         Agents should use this as the source for the preflight capability
         menu rather than rendering `support_envelope()` or `provider_menu()`
         raw. See AGENT_GUIDE.md > "Provider Menu (Mandatory at Preflight)".
+
+        ``validate_keys=True`` (opt-in, uses the network) also checks each
+        configured API key with one free read-only call per provider family.
+        A rejected key adds a ``runtime_warnings`` line naming the env var
+        (never the value), moves the tools that depended on it to
+        unavailable, and lists them in ``setup_offers`` with
+        ``kind: "invalid_credential"``. The summary then also carries a
+        ``credential_checks`` dict. Results are cached per process.
         """
         self.ensure_discovered()
-        menu = self.provider_menu()
+        report = self._credential_report() if validate_keys else None
+        menu = self.provider_menu(_credential_report=report)
 
         # Composition runtimes — lift from video_compose.get_info() since
         # they're the signal the runtime-selection contract depends on.
@@ -403,6 +522,22 @@ class ToolRegistry:
         setup_offers: list[dict[str, Any]] = []
         for cap, bucket in menu.items():
             for entry in bucket.get("unavailable", []):
+                issue = entry.get("credential_issue")
+                if issue:
+                    setup_offers.append(
+                        {
+                            "capability": cap,
+                            "tool": entry.get("name"),
+                            "provider": entry.get("provider"),
+                            "runtime": entry.get("runtime"),
+                            "kind": "invalid_credential",
+                            "fix_complexity": "1-minute env-var",
+                            "env_vars": list(issue.get("env_vars") or []),
+                            "install_instructions": entry.get("install_instructions") or "",
+                        }
+                    )
+                    continue
+
                 offer = entry.get("setup_offer")
                 if offer:
                     setup_offers.append(
@@ -456,12 +591,38 @@ class ToolRegistry:
                         f"{entry.get('name')}: {entry.get('resource_profile_note')}"
                     )
 
+        if report is not None:
+            checks, blocked = report
+            for env_var, check in sorted(checks.items()):
+                status = check.get("status")
+                if status == "invalid":
+                    affected = sorted(
+                        name for name, bad in blocked.items() if env_var in bad
+                    )
+                    tail = (
+                        "; now reported unavailable: " + ", ".join(affected)
+                        if affected
+                        else ""
+                    )
+                    runtime_warnings.append(
+                        f"{env_var}: {check.get('family')} rejected the key "
+                        f"({check.get('detail')}); replace it in .env{tail}"
+                    )
+                elif status == "unverified":
+                    runtime_warnings.append(
+                        f"{env_var}: could not verify the key with "
+                        f"{check.get('family')} ({check.get('detail')}); tools "
+                        f"using it are still listed as available"
+                    )
+
         result = {
             "composition_runtimes": comp_runtimes,
             "capabilities": capabilities,
             "setup_offers": setup_offers,
             "runtime_warnings": runtime_warnings,
         }
+        if report is not None:
+            result["credential_checks"] = report[0]
         # Normalize em-dashes and en-dashes to ASCII so preflight output prints
         # cleanly on Windows cp1252 stdout (the default on Git Bash / PowerShell
         # without PYTHONIOENCODING=utf-8). Agents paste this dict into chat; a

@@ -269,16 +269,19 @@ python -c "
 from tools.tool_registry import registry
 import json
 registry.discover()
-print(json.dumps(registry.provider_menu_summary(), indent=2))
+print(json.dumps(registry.provider_menu_summary(validate_keys=True), indent=2))
 "
 ```
 
-The summary returns four fields the agent should translate into plain language:
+**Validate keys at preflight (`validate_keys=True`).** By default a tool counts as available as soon as its env var is *set*, so a placeholder such as `GEMINI_API_KEY=abc123` looks configured until the first paid call fails with `API_KEY_INVALID`. `validate_keys=True` checks each configured key with **one free, read-only call per provider family**. The calls list models (Gemini, fal, OpenAI), run a 1-result search (Pexels, Pixabay) or fetch the account (Replicate). They never generate anything or spend credits. Results are cached per process, and key values never appear in the output. The call needs network access. Without it, run `provider_menu_summary()` with no arguments, which stays fully offline (the test suite relies on that), and tell the user the keys were not verified. To validate keys without building the menu, call `registry.validate_credentials()`.
+
+The summary returns these fields; translate them into plain language:
 
 - `composition_runtimes` — booleans for `ffmpeg`, `remotion`, `hyperframes`. This is the source of truth for the "Present Both Composition Runtimes (HARD RULE)" check.
-- `capabilities[]` — one entry per capability family with `configured / total` counts and provider lists. Ready-made for the "N of M configured" menu.
-- `setup_offers[]` — unavailable tools whose install is a 1-minute env-var fix. Lead with these when offering upgrades.
-- `runtime_warnings[]` — specific signals like "hyperframes: npm package not resolvable". Surface these to the user verbatim — they're the kind of silent-failure bugs that break the governance contract.
+- `capabilities[]` — one entry per capability family with `configured / total` counts and provider lists. Ready-made for the "N of M configured" menu. With `validate_keys=True`, tools whose only credential was rejected are already counted as unavailable.
+- `setup_offers[]` — unavailable tools whose install is a 1-minute env-var fix. Lead with these when offering upgrades. Entries with `kind: "invalid_credential"` mean the key is **set but rejected**. Tell the user to replace the named env var. Don't tell them to add it.
+- `runtime_warnings[]` — specific signals like "hyperframes: npm package not resolvable", or with `validate_keys=True`, "GEMINI_API_KEY: gemini rejected the key (HTTP 400 API_KEY_INVALID); ...". Surface these to the user verbatim — they're the kind of silent-failure bugs that break the governance contract. A `could not verify` warning (network error, 403, rate limit) means the key's status is unknown and its tools stay listed as available. Mention it, but don't treat the key as broken.
+- `credential_checks` (only with `validate_keys=True`) — per env var: `status` (`valid` / `invalid` / `unverified`), `family`, `http_status`, `detail`.
 
 Then, for deeper inspection (only when the summary isn't enough):
 

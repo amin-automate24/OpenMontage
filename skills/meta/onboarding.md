@@ -28,11 +28,28 @@ print(json.dumps(menu, indent=2))
 "
 ```
 
+Then check that the configured API keys actually work. A key that is only *set* (for example a placeholder) still shows up as available above:
+
+```bash
+python -c "
+from tools.tool_registry import registry
+import json
+registry.discover()
+summary = registry.provider_menu_summary(validate_keys=True)
+print(json.dumps(summary['runtime_warnings'], indent=2))
+print(json.dumps(summary['credential_checks'], indent=2))
+"
+```
+
+This makes one free, read-only call per provider family (it lists models or runs a 1-result search) and never spends credits or prints key values. It needs network access. If it can't run, say the keys are unverified. Don't call them working.
+
 Parse the output into three buckets:
 
-1. **Available** — tools with `status: AVAILABLE`
-2. **Quick unlocks** — tools with `status: UNAVAILABLE` whose `install_instructions` reference an env var (1-minute fixes)
+1. **Available** — tools with `status: AVAILABLE`, **minus** any tool whose key `credential_checks` reports as `invalid`
+2. **Quick unlocks** — tools with `status: UNAVAILABLE` whose `install_instructions` reference an env var (1-minute fixes). A key reported `invalid` is also a quick fix: tell the user the named env var is set but rejected, and that they should replace its value.
 3. **Hardware unlocks** — tools requiring GPU or local model downloads
+
+Never present a tool as ready when its key came back `invalid`. That is how a production gets planned around a provider that fails on the first call.
 
 ### Step 2: Determine the User's Setup Tier
 

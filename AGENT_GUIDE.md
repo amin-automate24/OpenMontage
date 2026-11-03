@@ -260,6 +260,8 @@ If the folder has tracks, the proposal and asset stages should present them as o
 
 > **Beta pipelines** have not been fully audited. They work, but expect rough edges. Mention this when the user selects one.
 
+**Narrative short films** (screenplay, characters, shot-to-shot continuity, original score) run on the `cinematic` pipeline with the **Film Studio** overlay: read `skills/meta/film-studio.md` before the first stage. It adds the film bible (`01_CONCEPT` … `11_QC_REPORT`), `production_log.md`, and `scripts/film_studio.py` (init / log / qc / export).
+
 ## Mandatory Preflight
 
 Do this before any creative work. **Use `provider_menu_summary()` first — it's the human-ready rollup.** The raw `support_envelope()` dump is a firehose (megabytes of JSON on a well-configured machine); pasting it into chat will bury the user.

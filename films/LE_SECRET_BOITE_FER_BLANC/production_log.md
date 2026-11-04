@@ -51,3 +51,4 @@
 | 2026-11-04 | tool | YAS_04 zoom ×2 n°1 terminé (task 397e826a…, image_id 1567632894589927424, 0,401 crédit) → Magnific 1lVNK9Nr4r, 3zFd6BBREY, WDxvnQrcXe, ovyKXgE829 |
 | 2026-11-04 | qc | Zoom 1 : visage identique au MASTER sur les 4 ; cadre jusqu'aux hanches (2e zoom nécessaire) ; v1 bord noir à gauche ; coutures brun-rouge discrètes aux épaules sur les 4 ; v4 recommandée (la plus propre, fenêtre motivant la lumière) |
 | 2026-11-04 | decision | Réalisateur : coutures brun-rouge aux épaules CONSERVÉES → ajoutées au costume et au descripteur canonique de Yassine |
+| 2026-11-04 | decision | Réalisateur : VALIDER zoom1 v4 → upscale U4 (task 93b8f2b3-857a-4f13-93ff-737ab0ad9880) puis 2e zoom ×2 |

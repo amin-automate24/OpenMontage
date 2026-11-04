@@ -124,3 +124,6 @@
 | 2026-11-04 | qc | PRP_01 : aucun texte sur les 4 ✅. v1 motif floral lisible, trace de doigt dans la poussière, rai de lumière → recommandée ; v2 trop profonde (proportions) ; v3 très usée, bonnes proportions → alternative ; v4 motif presque effacé |
 | 2026-11-04 | decision | Réalisateur : VALIDER PRP_01 v1 → upscale U1 (task 78f9c3a8-0a41-460a-809e-eb3cf7f2abd5), seed 3943399178 |
 | 2026-11-04 | file | PRP_01 U1 terminé (0,12 crédit, 1232×928) → Magnific MBgFtiCDCm = PRP_01_MASTER. Proposition PRP_02 (retouche par zone couvercle + contenu) rédigée |
+| 2026-11-04 | decision | Réalisateur : VALIDER PRP_02 |
+| 2026-11-04 | op | Masque PRP_02 : le rectangle donnait des répétitions longues (2 recopies fausses, NON envoyées, détectées par comparaison automatique). Masque final en trapèze couvrant couvercle + espace au-dessus (1324 caractères), recopié ligne par ligne et vérifié IDENTIQUE avant envoi |
+| 2026-11-04 | tool | PRP_02 Vary Region sur PRP_01_MASTER (image_id 1567652509986586624), task 65312644-0934-4e74-86fd-dad630b66cc5 |

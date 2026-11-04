@@ -30,7 +30,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | GPA_01 | Grand-père âgé — portrait de face (référence principale) | ✅ validé (vieillissement en 2 temps) | → Magnific N2EeRSy6D9 | ✅ **VALIDÉ** |
 | ENV_01… | Grenier, maison, Fès, désert, foule | à rédiger | — | — |
 | PRP_01 | Boîte en fer blanc fermée | ✅ validé | v1 upscalée → Magnific MBgFtiCDCm | ✅ **VALIDÉ** |
-| PRP_02 | Boîte ouverte avec les 3 objets | rédigé (retouche par zone sur PRP_01) | — | **en attente de validation** |
+| PRP_02 | Boîte ouverte avec les 3 objets | ✅ validé (retouche par zone sur PRP_01) | génération en cours | — |
 | PRP_03–06 | Drapeau, Coran, sable, chapelet | planifiés | — | — |
 
 ## Séquences

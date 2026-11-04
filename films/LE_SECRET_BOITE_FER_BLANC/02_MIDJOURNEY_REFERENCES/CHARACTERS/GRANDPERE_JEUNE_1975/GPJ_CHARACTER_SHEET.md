@@ -25,12 +25,12 @@ Le grand-père apparaît en S4 et S5, au cœur de la vision. Il est jeune, souri
 | Costume S4 et S5 (1975) | Djellaba de coton crème à fines rayures brunes, capuche baissée. Dessous, chemise blanche à col ouvert. Chèche de coton blanc cassé autour du cou, qu'il peut porter sur la tête au soleil |
 | Accessoires | Selon le scénario, il tient le drapeau ; le Coran de poche est dans sa poche de poitrine. Aucun objet moderne |
 
-## Lien avec Yassine 💡
-Je propose un **léger air de famille** (même forme d'yeux en amande, même couleur sombre), sans copier ses traits. *À valider.*
+## Lien avec Yassine ✅ (validé le 2026-11-04)
+**Léger air de famille** : mêmes yeux en amande brun foncé aux longs cils, mêmes sourcils épais, sans copier ses traits. L'air de famille passe **par le texte uniquement**. Le portrait de Yassine n'est pas utilisé comme image de référence, car il risquerait de rajeunir le visage.
 
 ## Descripteur canonique (anglais)
 ```
-a 22-year-old Moroccan man from Fez in 1975, lean build, long face with high cheekbones and a defined jaw, warm olive-brown sun-tanned skin, deep-set dark almond-shaped eyes, thick straight dark eyebrows, slightly aquiline nose, a small mole under his left eye, thick slightly wavy black hair short on the sides and fuller on top in a 1970s cut, a thin black mustache, warm open smile with crinkles at the corners of his eyes
+a 22-year-old Moroccan man from Fez in 1975, lean build, long face with high cheekbones and a defined jaw, warm olive-brown sun-tanned skin, deep-set dark-brown almond-shaped eyes with long lashes, thick straight dark eyebrows, slightly aquiline nose, a small mole under his left eye, thick slightly wavy black hair short on the sides and fuller on top in a 1970s cut, a thin black mustache, warm open smile with crinkles at the corners of his eyes, a subtle family resemblance to his grandson in the eyes and thick dark eyebrows
 ```
 
 ## Plan des références à produire
@@ -53,7 +53,7 @@ a 22-year-old Moroccan man from Fez in 1975, lean build, long face with high che
 ## PROMPT MIDJOURNEY GPJ_01 : portrait de face (référence principale)
 
 ```
-Photorealistic cinematic character reference portrait of a 22-year-old Moroccan man from Fez in 1975, lean build, long face with high cheekbones and a defined jaw, warm olive-brown sun-tanned skin, deep-set dark almond-shaped eyes, thick straight dark eyebrows, slightly aquiline nose, a small mole under his left eye, thick slightly wavy black hair short on the sides and fuller on top in a 1970s cut, a thin black mustache, wearing a cream cotton djellaba with thin brown stripes over an open-collar white shirt, hood down. Front view, head and shoulders, centered, looking straight into the lens, calm confident expression with a faint warm smile. Soft warm window light from the left, plain warm-grey studio backdrop. 85mm lens, f/4, natural skin texture, fine 35mm film grain, subtle 1970s film color --ar 3:4 --style raw --s 50 --no beard, glasses, jewelry, hat, modern clothing, text, watermark, cartoon, illustration, plastic skin, light outline, halo
+Photorealistic cinematic character reference portrait of a 22-year-old Moroccan man from Fez in 1975, lean build, long face with high cheekbones and a defined jaw, warm olive-brown sun-tanned skin, deep-set dark-brown almond-shaped eyes with long lashes, thick straight dark eyebrows, slightly aquiline nose, a small mole under his left eye, thick slightly wavy black hair short on the sides and fuller on top in a 1970s cut, a thin black mustache, wearing a cream cotton djellaba with thin brown stripes over an open-collar white shirt, hood down. Front view, head and shoulders, centered, looking straight into the lens, calm confident expression with a faint warm smile. Soft warm window light from the left, plain warm-grey studio backdrop. 85mm lens, f/4, natural skin texture, fine 35mm film grain, subtle 1970s film color --ar 3:4 --style raw --s 50 --no beard, glasses, jewelry, hat, modern clothing, text, watermark, cartoon, illustration, plastic skin, light outline, halo
 ```
 
 | Paramètre | Valeur | Raison |

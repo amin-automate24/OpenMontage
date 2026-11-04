@@ -84,3 +84,4 @@
 | 2026-11-04 | decision | Réalisateur : VALIDE YAS_06a v1 (émerveillement discret), clôture de YAS_06, passage au grand-père jeune |
 | 2026-11-04 | file | YAS_06a U1 (0,12 crédit) → Magnific rgMiYa4xtc. Références de Yassine TERMINÉES |
 | 2026-11-04 | op | Fiche du grand-père jeune et prompt GPJ_01 rédigés (moustache et air de famille à valider) — aucune génération |
+| 2026-11-04 | decision | Réalisateur : air de famille OUI (yeux en amande brun foncé à longs cils, sourcils épais, par le texte uniquement). Moustache : en attente |

@@ -76,3 +76,5 @@
 | 2026-11-04 | decision | Réalisateur : YAS_02 gardée telle quelle (liseré non corrigé, usage identité uniquement) |
 | 2026-11-04 | decision | Réalisateur : VALIDER YAS_05 v2 |
 | 2026-11-04 | tool | YAS_06a terminé (task 7c396355…, image_id 1567638554706706432, 0,401 crédit) |
+| 2026-11-04 | file | YAS_06a → Magnific lJXAzGYgv9, yivTMeNPW9, WDxaCH8cXe, lJXAzMAgv9 |
+| 2026-11-04 | qc | YAS_06a (comparaison côte à côte avec le MASTER, même échelle) : émerveillement réussi sur les 4, MAIS dérive d'identité sur les 4 — yeux nettement agrandis et arrondis, cils plus épais, visage plus jeune ; taches de lumière dorée artificielles (surtout v2). Aucune recommandée. Cause : consigne « eyes wide open » + « golden light reflected » + masque englobant les yeux |

@@ -27,7 +27,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | GPJ_03 | Grand-père jeune — costume complet (assis) | élargissement depuis le MASTER | → Magnific u5AwD9qQLD | ✅ **VALIDÉ** (vue debout non obtenue) |
 | GPJ_04 | Grand-père jeune — sourire franc | retouche de la bouche | → Magnific dt7bWk8XSL | ✅ **VALIDÉ** |
 | — | **GRAND-PÈRE JEUNE : RÉFÉRENCES TERMINÉES** | | | ✅ |
-| GPA_01 | Grand-père âgé — portrait de face (référence principale) | ✅ validé | génération en cours | — |
+| GPA_01 | Grand-père âgé — portrait de face (référence principale) | ✅ validé (vieillissement en 2 temps) | → Magnific N2EeRSy6D9 | ✅ **VALIDÉ** |
 | ENV_01… | Grenier, maison, Fès, désert, foule | à rédiger | — | — |
 | PRP_01… | Boîte fermée et ouverte, drapeau, Coran, sable | à rédiger | — | — |
 

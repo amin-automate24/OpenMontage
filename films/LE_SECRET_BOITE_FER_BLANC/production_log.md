@@ -42,3 +42,4 @@
 | 2026-11-04 | tool | Réalisateur : VALIDER prompt YAS_03 → Midjourney V8.2 fast, task 14ad3568-6106-4783-890d-e8fea7f9e7ce |
 | 2026-11-04 | tool | YAS_03 v1 terminée (task 14ad3568…, 0,401 crédit, 174 s) → Magnific xSDiEKejfW, dt7qzeRXSL, O6hcx4Qynm, ksT9fgv16B |
 | 2026-11-04 | qc | YAS_03 v1 : profil non atteint (trois-quarts 20–30°) ; aucun liseré ; v1_1 = trois-quarts propre vers la droite (bonus) → REFAIRE recommandé |
+| 2026-11-04 | decision | Réalisateur : VALIDE point 1 → YAS_03 v1_1 conservée comme trois-quarts propre YAS_02b ; upscale U1 lancé (task 90882f88-2d85-480f-ab93-6d145109dee3), seed 2315460870. Profil : non relancé (en attente) |

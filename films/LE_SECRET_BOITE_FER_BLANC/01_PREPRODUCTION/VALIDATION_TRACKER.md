@@ -29,7 +29,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | — | **GRAND-PÈRE JEUNE : RÉFÉRENCES TERMINÉES** | | | ✅ |
 | GPA_01 | Grand-père âgé — portrait de face (référence principale) | ✅ validé (vieillissement en 2 temps) | → Magnific N2EeRSy6D9 | ✅ **VALIDÉ** |
 | ENV_01… | Grenier, maison, Fès, désert, foule | à rédiger | — | — |
-| PRP_01 | Boîte en fer blanc fermée | rédigé | — | **prompt en attente de validation** |
+| PRP_01 | Boîte en fer blanc fermée | ✅ validé | génération en cours | — |
 | PRP_02–06 | Boîte ouverte, drapeau, Coran, sable, chapelet | planifiés | — | — |
 
 ## Séquences

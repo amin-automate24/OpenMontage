@@ -46,3 +46,5 @@
 | 2026-11-04 | file | YAS_02b U1 terminé (0,12 crédit, 928×1232) → Magnific jUp3HnALD0 ; propre, sans liseré |
 | 2026-11-04 | decision | Réalisateur : PASSER LE PROFIL (YAS_03) |
 | 2026-11-04 | op | Prompt YAS_04 (vue en pied, MASTER seule, --iw 0.5, --ar 2:3) rédigé — en attente de validation |
+| 2026-11-04 | decision | Réalisateur : MODIFIER YAS_04 → « conserver le visage de référence » ; méthode A choisie (zoom out ×2 puis ×2 sur YAS_01_MASTER, visage non régénéré) |
+| 2026-11-04 | tool | Midjourney zoom_out_2x sur MASTER (image_id 1567617911202250752), task 397e826a-ac5b-40a6-a83f-17830b57db64 |

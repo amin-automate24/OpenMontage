@@ -21,7 +21,7 @@ Yassine est le regard du film : le spectateur découvre la boîte, la magie et 1
 | Bouche | Lèvres pleines ; sourire timide, souvent bouche fermée |
 | Cheveux | Noirs, courts, légèrement ondulés, une mèche rebelle sur le front |
 | **Signe distinctif** | **Petite cicatrice claire sur le côté droit du front, au-dessus du sourcil droit** (ancre de continuité — alignée sur YAS_01 v1_1, validé le 2026-11-04) |
-| Costume (verrouillé pour tout le film) | Pull ras du cou en coton bleu marine avec un fin liseré crème au col, pantalon en toile beige, baskets blanches usées |
+| Costume (verrouillé pour tout le film) | Pull ras du cou en coton bleu marine avec un fin liseré crème au col **et de fines coutures brun-rouge aux épaules** (ajouté le 2026-11-04, validé par le réalisateur), pantalon en toile beige, baskets blanches usées |
 | Accessoire | Aucun (le sable, plus tard, deviendra « son » objet) |
 
 ## Jeu et comportement
@@ -38,7 +38,7 @@ Yassine est le regard du film : le spectateur découvre la boîte, la magie et 1
 
 ## Descripteur canonique (anglais, copié tel quel dans chaque prompt)
 ```
-Yassine, an 8-year-old Moroccan boy from Fez, slim build, oval face with soft round cheeks, warm light olive-brown skin, large dark-brown almond-shaped eyes with long lashes, thick dark slightly arched eyebrows, small straight nose, short slightly wavy black hair with one loose curl on his forehead, a small pale scar on the right side of his forehead above his right eyebrow, wearing a navy-blue cotton crewneck sweater with a thin cream trim at the collar
+Yassine, an 8-year-old Moroccan boy from Fez, slim build, oval face with soft round cheeks, warm light olive-brown skin, large dark-brown almond-shaped eyes with long lashes, thick dark slightly arched eyebrows, small straight nose, short slightly wavy black hair with one loose curl on his forehead, a small pale scar on the right side of his forehead above his right eyebrow, wearing a navy-blue cotton crewneck sweater with a thin cream trim at the collar and thin rust-red seam stitching on the shoulders
 ```
 
 ## Plan des références à produire

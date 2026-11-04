@@ -88,3 +88,4 @@
 | 2026-11-04 | tool | Réalisateur : moustache OUI + VALIDER GPJ_01 → Midjourney V8.2 fast, task d3781bb8-694b-4a10-9d0b-2afa06bdd0e1 |
 | 2026-11-04 | tool | GPJ_01 terminé (task d3781bb8…, image_id 1567641762636234752, 0,401 crédit) → Magnific 0eLCLyHTfW, UP8n8H2wny, vQisiDqa47, lJXAX5Dgv9 |
 | 2026-11-04 | qc | GPJ_01 : v1 sourire le plus chaleureux mais ~27 ans ; v2 âge juste (~22), grain de beauté sous l'œil gauche, cheveux années 70 → recommandée ; v3 grain de beauté du mauvais côté ; v4 paraît ~30 ans, fermé. Air de famille avec Yassine : modéré sur les 4 (sourcils épais oui, yeux plus petits) |
+| 2026-11-04 | decision | Réalisateur : VALIDER GPJ_01 v2 → upscale U2 (task da3a9e54-c753-4529-bf6e-4e61d16a8e6d), seed 3106447964 |

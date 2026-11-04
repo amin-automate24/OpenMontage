@@ -1,6 +1,6 @@
 # Fiche personnage : LE GRAND-PÈRE JEUNE (1975)
 
-> Statut : **PROPOSITION, en attente de validation.**
+> Statut : **VALIDÉE** (2026-11-04) — moustache fine noire ✅, air de famille ✅. Prompt GPJ_01 validé et lancé.
 > Personnage fictif. Il n'est inspiré d'aucune personne réelle.
 
 ## Rôle dans le film
@@ -20,7 +20,7 @@ Le grand-père apparaît en S4 et S5, au cœur de la vision. Il est jeune, souri
 | Nez | Légèrement aquilin |
 | **Signe distinctif** | **Petit grain de beauté sous l'œil gauche** (le même sur la version âgée) |
 | Cheveux | Noirs, épais, légèrement ondulés, coupés court sur les côtés, un peu plus longs dessus (coupe des années 70) |
-| Pilosité 💡 | **Fine moustache noire**, typique de l'époque. Sur la version âgée, elle deviendra une moustache blanche. *À valider : avec ou sans moustache.* |
+| Pilosité 💡 | **Fine moustache noire**, typique de l'époque. Sur la version âgée, elle deviendra une moustache blanche. ✅ validée par le réalisateur. |
 | Sourire | Franc, chaleureux, plis au coin des yeux |
 | Costume S4 et S5 (1975) | Djellaba de coton crème à fines rayures brunes, capuche baissée. Dessous, chemise blanche à col ouvert. Chèche de coton blanc cassé autour du cou, qu'il peut porter sur la tête au soleil |
 | Accessoires | Selon le scénario, il tient le drapeau ; le Coran de poche est dans sa poche de poitrine. Aucun objet moderne |

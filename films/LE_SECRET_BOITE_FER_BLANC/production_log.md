@@ -85,3 +85,4 @@
 | 2026-11-04 | file | YAS_06a U1 (0,12 crédit) → Magnific rgMiYa4xtc. Références de Yassine TERMINÉES |
 | 2026-11-04 | op | Fiche du grand-père jeune et prompt GPJ_01 rédigés (moustache et air de famille à valider) — aucune génération |
 | 2026-11-04 | decision | Réalisateur : air de famille OUI (yeux en amande brun foncé à longs cils, sourcils épais, par le texte uniquement). Moustache : en attente |
+| 2026-11-04 | tool | Réalisateur : moustache OUI + VALIDER GPJ_01 → Midjourney V8.2 fast, task d3781bb8-694b-4a10-9d0b-2afa06bdd0e1 |

@@ -94,3 +94,5 @@
 | 2026-11-04 | tool | GPJ_03 zoom ×2 n°1 terminé (task 0ce7a756…, image_id 1567643129597657088, 0,401 crédit) → Magnific p8UHPobehw, LweZI7jswO, xSD3oOxjfW, iGQdKVm3uK |
 | 2026-11-04 | qc | GPJ zoom 1 : visage identique sur les 4 ; djellaba à capuche avec couture centrale brodée, rayures cohérentes ; cadre jusqu'à la taille (2e élargissement nécessaire) ; v1 la plus propre (fond net, rayures régulières) → recommandée |
 | 2026-11-04 | decision | Réalisateur : VALIDE GPJ zoom1 v1 + suite (upscale → zoom ×2 → pan down/correction si besoin). Upscale U1 : task 77b461e6-5437-4147-81ef-f9bb225fb19d |
+| 2026-11-04 | tool | GPJ upscale U1 terminé (0,12 crédit, image_id 1567643892231176192) |
+| 2026-11-04 | tool | GPJ 2e zoom ×2 lancé (task eaf9e449-2092-4b00-975a-b484a2d1b06e) |

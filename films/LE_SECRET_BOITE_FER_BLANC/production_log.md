@@ -31,3 +31,4 @@
 | 2026-11-04 | decision | Réalisateur : OUI, retouche du liseré YAS_02 (Magnific images_retouch, 10 crédits) |
 | 2026-11-04 | file | Masque du liseré créé (928×1232, oreille → cou, cils et col du pull exclus) : 10_VISUAL_EFFECTS/MASKS/YAS_02_halo_mask.png (non versionné) |
 | 2026-11-04 | error | Envoi du masque vers Magnific impossible : ak-data.magnific.com refusé par la politique réseau du conteneur. Aucune retouche lancée, aucun crédit dépensé |
+| 2026-11-04 | tool | Réalisateur : option A → Midjourney Vary Region sur YAS_02 upscalée (image_id 1567623027032588288) avec le masque du liseré, task e213e596-e451-4272-b97d-77554425abae |

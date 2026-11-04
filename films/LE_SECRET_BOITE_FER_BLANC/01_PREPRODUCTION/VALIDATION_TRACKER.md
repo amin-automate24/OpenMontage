@@ -21,8 +21,9 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | YAS_03 | Yassine — profil | v1 non conforme | — | ⏭️ **PASSÉ** (décision du réalisateur) |
 | YAS_04 | Yassine — vue en pied (costume complet) | méthode A (zoom depuis MASTER) | → Magnific ksTNOsY16B | ✅ **VALIDÉ** |
 | YAS_05 | Yassine — planche multi-angle | assemblée (sans génération) | YAS_05_TURNAROUND_SHEET.jpg (v2) | ✅ **VALIDÉ** |
-| YAS_06 | Yassine — 5 expressions (Vary Region sur MASTER) | proposé | — | **en attente de validation** (test : émerveillement) |
-| GPJ_01… | Grand-père jeune 1975 | à rédiger | — | — |
+| YAS_06 | Yassine — expressions | émerveillement discret seulement | Magnific rgMiYa4xtc | ✅ **VALIDÉ ET CLÔTURÉ** (expressions confiées aux modèles vidéo) |
+| — | **YASSINE : RÉFÉRENCES TERMINÉES** | | | ✅ |
+| GPJ_01 | Grand-père jeune 1975 — portrait de face (référence principale) | rédigé | — | **fiche et prompt en attente de validation** |
 | GPA_01… | Grand-père âgé | à rédiger | — | — |
 | ENV_01… | Grenier, maison, Fès, désert, foule | à rédiger | — | — |
 | PRP_01… | Boîte fermée et ouverte, drapeau, Coran, sable | à rédiger | — | — |

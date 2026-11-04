@@ -81,3 +81,6 @@
 | 2026-11-04 | tool | Réalisateur : VALIDE nouvel essai YAS_06a v2 → Vary Region sur MASTER, masque 2 zones sourcils + bouche (yeux exclus, 420 caractères), sans reflet de lumière, task 06b0b6f6-a48e-4d0b-8fdc-daa840cc266e |
 | 2026-11-04 | tool | YAS_06a v2 terminé (task 06b0b6f6…, image_id 1567639699818807296, 0,401 crédit) → Magnific TdsE5OGVNR, N2EpIxh6D9, WDxaHN1cXe, gOBGTKiSXO |
 | 2026-11-04 | qc | YAS_06a v2 (côte à côte, même échelle) : identité PRÉSERVÉE sur les 4 (yeux, nez intacts) ; MAIS expression très discrète — lèvres entrouvertes, sourcils à peine levés ; v1 la plus expressive. Limite : sans les yeux, l'émerveillement reste faible |
+| 2026-11-04 | decision | Réalisateur : VALIDE YAS_06a v1 (émerveillement discret), clôture de YAS_06, passage au grand-père jeune |
+| 2026-11-04 | file | YAS_06a U1 (0,12 crédit) → Magnific rgMiYa4xtc. Références de Yassine TERMINÉES |
+| 2026-11-04 | op | Fiche du grand-père jeune et prompt GPJ_01 rédigés (moustache et air de famille à valider) — aucune génération |

@@ -111,3 +111,18 @@ https://storage.fonedis.cc/e231b365-5d34-4682-b641-16b4e27157e3/0_0.png Photorea
 **Limite assumée :** contrairement à YAS_04, le visage est ici redessiné, donc une légère dérive d'identité est possible. Elle sera contrôlée face au MASTER à chaque fois.
 **Déroulé :** 1 expression test (YAS_06a, émerveillement, l'émotion centrale du film) → validation → les 4 autres.
 **Coût :** upscale du MASTER déjà fait ; environ 0,4 crédit par expression, soit environ 2 crédits Midjourney pour les 5.
+
+| **YAS_06a_WONDER_SUBTLE** | ✅ VALIDÉ (2026-11-04) — repère d'expression (émerveillement discret) | Vary Region sourcils + bouche sur MASTER (task `06b0b6f6…`) v1 → U1 (task `5872aa37-f83d-44cf-a0ce-4ea2b03bca8f`), image_id `1567640352737722368` | — | Magnific `rgMiYa4xtc` (928×1232) | Yeux et nez identiques au MASTER |
+
+### YAS_06 — CLÔTURÉ (décision du réalisateur, 2026-11-04)
+Les autres expressions ne sont pas produites : la méthode qui préserve l'identité limite trop l'émotion. Les expressions seront jouées par les modèles vidéo, guidés par le texte du prompt et les références de visage.
+
+## BILAN YASSINE — références à utiliser
+| Usage | Référence |
+|---|---|
+| Visage (référence principale, référence personnage Kling n°1) | YAS_01_MASTER |
+| Trois-quarts (identité uniquement) | YAS_02 |
+| Costume complet et silhouette | YAS_04_FULLBODY |
+| Planche de continuité (humain) | YAS_05_TURNAROUND_SHEET v2 |
+| Repère d'expression | YAS_06a_WONDER_SUBTLE |
+| ❌ Ne pas utiliser | YAS_02b (retirée) |

@@ -14,3 +14,6 @@
 | 2026-11-04 | qc | YAS_01 v1 : v1_3 recommandée (seule avec cicatrice au bon endroit) — voir YAS_01_QC.md |
 | 2026-11-04 | decision | Réalisateur : VALIDER YAS_01 v1_1 comme référence maîtresse |
 | 2026-11-04 | tool | Midjourney upscale U1 (task 8f9c5094…) ; seed de la grille 4033502968 |
+| 2026-11-04 | decision | Réalisateur : OUI, fiche Yassine alignée sur YAS_01 v1_1 (cicatrice sur le côté droit du front) |
+| 2026-11-04 | tool | Upscale U1 terminé (0,12 crédit, 928×1232) → importé dans Magnific `lJXZ1eLgv9` = YAS_01_MASTER |
+| 2026-11-04 | todo | Prompt YAS_02 (trois-quarts, image prompt + --iw 1.5) en attente de validation |

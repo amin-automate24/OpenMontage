@@ -14,8 +14,10 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 ## Références Midjourney
 | ID | Asset | Prompt | Image | Statut |
 |---|---|---|---|---|
-| YAS_01 | Yassine — portrait de face (maîtresse) | ✅ validé | grille v1 générée | **choix de l'image en attente** (recommandé : v1_3) |
-| YAS_02–06 | Yassine — 3/4, profil, pied, turnaround, expressions | à rédiger | — | — |
+| YAS_01 | Yassine — portrait de face (maîtresse) | ✅ validé | v1_1 upscalée → YAS_01_MASTER (Magnific lJXZ1eLgv9) | ✅ **VALIDÉ** |
+| — | Fiche Yassine alignée sur v1_1 (cicatrice côté droit) | — | — | ✅ VALIDÉ |
+| YAS_02 | Yassine — trois-quarts | rédigé | — | **prompt en attente de validation** |
+| YAS_03–06 | Yassine — profil, pied, turnaround, expressions | à rédiger | — | — |
 | GPJ_01… | Grand-père jeune 1975 | à rédiger | — | — |
 | GPA_01… | Grand-père âgé | à rédiger | — | — |
 | ENV_01… | Grenier, maison, Fès, désert, foule | à rédiger | — | — |

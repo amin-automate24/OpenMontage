@@ -54,3 +54,5 @@
 | 2026-11-04 | decision | Réalisateur : VALIDER zoom1 v4 → upscale U4 (task 93b8f2b3-857a-4f13-93ff-737ab0ad9880) puis 2e zoom ×2 |
 | 2026-11-04 | tool | Upscale U4 terminé (0,12 crédit, image_id 1567633727243157504) |
 | 2026-11-04 | tool | 2e zoom ×2 lancé (task cd0d8241-886d-4c05-8214-e735b599e5cb) |
+| 2026-11-04 | tool | 2e zoom ×2 terminé (task cd0d8241…, image_id 1567634133406973952, 0,401 crédit) → Magnific fHRgu2TCDY, p8UHXysehw, ksTNxBy16B, u5AwHDHQLD |
+| 2026-11-04 | qc | Zoom 2 : visage identique ✅ ; MAIS cadre arrêté aux genoux (pieds absents) ❌, pantalon marine au lieu de beige ❌, fine bordure blanche autour des 4 images ❌ ; v3 la plus propre |

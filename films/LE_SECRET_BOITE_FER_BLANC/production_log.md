@@ -17,3 +17,4 @@
 | 2026-11-04 | decision | Réalisateur : OUI, fiche Yassine alignée sur YAS_01 v1_1 (cicatrice sur le côté droit du front) |
 | 2026-11-04 | tool | Upscale U1 terminé (0,12 crédit, 928×1232) → importé dans Magnific `lJXZ1eLgv9` = YAS_01_MASTER |
 | 2026-11-04 | todo | Prompt YAS_02 (trois-quarts, image prompt + --iw 1.5) en attente de validation |
+| 2026-11-04 | tool | Réalisateur : VALIDER prompt YAS_02 → Midjourney V8.2 fast, task d1b43b57-4a7f-4e3f-9b6d-efa2f7c1ed3f |

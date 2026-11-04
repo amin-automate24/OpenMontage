@@ -57,3 +57,34 @@ https://storage.fonedis.cc/e231b365-5d34-4682-b641-16b4e27157e3/0_0.png https://
 | `--no ... light outline, halo, cutout edge` | — | Évite de reproduire le défaut de YAS_02 |
 | Version / mode | V8.2, fast | Identiques |
 | Coût estimé | environ 0,4 crédit Midjourney | — |
+
+### YAS_03 — Profil : PASSÉ (décision du réalisateur, 2026-11-04)
+La v1 n'a pas donné de profil (trois-quarts 20–30°). Pas de nouvel essai : les modèles vidéo s'appuieront sur MASTER, YAS_02 et YAS_02b.
+
+---
+
+## PROMPT YAS_04 — Vue en pied (en attente de validation)
+
+**Rôle :** verrouiller le **costume complet** (pull marine à liseré crème, pantalon de toile beige, baskets blanches usées), les proportions d'un enfant de 8 ans et la silhouette. Kling et Seedance en auront besoin pour tous les plans larges : escalier, grenier, marche dans la fresque.
+
+**Méthode :**
+- **Une seule référence (MASTER) avec `--iw 0.5`.** Leçon de YAS_02 et YAS_03 : une référence forte impose aussi le cadrage. Ici, elle tirerait l'image vers un portrait serré au lieu d'une vue en pied.
+- **Le cadrage en pied est décrit explicitement** (« de la tête aux pieds, chaussures visibles ») et le portrait serré est exclu dans `--no`.
+- **Même studio que le MASTER :** fond gris chaud, lumière de fenêtre venant de la gauche.
+- Le descripteur canonique reste inchangé, cicatrice comprise, pour la cohérence, même si elle sera minuscule à cette échelle.
+
+```
+https://storage.fonedis.cc/e231b365-5d34-4682-b641-16b4e27157e3/0_0.png Photorealistic cinematic full-body character reference of Yassine, an 8-year-old Moroccan boy from Fez, slim build, average height for his age, oval face with soft round cheeks, warm light olive-brown skin, large dark-brown almond-shaped eyes with long lashes, thick dark slightly arched eyebrows, small straight nose, short slightly wavy black hair with one loose curl on his forehead, a small pale scar on the right side of his forehead above his right eyebrow, wearing a navy-blue cotton crewneck sweater with a thin cream trim at the collar, beige cotton canvas trousers, worn white sneakers. Full body from head to toe, shoes fully visible with floor space below, standing naturally facing the camera, weight slightly on one leg, arms relaxed at his sides, calm curious expression. Soft warm window light from the left, plain warm-grey studio backdrop and floor, soft contact shadow. 50mm lens, f/5.6, natural skin and fabric texture, fine 35mm film grain, true-to-life color --ar 2:3 --style raw --s 50 --iw 0.5 --no close-up, portrait crop, cropped feet, cropped head, smile with teeth, makeup, jewelry, hat, text, watermark, cartoon, illustration, plastic skin, extra fingers, light outline, halo, cutout edge
+```
+
+| Paramètre | Valeur | Raison |
+|---|---|---|
+| Référence | MASTER seule, `--iw 0.5` | Identité sans imposer le cadrage du portrait |
+| `--ar 2:3` | vertical | Format naturel d'une silhouette debout |
+| 50 mm, f/5.6 | — | Peu de déformation, silhouette nette de la tête aux pieds |
+| `--no close-up, portrait crop, cropped feet...` | — | Force un cadrage complet |
+| Version / mode | V8.2, fast | Identiques |
+| Coût estimé | environ 0,4 crédit Midjourney | — |
+
+**Résultat attendu :** 4 vues en pied du même garçon, chaussures visibles, costume complet lisible, proportions crédibles pour un enfant de 8 ans.
+**Point de vigilance :** à `--iw 0.5`, la ressemblance du visage peut baisser. Elle sera vérifiée en priorité face au MASTER.

@@ -17,3 +17,9 @@
 
 Recommandation : **v1_3**, puis upscale (U3) et récupération du seed → référence maîtresse YAS_01.
 Statut : en attente de la décision du réalisateur.
+
+## Décision du réalisateur
+**VALIDER v1_1** (choix du réalisateur ; ma recommandation était v1_3).
+- Seed de la grille : `4033502968`
+- Upscale U1 lancé : task `8f9c5094-ed1f-4cc7-a044-63686c6f9acc`
+- Écarts entre v1_1 et la fiche, à arbitrer : cicatrice sur le côté droit du front (fiche : sourcil gauche) ; âge apparent un peu plus élevé ; lumière plus contrastée, avec un rideau en fond.

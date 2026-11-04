@@ -12,3 +12,5 @@
 | 2026-11-04 | error | Téléchargement local impossible : platform2.cdn.acedata.cloud et pikaso.cdnpk.net refusés par la politique réseau du conteneur |
 | 2026-11-04 | file | Contournement : 4 images importées dans Magnific (projet LE_SECRET_BOITE_FER_BLANC) via import d'URL côté serveur |
 | 2026-11-04 | qc | YAS_01 v1 : v1_3 recommandée (seule avec cicatrice au bon endroit) — voir YAS_01_QC.md |
+| 2026-11-04 | decision | Réalisateur : VALIDER YAS_01 v1_1 comme référence maîtresse |
+| 2026-11-04 | tool | Midjourney upscale U1 (task 8f9c5094…) ; seed de la grille 4033502968 |

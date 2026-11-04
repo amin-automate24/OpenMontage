@@ -90,3 +90,4 @@
 | 2026-11-04 | qc | GPJ_01 : v1 sourire le plus chaleureux mais ~27 ans ; v2 âge juste (~22), grain de beauté sous l'œil gauche, cheveux années 70 → recommandée ; v3 grain de beauté du mauvais côté ; v4 paraît ~30 ans, fermé. Air de famille avec Yassine : modéré sur les 4 (sourcils épais oui, yeux plus petits) |
 | 2026-11-04 | decision | Réalisateur : VALIDER GPJ_01 v2 → upscale U2 (task da3a9e54-c753-4529-bf6e-4e61d16a8e6d), seed 3106447964 |
 | 2026-11-04 | file | GPJ_01 U2 terminé (0,12 crédit, 928×1232) → Magnific xSD3eRCjfW = GPJ_01_MASTER |
+| 2026-11-04 | decision | Réalisateur : VALIDE méthode GPJ_03 (élargissement depuis GPJ_01_MASTER + correction rectangle si besoin ; chaussures : babouches ou sandales de cuir). Étape 1 zoom ×2 : task 0ce7a756-d9e1-4b94-ba96-39a7132ee3f5 |

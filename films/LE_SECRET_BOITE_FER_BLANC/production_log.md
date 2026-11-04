@@ -96,3 +96,5 @@
 | 2026-11-04 | decision | Réalisateur : VALIDE GPJ zoom1 v1 + suite (upscale → zoom ×2 → pan down/correction si besoin). Upscale U1 : task 77b461e6-5437-4147-81ef-f9bb225fb19d |
 | 2026-11-04 | tool | GPJ upscale U1 terminé (0,12 crédit, image_id 1567643892231176192) |
 | 2026-11-04 | tool | GPJ 2e zoom ×2 lancé (task eaf9e449-2092-4b00-975a-b484a2d1b06e) |
+| 2026-11-04 | tool | GPJ 2e zoom ×2 terminé (task eaf9e449…, image_id 1567644378502004736, 0,401 crédit) → Magnific If4rAG6tvE, LweZhfQswO, bxWPdtZ5Y2, xSD3tQXjfW |
+| 2026-11-04 | qc | GPJ zoom 2 : Midjourney a représenté le personnage ASSIS sur les 4 (v1 derrière un comptoir de zellige, v2 en tailleur sur un matelas, v3 en tailleur sur une banquette de zellige, v4 derrière une table). Visage identique, aucune bordure. Pas de vue debout en pied. v3 la plus réussie (djellaba entière, pose naturelle, décor marocain authentique) |

@@ -118,3 +118,4 @@
 | 2026-11-04 | qc | GPA_01 v2 (côte à côte avec le jeune) : vieillissement réussi (≈ 65–70 ans, cheveux gris-blanc, rides profondes). Grain de beauté : bon côté sur v1 et v3, mauvais côté sur v2, deux grains sur v4. v3 recommandée (âge le plus crédible, ossature et nez cohérents avec le jeune) |
 | 2026-11-04 | decision | Réalisateur : VALIDER GPA_01 v2 n°3 → upscale U3 (task 8f16711e-5160-436d-9b36-19c15d08a31e), seed 4047429917 |
 | 2026-11-04 | file | GPA_01 U3 terminé (0,12 crédit, 928×1232) → Magnific N2EeRSy6D9 = GPA_01_MASTER |
+| 2026-11-04 | decision | Réalisateur : passer aux OBJETS. Fiche des objets et prompt PRP_01 (boîte fermée) rédigés — aucune génération |

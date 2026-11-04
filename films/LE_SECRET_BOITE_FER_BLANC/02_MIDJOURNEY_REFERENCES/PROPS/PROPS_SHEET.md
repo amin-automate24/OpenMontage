@@ -1,0 +1,49 @@
+# Fiche des objets narratifs
+
+> Statut : **PROPOSITION, en attente de validation.** Les objets suivent la bible de production (section D).
+
+## Ordre de production
+
+| ID | Objet | Rôle | Méthode |
+|---|---|---|---|
+| PRP_01 | **Boîte en fer blanc fermée** | Le seuil du film | Génération (référence principale de l'objet) |
+| PRP_02 | Boîte ouverte, avec les 3 objets | La révélation (S2) | Élargissement ou retouche à partir de PRP_01, pour garder exactement la même boîte |
+| PRP_03 | Drapeau marocain plié, décoloré | La nation | Génération |
+| PRP_04 | Coran de poche | La foi (traité avec respect) | Génération |
+| PRP_05 | Sable doré (dans un petit tissu noué) | Le déclencheur magique | Génération |
+| PRP_06 | Chapelet en bois du grand-père | S1 | Génération |
+
+**Principe de cohérence :**
+- Tous les objets sont photographiés **dans la même lumière** : fenêtre chaude à gauche, fond sombre brun cèdre, l'univers du grenier.
+- Tous sont cadrés **à une échelle lisible**, avec la même optique macro.
+- La boîte ouverte (PRP_02) est **dérivée de la boîte fermée**. On ne régénère jamais une autre boîte.
+
+---
+
+## PRP_01 : boîte en fer blanc fermée
+
+**Description verrouillée (bible D) :**
+- boîte rectangulaire d'environ 25 × 18 × 8 cm, couvercle à charnière ;
+- fer blanc lithographié délavé : motif floral ancien vert et bordeaux, **sans aucune marque ni texte lisible** ;
+- rouille aux angles et le long des arêtes, rayures, petites bosses ;
+- une fine couche de poussière sur le couvercle, avec des traces de doigts discrètes (signe qu'on l'a déjà ouverte, il y a longtemps).
+
+**Descripteur canonique (anglais) :**
+```
+an old rectangular tin box about 25 by 18 by 8 centimeters with a hinged lid, faded lithographed tinplate with a vintage floral pattern in muted green and burgundy, no brand and no readable text, rust spots on the corners and along the edges, small dents and fine scratches, a thin layer of dust on the lid
+```
+
+**Prompt Midjourney :**
+```
+Photorealistic cinematic prop reference photograph of an old rectangular tin box about 25 by 18 by 8 centimeters with a hinged lid, closed, faded lithographed tinplate with a vintage floral pattern in muted green and burgundy, no brand and no readable text, rust spots on the corners and along the edges, small dents and fine scratches, a thin layer of dust on the lid with faint old fingerprints. Three-quarter top view, the box resting on an old cedar wood plank, centered, the whole box in frame. Soft warm window light from the left with gentle dust particles in the beam, dark warm brown background falling into shadow. 100mm macro lens, f/5.6, rich metal and dust texture, fine 35mm film grain, true-to-life color --ar 4:3 --style raw --s 50 --no text, letters, logo, brand, label, writing, numbers, watermark, cartoon, illustration, plastic, new shiny metal
+```
+
+| Paramètre | Valeur | Raison |
+|---|---|---|
+| `--ar 4:3` | — | Format naturel d'un objet rectangulaire vu de trois-quarts |
+| Planche de cèdre | — | Ancre l'objet dans l'univers du grenier sans créer de décor complet |
+| `--no text, letters, logo…` | — | Les boîtes anciennes portent souvent des inscriptions, que Midjourney invente et déforme |
+| Version / mode | V8.2, fast | Comme pour les personnages |
+| Coût estimé | environ 0,4 crédit Midjourney | — |
+
+**Résultat attendu :** 4 boîtes anciennes crédibles, motif floral vert et bordeaux délavé, rouille aux angles, poussière visible dans un rai de lumière, sans aucun texte.

@@ -120,3 +120,5 @@
 | 2026-11-04 | file | GPA_01 U3 terminé (0,12 crédit, 928×1232) → Magnific N2EeRSy6D9 = GPA_01_MASTER |
 | 2026-11-04 | decision | Réalisateur : passer aux OBJETS. Fiche des objets et prompt PRP_01 (boîte fermée) rédigés — aucune génération |
 | 2026-11-04 | tool | Réalisateur : VALIDER PRP_01 → Midjourney V8.2 fast, task 8ab3756e-2229-471b-8cd7-c97f650cb7fb |
+| 2026-11-04 | tool | PRP_01 terminé (task 8ab3756e…, image_id 1567651967856017408, 0,401 crédit) → Magnific Eb2wkLjuuO, N2EezMD6D9, gOBz4zASXO, Eb2wkJ7uuO |
+| 2026-11-04 | qc | PRP_01 : aucun texte sur les 4 ✅. v1 motif floral lisible, trace de doigt dans la poussière, rai de lumière → recommandée ; v2 trop profonde (proportions) ; v3 très usée, bonnes proportions → alternative ; v4 motif presque effacé |

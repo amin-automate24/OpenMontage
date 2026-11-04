@@ -112,3 +112,5 @@
 | 2026-11-04 | tool | GPA_01 terminé (task 1927c4fa…, image_id 1567648742687899648) → Magnific Eb2UvdfuuO, BhOKp0aoQR, aF3ltoofSh, gOBGjjOSXO |
 | 2026-11-04 | qc | GPA_01 : vieillissement INSUFFISANT sur les 4 (paraissent 45–55 ans, cheveux encore foncés ; moustache blanche OK, djellaba brun grisé OK). Grain de beauté au bon endroit uniquement sur v3. Ressemblance avec le jeune : correcte. Cause : --iw 1.5 recopie trop la jeunesse. Aucune validable comme 73 ans |
 | 2026-11-04 | decision | Réalisateur : VALIDE le plan de vieillissement en deux temps (U3 de GPA_01 comme étape ~50 ans, puis génération --iw 1.0 + signes d'âge renforcés). Étape 1 : task 776eb6c1-bf92-4bd9-b500-aeca4ebedc47 |
+| 2026-11-04 | tool | Étape 1 : GPA_01 U3 terminé (0,12 crédit, image_id 1567649191411318784) = étape intermédiaire ~50 ans |
+| 2026-11-04 | tool | Étape 2 : GPA_01 v2 lancé — image de référence étape intermédiaire --iw 1.0, signes d'âge renforcés, --no dark hair / middle-aged face ; task fb8dd1cd-8c6d-43fe-8d21-42118ab5a02f |

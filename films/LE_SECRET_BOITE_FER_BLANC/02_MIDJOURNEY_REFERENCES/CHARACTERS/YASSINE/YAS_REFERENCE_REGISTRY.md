@@ -6,6 +6,8 @@
 
 | **YAS_02_3Q** | ✅ VALIDÉ (2026-11-04) — **usage : référence d'identité uniquement (Kling character reference), jamais image de départ** | grille v2 task `e0c927b7-1c59-4a5c-b9e3-d602a8b642b1` → U3 task `e3ac31cb-a67b-4012-87d0-e0403fc167ec`, image_id `1567623027032588288`, V8.2 | 572238788 | Magnific `rgM6NLZxtc` · URL source `https://platform2.cdn.acedata.cloud/midjourney/e3ac31cb-a67b-4012-87d0-e0403fc167ec.png` (928×1232) · aperçu `YAS_02_UPSCALE_preview.jpg` | Vrai trois-quarts, regard vers la droite du cadre. Défaut : liseré clair autour de l'oreille, de la joue et de la mâchoire |
 
+| **YAS_02b_3Q_CLEAN** | ✅ VALIDÉ (2026-11-04) — **référence d'identité ET image de départ possible** | grille YAS_03 v1 task `14ad3568-6106-4783-890d-e8fea7f9e7ce` → U1 task `90882f88-2d85-480f-ab93-6d145109dee3`, image_id `1567631476046954496`, V8.2 | 2315460870 | Magnific `jUp3HnALD0` · URL source `https://platform2.cdn.acedata.cloud/midjourney/90882f88-2d85-480f-ab93-6d145109dee3.png` (928×1232) · aperçu `YAS_02b_3Q_CLEAN_preview.jpg` | Trois-quarts (~30°) vers la droite du cadre, regard à droite (axe de la bible), lumière venant de la droite, aucun liseré. Cicatrice non visible (côté opposé) |
+
 ---
 
 ## PROMPT YAS_02 — Portrait trois-quarts (en attente de validation)

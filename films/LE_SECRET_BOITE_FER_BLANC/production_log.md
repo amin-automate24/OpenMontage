@@ -7,3 +7,8 @@
 | 2026-11-04 | decision | Procédure Midjourney manuelle recommandée par défaut (connecteur non officiel probable) — en attente du réalisateur |
 | 2026-11-04 | op | Bible de production v0.1, fiche Yassine et prompt YAS_01 rédigés — aucune génération lancée |
 | 2026-11-04 | todo | Validation : bible, structure S1–S6, procédure Midjourney, budget Magnific, prompt YAS_01 |
+| 2026-11-04 | decision | Réalisateur : VALIDE bible, structure S1–S6, prompt YAS_01 ; choisit le connecteur Midjourney ; crédits Magnific achetés (20 000 constatés, plan Premium) |
+| 2026-11-04 | tool | Midjourney V8.2 fast — YAS_01 grille v1 (task 7fee43a2…, 0,401 crédit), terminé en 154 s |
+| 2026-11-04 | error | Téléchargement local impossible : platform2.cdn.acedata.cloud et pikaso.cdnpk.net refusés par la politique réseau du conteneur |
+| 2026-11-04 | file | Contournement : 4 images importées dans Magnific (projet LE_SECRET_BOITE_FER_BLANC) via import d'URL côté serveur |
+| 2026-11-04 | qc | YAS_01 v1 : v1_3 recommandée (seule avec cicatrice au bon endroit) — voir YAS_01_QC.md |

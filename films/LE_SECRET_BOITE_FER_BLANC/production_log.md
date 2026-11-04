@@ -32,3 +32,5 @@
 | 2026-11-04 | file | Masque du liseré créé (928×1232, oreille → cou, cils et col du pull exclus) : 10_VISUAL_EFFECTS/MASKS/YAS_02_halo_mask.png (non versionné) |
 | 2026-11-04 | error | Envoi du masque vers Magnific impossible : ak-data.magnific.com refusé par la politique réseau du conteneur. Aucune retouche lancée, aucun crédit dépensé |
 | 2026-11-04 | tool | Réalisateur : option A → Midjourney Vary Region sur YAS_02 upscalée (image_id 1567623027032588288) avec le masque du liseré, task e213e596-e451-4272-b97d-77554425abae |
+| 2026-11-04 | error | Vary Region Midjourney échoué (« The mask could not be read »), sans coût. Cause probable : masque recopié à la main en base64 (4 240 caractères), erreur de transcription très probable |
+| 2026-11-04 | decision | Pas de nouvel essai à l'aveugle (masque RVB : 6 628 caractères, même risque). Alternative évaluée : masque créé côté serveur par Magnific (images_segment 35 cr + images_retouch ~75 cr estimés) — en attente du réalisateur |

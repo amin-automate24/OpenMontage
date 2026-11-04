@@ -28,3 +28,6 @@
 | 2026-11-04 | decision | Réalisateur : VALIDER YAS_02 v2_3 (retouche du liseré : à confirmer) |
 | 2026-11-04 | tool | Midjourney upscale U3 (task e3ac31cb-a67b-4012-87d0-e0403fc167ec) ; seed de la grille v2 572238788 |
 | 2026-11-04 | file | YAS_02 U3 terminé (0,12 crédit, 928×1232) → Magnific rgM6NLZxtc ; liseré clair toujours présent après upscale |
+| 2026-11-04 | decision | Réalisateur : OUI, retouche du liseré YAS_02 (Magnific images_retouch, 10 crédits) |
+| 2026-11-04 | file | Masque du liseré créé (928×1232, oreille → cou, cils et col du pull exclus) : 10_VISUAL_EFFECTS/MASKS/YAS_02_halo_mask.png (non versionné) |
+| 2026-11-04 | error | Envoi du masque vers Magnific impossible : ak-data.magnific.com refusé par la politique réseau du conteneur. Aucune retouche lancée, aucun crédit dépensé |

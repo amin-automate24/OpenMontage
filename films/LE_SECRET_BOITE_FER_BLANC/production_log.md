@@ -64,3 +64,5 @@
 | 2026-11-04 | decision | Réalisateur : VALIDE retouche bas du corps sur pan v1 → upscale U1 (task 0929ead9-e396-4169-8775-da10509ac231) puis Vary Region rectangle |
 | 2026-11-04 | tool | Upscale U1 terminé (0,12 crédit, 784×1552, image_id 1567635839536594944) |
 | 2026-11-04 | tool | Vary Region, masque rectangle 1 bit (532 caractères, y ≥ 56,5 %) : masque ACCEPTÉ, task 26deff0f-c4ff-49c4-93c2-0b779b504d90 |
+| 2026-11-04 | tool | Vary Region terminé (task 26deff0f…, image_id 1567636350620925952, 0,401 crédit) → Magnific 8aP1F6qIrU, iGQd0kd3uK, O6h0AHwynm, If4rHYutvE |
+| 2026-11-04 | qc | Retouche bas du corps RÉUSSIE : bande blanche supprimée, pantalon beige, baskets blanches usées, raccord invisible, visage intact. Reste : fin cadre blanc extérieur (à rogner). v1 recommandée (baskets les plus nettement blanches, posture naturelle) |

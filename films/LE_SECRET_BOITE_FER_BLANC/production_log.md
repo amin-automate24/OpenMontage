@@ -57,3 +57,5 @@
 | 2026-11-04 | tool | 2e zoom ×2 terminé (task cd0d8241…, image_id 1567634133406973952, 0,401 crédit) → Magnific fHRgu2TCDY, p8UHXysehw, ksTNxBy16B, u5AwHDHQLD |
 | 2026-11-04 | qc | Zoom 2 : visage identique ✅ ; MAIS cadre arrêté aux genoux (pieds absents) ❌, pantalon marine au lieu de beige ❌, fine bordure blanche autour des 4 images ❌ ; v3 la plus propre |
 | 2026-11-04 | decision | Réalisateur : plan validé sur zoom2 v3 (upscale → pan down → retouche rectangle pantalon/chaussures). Étape 1 upscale U3 : task 192e1c17-f72e-4054-aa28-5012dc838e48 |
+| 2026-11-04 | tool | Étape 1 : upscale U3 terminé (0,12 crédit, image_id 1567634719598706688) |
+| 2026-11-04 | tool | Étape 2 : pan_down lancé (task d4ae321b-0ed5-4317-a233-da2f8a3feb8f) |

@@ -104,3 +104,6 @@
 | 2026-11-04 | tool | GPJ_04 sourire : Vary Region sur GPJ_01_MASTER (image_id 1567642357866692608), masque bouche + bas des joues (yeux et grain de beauté exclus, 392 caractères), task e6465426-b53a-4379-878e-c38e7ed9a09f |
 | 2026-11-04 | tool | GPJ_04 terminé (task e6465426…, image_id 1567646480364208128, 0,401 crédit) → Magnific N2EpgPM6D9, BhOKWXxoQR, XmJ5WoiBfo, TdsEZeAVNR |
 | 2026-11-04 | qc | GPJ_04 (côte à côte, même échelle) : sourire franc réussi sur les 4, identité préservée (yeux, nez, grain de beauté intacts). v2 recommandée (moustache la plus fidèle, sourire naturel) |
+| 2026-11-04 | decision | Réalisateur : VALIDER GPJ_04 v2 |
+| 2026-11-04 | file | GPJ_04 U2 terminé (0,12 crédit) → Magnific dt7bWk8XSL = GPJ_04_SMILE. Références du grand-père jeune TERMINÉES |
+| 2026-11-04 | op | Fiche du grand-père âgé, méthode de vieillissement (image de référence GPJ_01_MASTER, --iw 1.5) et prompt GPA_01 rédigés — aucune génération |

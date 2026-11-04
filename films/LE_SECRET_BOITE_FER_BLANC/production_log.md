@@ -116,3 +116,4 @@
 | 2026-11-04 | tool | Étape 2 : GPA_01 v2 lancé — image de référence étape intermédiaire --iw 1.0, signes d'âge renforcés, --no dark hair / middle-aged face ; task fb8dd1cd-8c6d-43fe-8d21-42118ab5a02f |
 | 2026-11-04 | tool | GPA_01 v2 terminé (task fb8dd1cd…, image_id 1567650023758364672, 0,401 crédit) → Magnific p8UqX5Cehw, 1lVijAZr4r, xSDRsYWjfW, P3aMNtR42C |
 | 2026-11-04 | qc | GPA_01 v2 (côte à côte avec le jeune) : vieillissement réussi (≈ 65–70 ans, cheveux gris-blanc, rides profondes). Grain de beauté : bon côté sur v1 et v3, mauvais côté sur v2, deux grains sur v4. v3 recommandée (âge le plus crédible, ossature et nez cohérents avec le jeune) |
+| 2026-11-04 | decision | Réalisateur : VALIDER GPA_01 v2 n°3 → upscale U3 (task 8f16711e-5160-436d-9b36-19c15d08a31e), seed 4047429917 |

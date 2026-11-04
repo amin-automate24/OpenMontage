@@ -37,3 +37,5 @@
 | 2026-11-04 | tool | Réalisateur : option D → Magnific images_segment (SAM 3.1), 35 crédits, masque yiv0FR8PW9 : liseré oreille → cou uniquement, conforme |
 | 2026-11-04 | tool | Magnific images_retouch (precise, replace) sur YAS_02 avec le masque SAM — 75 crédits — résultat MBguPm8DCm |
 | 2026-11-04 | qc | ÉCHEC : liseré inchangé (écart moyen 0,35/255 dans la zone, 0 ailleurs). Hypothèse : masque trop fin (1–3 px), le mode « précis » reconstruit le même bord. YAS_02_UPSCALE reste la référence. Crédits Magnific dépensés à ce jour : 110 |
+| 2026-11-04 | decision | Réalisateur : option C — YAS_02_3Q conservée telle quelle, usage limité à la référence d'identité (jamais image de départ) |
+| 2026-11-04 | op | Prompt YAS_03 (profil vers la droite, 2 références, --iw 1.0, anti-liseré) rédigé — en attente de validation |

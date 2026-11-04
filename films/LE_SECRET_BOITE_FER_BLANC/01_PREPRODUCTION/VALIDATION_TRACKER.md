@@ -16,7 +16,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 |---|---|---|---|---|
 | YAS_01 | Yassine — portrait de face (maîtresse) | ✅ validé | v1_1 upscalée → YAS_01_MASTER (Magnific lJXZ1eLgv9) | ✅ **VALIDÉ** |
 | — | Fiche Yassine alignée sur v1_1 (cicatrice côté droit) | — | — | ✅ VALIDÉ |
-| YAS_02 | Yassine — trois-quarts | rédigé | — | **prompt en attente de validation** |
+| YAS_02 | Yassine — trois-quarts | ✅ v2 validé | v2_3 upscalée → Magnific rgM6NLZxtc | ✅ **VALIDÉ** — retouche du liseré à décider |
 | YAS_03–06 | Yassine — profil, pied, turnaround, expressions | à rédiger | — | — |
 | GPJ_01… | Grand-père jeune 1975 | à rédiger | — | — |
 | GPA_01… | Grand-père âgé | à rédiger | — | — |

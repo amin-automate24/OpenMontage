@@ -4,6 +4,8 @@
 |---|---|---|---|---|---|
 | **YAS_01_MASTER** | ✅ VALIDÉ (2026-11-04) | grille task `7fee43a2-ca99-4786-a228-5c5cb18ec158` → U1 task `8f9c5094-ed1f-4cc7-a044-63686c6f9acc`, image_id `1567617911202250752`, V8.2 | 4033502968 | Magnific `lJXZ1eLgv9` · URL source `https://storage.fonedis.cc/e231b365-5d34-4682-b641-16b4e27157e3/0_0.png` (928×1232) · aperçu local `YAS_01_MASTER_preview.jpg` | Cicatrice : côté droit du front. Lumière fenêtre à gauche, fond sombre chaud |
 
+| **YAS_02_3Q** | ✅ VALIDÉ (2026-11-04) — retouche du liseré à décider | grille v2 task `e0c927b7-1c59-4a5c-b9e3-d602a8b642b1` → U3 task `e3ac31cb-a67b-4012-87d0-e0403fc167ec`, image_id `1567623027032588288`, V8.2 | 572238788 | Magnific `rgM6NLZxtc` · URL source `https://platform2.cdn.acedata.cloud/midjourney/e3ac31cb-a67b-4012-87d0-e0403fc167ec.png` (928×1232) · aperçu `YAS_02_UPSCALE_preview.jpg` | Vrai trois-quarts, regard vers la droite du cadre. Défaut : liseré clair autour de l'oreille, de la joue et de la mâchoire |
+
 ---
 
 ## PROMPT YAS_02 — Portrait trois-quarts (en attente de validation)

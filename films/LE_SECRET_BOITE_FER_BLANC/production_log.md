@@ -27,3 +27,4 @@
 | 2026-11-04 | qc | YAS_02 v2 : v2_3 recommandée (vrai trois-quarts, cicatrice bon côté, axe du regard conforme) ; défaut : liseré clair sur le contour |
 | 2026-11-04 | decision | Réalisateur : VALIDER YAS_02 v2_3 (retouche du liseré : à confirmer) |
 | 2026-11-04 | tool | Midjourney upscale U3 (task e3ac31cb-a67b-4012-87d0-e0403fc167ec) ; seed de la grille v2 572238788 |
+| 2026-11-04 | file | YAS_02 U3 terminé (0,12 crédit, 928×1232) → Magnific rgM6NLZxtc ; liseré clair toujours présent après upscale |

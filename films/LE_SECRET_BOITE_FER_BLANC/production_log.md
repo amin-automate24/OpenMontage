@@ -40,3 +40,5 @@
 | 2026-11-04 | decision | Réalisateur : option C — YAS_02_3Q conservée telle quelle, usage limité à la référence d'identité (jamais image de départ) |
 | 2026-11-04 | op | Prompt YAS_03 (profil vers la droite, 2 références, --iw 1.0, anti-liseré) rédigé — en attente de validation |
 | 2026-11-04 | tool | Réalisateur : VALIDER prompt YAS_03 → Midjourney V8.2 fast, task 14ad3568-6106-4783-890d-e8fea7f9e7ce |
+| 2026-11-04 | tool | YAS_03 v1 terminée (task 14ad3568…, 0,401 crédit, 174 s) → Magnific xSDiEKejfW, dt7qzeRXSL, O6hcx4Qynm, ksT9fgv16B |
+| 2026-11-04 | qc | YAS_03 v1 : profil non atteint (trois-quarts 20–30°) ; aucun liseré ; v1_1 = trois-quarts propre vers la droite (bonus) → REFAIRE recommandé |

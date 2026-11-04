@@ -48,3 +48,5 @@
 | 2026-11-04 | op | Prompt YAS_04 (vue en pied, MASTER seule, --iw 0.5, --ar 2:3) rédigé — en attente de validation |
 | 2026-11-04 | decision | Réalisateur : MODIFIER YAS_04 → « conserver le visage de référence » ; méthode A choisie (zoom out ×2 puis ×2 sur YAS_01_MASTER, visage non régénéré) |
 | 2026-11-04 | tool | Midjourney zoom_out_2x sur MASTER (image_id 1567617911202250752), task 397e826a-ac5b-40a6-a83f-17830b57db64 |
+| 2026-11-04 | tool | YAS_04 zoom ×2 n°1 terminé (task 397e826a…, image_id 1567632894589927424, 0,401 crédit) → Magnific 1lVNK9Nr4r, 3zFd6BBREY, WDxvnQrcXe, ovyKXgE829 |
+| 2026-11-04 | qc | Zoom 1 : visage identique au MASTER sur les 4 ; cadre jusqu'aux hanches (2e zoom nécessaire) ; v1 bord noir à gauche ; coutures brun-rouge discrètes aux épaules sur les 4 ; v4 recommandée (la plus propre, fenêtre motivant la lumière) |

@@ -99,3 +99,4 @@
 | 2026-11-04 | tool | GPJ 2e zoom ×2 terminé (task eaf9e449…, image_id 1567644378502004736, 0,401 crédit) → Magnific If4rAG6tvE, LweZhfQswO, bxWPdtZ5Y2, xSD3tQXjfW |
 | 2026-11-04 | qc | GPJ zoom 2 : Midjourney a représenté le personnage ASSIS sur les 4 (v1 derrière un comptoir de zellige, v2 en tailleur sur un matelas, v3 en tailleur sur une banquette de zellige, v4 derrière une table). Visage identique, aucune bordure. Pas de vue debout en pied. v3 la plus réussie (djellaba entière, pose naturelle, décor marocain authentique) |
 | 2026-11-04 | decision | Réalisateur : « 3 » → interprété comme garder la version 3 (assis, costume complet) ; pas de relance pour l'instant. Upscale U3 : task 52d3c6f5-051b-46c2-b7e8-3d8d51a5a451 |
+| 2026-11-04 | file | GPJ U3 terminé (0,12 crédit) → Magnific u5AwD9qQLD = GPJ_03_SEATED_FULL |

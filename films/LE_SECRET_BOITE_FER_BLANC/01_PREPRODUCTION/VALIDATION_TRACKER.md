@@ -24,6 +24,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | YAS_06 | Yassine — expressions | émerveillement discret seulement | Magnific rgMiYa4xtc | ✅ **VALIDÉ ET CLÔTURÉ** (expressions confiées aux modèles vidéo) |
 | — | **YASSINE : RÉFÉRENCES TERMINÉES** | | | ✅ |
 | GPJ_01 | Grand-père jeune 1975 — portrait de face (référence principale) | ✅ validé | v2 upscalée → Magnific xSD3eRCjfW | ✅ **VALIDÉ** |
+| GPJ_03 | Grand-père jeune — costume complet (assis) | élargissement depuis le MASTER | → Magnific u5AwD9qQLD | ✅ **VALIDÉ** (vue debout non obtenue) |
 | GPA_01… | Grand-père âgé | à rédiger | — | — |
 | ENV_01… | Grenier, maison, Fès, désert, foule | à rédiger | — | — |
 | PRP_01… | Boîte fermée et ouverte, drapeau, Coran, sable | à rédiger | — | — |

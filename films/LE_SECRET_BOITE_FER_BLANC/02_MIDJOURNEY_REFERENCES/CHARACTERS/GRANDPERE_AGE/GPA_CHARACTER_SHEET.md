@@ -21,10 +21,10 @@ Il apparaît en S1 (la maison) et en S6 (la transmission) : le gardien de la mé
 | Peau | Rides profondes au front et autour des yeux (pattes d'oie du sourire), sillons nasogéniens marqués, taches de vieillesse discrètes, peau hâlée |
 | Yeux | Paupières un peu tombantes, regard doux et vif |
 | Silhouette 💡 | Toujours mince, épaules légèrement voûtées |
-| Costume 💡 | Djellaba de laine **brun grisé** (tenue d'intérieur d'hiver, novembre à Fès), chemise blanche dessous, **petite calotte blanche (taqiya)** en option |
-| Accessoire 💡 | Chapelet (tasbih) en bois, en option, pour la scène S1 |
+| Costume ✅ | Djellaba de laine **brun grisé** (tenue d'intérieur d'hiver, novembre à Fès), chemise blanche dessous. **Pas de taqiya** (décision du réalisateur) |
+| Accessoire ✅ | **Chapelet (tasbih) en bois** : accessoire de la scène S1 (dans ses mains). Il n'apparaît pas dans le portrait de référence (tête et épaules, mains hors champ) ; il fera l'objet d'une référence d'objet dédiée |
 
-*Points 💡 à valider : costume, taqiya, chapelet.*
+*Choix du réalisateur (2026-11-04) : costume OK, sans taqiya, chapelet OUI.*
 
 ## Descripteur canonique (anglais)
 ```

@@ -90,3 +90,24 @@ https://storage.fonedis.cc/e231b365-5d34-4682-b641-16b4e27157e3/0_0.png Photorea
 
 **Résultat attendu :** 4 vues en pied du même garçon, chaussures visibles, costume complet lisible, proportions crédibles pour un enfant de 8 ans.
 **Point de vigilance :** à `--iw 0.5`, la ressemblance du visage peut baisser. Elle sera vérifiée en priorité face au MASTER.
+
+| **YAS_05_TURNAROUND_SHEET** | ✅ assemblée (2026-11-04), en attente de validation | Montage local, sans génération : YAS_04 (cadre blanc rogné) + MASTER + YAS_02b + YAS_02 | — | `YAS_05_TURNAROUND_SHEET.jpg` (2601×1060, assemblé à partir des aperçus 1024 px) — non versionné | Document de référence humain (bible, continuité). Pour Kling, les références restent passées séparément (jusqu'à 3 références personnage). L'envoi vers Magnific est impossible tant que ak-data.magnific.com est bloqué |
+
+---
+
+## PROPOSITION YAS_06 — Expressions (en attente de validation)
+
+**Rôle :** fixer les 5 émotions clés de Yassine dans le film, sur **son visage exact**.
+
+| ID | Expression | Séquence | Consigne (anglais) |
+|---|---|---|---|
+| YAS_06a | Émerveillement | S3–S4 (le sable, la fresque) | eyes wide open with wonder, lips slightly parted, eyebrows raised, soft golden light reflected in his eyes |
+| YAS_06b | Curiosité | S1–S2 (le grenier) | intrigued look, one eyebrow slightly raised, head subtly tilted, lips closed |
+| YAS_06c | Inquiétude légère | S3 (la transformation) | slightly worried, brows drawn together, lips pressed, eyes searching |
+| YAS_06d | Fierté | S4–S5 (le grand-père jeune) | proud gentle closed-mouth smile, chin slightly up, shining eyes |
+| YAS_06e | Émotion retenue | S6 (la transmission) | moved, glistening eyes holding back tears, trembling faint smile |
+
+**Méthode :** même technique qui a réussi pour YAS_04, à savoir une **retouche de zone (Vary Region) sur YAS_01_MASTER**. On garde intacts les cheveux, le pull, la lumière et le fond, et seule la zone des traits du visage (yeux, sourcils, bouche) est régénérée selon la consigne. Le masque est un rectangle 1 bit (environ 500 caractères, transmission fiable). Les 4 propositions par expression permettent de choisir celle qui ressemble le plus.
+**Limite assumée :** contrairement à YAS_04, le visage est ici redessiné, donc une légère dérive d'identité est possible. Elle sera contrôlée face au MASTER à chaque fois.
+**Déroulé :** 1 expression test (YAS_06a, émerveillement, l'émotion centrale du film) → validation → les 4 autres.
+**Coût :** upscale du MASTER déjà fait ; environ 0,4 crédit par expression, soit environ 2 crédits Midjourney pour les 5.

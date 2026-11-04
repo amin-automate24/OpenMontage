@@ -91,7 +91,7 @@ https://storage.fonedis.cc/e231b365-5d34-4682-b641-16b4e27157e3/0_0.png Photorea
 **Résultat attendu :** 4 vues en pied du même garçon, chaussures visibles, costume complet lisible, proportions crédibles pour un enfant de 8 ans.
 **Point de vigilance :** à `--iw 0.5`, la ressemblance du visage peut baisser. Elle sera vérifiée en priorité face au MASTER.
 
-| **YAS_05_TURNAROUND_SHEET** | ✅ assemblée (2026-11-04), en attente de validation | Montage local, sans génération : YAS_04 (cadre blanc rogné) + MASTER + YAS_02 (v2, YAS_02b retirée) | — | `YAS_05_TURNAROUND_SHEET.jpg` (2601×1060, assemblé à partir des aperçus 1024 px) — non versionné | Document de référence humain (bible, continuité). Pour Kling, les références restent passées séparément (jusqu'à 3 références personnage). L'envoi vers Magnific est impossible tant que ak-data.magnific.com est bloqué |
+| **YAS_05_TURNAROUND_SHEET** | ✅ **VALIDÉ v2** (2026-11-04) | Montage local, sans génération : YAS_04 (cadre blanc rogné) + MASTER + YAS_02 (v2, YAS_02b retirée) | — | `YAS_05_TURNAROUND_SHEET.jpg` (2601×1060, assemblé à partir des aperçus 1024 px) — non versionné | Document de référence humain (bible, continuité). Pour Kling, les références restent passées séparément (jusqu'à 3 références personnage). L'envoi vers Magnific est impossible tant que ak-data.magnific.com est bloqué |
 
 ---
 

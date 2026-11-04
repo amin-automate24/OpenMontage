@@ -20,7 +20,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | YAS_02b | Yassine — trois-quarts propre vers la droite | (prompt YAS_03 v1) | Magnific jUp3HnALD0 | ❌ **RETIRÉE** (ne ressemble pas au MASTER) |
 | YAS_03 | Yassine — profil | v1 non conforme | — | ⏭️ **PASSÉ** (décision du réalisateur) |
 | YAS_04 | Yassine — vue en pied (costume complet) | méthode A (zoom depuis MASTER) | → Magnific ksTNOsY16B | ✅ **VALIDÉ** |
-| YAS_05 | Yassine — planche multi-angle | assemblée (sans génération) | YAS_05_TURNAROUND_SHEET.jpg | **en attente de validation** |
+| YAS_05 | Yassine — planche multi-angle | assemblée (sans génération) | YAS_05_TURNAROUND_SHEET.jpg (v2) | ✅ **VALIDÉ** |
 | YAS_06 | Yassine — 5 expressions (Vary Region sur MASTER) | proposé | — | **en attente de validation** (test : émerveillement) |
 | GPJ_01… | Grand-père jeune 1975 | à rédiger | — | — |
 | GPA_01… | Grand-père âgé | à rédiger | — | — |

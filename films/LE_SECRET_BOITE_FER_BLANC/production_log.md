@@ -74,3 +74,5 @@
 | 2026-11-04 | file | YAS_05 v2 assemblée sans YAS_02b (en pied + MASTER + YAS_02) |
 | 2026-11-04 | tool | Réalisateur : lancer le test YAS_06a (émerveillement) → Vary Region sur MASTER (image_id 1567617911202250752), masque rectangle traits du visage (492 caractères), task 7c396355-ef29-4194-bb2d-f5364cfcf68e |
 | 2026-11-04 | decision | Réalisateur : YAS_02 gardée telle quelle (liseré non corrigé, usage identité uniquement) |
+| 2026-11-04 | decision | Réalisateur : VALIDER YAS_05 v2 |
+| 2026-11-04 | tool | YAS_06a terminé (task 7c396355…, image_id 1567638554706706432, 0,401 crédit) |

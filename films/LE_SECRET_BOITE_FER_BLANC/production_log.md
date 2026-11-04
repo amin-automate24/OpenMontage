@@ -127,3 +127,5 @@
 | 2026-11-04 | decision | Réalisateur : VALIDER PRP_02 |
 | 2026-11-04 | op | Masque PRP_02 : le rectangle donnait des répétitions longues (2 recopies fausses, NON envoyées, détectées par comparaison automatique). Masque final en trapèze couvrant couvercle + espace au-dessus (1324 caractères), recopié ligne par ligne et vérifié IDENTIQUE avant envoi |
 | 2026-11-04 | tool | PRP_02 Vary Region sur PRP_01_MASTER (image_id 1567652509986586624), task 65312644-0934-4e74-86fd-dad630b66cc5 |
+| 2026-11-04 | error | PRP_02 Vary Region ÉCHEC sans coût : « The canvas size does not match the image size ». Masque lu (copie vérifiée correcte), mais dimensions 1232×928 refusées pour cette image paysage (les portraits 928×1232 étaient acceptés) |
+| 2026-11-04 | op | Alternative évaluée : Magnific Nano Banana 2.1 (édition d'image avec PRP_01_MASTER en référence), coût simulé ≈ 65 crédits Magnific — en attente du réalisateur |

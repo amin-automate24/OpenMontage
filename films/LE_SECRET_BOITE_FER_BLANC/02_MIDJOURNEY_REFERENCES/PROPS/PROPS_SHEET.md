@@ -47,3 +47,24 @@ Photorealistic cinematic prop reference photograph of an old rectangular tin box
 | Coût estimé | environ 0,4 crédit Midjourney | — |
 
 **Résultat attendu :** 4 boîtes anciennes crédibles, motif floral vert et bordeaux délavé, rouille aux angles, poussière visible dans un rai de lumière, sans aucun texte.
+
+---
+
+## Registre
+| ID | Statut | Midjourney | Seed | Magnific | Notes |
+|---|---|---|---|---|---|
+| **PRP_01_MASTER** | ✅ VALIDÉ (2026-11-04) | task `8ab3756e…` v1 → U1 (task `78f9c3a8-0a41-460a-809e-eb3cf7f2abd5`), image_id `1567652509986586624` | 3943399178 | `MBgFtiCDCm` (1232×928) · aperçu `PRP_01_MASTER_preview.jpg` | Motif floral vert/bordeaux lisible, rouille aux arêtes, trace de doigt dans la poussière, aucun texte |
+
+---
+
+## PRP_02 : boîte ouverte avec les trois objets (proposition)
+
+**Méthode :** retouche par zone sur **PRP_01_MASTER**. Le masque couvre le couvercle et l'espace au-dessus de la boîte, où le couvercle relevé va se dessiner. Le corps de la boîte (flancs et motif) **reste identique, pixel pour pixel**. Le masque est un rectangle 1 bit, transmissible sans erreur. Aperçu : `PRP_02_mask_overlay.jpg`.
+
+**Contenu (bible D) :** drapeau marocain plié en triangle, rouge passé, étoile verte visible ; petit Coran de poche à couverture verte usée, posé avec soin, fermé ; petit tissu de coton noué contenant du sable doré, légèrement entrouvert.
+
+**Prompt de retouche :**
+```
+the same old tin box now with its hinged lid opened upright at the back, showing the matching faded green and burgundy floral pattern on the inside of the lid, inside the box: a folded faded red Moroccan flag with its green star visible, a small closed pocket Quran with a worn green cover placed with care, and a small knotted cotton cloth bundle slightly open revealing fine glowing golden sand, soft warm window light from the left, dust particles in the beam, photorealistic, no text
+```
+**Coût :** environ 0,4 crédit Midjourney.

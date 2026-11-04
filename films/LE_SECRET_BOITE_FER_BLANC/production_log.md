@@ -123,3 +123,4 @@
 | 2026-11-04 | tool | PRP_01 terminé (task 8ab3756e…, image_id 1567651967856017408, 0,401 crédit) → Magnific Eb2wkLjuuO, N2EezMD6D9, gOBz4zASXO, Eb2wkJ7uuO |
 | 2026-11-04 | qc | PRP_01 : aucun texte sur les 4 ✅. v1 motif floral lisible, trace de doigt dans la poussière, rai de lumière → recommandée ; v2 trop profonde (proportions) ; v3 très usée, bonnes proportions → alternative ; v4 motif presque effacé |
 | 2026-11-04 | decision | Réalisateur : VALIDER PRP_01 v1 → upscale U1 (task 78f9c3a8-0a41-460a-809e-eb3cf7f2abd5), seed 3943399178 |
+| 2026-11-04 | file | PRP_01 U1 terminé (0,12 crédit, 1232×928) → Magnific MBgFtiCDCm = PRP_01_MASTER. Proposition PRP_02 (retouche par zone couvercle + contenu) rédigée |

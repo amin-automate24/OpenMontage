@@ -62,3 +62,5 @@
 | 2026-11-04 | tool | Étape 2 : pan_down terminé (task d4ae321b…, image_id 1567635143084998656, 0,401 crédit) → Magnific Eb2U5RRuuO, p8UHIw5ehw, fHRgqGcCDY, If4rCZEtvE |
 | 2026-11-04 | qc | Pan down : pieds visibles ✅ ; visage identique ✅ ; MAIS la bordure blanche de l'image précédente devient une bande blanche horizontale au milieu des 4 images ❌ ; pantalon toujours marine ❌ ; v2/v3 pieds nus, v1/v4 chaussettes sombres ❌ ; jambes un peu longues |
 | 2026-11-04 | decision | Réalisateur : VALIDE retouche bas du corps sur pan v1 → upscale U1 (task 0929ead9-e396-4169-8775-da10509ac231) puis Vary Region rectangle |
+| 2026-11-04 | tool | Upscale U1 terminé (0,12 crédit, 784×1552, image_id 1567635839536594944) |
+| 2026-11-04 | tool | Vary Region, masque rectangle 1 bit (532 caractères, y ≥ 56,5 %) : masque ACCEPTÉ, task 26deff0f-c4ff-49c4-93c2-0b779b504d90 |

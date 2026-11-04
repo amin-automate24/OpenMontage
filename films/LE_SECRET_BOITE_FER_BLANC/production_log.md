@@ -70,3 +70,5 @@
 | 2026-11-04 | file | YAS_04 U1 terminé (0,12 crédit, 784×1552) → Magnific ksTNOsY16B = YAS_04_FULLBODY. Coût total de la chaîne YAS_04 : ≈ 2,1 crédits Midjourney |
 | 2026-11-04 | decision | Réalisateur : option A → YAS_05 assemblée localement (sans génération) |
 | 2026-11-04 | op | Proposition YAS_06 (5 expressions via Vary Region sur MASTER, test émerveillement d'abord) rédigée — en attente |
+| 2026-11-04 | qc | Réalisateur : YAS_02b ne ressemble pas au MASTER → RETIRÉE des références. Mon QC initial l'avait validée à tort (visage régénéré : plus rond, plus jeune, sourcils plus arqués). Leçon : comparer systématiquement côte à côte avec le MASTER avant de recommander |
+| 2026-11-04 | file | YAS_05 v2 assemblée sans YAS_02b (en pied + MASTER + YAS_02) |

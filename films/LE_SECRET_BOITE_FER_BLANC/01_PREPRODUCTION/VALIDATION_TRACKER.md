@@ -17,7 +17,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | YAS_01 | Yassine — portrait de face (maîtresse) | ✅ validé | v1_1 upscalée → YAS_01_MASTER (Magnific lJXZ1eLgv9) | ✅ **VALIDÉ** |
 | — | Fiche Yassine alignée sur v1_1 (cicatrice côté droit) | — | — | ✅ VALIDÉ |
 | YAS_02 | Yassine — trois-quarts | ✅ v2 validé | v2_3 upscalée → Magnific rgM6NLZxtc | ✅ **VALIDÉ** — référence d'identité uniquement (option C) |
-| YAS_02b | Yassine — trois-quarts propre vers la droite | (prompt YAS_03 v1) | v1_1 upscalée → Magnific jUp3HnALD0 | ✅ **VALIDÉ** |
+| YAS_02b | Yassine — trois-quarts propre vers la droite | (prompt YAS_03 v1) | Magnific jUp3HnALD0 | ❌ **RETIRÉE** (ne ressemble pas au MASTER) |
 | YAS_03 | Yassine — profil | v1 non conforme | — | ⏭️ **PASSÉ** (décision du réalisateur) |
 | YAS_04 | Yassine — vue en pied (costume complet) | méthode A (zoom depuis MASTER) | → Magnific ksTNOsY16B | ✅ **VALIDÉ** |
 | YAS_05 | Yassine — planche multi-angle | assemblée (sans génération) | YAS_05_TURNAROUND_SHEET.jpg | **en attente de validation** |

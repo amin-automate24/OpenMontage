@@ -67,3 +67,4 @@
 | 2026-11-04 | tool | Vary Region terminé (task 26deff0f…, image_id 1567636350620925952, 0,401 crédit) → Magnific 8aP1F6qIrU, iGQd0kd3uK, O6h0AHwynm, If4rHYutvE |
 | 2026-11-04 | qc | Retouche bas du corps RÉUSSIE : bande blanche supprimée, pantalon beige, baskets blanches usées, raccord invisible, visage intact. Reste : fin cadre blanc extérieur (à rogner). v1 recommandée (baskets les plus nettement blanches, posture naturelle) |
 | 2026-11-04 | decision | Réalisateur : VALIDER YAS_04 fix v1 → upscale U1 (task 75f39014-6d4c-4585-82b5-899f234b4fd1) |
+| 2026-11-04 | file | YAS_04 U1 terminé (0,12 crédit, 784×1552) → Magnific ksTNOsY16B = YAS_04_FULLBODY. Coût total de la chaîne YAS_04 : ≈ 2,1 crédits Midjourney |

@@ -8,6 +8,8 @@
 
 | **YAS_02b_3Q_CLEAN** | ✅ VALIDÉ (2026-11-04) — **référence d'identité ET image de départ possible** | grille YAS_03 v1 task `14ad3568-6106-4783-890d-e8fea7f9e7ce` → U1 task `90882f88-2d85-480f-ab93-6d145109dee3`, image_id `1567631476046954496`, V8.2 | 2315460870 | Magnific `jUp3HnALD0` · URL source `https://platform2.cdn.acedata.cloud/midjourney/90882f88-2d85-480f-ab93-6d145109dee3.png` (928×1232) · aperçu `YAS_02b_3Q_CLEAN_preview.jpg` | Trois-quarts (~30°) vers la droite du cadre, regard à droite (axe de la bible), lumière venant de la droite, aucun liseré. Cicatrice non visible (côté opposé) |
 
+| **YAS_04_FULLBODY** | ✅ VALIDÉ (2026-11-04) — référence costume complet et silhouette | Chaîne : MASTER → zoom ×2 (task `397e826a…`) v4 → U4 → zoom ×2 (task `cd0d8241…`) v3 → U3 → pan_down (task `d4ae321b…`) v1 → U1 → Vary Region rectangle (task `26deff0f…`) v1 → U1 (task `75f39014-6d4c-4585-82b5-899f234b4fd1`), image_id `1567636811583324160` | — | Magnific `ksTNOsY16B` · URL source `https://platform2.cdn.acedata.cloud/midjourney/75f39014-6d4c-4585-82b5-899f234b4fd1.png` (784×1552) · aperçu `YAS_04_FULLBODY_preview.jpg` | Visage identique au MASTER (non régénéré). Pantalon beige, baskets blanches usées. Fin cadre blanc extérieur à rogner avant usage comme image de départ |
+
 ---
 
 ## PROMPT YAS_02 — Portrait trois-quarts (en attente de validation)

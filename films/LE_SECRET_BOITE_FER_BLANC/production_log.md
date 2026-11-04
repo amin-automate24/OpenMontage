@@ -79,3 +79,5 @@
 | 2026-11-04 | file | YAS_06a → Magnific lJXAzGYgv9, yivTMeNPW9, WDxaCH8cXe, lJXAzMAgv9 |
 | 2026-11-04 | qc | YAS_06a (comparaison côte à côte avec le MASTER, même échelle) : émerveillement réussi sur les 4, MAIS dérive d'identité sur les 4 — yeux nettement agrandis et arrondis, cils plus épais, visage plus jeune ; taches de lumière dorée artificielles (surtout v2). Aucune recommandée. Cause : consigne « eyes wide open » + « golden light reflected » + masque englobant les yeux |
 | 2026-11-04 | tool | Réalisateur : VALIDE nouvel essai YAS_06a v2 → Vary Region sur MASTER, masque 2 zones sourcils + bouche (yeux exclus, 420 caractères), sans reflet de lumière, task 06b0b6f6-a48e-4d0b-8fdc-daa840cc266e |
+| 2026-11-04 | tool | YAS_06a v2 terminé (task 06b0b6f6…, image_id 1567639699818807296, 0,401 crédit) → Magnific TdsE5OGVNR, N2EpIxh6D9, WDxaHN1cXe, gOBGTKiSXO |
+| 2026-11-04 | qc | YAS_06a v2 (côte à côte, même échelle) : identité PRÉSERVÉE sur les 4 (yeux, nez intacts) ; MAIS expression très discrète — lèvres entrouvertes, sourcils à peine levés ; v1 la plus expressive. Limite : sans les yeux, l'émerveillement reste faible |

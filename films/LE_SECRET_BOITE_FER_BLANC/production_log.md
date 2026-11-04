@@ -91,3 +91,5 @@
 | 2026-11-04 | decision | Réalisateur : VALIDER GPJ_01 v2 → upscale U2 (task da3a9e54-c753-4529-bf6e-4e61d16a8e6d), seed 3106447964 |
 | 2026-11-04 | file | GPJ_01 U2 terminé (0,12 crédit, 928×1232) → Magnific xSD3eRCjfW = GPJ_01_MASTER |
 | 2026-11-04 | decision | Réalisateur : VALIDE méthode GPJ_03 (élargissement depuis GPJ_01_MASTER + correction rectangle si besoin ; chaussures : babouches ou sandales de cuir). Étape 1 zoom ×2 : task 0ce7a756-d9e1-4b94-ba96-39a7132ee3f5 |
+| 2026-11-04 | tool | GPJ_03 zoom ×2 n°1 terminé (task 0ce7a756…, image_id 1567643129597657088, 0,401 crédit) → Magnific p8UHPobehw, LweZI7jswO, xSD3oOxjfW, iGQdKVm3uK |
+| 2026-11-04 | qc | GPJ zoom 1 : visage identique sur les 4 ; djellaba à capuche avec couture centrale brodée, rayures cohérentes ; cadre jusqu'à la taille (2e élargissement nécessaire) ; v1 la plus propre (fond net, rayures régulières) → recommandée |

@@ -26,3 +26,6 @@ https://storage.fonedis.cc/e231b365-5d34-4682-b641-16b4e27157e3/0_0.png Photorea
 
 **Résultat attendu :** 4 portraits trois-quarts d'un garçon reconnaissable comme celui de YAS_01_MASTER, cicatrice visible côté caméra, même lumière dorée venant de la gauche.
 **Coût estimé :** environ 0,4 crédit Midjourney, comme la grille YAS_01.
+
+## PROMPT YAS_02 v2 (REFAIRE validé le 2026-11-04) — task `e0c927b7-1c59-4a5c-b9e3-d602a8b642b1`
+Changements par rapport à v1 : `--iw 1.0` ; angle « three-quarter profile, face turned 45 degrees toward camera left, the right cheek and right ear clearly visible, eyes looking off-frame to the left » ; cicatrice « on the side of his forehead facing the camera » ; ajout de `front view, looking at camera` dans `--no`.

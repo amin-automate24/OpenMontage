@@ -23,7 +23,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | YAS_05 | Yassine — planche multi-angle | assemblée (sans génération) | YAS_05_TURNAROUND_SHEET.jpg (v2) | ✅ **VALIDÉ** |
 | YAS_06 | Yassine — expressions | émerveillement discret seulement | Magnific rgMiYa4xtc | ✅ **VALIDÉ ET CLÔTURÉ** (expressions confiées aux modèles vidéo) |
 | — | **YASSINE : RÉFÉRENCES TERMINÉES** | | | ✅ |
-| GPJ_01 | Grand-père jeune 1975 — portrait de face (référence principale) | ✅ validé | génération en cours | — |
+| GPJ_01 | Grand-père jeune 1975 — portrait de face (référence principale) | ✅ validé | v2 upscalée → Magnific xSD3eRCjfW | ✅ **VALIDÉ** |
 | GPA_01… | Grand-père âgé | à rédiger | — | — |
 | ENV_01… | Grenier, maison, Fès, désert, foule | à rédiger | — | — |
 | PRP_01… | Boîte fermée et ouverte, drapeau, Coran, sable | à rédiger | — | — |

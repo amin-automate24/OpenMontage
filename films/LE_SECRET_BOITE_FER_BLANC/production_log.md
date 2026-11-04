@@ -23,3 +23,5 @@
 | 2026-11-04 | file | YAS_02 v1 importée dans Magnific (bxWyxqU5Y2, iGQez2l3uK, eIwHtmUdqL, bxWyjgi5Y2) |
 | 2026-11-04 | qc | YAS_02 v1 : identité OK, angle trois-quarts non atteint, cicatrice inversée → REFAIRE recommandé |
 | 2026-11-04 | tool | Réalisateur : REFAIRE YAS_02 avec plan B → Midjourney V8.2 fast, --iw 1.0, task e0c927b7-1c59-4a5c-b9e3-d602a8b642b1 |
+| 2026-11-04 | tool | YAS_02 v2 terminée (task e0c927b7…, 0,401 crédit) → Magnific P3aTYWH42C, CqZgjgCEEy, lJX2in2gv9, u5AUs9AQLD |
+| 2026-11-04 | qc | YAS_02 v2 : v2_3 recommandée (vrai trois-quarts, cicatrice bon côté, axe du regard conforme) ; défaut : liseré clair sur le contour |

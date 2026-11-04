@@ -66,3 +66,4 @@
 | 2026-11-04 | tool | Vary Region, masque rectangle 1 bit (532 caractères, y ≥ 56,5 %) : masque ACCEPTÉ, task 26deff0f-c4ff-49c4-93c2-0b779b504d90 |
 | 2026-11-04 | tool | Vary Region terminé (task 26deff0f…, image_id 1567636350620925952, 0,401 crédit) → Magnific 8aP1F6qIrU, iGQd0kd3uK, O6h0AHwynm, If4rHYutvE |
 | 2026-11-04 | qc | Retouche bas du corps RÉUSSIE : bande blanche supprimée, pantalon beige, baskets blanches usées, raccord invisible, visage intact. Reste : fin cadre blanc extérieur (à rogner). v1 recommandée (baskets les plus nettement blanches, posture naturelle) |
+| 2026-11-04 | decision | Réalisateur : VALIDER YAS_04 fix v1 → upscale U1 (task 75f39014-6d4c-4585-82b5-899f234b4fd1) |

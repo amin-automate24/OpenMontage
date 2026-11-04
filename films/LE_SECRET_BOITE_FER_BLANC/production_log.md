@@ -25,3 +25,5 @@
 | 2026-11-04 | tool | Réalisateur : REFAIRE YAS_02 avec plan B → Midjourney V8.2 fast, --iw 1.0, task e0c927b7-1c59-4a5c-b9e3-d602a8b642b1 |
 | 2026-11-04 | tool | YAS_02 v2 terminée (task e0c927b7…, 0,401 crédit) → Magnific P3aTYWH42C, CqZgjgCEEy, lJX2in2gv9, u5AUs9AQLD |
 | 2026-11-04 | qc | YAS_02 v2 : v2_3 recommandée (vrai trois-quarts, cicatrice bon côté, axe du regard conforme) ; défaut : liseré clair sur le contour |
+| 2026-11-04 | decision | Réalisateur : VALIDER YAS_02 v2_3 (retouche du liseré : à confirmer) |
+| 2026-11-04 | tool | Midjourney upscale U3 (task e3ac31cb-a67b-4012-87d0-e0403fc167ec) ; seed de la grille v2 572238788 |

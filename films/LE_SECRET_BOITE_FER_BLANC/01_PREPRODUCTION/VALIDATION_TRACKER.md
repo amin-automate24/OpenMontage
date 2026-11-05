@@ -28,7 +28,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | GPJ_04 | Grand-père jeune — sourire franc | retouche de la bouche | → Magnific dt7bWk8XSL | ✅ **VALIDÉ** |
 | — | **GRAND-PÈRE JEUNE : RÉFÉRENCES TERMINÉES** | | | ✅ |
 | GPA_01 | Grand-père âgé — portrait de face (référence principale) | ✅ validé (vieillissement en 2 temps) | → Magnific N2EeRSy6D9 | ✅ **VALIDÉ** |
-| ENV_01 | Grenier — plan large de référence | ✅ prompt validé | grille reçue (Magnific p8UN3Fzehw, gOBfunQSXO, UP8EFMPwny, s7dvCTel8e) ; reco 1 | ⏳ en attente de choix |
+| ENV_01 | Grenier — plan large de référence | ✅ prompt validé | U1 → Magnific JNmF1txOq4 | ✅ **VALIDÉ** (choix 1) |
 | ENV_02… | Maison/patio de Fès, désert, foule 1975 | à rédiger | — | — |
 | PRP_01 | Boîte en fer blanc fermée | ✅ validé | v1 upscalée → Magnific MBgFtiCDCm | ✅ **VALIDÉ** |
 | PRP_02 | Boîte ouverte avec les 3 objets | ✅ validé (Nano Banana 2.1 sur PRP_01, sable corrigé) | → Magnific cpj7UuQ0eP | ✅ **VALIDÉ v2** |

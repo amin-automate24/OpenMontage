@@ -168,3 +168,7 @@
 - Tâche Midjourney 381ab97a-334a-4505-b2ed-ba4bac27c4bc (0,401 crédit). 4 recadrages importés dans Magnific : 1=p8UN3Fzehw, 2=gOBfunQSXO, 3=UP8EFMPwny, 4=s7dvCTel8e (aucun coût de génération Magnific).
 - QC : 1 = fenêtre gauche OK, rai ambré net avec poussière, poutres cèdre, chaux écaillée, coffre bas coin droit, porte+escalier au fond ; sol plutôt terre battue que terracotta. 2 = très photoréaliste, rai de lumière faible, coffre droit OK. 3 = murs nus clairs (bon support fresque) mais lumière peu ambrée. 4 = REJETÉE : seconde ouverture lumineuse à droite (viole « une seule fenêtre »).
 - Recommandation : 1 (ambiance) ; alternative 2. En attente de VALIDER N.
+
+## 2026-11-05 — ENV_01 validé
+- Décision du réalisateur : VALIDER 1. Upscale U1 : task b4aa874a-a95a-418f-86bf-1c7c41d76e1e (0,12 crédit Midjourney), 1456×816. Importé dans Magnific : JNmF1txOq4.
+- Prochaines étapes proposées : ENV_01b (coin du coffre), ENV_01c (mur nu pour la fresque). Aucune génération lancée.

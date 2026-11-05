@@ -42,3 +42,8 @@ Photorealistic cinematic establishing photograph of an old storage attic room un
 ## Ensuite (après validation de ce plan large)
 - **ENV_01b** : le coin du coffre, plus serré, pour le plan où Yassine découvre la boîte (dérivé de ENV_01 pour garder le même lieu).
 - **ENV_01c** : le mur à la chaux vu de face, nu, support de la fresque (séquence 3).
+
+## Registre
+| ID | Statut | Midjourney | Magnific | Notes |
+|---|---|---|---|---|
+| **ENV_01_MASTER** | ✅ VALIDÉ (2026-11-05), choix 1 | grille task `381ab97a-334a-4505-b2ed-ba4bac27c4bc` (image_id `1567994756577886208`) → U1 task `b4aa874a-a95a-418f-86bf-1c7c41d76e1e` (image_id `1567996397930676224`), 1456×816, 0,12 crédit | `JNmF1txOq4` (recadrage non agrandi : `p8UN3Fzehw`) | Fenêtre à gauche, rai ambré avec poussière, poutres de cèdre, chaux écaillée, coffre bas au coin droit, porte et escalier au fond. Réserve : sol plutôt terre battue que terracotta |

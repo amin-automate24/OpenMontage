@@ -273,3 +273,9 @@
 
 ## 2026-11-05 — S1-04 validé
 - Décision : VALIDER S1-04 (COUPE FIN), vidéo yiv54N8PW9. Aucune génération lancée.
+
+## 2026-11-05 — S1-05 (autorisation groupée S1)
+- Image p8Ui8usehw + vidéo ksTIsfm16B, 920 crédits. QC : Yassine traverse le patio de dos, costume constant, architecture stable, aucun visage ni texte ; cadrage plus large avec montants de porte des deux cotes
+
+## 2026-11-05 — S1-06 (autorisation groupée S1)
+- Image N2ErGgV6D9 + vidéo CqZVKJGEEy, 920 crédits. QC : Decor stable et identique au MASTER, Yassine de dos puis profil (de 5 a 8,8 s) en tournant la tete vers l'escalier ; ATTENTION aucun profil de reference valide pour juger l'identite ; grand-pere allonge sur le banc (assis en S1-03) ; cadrage plus large

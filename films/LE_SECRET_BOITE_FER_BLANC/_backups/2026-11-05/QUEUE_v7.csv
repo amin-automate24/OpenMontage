@@ -1,0 +1,15 @@
+id,shot,kind,model,est_credits,approved,status
+Q01,S1-04,image,imagen-nano-banana-2-1,65,1,DONE
+Q02,S1-04,video,kling-omni3 1080p 9s,855,1,DONE
+Q03,S1-05,image,imagen-nano-banana-2-1,65,1,DONE
+Q04,S1-05,video,kling-omni3 1080p 9s,855,1,PENDING
+Q05,S1-06,image,imagen-nano-banana-2-1,65,1,PENDING
+Q06,S1-06,video,kling-omni3 1080p 9s,855,1,PENDING
+Q07,S1-07,image,imagen-nano-banana-2-1,65,1,PENDING
+Q08,S1-07,video,kling-omni3 1080p 9s,855,1,PENDING
+Q09,S1-08,image,imagen-nano-banana-2-1,65,1,PENDING
+Q10,S1-08,video,kling-omni3 1080p 9s,855,1,PENDING
+Q11,S1-09,image,imagen-nano-banana-2-1,65,1,PENDING
+Q12,S1-09,video,kling-omni3 1080p 9s,855,1,PENDING
+Q13,S1-10,image,imagen-nano-banana-2-1,65,1,PENDING
+Q14,S1-10,video,kling-omni3 1080p 9s,855,1,PENDING

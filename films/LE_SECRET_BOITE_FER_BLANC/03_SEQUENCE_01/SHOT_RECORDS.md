@@ -90,3 +90,19 @@
 | Vidéo | Magnific `yiv54N8PW9`, 855 crédits (solde ≈ 14 575, calcul) |
 | QC | De 0 à 7,6 s : les perles glissent entre les doigts de façon crédible, la main au repos garde cinq doigts et sa forme, alcôve stable, aucun visage ni texte. Défauts : cadrage plus large que l'image de départ (on voit davantage le genou) ; dans la dernière seconde (8,2 à 8,8 s) la main qui tient le chapelet se lève et s'ouvre, geste non demandé, avec doigts un peu allongés. Utilisable en coupant la fin vers 8 s (ou en gardant le geste comme image de l'assoupissement) |
 | Statut | ✅ **VALIDÉ** (2026-11-05) avec coupe de fin : garder 0 à environ 8,0 s au montage |
+
+## S1-05 (lot S1)
+| Champ | Valeur |
+|---|---|
+| Image de départ | Magnific `p8Ui8usehw` (65 cr) |
+| Vidéo | Magnific `ksTIsfm16B`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Yassine traverse le patio de dos, costume constant, architecture stable, aucun visage ni texte ; cadrage plus large avec montants de porte des deux cotes |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S1-06 (lot S1)
+| Champ | Valeur |
+|---|---|
+| Image de départ | Magnific `N2ErGgV6D9` (65 cr) |
+| Vidéo | Magnific `CqZVKJGEEy`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Decor stable et identique au MASTER, Yassine de dos puis profil (de 5 a 8,8 s) en tournant la tete vers l'escalier ; ATTENTION aucun profil de reference valide pour juger l'identite ; grand-pere allonge sur le banc (assis en S1-03) ; cadrage plus large |
+| Statut | ⏳ en attente de décision du réalisateur |

@@ -53,3 +53,13 @@
 | Image | Magnific `gOBCdN9SXO` (aperçu `S1-03_start_v3_tight_preview.jpg`) |
 | QC | Plan taille-haut, trois-quarts, yeux fermés, expression paisible, chapelet entre les mains, alcôve floutée. Djellaba brun grisé avec capuche, chemise blanche, sans calotte. Ressemblance avec GPA_01 : approximative (cheveux gris courts, moustache blanche, visage maigre et ridé) mais le grain de beauté sous l'œil gauche est absent, la ligne de cheveux moins dégarnie et le nez moins aquilin. Identité non garantie |
 | Statut | ❌ non utilisée (identité approximative) ; la vidéo plan large `YMr7QgGWeC` est conservée pour S1-03 |
+
+## S1-02 — fontaine, insert
+### Image de départ v1
+| Champ | Valeur |
+|---|---|
+| Référence | ENV_02_MASTER `lJXareYgv9` |
+| Méthode | Nano Banana 2.1, 16:9, 65 crédits |
+| Image | Magnific `w4IQt107EI` (aperçu `S1-02_start_v1_preview.jpg`) |
+| QC | Même patio reconnaissable (arcs, escalier à droite, banc à coussins à gauche, plante). Gouttes tombant dans le bassin, éclaboussures, reflets chauds sur l'eau, profondeur de champ faible. Aucun texte. Écarts : bassin plus large que dans le MASTER, quelques carreaux bleu marine dans la bordure au premier plan, gouttes qui tombent d'une source hors cadre |
+| Statut | ⏳ en attente de validation du réalisateur |

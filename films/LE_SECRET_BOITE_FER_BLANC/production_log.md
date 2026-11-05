@@ -252,3 +252,6 @@
 
 ## 2026-11-05 — S1-03 décision
 - Décision : « PLAN LARGE ». S1-03 = vidéo Magnific YMr7QgGWeC (plan large, visage non identifiable). Image v3 gOBCdN9SXO non utilisée. Coût total S1-03 : 65 + 65 + 855 + 65 = 1 050 crédits. Aucune génération lancée.
+
+## 2026-11-05 — S1-02 image de départ v1
+- Autorisation : « VALIDER IMAGE S1-02 ». Creation w4IQt107EI, 65 crédits (solde ≈ 16 350). Aucune vidéo lancée.

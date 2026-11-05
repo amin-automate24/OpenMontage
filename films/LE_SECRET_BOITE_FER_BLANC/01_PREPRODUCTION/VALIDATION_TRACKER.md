@@ -46,4 +46,4 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | — | **OBJETS : RÉFÉRENCES TERMINÉES** | | | ✅ |
 
 ## Séquences
-S1 : découpage proposé, en attente de validation (03_SEQUENCE_01/05_STORYBOARD.md). S2 à S6 : non commencées.
+S1 : ✅ découpage VALIDÉ (silencieux, 16:9 plein cadre) ; prompts des plans 1 à 4 proposés (03_SEQUENCE_01/06_VIDEO_PROMPTS.md). S2 à S6 : non commencées.

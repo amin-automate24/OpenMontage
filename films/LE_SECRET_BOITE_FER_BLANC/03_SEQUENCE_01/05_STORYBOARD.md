@@ -1,6 +1,6 @@
 # S1 — LA MAISON DE FÈS : découpage (00:00 → 01:30)
 
-> Statut : **PROPOSITION, en attente de validation.** Aucune image ni vidéo générée pour cette séquence.
+> Statut : ✅ **VALIDÉ (2026-11-05)** : séquence silencieuse, 16:9 plein cadre. Aucune image ni vidéo générée pour cette séquence à ce jour.
 > 10 plans × 9 s = 90 s. 16:9. Présent, novembre, lumière d'après-midi.
 
 ## Intention
@@ -41,7 +41,7 @@ Ambiance médina lointaine, oiseaux, fontaine du patio ; pas sur zellige, craque
 - **S1-05 à S1-10 :** Yassine de dos ou lointain pour éviter les erreurs de visage ; la cicatrice n'est visible que si le plan le permet.
 - **Mouvements de caméra :** rester lents pour limiter les déformations des vidéos générées.
 
-## Décisions demandées
-1. Valider le découpage (ou demander des modifications plan par plan).
-2. **Dialogue :** S1 totalement silencieux (recommandé) ou une réplique en darija (par exemple le grand-père murmurant en dormant) ?
-3. **Format :** 16:9 plein cadre (par défaut) ou letterbox 2.39:1 (bible E).
+## Décisions du réalisateur (2026-11-05)
+1. Découpage validé tel que proposé.
+2. **S1 totalement silencieuse** (aucun dialogue).
+3. **Format 16:9 plein cadre** (pas de letterbox).

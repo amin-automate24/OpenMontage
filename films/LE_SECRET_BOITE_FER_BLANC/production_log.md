@@ -221,3 +221,7 @@
 
 ## 2026-11-05 — Phase 3 : découpage S1 proposé
 - 03_SEQUENCE_01/05_STORYBOARD.md rédigé (10 plans × 9 s). Aucune génération lancée. Coûts estimés : images de départ ≈ 585 cr, animation Kling ≈ 8 550 (1080p) / 6 300 (720p) en une passe.
+
+## 2026-11-05 — S1 découpage validé
+- Décision du réalisateur : « VALIDER SCENE SILENCIEUSE PLEIN CADRE ». Découpage S1 validé, aucun dialogue, 16:9 plein cadre.
+- Prompts des images de départ et des vidéos des plans 1 à 4 rédigés (06_VIDEO_PROMPTS.md). Aucune génération lancée.

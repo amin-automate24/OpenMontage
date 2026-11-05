@@ -190,3 +190,6 @@
 
 ## 2026-11-05 — ENV_02 validé
 - Décision : VALIDER 2. Upscale U2 task 1f870c31-e8bd-4256-81b7-9ef675320ccf (0,12 crédit), 1456×816, importé dans Magnific : lJXareYgv9. Aucune autre génération lancée.
+
+## 2026-11-05 — ENV_02b et ENV_02c générés (séquentiel)
+- ENV_02b KL0BHjPkqp et ENV_02c WDx7GLXcXe (65 cr chacun, 130 au total), Nano Banana 2.1, référence ENV_02_MASTER lJXareYgv9. En attente de validation.

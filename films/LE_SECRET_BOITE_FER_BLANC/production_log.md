@@ -279,3 +279,9 @@
 
 ## 2026-11-05 — S1-06 (autorisation groupée S1)
 - Image N2ErGgV6D9 + vidéo CqZVKJGEEy, 920 crédits. QC : Decor stable et identique au MASTER, Yassine de dos puis profil (de 5 a 8,8 s) en tournant la tete vers l'escalier ; ATTENTION aucun profil de reference valide pour juger l'identite ; grand-pere allonge sur le banc (assis en S1-03) ; cadrage plus large
+
+## 2026-11-05 — S1-07 (autorisation groupée S1)
+- Image iGQjcvu3uK + vidéo bxWBSkV5Y2, 920 crédits. QC : Jambes et baskets stables (pantalon beige, baskets blanches avec liseres bleus discrets), decor identique ; Yassine monte les marches et sort du cadre par le haut (chevauche S1-08) ; pas de visage ; cadrage plus large que l'image de depart
+
+## 2026-11-05 — S1-08 (autorisation groupée S1)
+- Image O6hbz9qynm + vidéo 9ZC1cEJNYZ, 920 crédits. QC : Yassine monte l'escalier de dos, main sur la rampe puis disparait dans l'ombre vers 8 s ; plante, zelliges et escalier stables, costume constant, aucun visage ; cadrage plus large que l'image de depart

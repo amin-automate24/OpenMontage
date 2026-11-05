@@ -106,3 +106,19 @@
 | Vidéo | Magnific `CqZVKJGEEy`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Decor stable et identique au MASTER, Yassine de dos puis profil (de 5 a 8,8 s) en tournant la tete vers l'escalier ; ATTENTION aucun profil de reference valide pour juger l'identite ; grand-pere allonge sur le banc (assis en S1-03) ; cadrage plus large |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S1-07 (lot S1)
+| Champ | Valeur |
+|---|---|
+| Image de départ | Magnific `iGQjcvu3uK` (65 cr) |
+| Vidéo | Magnific `bxWBSkV5Y2`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Jambes et baskets stables (pantalon beige, baskets blanches avec liseres bleus discrets), decor identique ; Yassine monte les marches et sort du cadre par le haut (chevauche S1-08) ; pas de visage ; cadrage plus large que l'image de depart |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S1-08 (lot S1)
+| Champ | Valeur |
+|---|---|
+| Image de départ | Magnific `O6hbz9qynm` (65 cr) |
+| Vidéo | Magnific `9ZC1cEJNYZ`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Yassine monte l'escalier de dos, main sur la rampe puis disparait dans l'ombre vers 8 s ; plante, zelliges et escalier stables, costume constant, aucun visage ; cadrage plus large que l'image de depart |
+| Statut | ⏳ en attente de décision du réalisateur |

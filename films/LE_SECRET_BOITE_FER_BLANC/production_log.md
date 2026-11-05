@@ -151,3 +151,6 @@
 | 2026-11-05 | decision | Réalisateur : VALIDER prompt PRP_05 (gros plan du sable) |
 | 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_02_OPEN v2, 65 crédits → MBgPTFbDCm (attente interrompue par le réalisateur ; génération vérifiée terminée, pas de relance) |
 | 2026-11-05 | qc | PRP_05 : macro du sable dans le même tissu de coton blanc ✅ ; grains individuels visibles, lumière chaude de gauche ✅ ; quelques grains en suspension ✅ ; naturel, sans étincelles ✅ — MAIS grains assez gros et réguliers, aspect proche du sucre roux / semoule plutôt que d'un sable fin presque poudreux ⚠️ ; doré un peu plus pâle que dans PRP_02 ⚠️ |
+| 2026-11-05 | decision | Réalisateur : option B — corriger le sable de PRP_05 |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_05 v1 MBgPTFbDCm, 65 crédits → u5AVFJqQLD |
+| 2026-11-05 | qc | PRP_05 v2 : sable fin, irrégulier, presque poudreux, grains de tailles variées avec quelques grains sombres (réaliste), voile de poussière en suspension ✅ ; se lit comme du sable de dune ✅ ; même tissu, cadrage et lumière ✅ ; teinte plus ocre-ambre que dorée ⚠️ (l'éclat doré pourra être renforcé à l'étalonnage et dans les effets) |

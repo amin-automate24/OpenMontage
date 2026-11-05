@@ -34,6 +34,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | ENV_02 | Patio de la maison | ✅ prompt validé | U2 → Magnific lJXareYgv9 | ✅ **VALIDÉ** (choix 2) |
 | ENV_02b | Patio — banc du grand-père | Nano Banana sur ENV_02 | Magnific KL0BHjPkqp | ✅ **VALIDÉ** |
 | ENV_02c | Patio — pied de l escalier | Nano Banana sur ENV_02 | Magnific WDx7GLXcXe | ✅ **VALIDÉ** |
+| ENV_03 | Désert 1975 — plan large | ✅ prompt validé | grille reçue (Magnific gOBflbzSXO, P3abyLS42C, 1lV8kEir4r, LwehjHCswO) ; reco 1 | ⏳ en attente |
 | ENV_02… | Maison/patio de Fès, désert, foule 1975 | à rédiger | — | — |
 | PRP_01 | Boîte en fer blanc fermée | ✅ validé | v1 upscalée → Magnific MBgFtiCDCm | ✅ **VALIDÉ** |
 | PRP_02 | Boîte ouverte avec les 3 objets | ✅ validé (Nano Banana 2.1 sur PRP_01, sable corrigé) | → Magnific cpj7UuQ0eP | ✅ **VALIDÉ v2** |

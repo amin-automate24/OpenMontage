@@ -163,3 +163,8 @@
 | 2026-11-05 | decision | Réalisateur : VALIDER le passage aux décors, en commençant par le grenier |
 | 2026-11-05 | op | Fiche du grenier (ENV_01) et prompt Midjourney (plan large 16:9, fenêtre à gauche) rédigés — aucune génération. Note : le connecteur Midjourney est en cours de reconnexion à l'instant |
 | 2026-11-05 | tool | Réalisateur : VALIDER prompt ENV_01 (grenier) → Midjourney V8.2 fast 16:9, task 381ab97a-334a-4505-b2ed-ba4bac27c4bc |
+
+## 2026-11-05 — ENV_01 grenier : grille reçue et QC
+- Tâche Midjourney 381ab97a-334a-4505-b2ed-ba4bac27c4bc (0,401 crédit). 4 recadrages importés dans Magnific : 1=p8UN3Fzehw, 2=gOBfunQSXO, 3=UP8EFMPwny, 4=s7dvCTel8e (aucun coût de génération Magnific).
+- QC : 1 = fenêtre gauche OK, rai ambré net avec poussière, poutres cèdre, chaux écaillée, coffre bas coin droit, porte+escalier au fond ; sol plutôt terre battue que terracotta. 2 = très photoréaliste, rai de lumière faible, coffre droit OK. 3 = murs nus clairs (bon support fresque) mais lumière peu ambrée. 4 = REJETÉE : seconde ouverture lumineuse à droite (viole « une seule fenêtre »).
+- Recommandation : 1 (ambiance) ; alternative 2. En attente de VALIDER N.

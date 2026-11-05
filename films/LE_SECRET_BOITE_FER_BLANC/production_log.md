@@ -297,3 +297,6 @@
 
 ## 2026-11-05 — S1-06b (option C)
 - Image jUpvtQzLD0 + vidéo 79tHQW1JAL, 920 crédits. S1-09 validé tel quel. Solde ≈ 8 070.
+
+## 2026-11-05 — Séquence 1 complète
+- Décision : S1-06 option 1 (S1-06b coupée à ~5 s). Les 10 plans de S1 sont validés. Aucune génération lancée.

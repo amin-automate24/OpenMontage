@@ -14,3 +14,4 @@
 - 2026-11-05 AUTORISATION GROUPÉE S1 (S1-05 à S1-10), plafond 8 000 crédits (plafond proposé et non contredit par le réalisateur). Arrêt et demande si identité de Yassine dérive, si un même élément échoue 2 fois, ou si le plafond approche. Un rapport unique en fin de séquence. Validation artistique des plans réservée au réalisateur.
 - 2026-11-05 S1-05, S1-07, S1-08 et S1-10 validés. S1-06 (profil non référencé, grand-père allongé) et S1-09 (perspective déformée) en attente de décision.
 - 2026-11-05 S1-09 validé tel quel. S1-06 v1 validé ET v2 de comparaison autorisée (S1-06b : grand-père assis, Yassine strictement de dos ; 920 crédits).
+- 2026-11-05 S1-06 : on retient S1-06b (79tHQW1JAL), coupée à ~5 s ; v1 non retenue. Environ 4 s à combler au montage de S1. Séquence 1 : tous les plans validés.

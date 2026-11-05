@@ -6,7 +6,7 @@
 | Références objets (6) | Terminé |
 | Références décors : grenier x3, patio x3, désert, foule | Terminé (ENV_03b sable au ras du sol : proposée, non lancée) |
 | Découpage S1 (10 plans) | Validé (silencieux, 16:9 plein cadre) |
-| Animation S1 | 10/10 générés. Validés : S1-01 à S1-05, S1-07, S1-08, S1-10. S1-06 (v1 validée ; v2 S1-06b à comparer) et S1-09 validés |
+| Animation S1 | 10/10 générés et VALIDÉS. Validés : S1-01 à S1-05, S1-07, S1-08, S1-10. tous validés (S1-06 = S1-06b coupée à ~5 s) |
 | S2 à S6 | Non commencées |
 | Son, musique, montage, export | Non commencés |
 

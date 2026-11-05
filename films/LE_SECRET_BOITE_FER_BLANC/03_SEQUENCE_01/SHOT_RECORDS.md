@@ -154,3 +154,5 @@
 | Vidéo | Magnific `79tHQW1JAL`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Décor identique au patio validé ; grand-père assis sur le banc (corrige la v1 où il était allongé), immobile ; Yassine strictement de dos de 0 à environ 5 s, puis tourne en trois-quarts profil de 5,4 à 8,8 s malgré la consigne (donc le défaut de profil non référencé subsiste) ; cadrage élargi comme d'habitude. Option : garder 0 à 5 s au montage |
 | Statut | ⏳ choix du réalisateur entre S1-06 (v1) et S1-06b |
+
+- **S1-06 : décision du réalisateur (option 1)** : on retient **S1-06b** (`79tHQW1JAL`), coupée à environ 5 s au montage ; la v1 (`CqZVKJGEEy`) est conservée mais non retenue. Environ 4 s à combler au montage.

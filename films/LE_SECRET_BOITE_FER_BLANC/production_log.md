@@ -233,3 +233,6 @@
 ## 2026-11-05 — S1-01 reprise v2 (Kling 3.0 Omni, 1080p, 9 s)
 - Autorisation : « REPRISE 1080p ». Creation dt73qaYXSL, 855 crédits (total plan S1-01 : 1 710). Solde attendu ≈ 17 465.
 - QC : décor stable, push-in à peine perceptible, plus de colonne d'eau. Cadrage un peu plus large que le MASTER. Recommandé ; en attente de validation.
+
+## 2026-11-05 — S1-01 validé
+- Décision : VALIDER v2 (Magnific dt73qaYXSL). Aucune génération lancée. Prochaine étape proposée : TEST 2 (plan S1-03), non lancé.

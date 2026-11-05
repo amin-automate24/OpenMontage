@@ -18,4 +18,4 @@
 | Prompt | « Locked-off static camera… architecture strictly identical… push-in of about 3 percent… single small low spray unchanged… no people, no birds » |
 | Vidéo | Magnific `dt73qaYXSL`, 855 crédits |
 | Remarques QC v2 | Architecture stable sur 9 s (arcs, escalier à droite, banc, fontaine), jet d'eau minime, pas de colonne blanche, push-in très léger, pas d'oiseau (retiré volontairement). Réserve : le cadrage est plus large que le MASTER dès la première image (le modèle recompose légèrement) ; lumière et ambiance conservées |
-| Statut | ⏳ en attente de validation du réalisateur (recommandée) |
+| Statut | ✅ **VALIDÉ v2** (2026-11-05), écart de cadrage accepté |

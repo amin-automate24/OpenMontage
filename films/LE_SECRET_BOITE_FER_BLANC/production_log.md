@@ -270,3 +270,6 @@
 
 ## 2026-11-05 — S1-04 vidéo v1 (Kling 3.0 Omni, 1080p, 9 s)
 - Autorisation : « VALIDER IMAGE + VIDÉO S1-04 » (Q02 approuvé, guard OK). Creation yiv54N8PW9, 855 crédits (solde ≈ 14 575, calcul). QC : voir SHOT_RECORDS.md. En attente de décision.
+
+## 2026-11-05 — S1-04 validé
+- Décision : VALIDER S1-04 (COUPE FIN), vidéo yiv54N8PW9. Aucune génération lancée.

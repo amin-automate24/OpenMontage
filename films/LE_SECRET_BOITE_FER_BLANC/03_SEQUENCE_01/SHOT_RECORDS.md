@@ -89,4 +89,4 @@
 | Modèle / paramètres | Kling 3.0 Omni, 9 s, 16:9, 1080p, image de départ `ksT85Ch16B`, sans son |
 | Vidéo | Magnific `yiv54N8PW9`, 855 crédits (solde ≈ 14 575, calcul) |
 | QC | De 0 à 7,6 s : les perles glissent entre les doigts de façon crédible, la main au repos garde cinq doigts et sa forme, alcôve stable, aucun visage ni texte. Défauts : cadrage plus large que l'image de départ (on voit davantage le genou) ; dans la dernière seconde (8,2 à 8,8 s) la main qui tient le chapelet se lève et s'ouvre, geste non demandé, avec doigts un peu allongés. Utilisable en coupant la fin vers 8 s (ou en gardant le geste comme image de l'assoupissement) |
-| Statut | ⏳ en attente de décision du réalisateur |
+| Statut | ✅ **VALIDÉ** (2026-11-05) avec coupe de fin : garder 0 à environ 8,0 s au montage |

@@ -236,3 +236,6 @@
 
 ## 2026-11-05 — S1-01 validé
 - Décision : VALIDER v2 (Magnific dt73qaYXSL). Aucune génération lancée. Prochaine étape proposée : TEST 2 (plan S1-03), non lancé.
+
+## 2026-11-05 — S1-03 image de départ v1
+- Autorisation : « VALIDER IMAGE S1-03 ». Creation tC9zsgymZJ, 65 crédits (solde ≈ 17 400). QC : voir SHOT_RECORDS.md. Aucune vidéo lancée.

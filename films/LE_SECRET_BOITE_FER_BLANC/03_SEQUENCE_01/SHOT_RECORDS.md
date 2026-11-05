@@ -19,3 +19,13 @@
 | Vidéo | Magnific `dt73qaYXSL`, 855 crédits |
 | Remarques QC v2 | Architecture stable sur 9 s (arcs, escalier à droite, banc, fontaine), jet d'eau minime, pas de colonne blanche, push-in très léger, pas d'oiseau (retiré volontairement). Réserve : le cadrage est plus large que le MASTER dès la première image (le modèle recompose légèrement) ; lumière et ambiance conservées |
 | Statut | ✅ **VALIDÉ v2** (2026-11-05), écart de cadrage accepté |
+
+## S1-03 — le grand-père sur le banc
+### Image de départ v1
+| Champ | Valeur |
+|---|---|
+| Références | ENV_02b `KL0BHjPkqp`, GPA_01 `N2EeRSy6D9`, PRP_06 `u5AVLoyQLD` |
+| Méthode | Nano Banana 2.1, 16:9, 65 crédits |
+| Image | Magnific `tC9zsgymZJ` (aperçu `S1-03_start_v1_preview.jpg`) |
+| QC | Alcôve fidèle à ENV_02b ; djellaba brun grisé, chemise blanche, sans taqiya, cheveux gris argenté, moustache claire, chapelet long tenu à deux mains. Visage petit à cette distance : identité plausible mais grain de beauté non vérifiable. Écart : yeux ouverts, regard vers la gauche (pas encore assoupi), visage éclairé et non dans l'ombre. Fontaine visible en bas à droite (plus proche que dans le MASTER) |
+| Statut | ⏳ en attente de validation du réalisateur |

@@ -207,3 +207,6 @@
 
 ## 2026-11-05 — ENV_03 validé
 - Décision : VALIDER 1. Upscale U1 task da686f5a-9495-4720-8b93-3962cdd606b5 (0,12 crédit), 1456×816, importé dans Magnific : nV1wWtcYQD. Aucune autre génération lancée.
+
+## 2026-11-05 — ENV_03b et ENV_04 : fiches et prompts proposés
+- ENV_03b ajouté à ENV_03_DESERT_SHEET.md (Nano Banana, 65 cr). ENV_04_FOULE_SHEET.md rédigée avec garde-fous bible H. Aucune génération lancée.

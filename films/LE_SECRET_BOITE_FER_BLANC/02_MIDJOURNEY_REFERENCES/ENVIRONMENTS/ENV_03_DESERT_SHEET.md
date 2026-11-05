@@ -43,3 +43,14 @@ Photorealistic cinematic establishing photograph of the open Saharan plain in so
 | ID | Statut | Midjourney | Magnific | Notes |
 |---|---|---|---|---|
 | **ENV_03_MASTER** | ✅ VALIDÉ (2026-11-05), choix 1 | grille task `3b1edf75-040f-4be9-90b7-e992159724e8` (image_id `1567999258685079552`) → U1 task `da686f5a-9495-4720-8b93-3962cdd606b5` (image_id `1567999630984085504`), 1456×816, 0,12 crédit | `nV1wWtcYQD` (tuile non agrandie : `gOBflbzSXO`) | Plaine saharienne, dunes basses au premier plan, voile de sable, ciel bleu pâle, 4 camions minuscules à l'horizon, aucun texte. Réserve : soleil de dos peu marqué, à renforcer à l'étalonnage |
+
+---
+
+## ENV_03b : le sable au ras du sol (PROPOSITION, rien lancé)
+**Rôle :** plan bas pour les pieds de Yassine et l'arrivée du sable dans la fresque (S3/S4), dérivé du MASTER pour garder le même lieu. Sable de teinte naturelle (l'éclat doré est un effet).
+**Méthode :** Nano Banana 2.1 avec ENV_03_MASTER (`nV1wWtcYQD`) en référence, 16:9, **65 crédits Magnific**.
+
+**Prompt :**
+```
+Using the reference image as the exact same Saharan plain, create a low ground-level shot, the camera a few centimeters above the sand: fine pale ochre sand with delicate wind ripples and a few dry grass tufts in the foreground, soft shallow depth of field, the low dunes and the pale blue sky blurred in the background, a thin veil of sand drifting across the ground, clear sunlight from behind and to the right with short crisp shadows on the ripples. Empty, no footprints, no people, no objects. Same colors and light as the reference. Photorealistic, 35mm film grain. No text, no flags, no plastic.
+```

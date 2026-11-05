@@ -229,6 +229,33 @@ def status_write(project):
     return p
 
 
+def record(project, shot, video, qc, image=None, image_credits=65, video_credits=855, start_ref=None):
+    """One-call bookkeeping after a generation: queue, ledger, shot list, asset register, shot record, log."""
+    if image:
+        queue_done(project, shot, "image")
+    queue_done(project, shot, "video")
+    if image and image_credits:
+        ledger_add(project, "Magnific", image_credits, f"{shot} image de depart", None, image)
+    bal = ledger_add(project, "Magnific", video_credits, f"{shot} video", None, video)
+    total = (image_credits if image else 0) + video_credits
+    shot_set(project, shot, status="EN_ATTENTE_DECISION", video=video, cost_credits=str(total), notes=qc[:150])
+    a = project / "ASSET_REGISTER.csv"
+    backup(project, [a])
+    with open(a, newline="") as f:
+        rows = list(csv.reader(f))
+    start = image or start_ref or ""
+    rows.append([f"{shot}_START", "image", f"{shot} image de depart", "VALIDE", start, "", "lot autorise" if image else "image existante"])
+    rows.append([f"{shot}_VIDEO", "video", f"{shot} video", "EN_ATTENTE", video, "", ""])
+    with open(a, "w", newline="") as f:
+        csv.writer(f).writerows(rows)
+    seq = {"S1": "03_SEQUENCE_01", "S2": "04_SEQUENCE_02", "S3": "05_SEQUENCE_03", "S4": "06_SEQUENCE_04", "S5": "07_SEQUENCE_05", "S6": "08_SEQUENCE_06"}.get(shot[:2], "")
+    with open(project / seq / "SHOT_RECORDS.md", "a") as f:
+        f.write(f"\n## {shot}\n| Champ | Valeur |\n|---|---|\n| Image de départ | `{start}` ({image_credits if image else 0} cr) |\n| Vidéo | `{video}`, Kling 3.0 Omni 1080p 9 s, {video_credits} cr |\n| QC | {qc} |\n| Statut | ⏳ en attente de décision du réalisateur |\n")
+    with open(project / "production_log.md", "a") as f:
+        f.write(f"\n## {dt.date.today().isoformat()} — {shot}\n- Image {image or start_ref} + vidéo {video}, {total} crédits. QC : {qc}\n")
+    return bal
+
+
 def sync(root: Path, message: str):
     def run(*a):
         return subprocess.run(a, cwd=root, capture_output=True, text=True)
@@ -260,6 +287,7 @@ def main(argv=None):
     q = sub.add_parser("queue"); qs = q.add_subparsers(dest="sub", required=True); qs.add_parser("show"); qa = qs.add_parser("approve"); qa.add_argument("--cap", type=float, required=True); qd = qs.add_parser("done"); qd.add_argument("shot"); qd.add_argument("kind", choices=["image", "video"])
     g = sub.add_parser("guard"); g.add_argument("shot"); g.add_argument("kind", choices=["image", "video"]); g.add_argument("--est", type=float, required=True)
     sub.add_parser("check")
+    r = sub.add_parser("record"); r.add_argument("shot"); r.add_argument("--video", required=True); r.add_argument("--image"); r.add_argument("--start-ref"); r.add_argument("--image-credits", type=float, default=65); r.add_argument("--video-credits", type=float, default=855); r.add_argument("--qc", required=True)
     b = sub.add_parser("backup"); b.add_argument("files", nargs="+")
     y = sub.add_parser("sync"); y.add_argument("message")
     a = ap.parse_args(argv)
@@ -277,6 +305,8 @@ def main(argv=None):
         print(queue_show(a.project) if a.sub == "show" else (f"done {queue_done(a.project, a.shot, a.kind)}" if a.sub == "done" else f"approved {queue_approve(a.project, a.cap):g} cr"))
     elif a.cmd == "guard":
         ok, why = guard(a.project, a.shot, a.kind, a.est); print(("OK" if ok else "REFUSED") + ": " + why); sys.exit(0 if ok else 2)
+    elif a.cmd == "record":
+        print("balance:", record(a.project, a.shot, a.video, a.qc, a.image, a.image_credits, a.video_credits, a.start_ref))
     elif a.cmd == "check":
         pr = check(a.project); print("\n".join(pr) or "no problems"); sys.exit(1 if pr else 0)
     elif a.cmd == "backup":

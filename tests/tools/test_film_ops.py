@@ -72,3 +72,16 @@ def test_queue_done(tmp_path):
     p = proj2(tmp_path)
     assert fo.queue_done(p, "S1-04", "video") == 1
     assert fo.queue_done(p, "S1-04", "video") == 0
+
+
+def test_record_one_call(tmp_path):
+    p = proj2(tmp_path)
+    (p / "production_log.md").write_text("")
+    (p / "04_SEQUENCE_02").mkdir()
+    (p / "04_SEQUENCE_02" / "SHOT_RECORDS.md").write_text("")
+    (p / "QUEUE.csv").write_text("id,shot,kind,model,est_credits,approved,status\nQ1,S2-01,video,kling,855,1,PENDING\n")
+    (p / "SHOT_LIST.csv").write_text("shot,status,video,cost_credits,notes\nS2-01,A_FAIRE,,0,\n")
+    bal = fo.record(p, "S2-01", "vid1", "ok", None, 65, 855, "IMG")
+    assert bal == 145
+    assert fo.read_csv(p / "SHOT_LIST.csv")[1][0]["status"] == "EN_ATTENTE_DECISION"
+    assert fo.check(p) == []

@@ -193,3 +193,6 @@
 
 ## 2026-11-05 — ENV_02b et ENV_02c générés (séquentiel)
 - ENV_02b KL0BHjPkqp et ENV_02c WDx7GLXcXe (65 cr chacun, 130 au total), Nano Banana 2.1, référence ENV_02_MASTER lJXareYgv9. En attente de validation.
+
+## 2026-11-05 — ENV_02b et ENV_02c validés
+- Réponse : « VALIDER » (les deux). PATIO : RÉFÉRENCES TERMINÉES (ENV_02, 02b, 02c). Décors de Fès terminés. Aucune génération lancée.

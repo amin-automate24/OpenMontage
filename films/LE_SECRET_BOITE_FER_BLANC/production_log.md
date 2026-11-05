@@ -187,3 +187,6 @@
 - Tâche Midjourney 17cb0454-5a5b-4698-b7d3-d9af9b64af33 (image_id 1567997803047682048), 2048×1146, split_images était désactivé : grille importée dans Magnific (VXlPnpiMMU) puis découpée avec images_split_grid (0 crédit). Tuiles : 1=bxWdE6S5Y2, 2=rgMIq2axtc, 3=bxWdEiU5Y2, 4=jUpm5zeLD0.
 - QC : 1 = belle, banc à gauche, escalier à droite, mais bandeau sombre parasite au bord droit, bassin plat. 2 = la meilleure : fontaine zellige vert/blanc, banc à coussins, escalier de bois à droite, aucune inscription, lumière chaude de gauche. 3 = sombre, belle fontaine, lumière zénithale forte. 4 = lumineuse, escalier peu lisible à droite. Aucun texte lisible sur les 4.
 - Recommandation : 2. En attente de VALIDER N.
+
+## 2026-11-05 — ENV_02 validé
+- Décision : VALIDER 2. Upscale U2 task 1f870c31-e8bd-4256-81b7-9ef675320ccf (0,12 crédit), 1456×816, importé dans Magnific : lJXareYgv9. Aucune autre génération lancée.

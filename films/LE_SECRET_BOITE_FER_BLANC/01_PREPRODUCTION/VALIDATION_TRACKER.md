@@ -31,7 +31,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | ENV_01 | Grenier — plan large de référence | ✅ prompt validé | U1 → Magnific JNmF1txOq4 | ✅ **VALIDÉ** (choix 1) |
 | ENV_01b | Grenier — coin du coffre | méthode Nano Banana sur ENV_01 | Magnific hu6nDG3vqL | ✅ **VALIDÉ** (coffre plus clair accepté) |
 | ENV_01c | Grenier — mur nu (fresque) | méthode Nano Banana sur ENV_01 | Magnific ksToCwi16B | ✅ **VALIDÉ** |
-| ENV_02 | Patio de la maison | ✅ prompt validé | grille reçue (Magnific bxWdE6S5Y2, rgMIq2axtc, bxWdEiU5Y2, jUpm5zeLD0) ; reco 2 | ⏳ en attente |
+| ENV_02 | Patio de la maison | ✅ prompt validé | U2 → Magnific lJXareYgv9 | ✅ **VALIDÉ** (choix 2) |
 | ENV_02… | Maison/patio de Fès, désert, foule 1975 | à rédiger | — | — |
 | PRP_01 | Boîte en fer blanc fermée | ✅ validé | v1 upscalée → Magnific MBgFtiCDCm | ✅ **VALIDÉ** |
 | PRP_02 | Boîte ouverte avec les 3 objets | ✅ validé (Nano Banana 2.1 sur PRP_01, sable corrigé) | → Magnific cpj7UuQ0eP | ✅ **VALIDÉ v2** |

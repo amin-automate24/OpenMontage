@@ -38,3 +38,8 @@ Photorealistic cinematic establishing photograph of the central courtyard of a t
 ## Ensuite (après validation du plan large)
 - **ENV_02b** : coin d'ombre avec le banc, pour le grand-père (plan de lui assis, dérivé de ENV_02).
 - **ENV_02c** : le pied de l'escalier, pour le départ de Yassine (dérivé de ENV_02).
+
+## Registre
+| ID | Statut | Midjourney | Magnific | Notes |
+|---|---|---|---|---|
+| **ENV_02_MASTER** | ✅ VALIDÉ (2026-11-05), choix 2 | grille task `17cb0454-5a5b-4698-b7d3-d9af9b64af33` (image_id `1567997803047682048`) → U2 task `1f870c31-e8bd-4256-81b7-9ef675320ccf` (image_id `1567998181042552832`), 1456×816, 0,12 crédit | `lJXareYgv9` (tuile non agrandie : `rgMIq2axtc`) | Fontaine en zellige vert et blanc (grand bassin surélevé), arcs en plâtre sculpté, banc à coussins à gauche, escalier de bois à droite, lumière chaude de gauche, aucune inscription |

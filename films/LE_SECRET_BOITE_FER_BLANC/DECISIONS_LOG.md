@@ -15,3 +15,4 @@
 - 2026-11-05 S1-05, S1-07, S1-08 et S1-10 validés. S1-06 (profil non référencé, grand-père allongé) et S1-09 (perspective déformée) en attente de décision.
 - 2026-11-05 S1-09 validé tel quel. S1-06 v1 validé ET v2 de comparaison autorisée (S1-06b : grand-père assis, Yassine strictement de dos ; 920 crédits).
 - 2026-11-05 S1-06 : on retient S1-06b (79tHQW1JAL), coupée à ~5 s ; v1 non retenue. Environ 4 s à combler au montage de S1. Séquence 1 : tous les plans validés.
+- 2026-11-05 Découpage S2 (le grenier, 10 plans) et prompts préparés, non validés ; file QUEUE.csv alimentée, rien d'approuvé.

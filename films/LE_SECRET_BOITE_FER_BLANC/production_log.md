@@ -300,3 +300,6 @@
 
 ## 2026-11-05 — Séquence 1 complète
 - Décision : S1-06 option 1 (S1-06b coupée à ~5 s). Les 10 plans de S1 sont validés. Aucune génération lancée.
+
+## 2026-11-05 — Phase 3 S2
+- 04_SEQUENCE_02/05_STORYBOARD.md et 06_VIDEO_PROMPTS.md rédigés ; SHOT_LIST et QUEUE alimentés (non approuvés). Aucune génération.

@@ -10,4 +10,12 @@
 | Coût | 855 crédits Magnific |
 | Vidéo | Magnific `If4GFLQtvE` (v1) |
 | Remarques QC v1 | Push-in correct mais trop marqué (la fontaine grossit d'environ 1,6×), pas d'oiseau. Le décor dérive : dès 0,3 s le cadrage est plus large que le MASTER et les arcs, l'escalier et le banc changent de place ; le jet de la fontaine apparaît puis devient une colonne blanche en fin de plan. Pas de personne, texte ou artefact grave. Continuité du décor insuffisante pour un plan d'ouverture |
-| Statut | ⏳ en attente de décision du réalisateur (v1 non validée) |
+| Statut v1 | ❌ non retenue (dérive du décor) |
+
+### v2 (reprise 1080p, prompt resserré)
+| Champ | Valeur |
+|---|---|
+| Prompt | « Locked-off static camera… architecture strictly identical… push-in of about 3 percent… single small low spray unchanged… no people, no birds » |
+| Vidéo | Magnific `dt73qaYXSL`, 855 crédits |
+| Remarques QC v2 | Architecture stable sur 9 s (arcs, escalier à droite, banc, fontaine), jet d'eau minime, pas de colonne blanche, push-in très léger, pas d'oiseau (retiré volontairement). Réserve : le cadrage est plus large que le MASTER dès la première image (le modèle recompose légèrement) ; lumière et ambiance conservées |
+| Statut | ⏳ en attente de validation du réalisateur (recommandée) |

@@ -38,3 +38,8 @@ Photorealistic cinematic establishing photograph of the open Saharan plain in so
 ## Ensuite (après validation du plan large)
 - **ENV_03b** : le sable au ras du sol, plan bas, pour les pieds et le déclencheur magique (dérivé de ENV_03).
 - **ENV_04** : la foule de volontaires, avec garde-fous (pas de personnalité réelle, pas d'archives simulées).
+
+## Registre
+| ID | Statut | Midjourney | Magnific | Notes |
+|---|---|---|---|---|
+| **ENV_03_MASTER** | ✅ VALIDÉ (2026-11-05), choix 1 | grille task `3b1edf75-040f-4be9-90b7-e992159724e8` (image_id `1567999258685079552`) → U1 task `da686f5a-9495-4720-8b93-3962cdd606b5` (image_id `1567999630984085504`), 1456×816, 0,12 crédit | `nV1wWtcYQD` (tuile non agrandie : `gOBflbzSXO`) | Plaine saharienne, dunes basses au premier plan, voile de sable, ciel bleu pâle, 4 camions minuscules à l'horizon, aucun texte. Réserve : soleil de dos peu marqué, à renforcer à l'étalonnage |

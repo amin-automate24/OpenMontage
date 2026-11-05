@@ -204,3 +204,6 @@
 - Tâche Midjourney 3b1edf75-040f-4be9-90b7-e992159724e8 (image_id 1567999258685079552, 0,401 crédit), 2048×1146. Grille importée dans Magnific (hu6nmG7vqL), découpée gratuitement. Tuiles : 1=gOBflbzSXO, 2=P3abyLS42C, 3=1lV8kEir4r, 4=LwehjHCswO.
 - QC : aucune personne, drapeau, texte, ligne électrique ni route. 1 = dunes basses au premier plan, profondeur, voile de sable, 4 camions minuscules à l'horizon (la plus cinématographique). 2 = sable rosé, plat, ligne de camions. 3 = sable doré proche de la palette #D9B98A, plat, camions à gauche. 4 = plat, sable rosé, camions groupés au centre droit, traces de roues. Soleil de dos/droite moins net sur toutes (ombres peu marquées).
 - Recommandation : 1 ; alternative 3 (palette). En attente de VALIDER N.
+
+## 2026-11-05 — ENV_03 validé
+- Décision : VALIDER 1. Upscale U1 task da686f5a-9495-4720-8b93-3962cdd606b5 (0,12 crédit), 1456×816, importé dans Magnific : nV1wWtcYQD. Aucune autre génération lancée.

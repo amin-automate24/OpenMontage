@@ -154,3 +154,4 @@
 | 2026-11-05 | decision | Réalisateur : option B — corriger le sable de PRP_05 |
 | 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_05 v1 MBgPTFbDCm, 65 crédits → u5AVFJqQLD |
 | 2026-11-05 | qc | PRP_05 v2 : sable fin, irrégulier, presque poudreux, grains de tailles variées avec quelques grains sombres (réaliste), voile de poussière en suspension ✅ ; se lit comme du sable de dune ✅ ; même tissu, cadrage et lumière ✅ ; teinte plus ocre-ambre que dorée ⚠️ (l'éclat doré pourra être renforcé à l'étalonnage et dans les effets) |
+| 2026-11-05 | decision | Réalisateur : VALIDER PRP_05 v2 (teinte ocre-ambre conservée) |

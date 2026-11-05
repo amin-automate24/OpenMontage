@@ -141,3 +141,6 @@
 | 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_02_OPEN v2, 65 crédits → KL0XB8gkqp |
 | 2026-11-05 | qc | PRP_03 : même drapeau que la boîte ✅ ; coton usé, effilochure, petit accroc ✅ ; grains de sable sur le tissu ✅ ; étoile verte en pentagramme à contour, partiellement visible sur le pli ✅ (traits épais, entrelacement peu lisible, branches déformées par le pli ⚠️) ; bord de la boîte net au premier plan au lieu de flou (mineur) ; aucun texte |
 | 2026-11-05 | decision | Réalisateur : VALIDER PRP_03 telle quelle (étoile non corrigée) |
+| 2026-11-05 | decision | Réalisateur : option A pour PRP_04 (Coran posé seul dans la boîte) |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_02_OPEN v2, 65 crédits → jUptC0fLD0 |
+| 2026-11-05 | qc | PRP_04 : même Coran que la boîte ✅ ; couverture verte usée, tranche jaunie, posé droit avec soin ✅ ; grains de sable sur la couverture ✅ ; drapeau et sac de sable cohérents ✅ ; aucun texte lisible ✅ — MAIS le médaillon central contient des traits pseudo-calligraphiques (illisibles, pas de vraie écriture) malgré la consigne « no calligraphy » ⚠️ à arbitrer par le réalisateur (respect du livre sacré) |

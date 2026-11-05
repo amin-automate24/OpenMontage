@@ -7,3 +7,4 @@
 - 2026-11-05 S1-03 gardé en plan large (identité grand-père non fiable en plan serré).
 - 2026-11-05 Règles de sécurité fichiers : jamais d'écrasement, versions numérotées, sauvegardes dans _backups/.
 - 2026-11-05 Mode autonomie : travail opérationnel sans confirmation ; approbation seulement pour histoire/identité/dépenses significatives/irréversible. Toute génération payante reste soumise à autorisation explicite (autorisation groupée possible avec plafond).
+- 2026-11-05 Audit environnement : les images (jpg/png) et vidéos sont exclues de git (.gitignore). Les aperçus du dossier du projet ne sont donc PAS sauvegardés hors du conteneur ; les originaux restent sur Magnific (identifiants dans ASSET_REGISTER.csv). Outil ajouté : scripts/film_ops.py (planche, registre des crédits, fiche de plan, sauvegarde, commit+push). Sauvegarde externe des aperçus : en attente d'autorisation.

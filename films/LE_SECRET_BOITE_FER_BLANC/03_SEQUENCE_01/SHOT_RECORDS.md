@@ -138,3 +138,11 @@
 | Vidéo | Magnific `5jco9wfKxe`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Yassine de dos pousse la porte du grenier et entre, lumiere ambree qui s'etend au sol, costume constant, aucun visage ; limite : l'interieur reste sombre (pas de flot de lumiere dans la piece) et un petit nuage de poussiere en fin de plan ; cadrage plus large |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+- **S1-05 : ✅ VALIDÉ** par le réalisateur (2026-11-05).
+
+- **S1-07 : ✅ VALIDÉ** par le réalisateur (2026-11-05).
+
+- **S1-08 : ✅ VALIDÉ** par le réalisateur (2026-11-05).
+
+- **S1-10 : ✅ VALIDÉ** par le réalisateur (2026-11-05).

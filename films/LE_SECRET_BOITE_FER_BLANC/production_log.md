@@ -291,3 +291,6 @@
 
 ## 2026-11-05 — S1-10 (autorisation groupée S1)
 - Image aF30lDdfSh + vidéo 5jco9wfKxe, 920 crédits. QC : Yassine de dos pousse la porte du grenier et entre, lumiere ambree qui s'etend au sol, costume constant, aucun visage ; limite : l'interieur reste sombre (pas de flot de lumiere dans la piece) et un petit nuage de poussiere en fin de plan ; cadrage plus large
+
+## 2026-11-05 — Validations
+- Réalisateur : VALIDER S1-05, S1-07, S1-08, S1-10. Restent en attente : S1-06, S1-09. Aucune génération lancée.

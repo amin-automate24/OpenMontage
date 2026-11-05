@@ -3,9 +3,9 @@ S1-01,S1,0:00-0:09,Patio vide lumiere d'apres-midi push-in tres leger,ENV_02_MAS
 S1-02,S1,0:09-0:18,Fontaine macro gouttes et reflets,w4IQt107EI,jUphXBNLD0,VALIDE,920,Valide par le realisateur 2026-11-05 ; camera plus basse que l'image de depart
 S1-03,S1,0:18-0:27,Grand-pere assoupi sur banc plan large,P3a5d9542C,YMr7QgGWeC,VALIDE_PLAN_LARGE,1050,Visage trop petit pour identite ; v3 serree gOBCdN9SXO non utilisee
 S1-04,S1,0:27-0:36,Mains et chapelet,a creer,yiv54N8PW9,VALIDE,920,"Valide 2026-11-05 avec coupe de la fin vers 8,0 s au montage (geste non demande de 8,2 a 8,8 s)"
-S1-05,S1,0:36-0:45,Yassine entre dans le patio (de dos/lointain),a creer,ksTIsfm16B,EN_ATTENTE_DECISION,920,"Yassine traverse le patio de dos, costume constant, architecture stable, aucun visage ni texte ; cadrage plus large avec montants de porte des deux co"
+S1-05,S1,0:36-0:45,Yassine entre dans le patio (de dos/lointain),a creer,ksTIsfm16B,VALIDE,920,Valide par le realisateur 2026-11-05
 S1-06,S1,0:45-0:54,Yassine regarde le grand-pere puis l'escalier (de dos),a creer,CqZVKJGEEy,EN_ATTENTE_DECISION,920,"Decor stable et identique au MASTER, Yassine de dos puis profil (de 5 a 8,8 s) en tournant la tete vers l'escalier ; ATTENTION aucun profil de referen"
-S1-07,S1,0:54-1:03,Baskets sur la premiere marche,a creer,bxWBSkV5Y2,EN_ATTENTE_DECISION,920,"Jambes et baskets stables (pantalon beige, baskets blanches avec liseres bleus discrets), decor identique ; Yassine monte les marches et sort du cadre"
-S1-08,S1,1:03-1:12,Yassine monte l'escalier (de dos),a creer,9ZC1cEJNYZ,EN_ATTENTE_DECISION,920,"Yassine monte l'escalier de dos, main sur la rampe puis disparait dans l'ombre vers 8 s ; plante, zelliges et escalier stables, costume constant, aucu"
+S1-07,S1,0:54-1:03,Baskets sur la premiere marche,a creer,bxWBSkV5Y2,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-08,S1,1:03-1:12,Yassine monte l'escalier (de dos),a creer,9ZC1cEJNYZ,VALIDE,920,Valide par le realisateur 2026-11-05
 S1-09,S1,1:12-1:21,Vue plongeante du haut de l'escalier,a creer,w4IFz5v7EI,EN_ATTENTE_DECISION,920,"Main d'enfant et manche bleu marine stables sur la rampe, patio et grand-pere assis minuscule en contrebas ; DEFAUT : cadrage nettement plus large et "
-S1-10,S1,1:21-1:30,Yassine pousse la porte du grenier lumiere ambree,a creer,5jco9wfKxe,EN_ATTENTE_DECISION,920,"Yassine de dos pousse la porte du grenier et entre, lumiere ambree qui s'etend au sol, costume constant, aucun visage ; limite : l'interieur reste som"
+S1-10,S1,1:21-1:30,Yassine pousse la porte du grenier lumiere ambree,a creer,5jco9wfKxe,VALIDE,920,Valide par le realisateur 2026-11-05

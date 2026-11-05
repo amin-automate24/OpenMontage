@@ -56,6 +56,7 @@ Photorealistic cinematic prop reference photograph of an old rectangular tin box
 | **PRP_01_MASTER** | ✅ VALIDÉ (2026-11-04) | task `8ab3756e…` v1 → U1 (task `78f9c3a8-0a41-460a-809e-eb3cf7f2abd5`), image_id `1567652509986586624` | 3943399178 | `MBgFtiCDCm` (1232×928) · aperçu `PRP_01_MASTER_preview.jpg` | Motif floral vert/bordeaux lisible, rouille aux arêtes, trace de doigt dans la poussière, aucun texte |
 
 | **PRP_02_OPEN** | ✅ VALIDÉ v2 (2026-11-05) — sable corrigé | — (Midjourney Vary Region refusé : taille de canevas paysage) | — | **`cpj7UuQ0eP`** (Nano Banana 2.1, correction du sable sur la v1 `iGQ1qrd3uK`, 65 + 65 crédits Magnific) · aperçu `PRP_02_OPEN_v2_preview.jpg` | Même boîte que PRP_01. Drapeau, Coran (fermé, sans texte lisible), sable fin et granuleux dans un tissu blanc noué, quelques grains échappés jusqu'à la planche. Réserve mineure acceptée : tache de poussière répétée à l'intérieur du couvercle. v1 `iGQ1qrd3uK` remplacée |
+| **PRP_03_FLAG** | ✅ VALIDÉ (2026-11-05) | — | — | `KL0XB8gkqp` (Nano Banana 2.1, référence PRP_02_OPEN v2 `cpj7UuQ0eP`, 4:3 2k, 65 crédits Magnific) · aperçu `PRP_03_FLAG_preview.jpg` | Gros plan du drapeau plié, coton usé, effilochures, grains de sable sur le tissu, étoile verte en contour partiellement visible. Réserves acceptées : traits de l'étoile un peu épais, entrelacement peu lisible ; bord de boîte net au premier plan |
 
 ---
 

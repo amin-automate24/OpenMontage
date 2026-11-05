@@ -261,3 +261,6 @@
 
 ## 2026-11-05 — Mode autonomie, mémoire projet, prompts S1-04 à S1-10
 - Création (sans écrasement) de PROJECT_CONTEXT.md, PRODUCTION_STATUS.md, SHOT_LIST.csv, ASSET_REGISTER.csv, BUDGET.csv, DECISIONS_LOG.md ; sauvegardes dans _backups/2026-11-05/. Prompts S1-04 à S1-10 dans 03_SEQUENCE_01/06_VIDEO_PROMPTS_v2.md. Aucune génération lancée.
+
+## 2026-11-05 — S1-02 validé
+- Décision : VALIDER S1-02 (vidéo jUphXBNLD0). Aucune génération lancée.

@@ -70,4 +70,4 @@
 | Modèle / paramètres | Kling 3.0 Omni, 9 s, 16:9, 1080p, image de départ `w4IQt107EI`, sans son |
 | Vidéo | Magnific `jUphXBNLD0`, 855 crédits |
 | QC | Plan stable sur 9 s : ondulations et cercles dans l'eau verte, reflets chauds qui tremblent, quelques gouttes visibles en haut du cadre, aucun saut ni artefact, pas de texte. Écart : dès la première image, la caméra est plus basse et plus proche de l'eau que l'image de départ, le fond d'arcades est simplifié (moins de détails d'escalier et de banc) ; gouttes plus discrètes que prévu |
-| Statut | ⏳ en attente de validation du réalisateur (recommandée) |
+| Statut | ✅ **VALIDÉ v1** (2026-11-05), écart de cadrage accepté |

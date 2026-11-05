@@ -46,4 +46,4 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | — | **OBJETS : RÉFÉRENCES TERMINÉES** | | | ✅ |
 
 ## Séquences
-S1 : ✅ découpage VALIDÉ. S1-01 ✅ VALIDÉ (v2, Magnific dt73qaYXSL). S1-02 ✅ VALIDÉ (Magnific jUphXBNLD0). S1-03 ✅ VALIDÉ (plan large, Magnific YMr7QgGWeC). S1-04 à S1-10 : à faire. S2 à S6 : non commencées.
+S1 : découpage validé ; S1-01 à S1-04 ✅ VALIDÉS ; S1-05 à S1-10 générés, en attente de validation (voir SHOT_LIST.csv). S2 à S6 : non commencées.

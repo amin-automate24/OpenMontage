@@ -122,3 +122,19 @@
 | Vidéo | Magnific `9ZC1cEJNYZ`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Yassine monte l'escalier de dos, main sur la rampe puis disparait dans l'ombre vers 8 s ; plante, zelliges et escalier stables, costume constant, aucun visage ; cadrage plus large que l'image de depart |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S1-09 (lot S1)
+| Champ | Valeur |
+|---|---|
+| Image de départ | Magnific `5jcoyLhKxe` (65 cr) |
+| Vidéo | Magnific `w4IFz5v7EI`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Main d'enfant et manche bleu marine stables sur la rampe, patio et grand-pere assis minuscule en contrebas ; DEFAUT : cadrage nettement plus large et perspective deformee (grand-angle, arcades etirees) par rapport a l'image de depart ; image v1 Syou2v4Ub8 remplacee (manche jaune, forme dans le bassin) |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S1-10 (lot S1)
+| Champ | Valeur |
+|---|---|
+| Image de départ | Magnific `aF30lDdfSh` (65 cr) |
+| Vidéo | Magnific `5jco9wfKxe`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Yassine de dos pousse la porte du grenier et entre, lumiere ambree qui s'etend au sol, costume constant, aucun visage ; limite : l'interieur reste sombre (pas de flot de lumiere dans la piece) et un petit nuage de poussiere en fin de plan ; cadrage plus large |
+| Statut | ⏳ en attente de décision du réalisateur |

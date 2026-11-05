@@ -6,10 +6,10 @@
 | Références objets (6) | Terminé |
 | Références décors : grenier x3, patio x3, désert, foule | Terminé (ENV_03b sable au ras du sol : proposée, non lancée) |
 | Découpage S1 (10 plans) | Validé (silencieux, 16:9 plein cadre) |
-| Animation S1 | 2/10 validés (S1-01, S1-03) ; S1-02 vidéo générée, en attente de décision ; S1-04 à S1-10 à faire |
+| Animation S1 | 10/10 générés. Validés : S1-01 à S1-04. S1-05 à S1-10 générés (autorisation groupée), en attente de décision du réalisateur |
 | S2 à S6 | Non commencées |
 | Son, musique, montage, export | Non commencés |
 
-**Prochaine étape :** décision sur S1-02 ; autorisation groupée S1-04 à S1-10 (voir DECISIONS_LOG.md).
+**Prochaine étape :** validation des plans S1-05 à S1-10 par le réalisateur ; ensuite montage S1 et séquence 2.
 **Crédits Magnific :** voir BUDGET.csv (solde estimé 15 495).
 **Aucune génération en cours.**

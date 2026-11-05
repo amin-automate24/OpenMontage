@@ -294,3 +294,6 @@
 
 ## 2026-11-05 — Validations
 - Réalisateur : VALIDER S1-05, S1-07, S1-08, S1-10. Restent en attente : S1-06, S1-09. Aucune génération lancée.
+
+## 2026-11-05 — S1-06b (option C)
+- Image jUpvtQzLD0 + vidéo 79tHQW1JAL, 920 crédits. S1-09 validé tel quel. Solde ≈ 8 070.

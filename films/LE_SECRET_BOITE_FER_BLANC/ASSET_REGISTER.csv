@@ -26,12 +26,14 @@ S1-04_VIDEO,video,Mains et chapelet,VALIDE,yiv54N8PW9,,"coupe de fin a ~8,0 s au
 S1-05_START,image,S1-05 image de depart,VALIDE,p8Ui8usehw,,genere dans le lot S1
 S1-05_VIDEO,video,S1-05 video,VALIDE,ksTIsfm16B,,
 S1-06_START,image,S1-06 image de depart,VALIDE,N2ErGgV6D9,,genere dans le lot S1
-S1-06_VIDEO,video,S1-06 video,EN_ATTENTE,CqZVKJGEEy,,
+S1-06_VIDEO,video,S1-06 video,VALIDE,CqZVKJGEEy,,
 S1-07_START,image,S1-07 image de depart,VALIDE,iGQjcvu3uK,,genere dans le lot S1
 S1-07_VIDEO,video,S1-07 video,VALIDE,bxWBSkV5Y2,,
 S1-08_START,image,S1-08 image de depart,VALIDE,O6hbz9qynm,,genere dans le lot S1
 S1-08_VIDEO,video,S1-08 video,VALIDE,9ZC1cEJNYZ,,
 S1-09_START,image,S1-09 image de depart,VALIDE,5jcoyLhKxe,,genere dans le lot S1
-S1-09_VIDEO,video,S1-09 video,EN_ATTENTE,w4IFz5v7EI,,
+S1-09_VIDEO,video,S1-09 video,VALIDE,w4IFz5v7EI,,
 S1-10_START,image,S1-10 image de depart,VALIDE,aF30lDdfSh,,genere dans le lot S1
 S1-10_VIDEO,video,S1-10 video,VALIDE,5jco9wfKxe,,
+S1-06b_START,image,S1-06b image de depart,VALIDE,jUpvtQzLD0,,alternative a S1-06
+S1-06b_VIDEO,video,S1-06b video (alternative),EN_ATTENTE,79tHQW1JAL,,

@@ -136,3 +136,4 @@
 | 2026-11-05 | decision | Réalisateur : VALIDER + corriger le sable (revient sur la validation telle quelle) ; approche des gros plans d'objets validée |
 | 2026-11-05 | tool | Magnific Nano Banana 2.1, correction du sable sur PRP_02 (référence iGQ1qrd3uK), 65 crédits → cpj7UuQ0eP |
 | 2026-11-05 | qc | Sable désormais fin et granuleux, quelques grains s'échappent jusqu'à la planche ✅ ; reste de l'image conservé |
+| 2026-11-05 | decision | Réalisateur : OUI — PRP_02_OPEN v2 (sable corrigé, cpj7UuQ0eP) remplace la v1 |

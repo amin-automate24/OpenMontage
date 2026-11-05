@@ -303,3 +303,6 @@
 
 ## 2026-11-05 — Phase 3 S2
 - 04_SEQUENCE_02/05_STORYBOARD.md et 06_VIDEO_PROMPTS.md rédigés ; SHOT_LIST et QUEUE alimentés (non approuvés). Aucune génération.
+
+## 2026-11-05 — Téléchargement des vidéos débloqué
+- Domaines pikaso.cdnpk.net et ak-data.magnific.com autorisés. S1-01 v2 téléchargé et vérifié (image extraite à 4 s = patio validé). Aucune génération.

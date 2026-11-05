@@ -137,3 +137,6 @@
 | 2026-11-05 | tool | Magnific Nano Banana 2.1, correction du sable sur PRP_02 (référence iGQ1qrd3uK), 65 crédits → cpj7UuQ0eP |
 | 2026-11-05 | qc | Sable désormais fin et granuleux, quelques grains s'échappent jusqu'à la planche ✅ ; reste de l'image conservé |
 | 2026-11-05 | decision | Réalisateur : OUI — PRP_02_OPEN v2 (sable corrigé, cpj7UuQ0eP) remplace la v1 |
+| 2026-11-05 | decision | Réalisateur : VALIDER prompt PRP_03 (gros plan du drapeau) |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_02_OPEN v2, 65 crédits → KL0XB8gkqp |
+| 2026-11-05 | qc | PRP_03 : même drapeau que la boîte ✅ ; coton usé, effilochure, petit accroc ✅ ; grains de sable sur le tissu ✅ ; étoile verte en pentagramme à contour, partiellement visible sur le pli ✅ (traits épais, entrelacement peu lisible, branches déformées par le pli ⚠️) ; bord de la boîte net au premier plan au lieu de flou (mineur) ; aucun texte |

@@ -172,3 +172,7 @@
 ## 2026-11-05 — ENV_01 validé
 - Décision du réalisateur : VALIDER 1. Upscale U1 : task b4aa874a-a95a-418f-86bf-1c7c41d76e1e (0,12 crédit Midjourney), 1456×816. Importé dans Magnific : JNmF1txOq4.
 - Prochaines étapes proposées : ENV_01b (coin du coffre), ENV_01c (mur nu pour la fresque). Aucune génération lancée.
+
+## 2026-11-05 — ENV_01b et ENV_01c générés (séquentiel)
+- ENV_01b hu6nDG3vqL (65 cr) et ENV_01c ksToCwi16B (65 cr), Nano Banana 2.1, référence ENV_01_MASTER JNmF1txOq4. Total Magnific : 130 crédits. Dossier cible non appliqué : les résultats sont dans le projet Personnel.
+- QC : même pièce reconnaissable, aucun texte, aucun câble. Réserves : coffre ENV_01b plus clair que le MASTER ; ENV_01c lumière frontale. En attente de validation.

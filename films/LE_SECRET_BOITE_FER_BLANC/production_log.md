@@ -148,3 +148,6 @@
 | 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_04 v1 jUptC0fLD0, 65 crédits → YMrU95CWeC (l'attente du résultat a été interrompue par le réalisateur ; génération vérifiée terminée, pas de relance) |
 | 2026-11-05 | qc | PRP_04 v2 : médaillon remplacé par une étoile à huit branches entrelacée, purement géométrique ✅ ; aucun trait d'écriture, ornements d'angle en arabesques végétales ✅ ; reste de l'image conservé (livre, drapeau, sable, boîte) ✅ |
 | 2026-11-05 | decision | Réalisateur : VALIDER PRP_04 v2 (médaillon géométrique) |
+| 2026-11-05 | decision | Réalisateur : VALIDER prompt PRP_05 (gros plan du sable) |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_02_OPEN v2, 65 crédits → MBgPTFbDCm (attente interrompue par le réalisateur ; génération vérifiée terminée, pas de relance) |
+| 2026-11-05 | qc | PRP_05 : macro du sable dans le même tissu de coton blanc ✅ ; grains individuels visibles, lumière chaude de gauche ✅ ; quelques grains en suspension ✅ ; naturel, sans étincelles ✅ — MAIS grains assez gros et réguliers, aspect proche du sucre roux / semoule plutôt que d'un sable fin presque poudreux ⚠️ ; doré un peu plus pâle que dans PRP_02 ⚠️ |

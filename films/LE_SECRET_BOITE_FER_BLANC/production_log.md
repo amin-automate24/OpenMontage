@@ -218,3 +218,6 @@
 
 ## 2026-11-05 — ENV_04 validé
 - Décision : VALIDER 1. Upscale U1 task 1e53ce31-78d1-4301-b590-8de6f8855722 (0,12 crédit), 1456×816, importé dans Magnific : dt73mmpXSL. Aucune autre génération lancée. ENV_03b (sable au ras du sol) reste proposée, non validée.
+
+## 2026-11-05 — Phase 3 : découpage S1 proposé
+- 03_SEQUENCE_01/05_STORYBOARD.md rédigé (10 plans × 9 s). Aucune génération lancée. Coûts estimés : images de départ ≈ 585 cr, animation Kling ≈ 8 550 (1080p) / 6 300 (720p) en une passe.

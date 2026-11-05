@@ -46,4 +46,4 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | — | **OBJETS : RÉFÉRENCES TERMINÉES** | | | ✅ |
 
 ## Séquences
-S1 à S6 : non commencées. Le découpage ne commencera qu'après validation des références.
+S1 : découpage proposé, en attente de validation (03_SEQUENCE_01/05_STORYBOARD.md). S2 à S6 : non commencées.

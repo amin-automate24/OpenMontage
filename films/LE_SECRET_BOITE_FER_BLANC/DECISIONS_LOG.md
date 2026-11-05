@@ -1,0 +1,9 @@
+# DECISIONS_LOG
+- 2026-11-04 Bible A-I validée ; grenier = pièce haute sous la terrasse ; procédure Midjourney = connecteur MCP.
+- 2026-11-04/05 Références personnages et objets validées (voir ASSET_REGISTER.csv). Coran sans écriture. Chapelet ~99 perles accepté. Sable naturel, or en VFX.
+- 2026-11-05 Décors : grenier, patio, désert, foule validés. Foule vue de dos/de loin, aucun portrait ni personnalité réelle.
+- 2026-11-05 Découpage S1 validé ; S1 silencieuse ; 16:9 plein cadre.
+- 2026-11-05 Kling 3.0 Omni choisi pour l'animation (855 cr / 9 s en 1080p). Il élargit le cadrage : plans à visages larges ou de dos.
+- 2026-11-05 S1-03 gardé en plan large (identité grand-père non fiable en plan serré).
+- 2026-11-05 Règles de sécurité fichiers : jamais d'écrasement, versions numérotées, sauvegardes dans _backups/.
+- 2026-11-05 Mode autonomie : travail opérationnel sans confirmation ; approbation seulement pour histoire/identité/dépenses significatives/irréversible. Toute génération payante reste soumise à autorisation explicite (autorisation groupée possible avec plafond).

@@ -160,3 +160,5 @@
 | 2026-11-05 | qc | PRP_06 : bois sombre poli, patine, gland de fil sombre, planche de cèdre, lumière cohérente ✅ ; aucun métal/plastique/texte/main ✅ ; MAIS les 4 montrent environ 99 à 108 perles, pas 33 ⚠️ (99 = 3×33 = chapelet musulman complet, plausible) ; v3 la plus lisible (une boucle régulière, séparateur et gland nets) → recommandée ; v2 très dense (3 boucles) ; v4 gland éloigné |
 | 2026-11-05 | decision | Réalisateur : VALIDER PRP_06 v3 → upscale U3 (task a61734e6-b58c-465c-8e3d-d4cb8d0ae00f). Nombre de perles ≈ 99 accepté (3×33) |
 | 2026-11-05 | file | PRP_06 U3 terminé (0,12 crédit, 1232×928) → Magnific u5AVLoyQLD = PRP_06_TASBIH. Références des objets TERMINÉES |
+| 2026-11-05 | decision | Réalisateur : VALIDER le passage aux décors, en commençant par le grenier |
+| 2026-11-05 | op | Fiche du grenier (ENV_01) et prompt Midjourney (plan large 16:9, fenêtre à gauche) rédigés — aucune génération. Note : le connecteur Midjourney est en cours de reconnexion à l'instant |

@@ -306,3 +306,6 @@
 
 ## 2026-11-05 — Téléchargement des vidéos débloqué
 - Domaines pikaso.cdnpk.net et ak-data.magnific.com autorisés. S1-01 v2 téléchargé et vérifié (image extraite à 4 s = patio validé). Aucune génération.
+
+## 2026-11-05 — Montage S1 v1
+- 10 plans téléchargés (09_MAGNIFIC_GENERATIONS/S1/), assemblés en 12_EDITING/S1_rough_cut_v1.mp4 : 85,33 s, H.264 1920x1080 24 i/s, 2 048 images. Contrôles : pas de noir, pas d'image figée. Aucune génération, aucun crédit.

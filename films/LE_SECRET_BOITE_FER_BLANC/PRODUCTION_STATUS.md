@@ -8,7 +8,8 @@
 | Découpage S1 (10 plans) | Validé (silencieux, 16:9 plein cadre) |
 | Animation S1 | 10/10 générés et VALIDÉS. Validés : S1-01 à S1-05, S1-07, S1-08, S1-10. tous validés (S1-06 = S1-06b coupée à ~5 s) |
 | S2 à S6 | Non commencées |
-| Son, musique, montage, export | Non commencés |
+| Montage S1 | Premier montage v1 réalisé (85,33 s, sans son), en attente de validation |
+| Son, musique, export | Non commencés |
 
 **Prochaine étape :** validation des plans S1-05 à S1-10 par le réalisateur ; ensuite montage S1 et séquence 2.
 **Crédits Magnific :** voir BUDGET.csv (solde estimé 15 495).

@@ -8,7 +8,10 @@ to <project>/_backups/<date>/. Read-only commands: status, ledger show.
   film_ops.py ledger add --tool Magnific --credits 855 --item "S1-02 video" [--balance N] [--note ..]
   film_ops.py ledger show
   film_ops.py shot set S1-02 --status VALIDE [--video ID] [--cost N] [--note ..]
-  film_ops.py status
+  film_ops.py status [--write]        (--write: PRODUCTION_STATUS_AUTO.md)
+  film_ops.py queue show | approve --cap N   (grouped director approval)
+  film_ops.py guard S1-04 video --est 855     (refuses duplicates/unapproved/over budget)
+  film_ops.py check                           (consistency lint of the CSVs)
   film_ops.py backup FILE...
   film_ops.py sync "commit message"
 """
@@ -126,6 +129,87 @@ def status(project) -> str:
             f"pending decisions: {[s['shot'] for s in shots if s['status'].startswith('EN_ATTENTE')]}")
 
 
+ALLOWED_STATUS = {"A_FAIRE", "EN_COURS", "EN_ATTENTE", "EN_ATTENTE_DECISION", "VALIDE", "VALIDE_PLAN_LARGE", "REFUSE"}
+
+
+def queue_rows(project):
+    p = project / "QUEUE.csv"
+    return read_csv(p) if p.exists() else (["id", "shot", "kind", "model", "est_credits", "approved", "status"], [])
+
+
+def queue_show(project):
+    _, rows = queue_rows(project)
+    pend = [r for r in rows if r["status"] == "PENDING"]
+    tot = sum(float(r["est_credits"]) for r in pend)
+    app = sum(float(r["est_credits"]) for r in pend if r["approved"] == "1")
+    return f"pending: {len(pend)} items | estimated {tot:g} cr | approved {app:g} cr | balance {balances(read_csv(project / 'BUDGET.csv')[1])}"
+
+
+def queue_approve(project, cap):
+    """Approve pending items in order until the cumulative estimate reaches cap (director's grouped approval)."""
+    fields, rows = queue_rows(project)
+    backup(project, [project / "QUEUE.csv"])
+    run = 0.0
+    for r in rows:
+        if r["status"] == "PENDING" and r["approved"] != "1":
+            if run + float(r["est_credits"]) > cap:
+                break
+            r["approved"] = "1"; run += float(r["est_credits"])
+    write_csv(project / "QUEUE.csv", fields, rows)
+    return run
+
+
+def guard(project, shot, kind, est):
+    """Duplicate / budget / approval check BEFORE any paid generation. Returns (ok, reason)."""
+    _, shots = read_csv(project / "SHOT_LIST.csv")
+    row = next((r for r in shots if r["shot"] == shot), None)
+    if row is None:
+        return False, f"unknown shot {shot}"
+    if kind == "video" and row["status"].startswith("VALIDE"):
+        return False, f"{shot} already validated ({row['video']}): no regeneration without explicit reason"
+    bal = balances(read_csv(project / "BUDGET.csv")[1])
+    if bal is not None and est > bal:
+        return False, f"estimate {est:g} exceeds balance {bal:g}"
+    _, q = queue_rows(project)
+    item = next((r for r in q if r["shot"] == shot and r["kind"] == kind and r["status"] == "PENDING"), None)
+    if item is None:
+        return False, f"{shot}/{kind} not in QUEUE.csv"
+    if item["approved"] != "1":
+        return False, f"{shot}/{kind} not approved by the director"
+    return True, "ok"
+
+
+def check(project):
+    problems = []
+    _, assets = read_csv(project / "ASSET_REGISTER.csv")
+    ids = [a["id"] for a in assets]
+    problems += [f"duplicate asset id {i}" for i in set(ids) if ids.count(i) > 1]
+    mg = {a["magnific_id"] for a in assets if a["magnific_id"]}
+    _, shots = read_csv(project / "SHOT_LIST.csv")
+    for s in shots:
+        if s["status"] not in ALLOWED_STATUS:
+            problems.append(f"{s['shot']}: unknown status {s['status']}")
+        v = s["video"].split(" ")[0]
+        if v and v != "a" and v not in mg:
+            problems.append(f"{s['shot']}: video {v} missing from ASSET_REGISTER")
+    _, bud = read_csv(project / "BUDGET.csv")
+    for r in bud:
+        try:
+            float(r["credits_spent"])
+        except ValueError:
+            problems.append(f"budget row not numeric: {r['item']}")
+    return problems
+
+
+def status_write(project):
+    p = project / "PRODUCTION_STATUS_AUTO.md"
+    if p.exists():
+        backup(project, [p])
+    p.write_text("# PRODUCTION_STATUS_AUTO (genere par film_ops status --write, ne pas editer)\n\n```\n"
+                 + status(project) + "\n```\n\n" + queue_show(project) + "\n")
+    return p
+
+
 def sync(root: Path, message: str):
     def run(*a):
         return subprocess.run(a, cwd=root, capture_output=True, text=True)
@@ -153,7 +237,10 @@ def main(argv=None):
     ls.add_parser("show")
     s = sub.add_parser("shot"); ss = s.add_subparsers(dest="sub", required=True)
     st = ss.add_parser("set"); st.add_argument("shot"); st.add_argument("--status"); st.add_argument("--video"); st.add_argument("--cost"); st.add_argument("--notes")
-    sub.add_parser("status")
+    sw = sub.add_parser("status"); sw.add_argument("--write", action="store_true")
+    q = sub.add_parser("queue"); qs = q.add_subparsers(dest="sub", required=True); qs.add_parser("show"); qa = qs.add_parser("approve"); qa.add_argument("--cap", type=float, required=True)
+    g = sub.add_parser("guard"); g.add_argument("shot"); g.add_argument("kind", choices=["image", "video"]); g.add_argument("--est", type=float, required=True)
+    sub.add_parser("check")
     b = sub.add_parser("backup"); b.add_argument("files", nargs="+")
     y = sub.add_parser("sync"); y.add_argument("message")
     a = ap.parse_args(argv)
@@ -166,7 +253,13 @@ def main(argv=None):
     elif a.cmd == "shot":
         print(shot_set(a.project, a.shot, status=a.status, video=a.video, cost_credits=a.cost, notes=a.notes))
     elif a.cmd == "status":
-        print(status(a.project))
+        print(status_write(a.project) if a.write else status(a.project))
+    elif a.cmd == "queue":
+        print(queue_show(a.project) if a.sub == "show" else f"approved {queue_approve(a.project, a.cap):g} cr")
+    elif a.cmd == "guard":
+        ok, why = guard(a.project, a.shot, a.kind, a.est); print(("OK" if ok else "REFUSED") + ": " + why); sys.exit(0 if ok else 2)
+    elif a.cmd == "check":
+        pr = check(a.project); print("\n".join(pr) or "no problems"); sys.exit(1 if pr else 0)
     elif a.cmd == "backup":
         print(*backup(a.project, a.files), sep="\n")
     elif a.cmd == "sync":

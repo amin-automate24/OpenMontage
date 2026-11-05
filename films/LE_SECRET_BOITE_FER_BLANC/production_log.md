@@ -309,3 +309,6 @@
 
 ## 2026-11-05 — Montage S1 v1
 - 10 plans téléchargés (09_MAGNIFIC_GENERATIONS/S1/), assemblés en 12_EDITING/S1_rough_cut_v1.mp4 : 85,33 s, H.264 1920x1080 24 i/s, 2 048 images. Contrôles : pas de noir, pas d'image figée. Aucune génération, aucun crédit.
+
+## 2026-11-05 — Crédits chargés, S2 validé
+- account_balance : 53 070 crédits, offre Plus, dépensé 0. Découpage S2 validé. Montage S1 : MODIFIER demandé, détails attendus. Aucune génération lancée.

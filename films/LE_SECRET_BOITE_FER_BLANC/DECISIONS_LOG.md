@@ -18,3 +18,4 @@
 - 2026-11-05 Découpage S2 (le grenier, 10 plans) et prompts préparés, non validés ; file QUEUE.csv alimentée, rien d'approuvé.
 - 2026-11-05 Réseau : l'environnement « OpenMontage » autorise maintenant pikaso.cdnpk.net et ak-data.magnific.com (approuvé par le réalisateur) pour télécharger les vidéos. Test : S1-01 v2 téléchargé dans 09_MAGNIFIC_GENERATIONS/S1/ (H.264, 1924x1076, 24 i/s, 9,04 s), contenu vérifié. Les vidéos restent hors git.
 - 2026-11-05 Montage S1 v1 : option a) retenue (S1-06b coupée à 5 s, séquence 85,33 s sans comblement) ; coupes franches, fondu 0,5 s en entrée et sortie. film_studio.py qc refuse le nom de dossier (kebab-case exigé) : contrôles faits avec FFmpeg (noir, images figées).
+- 2026-11-05 Découpage S2 VALIDÉ. Crédits chargés : solde réel 53 070 (offre Plus). Montage S1 v1 : le réalisateur demande une MODIFICATION (contenu à préciser, pas encore indiqué).

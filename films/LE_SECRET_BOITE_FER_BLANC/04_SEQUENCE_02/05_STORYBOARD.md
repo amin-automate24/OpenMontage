@@ -1,6 +1,6 @@
 # S2 — LE GRENIER : découpage (01:30 → 03:00 du film)
 
-> Statut : **PROPOSITION, en attente de validation.** Aucune image ni vidéo générée.
+> Statut : ✅ **VALIDÉ (2026-11-05).** Aucune image ni vidéo générée (autorisation de génération à donner séparément).
 > 10 plans x 9 s = 90 s. 16:9 plein cadre. Séquence silencieuse (comme S1). Présent, grenier.
 
 ## Intention

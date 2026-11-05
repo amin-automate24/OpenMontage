@@ -66,3 +66,9 @@ def test_malformed_csv_is_detected(tmp_path):
     (tmp_path / "x.csv").write_text("a,b\n1,2,3\n")
     with pytest.raises(SystemExit):
         fo.read_csv(tmp_path / "x.csv")
+
+
+def test_queue_done(tmp_path):
+    p = proj2(tmp_path)
+    assert fo.queue_done(p, "S1-04", "video") == 1
+    assert fo.queue_done(p, "S1-04", "video") == 0

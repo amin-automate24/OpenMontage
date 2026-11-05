@@ -167,6 +167,17 @@ def queue_approve(project, cap):
     return run
 
 
+def queue_done(project, shot, kind):
+    fields, rows = queue_rows(project)
+    backup(project, [project / "QUEUE.csv"])
+    n = 0
+    for r in rows:
+        if r["shot"] == shot and r["kind"] == kind and r["status"] == "PENDING":
+            r["status"] = "DONE"; n += 1
+    write_csv(project / "QUEUE.csv", fields, rows)
+    return n
+
+
 def guard(project, shot, kind, est):
     """Duplicate / budget / approval check BEFORE any paid generation. Returns (ok, reason)."""
     _, shots = read_csv(project / "SHOT_LIST.csv")
@@ -246,7 +257,7 @@ def main(argv=None):
     s = sub.add_parser("shot"); ss = s.add_subparsers(dest="sub", required=True)
     st = ss.add_parser("set"); st.add_argument("shot"); st.add_argument("--status"); st.add_argument("--video"); st.add_argument("--cost"); st.add_argument("--notes")
     sw = sub.add_parser("status"); sw.add_argument("--write", action="store_true")
-    q = sub.add_parser("queue"); qs = q.add_subparsers(dest="sub", required=True); qs.add_parser("show"); qa = qs.add_parser("approve"); qa.add_argument("--cap", type=float, required=True)
+    q = sub.add_parser("queue"); qs = q.add_subparsers(dest="sub", required=True); qs.add_parser("show"); qa = qs.add_parser("approve"); qa.add_argument("--cap", type=float, required=True); qd = qs.add_parser("done"); qd.add_argument("shot"); qd.add_argument("kind", choices=["image", "video"])
     g = sub.add_parser("guard"); g.add_argument("shot"); g.add_argument("kind", choices=["image", "video"]); g.add_argument("--est", type=float, required=True)
     sub.add_parser("check")
     b = sub.add_parser("backup"); b.add_argument("files", nargs="+")
@@ -263,7 +274,7 @@ def main(argv=None):
     elif a.cmd == "status":
         print(status_write(a.project) if a.write else status(a.project))
     elif a.cmd == "queue":
-        print(queue_show(a.project) if a.sub == "show" else f"approved {queue_approve(a.project, a.cap):g} cr")
+        print(queue_show(a.project) if a.sub == "show" else (f"done {queue_done(a.project, a.shot, a.kind)}" if a.sub == "done" else f"approved {queue_approve(a.project, a.cap):g} cr"))
     elif a.cmd == "guard":
         ok, why = guard(a.project, a.shot, a.kind, a.est); print(("OK" if ok else "REFUSED") + ": " + why); sys.exit(0 if ok else 2)
     elif a.cmd == "check":

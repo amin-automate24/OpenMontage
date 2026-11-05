@@ -1,6 +1,6 @@
 id,shot,kind,model,est_credits,approved,status
 Q01,S1-04,image,imagen-nano-banana-2-1,65,1,DONE
-Q02,S1-04,video,kling-omni3 1080p 9s,855,0,PENDING
+Q02,S1-04,video,kling-omni3 1080p 9s,855,1,DONE
 Q03,S1-05,image,imagen-nano-banana-2-1,65,0,PENDING
 Q04,S1-05,video,kling-omni3 1080p 9s,855,0,PENDING
 Q05,S1-06,image,imagen-nano-banana-2-1,65,0,PENDING

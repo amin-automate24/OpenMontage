@@ -81,3 +81,12 @@
 | Image | Magnific `ksT85Ch16B` (aperçu `S1-04_start_v1_preview.jpg`) |
 | QC | Deux mains âgées (5 doigts chacune, anatomie plausible, taches de vieillesse), l'une égrène le chapelet en bois sombre avec gland, l'autre posée sur la djellaba brun grisé. Alcôve en zellige vert et blanc floue à gauche. Pas de visage, bague, montre ni texte. Mains plus grandes dans le cadre que prévu (plan serré, bon pour un insert) |
 | Statut | ⏳ en attente de validation du réalisateur |
+| Statut image v1 | ✅ **VALIDÉE** (2026-11-05) |
+
+### S1-04 Vidéo v1
+| Champ | Valeur |
+|---|---|
+| Modèle / paramètres | Kling 3.0 Omni, 9 s, 16:9, 1080p, image de départ `ksT85Ch16B`, sans son |
+| Vidéo | Magnific `yiv54N8PW9`, 855 crédits (solde ≈ 14 575, calcul) |
+| QC | De 0 à 7,6 s : les perles glissent entre les doigts de façon crédible, la main au repos garde cinq doigts et sa forme, alcôve stable, aucun visage ni texte. Défauts : cadrage plus large que l'image de départ (on voit davantage le genou) ; dans la dernière seconde (8,2 à 8,8 s) la main qui tient le chapelet se lève et s'ouvre, geste non demandé, avec doigts un peu allongés. Utilisable en coupant la fin vers 8 s (ou en gardant le geste comme image de l'assoupissement) |
+| Statut | ⏳ en attente de décision du réalisateur |

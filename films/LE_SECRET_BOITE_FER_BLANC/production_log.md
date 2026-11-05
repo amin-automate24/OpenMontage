@@ -162,3 +162,4 @@
 | 2026-11-05 | file | PRP_06 U3 terminé (0,12 crédit, 1232×928) → Magnific u5AVLoyQLD = PRP_06_TASBIH. Références des objets TERMINÉES |
 | 2026-11-05 | decision | Réalisateur : VALIDER le passage aux décors, en commençant par le grenier |
 | 2026-11-05 | op | Fiche du grenier (ENV_01) et prompt Midjourney (plan large 16:9, fenêtre à gauche) rédigés — aucune génération. Note : le connecteur Midjourney est en cours de reconnexion à l'instant |
+| 2026-11-05 | tool | Réalisateur : VALIDER prompt ENV_01 (grenier) → Midjourney V8.2 fast 16:9, task 381ab97a-334a-4505-b2ed-ba4bac27c4bc |

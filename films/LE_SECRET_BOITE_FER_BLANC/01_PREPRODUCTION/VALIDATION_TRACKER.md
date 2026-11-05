@@ -34,7 +34,7 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | PRP_03 | Drapeau, gros plan | ✅ validé (Nano Banana 2.1 sur PRP_02) | → Magnific KL0XB8gkqp | ✅ **VALIDÉ** |
 | PRP_04 | Coran de poche, gros plan | ✅ validé (médaillon géométrique) | → Magnific YMrU95CWeC | ✅ **VALIDÉ v2** |
 | PRP_05 | Sable, gros plan | ✅ validé (grains fins de dune) | → Magnific u5AVFJqQLD | ✅ **VALIDÉ v2** |
-| PRP_06 | Chapelet en bois | planifié | — | — |
+| PRP_06 | Chapelet en bois | ✅ prompt validé | génération en cours | — |
 
 ## Séquences
 S1 à S6 : non commencées. Le découpage ne commencera qu'après validation des références.

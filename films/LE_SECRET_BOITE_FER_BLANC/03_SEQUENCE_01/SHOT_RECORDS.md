@@ -45,3 +45,11 @@
 | Vidéo | Magnific `YMr7QgGWeC`, 855 crédits |
 | QC | Pose, vêtements, banc et alcôve stables sur 9 s, aucune dérive visible de silhouette, mouvement très discret (pas de saut). Écart : le cadre est beaucoup plus large que l'image de départ (plan moyen devenu plan large : le grand-père occupe environ un sixième de la hauteur), donc visage trop petit pour vérifier l'identité et la respiration/les paupières ; la fontaine est plus présente. Même recomposition que S1-01 |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+### Image de départ v3 (plus serrée, pour reprise)
+| Champ | Valeur |
+|---|---|
+| Méthode | Nano Banana 2.1 sur v2 `P3a5d9542C` + GPA_01, 65 crédits |
+| Image | Magnific `gOBCdN9SXO` (aperçu `S1-03_start_v3_tight_preview.jpg`) |
+| QC | Plan taille-haut, trois-quarts, yeux fermés, expression paisible, chapelet entre les mains, alcôve floutée. Djellaba brun grisé avec capuche, chemise blanche, sans calotte. Ressemblance avec GPA_01 : approximative (cheveux gris courts, moustache blanche, visage maigre et ridé) mais le grain de beauté sous l'œil gauche est absent, la ligne de cheveux moins dégarnie et le nez moins aquilin. Identité non garantie |
+| Statut | ⏳ en attente de décision du réalisateur |

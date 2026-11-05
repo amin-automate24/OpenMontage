@@ -246,3 +246,6 @@
 ## 2026-11-05 — S1-03 vidéo v1 (Kling 3.0 Omni, 1080p, 9 s)
 - Autorisation : « VALIDER IMAGE v2 + LANCER VIDEO ». Image v2 P3a5d9542C validée. Creation YMr7QgGWeC, 855 crédits (solde ≈ 16 480).
 - QC : stable mais cadrage recomposé plus large que l'image de départ ; visage trop petit pour juger l'identité. En attente de décision.
+
+## 2026-11-05 — S1-03 image de départ v3 (serrée)
+- Autorisation : « REPRISE SERRÉE ». Creation gOBCdN9SXO, 65 crédits (solde ≈ 16 415). Cadrage serré obtenu ; ressemblance approximative, grain de beauté absent. Aucune vidéo lancée.

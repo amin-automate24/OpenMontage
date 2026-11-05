@@ -71,3 +71,13 @@
 | Vidéo | Magnific `jUphXBNLD0`, 855 crédits |
 | QC | Plan stable sur 9 s : ondulations et cercles dans l'eau verte, reflets chauds qui tremblent, quelques gouttes visibles en haut du cadre, aucun saut ni artefact, pas de texte. Écart : dès la première image, la caméra est plus basse et plus proche de l'eau que l'image de départ, le fond d'arcades est simplifié (moins de détails d'escalier et de banc) ; gouttes plus discrètes que prévu |
 | Statut | ✅ **VALIDÉ v1** (2026-11-05), écart de cadrage accepté |
+
+## S1-04 — mains et chapelet
+### Image de départ v1
+| Champ | Valeur |
+|---|---|
+| Références | PRP_06 `u5AVLoyQLD`, ENV_02b `KL0BHjPkqp` |
+| Méthode | Nano Banana 2.1, 16:9, 65 crédits |
+| Image | Magnific `ksT85Ch16B` (aperçu `S1-04_start_v1_preview.jpg`) |
+| QC | Deux mains âgées (5 doigts chacune, anatomie plausible, taches de vieillesse), l'une égrène le chapelet en bois sombre avec gland, l'autre posée sur la djellaba brun grisé. Alcôve en zellige vert et blanc floue à gauche. Pas de visage, bague, montre ni texte. Mains plus grandes dans le cadre que prévu (plan serré, bon pour un insert) |
+| Statut | ⏳ en attente de validation du réalisateur |

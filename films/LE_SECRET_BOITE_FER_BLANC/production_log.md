@@ -264,3 +264,6 @@
 
 ## 2026-11-05 — S1-02 validé
 - Décision : VALIDER S1-02 (vidéo jUphXBNLD0). Aucune génération lancée.
+
+## 2026-11-05 — S1-04 image de départ v1
+- Autorisation : « IMAGE S1-04 » (élément Q01 approuvé dans QUEUE.csv, guard OK). Creation ksT85Ch16B, 65 crédits (solde ≈ 15 430, calcul). Vidéo non lancée.

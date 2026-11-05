@@ -2,7 +2,7 @@ shot,sequence,time,description,start_image,video,status,cost_credits,notes
 S1-01,S1,0:00-0:09,Patio vide lumiere d'apres-midi push-in tres leger,ENV_02_MASTER lJXareYgv9,dt73qaYXSL (v2),VALIDE,1710,v1 If4GFLQtvE non retenue (derive decor)
 S1-02,S1,0:09-0:18,Fontaine macro gouttes et reflets,w4IQt107EI,jUphXBNLD0,VALIDE,920,Valide par le realisateur 2026-11-05 ; camera plus basse que l'image de depart
 S1-03,S1,0:18-0:27,Grand-pere assoupi sur banc plan large,P3a5d9542C,YMr7QgGWeC,VALIDE_PLAN_LARGE,1050,Visage trop petit pour identite ; v3 serree gOBCdN9SXO non utilisee
-S1-04,S1,0:27-0:36,Mains et chapelet,a creer,a creer,A_FAIRE,0,
+S1-04,S1,0:27-0:36,Mains et chapelet,a creer,a creer,EN_ATTENTE_DECISION,65,"image de depart ksT85Ch16B generee, video non lancee"
 S1-05,S1,0:36-0:45,Yassine entre dans le patio (de dos/lointain),a creer,a creer,A_FAIRE,0,
 S1-06,S1,0:45-0:54,Yassine regarde le grand-pere puis l'escalier (de dos),a creer,a creer,A_FAIRE,0,
 S1-07,S1,0:54-1:03,Baskets sur la premiere marche,a creer,a creer,A_FAIRE,0,

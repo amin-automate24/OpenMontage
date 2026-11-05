@@ -239,3 +239,6 @@
 
 ## 2026-11-05 — S1-03 image de départ v1
 - Autorisation : « VALIDER IMAGE S1-03 ». Creation tC9zsgymZJ, 65 crédits (solde ≈ 17 400). QC : voir SHOT_RECORDS.md. Aucune vidéo lancée.
+
+## 2026-11-05 — S1-03 image de départ v2
+- Autorisation : « MODIFIER IMAGE ». Creation P3a5d9542C, 65 crédits (solde ≈ 17 335). Yeux mi-clos obtenus, visage encore peu dans l'ombre. Aucune vidéo lancée.

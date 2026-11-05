@@ -28,4 +28,12 @@
 | Méthode | Nano Banana 2.1, 16:9, 65 crédits |
 | Image | Magnific `tC9zsgymZJ` (aperçu `S1-03_start_v1_preview.jpg`) |
 | QC | Alcôve fidèle à ENV_02b ; djellaba brun grisé, chemise blanche, sans taqiya, cheveux gris argenté, moustache claire, chapelet long tenu à deux mains. Visage petit à cette distance : identité plausible mais grain de beauté non vérifiable. Écart : yeux ouverts, regard vers la gauche (pas encore assoupi), visage éclairé et non dans l'ombre. Fontaine visible en bas à droite (plus proche que dans le MASTER) |
+| Statut v1 | ↪ remplacée par v2 sur demande (MODIFIER IMAGE) |
+
+### Image de départ v2
+| Champ | Valeur |
+|---|---|
+| Méthode | Nano Banana 2.1 sur v1 `tC9zsgymZJ` + GPA_01, 65 crédits |
+| Image | Magnific `P3a5d9542C` (aperçu `S1-03_start_v2_preview.jpg`) |
+| QC | Composition, vêtements, chapelet et décor identiques à la v1. Tête un peu baissée, paupières mi-closes, expression calme. Éclairage du visage peu modifié (changement subtil). Grain de beauté non vérifiable à cette distance |
 | Statut | ⏳ en attente de validation du réalisateur |

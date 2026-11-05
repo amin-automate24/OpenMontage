@@ -65,15 +65,23 @@ def contact_sheet(out: Path, images, cols=2, cell=(1024, 573)) -> Path:
 def read_csv(p: Path):
     with open(p, newline="") as f:
         r = csv.DictReader(f)
-        return r.fieldnames, list(r)
+        rows = list(r)
+    bad = [i + 2 for i, row in enumerate(rows) if None in row]
+    if bad:
+        raise SystemExit(f"{p.name}: malformed rows (unquoted comma?) at lines {bad}")
+    return r.fieldnames, rows
 
 
 def write_csv(p: Path, fields, rows):
     tmp = p.with_suffix(p.suffix + ".tmp")
-    with open(tmp, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=fields)
-        w.writeheader(); w.writerows(rows)
-    tmp.replace(p)
+    try:
+        with open(tmp, "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=fields)
+            w.writeheader(); w.writerows(rows)
+        tmp.replace(p)
+    except Exception:
+        tmp.unlink(missing_ok=True)  # only the partial temp file created by this very call
+        raise
 
 
 def balances(rows, tool="Magnific"):

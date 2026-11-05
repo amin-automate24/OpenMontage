@@ -59,3 +59,10 @@ def test_queue_cap_and_check(tmp_path):
     assert fo.queue_approve(p, 100) == 0
     assert fo.check(p) == []
     assert fo.status_write(p).name == "PRODUCTION_STATUS_AUTO.md"
+
+
+def test_malformed_csv_is_detected(tmp_path):
+    import pytest
+    (tmp_path / "x.csv").write_text("a,b\n1,2,3\n")
+    with pytest.raises(SystemExit):
+        fo.read_csv(tmp_path / "x.csv")

@@ -258,3 +258,6 @@
 
 ## 2026-11-05 — S1-02 vidéo v1 (Kling 3.0 Omni, 1080p, 9 s)
 - Autorisation : « VALIDER IMAGE + LANCER VIDÉO S1-02 ». Creation jUphXBNLD0, 855 crédits (solde ≈ 15 495). QC : stable, reflets et ondulations, gouttes discrètes, fond simplifié. Recommandée ; en attente de validation.
+
+## 2026-11-05 — Mode autonomie, mémoire projet, prompts S1-04 à S1-10
+- Création (sans écrasement) de PROJECT_CONTEXT.md, PRODUCTION_STATUS.md, SHOT_LIST.csv, ASSET_REGISTER.csv, BUDGET.csv, DECISIONS_LOG.md ; sauvegardes dans _backups/2026-11-05/. Prompts S1-04 à S1-10 dans 03_SEQUENCE_01/06_VIDEO_PROMPTS_v2.md. Aucune génération lancée.

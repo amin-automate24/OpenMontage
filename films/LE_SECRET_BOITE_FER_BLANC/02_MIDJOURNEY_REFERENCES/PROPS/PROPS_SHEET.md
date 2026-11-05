@@ -55,6 +55,8 @@ Photorealistic cinematic prop reference photograph of an old rectangular tin box
 |---|---|---|---|---|---|
 | **PRP_01_MASTER** | ✅ VALIDÉ (2026-11-04) | task `8ab3756e…` v1 → U1 (task `78f9c3a8-0a41-460a-809e-eb3cf7f2abd5`), image_id `1567652509986586624` | 3943399178 | `MBgFtiCDCm` (1232×928) · aperçu `PRP_01_MASTER_preview.jpg` | Motif floral vert/bordeaux lisible, rouille aux arêtes, trace de doigt dans la poussière, aucun texte |
 
+| **PRP_02_OPEN** | ✅ VALIDÉ (2026-11-05) telle quelle | — (Midjourney Vary Region refusé : taille de canevas paysage) | — | `iGQ1qrd3uK` (Nano Banana 2.1, référence PRP_01_MASTER, 4:3 2k, 65 crédits Magnific) · aperçu `PRP_02_OPEN_preview.jpg` | Même boîte que PRP_01. Drapeau, Coran (fermé, sans texte lisible), sable dans un tissu blanc noué. Réserves acceptées : sable d'aspect un peu métallique, tache de poussière répétée à l'intérieur du couvercle |
+
 ---
 
 ## PRP_02 : boîte ouverte avec les trois objets (proposition)

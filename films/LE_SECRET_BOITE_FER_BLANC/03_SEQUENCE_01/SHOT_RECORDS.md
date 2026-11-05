@@ -36,4 +36,12 @@
 | Méthode | Nano Banana 2.1 sur v1 `tC9zsgymZJ` + GPA_01, 65 crédits |
 | Image | Magnific `P3a5d9542C` (aperçu `S1-03_start_v2_preview.jpg`) |
 | QC | Composition, vêtements, chapelet et décor identiques à la v1. Tête un peu baissée, paupières mi-closes, expression calme. Éclairage du visage peu modifié (changement subtil). Grain de beauté non vérifiable à cette distance |
-| Statut | ⏳ en attente de validation du réalisateur |
+| Statut | ✅ **VALIDÉE** (2026-11-05) |
+
+### Vidéo v1
+| Champ | Valeur |
+|---|---|
+| Modèle / paramètres | Kling 3.0 Omni, 9 s, 16:9, 1080p, image de départ `P3a5d9542C`, sans son |
+| Vidéo | Magnific `YMr7QgGWeC`, 855 crédits |
+| QC | Pose, vêtements, banc et alcôve stables sur 9 s, aucune dérive visible de silhouette, mouvement très discret (pas de saut). Écart : le cadre est beaucoup plus large que l'image de départ (plan moyen devenu plan large : le grand-père occupe environ un sixième de la hauteur), donc visage trop petit pour vérifier l'identité et la respiration/les paupières ; la fontaine est plus présente. Même recomposition que S1-01 |
+| Statut | ⏳ en attente de décision du réalisateur |

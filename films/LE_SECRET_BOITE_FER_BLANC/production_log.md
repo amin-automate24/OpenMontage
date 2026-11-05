@@ -242,3 +242,7 @@
 
 ## 2026-11-05 — S1-03 image de départ v2
 - Autorisation : « MODIFIER IMAGE ». Creation P3a5d9542C, 65 crédits (solde ≈ 17 335). Yeux mi-clos obtenus, visage encore peu dans l'ombre. Aucune vidéo lancée.
+
+## 2026-11-05 — S1-03 vidéo v1 (Kling 3.0 Omni, 1080p, 9 s)
+- Autorisation : « VALIDER IMAGE v2 + LANCER VIDEO ». Image v2 P3a5d9542C validée. Creation YMr7QgGWeC, 855 crédits (solde ≈ 16 480).
+- QC : stable mais cadrage recomposé plus large que l'image de départ ; visage trop petit pour juger l'identité. En attente de décision.

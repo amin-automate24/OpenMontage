@@ -179,3 +179,6 @@
 
 ## 2026-11-05 — ENV_01b et ENV_01c validés
 - Réponse du réalisateur : « VALIDER » (les deux). Réserve acceptée : coffre ENV_01b plus clair que le MASTER (à corriger en VFX/étalonnage si besoin). GRENIER : RÉFÉRENCES TERMINÉES. Aucune génération lancée.
+
+## 2026-11-05 — ENV_02 patio : fiche et prompt proposés
+- Fiche ENV_02_PATIO_SHEET.md rédigée (bible C). Aucune génération lancée, en attente du VALIDER du prompt.

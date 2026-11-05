@@ -210,3 +210,8 @@
 
 ## 2026-11-05 — ENV_03b et ENV_04 : fiches et prompts proposés
 - ENV_03b ajouté à ENV_03_DESERT_SHEET.md (Nano Banana, 65 cr). ENV_04_FOULE_SHEET.md rédigée avec garde-fous bible H. Aucune génération lancée.
+
+## 2026-11-05 — ENV_04 foule : grille reçue et QC
+- Tâche Midjourney d0ffed55-766e-4789-914f-fadd08a22537 (image_id 1568000351863308288, 0,401 crédit), 2048×1146. Grille importée dans Magnific (ovy2mWT829), découpée gratuitement. Tuiles : 1=LwevUl7swO, 2=P3a5iN942C, 3=WDxJMTkcXe, 4=XmJRt8cBfo.
+- QC garde-fous : foules vues de dos/de loin, aucun portrait, aucun texte, aucune arme ni uniforme, camions bâchés et tentes sans marque. 1 = ampleur maximale (foule à perte de vue), 2 drapeaux seulement, étoiles peu lisibles ; 2 = drapeaux nombreux, soleil à droite, étoile du grand drapeau peu nette ; 3 = dense, drapeaux à hauteurs variées, camions et tentes lisibles ; 4 = foule plus clairsemée, drapeaux les plus nets (étoile verte lisible), bon pour intégrer le grand-père. Visages de profil partiels aux bords sur 1 et 3 (pas de gros plans).
+- Recommandation : 1 (ampleur) ; alternative 4 (drapeaux et espace). Défauts de drapeaux à corriger au besoin. En attente de VALIDER N.

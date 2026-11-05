@@ -42,3 +42,8 @@ Photorealistic cinematic wide establishing photograph of a vast peaceful crowd o
 ## Ensuite
 - **ENV_04b** (si besoin) : la foule de trois-quarts, plus proche, derrière le grand-père jeune, dérivée de ENV_04 et de GPJ_01_MASTER.
 - Fin des références : bilan, puis **Phase 3 : découpage de la séquence 1** (10 plans de 9 s).
+
+## Registre
+| ID | Statut | Midjourney | Magnific | Notes |
+|---|---|---|---|---|
+| **ENV_04_MASTER** | ✅ VALIDÉ (2026-11-05), choix 1 | grille task `d0ffed55-766e-4789-914f-fadd08a22537` (image_id `1568000351863308288`) → U1 task `1e53ce31-78d1-4301-b590-8de6f8855722` (image_id `1568000968996421632`), 1456×816, 0,12 crédit | `dt73mmpXSL` (tuile non agrandie : `LwevUl7swO`) | Foule à perte de vue vue de dos, djellabas claires et rayées, camions bâchés et tentes lointains, deux drapeaux rouges. Réserves : étoiles des drapeaux peu lisibles (à corriger en VFX ou par Nano Banana si un plan les montre) ; quelques profils partiels aux bords. Aucun portrait, texte ni arme |

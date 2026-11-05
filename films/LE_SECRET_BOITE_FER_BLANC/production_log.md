@@ -225,3 +225,7 @@
 ## 2026-11-05 — S1 découpage validé
 - Décision du réalisateur : « VALIDER SCENE SILENCIEUSE PLEIN CADRE ». Découpage S1 validé, aucun dialogue, 16:9 plein cadre.
 - Prompts des images de départ et des vidéos des plans 1 à 4 rédigés (06_VIDEO_PROMPTS.md). Aucune génération lancée.
+
+## 2026-11-05 — TEST 1 : S1-01 (Kling 3.0 Omni, 1080p, 9 s)
+- Autorisation : « VALIDER TEST 1 ». Génération unique, creation If4GFLQtvE, 855 crédits. Solde après : voir message.
+- QC : décor non fidèle au MASTER (dérive d'architecture), push-in trop fort, jet de fontaine exagéré en fin de plan, pas d'oiseau. Pas de défaut grave sinon. v1 non validée. Aucune reprise lancée sans accord.

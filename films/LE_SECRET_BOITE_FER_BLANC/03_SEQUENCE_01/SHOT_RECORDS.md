@@ -62,4 +62,12 @@
 | Méthode | Nano Banana 2.1, 16:9, 65 crédits |
 | Image | Magnific `w4IQt107EI` (aperçu `S1-02_start_v1_preview.jpg`) |
 | QC | Même patio reconnaissable (arcs, escalier à droite, banc à coussins à gauche, plante). Gouttes tombant dans le bassin, éclaboussures, reflets chauds sur l'eau, profondeur de champ faible. Aucun texte. Écarts : bassin plus large que dans le MASTER, quelques carreaux bleu marine dans la bordure au premier plan, gouttes qui tombent d'une source hors cadre |
-| Statut | ⏳ en attente de validation du réalisateur |
+| Statut | ✅ **VALIDÉE** (2026-11-05) |
+
+### Vidéo v1
+| Champ | Valeur |
+|---|---|
+| Modèle / paramètres | Kling 3.0 Omni, 9 s, 16:9, 1080p, image de départ `w4IQt107EI`, sans son |
+| Vidéo | Magnific `jUphXBNLD0`, 855 crédits |
+| QC | Plan stable sur 9 s : ondulations et cercles dans l'eau verte, reflets chauds qui tremblent, quelques gouttes visibles en haut du cadre, aucun saut ni artefact, pas de texte. Écart : dès la première image, la caméra est plus basse et plus proche de l'eau que l'image de départ, le fond d'arcades est simplifié (moins de détails d'escalier et de banc) ; gouttes plus discrètes que prévu |
+| Statut | ⏳ en attente de validation du réalisateur (recommandée) |

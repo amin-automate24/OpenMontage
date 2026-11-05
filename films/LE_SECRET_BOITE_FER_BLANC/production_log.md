@@ -255,3 +255,6 @@
 
 ## 2026-11-05 — S1-02 image de départ v1
 - Autorisation : « VALIDER IMAGE S1-02 ». Creation w4IQt107EI, 65 crédits (solde ≈ 16 350). Aucune vidéo lancée.
+
+## 2026-11-05 — S1-02 vidéo v1 (Kling 3.0 Omni, 1080p, 9 s)
+- Autorisation : « VALIDER IMAGE + LANCER VIDÉO S1-02 ». Creation jUphXBNLD0, 855 crédits (solde ≈ 15 495). QC : stable, reflets et ondulations, gouttes discrètes, fond simplifié. Recommandée ; en attente de validation.

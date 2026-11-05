@@ -32,7 +32,8 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | PRP_01 | Boîte en fer blanc fermée | ✅ validé | v1 upscalée → Magnific MBgFtiCDCm | ✅ **VALIDÉ** |
 | PRP_02 | Boîte ouverte avec les 3 objets | ✅ validé (Nano Banana 2.1 sur PRP_01, sable corrigé) | → Magnific cpj7UuQ0eP | ✅ **VALIDÉ v2** |
 | PRP_03 | Drapeau, gros plan | ✅ validé (Nano Banana 2.1 sur PRP_02) | → Magnific KL0XB8gkqp | ✅ **VALIDÉ** |
-| PRP_04–06 | Coran, sable, chapelet | planifiés | — | — |
+| PRP_04 | Coran de poche, gros plan | ✅ validé (médaillon géométrique) | → Magnific YMrU95CWeC | ✅ **VALIDÉ v2** |
+| PRP_05–06 | Sable, chapelet | planifiés | — | — |
 
 ## Séquences
 S1 à S6 : non commencées. Le découpage ne commencera qu'après validation des références.

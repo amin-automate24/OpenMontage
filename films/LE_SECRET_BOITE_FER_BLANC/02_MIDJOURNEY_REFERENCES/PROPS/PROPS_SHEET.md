@@ -57,6 +57,7 @@ Photorealistic cinematic prop reference photograph of an old rectangular tin box
 
 | **PRP_02_OPEN** | ✅ VALIDÉ v2 (2026-11-05) — sable corrigé | — (Midjourney Vary Region refusé : taille de canevas paysage) | — | **`cpj7UuQ0eP`** (Nano Banana 2.1, correction du sable sur la v1 `iGQ1qrd3uK`, 65 + 65 crédits Magnific) · aperçu `PRP_02_OPEN_v2_preview.jpg` | Même boîte que PRP_01. Drapeau, Coran (fermé, sans texte lisible), sable fin et granuleux dans un tissu blanc noué, quelques grains échappés jusqu'à la planche. Réserve mineure acceptée : tache de poussière répétée à l'intérieur du couvercle. v1 `iGQ1qrd3uK` remplacée |
 | **PRP_03_FLAG** | ✅ VALIDÉ (2026-11-05) | — | — | `KL0XB8gkqp` (Nano Banana 2.1, référence PRP_02_OPEN v2 `cpj7UuQ0eP`, 4:3 2k, 65 crédits Magnific) · aperçu `PRP_03_FLAG_preview.jpg` | Gros plan du drapeau plié, coton usé, effilochures, grains de sable sur le tissu, étoile verte en contour partiellement visible. Réserves acceptées : traits de l'étoile un peu épais, entrelacement peu lisible ; bord de boîte net au premier plan |
+| **PRP_04_QURAN** | ✅ VALIDÉ v2 (2026-11-05) | — | — | `YMrU95CWeC` (Nano Banana 2.1, correction du médaillon sur la v1 `jUptC0fLD0`, 65 + 65 crédits Magnific) · aperçu `PRP_04_QURAN_v2_preview.jpg` | Coran de poche fermé, couverture verte usée, tranche jaunie, posé avec soin. Médaillon : étoile à huit branches entrelacée, purement géométrique, AUCUNE calligraphie (la v1 avait des traits pseudo-calligraphiques, remplacée). Règle : ne jamais régénérer ce livre avec de l'écriture |
 
 ---
 

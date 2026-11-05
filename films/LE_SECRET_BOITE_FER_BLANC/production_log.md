@@ -129,3 +129,6 @@
 | 2026-11-04 | tool | PRP_02 Vary Region sur PRP_01_MASTER (image_id 1567652509986586624), task 65312644-0934-4e74-86fd-dad630b66cc5 |
 | 2026-11-04 | error | PRP_02 Vary Region ÉCHEC sans coût : « The canvas size does not match the image size ». Masque lu (copie vérifiée correcte), mais dimensions 1232×928 refusées pour cette image paysage (les portraits 928×1232 étaient acceptés) |
 | 2026-11-04 | op | Alternative évaluée : Magnific Nano Banana 2.1 (édition d'image avec PRP_01_MASTER en référence), coût simulé ≈ 65 crédits Magnific — en attente du réalisateur |
+| 2026-11-05 | decision | Réalisateur : option A — PRP_02 via Magnific Nano Banana 2.1 (édition avec PRP_01_MASTER en référence) |
+| 2026-11-05 | tool | Magnific images_generate imagen-nano-banana-2-1, 1 image 4:3 2k, 65 crédits → Magnific iGQ1qrd3uK |
+| 2026-11-05 | qc | PRP_02 : même boîte (motif, rouille, planche, lumière) ✅ ; couvercle relevé, motif intérieur ✅ ; drapeau plié rouge passé, étoile verte ✅ ; Coran de poche vert usé, fermé, ornement sans texte lisible ✅ ; sable dans un tissu blanc noué ✅ mais aspect un peu « métal doré » plutôt que sable fin ⚠️ ; la tache de poussière du couvercle extérieur réapparaît sur l'intérieur ⚠️ (mineur). Aucun texte |

@@ -196,3 +196,6 @@
 
 ## 2026-11-05 — ENV_02b et ENV_02c validés
 - Réponse : « VALIDER » (les deux). PATIO : RÉFÉRENCES TERMINÉES (ENV_02, 02b, 02c). Décors de Fès terminés. Aucune génération lancée.
+
+## 2026-11-05 — ENV_03 désert : fiche et prompt proposés
+- Fiche ENV_03_DESERT_SHEET.md rédigée (bible C, F, H). Aucune génération lancée.

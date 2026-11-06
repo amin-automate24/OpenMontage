@@ -12,3 +12,6 @@ Complète `film_studio.py` (non modifié).
 
 ## film_mix (mixage audio)
 `python3 scripts/film_mix.py plan|render MIX.json` : mixage pilote par un JSON de repères (pistes, début, durée, boucle, niveau `lufs`/`gain_db`, fondus). Sources en lecture seule ; sorties versionnées dans `12_EDITING/AUDIO/` (WAV + MP4 si `video`). Voir l'en-tête du script pour le format. Exemple : `films/LE_SECRET_BOITE_FER_BLANC/11_AUDIO/MIX_S1-S2_v2.json`.
+
+## film_motion (calage son/geste)
+`python3 scripts/film_motion.py env VIDEO T0 T1 [--roi x0,y0,x1,y1]` : profil de mouvement d'un plan. `gate SFX VIDEO T0 T1 OUT.wav [--roi ...] [--floor] [--power]` : produit un effet sonore MODULÉ par le mouvement réel (muet quand rien ne bouge) : synchronisation par construction pour pas, mains, portes, glissements. `film_mix` applique désormais un GAIN STATIQUE mesuré (pas de loudnorm dynamique qui écrase les nuances) + limiteur de crête.

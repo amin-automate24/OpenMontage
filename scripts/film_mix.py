@@ -104,11 +104,29 @@ def build_command(spec: dict, root: Path, out_wav: Path) -> list[str]:
     parts = [track_filter(i, t, total) for i, t in enumerate(tracks)]
     labels = "".join(f"[a{i}]" for i in range(len(tracks)))
     mix = f"{labels}amix=inputs={len(tracks)}:normalize=0:duration=longest,apad,atrim=duration={total:.3f}"
-    if spec.get("target_lufs") is not None:
-        mix += f",loudnorm=I={float(spec['target_lufs'])}:TP=-1.5:LRA=11"
     mix += "[out]"
     cmd += ["-filter_complex", ";".join(parts + [mix]), "-map", "[out]", "-ar", "48000", str(out_wav)]
     return cmd
+
+
+def measure_lufs(path: Path) -> float:
+    """Loudness integree (EBU R128) mesuree sur le fichier entier."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(path), "-af", "ebur128", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    last = [ln for ln in r.stderr.splitlines() if ln.strip().startswith("I:")]
+    if not last:
+        raise SystemExit("mesure LUFS impossible")
+    return float(last[-1].split()[1])
+
+
+def apply_static_gain(wav: Path, target_lufs: float) -> float:
+    """Gain constant (pas de compression dynamique) pour atteindre target_lufs ; limiteur de crete."""
+    gain = target_lufs - measure_lufs(wav)
+    tmp = wav.with_name(wav.stem + "_tmp.wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-af",
+                    f"volume={gain:.2f}dB,alimiter=limit=0.79:level=disabled", str(tmp)], check=True)
+    tmp.replace(wav)
+    return gain
 
 
 def plan(spec: dict, root: Path) -> str:
@@ -127,6 +145,8 @@ def render(mix_path: Path) -> list[Path]:
     out_dir.mkdir(parents=True, exist_ok=True)
     out_wav = versioned(out_dir / f"{spec['output']}.wav")
     subprocess.run(build_command(spec, root, out_wav), check=True)
+    if spec.get("target_lufs") is not None:
+        apply_static_gain(out_wav, float(spec["target_lufs"]))
     outs = [out_wav]
     if spec.get("video"):
         out_mp4 = out_wav.with_suffix(".mp4")

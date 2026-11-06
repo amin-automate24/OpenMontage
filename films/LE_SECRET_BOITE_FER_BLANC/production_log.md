@@ -351,3 +351,9 @@
 
 ## 2026-11-06 — S2-10 image v2
 - Creation s7dCaqsl8e, 65 crédits (solde 43 740). Vidéo non lancée, décision demandée.
+
+## 2026-11-06 — S2-02 gardé ; S2-10 option 2
+- Reprise d'image autorisée (65 cr) ; vidéo conditionnée au contrôle.
+
+## 2026-11-06 — S2-10 image v3
+- nV1JJ1lYQD, 65 crédits (solde 43 675). Pantalon bleu au lieu de beige. Vidéo non lancée, décision demandée.

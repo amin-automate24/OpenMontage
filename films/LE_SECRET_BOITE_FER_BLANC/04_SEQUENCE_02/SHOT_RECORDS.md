@@ -92,3 +92,10 @@
 | Image | Magnific `s7dCaqsl8e` (65 cr), aperçu `S2-10_start_v2_preview.jpg` |
 | QC | Identité nettement meilleure que la v1 : enfant d'environ 9 ans, joues rondes, cheveux noirs ondulés, yeux sombres, liseré crème du pull, petite marque claire au front côté droit (non certaine). Réserve de continuité : il regarde dans le coffre en bois, éclairé de l'intérieur, et non la boîte en fer blanc posée au sol (S2-09). Lumière ambrée venant du coffre : à surveiller (magie réservée à S3). Vidéo non lancée |
 | Statut | ⏳ décision du réalisateur |
+
+### S2-10 image v3
+| Champ | Valeur |
+|---|---|
+| Image | Magnific `nV1JJ1lYQD` (65 cr), aperçu `S2-10_start_v3_preview.jpg` |
+| QC | Boîte en fer blanc ouverte au sol avec drapeau rouge, Coran vert sans écriture, tissu blanc ; lumière naturelle de la fenêtre (pas de lueur magique) ; enfant d'environ 9 ans en profil, joues rondes, cheveux noirs, pull bleu marine à liseré crème ; décor cohérent (fenêtre à gauche, porte au fond à droite). DÉFAUT : pantalon bleu foncé (jean) au lieu du beige verrouillé ; l'expression d'émerveillement est peu lisible de profil. Règle d'arrêt (3e image du même plan) : vidéo non lancée |
+| Statut | ⏳ décision du réalisateur |

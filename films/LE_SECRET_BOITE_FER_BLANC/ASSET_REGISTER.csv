@@ -41,7 +41,7 @@ S1_ROUGH_CUT_v1,montage,"Montage S1 v1 (85,33 s, 1920x1080, 24 i/s, sans son)",A
 S2-01_START,image,S2-01 image de depart,VALIDE,JNmF1txOq4,,image existante
 S2-01_VIDEO,video,S2-01 video,VALIDE,Tds9dQEVNR,,
 S2-02_START,image,S2-02 image de depart,VALIDE,6AujzdOiJO,,lot autorise
-S2-02_VIDEO,video,S2-02 video,EN_ATTENTE,nV1JDSEYQD,,
+S2-02_VIDEO,video,S2-02 video,VALIDE,nV1JDSEYQD,,
 S2-03_START,image,S2-03 image de depart,VALIDE,5jc8gLFKxe,,lot autorise
 S2-03_VIDEO,video,S2-03 video,NON_RETENU,tC9YFPDmZJ,,
 S2-03b_START,image,S2-03b image de depart,VALIDE,rgMhOOZxtc,,lot autorise
@@ -59,4 +59,5 @@ S2-08_VIDEO,video,S2-08 video,VALIDE,jUpad5cLD0,,
 S2-09_START,image,S2-09 image de depart,VALIDE,w4IHvuR7EI,,lot autorise
 S2-09_VIDEO,video,S2-09 video,VALIDE,yivKE7rPW9,,
 S2-10_START_v1,image,S2-10 image de depart v1 (identite non conforme),REFUSE,JNmbEZFOq4,,"garcon d'environ 11-12 ans, visage allonge, cicatrice non visible ; video non lancee"
-S2-10_START_v2,image,S2-10 image de depart v2,EN_ATTENTE,s7dCaqsl8e,,identite plausible ; accessoire different (coffre en bois lumineux au lieu de la boite en fer blanc)
+S2-10_START_v2,image,S2-10 image de depart v2,REMPLACE,s7dCaqsl8e,,identite plausible ; accessoire different (coffre en bois lumineux au lieu de la boite en fer blanc)
+S2-10_START_v3,image,S2-10 image de depart v3,EN_ATTENTE,nV1JJ1lYQD,,"boite au sol, lumiere naturelle, identite plausible ; pantalon bleu au lieu de beige"

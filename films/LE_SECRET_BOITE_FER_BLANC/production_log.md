@@ -414,3 +414,6 @@
 
 ## 2026-11-06 — Fin du lot S3
 - S3-04 à S3-10 générés ; total S3 : 10 620 crédits ; solde réel 32 635. En attente de validation.
+
+## 2026-11-06 — S3 validé ; découpage S4
+- S3 validé (S3-03 inversé, S3-05 coupé à 3,5 s). 06_SEQUENCE_04/05_STORYBOARD.md et 06_VIDEO_PROMPTS.md rédigés ; SHOT_LIST et QUEUE alimentés (non approuvés). Aucune génération.

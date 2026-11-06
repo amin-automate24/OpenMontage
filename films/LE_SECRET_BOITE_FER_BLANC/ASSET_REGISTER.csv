@@ -68,25 +68,25 @@ S1_CUT_v2,montage,"Montage S1 v2 (66,04 s, EDL_S1_v2.json)",VALIDE,,,12_EDITING/
 S2_CUT_v2,montage,"Montage S2 v2 (75,42 s, EDL_S2_v2.json)",VALIDE,,,12_EDITING/S2_cut_v2.mp4 ; remplace S2_rough_cut_v1 (conservee) ; hors git
 FILM_S1-S2_CUT_v1,montage,"Film assemble S1+S2 v1 (140,42 s, EDL_FILM_S1-S2_v1.json)",VALIDE,,,12_EDITING/FILM_S1-S2_cut_v1.mp4 ; sans son ; hors git
 S3-01_START,image,S3-01 image de depart,VALIDE,CqZt4uKEEy,,lot autorise
-S3-01_VIDEO,video,S3-01 video,EN_ATTENTE,jUp5cJwLD0,,
+S3-01_VIDEO,video,S3-01 video,VALIDE,jUp5cJwLD0,,
 S3-02_START,image,S3-02 image de depart,VALIDE,1lVH05xr4r,,lot autorise
-S3-02_VIDEO,video,S3-02 video,EN_ATTENTE,jUp5pWRLD0,,
+S3-02_VIDEO,video,S3-02 video,VALIDE,jUp5pWRLD0,,
 S3-03_START,image,S3-03 image de depart,VALIDE,0eLGSMvTfW,,lot autorise
 S3-03_VIDEO,video,S3-03 video,EN_ATTENTE,p8UcOc2ehw,,
 S3-03b_START,image,S3-03b image de depart,VALIDE,If4eA5ztvE,,lot autorise
-S3-03b_VIDEO,video,S3-03b video,EN_ATTENTE,s7dka2Il8e,,
-S3-03b_REVERSED_copy,video,S3-03b lecture inversee (copie),A_VALIDER,,,"09_MAGNIFIC_GENERATIONS/S3/S3-03b_REVERSED_copy.mp4 ; copie ffmpeg reverse de s7dka2Il8e, gratuite ; le sable monte de la paume ; l'original est conserve ; hors git"
+S3-03b_VIDEO,video,S3-03b video,VALIDE,s7dka2Il8e,,utilise a l'envers (voir S3-03b_REVERSED_copy)
+S3-03b_REVERSED_copy,video,S3-03b lecture inversee (copie),VALIDE,,,"09_MAGNIFIC_GENERATIONS/S3/S3-03b_REVERSED_copy.mp4 ; copie ffmpeg reverse de s7dka2Il8e, gratuite ; le sable monte de la paume ; l'original est conserve ; hors git"
 S3-04_START,image,S3-04 image de depart,VALIDE,1lVHqLmr4r,,lot autorise
-S3-04_VIDEO,video,S3-04 video,EN_ATTENTE,O6hgSgPynm,,
+S3-04_VIDEO,video,S3-04 video,VALIDE,O6hgSgPynm,,
 S3-05_START,image,S3-05 image de depart,VALIDE,JNml7orOq4,,lot autorise
-S3-05_VIDEO,video,S3-05 video,EN_ATTENTE,WDx2WoAcXe,,
+S3-05_VIDEO,video,S3-05 video,VALIDE,WDx2WoAcXe,,
 S3-06_START,image,S3-06 image de depart,VALIDE,jUpKSyDLD0,,lot autorise
-S3-06_VIDEO,video,S3-06 video,EN_ATTENTE,lJXr75Qgv9,,
+S3-06_VIDEO,video,S3-06 video,VALIDE,lJXr75Qgv9,,
 S3-07_START,image,S3-07 image de depart,VALIDE,rgMbw8sxtc,,lot autorise
-S3-07_VIDEO,video,S3-07 video,EN_ATTENTE,jUpKO5lLD0,,
+S3-07_VIDEO,video,S3-07 video,VALIDE,jUpKO5lLD0,,
 S3-08_START,image,S3-08 image de depart,VALIDE,0eLzvYjTfW,,lot autorise
-S3-08_VIDEO,video,S3-08 video,EN_ATTENTE,Lwek3QKswO,,
+S3-08_VIDEO,video,S3-08 video,VALIDE,Lwek3QKswO,,
 S3-09_START,image,S3-09 image de depart,VALIDE,jUpKAhILD0,,lot autorise
-S3-09_VIDEO,video,S3-09 video,EN_ATTENTE,Lwekz1hswO,,
+S3-09_VIDEO,video,S3-09 video,VALIDE,Lwekz1hswO,,
 S3-10_START,image,S3-10 image de depart,VALIDE,cpjG5aP0eP,,lot autorise
-S3-10_VIDEO,video,S3-10 video,EN_ATTENTE,gOBxDyYSXO,,
+S3-10_VIDEO,video,S3-10 video,VALIDE,gOBxDyYSXO,,

@@ -342,3 +342,6 @@
 
 ## 2026-11-06 — S2-09
 - Image w4IHvuR7EI + vidéo yivKE7rPW9, 920 crédits. QC : Boite ouverte avec drapeau plie, Coran vert sans ecriture et tissu de sable, objets stables et inchanges sur 9 s, aucun texte ; rapprochement lent mais plus marque que 3 % ; drapeau un peu plus rose/saumon que le rouge patine valide
+
+## 2026-11-06 — Fin du lot S2
+- S2-10 : image JNmbEZFOq4 (65 cr), dérive d'identité, vidéo non lancée. Total lot S2 : 9 265 crédits. Solde 43 805. En attente de décision.

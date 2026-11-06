@@ -78,3 +78,10 @@
 | Vidéo | `yivKE7rPW9`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Boite ouverte avec drapeau plie, Coran vert sans ecriture et tissu de sable, objets stables et inchanges sur 9 s, aucun texte ; rapprochement lent mais plus marque que 3 % ; drapeau un peu plus rose/saumon que le rouge patine valide |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S2-10 (test d'identité)
+| Champ | Valeur |
+|---|---|
+| Image de départ v1 | Magnific `JNmbEZFOq4` (65 cr), références YAS_06, YAS_01, ENV_01 |
+| QC | Grenier et lumière fidèles, expression d'émerveillement discrète réussie. IDENTITÉ NON CONFORME : le garçon paraît plus âgé (11-12 ans au lieu de 8), visage plus allongé, cheveux plus volumineux, cicatrice du front non visible, pull à liseré crème correct. **Règle d'arrêt déclenchée** : vidéo non lancée |
+| Statut | ⏳ décision du réalisateur |

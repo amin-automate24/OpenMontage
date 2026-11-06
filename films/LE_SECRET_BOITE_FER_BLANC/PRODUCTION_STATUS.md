@@ -7,7 +7,7 @@
 | Références décors : grenier x3, patio x3, désert, foule | Terminé (ENV_03b sable au ras du sol : proposée, non lancée) |
 | Découpage S1 (10 plans) | Validé (silencieux, 16:9 plein cadre) |
 | Animation S1 | 10/10 générés et VALIDÉS. Validés : S1-01 à S1-05, S1-07, S1-08, S1-10. tous validés (S1-06 = S1-06b coupée à ~5 s) |
-| S2 (grenier) | Découpage VALIDÉ ; aucune génération autorisée à ce jour |
+| S2 (grenier) | Découpage validé ; S2-01 à S2-09 générés, en attente de validation ; S2-10 bloqué (identité) |
 | S3 à S6 | Non commencées |
 | Montage S1 | Premier montage v1 réalisé (85,33 s, sans son), en attente de validation |
 | Son, musique, export | Non commencés |

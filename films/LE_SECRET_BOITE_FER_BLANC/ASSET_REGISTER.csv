@@ -91,3 +91,25 @@ S3-09_VIDEO,video,S3-09 video,VALIDE,Lwekz1hswO,,
 S3-10_START,image,S3-10 image de depart,VALIDE,cpjG5aP0eP,,lot autorise
 S3-10_VIDEO,video,S3-10 video,VALIDE,gOBxDyYSXO,,
 S3_CUT_v1,montage,"Montage S3 v1 (68,92 s, EDL_S3_v1.json)",A_VALIDER,,,"12_EDITING/S3_cut_v1.mp4 ; sans son ; S3-03 inverse, S3-05 a 3,5 s ; fondu enchaine 1,5 s S3-09>S3-10 ; hors git"
+S4-01_START,image,S4-01 image de depart,VALIDE,aF3ImQYfSh,,lot autorise
+S4-01_VIDEO,video,S4-01 video,EN_ATTENTE,6Auy9ZNiJO,,
+S4-02_START,image,S4-02 image de depart,VALIDE,0eLnMrCTfW,,lot autorise
+S4-02_VIDEO,video,S4-02 video,EN_ATTENTE,4RfJipS9Aa,,
+S4-03_START,image,S4-03 image de depart,VALIDE,u5Aa1NUQLD,,lot autorise
+S4-03_VIDEO,video,S4-03 video,EN_ATTENTE,SyoLNZwUb8,,
+S4-04_START,image,S4-04 image de depart,VALIDE,u5AalNjQLD,,lot autorise
+S4-04_VIDEO,video,S4-04 video,EN_ATTENTE,iGQ4DeC3uK,,
+S4-05_START,image,S4-05 image de depart,VALIDE,YMrAvi5WeC,,lot autorise
+S4-05_VIDEO,video,S4-05 video,EN_ATTENTE,eIwVb9gdqL,,
+S4-06_START,image,S4-06 image de depart,VALIDE,CqZhybgEEy,,lot autorise
+S4-06_VIDEO,video,S4-06 video,EN_ATTENTE,fHRmOprCDY,,
+S4-07_START,image,S4-07 image de depart,VALIDE,3zF9CnDREY,,lot autorise
+S4-07_VIDEO,video,S4-07 video,EN_ATTENTE,vQiI9CEa47,,
+S4-08_START,image,S4-08 image de depart,VALIDE,s7drB4ml8e,,lot autorise
+S4-08_VIDEO,video,S4-08 video,EN_ATTENTE,O6hUfZuynm,,
+S4-09_START,image,S4-09 image de depart,VALIDE,s7drvPel8e,,lot autorise
+S4-09_VIDEO,video,S4-09 video,EN_ATTENTE,3zF9xyUREY,,
+S4-10_START,image,S4-10 image de depart,VALIDE,s7drusZl8e,,lot autorise
+S4-10_VIDEO,video,S4-10 video,EN_ATTENTE,P3a7xLM42C,,
+S4-11_START,image,S4-11 image de depart,VALIDE,eIwVcJYdqL,,lot autorise
+S4-11_VIDEO,video,S4-11 video,EN_ATTENTE,4RfJJzl9Aa,,

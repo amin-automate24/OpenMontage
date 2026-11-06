@@ -423,3 +423,36 @@
 
 ## 2026-11-06 — Photos 1975
 - 2 photos reçues, analysées, notes écrites seulement. Génération S4 toujours en attente (plafond à confirmer).
+
+## 2026-11-06 — S4-01
+- Image aF3ImQYfSh + vidéo 6Auy9ZNiJO, 920 crédits. QC : Desert voile de blanc qui se dissipe, ciel bleu pale qui apparait, vent sur le sable, colonne de marcheurs minuscule a l'horizon presque immobile ; cadre recadre plus serre que l'image de depart (ciel coupe) ; sans texte, arme ni portrait
+
+## 2026-11-06 — S4-02
+- Image 0eLnMrCTfW + vidéo 4RfJipS9Aa, 920 crédits. QC : Foule de dos qui avance vers l'horizon, drapeaux rouges a etoile verte qui ondulent, camions et tentes au loin, vent et poussiere, stable ; reserve : costumes quasi identiques a S3-10 (djellabas rayees clairs, pas de laine lourde ni capes comme sur les photos), plan tres proche de S3-10 ; aucun texte, arme ni portrait
+
+## 2026-11-06 — S4-03
+- Image u5Aa1NUQLD + vidéo SyoLNZwUb8, 920 crédits. QC : Pas de marcheurs au ras du sol : sandales usees, chaussettes de laine, capes brunes et vestes rayees (tres proches des photos), poussiere qui se leve, mouvement naturel et continu, aucun visage ni texte ; tres bon plan
+
+## 2026-11-06 — S4-04
+- Image u5AalNjQLD + vidéo iGQ4DeC3uK, 920 crédits. QC : Drapeau froisse et effiloche, etoile verte lisible, qui claque au vent sur sa hampe de bois ; main et manche de laine stables ; cadre un peu plus large, la foule apparait en bas ; aucun texte, portrait ni visage ; tres bon plan
+
+## 2026-11-06 — S4-05
+- Image YMrAvi5WeC + vidéo eIwVb9gdqL, 920 crédits. QC : Un homme en cape brune et turban et une femme au foulard blanc marchent de dos, gourde, sac de toile et baluchon, foule et drapeau rouge devant eux ; marche naturelle, costumes constants, jamais de visage ; cadre un peu plus large ; aucun texte ni arme ; tres bon plan, tres proche des photos
+
+## 2026-11-06 — S4-06
+- Image CqZhybgEEy + vidéo fHRmOprCDY, 920 crédits. QC : Vue haute du campement de tentes et de la colonne de camions baches sans marque, la foule avance lentement, drapeaux rouges ; tres stable, cadre recompose plus serre ; reserve : camions de style militaire (aucun insigne, plaque, arme ni texte) pour une marche civile, a assumer ou a adoucir ; aucun portrait
+
+## 2026-11-06 — S4-07
+- Image 3zF9CnDREY + vidéo vQiI9CEa47, 920 crédits. QC : Grand-pere jeune marche dans la foule en trois-quarts, regard serieux, visage stable sur 9 s (cheveux noirs boucles, moustache fine, visage allonge, pommettes hautes) ; ressemblance a GPJ_01 plausible mais non exacte (moustache un peu plus epaisse, grain de beauté non verifiable de profil) ; costume rayé blanc cape clair conforme ; foule et drapeaux stables ; aucun texte ni arme
+
+## 2026-11-06 — S4-08
+- Image s7drB4ml8e + vidéo O6hUfZuynm, 920 crédits. QC : Grand-pere jeune, plan moyen, large sourire chaleureux de 0 a 2 s puis le sourire s'efface et le regard devient serieux ; identite stable (visage allonge, moustache fine, cheveux boucles) avec leger vieillissement/affinement du visage apres 6 s ; foule et drapeaux stables ; RESERVE : le sourire franc voulu ne dure que 2 s, couper a ~2,5 s ou garder le plan comme transition sourire>serieux ; aucun texte ni arme
+
+## 2026-11-06 — S4-09
+- Image s7drvPel8e + vidéo 3zF9xyUREY, 920 crédits. QC : Les mains en coupe laissent filer le sable fin jusqu'a etre vides, sable naturel sans or, cinq doigts conserves, pieds de la foule et drapeaux flous ; cadre plus bas et plus large que l'image ; aucun visage ni texte ; tres bon plan
+
+## 2026-11-06 — S4-10
+- Image s7drusZl8e + vidéo P3a7xLM42C, 920 crédits. QC : Colonne de marcheurs vue de loin dans les dunes, voiles de sable pousses par le vent, drapeaux rouges qui ondulent, lumiere doree rasante qui monte ; stable et tres beau ; recadre un peu plus serre ; la colonne est plus fine/lointaine que dans l'image ; aucun texte, arme ni portrait
+
+## 2026-11-06 — S4-11
+- Image eIwVcJYdqL + vidéo 4RfJJzl9Aa, 920 crédits. QC : Kling a recadre en plan large: camion rouge roule de gauche a droite, mais benne VIDE (la foule du plateau a disparu), etoile verte sur la portiere (embleme), drapeaux sur hampes. Ecart net vs image de depart. Reserve: refaire ou ecarter.

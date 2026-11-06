@@ -165,3 +165,6 @@ S6-08_START_v4,image,S6-08 image de depart,VALIDE,Eb2ChjquuO,,lot autorise
 S6-08_VIDEO_v4,video,S6-08 video v4 couvercle sur main enfant - remplacee par v5,REFUSE,LweLQ9oswO,,
 S6-08_START_v5,image,S6-08 image de depart,VALIDE,bxcKTRf5Y2,,lot autorise
 S6-08_VIDEO_v5,video,S6-08 video v5 Kling 2.6 mains enfant a cote,VALIDE,p8wdOCCehw,,
+S5-02_VIDEO_k26,video,S5-02 video v4 Kling 2.6 start=end (identite),EN_ATTENTE,9ZERudKNYZ,,225 cr
+S5-03_VIDEO_k26,video,S5-03 video v4 Kling 2.6 start=end (identite),EN_ATTENTE,P3fipcM42C,,225 cr
+S5-04_VIDEO_k26,video,S5-04 video v4 Kling 2.6 start=end (identite),EN_ATTENTE,yia6IcaPW9,,225 cr

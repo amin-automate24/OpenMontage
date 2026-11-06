@@ -141,3 +141,6 @@ Q148,S6-08,video,kling-30 1080p 5s (si Kling 2.6 infidele),450,1,DONE
 Q149,S6-08,image,imagen-nano-banana-2-1 (v5 start : mains d'enfant hors du couvercle),65,1,DONE
 Q150,S6-08,image,imagen-nano-banana-2-1 (v5 end),65,1,DONE
 Q151,S6-08,video,kling-26 1080p 5s (v5 mains d'enfant a cote),225,1,DONE
+Q160,S5-02,video,"kling-26 1080p 5s (reprise fidelite identite, start=end)",225,1,DONE
+Q161,S5-03,video,"kling-26 1080p 5s (reprise fidelite identite, start=end)",225,1,DONE
+Q162,S5-04,video,"kling-26 1080p 5s (reprise fidelite identite, start=end)",225,1,DONE

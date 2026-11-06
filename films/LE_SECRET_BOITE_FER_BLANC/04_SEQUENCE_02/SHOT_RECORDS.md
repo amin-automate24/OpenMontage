@@ -54,3 +54,27 @@
 | Vidéo | `cpjPxzd0eP`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Yassine agenouille de dos devant le coffre de cedre du coin droit, souleve progressivement le couvercle et se penche ; grenier stable (porte a gauche, murs a la chaux), costume constant, visage jamais visible ; cadre plus large (petite silhouette) |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S2-07
+| Champ | Valeur |
+|---|---|
+| Image de départ | `ksTtVUd16B` (65 cr) |
+| Vidéo | `N2Exumh6D9`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Boite en fer blanc fleurie vert/bordeaux dans le coffre ouvert, stable sur 9 s, aucun texte, poussiere fine ; cadrage un peu plus large que l'image de depart ; coffre plus sombre/neuf que dans ENV_01b |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S2-08
+| Champ | Valeur |
+|---|---|
+| Image de départ | `eIwRJyedqL` (65 cr) |
+| Vidéo | `jUpad5cLD0`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Les mains posent la boite dans le rai de lumiere (0 a 6 s : mains correctes, decor stable) ; DEFAUT 6,5 a 8,8 s : les mains glissent vers la droite et les doigts se deforment/s'ecartent a plat ; motif floral de la boite plus terne que l'image ; suggestion : couper vers 6,3 s ; aucun texte ni visage |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S2-09
+| Champ | Valeur |
+|---|---|
+| Image de départ | `w4IHvuR7EI` (65 cr) |
+| Vidéo | `yivKE7rPW9`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Boite ouverte avec drapeau plie, Coran vert sans ecriture et tissu de sable, objets stables et inchanges sur 9 s, aucun texte ; rapprochement lent mais plus marque que 3 % ; drapeau un peu plus rose/saumon que le rouge patine valide |
+| Statut | ⏳ en attente de décision du réalisateur |

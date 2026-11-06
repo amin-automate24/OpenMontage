@@ -333,3 +333,12 @@
 
 ## 2026-11-06 — S2-06
 - Image 5jc8WdsKxe + vidéo cpjPxzd0eP, 920 crédits. QC : Yassine agenouille de dos devant le coffre de cedre du coin droit, souleve progressivement le couvercle et se penche ; grenier stable (porte a gauche, murs a la chaux), costume constant, visage jamais visible ; cadre plus large (petite silhouette)
+
+## 2026-11-06 — S2-07
+- Image ksTtVUd16B + vidéo N2Exumh6D9, 920 crédits. QC : Boite en fer blanc fleurie vert/bordeaux dans le coffre ouvert, stable sur 9 s, aucun texte, poussiere fine ; cadrage un peu plus large que l'image de depart ; coffre plus sombre/neuf que dans ENV_01b
+
+## 2026-11-06 — S2-08
+- Image eIwRJyedqL + vidéo jUpad5cLD0, 920 crédits. QC : Les mains posent la boite dans le rai de lumiere (0 a 6 s : mains correctes, decor stable) ; DEFAUT 6,5 a 8,8 s : les mains glissent vers la droite et les doigts se deforment/s'ecartent a plat ; motif floral de la boite plus terne que l'image ; suggestion : couper vers 6,3 s ; aucun texte ni visage
+
+## 2026-11-06 — S2-09
+- Image w4IHvuR7EI + vidéo yivKE7rPW9, 920 crédits. QC : Boite ouverte avec drapeau plie, Coran vert sans ecriture et tissu de sable, objets stables et inchanges sur 9 s, aucun texte ; rapprochement lent mais plus marque que 3 % ; drapeau un peu plus rose/saumon que le rouge patine valide

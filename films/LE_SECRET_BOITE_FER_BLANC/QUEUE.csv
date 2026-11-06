@@ -150,3 +150,7 @@ Q180,S6-02,video,"kling-26 1080p 5s (start seul, animation sable/main)",225,1,DO
 Q181,S6-08,image,retouch fin de plan: main enfant sur la boite fermee,75,1,DONE
 Q182,S6-08,video,"kling-26 1080p 5s (start+end, main enfant sur la boite)",225,1,DONE
 Q183,S6-02,video,"kling-26 1080p 5s (v7 mouvement plus marque: main qui se referme/ouvre, sable dense)",225,1,DONE
+Q190,S3-10,image,imagen-nano-banana-2-1 (Corans portes par la foule),65,1,DONE
+Q191,S3-10,video,kling-26 1080p 5s start seul,225,1,DONE
+Q192,S5-01,image,imagen-nano-banana-2-1 (foule civile irreguliere),65,1,DONE
+Q193,S5-01,video,kling-26 1080p 5s start seul,225,1,DONE

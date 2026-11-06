@@ -7,9 +7,9 @@ R = Path(__file__).resolve().parent
 A = R / "AUDIO"
 SEG = [  # (fichier, gain audio dB)
     (A / "MIX_S1-S2_final_v5.mp4", 1.0),
-    (A / "MIX_S3_v1.mp4", 0.0),
+    (A / "MIX_S3_v2.mp4", 0.0),
     (A / "MIX_S4_final_v4.mp4", 0.0),
-    (A / "MIX_S5_v8.mp4", 0.0),
+    (A / "MIX_S5_v9.mp4", 0.0),
     (A / "MIX_S6_v4.mp4", 0.0),
 ]
 out = Path(sys.argv[1]); X = float(sys.argv[2]) if len(sys.argv) > 2 else 1.0

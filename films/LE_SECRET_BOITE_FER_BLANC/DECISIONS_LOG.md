@@ -98,3 +98,7 @@ Realisateur : VALIDER. Montage S6_cut_v4_BROUILLON_v3.mp4 (EDL_S6_v6), son MIX_S
 
 ## 2026-11-06 Assemblage S1-S6 v1 (sans etalonnage)
 13_FINAL_EXPORT/FILM_v1_BROUILLON.mp4 : 437,5 s, 1080p24, AAC 256k, -20,1 LUFS, crete -0,9 dBFS. Segments : MIX_S1-S2_final_v5 (+1 dB), MIX_S3_v1, MIX_S4_final_v4, MIX_S5_v8, MIX_S6_v4 ; fondus enchaines de 1,0 s (video+audio) aux 4 jonctions ; script 12_EDITING/build_film_assembly.py. Etalonnage non applique (propose en etape suivante, a valider).
+
+## 2026-11-06 Reprises S3-10 et S5-01 (fidelite historique)
+Realisateur : S3-10 sans Corans (seulement drapeaux) ; S5-01 colonne de marcheurs en rang militaire alors que la marche est pacifique et civile. AUTORISE REPRISES S3-10 ET S5-01 PLAFOND 1000. Plan : images nano-banana puis Kling 2.6 5 s start seul.
+Reprises realisees (cout 580 cr sur plafond 1000) : S3-10 v2 (image Lwdw5OeswO avec Corans verts/bordeaux sans ecriture + Kling 2.6 Cq2qIUkEEy, ralenti x1,6, fondu blanc), S5-01 v2 (image WDjD277cXe civils en groupes irreguliers + Kling 2.6 LwdwKjzswO, ralenti x1,6). Montages EDL_S3_v2 / EDL_S5_v9 ; sons MIX_S3_v2 / MIX_S5_v9 (memes pistes d'ambiance). Film : 13_FINAL_EXPORT/FILM_v2_BROUILLON.mp4 (437,5 s). En attente de validation.

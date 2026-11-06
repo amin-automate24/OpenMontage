@@ -26,3 +26,4 @@
 - 2026-11-06 S2-02 gardé. S2-10 : option 2 (reprise d'image avec la boîte en fer blanc au sol et lumière naturelle, référence de visage = v2) ; vidéo lancée seulement si identité et accessoire conformes (dans le plafond S2 de 14 000).
 - 2026-11-06 S2-10 : option 2 (retouche unique de la v3 : pantalon beige) ; vidéo lancée si visage et accessoires inchangés.
 - 2026-11-06 S2 : S2-10 généré après retouche du pantalon (image WDxyPLQcXe) ; montage S2 v1 assemblé (87,71 s : S2-08 coupé à 6,3 s). Dépense lot S2 : 10 315 crédits sur 14 000.
+- 2026-11-06 S2-10 validé. Montage S2 v1 : à refaire selon des consignes à venir du réalisateur (rien modifié). Découpage S3 (le sable, 10 plans) proposé, non validé ; file QUEUE alimentée, rien d'approuvé.

@@ -363,3 +363,6 @@
 
 ## 2026-11-06 — Montage S2 v1
 - 10 plans téléchargés (09_MAGNIFIC_GENERATIONS/S2/), assemblés en 12_EDITING/S2_rough_cut_v1.mp4 : 87,71 s, 2 105 images, H.264 1920x1080 24 i/s. Pas de noir ni d'image figée. Aucune génération, aucun crédit.
+
+## 2026-11-06 — S2-10 validé ; découpage S3
+- S2-10 validé. Montage S2 v1 en attente de consignes. 05_SEQUENCE_03/05_STORYBOARD.md et 06_VIDEO_PROMPTS.md rédigés ; SHOT_LIST et QUEUE alimentés (non approuvés). Aucune génération.

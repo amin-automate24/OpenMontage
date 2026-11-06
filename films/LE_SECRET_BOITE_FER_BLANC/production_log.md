@@ -399,3 +399,18 @@
 
 ## 2026-11-06 — S3-06
 - Image jUpKSyDLD0 + vidéo lJXr75Qgv9, 920 crédits. QC : Les lignes de dunes se dessinent progressivement sur le mur nu, silhouettes de dos et petits drapeaux, mur/plafond/sol stables ; les traits deviennent assez sombres (presque noirs) en fin de plan, moins delicats que l'image ; cadrage plus large ; aucun or, texte ni portrait
+
+## 2026-11-06 — S3-07
+- Image rgMbw8sxtc + vidéo jUpKO5lLD0, 920 crédits. QC : Grande fresque peinte (desert, foule de dos, drapeaux rouges a etoile verte, camions et tentes) sur la chaux ecaillee, stable sur 9 s, push-in tres leger, couleurs qui se renforcent doucement ; la fresque est tres belle mais de style illustration historique ; une etoile verte lisible sur le grand drapeau ; aucun or, texte ni portrait de personnalite reelle ; quelques visages de profil minuscules a surveiller
+
+## 2026-11-06 — S3-08
+- Image 0eLzvYjTfW + vidéo Lwek3QKswO, 920 crédits. QC : La foule peinte avance et le drapeau ondule, Yassine de dos immobile et stable, plafond et sol identiques ; EFFET REUSSI et magique : la fresque devient vivante ; reserves : dans la partie droite un personnage peint en bleu semble sortir de la fresque et se mele a l'espace de Yassine (flou de plan), du sable souleve en bas a gauche (7,5 a 8,8 s), l'aspect peint se perd peu a peu vers un rendu plus realiste ; aucun or ni texte ; pas de visage en gros plan
+
+## 2026-11-06 — S3-09
+- Image jUpKAhILD0 + vidéo Lwekz1hswO, 920 crédits. QC : Yassine strictement de dos, la main reste posee sur la fresque avec de petits mouvements des doigts, cinq doigts conserves, la fresque peinte reste nette ; plan tres stable, quasi statique : le lien de poussiere entre la main et le mur n'apparait pas et la foule peinte ne bouge pas visiblement ; aucun or, texte ni visage
+
+## 2026-11-06 — S3-10
+- Image cpjG5aP0eP + vidéo gOBxDyYSXO, 920 crédits. QC : La foule marche de dos dans le desert reel, drapeaux a etoile verte lisible qui ondulent, camions et tentes au loin, lumiere qui blanchit nettement apres 7 s (fondu vers le blanc reussi) ; plan beaucoup plus reel que l'image (pas de dissolution du mur peint : la transition mur->desert est a faire en montage entre S3-09 et S3-10) ; aucun texte, arme ni portrait ; quelques visages de dos a surveiller
+
+## 2026-11-06 — Fin du lot S3
+- S3-04 à S3-10 générés ; total S3 : 10 620 crédits ; solde réel 32 635. En attente de validation.

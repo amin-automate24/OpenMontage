@@ -61,3 +61,35 @@
 | Vidéo | `lJXr75Qgv9`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Les lignes de dunes se dessinent progressivement sur le mur nu, silhouettes de dos et petits drapeaux, mur/plafond/sol stables ; les traits deviennent assez sombres (presque noirs) en fin de plan, moins delicats que l'image ; cadrage plus large ; aucun or, texte ni portrait |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S3-07
+| Champ | Valeur |
+|---|---|
+| Image de départ | `rgMbw8sxtc` (65 cr) |
+| Vidéo | `jUpKO5lLD0`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Grande fresque peinte (desert, foule de dos, drapeaux rouges a etoile verte, camions et tentes) sur la chaux ecaillee, stable sur 9 s, push-in tres leger, couleurs qui se renforcent doucement ; la fresque est tres belle mais de style illustration historique ; une etoile verte lisible sur le grand drapeau ; aucun or, texte ni portrait de personnalite reelle ; quelques visages de profil minuscules a surveiller |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S3-08
+| Champ | Valeur |
+|---|---|
+| Image de départ | `0eLzvYjTfW` (65 cr) |
+| Vidéo | `Lwek3QKswO`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | La foule peinte avance et le drapeau ondule, Yassine de dos immobile et stable, plafond et sol identiques ; EFFET REUSSI et magique : la fresque devient vivante ; reserves : dans la partie droite un personnage peint en bleu semble sortir de la fresque et se mele a l'espace de Yassine (flou de plan), du sable souleve en bas a gauche (7,5 a 8,8 s), l'aspect peint se perd peu a peu vers un rendu plus realiste ; aucun or ni texte ; pas de visage en gros plan |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S3-09
+| Champ | Valeur |
+|---|---|
+| Image de départ | `jUpKAhILD0` (65 cr) |
+| Vidéo | `Lwekz1hswO`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Yassine strictement de dos, la main reste posee sur la fresque avec de petits mouvements des doigts, cinq doigts conserves, la fresque peinte reste nette ; plan tres stable, quasi statique : le lien de poussiere entre la main et le mur n'apparait pas et la foule peinte ne bouge pas visiblement ; aucun or, texte ni visage |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S3-10
+| Champ | Valeur |
+|---|---|
+| Image de départ | `cpjG5aP0eP` (65 cr) |
+| Vidéo | `gOBxDyYSXO`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | La foule marche de dos dans le desert reel, drapeaux a etoile verte lisible qui ondulent, camions et tentes au loin, lumiere qui blanchit nettement apres 7 s (fondu vers le blanc reussi) ; plan beaucoup plus reel que l'image (pas de dissolution du mur peint : la transition mur->desert est a faire en montage entre S3-09 et S3-10) ; aucun texte, arme ni portrait ; quelques visages de dos a surveiller |
+| Statut | ⏳ en attente de décision du réalisateur |

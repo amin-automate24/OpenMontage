@@ -462,3 +462,4 @@
 
 ## 2026-11-06 — S4-11
 - Image mEN89qHhJQ + vidéo s7dxdY1l8e, 920 crédits. QC : ECHEC reprise (2e echec du plan): Kling remplace la scene : foule disparue, camion a cabine plate moderne avec plaque jaune (anachronisme), peu de monde. Image de depart mEN89qHhJQ conforme (Ford-like rouge, sans militaire). Arret selon regle.
+- 2026-11-06 : Montage brouillon S4 v1 (EDL_S4_v1.json -> S4_cut_v1_BROUILLON.mp4, 83,2 s, 1920x1080 24 fps) ; inserts d'archive réels 12_EDITING/S4_assets/ (non modifiés, pas d'upscale IA). Vidéos S4 téléchargées dans 09_MAGNIFIC_GENERATIONS/S4/. Défauts connus : légende « d archive » sans apostrophe (à corriger en v2) ; photos petites dans le cadre.

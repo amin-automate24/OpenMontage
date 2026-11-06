@@ -133,3 +133,7 @@ S5-05_START,image,S5-05 image de depart,VALIDE,p8UM9lkehw,,lot autorise
 S5-05_VIDEO,video,S5-05 video ECHEC (repli image fixe),REFUSE,1lVK8O4r4r,,
 S5-06_START,image,S5-06 image de depart,VALIDE,SyolQQjUb8,,lot autorise
 S5-06_VIDEO,video,S5-06 video ECHEC derive identite (repli image fixe),REFUSE,p8UMRMZehw,,
+S5-07_START,image,S5-07 image de depart,VALIDE,SyolKONUb8,,lot autorise
+S5-07_VIDEO,video,S5-07 video ECHEC derive identite (repli image fixe),REFUSE,cpjY3GT0eP,,
+S5-08_START,image,S5-08 image de depart,VALIDE,LwexK4TswO,,lot autorise
+S5-08_VIDEO,video,S5-08 video,EN_ATTENTE,Eb2fmhduuO,,

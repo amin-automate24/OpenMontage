@@ -487,3 +487,9 @@
 
 ## 2026-11-06 — S5-06
 - Image SyolQQjUb8 + vidéo p8UMRMZehw, 920 crédits. QC : ECHEC video (derive d'identite) : Kling 3.0 a remplace Yassine par un autre garcon (peau claire, cheveux chatain raides) et le grenier marocain par un grenier europeen. Image de depart SyolQQjUb8 excellente (identite et decor conformes). Repli propose : image fixe SyolQQjUb8 + push-in tres lent + poussiere au montage (0 credit).
+
+## 2026-11-06 — S5-07
+- Image SyolKONUb8 + vidéo cpjY3GT0eP, 920 crédits. QC : ECHEC video (derive d'identite) : capuche relevee, visage plus jeune/maigre, moustache et grain de beaute disparus, cabane moderne a droite, vetements bleus. Image de depart SyolKONUb8 EXCELLENTE (identite S4-07/08 conforme, regard camera). Repli : image fixe SyolKONUb8 + push-in tres lent au montage (0 credit).
+
+## 2026-11-06 — S5-08
+- Image LwexK4TswO + vidéo Eb2fmhduuO, 920 crédits. QC : Kling 3.0 : action conforme (la main ramasse le sable, laisse filer, puis serre le poing a ~8 s), mains credibles, manche rayee identique. Reserves : cadre plus large et angle different de l'image de depart, sable plus pale/gris, silhouettes de marcheurs en arriere-plan tres sombres a reprendre a l'etalonnage.

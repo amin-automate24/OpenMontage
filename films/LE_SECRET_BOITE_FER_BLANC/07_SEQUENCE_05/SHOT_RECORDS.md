@@ -62,3 +62,19 @@
 | Vidéo | `p8UMRMZehw`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | ECHEC video (derive d'identite) : Kling 3.0 a remplace Yassine par un autre garcon (peau claire, cheveux chatain raides) et le grenier marocain par un grenier europeen. Image de depart SyolQQjUb8 excellente (identite et decor conformes). Repli propose : image fixe SyolQQjUb8 + push-in tres lent + poussiere au montage (0 credit). |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S5-07
+| Champ | Valeur |
+|---|---|
+| Image de départ | `SyolKONUb8` (65 cr) |
+| Vidéo | `cpjY3GT0eP`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | ECHEC video (derive d'identite) : capuche relevee, visage plus jeune/maigre, moustache et grain de beaute disparus, cabane moderne a droite, vetements bleus. Image de depart SyolKONUb8 EXCELLENTE (identite S4-07/08 conforme, regard camera). Repli : image fixe SyolKONUb8 + push-in tres lent au montage (0 credit). |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S5-08
+| Champ | Valeur |
+|---|---|
+| Image de départ | `LwexK4TswO` (65 cr) |
+| Vidéo | `Eb2fmhduuO`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Kling 3.0 : action conforme (la main ramasse le sable, laisse filer, puis serre le poing a ~8 s), mains credibles, manche rayee identique. Reserves : cadre plus large et angle different de l'image de depart, sable plus pale/gris, silhouettes de marcheurs en arriere-plan tres sombres a reprendre a l'etalonnage. |
+| Statut | ⏳ en attente de décision du réalisateur |

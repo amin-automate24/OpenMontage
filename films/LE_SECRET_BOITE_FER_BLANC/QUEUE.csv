@@ -100,12 +100,14 @@ Q98,S5-05,image,imagen-nano-banana-2-1,65,1,DONE
 Q99,S5-05,video,kling-omni3 1080p 9s,855,1,DONE
 Q100,S5-06,image,imagen-nano-banana-2-1,65,1,DONE
 Q101,S5-06,video,kling-omni3 1080p 9s,855,1,DONE
-Q102,S5-07,image,imagen-nano-banana-2-1,65,1,PENDING
-Q103,S5-07,video,kling-omni3 1080p 9s,855,1,PENDING
-Q104,S5-08,image,imagen-nano-banana-2-1,65,1,PENDING
-Q105,S5-08,video,kling-omni3 1080p 9s,855,1,PENDING
+Q102,S5-07,image,imagen-nano-banana-2-1,65,1,DONE
+Q103,S5-07,video,kling-omni3 1080p 9s,855,1,DONE
+Q104,S5-08,image,imagen-nano-banana-2-1,65,1,DONE
+Q105,S5-08,video,kling-omni3 1080p 9s,855,1,DONE
 Q106,S5-02,video,kling-omni3 1080p 9s (reprise),855,1,DONE
 Q107,S5-03,video,"kling-30 1080p 9s (reprise, test modele)",810,1,DONE
 Q108,S5-04,video,kling-30 1080p 9s,810,1,DONE
 Q109,S5-05,video,kling-30 1080p 9s,810,1,DONE
 Q110,S5-06,video,kling-30 1080p 9s,810,1,DONE
+Q111,S5-07,video,kling-30 1080p 9s,810,1,DONE
+Q112,S5-08,video,kling-30 1080p 9s,810,1,DONE

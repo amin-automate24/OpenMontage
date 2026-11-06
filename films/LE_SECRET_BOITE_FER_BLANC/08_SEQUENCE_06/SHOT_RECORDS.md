@@ -86,3 +86,11 @@
 | Vidéo | `LweLQ9oswO`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | REFAIT Kling 2.6 5 s (225 cr, start+end) : ANIME ET FIDELE : meme boite rectangulaire fleurie vert/rouille, drapeau, livre et chapelet visibles a l'interieur, couvercle qui se rabat doucement sous la main agee, mains d'enfant a l'echelle, plancher et lumiere conformes. Duree 5 s (prolongee de 2,5 s par image figee au montage). |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S6-08
+| Champ | Valeur |
+|---|---|
+| Image de départ | `bxcKTRf5Y2` (65 cr) |
+| Vidéo | `p8wdOCCehw`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | v5 Kling 2.6 5 s (start+end) : le couvercle se ferme sous la main agee SANS toucher les mains de l'enfant, qui restent posees sur le plancher a gauche ; meme boite fidele, objets visibles avant fermeture, plancher et lumiere conformes. Corrige le defaut 'couvercle sur la main de l'enfant'. |
+| Statut | ⏳ en attente de décision du réalisateur |

@@ -162,4 +162,6 @@ S6-10_VIDEO_v3,video,S6-10 video v3 etoile OK mais scene recomposee (alt non ret
 S6-02_START,image,S6-02 image de depart v2,VALIDE,If4IPIntvE,,lot autorise
 S6-02_VIDEO,video,S6-02 video v2 main enfant,VALIDE,6Au6ujYiJO,,
 S6-08_START_v4,image,S6-08 image de depart,VALIDE,Eb2ChjquuO,,lot autorise
-S6-08_VIDEO_v4,video,S6-08 video v4 Kling 2.6 fidele,EN_ATTENTE,LweLQ9oswO,,
+S6-08_VIDEO_v4,video,S6-08 video v4 couvercle sur main enfant - remplacee par v5,REFUSE,LweLQ9oswO,,
+S6-08_START_v5,image,S6-08 image de depart,VALIDE,bxcKTRf5Y2,,lot autorise
+S6-08_VIDEO_v5,video,S6-08 video v5 Kling 2.6 mains enfant a cote,EN_ATTENTE,p8wdOCCehw,,

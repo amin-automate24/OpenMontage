@@ -9,3 +9,6 @@ Complète `film_studio.py` (non modifié).
 
 ## film_edit (montage par liste de décisions)
 `scripts/film_edit.py plan|render EDL.json` : rend un montage à partir d'une EDL JSON (clip, in, out, transition cut/dissolve + durée), toujours en copie versionnée (`_v2`...), sources en lecture seule. Les EDL du projet sont dans `12_EDITING/`.
+
+## film_mix (mixage audio)
+`python3 scripts/film_mix.py plan|render MIX.json` : mixage pilote par un JSON de repères (pistes, début, durée, boucle, niveau `lufs`/`gain_db`, fondus). Sources en lecture seule ; sorties versionnées dans `12_EDITING/AUDIO/` (WAV + MP4 si `video`). Voir l'en-tête du script pour le format. Exemple : `films/LE_SECRET_BOITE_FER_BLANC/11_AUDIO/MIX_S1-S2_v2.json`.

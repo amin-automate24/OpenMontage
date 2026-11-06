@@ -89,3 +89,6 @@ S6-02 v6 Kling 2.6 start-only (225) ; S6-08 v6 image de fin + Kling 2.6 start+en
 
 ## 2026-11-06 Retrait de la priere ; S6-02 v7
 Appel a la priere retire (MIX_S6_v3/v4). S6-02 v6 jugee trop fixe -> v7 Kling 2.6 mouvement marque (225 cr, reprises S6 cumul 740/1100). En attente de validation.
+
+## 2026-11-06 VALIDATION S5 v8
+Realisateur : VALIDER S5 v8 (S5_cut_v8_BROUILLON.mp4 + MIX_S5_v8).

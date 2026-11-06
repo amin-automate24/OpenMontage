@@ -512,3 +512,9 @@
 
 ## 2026-11-06 — S6-10
 - Image O6hJ5Pdynm + vidéo If48YE3tvE, 920 crédits. QC : Kling 3.0 : tres beau plan final : le drapeau drape la fenetre en arc, la lumiere passe par le moucharabieh et dessine l'etoile ; quasi immobile, poussiere. Reserve : la piece differe de l'image de depart (fenetre en arc, coffres), le drapeau recouvre la fenetre (plus litteral que l'image de depart qui le montrait accroche a cote). Alternative : image fixe O6hJ5Pdynm + push-in.
+
+## 2026-11-06 — S6-08
+- Image Eb2ChjquuO + vidéo 1lVkbyKr4r, 920 crédits. QC : REFAIT (start+end frame, Kling 3.0) : boite RECTANGULAIRE conservee, le couvercle se rabat sous la main agee jusqu'a fermeture, main de l'enfant immobile sur la boite ; bon geste. Reserves : angle bas de cote, plan plus serre, boite plus claire (fond blanc a fleurs roses/jaunes, couvercle gris metal) que la boite verte/rouille PRP_02 ; plan neutre beige a la place du plancher ; ce n'est donc pas le meme objet visuellement.
+
+## 2026-11-06 — S6-10
+- Image None + vidéo SyoggnAUb8, 855 crédits. QC : REFAIT (start=end frame, Kling 3.0) : plan tres stable, le drapeau pend a cote de la fenetre a moucharabieh (comme demande), poussiere et lumiere douces, coffre/cuvette/chaise. Reserves : piece differente de l'image de depart (fenetre en arc, mur fissure), drapeau rose delave et etoile vert tres sombre (presque noire) : les couleurs rouge/vert du film sont a renforcer a l'etalonnage ; mouvement presque nul (fidele a l'intention de calme).

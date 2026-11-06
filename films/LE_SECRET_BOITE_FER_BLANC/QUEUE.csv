@@ -129,3 +129,6 @@ Q134,S6-09,image,imagen-nano-banana-2-1,65,1,DONE
 Q135,S6-09,video,kling-30 1080p 9s,810,1,PENDING
 Q136,S6-10,image,imagen-nano-banana-2-1,65,1,DONE
 Q137,S6-10,video,kling-30 1080p 9s,810,1,DONE
+Q140,S6-08,image,"imagen-nano-banana-2-1 (refaire, image de depart couvercle ouvert)",65,1,DONE
+Q141,S6-08,video,"kling-30 1080p 9s (refaire, start+end frame)",810,1,DONE
+Q142,S6-10,video,"kling-30 1080p 9s (refaire, start+end frame)",810,1,DONE

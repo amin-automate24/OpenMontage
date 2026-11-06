@@ -46,3 +46,19 @@
 | Vidéo | `If48YE3tvE`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Kling 3.0 : tres beau plan final : le drapeau drape la fenetre en arc, la lumiere passe par le moucharabieh et dessine l'etoile ; quasi immobile, poussiere. Reserve : la piece differe de l'image de depart (fenetre en arc, coffres), le drapeau recouvre la fenetre (plus litteral que l'image de depart qui le montrait accroche a cote). Alternative : image fixe O6hJ5Pdynm + push-in. |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S6-08
+| Champ | Valeur |
+|---|---|
+| Image de départ | `Eb2ChjquuO` (65 cr) |
+| Vidéo | `1lVkbyKr4r`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | REFAIT (start+end frame, Kling 3.0) : boite RECTANGULAIRE conservee, le couvercle se rabat sous la main agee jusqu'a fermeture, main de l'enfant immobile sur la boite ; bon geste. Reserves : angle bas de cote, plan plus serre, boite plus claire (fond blanc a fleurs roses/jaunes, couvercle gris metal) que la boite verte/rouille PRP_02 ; plan neutre beige a la place du plancher ; ce n'est donc pas le meme objet visuellement. |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S6-10
+| Champ | Valeur |
+|---|---|
+| Image de départ | `` (0 cr) |
+| Vidéo | `SyoggnAUb8`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | REFAIT (start=end frame, Kling 3.0) : plan tres stable, le drapeau pend a cote de la fenetre a moucharabieh (comme demande), poussiere et lumiere douces, coffre/cuvette/chaise. Reserves : piece differente de l'image de depart (fenetre en arc, mur fissure), drapeau rose delave et etoile vert tres sombre (presque noire) : les couleurs rouge/vert du film sont a renforcer a l'etalonnage ; mouvement presque nul (fidele a l'intention de calme). |
+| Statut | ⏳ en attente de décision du réalisateur |

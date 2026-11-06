@@ -345,3 +345,9 @@
 
 ## 2026-11-06 — Fin du lot S2
 - S2-10 : image JNmbEZFOq4 (65 cr), dérive d'identité, vidéo non lancée. Total lot S2 : 9 265 crédits. Solde 43 805. En attente de décision.
+
+## 2026-11-06 — Validations S2
+- S2-01, 03b, 04, 05, 06, 07, 09 validés ; S2-08 validé (coupe 6,3 s). S2-02 en attente. S2-10 : reprise d'image autorisée.
+
+## 2026-11-06 — S2-10 image v2
+- Creation s7dCaqsl8e, 65 crédits (solde 43 740). Vidéo non lancée, décision demandée.

@@ -85,3 +85,10 @@
 | Image de départ v1 | Magnific `JNmbEZFOq4` (65 cr), références YAS_06, YAS_01, ENV_01 |
 | QC | Grenier et lumière fidèles, expression d'émerveillement discrète réussie. IDENTITÉ NON CONFORME : le garçon paraît plus âgé (11-12 ans au lieu de 8), visage plus allongé, cheveux plus volumineux, cicatrice du front non visible, pull à liseré crème correct. **Règle d'arrêt déclenchée** : vidéo non lancée |
 | Statut | ⏳ décision du réalisateur |
+
+### S2-10 image v2 (reprise)
+| Champ | Valeur |
+|---|---|
+| Image | Magnific `s7dCaqsl8e` (65 cr), aperçu `S2-10_start_v2_preview.jpg` |
+| QC | Identité nettement meilleure que la v1 : enfant d'environ 9 ans, joues rondes, cheveux noirs ondulés, yeux sombres, liseré crème du pull, petite marque claire au front côté droit (non certaine). Réserve de continuité : il regarde dans le coffre en bois, éclairé de l'intérieur, et non la boîte en fer blanc posée au sol (S2-09). Lumière ambrée venant du coffre : à surveiller (magie réservée à S3). Vidéo non lancée |
+| Statut | ⏳ décision du réalisateur |

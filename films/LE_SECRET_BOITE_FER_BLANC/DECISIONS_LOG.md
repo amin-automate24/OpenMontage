@@ -24,3 +24,5 @@
 - 2026-11-06 S2 : S2-01 à S2-09 générés (S2-03 v1 inversée refusée, S2-03b retenue). S2-10 : image avec dérive d'identité (garçon trop âgé, cicatrice absente) ; règle d'arrêt déclenchée, vidéo non lancée. Dépense S2 : 9 265 crédits sur 14 000 autorisés ; solde 43 805.
 - 2026-11-06 Validés : S2-01, S2-03b, S2-04, S2-05, S2-06, S2-07, S2-09 ; S2-08 avec coupe à 6,3 s. S2-02 non tranché (redondant avec S2-01). S2-10 : option 1 validée (reprise de l'image, 65 cr, comparaison côte à côte avant la vidéo).
 - 2026-11-06 S2-02 gardé. S2-10 : option 2 (reprise d'image avec la boîte en fer blanc au sol et lumière naturelle, référence de visage = v2) ; vidéo lancée seulement si identité et accessoire conformes (dans le plafond S2 de 14 000).
+- 2026-11-06 S2-10 : option 2 (retouche unique de la v3 : pantalon beige) ; vidéo lancée si visage et accessoires inchangés.
+- 2026-11-06 S2 : S2-10 généré après retouche du pantalon (image WDxyPLQcXe) ; montage S2 v1 assemblé (87,71 s : S2-08 coupé à 6,3 s). Dépense lot S2 : 10 315 crédits sur 14 000.

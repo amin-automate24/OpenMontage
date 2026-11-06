@@ -357,3 +357,9 @@
 
 ## 2026-11-06 — S2-10 image v3
 - nV1JJ1lYQD, 65 crédits (solde 43 675). Pantalon bleu au lieu de beige. Vidéo non lancée, décision demandée.
+
+## 2026-11-06 — S2-10
+- Image WDxyPLQcXe + vidéo mENWcDShJQ, 920 crédits. QC : Meme enfant (~9 ans) sur 9 s, pull bleu marine a lisere creme, pantalon beige (corrige), boite en fer blanc ouverte au sol, lumiere naturelle sans lueur magique, decor stable ; regard qui monte vers la boite avec emerveillement discret ; cadre plus large ; identite plausible, non exacte ; image v3 nV1JJ1lYQD retouchee (pantalon)
+
+## 2026-11-06 — Montage S2 v1
+- 10 plans téléchargés (09_MAGNIFIC_GENERATIONS/S2/), assemblés en 12_EDITING/S2_rough_cut_v1.mp4 : 87,71 s, 2 105 images, H.264 1920x1080 24 i/s. Pas de noir ni d'image figée. Aucune génération, aucun crédit.

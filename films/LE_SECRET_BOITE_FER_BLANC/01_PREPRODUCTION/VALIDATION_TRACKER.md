@@ -46,4 +46,4 @@ Commandes : **VALIDER** · **MODIFIER** · **REFAIRE** · **REFUSER**
 | — | **OBJETS : RÉFÉRENCES TERMINÉES** | | | ✅ |
 
 ## Séquences
-S1 : découpage validé ; S1-01 à S1-04 ✅ VALIDÉS ; S1-05 à S1-10 générés, en attente de validation (voir SHOT_LIST.csv). S2 : découpage ✅ VALIDÉ ; S2-01 à S2-09 générés (à valider), S2-10 bloqué. S3 à S6 : non commencées.
+S1 : découpage validé ; S1-01 à S1-04 ✅ VALIDÉS ; S1-05 à S1-10 générés, en attente de validation (voir SHOT_LIST.csv). S2 : découpage ✅ VALIDÉ ; S2-01 à S2-09 ✅ validés, S2-10 en attente ; montage S2 v1 fait. S3 à S6 : non commencées.

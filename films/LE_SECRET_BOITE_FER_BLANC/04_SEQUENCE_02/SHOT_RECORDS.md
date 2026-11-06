@@ -99,3 +99,11 @@
 | Image | Magnific `nV1JJ1lYQD` (65 cr), aperçu `S2-10_start_v3_preview.jpg` |
 | QC | Boîte en fer blanc ouverte au sol avec drapeau rouge, Coran vert sans écriture, tissu blanc ; lumière naturelle de la fenêtre (pas de lueur magique) ; enfant d'environ 9 ans en profil, joues rondes, cheveux noirs, pull bleu marine à liseré crème ; décor cohérent (fenêtre à gauche, porte au fond à droite). DÉFAUT : pantalon bleu foncé (jean) au lieu du beige verrouillé ; l'expression d'émerveillement est peu lisible de profil. Règle d'arrêt (3e image du même plan) : vidéo non lancée |
 | Statut | ⏳ décision du réalisateur |
+
+## S2-10
+| Champ | Valeur |
+|---|---|
+| Image de départ | `WDxyPLQcXe` (65 cr) |
+| Vidéo | `mENWcDShJQ`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Meme enfant (~9 ans) sur 9 s, pull bleu marine a lisere creme, pantalon beige (corrige), boite en fer blanc ouverte au sol, lumiere naturelle sans lueur magique, decor stable ; regard qui monte vers la boite avec emerveillement discret ; cadre plus large ; identite plausible, non exacte ; image v3 nV1JJ1lYQD retouchee (pantalon) |
+| Statut | ⏳ en attente de décision du réalisateur |

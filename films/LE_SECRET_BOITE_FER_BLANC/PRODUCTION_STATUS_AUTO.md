@@ -2,8 +2,8 @@
 
 ```
 shots: {'VALIDE': 19, 'VALIDE_PLAN_LARGE': 1, 'REFUSE': 1, 'EN_ATTENTE_DECISION': 1}
-Magnific spent (ledger): 21325 | balance (chained): 43675.0
+Magnific spent (ledger): 22245 | balance (chained): 42755.0
 pending decisions: ['S2-10']
 ```
 
-pending: 2 items | estimated 1710 cr | approved 1710 cr | balance 43675.0
+pending: 0 items | estimated 0 cr | approved 0 cr | balance 42755.0

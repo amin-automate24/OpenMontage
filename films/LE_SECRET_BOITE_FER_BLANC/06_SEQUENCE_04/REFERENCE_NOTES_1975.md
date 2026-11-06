@@ -21,3 +21,10 @@
 - REF_02 : route avec arche rouge ; camions civils rouge et orange/jaune à cabine arrondie, plateaux surchargés, bidons bleus à l'avant, drapeaux rouges sur hampes, camionnettes blanches de l'époque.
 - REF_03 : longue file de camions orange/jaune à cabine avancée arrondie, en montagne rouge ; plateaux chargés.
 - Constat : camions CIVILS, couleurs vives (rouge, orange, jaune), cabines arrondies de type européen (aspect Berliet/Saviem/Mercedes), très chargés ; aucun Ford série F identifiable ; aucun aspect militaire.
+
+## Ajout 2026-11-06 (b) : 3 photos d'archive fournies (droits confirmés) — ARCHIVE_PHOTO_04..06 (non versionnées)
+- 04 : volontaires avec Coran (médaillon doré) et portrait du roi (photo réelle, recadrée fond blanc).
+- 05 : foule, drapeaux rouges sur hampes, portrait du roi et Coran levés ; vestes de laine rayée, foulards blancs.
+- 06 : camion rouge à capot long portant l'inscription FORD sur le capot, plateau plein de volontaires, portrait du roi et drapeau à étoile verte. => PREUVE qu'un camion Ford figurait dans la Marche (modèle à capot arrondi, années 60-70).
+- Règle : ces photos sont des archives réelles, à insérer INCHANGÉES (aucun upscale IA, aucune retouche de visage), avec mention « photographie d'archive ». Résolutions faibles (≈300-520 px) : affichage en encadré (matte sombre + grain), pas en plein cadre.
+- Génération : camion type photo 06 (capot arrondi rouge, sans lettrage lisible, sans plaque) ; portrait du roi non généré (hors champ, dos du cadre).

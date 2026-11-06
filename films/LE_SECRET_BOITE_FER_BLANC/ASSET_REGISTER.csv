@@ -113,3 +113,7 @@ S4-10_START,image,S4-10 image de depart,VALIDE,s7drusZl8e,,lot autorise
 S4-10_VIDEO,video,S4-10 video,EN_ATTENTE,P3a7xLM42C,,
 S4-11_START,image,S4-11 image de depart,VALIDE,eIwVcJYdqL,,lot autorise
 S4-11_VIDEO,video,S4-11 video,EN_ATTENTE,4RfJJzl9Aa,,
+S4-06_START_v2,image,S4-06 image de depart,VALIDE,MBg011uDCm,,lot autorise
+S4-06_VIDEO_v2,video,S4-06 video reprise ECHEC - ne pas utiliser,REFUSE,TdsWkocVNR,,
+S4-11_START_v2,image,S4-11 image de depart,VALIDE,mEN89qHhJQ,,lot autorise
+S4-11_VIDEO_v2,video,S4-11 video reprise ECHEC - ne pas utiliser,REFUSE,s7dxdY1l8e,,

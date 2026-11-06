@@ -86,3 +86,19 @@
 | Vidéo | `4RfJJzl9Aa`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Kling a recadre en plan large: camion rouge roule de gauche a droite, mais benne VIDE (la foule du plateau a disparu), etoile verte sur la portiere (embleme), drapeaux sur hampes. Ecart net vs image de depart. Reserve: refaire ou ecarter. |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S4-06
+| Champ | Valeur |
+|---|---|
+| Image de départ | `MBg011uDCm` (65 cr) |
+| Vidéo | `TdsWkocVNR`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | ECHEC reprise: Kling a remplace la scene (herbe verte, camions vert olive d'aspect MILITAIRE, soldat-like au premier plan). Ne repond pas a la demande civile. A ne pas utiliser. Image de depart MBg011uDCm conforme (camions civils orange/rouge). |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S4-11
+| Champ | Valeur |
+|---|---|
+| Image de départ | `mEN89qHhJQ` (65 cr) |
+| Vidéo | `s7dxdY1l8e`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | ECHEC reprise (2e echec du plan): Kling remplace la scene : foule disparue, camion a cabine plate moderne avec plaque jaune (anachronisme), peu de monde. Image de depart mEN89qHhJQ conforme (Ford-like rouge, sans militaire). Arret selon regle. |
+| Statut | ⏳ en attente de décision du réalisateur |

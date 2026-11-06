@@ -67,3 +67,12 @@ S2_ROUGH_CUT_v1,montage,"Montage S2 v1 (87,71 s, 1920x1080, 24 i/s, sans son)",R
 S1_CUT_v2,montage,"Montage S1 v2 (66,04 s, EDL_S1_v2.json)",VALIDE,,,12_EDITING/S1_cut_v2.mp4 ; hors git
 S2_CUT_v2,montage,"Montage S2 v2 (75,42 s, EDL_S2_v2.json)",VALIDE,,,12_EDITING/S2_cut_v2.mp4 ; remplace S2_rough_cut_v1 (conservee) ; hors git
 FILM_S1-S2_CUT_v1,montage,"Film assemble S1+S2 v1 (140,42 s, EDL_FILM_S1-S2_v1.json)",VALIDE,,,12_EDITING/FILM_S1-S2_cut_v1.mp4 ; sans son ; hors git
+S3-01_START,image,S3-01 image de depart,VALIDE,CqZt4uKEEy,,lot autorise
+S3-01_VIDEO,video,S3-01 video,EN_ATTENTE,jUp5cJwLD0,,
+S3-02_START,image,S3-02 image de depart,VALIDE,1lVH05xr4r,,lot autorise
+S3-02_VIDEO,video,S3-02 video,EN_ATTENTE,jUp5pWRLD0,,
+S3-03_START,image,S3-03 image de depart,VALIDE,0eLGSMvTfW,,lot autorise
+S3-03_VIDEO,video,S3-03 video,EN_ATTENTE,p8UcOc2ehw,,
+S3-03b_START,image,S3-03b image de depart,VALIDE,If4eA5ztvE,,lot autorise
+S3-03b_VIDEO,video,S3-03b video,EN_ATTENTE,s7dka2Il8e,,
+S3-03b_REVERSED_copy,video,S3-03b lecture inversee (copie),A_VALIDER,,,"09_MAGNIFIC_GENERATIONS/S3/S3-03b_REVERSED_copy.mp4 ; copie ffmpeg reverse de s7dka2Il8e, gratuite ; le sable monte de la paume ; l'original est conserve ; hors git"

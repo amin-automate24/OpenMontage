@@ -21,9 +21,9 @@ S2-08,S2,1:03-1:12,Mains posent la boite dans la lumiere,a creer,jUpad5cLD0,VALI
 S2-09,S2,1:12-1:21,Ouverture du couvercle (3 objets),a creer,yivKE7rPW9,VALIDE,920,Valide par le realisateur 2026-11-06
 S2-10,S2,1:21-1:30,Yassine emerveille (test identite),a creer,mENWcDShJQ,VALIDE,1115,"Valide par le realisateur 2026-11-06 (identite plausible, non exacte)"
 S2-03b,S2,0:18-0:27,"RETAKE de S2-03 : Yassine avance depuis la porte vers la camera, petit, a contre-jour",a creer,bxWoSG15Y2,VALIDE,920,Valide par le realisateur 2026-11-06
-S3-01,S3,0:00-0:09,Mains denouent le tissu de sable,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
-S3-02,S3,0:09-0:18,"Macro grains dans la paume, un grain brille",a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
-S3-03,S3,0:18-0:27,Les grains s'elevent en poussiere doree,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
+S3-01,S3,0:00-0:09,Mains denouent le tissu de sable,a creer,jUp5cJwLD0,EN_ATTENTE_DECISION,920,"Les mains travaillent le noeud du tissu blanc, manches bleu marine stables, bois et lumiere naturelle ; cadre plus large que l'image ; le tissu ne s'o"
+S3-02,S3,0:09-0:18,"Macro grains dans la paume, un grain brille",a creer,jUp5pWRLD0,EN_ATTENTE_DECISION,920,"Paume immobile avec sable ocre, un grain scintille doucement plusieurs fois (respiration), sans or ni paillettes ; cinq doigts conserves ; reserve : l"
+S3-03,S3,0:18-0:27,Les grains s'elevent en poussiere doree,a creer,p8UcOc2ehw,REFUSE,920,v1 inversee (le sable tombe au lieu de monter) ; remplacee par S3-03b
 S3-04,S3,0:27-0:36,Yassine de dos entoure de poussiere doree,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
 S3-05,S3,0:36-0:45,Grenier rempli de spirales de poussiere doree,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
 S3-06,S3,0:45-0:54,Traits d'or se dessinent sur le mur nu,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
@@ -31,3 +31,4 @@ S3-07,S3,0:54-1:03,"La fresque se colore (desert, foule, drapeaux)",a creer,a cr
 S3-08,S3,1:03-1:12,La fresque s'anime,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
 S3-09,S3,1:12-1:21,Yassine tend la main vers la fresque,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
 S3-10,S3,1:21-1:30,Le mur se dilate : le desert envahit le cadre,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
+S3-03b,S3,0:18-0:27,RETAKE de S3-03 : grains en apesanteur qui montent de la paume,a creer,s7dka2Il8e,REFUSE,920,"2e echec (sable tombe) ; piste gratuite : lecture a l'envers en montage, a valider"

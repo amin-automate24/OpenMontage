@@ -40,12 +40,12 @@ Q38,S2-10,image,imagen-nano-banana-2-1,65,1,DONE
 Q39,S2-10,image,imagen-nano-banana-2-1,65,1,DONE
 Q40,S2-10,video,kling-omni3 1080p 9s,855,1,DONE
 Q41,S2-10,image,imagen-nano-banana-2-1,65,1,DONE
-Q42,S3-01,image,imagen-nano-banana-2-1,65,1,PENDING
-Q43,S3-01,video,kling-omni3 1080p 9s,855,1,PENDING
-Q44,S3-02,image,imagen-nano-banana-2-1,65,1,PENDING
-Q45,S3-02,video,kling-omni3 1080p 9s,855,1,PENDING
-Q46,S3-03,image,imagen-nano-banana-2-1,65,1,PENDING
-Q47,S3-03,video,kling-omni3 1080p 9s,855,1,PENDING
+Q42,S3-01,image,imagen-nano-banana-2-1,65,1,DONE
+Q43,S3-01,video,kling-omni3 1080p 9s,855,1,DONE
+Q44,S3-02,image,imagen-nano-banana-2-1,65,1,DONE
+Q45,S3-02,video,kling-omni3 1080p 9s,855,1,DONE
+Q46,S3-03,image,imagen-nano-banana-2-1,65,1,DONE
+Q47,S3-03,video,kling-omni3 1080p 9s,855,1,DONE
 Q48,S3-04,image,imagen-nano-banana-2-1,65,1,PENDING
 Q49,S3-04,video,kling-omni3 1080p 9s,855,1,PENDING
 Q50,S3-05,image,imagen-nano-banana-2-1,65,1,PENDING
@@ -60,3 +60,5 @@ Q58,S3-09,image,imagen-nano-banana-2-1,65,1,PENDING
 Q59,S3-09,video,kling-omni3 1080p 9s,855,1,PENDING
 Q60,S3-10,image,imagen-nano-banana-2-1,65,1,PENDING
 Q61,S3-10,video,kling-omni3 1080p 9s,855,1,PENDING
+Q62,S3-03b,image,imagen-nano-banana-2-1,65,1,DONE
+Q63,S3-03b,video,kling-omni3 1080p 9s,855,1,DONE

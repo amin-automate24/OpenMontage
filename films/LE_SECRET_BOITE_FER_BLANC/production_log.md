@@ -372,3 +372,18 @@
 
 ## 2026-11-06 — Validations et autorisation S3
 - Montages validés ; découpage S3 validé ; or pour l'étalonnage ; plafond S3 14 000 crédits. Lancement de la séquence 3.
+
+## 2026-11-06 — S3-01
+- Image CqZt4uKEEy + vidéo jUp5cJwLD0, 920 crédits. QC : Les mains travaillent le noeud du tissu blanc, manches bleu marine stables, bois et lumiere naturelle ; cadre plus large que l'image ; le tissu ne s'ouvre pas franchement et le sable ne glisse pas de facon lisible ; main gauche un peu floue/pateuse ; aucun visage ni texte, aucune dorure
+
+## 2026-11-06 — S3-02
+- Image 1lVH05xr4r + vidéo jUp5pWRLD0, 920 crédits. QC : Paume immobile avec sable ocre, un grain scintille doucement plusieurs fois (respiration), sans or ni paillettes ; cinq doigts conserves ; reserve : la main parait adulte plutot qu'enfantine, sable plus granuleux que PRP_05 ; aucun visage ni texte
+
+## 2026-11-06 — S3-03
+- Image 0eLGSMvTfW + vidéo p8UcOc2ehw, 920 crédits. QC : v1 INVERSEE : le sable tombe en filet dans la paume au lieu de s'elever ; main stable, sable naturel sans or ; geste magique non obtenu
+
+## 2026-11-06 — S3-03b
+- Image If4eA5ztvE + vidéo s7dka2Il8e, 920 crédits. QC : v2 : le sable tombe de nouveau en filet dans la paume (3,6 a 6,5 s) au lieu de monter ; 2e echec du meme element, regle d'arret ; main stable, sable naturel sans or
+
+## 2026-11-06 — Lot S3 suspendu après S3-03b
+- S3-01, S3-02 générés ; S3-03 (v1) et S3-03b (v2) : le sable tombe au lieu de monter (2 échecs identiques, règle d'arrêt). Copie inversée de S3-03b créée et vérifiée (gratuit). Dépense S3 : 3 680 crédits sur 14 000. Solde ≈ 39 075.

@@ -118,17 +118,17 @@ S4-06_VIDEO_v2,video,S4-06 video reprise ECHEC - ne pas utiliser,REFUSE,TdsWkocV
 S4-11_START_v2,image,S4-11 image de depart,VALIDE,mEN89qHhJQ,,lot autorise
 S4-11_VIDEO_v2,video,S4-11 video reprise ECHEC - ne pas utiliser,REFUSE,s7dxdY1l8e,,
 S5-01_START,image,S5-01 image de depart,VALIDE,w4ISZrU7EI,,lot autorise
-S5-01_VIDEO,video,S5-01 video,EN_ATTENTE,lJXLiLFgv9,,
+S5-01_VIDEO,video,S5-01 video,VALIDE,lJXLiLFgv9,,
 S5-02_START_v1,image,S5-02 image de depart,VALIDE,mENIxVahJQ,,lot autorise
 S5-02_VIDEO_v1,video,S5-02 video v1 ECHEC ville moderne,REFUSE,3zF6XiBREY,,
 S5-02_START,image,S5-02 image de depart,VALIDE,mENIxVahJQ,,lot autorise
-S5-02_VIDEO,video,S5-02 video,EN_ATTENTE,3zF6I3eREY,,
+S5-02_VIDEO,video,S5-02 video,VALIDE,3zF6I3eREY,,
 S5-03_START_v1,image,S5-03 image de depart,VALIDE,6Au9mOIiJO,,lot autorise
 S5-03_VIDEO_v1,video,S5-03 video v1 ECHEC grenier europeen,REFUSE,aF3hPDtfSh,,
 S5-03_START_v2,image,S5-03 image de depart (reprise Kling 3.0),VALIDE,6Au9mOIiJO,,meme image
-S5-03_VIDEO_v2,video,S5-03 video reprise Kling 3.0,EN_ATTENTE,hu6tNUdvqL,,
+S5-03_VIDEO_v2,video,S5-03 video reprise Kling 3.0,VALIDE,hu6tNUdvqL,,
 S5-04_START,image,S5-04 image de depart,VALIDE,6Au9HAmiJO,,lot autorise
-S5-04_VIDEO,video,S5-04 video,EN_ATTENTE,0eLWg0fTfW,,
+S5-04_VIDEO,video,S5-04 video,VALIDE,0eLWg0fTfW,,
 S5-05_START,image,S5-05 image de depart,VALIDE,p8UM9lkehw,,lot autorise
 S5-05_VIDEO,video,S5-05 video ECHEC (repli image fixe),REFUSE,1lVK8O4r4r,,
 S5-06_START,image,S5-06 image de depart,VALIDE,SyolQQjUb8,,lot autorise
@@ -136,4 +136,4 @@ S5-06_VIDEO,video,S5-06 video ECHEC derive identite (repli image fixe),REFUSE,p8
 S5-07_START,image,S5-07 image de depart,VALIDE,SyolKONUb8,,lot autorise
 S5-07_VIDEO,video,S5-07 video ECHEC derive identite (repli image fixe),REFUSE,cpjY3GT0eP,,
 S5-08_START,image,S5-08 image de depart,VALIDE,LwexK4TswO,,lot autorise
-S5-08_VIDEO,video,S5-08 video,EN_ATTENTE,Eb2fmhduuO,,
+S5-08_VIDEO,video,S5-08 video,VALIDE,Eb2fmhduuO,,

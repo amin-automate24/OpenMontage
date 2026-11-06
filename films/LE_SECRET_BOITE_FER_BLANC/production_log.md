@@ -493,3 +493,4 @@
 
 ## 2026-11-06 — S5-08
 - Image LwexK4TswO + vidéo Eb2fmhduuO, 920 crédits. QC : Kling 3.0 : action conforme (la main ramasse le sable, laisse filer, puis serre le poing a ~8 s), mains credibles, manche rayee identique. Reserves : cadre plus large et angle different de l'image de depart, sable plus pale/gris, silhouettes de marcheurs en arriere-plan tres sombres a reprendre a l'etalonnage.
+- 2026-11-06 : S5 validée (S5-01..08) ; montage brouillon S5 v1 (EDL_S5_v1.json -> S5_cut_v1_BROUILLON.mp4, 77 s) ; S5-05/06/07 en images fixes + push-in (12_EDITING/S5_assets/), S5-09 dissolution et S5-10 fondu blanc faits au montage (0 crédit). Fiche sonore 11_AUDIO/CUE_SHEET_S5_v1.md.

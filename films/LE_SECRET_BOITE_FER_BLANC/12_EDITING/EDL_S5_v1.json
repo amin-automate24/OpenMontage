@@ -1,0 +1,17 @@
+{
+ "output": "S5_cut_v1_BROUILLON.mp4",
+ "fade_in": 0.5,
+ "fade_out": 0.0,
+ "clips": [
+  {"file":"09_MAGNIFIC_GENERATIONS/S5/S5-01_lJXLiLFgv9.mp4","in":0,"out":9.0,"label":"S5-01"},
+  {"file":"09_MAGNIFIC_GENERATIONS/S5/S5-02_3zF6I3eREY.mp4","in":0,"out":9.0,"label":"S5-02","transition":"dissolve","dur":0.8},
+  {"file":"09_MAGNIFIC_GENERATIONS/S5/S5-03_hu6tNUdvqL.mp4","in":0,"out":8.0,"label":"S5-03"},
+  {"file":"09_MAGNIFIC_GENERATIONS/S5/S5-04_0eLWg0fTfW.mp4","in":0,"out":9.0,"label":"S5-04"},
+  {"file":"12_EDITING/S5_assets/S5-05_grain_pushin_v1.mp4","in":0,"out":7.0,"label":"S5-05 (image fixe)","transition":"dissolve","dur":1.0},
+  {"file":"12_EDITING/S5_assets/S5-06_yassine_pushin_v1.mp4","in":0,"out":8.0,"label":"S5-06 (image fixe)","transition":"dissolve","dur":1.0},
+  {"file":"12_EDITING/S5_assets/S5-07_regard_pushin_v1.mp4","in":0,"out":10.0,"label":"S5-07 (image fixe, LE REGARD)","transition":"dissolve","dur":1.0},
+  {"file":"09_MAGNIFIC_GENERATIONS/S5/S5-08_Eb2fmhduuO.mp4","in":0,"out":9.0,"label":"S5-08","transition":"dissolve","dur":1.0},
+  {"file":"12_EDITING/S5_assets/S5-09_dissolution_v1.mp4","in":0,"out":9.0,"label":"S5-09 (montage)","transition":"dissolve","dur":1.2},
+  {"file":"12_EDITING/S5_assets/S5-10_blanc_v1.mp4","in":0,"out":5.0,"label":"S5-10 (fondu blanc)"}
+ ]
+}

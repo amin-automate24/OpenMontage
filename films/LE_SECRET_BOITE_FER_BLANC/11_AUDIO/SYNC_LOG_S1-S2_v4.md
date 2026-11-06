@@ -4,3 +4,8 @@ Correction : effets MODULÉS par le mouvement mesuré dans l'image (film_motion)
 Fond sonore abaissé : ambiances −44 LUFS (avant −36), M1 −35 (avant −30), reprise M1 −38, souffle −40.
 Mixage : gain statique (plus de loudnorm dynamique final qui remontait les passages calmes), cible −20 LUFS, crête −0,8 dBFS. Silence réel 120,6-122,2 s conservé.
 Fichiers : 11_AUDIO/SOUND_EFFECTS/GATED/*.wav (nouveaux), MIX_S1-S2_v4.json, 12_EDITING/AUDIO/MIX_S1-S2_final_v4_v2.wav/.mp4 (les versions précédentes sont conservées).
+
+## v5 (retour réalisateur : « supprimer le frottement d'acier et les pas décalés dans les deux plans »)
+- Plan S2-05 (main sur le tapis) : effet de frottement SUPPRIMÉ (plus de son d'effet ; reste l'ambiance du grenier).
+- Plan S2-04 (enfant debout dans la lumière) : pas SUPPRIMÉS ; les pas de la marche S2-03b s'arrêtent à 85,5 s (fondu de 0,4 s).
+- Mixage : 12_EDITING/AUDIO/MIX_S1-S2_final_v5.wav/.mp4 (JSON : MIX_S1-S2_v5.json) ; −21,0 LUFS, crête −0,8 dBFS. Versions précédentes conservées.

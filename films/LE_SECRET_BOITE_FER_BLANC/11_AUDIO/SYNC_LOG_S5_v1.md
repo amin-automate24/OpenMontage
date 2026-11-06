@@ -11,3 +11,6 @@
 | 53,6-74 | S5-08/09 | vent qui revient ; S5-08 : sable dans la main modulé par le mouvement (55,4-63,4 s) ; particules 63-75 s |
 | 72-77 | S5-10 | accord tenu, fondu de 4,5 s sous le blanc |
 Mesures : −20,0 LUFS, crête −4,8 dBFS (grande dynamique voulue : LRA 23 LU). Dépense : 170 cr (M5 160, tic 10) ; cumul audio 2 065 / 5 000 ; solde réel 20 210.
+
+## v8 (S5-02 raccourci à 5 s ; montage 71,4 s) — tous les repères après 13,2 s sont décalés de −4,0 s
+Silence du regard ≈ 43-48,8 s (mesuré −91 dB) ; tic du grain 33,0 s ; M5 entre à 48,8 s ; S5-08 sable 51,4-57,9 s ; particules 57,4-69,4 s ; fondu final 66,4-71,4 s. Fichiers : MIX_S5_v8.json, 12_EDITING/AUDIO/MIX_S5_v8.wav/.mp4.

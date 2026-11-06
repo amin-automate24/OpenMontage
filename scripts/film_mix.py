@@ -14,11 +14,13 @@ MIX.json :
  "target_lufs": -16,                  # loudness finale (optionnel)
  "tracks": [
    {"file": "11_AUDIO/AMBIENCE/x.mp3", "start": 0.0, "dur": 30,   # dur : decoupe/boucle
-    "in": 0.0, "loop": true, "lufs": -34, "gain_db": 0,
+    "in": 0.0, "loop": true, "lufs": -34, "gain_db": 0, "smooth": false,
     "fade_in": 1.0, "fade_out": 1.0, "label": "ambiance"}
  ]
 }
-Un piste avec "lufs" est d'abord normalisee a ce niveau (loudnorm), puis "gain_db" est ajoute.
+Une piste avec "lufs" est normalisee a ce niveau par un GAIN STATIQUE mesure (jamais de loudnorm dynamique),
+puis "gain_db" est ajoute. "norm_whole": true mesure le fichier source ENTIER (utile pour decouper une musique en
+segments sans aplatir son crescendo). "smooth": true lisse les rafales d'une ambiance. "loop": true boucle la source.
 Ne modifie, ne supprime, n'ecrase jamais une source ; les sorties vont dans 12_EDITING/AUDIO/ (versionnees).
 """
 from __future__ import annotations
@@ -26,6 +28,7 @@ from __future__ import annotations
 import json
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 
@@ -62,26 +65,45 @@ def total_duration(spec: dict, root: Path) -> float:
     raise SystemExit("duration ou video requis")
 
 
-def track_filter(i: int, t: dict, total: float) -> str:
-    """Construit la chaine de filtres d'une piste ; sortie [a<i>]."""
+def prep_track(i: int, t: dict, root: Path, tmpdir: Path, total: float) -> tuple[Path, float]:
+    """Pre-rend la piste (decoupe, boucle, lissage) en WAV 48 kHz stereo et calcule un GAIN STATIQUE mesure.
+    Pas de loudnorm dynamique : le niveau cible `lufs` est atteint par un gain constant (fiable, deterministe)."""
+    src = root / t["file"]
+    if not src.exists():
+        raise SystemExit(f"source introuvable : {src}")
     start = float(t.get("start", 0.0))
-    dur = t.get("dur")
-    src_in = float(t.get("in", 0.0))
+    length = min(float(t["dur"]) if t.get("dur") else total - start, total - start)
     chain = []
-    if t.get("loop"):
-        chain.append("aloop=loop=-1:size=2147483647")
-    if src_in:
-        chain.append(f"atrim=start={src_in},asetpts=PTS-STARTPTS")
-    avail = total - start
-    length = float(dur) if dur else avail
-    length = min(length, avail)
+    if float(t.get("in", 0.0)):
+        chain.append(f"atrim=start={float(t['in'])},asetpts=PTS-STARTPTS")
     chain.append(f"atrim=duration={length:.3f},asetpts=PTS-STARTPTS")
     chain.append("aformat=sample_rates=48000:channel_layouts=stereo")
-    if t.get("lufs") is not None:
-        chain.append(f"loudnorm=I={float(t['lufs'])}:TP=-1.5:LRA=11")
+    if t.get("smooth"):
+        # lisse les rafales / variations rapides d'une ambiance (niveau plus regulier, plus fluide)
+        chain.append("acompressor=threshold=0.015:ratio=10:attack=250:release=1000:makeup=2,dynaudnorm=f=1500:g=51:p=0.9:m=10")
+    out = tmpdir / f"track_{i}.wav"
+    cmd = ["ffmpeg", "-y", "-loglevel", "error"]
+    if t.get("loop"):
+        cmd += ["-stream_loop", "-1"]
+    cmd += ["-i", str(src), "-af", ",".join(chain), "-t", f"{length:.3f}", "-ar", "48000", "-ac", "2", str(out)]
+    subprocess.run(cmd, check=True)
     gain = float(t.get("gain_db", 0.0))
+    if t.get("lufs") is not None:
+        try:
+            m = measure_lufs(src) if t.get("norm_whole") else measure_lufs(out)
+            if m > -60:  # piste quasi silencieuse : pas de normalisation
+                gain += float(t["lufs"]) - m
+        except (SystemExit, ValueError):
+            pass
+    return out, gain
+
+
+def track_filter(i: int, t: dict, total: float, gain: float, length: float) -> str:
+    """Chaine de filtres d'une piste pre-rendue ; sortie [a<i>]."""
+    start = float(t.get("start", 0.0))
+    chain = []
     if gain:
-        chain.append(f"volume={gain}dB")
+        chain.append(f"volume={gain:.2f}dB")
     fi, fo = float(t.get("fade_in", 0.0)), float(t.get("fade_out", 0.0))
     if fi:
         chain.append(f"afade=t=in:st=0:d={fi}")
@@ -92,20 +114,20 @@ def track_filter(i: int, t: dict, total: float) -> str:
     return f"[{i}:a]" + ",".join(chain) + f"[a{i}]"
 
 
-def build_command(spec: dict, root: Path, out_wav: Path) -> list[str]:
+def build_command(spec: dict, root: Path, out_wav: Path, tmpdir: Path) -> list[str]:
     total = total_duration(spec, root)
     tracks = spec["tracks"]
     cmd = ["ffmpeg", "-y", "-loglevel", "error"]
-    for t in tracks:
-        f = root / t["file"]
-        if not f.exists():
-            raise SystemExit(f"source introuvable : {f}")
-        cmd += ["-i", str(f)]
-    parts = [track_filter(i, t, total) for i, t in enumerate(tracks)]
+    parts = []
+    for i, t in enumerate(tracks):
+        wav, gain = prep_track(i, t, root, tmpdir, total)
+        start = float(t.get("start", 0.0))
+        length = min(float(t["dur"]) if t.get("dur") else total - start, total - start)
+        cmd += ["-i", str(wav)]
+        parts.append(track_filter(i, t, total, gain, length))
     labels = "".join(f"[a{i}]" for i in range(len(tracks)))
-    mix = f"{labels}amix=inputs={len(tracks)}:normalize=0:duration=longest,apad,atrim=duration={total:.3f}"
-    mix += "[out]"
-    cmd += ["-filter_complex", ";".join(parts + [mix]), "-map", "[out]", "-ar", "48000", str(out_wav)]
+    mix = f"{labels}amix=inputs={len(tracks)}:normalize=0:duration=longest,apad,atrim=duration={total:.3f}[out]"
+    cmd += ["-filter_complex", ";".join(parts + [mix]), "-map", "[out]", "-ar", "48000", "-t", f"{total:.3f}", str(out_wav)]
     return cmd
 
 
@@ -144,7 +166,8 @@ def render(mix_path: Path) -> list[Path]:
     out_dir = root / "12_EDITING" / "AUDIO"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_wav = versioned(out_dir / f"{spec['output']}.wav")
-    subprocess.run(build_command(spec, root, out_wav), check=True)
+    with tempfile.TemporaryDirectory() as td:
+        subprocess.run(build_command(spec, root, out_wav, Path(td)), check=True)
     if spec.get("target_lufs") is not None:
         apply_static_gain(out_wav, float(spec["target_lufs"]))
     outs = [out_wav]

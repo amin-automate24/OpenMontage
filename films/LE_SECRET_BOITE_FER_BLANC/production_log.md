@@ -494,3 +494,21 @@
 ## 2026-11-06 — S5-08
 - Image LwexK4TswO + vidéo Eb2fmhduuO, 920 crédits. QC : Kling 3.0 : action conforme (la main ramasse le sable, laisse filer, puis serre le poing a ~8 s), mains credibles, manche rayee identique. Reserves : cadre plus large et angle different de l'image de depart, sable plus pale/gris, silhouettes de marcheurs en arriere-plan tres sombres a reprendre a l'etalonnage.
 - 2026-11-06 : S5 validée (S5-01..08) ; montage brouillon S5 v1 (EDL_S5_v1.json -> S5_cut_v1_BROUILLON.mp4, 77 s) ; S5-05/06/07 en images fixes + push-in (12_EDITING/S5_assets/), S5-09 dissolution et S5-10 fondu blanc faits au montage (0 crédit). Fiche sonore 11_AUDIO/CUE_SHEET_S5_v1.md.
+
+## 2026-11-06 — S6-01
+- Image YMrnIiLWeC + vidéo fHRaLYsCDY, 920 crédits. QC : Kling 3.0 : plan large stable, Yassine a genoux au centre, rais de lumiere et poussiere. Reserve de continuite : piece plus claire et plus propre que l'image de depart et qu'ENV_01 (moucharabieh a gauche, murs blancs sans ecaillage, sol de briques, coffres a droite) ; reste un interieur marocain credible mais different du grenier S1-S3 ; Yassine petit (identite non verifiable).
+
+## 2026-11-06 — S6-02
+- Image 8aPor1wIrU + vidéo 1lVkiq9r4r, 920 crédits. QC : Kling 3.0 : insert utilisable, le sable coule de la paume sur le petit tas, manche bleu marine identique, lumiere douce. Reserves : main d'apparence adulte (trop grande pour un enfant de 8 ans), arriere-plan plus clair/gris que l'image de depart, la main s'ouvre a la fin.
+
+## 2026-11-06 — S6-03
+- Image rgM12Ctxtc + vidéo dt7erOLXSL, 920 crédits. QC : Kling 3.0 : Yassine de dos, tete qui tourne legerement, plan stable ; un enduit decolle en forme de fresque fantome sur le mur (joli). Reserves : piece encore differente (fenetre en arc, plus claire, cadre plus serre) ; les 3 plans de grenier S6 (01, 02, 03) ne partagent pas exactement le meme decor : a unifier a l'etalonnage et eviter de les enchainer trop vite.
+
+## 2026-11-06 — S6-07
+- Image jUpxpfhLD0 + vidéo gOBlo8HSXO, 920 crédits. QC : ECHEC video : Kling 3.0 a deforme la scene (angle bas, drapeau en pyramide avec grande etoile verte, objets modifies). Image de depart jUpxpfhLD0 EXCELLENTE (boite, drapeau, livre sans ecriture, chapelet, sable a l'ecart). Repli : image fixe + push-in lent.
+
+## 2026-11-06 — S6-08
+- Image rgM1Bvtxtc + vidéo nV1zgF6YQD, 920 crédits. QC : Kling 3.0 : plan emotionnel utilisable : les mains agees se posent sur le couvercle, les mains de l'enfant sur la boite, lumiere chaude. RESERVE IMPORTANTE de continuite : la boite est devenue ronde (boite a biscuits fleurie) au lieu de la boite rectangulaire PRP_02, sol en parquet clair ; alternative disponible : image fixe rgM1Bvtxtc (boite rectangulaire fidele) + push-in. A arbitrer par le realisateur.
+
+## 2026-11-06 — S6-10
+- Image O6hJ5Pdynm + vidéo If48YE3tvE, 920 crédits. QC : Kling 3.0 : tres beau plan final : le drapeau drape la fenetre en arc, la lumiere passe par le moucharabieh et dessine l'etoile ; quasi immobile, poussiere. Reserve : la piece differe de l'image de depart (fenetre en arc, coffres), le drapeau recouvre la fenetre (plus litteral que l'image de depart qui le montrait accroche a cote). Alternative : image fixe O6hJ5Pdynm + push-in.

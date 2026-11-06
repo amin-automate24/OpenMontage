@@ -137,3 +137,19 @@ S5-07_START,image,S5-07 image de depart,VALIDE,SyolKONUb8,,lot autorise
 S5-07_VIDEO,video,S5-07 video ECHEC derive identite (repli image fixe),REFUSE,cpjY3GT0eP,,
 S5-08_START,image,S5-08 image de depart,VALIDE,LwexK4TswO,,lot autorise
 S5-08_VIDEO,video,S5-08 video,VALIDE,Eb2fmhduuO,,
+S6-01_START,image,S6-01 image de depart,VALIDE,YMrnIiLWeC,,lot autorise
+S6-01_VIDEO,video,S6-01 video,EN_ATTENTE,fHRaLYsCDY,,
+S6-02_START,image,S6-02 image de depart,VALIDE,8aPor1wIrU,,lot autorise
+S6-02_VIDEO,video,S6-02 video,EN_ATTENTE,1lVkiq9r4r,,
+S6-03_START,image,S6-03 image de depart,VALIDE,rgM12Ctxtc,,lot autorise
+S6-03_VIDEO,video,S6-03 video,EN_ATTENTE,dt7erOLXSL,,
+S6-04_STILL,image,S6-04 image fixe grand-pere a la porte,EN_ATTENTE,DoSMstipcl,,image fixe + push-in
+S6-05_STILL,image,S6-05 image fixe Yassine profil,EN_ATTENTE,aF3v61lfSh,,image fixe + push-in
+S6-06_STILL,image,S6-06 image fixe grand-pere age,EN_ATTENTE,xSDrMDJjfW,,image fixe + push-in
+S6-07_START,image,S6-07 image de depart,VALIDE,jUpxpfhLD0,,lot autorise
+S6-07_VIDEO,video,S6-07 video ECHEC (repli image fixe),REFUSE,gOBlo8HSXO,,
+S6-08_START,image,S6-08 image de depart,VALIDE,rgM1Bvtxtc,,lot autorise
+S6-08_VIDEO,video,S6-08 video,EN_ATTENTE,nV1zgF6YQD,,
+S6-09_STILL,image,S6-09 image fixe les deux de dos face au drapeau,EN_ATTENTE,yivOblsPW9,,image fixe + push-in
+S6-10_START,image,S6-10 image de depart,VALIDE,O6hJ5Pdynm,,lot autorise
+S6-10_VIDEO,video,S6-10 video,EN_ATTENTE,If48YE3tvE,,

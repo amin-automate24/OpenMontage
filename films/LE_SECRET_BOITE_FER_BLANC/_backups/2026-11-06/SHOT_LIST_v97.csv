@@ -1,0 +1,65 @@
+shot,sequence,time,description,start_image,video,status,cost_credits,notes
+S1-01,S1,0:00-0:09,Patio vide lumiere d'apres-midi push-in tres leger,ENV_02_MASTER lJXareYgv9,dt73qaYXSL (v2),VALIDE,1710,v1 If4GFLQtvE non retenue (derive decor)
+S1-02,S1,0:09-0:18,Fontaine macro gouttes et reflets,w4IQt107EI,jUphXBNLD0,VALIDE,920,Valide par le realisateur 2026-11-05 ; camera plus basse que l'image de depart
+S1-03,S1,0:18-0:27,Grand-pere assoupi sur banc plan large,P3a5d9542C,YMr7QgGWeC,VALIDE_PLAN_LARGE,1050,Visage trop petit pour identite ; v3 serree gOBCdN9SXO non utilisee
+S1-04,S1,0:27-0:36,Mains et chapelet,a creer,yiv54N8PW9,VALIDE,920,"Valide 2026-11-05 avec coupe de la fin vers 8,0 s au montage (geste non demande de 8,2 a 8,8 s)"
+S1-05,S1,0:36-0:45,Yassine entre dans le patio (de dos/lointain),a creer,ksTIsfm16B,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-06,S1,0:45-0:54,Yassine regarde le grand-pere puis l'escalier (de dos),a creer,CqZVKJGEEy,VALIDE,920,"Remplace par S1-06b (79tHQW1JAL) coupe a ~5 s, decision du realisateur 2026-11-05 (option 1) ; v1 CqZVKJGEEy conservee non retenue"
+S1-07,S1,0:54-1:03,Baskets sur la premiere marche,a creer,bxWBSkV5Y2,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-08,S1,1:03-1:12,Yassine monte l'escalier (de dos),a creer,9ZC1cEJNYZ,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-09,S1,1:12-1:21,Vue plongeante du haut de l'escalier,a creer,w4IFz5v7EI,VALIDE,920,Valide par le realisateur 2026-11-05 tel quel (perspective deformee acceptee)
+S1-10,S1,1:21-1:30,Yassine pousse la porte du grenier lumiere ambree,a creer,5jco9wfKxe,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-06b,S1,0:45-0:54,"ALTERNATIVE de S1-06 : grand-pere assis, Yassine strictement de dos",a creer,79tHQW1JAL,VALIDE,920,"Retenu pour S1-06 : garder 0 a ~5 s au montage (Yassine de dos, grand-pere assis) ; comble ~4 s a prevoir au montage"
+S2-01,S2,0:00-0:09,Grenier vide rai de lumiere,ENV_01_MASTER JNmF1txOq4,Tds9dQEVNR,VALIDE,855,Valide par le realisateur 2026-11-06
+S2-02,S2,0:09-0:18,Poussiere dans le rai (insert),a creer,nV1JDSEYQD,VALIDE,920,"Garde par le realisateur 2026-11-06 (plan large poussiere, redondant avec S2-01 mais conserve)"
+S2-03,S2,0:18-0:27,Yassine entre par la porte (de dos),a creer,tC9YFPDmZJ,REFUSE,920,v1 inversee (sort au lieu d'entrer) ; remplacee par S2-03b
+S2-04,S2,0:27-0:36,Yassine avance et regarde (de dos),a creer,xSDv4VfjfW,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-05,S2,0:36-0:45,Main sur un tapis roule (insert),a creer,aF3TLCqfSh,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-06,S2,0:45-0:54,Yassine s'agenouille devant le coffre,a creer,cpjPxzd0eP,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-07,S2,0:54-1:03,Boite en fer blanc dans le coffre (insert),a creer,N2Exumh6D9,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-08,S2,1:03-1:12,Mains posent la boite dans la lumiere,a creer,jUpad5cLD0,VALIDE,920,"Valide 2026-11-06 avec coupe a 6,3 s au montage (mains deformees de 6,5 a 8,8 s)"
+S2-09,S2,1:12-1:21,Ouverture du couvercle (3 objets),a creer,yivKE7rPW9,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-10,S2,1:21-1:30,Yassine emerveille (test identite),a creer,mENWcDShJQ,VALIDE,1115,"Valide par le realisateur 2026-11-06 (identite plausible, non exacte)"
+S2-03b,S2,0:18-0:27,"RETAKE de S2-03 : Yassine avance depuis la porte vers la camera, petit, a contre-jour",a creer,bxWoSG15Y2,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-01,S3,0:00-0:09,Mains denouent le tissu de sable,a creer,jUp5cJwLD0,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-02,S3,0:09-0:18,"Macro grains dans la paume, un grain brille",a creer,jUp5pWRLD0,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-03,S3,0:18-0:27,Les grains s'elevent en poussiere doree,a creer,p8UcOc2ehw,REFUSE,920,v1 inversee (le sable tombe au lieu de monter) ; remplacee par S3-03b
+S3-04,S3,0:27-0:36,Yassine de dos entoure de poussiere doree,a creer,O6hgSgPynm,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-05,S3,0:36-0:45,Grenier rempli de spirales de poussiere doree,a creer,WDx2WoAcXe,VALIDE,920,"Valide 2026-11-06 avec coupe a 3,5 s au montage (ligne orangee sur les poutres des 3,7 s)"
+S3-06,S3,0:45-0:54,Traits d'or se dessinent sur le mur nu,a creer,lJXr75Qgv9,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-07,S3,0:54-1:03,"La fresque se colore (desert, foule, drapeaux)",a creer,jUpKO5lLD0,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-08,S3,1:03-1:12,La fresque s'anime,a creer,Lwek3QKswO,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-09,S3,1:12-1:21,Yassine tend la main vers la fresque,a creer,Lwekz1hswO,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-10,S3,1:21-1:30,Le mur se dilate : le desert envahit le cadre,a creer,gOBxDyYSXO,VALIDE,920,Valide par le realisateur 2026-11-06
+S3-03b,S3,0:18-0:27,RETAKE de S3-03 : grains en apesanteur qui montent de la paume,a creer,s7dka2Il8e,VALIDE,920,Valide 2026-11-06 : lecture inversee (copie S3-03b_REVERSED_copy.mp4) pour S3-03 ; original s7dka2Il8e conserve
+S4-01,S4,0:00-0:09,Sortie du blanc : le desert apparait,a creer,6Auy9ZNiJO,VALIDE,920,"Desert voile de blanc qui se dissipe, ciel bleu pale qui apparait, vent sur le sable, colonne de marcheurs minuscule a l'horizon presque immobile ; ca"
+S4-02,S4,0:09-0:18,Foule de dos vers l'horizon,a creer,4RfJipS9Aa,VALIDE,920,"Foule de dos qui avance vers l'horizon, drapeaux rouges a etoile verte qui ondulent, camions et tentes au loin, vent et poussiere, stable ; reserve : "
+S4-03,S4,0:18-0:27,Pieds sur le sable,a creer,SyoLNZwUb8,VALIDE,920,"Pas de marcheurs au ras du sol : sandales usees, chaussettes de laine, capes brunes et vestes rayees (tres proches des photos), poussiere qui se leve,"
+S4-04,S4,0:27-0:36,Drapeau a bout de bras,a creer,iGQ4DeC3uK,VALIDE,920,"Drapeau froisse et effiloche, etoile verte lisible, qui claque au vent sur sa hampe de bois ; main et manche de laine stables ; cadre un peu plus larg"
+S4-05,S4,0:36-0:45,Homme et femme de dos,a creer,eIwVb9gdqL,VALIDE,920,"Un homme en cape brune et turban et une femme au foulard blanc marchent de dos, gourde, sac de toile et baluchon, foule et drapeau rouge devant eux ; "
+S4-06,S4,0:45-0:54,Camions et tentes au loin,a creer,MBg011uDCm,VALIDE,920,Image fixe MBg011uDCm + push-in lent (reprise video ECHEC TdsWkocVNR)
+S4-07,S4,0:54-1:03,Grand-pere jeune dans la foule,a creer,vQiI9CEa47,VALIDE,920,"Grand-pere jeune marche dans la foule en trois-quarts, regard serieux, visage stable sur 9 s (cheveux noirs boucles, moustache fine, visage allonge, p"
+S4-08,S4,1:03-1:12,Grand-pere jeune sourit,a creer,O6hUfZuynm,VALIDE,920,"Grand-pere jeune, plan moyen, large sourire chaleureux de 0 a 2 s puis le sourire s'efface et le regard devient serieux ; identite stable (visage allo"
+S4-09,S4,1:12-1:21,Il ramasse une poignee de sable,a creer,3zF9xyUREY,VALIDE,920,"Les mains en coupe laissent filer le sable fin jusqu'a etre vides, sable naturel sans or, cinq doigts conserves, pieds de la foule et drapeaux flous ;"
+S4-10,S4,1:21-1:30,Sable emporte par le vent,a creer,P3a7xLM42C,VALIDE,920,"Colonne de marcheurs vue de loin dans les dunes, voiles de sable pousses par le vent, drapeaux rouges qui ondulent, lumiere doree rasante qui monte ; "
+S4-11,S4,1:30-1:39,"Camion americain charge de monde, drapeaux froisses, tentes au fond (ajout option)",a creer,s7dxdY1l8e,REFUSE,920,Plan retire du montage : remplace par insert archive ARCHIVE_06 (reprises video echouees)
+S5-01,S5,0:00-0:09,"La foule ralentit et s'eclaircit, vent qui tombe",a creer,lJXLiLFgv9,VALIDE,920,"Large : ligne de marcheurs + drapeaux dans une brume qui s'epaissit, tres stable. Reserve : Kling a abaisse l'horizon, dunes aplaties, palette grise/v"
+S5-02,S5,0:09-0:18,"Grand-pere jeune s'arrete net, de dos",a creer,3zF6I3eREY,VALIDE,920,"Reprise OK avec reserves : desert conserve, plan fixe, un homme de dos en djellaba rayee immobile pendant que le groupe s'eloigne dans la brume (idee "
+S5-03,S5,0:18-0:27,"Yassine (grenier) leve les yeux, profil",a creer,hu6tNUdvqL,VALIDE,855,"Reprise Kling 3.0 (810 cr) OK avec reserves : grenier de style marocain (fenetre a volets, poutres sculptees), Yassine de profil a droite du cadre, ta"
+S5-04,S5,0:27-0:36,"Grand-pere jeune tourne la tete, 3/4",a creer,0eLWg0fTfW,VALIDE,920,Kling 3.0 : bon plan : homme de dos capuche relevee qui tourne lentement la tete et regarde vers la camera a ~7 s (idee du regard amorcee). Reserves :
+S5-05,S5,0:36-0:45,Un seul grain de sable tombe (silence),a creer,1lVK8O4r4r,VALIDE,920,"ECHEC video : Kling 3.0 n'a pas suivi l'image de depart (cratere dans le sable, aucun grain en chute). Repli decide : image fixe p8UM9lkehw (grain en "
+S5-06,S5,0:45-0:54,"Yassine retient son souffle, profil",a creer,p8UMRMZehw,VALIDE,920,"ECHEC video (derive d'identite) : Kling 3.0 a remplace Yassine par un autre garcon (peau claire, cheveux chatain raides) et le grenier marocain par un"
+S5-07,S5,0:54-1:03,LE REGARD : il fixe l'objectif,a creer,cpjY3GT0eP,VALIDE,920,"ECHEC video (derive d'identite) : capuche relevee, visage plus jeune/maigre, moustache et grain de beaute disparus, cabane moderne a droite, vetements"
+S5-08,S5,1:03-1:12,Il ramasse une poignee de sable et la garde,a creer,Eb2fmhduuO,VALIDE,920,"Kling 3.0 : action conforme (la main ramasse le sable, laisse filer, puis serre le poing a ~8 s), mains credibles, manche rayee identique. Reserves : "
+S5-09,S5,1:12-1:21,"La foule se dissout en particules, il reste seul",a creer,,A_FAIRE,0,"Storyboard S5 propose, en attente de validation"
+S5-10,S5,1:21-1:30,"Lumiere blanche, le desert s'efface (liaison S6)",a creer,,A_FAIRE,0,"Storyboard S5 propose, en attente de validation"
+S6-01,S6,0:00-0:09,"Sortie du blanc : le grenier reapparait, Yassine a genoux, poussiere qui retombe",a creer,fHRaLYsCDY,EN_ATTENTE_DECISION,920,"Kling 3.0 : plan large stable, Yassine a genoux au centre, rais de lumiere et poussiere. Reserve de continuite : piece plus claire et plus propre que "
+S6-02,S6,0:09-0:18,Insert : grains de sable retombent de la paume de Yassine,a creer,1lVkiq9r4r,EN_ATTENTE_DECISION,920,"Kling 3.0 : insert utilisable, le sable coule de la paume sur le petit tas, manche bleu marine identique, lumiere douce. Reserves : main d'apparence a"
+S6-03,S6,0:18-0:27,"Yassine de dos devant le mur nu, tourne la tete",a creer,dt7erOLXSL,EN_ATTENTE_DECISION,920,"Kling 3.0 : Yassine de dos, tete qui tourne legerement, plan stable ; un enduit decolle en forme de fresque fantome sur le mur (joli). Reserves : piec"
+S6-04,S6,0:27-0:36,Grand-pere age en silhouette a la porte,a creer,DoSMstipcl,EN_ATTENTE_DECISION,65,"IMAGE FIXE DoSMstipcl (grand-pere age a la porte, Yassine de dos) + push-in au montage ; decor ENV_01 conforme ; pas de video (risque de recomposition)"
+S6-05,S6,0:36-0:45,Yassine le voit (image fixe),a creer,aF3v61lfSh,EN_ATTENTE_DECISION,65,"IMAGE FIXE aF3v61lfSh (Yassine profil, voit le grand-pere) + push-in ; tres proche de S5-06 (meme cadrage), reserve de repetition"
+S6-06,S6,0:45-0:54,"Grand-pere age, signe de tete (image fixe)",a creer,xSDrMDJjfW,EN_ATTENTE_DECISION,65,"IMAGE FIXE xSDrMDJjfW (grand-pere age, plan moyen) + push-in ; visage digne, grain de beaute sous l'oeil gauche non verifiable"
+S6-07,S6,0:54-1:03,Insert : la boite ouverte et ses objets,a creer,,A_FAIRE,0,"Storyboard S6 propose, en attente de validation"
+S6-08,S6,1:03-1:12,Les mains du grand-pere referment le couvercle sur celles de Yassine,a creer,,A_FAIRE,0,"Storyboard S6 propose, en attente de validation"
+S6-09,S6,1:12-1:21,Grand-pere et Yassine de dos face a la fenetre et au drapeau,a creer,,A_FAIRE,0,"Storyboard S6 propose, en attente de validation"
+S6-10,S6,1:21-1:30,Derniere image : le drapeau a la fenetre (video ou image fixe),a creer,,A_FAIRE,0,"Storyboard S6 propose, en attente de validation"

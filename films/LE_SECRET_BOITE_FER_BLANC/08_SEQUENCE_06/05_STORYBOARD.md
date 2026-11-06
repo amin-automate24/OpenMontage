@@ -1,6 +1,6 @@
 # S6 — LA TRANSMISSION : découpage (07:30 → 09:00 du film)
 
-> Statut : 📝 **PROPOSITION, en attente de validation.** Aucune image ni vidéo générée. QUEUE non approuvée.
+> Statut : ✅ **VALIDÉ (2026-11-06).** Dernière image = **le drapeau à la fenêtre** (choix du réalisateur) ; appel à la prière au loin : oui (généré, sans enregistrement existant). Génération autorisée : plafond 9 500.
 > 10 plans x 9 s = 90 s. 16:9 plein cadre. Silencieuse (ambiances, pas de dialogue). Statut : 💡 fin fictionnelle (le lien), jamais une archive.
 
 ## Intention
@@ -25,7 +25,7 @@ Le blanc de S5 s'ouvre sur le grenier : le sable retombe, la poussière se pose,
 | **S6-07** | 0:54-1:03 | Insert | La boîte ouverte sur le plancher : drapeau, Coran (médaillon), chapelet ; une poignée de sable posée à côté | vidéo K3.0 (repli : image fixe) | PRP_02 à PRP_06 |
 | **S6-08** | 1:03-1:12 | Gros plan mains | Les mains âgées du grand-père referment le couvercle sur les mains de Yassine | vidéo K3.0 | GPA_01, YAS_01 |
 | **S6-09** | 1:12-1:21 | Large, de dos | Le grand-père et Yassine côte à côte, de dos, face à la fenêtre et au drapeau accroché | vidéo K3.0 | ENV_01, PRP_03 |
-| **S6-10** | 1:21-1:30 | Gros plan | **Dernière image** : la paume de Yassine avec quelques grains de sable dans la lumière de la fenêtre ; fondu au noir | **image fixe** + push-in (ou vidéo) | YAS_01, PRP_05 |
+| **S6-10** | 1:21-1:30 | Moyen-large | **Dernière image** : le drapeau marocain accroché à la fenêtre du grenier, flottant doucement dans la lumière ; fondu au noir | vidéo K3.0 (repli : image fixe + push-in) | ENV_01, PRP_03 |
 
 ## Sons (bible G)
 Grenier, vent léger, craquements du bois, médina lointaine et peut-être l'appel à la prière au loin (à valider, sans chant enregistré existant) ; couvercle refermé (S6-08) ; reprise du thème de Yassine (oud solo), résolution ; dernière image en silence ou une note tenue.

@@ -5,10 +5,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "scripts"))
 import film_motion as fm
 ROOT = Path(__file__).resolve().parents[1]
-V = ROOT / "12_EDITING" / "S5_cut_v1_BROUILLON.mp4"
+V = ROOT / "12_EDITING" / "S5_cut_v2_BROUILLON.mp4"
 S = ROOT / "11_AUDIO" / "SOUND_EFFECTS"
 OUT = S / "GATED"
-JOBS = [("SFX_s4_sable_doigts_Sy8JfiXUb8.mp3", 55.4, 63.4, (0.1, 0.05, 0.9, 0.8), 1.2, "G_s5-08_sable")]
+JOBS = [("SFX_s4_sable_doigts_Sy8JfiXUb8.mp3", 55.4, 61.9, (0.1, 0.05, 0.9, 0.8), 1.2, "G_s5-08v2_sable")]
 tmp = Path(tempfile.mkdtemp())
 for src, t0, t1, roi, power, name in JOBS:
     out = OUT / f"{name}_{t0:.1f}.wav"

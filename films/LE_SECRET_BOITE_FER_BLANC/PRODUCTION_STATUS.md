@@ -8,8 +8,8 @@
 | Découpage S1 (10 plans) | Validé (silencieux, 16:9 plein cadre) |
 | Animation S1 | 10/10 générés et VALIDÉS. Validés : S1-01 à S1-05, S1-07, S1-08, S1-10. tous validés (S1-06 = S1-06b coupée à ~5 s) |
 | S2 (grenier) | 10/10 plans générés ; S2-01 à S2-09 validés ; S2-10 généré (3 images, retouche pantalon), VALIDÉ ; montage refait selon les directives (S1 v2, S2 v2, film S1+S2 v1 de 140 s), VALIDÉ |
-| S3 (sable) | Découpage validé ; 10 plans VALIDÉS (S3-03 = lecture inversée ; S3-05 coupé à 3,5 s) ; montage S3 à faire |
-| S4 (1975) | Découpage proposé, en attente de validation (aucune génération) |
+| S3 (sable) | Découpage validé ; 10 plans VALIDÉS (S3-03 = lecture inversée ; S3-05 coupé à 3,5 s) ; montage S3 v1 fait (68,9 s) |
+| S4 (1975) | Découpage VALIDÉ ; génération en attente (plafond à confirmer, photos d'archives à recevoir) |
 | S5, S6 | Non commencées |
 | Montage S1 | Premier montage v1 réalisé (85,33 s, sans son), en attente de validation |
 | Son, musique, export | Non commencés |

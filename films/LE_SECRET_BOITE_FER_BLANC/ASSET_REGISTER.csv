@@ -90,3 +90,4 @@ S3-09_START,image,S3-09 image de depart,VALIDE,jUpKAhILD0,,lot autorise
 S3-09_VIDEO,video,S3-09 video,VALIDE,Lwekz1hswO,,
 S3-10_START,image,S3-10 image de depart,VALIDE,cpjG5aP0eP,,lot autorise
 S3-10_VIDEO,video,S3-10 video,VALIDE,gOBxDyYSXO,,
+S3_CUT_v1,montage,"Montage S3 v1 (68,92 s, EDL_S3_v1.json)",A_VALIDER,,,"12_EDITING/S3_cut_v1.mp4 ; sans son ; S3-03 inverse, S3-05 a 3,5 s ; fondu enchaine 1,5 s S3-09>S3-10 ; hors git"

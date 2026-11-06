@@ -1,6 +1,6 @@
 # S4 — 6 NOVEMBRE 1975 : découpage (04:30 → 06:00 du film)
 
-> Statut : **PROPOSITION, en attente de validation.** Aucune image ni vidéo générée.
+> Statut : ✅ **VALIDÉ (2026-11-06).** Aucune image ni vidéo générée. Génération non lancée : plafond à confirmer (« 1400 » reçu) et photos d'archives à recevoir.
 > 10 plans x 9 s = 90 s. 16:9 plein cadre. Silencieuse (ambiances, pas de dialogue). Statut historique : 📜 + 🏛️ reconstitution, **vision** marquée par l'étalonnage (jamais une archive).
 
 ## Intention

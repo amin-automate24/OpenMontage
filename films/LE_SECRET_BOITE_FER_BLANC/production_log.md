@@ -463,3 +463,27 @@
 ## 2026-11-06 — S4-11
 - Image mEN89qHhJQ + vidéo s7dxdY1l8e, 920 crédits. QC : ECHEC reprise (2e echec du plan): Kling remplace la scene : foule disparue, camion a cabine plate moderne avec plaque jaune (anachronisme), peu de monde. Image de depart mEN89qHhJQ conforme (Ford-like rouge, sans militaire). Arret selon regle.
 - 2026-11-06 : Montage brouillon S4 v1 (EDL_S4_v1.json -> S4_cut_v1_BROUILLON.mp4, 83,2 s, 1920x1080 24 fps) ; inserts d'archive réels 12_EDITING/S4_assets/ (non modifiés, pas d'upscale IA). Vidéos S4 téléchargées dans 09_MAGNIFIC_GENERATIONS/S4/. Défauts connus : légende « d archive » sans apostrophe (à corriger en v2) ; photos petites dans le cadre.
+
+## 2026-11-06 — S5-01
+- Image w4ISZrU7EI + vidéo lJXLiLFgv9, 920 crédits. QC : Large : ligne de marcheurs + drapeaux dans une brume qui s'epaissit, tres stable. Reserve : Kling a abaisse l'horizon, dunes aplaties, palette grise/verdatre plus froide que S4 (a reprendre a l'etalonnage) ; la ligne ne s'eclaircit pas vraiment.
+
+## 2026-11-06 — S5-02
+- Image mENIxVahJQ + vidéo 3zF6XiBREY, 920 crédits. QC : ECHEC : Kling a remplace le desert par une rue de ville avec batiments, poteaux et vetements modernes (anachronisme). Image de depart mENIxVahJQ conforme au costume S4-07/08. A ne pas utiliser.
+
+## 2026-11-06 — S5-02
+- Image mENIxVahJQ + vidéo 3zF6I3eREY, 920 crédits. QC : Reprise OK avec reserves : desert conserve, plan fixe, un homme de dos en djellaba rayee immobile pendant que le groupe s'eloigne dans la brume (idee respectee). Reserves : Kling a decale et elargi le cadre, tete couverte d'un foulard raye (cheveux boucles non visibles) ; groupe lointain petit. Premiere video 3zF6XiBREY = ECHEC (ville moderne) refusee.
+
+## 2026-11-06 — S5-03
+- Image 6Au9mOIiJO + vidéo aF3hPDtfSh, 920 crédits. QC : ECHEC : Kling a remplace le grenier marocain par un grenier europeen (lucarne, poutres, porte sombre), Yassine en chemise blanche tourne a gauche, cadre large. Continuite decor/costume rompue. Image de depart 6Au9mOIiJO conforme. A ne pas utiliser.
+
+## 2026-11-06 — S5-03
+- Image None + vidéo hu6tNUdvqL, 855 crédits. QC : Reprise Kling 3.0 (810 cr) OK avec reserves : grenier de style marocain (fenetre a volets, poutres sculptees), Yassine de profil a droite du cadre, tas de sable, rais de lumiere a gauche. Reserves : cadre plus large qu'a l'image de depart, poteau central ajoute, Yassine plus petit (identite non verifiable de ce plan large), mouvement du regard peu lisible ; poussiere de lumiere correcte. Kling 3.0 tient mieux le decor qu'Omni.
+
+## 2026-11-06 — S5-04
+- Image 6Au9HAmiJO + vidéo 0eLWg0fTfW, 920 crédits. QC : Kling 3.0 : bon plan : homme de dos capuche relevee qui tourne lentement la tete et regarde vers la camera a ~7 s (idee du regard amorcee). Reserves : cadre plus large, groupe lointain petit avec vetements bleu/turquoise (un peu clairs pour 1975), palette grise froide a reprendre a l'etalonnage, visage final plausible mais moustache/grain non verifiables.
+
+## 2026-11-06 — S5-05
+- Image p8UM9lkehw + vidéo 1lVK8O4r4r, 920 crédits. QC : ECHEC video : Kling 3.0 n'a pas suivi l'image de depart (cratere dans le sable, aucun grain en chute). Repli decide : image fixe p8UM9lkehw (grain en suspension, tres belle) avec push-in tres lent au montage.
+
+## 2026-11-06 — S5-06
+- Image SyolQQjUb8 + vidéo p8UMRMZehw, 920 crédits. QC : ECHEC video (derive d'identite) : Kling 3.0 a remplace Yassine par un autre garcon (peau claire, cheveux chatain raides) et le grenier marocain par un grenier europeen. Image de depart SyolQQjUb8 excellente (identite et decor conformes). Repli propose : image fixe SyolQQjUb8 + push-in tres lent + poussiere au montage (0 credit).

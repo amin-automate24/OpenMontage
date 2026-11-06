@@ -1,0 +1,103 @@
+date,item,tool,credits_spent,balance_after,note
+2026-11-05,references avant S1 (agrege),Magnific,565,19435,"images Nano Banana, segmentation, retouche inefficace"
+2026-11-05,ENV_01b + ENV_01c,Magnific,130,,2 x 65
+2026-11-05,ENV_02b + ENV_02c,Magnific,130,,2 x 65
+2026-11-05,S1-01 v1,Magnific,855,18320,video Kling Omni 1080p 9s (solde lu)
+2026-11-05,S1-01 v2,Magnific,855,,reprise validee
+2026-11-05,S1-03 images v1 v2 v3,Magnific,195,,3 x 65
+2026-11-05,S1-03 video,Magnific,855,16415,solde lu sur le compte
+2026-11-05,S1-02 image,Magnific,65,,
+2026-11-05,S1-02 video,Magnific,855,15495,solde calcule non relu
+2026-11-05,ENV_01 a ENV_04 grilles + upscales,Midjourney,2.084,,4 x 0.401 + 4 x 0.12 (hors references personnages ~15-17 credits)
+2026-11-05,S1-04 image de depart,Magnific,65.0,15430,ksT85Ch16B ; solde calcule
+2026-11-05,S1-04 video,Magnific,855.0,14575,yiv54N8PW9 ; solde calcule
+2026-11-05,S1-05 image de depart,Magnific,65.0,14510,p8Ui8usehw
+2026-11-05,S1-05 video,Magnific,855,13655,ksTIsfm16B
+2026-11-05,S1-06 image de depart,Magnific,65.0,13590,N2ErGgV6D9
+2026-11-05,S1-06 video,Magnific,855,12735,CqZVKJGEEy
+2026-11-05,S1-07 image de depart,Magnific,65.0,12670,iGQjcvu3uK
+2026-11-05,S1-07 video,Magnific,855,11815,bxWBSkV5Y2
+2026-11-05,S1-08 image de depart,Magnific,65.0,11750,O6hbz9qynm
+2026-11-05,S1-08 video,Magnific,855,10895,9ZC1cEJNYZ
+2026-11-05,"S1-09 image v1 (manche jaune, remplacee)",Magnific,65.0,10830,Syou2v4Ub8
+2026-11-05,S1-09 image v2 retenue,Magnific,65.0,10765,5jcoyLhKxe
+2026-11-05,S1-09 video,Magnific,855,9910,w4IFz5v7EI
+2026-11-05,S1-10 image de depart,Magnific,65.0,9845,aF30lDdfSh
+2026-11-05,S1-10 video,Magnific,855,8990,5jco9wfKxe
+2026-11-05,S1-06b image de depart,Magnific,65.0,8925,jUpvtQzLD0
+2026-11-05,S1-06b video,Magnific,855,8070,79tHQW1JAL
+2026-11-05,Chargement de credits par le realisateur (offre Plus),Magnific,0,53070,"solde reel lu sur le compte ; compteur depense remis a 0 par Magnific ; 53 070 = 8 070 restants + 45 000 (inference, non confirmee)"
+2026-11-05,S2-01 video,Magnific,855,52215,Tds9dQEVNR
+2026-11-05,S2-02 image v1 ecartee (poussiere trop doree),Magnific,65.0,52150,ksTtlqm16B
+2026-11-05,S2-02 image de depart,Magnific,65,52085,6AujzdOiJO
+2026-11-05,S2-02 video,Magnific,855,51230,nV1JDSEYQD
+2026-11-05,S2-03 image de depart,Magnific,65,51165,5jc8gLFKxe
+2026-11-05,S2-03 video,Magnific,855,50310,tC9YFPDmZJ
+2026-11-05,S2-03b image de depart,Magnific,65,50245,rgMhOOZxtc
+2026-11-05,S2-03b video,Magnific,855,49390,bxWoSG15Y2
+2026-11-05,S2-04 image de depart,Magnific,65,49325,aF3TrbsfSh
+2026-11-05,S2-04 video,Magnific,855,48470,xSDv4VfjfW
+2026-11-06,S2-05 image de depart,Magnific,65,48405,5jc8OXZKxe
+2026-11-06,S2-05 video,Magnific,855,47550,aF3TLCqfSh
+2026-11-06,S2-06 image de depart,Magnific,65,47485,5jc8WdsKxe
+2026-11-06,S2-06 video,Magnific,855,46630,cpjPxzd0eP
+2026-11-06,S2-07 image de depart,Magnific,65,46565,ksTtVUd16B
+2026-11-06,S2-07 video,Magnific,855,45710,N2Exumh6D9
+2026-11-06,S2-08 image de depart,Magnific,65,45645,eIwRJyedqL
+2026-11-06,S2-08 video,Magnific,855,44790,jUpad5cLD0
+2026-11-06,S2-09 image de depart,Magnific,65,44725,w4IHvuR7EI
+2026-11-06,S2-09 video,Magnific,855,43870,yivKE7rPW9
+2026-11-06,"S2-10 image de depart (test d'identite, ECHEC)",Magnific,65,43805,JNmbEZFOq4
+2026-11-06,S2-10 image v2 (reprise identite),Magnific,65,43740,s7dCaqsl8e
+2026-11-06,"S2-10 image v3 (boite au sol, lumiere naturelle)",Magnific,65,43675,nV1JJ1lYQD
+2026-11-06,S2-10 image de depart,Magnific,65,43610,WDxyPLQcXe
+2026-11-06,S2-10 video,Magnific,855,42755,mENWcDShJQ
+2026-11-06,S3-01 image de depart,Magnific,65,42690,CqZt4uKEEy
+2026-11-06,S3-01 video,Magnific,855,41835,jUp5cJwLD0
+2026-11-06,S3-02 image de depart,Magnific,65,41770,1lVH05xr4r
+2026-11-06,S3-02 video,Magnific,855,40915,jUp5pWRLD0
+2026-11-06,S3-03 image de depart,Magnific,65,40850,0eLGSMvTfW
+2026-11-06,S3-03 video,Magnific,855,39995,p8UcOc2ehw
+2026-11-06,S3-03b image de depart,Magnific,65,39930,If4eA5ztvE
+2026-11-06,S3-03b video,Magnific,855,39075,s7dka2Il8e
+2026-11-06,S3-04 image de depart,Magnific,65,39010,1lVHqLmr4r
+2026-11-06,S3-04 video,Magnific,855,38155,O6hgSgPynm
+2026-11-06,S3-05 image de depart,Magnific,65,38090,JNml7orOq4
+2026-11-06,S3-05 video,Magnific,855,37235,WDx2WoAcXe
+2026-11-06,S3-06 image de depart,Magnific,65,37170,jUpKSyDLD0
+2026-11-06,S3-06 video,Magnific,855,36315,lJXr75Qgv9
+2026-11-06,S3-07 image de depart,Magnific,65,36250,rgMbw8sxtc
+2026-11-06,S3-07 video,Magnific,855,35395,jUpKO5lLD0
+2026-11-06,S3-08 image de depart,Magnific,65,35330,0eLzvYjTfW
+2026-11-06,S3-08 video,Magnific,855,34475,Lwek3QKswO
+2026-11-06,S3-09 image de depart,Magnific,65,34410,jUpKAhILD0
+2026-11-06,S3-09 video,Magnific,855,33555,Lwekz1hswO
+2026-11-06,S3-10 image de depart,Magnific,65,33490,cpjG5aP0eP
+2026-11-06,S3-10 video,Magnific,855,32635,gOBxDyYSXO
+2026-11-06,S4-01 image de depart,Magnific,65,32570,aF3ImQYfSh
+2026-11-06,S4-01 video,Magnific,855,31715,6Auy9ZNiJO
+2026-11-06,S4-02 image de depart,Magnific,65,31650,0eLnMrCTfW
+2026-11-06,S4-02 video,Magnific,855,30795,4RfJipS9Aa
+2026-11-06,S4-03 image de depart,Magnific,65,30730,u5Aa1NUQLD
+2026-11-06,S4-03 video,Magnific,855,29875,SyoLNZwUb8
+2026-11-06,S4-04 image de depart,Magnific,65,29810,u5AalNjQLD
+2026-11-06,S4-04 video,Magnific,855,28955,iGQ4DeC3uK
+2026-11-06,S4-05 image de depart,Magnific,65,28890,YMrAvi5WeC
+2026-11-06,S4-05 video,Magnific,855,28035,eIwVb9gdqL
+2026-11-06,S4-06 image de depart,Magnific,65,27970,CqZhybgEEy
+2026-11-06,S4-06 video,Magnific,855,27115,fHRmOprCDY
+2026-11-06,S4-07 image de depart,Magnific,65,27050,3zF9CnDREY
+2026-11-06,S4-07 video,Magnific,855,26195,vQiI9CEa47
+2026-11-06,S4-08 image de depart,Magnific,65,26130,s7drB4ml8e
+2026-11-06,S4-08 video,Magnific,855,25275,O6hUfZuynm
+2026-11-06,S4-09 image de depart,Magnific,65,25210,s7drvPel8e
+2026-11-06,S4-09 video,Magnific,855,24355,3zF9xyUREY
+2026-11-06,S4-10 image de depart,Magnific,65,24290,s7drusZl8e
+2026-11-06,S4-10 video,Magnific,855,23435,P3a7xLM42C
+2026-11-06,S4-11 image de depart,Magnific,65,23370,eIwVcJYdqL
+2026-11-06,S4-11 video,Magnific,855,22515,4RfJJzl9Aa
+2026-11-06,S4-06 image de depart,Magnific,65,22450,MBg011uDCm
+2026-11-06,S4-06 video,Magnific,855,21595,TdsWkocVNR
+2026-11-06,S4-11 image de depart,Magnific,65,21530,mEN89qHhJQ
+2026-11-06,S4-11 video,Magnific,855,20675,s7dxdY1l8e
+2026-11-06,S4-11 image ecartee (militaire en fond) s7dxpRql8e,Magnific,65.0,20610,reprise

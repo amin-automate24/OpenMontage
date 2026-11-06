@@ -525,3 +525,6 @@
 
 ## 2026-11-06 — S6-02
 - Image If4IPIntvE + vidéo 6Au6ujYiJO, 920 crédits. QC : REFAIT (start=end, Kling 3.0) : main de l'enfant a l'echelle (petite, enfant visible genoux et manche), memes lumiere et decor chaud, sable qui s'ecoule doucement. Reserve : cadre plus large et plus bas que l'image de depart, filet de sable discret.
+
+## 2026-11-06 — S6-08
+- Image Eb2ChjquuO + vidéo LweLQ9oswO, 920 crédits. QC : REFAIT Kling 2.6 5 s (225 cr, start+end) : ANIME ET FIDELE : meme boite rectangulaire fleurie vert/rouille, drapeau, livre et chapelet visibles a l'interieur, couvercle qui se rabat doucement sous la main agee, mains d'enfant a l'echelle, plancher et lumiere conformes. Duree 5 s (prolongee de 2,5 s par image figee au montage).

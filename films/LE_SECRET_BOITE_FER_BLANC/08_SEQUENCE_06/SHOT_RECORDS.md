@@ -78,3 +78,11 @@
 | Vidéo | `6Au6ujYiJO`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | REFAIT (start=end, Kling 3.0) : main de l'enfant a l'echelle (petite, enfant visible genoux et manche), memes lumiere et decor chaud, sable qui s'ecoule doucement. Reserve : cadre plus large et plus bas que l'image de depart, filet de sable discret. |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S6-08
+| Champ | Valeur |
+|---|---|
+| Image de départ | `Eb2ChjquuO` (65 cr) |
+| Vidéo | `LweLQ9oswO`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | REFAIT Kling 2.6 5 s (225 cr, start+end) : ANIME ET FIDELE : meme boite rectangulaire fleurie vert/rouille, drapeau, livre et chapelet visibles a l'interieur, couvercle qui se rabat doucement sous la main agee, mains d'enfant a l'echelle, plancher et lumiere conformes. Duree 5 s (prolongee de 2,5 s par image figee au montage). |
+| Statut | ⏳ en attente de décision du réalisateur |

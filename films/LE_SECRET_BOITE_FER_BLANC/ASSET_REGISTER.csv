@@ -153,11 +153,13 @@ S6-08_VIDEO_v1,video,S6-08 video v1 boite ronde,REFUSE,nV1zgF6YQD,,
 S6-09_STILL,image,S6-09 image fixe les deux de dos face au drapeau,VALIDE,yivOblsPW9,,image fixe + push-in
 S6-10_START_v1,image,S6-10 image de depart,VALIDE,O6hJ5Pdynm,,lot autorise
 S6-10_VIDEO_v1,video,S6-10 video v1 drapeau sur la fenetre,REFUSE,If48YE3tvE,,
-S6-08_START,image,S6-08 image de depart v2,VALIDE,Eb2ChjquuO,,lot autorise
-S6-08_VIDEO,video,S6-08 video v2 refaite,VALIDE,1lVkbyKr4r,,
+S6-08_START_v2,image,S6-08 image de depart v2,VALIDE,Eb2ChjquuO,,lot autorise
+S6-08_VIDEO_v2,video,S6-08 video v2 boite claire - remplacee par v4,REFUSE,1lVkbyKr4r,,
 S6-10_START_v2,image,S6-10 image de depart (meme image reprise start+end),VALIDE,O6hJ5Pdynm,,start=end
 S6-10_VIDEO_v2,video,S6-10 video v2 etoile pleine - remplacee par v3,REFUSE,SyoggnAUb8,,
 S6-10_START_v3,image,S6-10 image fixe retouchee etoile conforme (retenue),VALIDE,tC9tEOumZJ,,lot autorise
 S6-10_VIDEO_v3,video,S6-10 video v3 etoile OK mais scene recomposee (alt non retenue),REFUSE,VXlVoc6MMU,,
 S6-02_START,image,S6-02 image de depart v2,VALIDE,If4IPIntvE,,lot autorise
 S6-02_VIDEO,video,S6-02 video v2 main enfant,VALIDE,6Au6ujYiJO,,
+S6-08_START_v4,image,S6-08 image de depart,VALIDE,Eb2ChjquuO,,lot autorise
+S6-08_VIDEO_v4,video,S6-08 video v4 Kling 2.6 fidele,EN_ATTENTE,LweLQ9oswO,,

@@ -420,3 +420,6 @@
 
 ## 2026-11-06 — Montage S3 v1
 - 10 plans téléchargés (09_MAGNIFIC_GENERATIONS/S3/), EDL_S3_v1.json, S3_cut_v1.mp4 (68,92 s, 1654 images, 1920x1080 24 i/s). Pas de noir ni d'image figée. Découpage S4 validé ; génération S4 non lancée. Aucun crédit.
+
+## 2026-11-06 — Photos 1975
+- 2 photos reçues, analysées, notes écrites seulement. Génération S4 toujours en attente (plafond à confirmer).

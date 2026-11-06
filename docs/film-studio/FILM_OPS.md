@@ -6,3 +6,6 @@ Script : `scripts/film_ops.py` (tests : `tests/tools/test_film_ops.py`). N'écra
 - `status` : synthèse en lecture seule (plans, crédits, décisions en attente).
 - `backup FILE...` ; `sync "message"` : commit + push (reprises 2/4/8/16 s) avec attribution.
 Complète `film_studio.py` (non modifié).
+
+## film_edit (montage par liste de décisions)
+`scripts/film_edit.py plan|render EDL.json` : rend un montage à partir d'une EDL JSON (clip, in, out, transition cut/dissolve + durée), toujours en copie versionnée (`_v2`...), sources en lecture seule. Les EDL du projet sont dans `12_EDITING/`.

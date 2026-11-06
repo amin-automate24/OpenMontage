@@ -64,3 +64,6 @@ S2-10_START_v3,image,S2-10 image de depart v3,RETOUCHE,nV1JJ1lYQD,,"boite au sol
 S2-10_START,image,S2-10 image de depart,VALIDE,WDxyPLQcXe,,lot autorise
 S2-10_VIDEO,video,S2-10 video,VALIDE,mENWcDShJQ,,
 S2_ROUGH_CUT_v1,montage,"Montage S2 v1 (87,71 s, 1920x1080, 24 i/s, sans son)",A_REFAIRE,,,"12_EDITING/S2_rough_cut_v1.mp4 ; S2-08 coupe a 6,3 s ; S2-10 en attente de validation ; fondu 0,5 s entree/sortie ; hors git ; le realisateur demande une refonte, consignes a venir"
+S1_CUT_v2,montage,"Montage S1 v2 (66,04 s, EDL_S1_v2.json)",A_VALIDER,,,12_EDITING/S1_cut_v2.mp4 ; hors git
+S2_CUT_v2,montage,"Montage S2 v2 (75,42 s, EDL_S2_v2.json)",A_VALIDER,,,12_EDITING/S2_cut_v2.mp4 ; remplace S2_rough_cut_v1 (conservee) ; hors git
+FILM_S1-S2_CUT_v1,montage,"Film assemble S1+S2 v1 (140,42 s, EDL_FILM_S1-S2_v1.json)",A_VALIDER,,,12_EDITING/FILM_S1-S2_cut_v1.mp4 ; sans son ; hors git

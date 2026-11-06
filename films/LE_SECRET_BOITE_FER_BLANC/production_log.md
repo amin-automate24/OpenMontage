@@ -366,3 +366,6 @@
 
 ## 2026-11-06 — S2-10 validé ; découpage S3
 - S2-10 validé. Montage S2 v1 en attente de consignes. 05_SEQUENCE_03/05_STORYBOARD.md et 06_VIDEO_PROMPTS.md rédigés ; SHOT_LIST et QUEUE alimentés (non approuvés). Aucune génération.
+
+## 2026-11-06 — Montage selon directives
+- EDL_S1_v2, EDL_S2_v2, EDL_FILM_S1-S2_v1 ; rendus S1_cut_v2 (66,04 s), S2_cut_v2 (75,42 s), FILM_S1-S2_cut_v1 (140,42 s), 1920x1080 24 i/s. Contrôles : pas de noir, pas d'image figée, 19 raccords vérifiés visuellement. v1 conservées. Aucune génération, aucun crédit.

@@ -15,3 +15,5 @@ Complète `film_studio.py` (non modifié).
 
 ## film_motion (calage son/geste)
 `python3 scripts/film_motion.py env VIDEO T0 T1 [--roi x0,y0,x1,y1]` : profil de mouvement d'un plan. `gate SFX VIDEO T0 T1 OUT.wav [--roi ...] [--floor] [--power]` : produit un effet sonore MODULÉ par le mouvement réel (muet quand rien ne bouge) : synchronisation par construction pour pas, mains, portes, glissements. `film_mix` applique désormais un GAIN STATIQUE mesuré (pas de loudnorm dynamique qui écrase les nuances) + limiteur de crête.
+
+Note film_mix (nov. 2026) : les pistes sont pré-rendues (découpe, boucle `-stream_loop`, lissage `smooth`) puis normalisées par GAIN STATIQUE mesuré (`lufs`, option `norm_whole` pour découper une musique sans aplatir son crescendo). Les mixages S1-S2 (v5) et S3 (v1), validés, ont été rendus avec la version précédente (loudnorm par piste) : ne pas les régénérer sans nouvelle validation. Attention : la mesure LUFS sous-estime les ambiances graves (vent, foule) ; à niveau LUFS égal elles « pèsent » davantage : les régler plus bas que la musique (≈ −55/−63 LUFS contre −35).

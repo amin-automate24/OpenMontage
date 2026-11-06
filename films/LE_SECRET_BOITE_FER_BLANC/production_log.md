@@ -312,3 +312,24 @@
 
 ## 2026-11-05 — Crédits chargés, S2 validé
 - account_balance : 53 070 crédits, offre Plus, dépensé 0. Découpage S2 validé. Montage S1 : MODIFIER demandé, détails attendus. Aucune génération lancée.
+
+## 2026-11-05 — S2-01
+- Image JNmF1txOq4 + vidéo Tds9dQEVNR, 855 crédits. QC : Grenier stable sur 9 s (fenetre a gauche, rai ambre au sol, coffre bas a droite, porte au fond), push-in tres leger, poussiere fine ; cadrage plus large que l'image de depart ; aucun texte ni personne
+
+## 2026-11-05 — S2-02
+- Image 6AujzdOiJO + vidéo nV1JDSEYQD, 920 crédits. QC : Decor stable, poussiere naturelle (image v1 ksTtlqm16B ecartee : trop doree) ; LIMITE : le macro demande est devenu un plan large du grenier avec fort rai volumetrique, redondant avec S2-01 ; pas de personne ni texte
+
+## 2026-11-05 — S2-03
+- Image 5jc8gLFKxe + vidéo tC9YFPDmZJ, 920 crédits. QC : v1 INVERSEE : Yassine de dos marche vers la porte du fond et sort au lieu d'entrer (erreur de mise en scene du prompt) ; decor stable, aucun visage, costume constant
+
+## 2026-11-05 — S2-03b
+- Image rgMhOOZxtc + vidéo bxWoSG15Y2, 920 crédits. QC : Yassine entre par la porte du fond et avance dans le rai de lumiere vers la camera, petit (visage non lisible), decor stable et fidele, costume constant ; remplace S2-03 v1 inversee ; aucun texte
+
+## 2026-11-05 — S2-04
+- Image aF3TrbsfSh + vidéo xSDv4VfjfW, 920 crédits. QC : Yassine de dos regarde autour de lui puis avance vers les tapis et malles de gauche ; grenier stable (fenetre a gauche, coffre a droite), rai de lumiere constant, costume constant, visage jamais visible ; cadre plan large (petite silhouette) plutot que plan moyen
+
+## 2026-11-06 — S2-05
+- Image 5jc8OXZKxe + vidéo aF3TLCqfSh, 920 crédits. QC : Main d'enfant (manche bleu marine) parcourt le tapis roule, poussiere fine naturelle, fond du grenier stable et flou ; cinq doigts conserves, la main s'aplatit legerement par moments ; aucun visage ni texte
+
+## 2026-11-06 — S2-06
+- Image 5jc8WdsKxe + vidéo cpjPxzd0eP, 920 crédits. QC : Yassine agenouille de dos devant le coffre de cedre du coin droit, souleve progressivement le couvercle et se penche ; grenier stable (porte a gauche, murs a la chaux), costume constant, visage jamais visible ; cadre plus large (petite silhouette)

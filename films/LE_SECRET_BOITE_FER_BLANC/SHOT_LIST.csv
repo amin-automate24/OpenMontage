@@ -10,13 +10,14 @@ S1-08,S1,1:03-1:12,Yassine monte l'escalier (de dos),a creer,9ZC1cEJNYZ,VALIDE,9
 S1-09,S1,1:12-1:21,Vue plongeante du haut de l'escalier,a creer,w4IFz5v7EI,VALIDE,920,Valide par le realisateur 2026-11-05 tel quel (perspective deformee acceptee)
 S1-10,S1,1:21-1:30,Yassine pousse la porte du grenier lumiere ambree,a creer,5jco9wfKxe,VALIDE,920,Valide par le realisateur 2026-11-05
 S1-06b,S1,0:45-0:54,"ALTERNATIVE de S1-06 : grand-pere assis, Yassine strictement de dos",a creer,79tHQW1JAL,VALIDE,920,"Retenu pour S1-06 : garder 0 a ~5 s au montage (Yassine de dos, grand-pere assis) ; comble ~4 s a prevoir au montage"
-S2-01,S2,0:00-0:09,Grenier vide rai de lumiere,ENV_01_MASTER JNmF1txOq4,a creer,A_FAIRE,0,"S2 propose, non approuve"
-S2-02,S2,0:09-0:18,Poussiere dans le rai (insert),a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
-S2-03,S2,0:18-0:27,Yassine entre par la porte (de dos),a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
-S2-04,S2,0:27-0:36,Yassine avance et regarde (de dos),a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
-S2-05,S2,0:36-0:45,Main sur un tapis roule (insert),a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
-S2-06,S2,0:45-0:54,Yassine s'agenouille devant le coffre,a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
+S2-01,S2,0:00-0:09,Grenier vide rai de lumiere,ENV_01_MASTER JNmF1txOq4,Tds9dQEVNR,EN_ATTENTE_DECISION,855,"Grenier stable sur 9 s (fenetre a gauche, rai ambre au sol, coffre bas a droite, porte au fond), push-in tres leger, poussiere fine ; cadrage plus lar"
+S2-02,S2,0:09-0:18,Poussiere dans le rai (insert),a creer,nV1JDSEYQD,EN_ATTENTE_DECISION,920,"Decor stable, poussiere naturelle (image v1 ksTtlqm16B ecartee : trop doree) ; LIMITE : le macro demande est devenu un plan large du grenier avec fort"
+S2-03,S2,0:18-0:27,Yassine entre par la porte (de dos),a creer,tC9YFPDmZJ,REFUSE,920,v1 inversee (sort au lieu d'entrer) ; remplacee par S2-03b
+S2-04,S2,0:27-0:36,Yassine avance et regarde (de dos),a creer,xSDv4VfjfW,EN_ATTENTE_DECISION,920,"Yassine de dos regarde autour de lui puis avance vers les tapis et malles de gauche ; grenier stable (fenetre a gauche, coffre a droite), rai de lumie"
+S2-05,S2,0:36-0:45,Main sur un tapis roule (insert),a creer,aF3TLCqfSh,EN_ATTENTE_DECISION,920,"Main d'enfant (manche bleu marine) parcourt le tapis roule, poussiere fine naturelle, fond du grenier stable et flou ; cinq doigts conserves, la main "
+S2-06,S2,0:45-0:54,Yassine s'agenouille devant le coffre,a creer,cpjPxzd0eP,EN_ATTENTE_DECISION,920,"Yassine agenouille de dos devant le coffre de cedre du coin droit, souleve progressivement le couvercle et se penche ; grenier stable (porte a gauche,"
 S2-07,S2,0:54-1:03,Boite en fer blanc dans le coffre (insert),a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
 S2-08,S2,1:03-1:12,Mains posent la boite dans la lumiere,a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
 S2-09,S2,1:12-1:21,Ouverture du couvercle (3 objets),a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
 S2-10,S2,1:21-1:30,Yassine emerveille (test identite),a creer,a creer,A_FAIRE,0,"S2 propose, non approuve"
+S2-03b,S2,0:18-0:27,"RETAKE de S2-03 : Yassine avance depuis la porte vers la camera, petit, a contre-jour",a creer,bxWoSG15Y2,EN_ATTENTE_DECISION,920,"Yassine entre par la porte du fond et avance dans le rai de lumiere vers la camera, petit (visage non lisible), decor stable et fidele, costume consta"

@@ -38,3 +38,17 @@ S1-10_VIDEO,video,S1-10 video,VALIDE,5jco9wfKxe,,
 S1-06b_START,image,S1-06b image de depart,VALIDE,jUpvtQzLD0,,alternative a S1-06
 S1-06b_VIDEO,video,S1-06b video (alternative),VALIDE,79tHQW1JAL,,"retenu pour S1-06, couper a ~5 s"
 S1_ROUGH_CUT_v1,montage,"Montage S1 v1 (85,33 s, 1920x1080, 24 i/s, sans son)",A_VALIDER,,,"12_EDITING/S1_rough_cut_v1.mp4 ; coupes S1-04 a 8 s, S1-06b a 5 s ; fondu entree/sortie 0,5 s ; hors git"
+S2-01_START,image,S2-01 image de depart,VALIDE,JNmF1txOq4,,image existante
+S2-01_VIDEO,video,S2-01 video,EN_ATTENTE,Tds9dQEVNR,,
+S2-02_START,image,S2-02 image de depart,VALIDE,6AujzdOiJO,,lot autorise
+S2-02_VIDEO,video,S2-02 video,EN_ATTENTE,nV1JDSEYQD,,
+S2-03_START,image,S2-03 image de depart,VALIDE,5jc8gLFKxe,,lot autorise
+S2-03_VIDEO,video,S2-03 video,EN_ATTENTE,tC9YFPDmZJ,,
+S2-03b_START,image,S2-03b image de depart,VALIDE,rgMhOOZxtc,,lot autorise
+S2-03b_VIDEO,video,S2-03b video,EN_ATTENTE,bxWoSG15Y2,,
+S2-04_START,image,S2-04 image de depart,VALIDE,aF3TrbsfSh,,lot autorise
+S2-04_VIDEO,video,S2-04 video,EN_ATTENTE,xSDv4VfjfW,,
+S2-05_START,image,S2-05 image de depart,VALIDE,5jc8OXZKxe,,lot autorise
+S2-05_VIDEO,video,S2-05 video,EN_ATTENTE,aF3TLCqfSh,,
+S2-06_START,image,S2-06 image de depart,VALIDE,5jc8WdsKxe,,lot autorise
+S2-06_VIDEO,video,S2-06 video,EN_ATTENTE,cpjPxzd0eP,,

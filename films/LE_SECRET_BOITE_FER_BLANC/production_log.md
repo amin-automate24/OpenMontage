@@ -387,3 +387,6 @@
 
 ## 2026-11-06 — Lot S3 suspendu après S3-03b
 - S3-01, S3-02 générés ; S3-03 (v1) et S3-03b (v2) : le sable tombe au lieu de monter (2 échecs identiques, règle d'arrêt). Copie inversée de S3-03b créée et vérifiée (gratuit). Dépense S3 : 3 680 crédits sur 14 000. Solde ≈ 39 075.
+
+## 2026-11-06 — Sauvegarde et reprise du lot S3
+- Archive zip des 132 aperçus remise au réalisateur (dépôt public : pas de commit). Reprise du lot S3 à S3-04 ; S3-03 en attente de décision (réponse ambiguë).

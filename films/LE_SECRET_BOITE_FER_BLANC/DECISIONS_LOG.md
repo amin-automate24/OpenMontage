@@ -95,3 +95,6 @@ Realisateur : VALIDER S5 v8 (S5_cut_v8_BROUILLON.mp4 + MIX_S5_v8).
 
 ## 2026-11-06 VALIDATION S6-02 v7 et S6-08 v6
 Realisateur : VALIDER. Montage S6_cut_v4_BROUILLON_v3.mp4 (EDL_S6_v6), son MIX_S6_v4 (sans priere). S6 complet valide. Prochaine etape : assemblage S1-S6.
+
+## 2026-11-06 Assemblage S1-S6 v1 (sans etalonnage)
+13_FINAL_EXPORT/FILM_v1_BROUILLON.mp4 : 437,5 s, 1080p24, AAC 256k, -20,1 LUFS, crete -0,9 dBFS. Segments : MIX_S1-S2_final_v5 (+1 dB), MIX_S3_v1, MIX_S4_final_v4, MIX_S5_v8, MIX_S6_v4 ; fondus enchaines de 1,0 s (video+audio) aux 4 jonctions ; script 12_EDITING/build_film_assembly.py. Etalonnage non applique (propose en etape suivante, a valider).

@@ -146,3 +146,6 @@ Q161,S5-03,video,"kling-26 1080p 5s (reprise fidelite identite, start=end)",225,
 Q162,S5-04,video,"kling-26 1080p 5s (reprise fidelite identite, start=end)",225,1,DONE
 Q170,S5-02,image,imagen-nano-banana-2-1 (foule dans le bon sens),65,1,DONE
 Q171,S5-02,video,"kling-26 1080p 5s (start frame seul, foule de dos)",225,1,DONE
+Q180,S6-02,video,"kling-26 1080p 5s (start seul, animation sable/main)",225,1,DONE
+Q181,S6-08,image,retouch fin de plan: main enfant sur la boite fermee,75,1,DONE
+Q182,S6-08,video,"kling-26 1080p 5s (start+end, main enfant sur la boite)",225,1,DONE

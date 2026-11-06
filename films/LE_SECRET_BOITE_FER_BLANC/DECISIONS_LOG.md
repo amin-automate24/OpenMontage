@@ -83,3 +83,6 @@
 
 ## S6 audio v1
 Mix MIX_S6_v1 rendu (musique M1 reprise + M5, beds bas, silence autour du couvercle, appel a la priere tres lointain optionnel). Cout 80 cr (cumul audio ~2145/5000). En attente d ecoute du realisateur.
+
+## S6 reprises S6-02 / S6-08 (autorisation plafond 1100, utilise 515)
+S6-02 v6 Kling 2.6 start-only (225) ; S6-08 v6 image de fin + Kling 2.6 start+end (290). Montage EDL_S6_v5, mix MIX_S6_v2. Appel a la priere rendu audible (2 occurrences). En attente de validation.

@@ -171,6 +171,6 @@ S5-04_VIDEO_k26,video,S5-04 video v4 Kling 2.6 start=end (identite),EN_ATTENTE,y
 S5-02_STILL_v3,image,S5-02 image fixe foule dans le bon sens (de dos),EN_ATTENTE,vQ3uM3Ja47,,image fixe + zoom lent
 S5-02_VIDEO_k26_v5,video,S5-02 video Kling 2.6 start seul foule de dos (sens correct),EN_ATTENTE,ksVLEDl16B,,225 cr
 S6-02_VIDEO_v6,video,S6-02 video v6 Kling 2.6 start-only anime,EN_ATTENTE,dtJtkGAXSL,,reprise autorisee
-S6-08_END_v6,image,S6-08 image de fin main enfant sur la boite,EN_ATTENTE,u5G54xvQLD,,reprise autorisee
-S6-08_VIDEO_v6,video,S6-08 video v6 Kling 2.6 main enfant sur la boite,EN_ATTENTE,UPIPVerwny,,reprise autorisee
-S6-02_VIDEO_v7,video,S6-02 video v7 Kling 2.6 mouvement marque,EN_ATTENTE,Sy8yBOIUb8,,reprise autorisee
+S6-08_END_v6,image,S6-08 image de fin main enfant sur la boite,VALIDE,u5G54xvQLD,,reprise autorisee
+S6-08_VIDEO_v6,video,S6-08 video v6 Kling 2.6 main enfant sur la boite,VALIDE,UPIPVerwny,,reprise autorisee
+S6-02_VIDEO_v7,video,S6-02 video v7 Kling 2.6 mouvement marque,VALIDE,Sy8yBOIUb8,,reprise autorisee

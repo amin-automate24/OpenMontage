@@ -92,3 +92,6 @@ Appel a la priere retire (MIX_S6_v3/v4). S6-02 v6 jugee trop fixe -> v7 Kling 2.
 
 ## 2026-11-06 VALIDATION S5 v8
 Realisateur : VALIDER S5 v8 (S5_cut_v8_BROUILLON.mp4 + MIX_S5_v8).
+
+## 2026-11-06 VALIDATION S6-02 v7 et S6-08 v6
+Realisateur : VALIDER. Montage S6_cut_v4_BROUILLON_v3.mp4 (EDL_S6_v6), son MIX_S6_v4 (sans priere). S6 complet valide. Prochaine etape : assemblage S1-S6.

@@ -1,6 +1,6 @@
 # S3 — LE SABLE : découpage (03:00 → 04:30 du film)
 
-> Statut : **PROPOSITION, en attente de validation.** Aucune image ni vidéo générée.
+> Statut : ✅ **VALIDÉ (2026-11-06).** Décision : **l'or est gardé pour l'étalonnage** ; les plans sont générés avec poussière et fresque naturelles (sans or). Génération autorisée : plafond 14 000 crédits.
 > 10 plans x 9 s = 90 s. 16:9 plein cadre. Séquence silencieuse (sans dialogue). Réalisme magique : c'est la transformation.
 
 ## Intention

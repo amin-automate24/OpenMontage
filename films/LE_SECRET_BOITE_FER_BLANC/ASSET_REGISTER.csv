@@ -139,8 +139,8 @@ S5-08_START,image,S5-08 image de depart,VALIDE,LwexK4TswO,,lot autorise
 S5-08_VIDEO,video,S5-08 video,VALIDE,Eb2fmhduuO,,
 S6-01_START,image,S6-01 image de depart,VALIDE,YMrnIiLWeC,,lot autorise
 S6-01_VIDEO,video,S6-01 video,VALIDE,fHRaLYsCDY,,
-S6-02_START,image,S6-02 image de depart,VALIDE,8aPor1wIrU,,lot autorise
-S6-02_VIDEO,video,S6-02 video,VALIDE,1lVkiq9r4r,,
+S6-02_START_v1,image,S6-02 image de depart,VALIDE,8aPor1wIrU,,lot autorise
+S6-02_VIDEO_v1,video,S6-02 video v1 main trop adulte,REFUSE,1lVkiq9r4r,,
 S6-03_START,image,S6-03 image de depart,VALIDE,rgM12Ctxtc,,lot autorise
 S6-03_VIDEO,video,S6-03 video,VALIDE,dt7erOLXSL,,
 S6-04_STILL,image,S6-04 image fixe grand-pere a la porte,VALIDE,DoSMstipcl,,image fixe + push-in
@@ -159,3 +159,5 @@ S6-10_START_v2,image,S6-10 image de depart (meme image reprise start+end),VALIDE
 S6-10_VIDEO_v2,video,S6-10 video v2 etoile pleine - remplacee par v3,REFUSE,SyoggnAUb8,,
 S6-10_START_v3,image,S6-10 image fixe retouchee etoile conforme (retenue),VALIDE,tC9tEOumZJ,,lot autorise
 S6-10_VIDEO_v3,video,S6-10 video v3 etoile OK mais scene recomposee (alt non retenue),REFUSE,VXlVoc6MMU,,
+S6-02_START,image,S6-02 image de depart v2,VALIDE,If4IPIntvE,,lot autorise
+S6-02_VIDEO,video,S6-02 video v2 main enfant,EN_ATTENTE,6Au6ujYiJO,,

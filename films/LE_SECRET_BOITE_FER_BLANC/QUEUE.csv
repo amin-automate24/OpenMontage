@@ -134,3 +134,5 @@ Q141,S6-08,video,"kling-30 1080p 9s (refaire, start+end frame)",810,1,DONE
 Q142,S6-10,video,"kling-30 1080p 9s (refaire, start+end frame)",810,1,DONE
 Q143,S6-10,image,images_retouch (etoile du drapeau),75,1,DONE
 Q144,S6-10,video,"kling-30 1080p 9s (v3, etoile corrigee, start=end)",810,1,DONE
+Q145,S6-02,image,imagen-nano-banana-2-1 (refaire main enfant),65,1,DONE
+Q146,S6-02,video,kling-30 1080p 9s (refaire main enfant),810,1,DONE

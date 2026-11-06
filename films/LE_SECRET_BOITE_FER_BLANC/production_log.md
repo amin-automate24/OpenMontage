@@ -522,3 +522,6 @@
 ## 2026-11-06 — S6-10
 - Image tC9tEOumZJ + vidéo VXlVoc6MMU, 920 crédits. QC : Reprise etoile (start=end) : l'etoile est bien un pentagramme entrelace vert fin (conforme), mais Kling a encore recompose : drapeau grand ouvert devant la fenetre, autre piece. Non retenu. RETENU : image fixe retouchee tC9tEOumZJ (etoile conforme, piece inchangee) + push-in lent + poussiere au montage.
 - 2026-11-06 : S6 validée (S6-01..10) ; montage brouillon S6 v1 (EDL_S6_v1.json -> S6_cut_v1_BROUILLON.mp4, 79,2 s) ; S6-04/05/06/07/09/10 en images fixes + push-in (12_EDITING/S6_assets/) ; S6-08 vidéo refaite v2. Fiche sonore 11_AUDIO/CUE_SHEET_S6_v1.md. Réserve : la salle de S6-01 est plus claire que les autres plans (à unifier à l'étalonnage).
+
+## 2026-11-06 — S6-02
+- Image If4IPIntvE + vidéo 6Au6ujYiJO, 920 crédits. QC : REFAIT (start=end, Kling 3.0) : main de l'enfant a l'echelle (petite, enfant visible genoux et manche), memes lumiere et decor chaud, sable qui s'ecoule doucement. Reserve : cadre plus large et plus bas que l'image de depart, filet de sable discret.

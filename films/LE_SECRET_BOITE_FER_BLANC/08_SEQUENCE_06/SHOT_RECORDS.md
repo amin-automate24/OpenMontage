@@ -70,3 +70,11 @@
 | Vidéo | `VXlVoc6MMU`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | Reprise etoile (start=end) : l'etoile est bien un pentagramme entrelace vert fin (conforme), mais Kling a encore recompose : drapeau grand ouvert devant la fenetre, autre piece. Non retenu. RETENU : image fixe retouchee tC9tEOumZJ (etoile conforme, piece inchangee) + push-in lent + poussiere au montage. |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S6-02
+| Champ | Valeur |
+|---|---|
+| Image de départ | `If4IPIntvE` (65 cr) |
+| Vidéo | `6Au6ujYiJO`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | REFAIT (start=end, Kling 3.0) : main de l'enfant a l'echelle (petite, enfant visible genoux et manche), memes lumiere et decor chaud, sable qui s'ecoule doucement. Reserve : cadre plus large et plus bas que l'image de depart, filet de sable discret. |
+| Statut | ⏳ en attente de décision du réalisateur |

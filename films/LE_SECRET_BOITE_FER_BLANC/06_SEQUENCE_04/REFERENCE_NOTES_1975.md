@@ -15,3 +15,9 @@
 2. Drapeaux froissés sur hampes en bois (S4-04).
 3. Ajouter si vous le souhaitez un plan de **camion chargé de monde** (hors découpage validé : +920 crédits).
 4. Le grand-père jeune garde le blanc cassé et kaki (bible), éventuellement avec une cape de laine claire.
+
+## Ajout 2026-11-06 : 3 photos de camions fournies par le réalisateur (droits confirmés) — fichiers dans 02_MIDJOURNEY_REFERENCES/PHOTOS_1975_USER/ (non versionnés)
+- REF_01 : colonne vue du dessus, cabine rouge visible en bas, plateau chargé à ras bord de volontaires, foule à pied de part et d'autre.
+- REF_02 : route avec arche rouge ; camions civils rouge et orange/jaune à cabine arrondie, plateaux surchargés, bidons bleus à l'avant, drapeaux rouges sur hampes, camionnettes blanches de l'époque.
+- REF_03 : longue file de camions orange/jaune à cabine avancée arrondie, en montagne rouge ; plateaux chargés.
+- Constat : camions CIVILS, couleurs vives (rouge, orange, jaune), cabines arrondies de type européen (aspect Berliet/Saviem/Mercedes), très chargés ; aucun Ford série F identifiable ; aucun aspect militaire.

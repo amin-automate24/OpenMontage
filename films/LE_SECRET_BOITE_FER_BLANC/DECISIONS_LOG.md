@@ -86,3 +86,6 @@ Mix MIX_S6_v1 rendu (musique M1 reprise + M5, beds bas, silence autour du couver
 
 ## S6 reprises S6-02 / S6-08 (autorisation plafond 1100, utilise 515)
 S6-02 v6 Kling 2.6 start-only (225) ; S6-08 v6 image de fin + Kling 2.6 start+end (290). Montage EDL_S6_v5, mix MIX_S6_v2. Appel a la priere rendu audible (2 occurrences). En attente de validation.
+
+## 2026-11-06 Retrait de la priere ; S6-02 v7
+Appel a la priere retire (MIX_S6_v3/v4). S6-02 v6 jugee trop fixe -> v7 Kling 2.6 mouvement marque (225 cr, reprises S6 cumul 740/1100). En attente de validation.

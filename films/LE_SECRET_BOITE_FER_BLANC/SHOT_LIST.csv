@@ -24,9 +24,9 @@ S2-03b,S2,0:18-0:27,"RETAKE de S2-03 : Yassine avance depuis la porte vers la ca
 S3-01,S3,0:00-0:09,Mains denouent le tissu de sable,a creer,jUp5cJwLD0,EN_ATTENTE_DECISION,920,"Les mains travaillent le noeud du tissu blanc, manches bleu marine stables, bois et lumiere naturelle ; cadre plus large que l'image ; le tissu ne s'o"
 S3-02,S3,0:09-0:18,"Macro grains dans la paume, un grain brille",a creer,jUp5pWRLD0,EN_ATTENTE_DECISION,920,"Paume immobile avec sable ocre, un grain scintille doucement plusieurs fois (respiration), sans or ni paillettes ; cinq doigts conserves ; reserve : l"
 S3-03,S3,0:18-0:27,Les grains s'elevent en poussiere doree,a creer,p8UcOc2ehw,REFUSE,920,v1 inversee (le sable tombe au lieu de monter) ; remplacee par S3-03b
-S3-04,S3,0:27-0:36,Yassine de dos entoure de poussiere doree,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
-S3-05,S3,0:36-0:45,Grenier rempli de spirales de poussiere doree,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
-S3-06,S3,0:45-0:54,Traits d'or se dessinent sur le mur nu,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
+S3-04,S3,0:27-0:36,Yassine de dos entoure de poussiere doree,a creer,O6hgSgPynm,EN_ATTENTE_DECISION,920,"Yassine agenouille de dos dans le rai, grenier stable (fenetre a gauche, coffre a droite), brume de poussiere pale qui s'epaissit le long du rai et lu"
+S3-05,S3,0:36-0:45,Grenier rempli de spirales de poussiere doree,a creer,WDx2WoAcXe,EN_ATTENTE_DECISION,920,"Grenier stable (aucune personne), poussiere pale qui roule depuis la fenetre dans le rai ; RESERVE : des 3,7 s une ligne orangee lumineuse court le lo"
+S3-06,S3,0:45-0:54,Traits d'or se dessinent sur le mur nu,a creer,lJXr75Qgv9,EN_ATTENTE_DECISION,920,"Les lignes de dunes se dessinent progressivement sur le mur nu, silhouettes de dos et petits drapeaux, mur/plafond/sol stables ; les traits deviennent"
 S3-07,S3,0:54-1:03,"La fresque se colore (desert, foule, drapeaux)",a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
 S3-08,S3,1:03-1:12,La fresque s'anime,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"
 S3-09,S3,1:12-1:21,Yassine tend la main vers la fresque,a creer,a creer,A_FAIRE,0,"S3 propose, non approuve"

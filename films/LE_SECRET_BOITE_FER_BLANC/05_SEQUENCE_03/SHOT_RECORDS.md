@@ -37,3 +37,27 @@
 | Fichier | `09_MAGNIFIC_GENERATIONS/S3/S3-03b_REVERSED_copy.mp4` (copie ; l'original `s7dka2Il8e` est intact) |
 | QC | Joué à l'envers, le filet de sable remonte de la paume puis se disperse vers le haut : le geste magique voulu est obtenu. La pile de sable décroît un peu, la main reste stable et naturelle ; sable ocre sans or. À valider par le réalisateur (transformation de l'original par inversion du temps) |
 | Statut | ⏳ décision du réalisateur |
+
+## S3-04
+| Champ | Valeur |
+|---|---|
+| Image de départ | `1lVHqLmr4r` (65 cr) |
+| Vidéo | `O6hgSgPynm`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Yassine agenouille de dos dans le rai, grenier stable (fenetre a gauche, coffre a droite), brume de poussiere pale qui s'epaissit le long du rai et lumiere qui se rechauffe, sans or ; le tourbillon est plutot une brume qu'une spirale ; visage jamais visible |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S3-05
+| Champ | Valeur |
+|---|---|
+| Image de départ | `JNml7orOq4` (65 cr) |
+| Vidéo | `WDx2WoAcXe`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Grenier stable (aucune personne), poussiere pale qui roule depuis la fenetre dans le rai ; RESERVE : des 3,7 s une ligne orangee lumineuse court le long des poutres du plafond (effet artificiel proche d'une bande lumineuse), a corriger ou a couper ; pas d'or ni de paillettes sinon |
+| Statut | ⏳ en attente de décision du réalisateur |
+
+## S3-06
+| Champ | Valeur |
+|---|---|
+| Image de départ | `jUpKSyDLD0` (65 cr) |
+| Vidéo | `lJXr75Qgv9`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Les lignes de dunes se dessinent progressivement sur le mur nu, silhouettes de dos et petits drapeaux, mur/plafond/sol stables ; les traits deviennent assez sombres (presque noirs) en fin de plan, moins delicats que l'image ; cadrage plus large ; aucun or, texte ni portrait |
+| Statut | ⏳ en attente de décision du réalisateur |

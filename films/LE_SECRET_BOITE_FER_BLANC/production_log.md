@@ -390,3 +390,12 @@
 
 ## 2026-11-06 — Sauvegarde et reprise du lot S3
 - Archive zip des 132 aperçus remise au réalisateur (dépôt public : pas de commit). Reprise du lot S3 à S3-04 ; S3-03 en attente de décision (réponse ambiguë).
+
+## 2026-11-06 — S3-04
+- Image 1lVHqLmr4r + vidéo O6hgSgPynm, 920 crédits. QC : Yassine agenouille de dos dans le rai, grenier stable (fenetre a gauche, coffre a droite), brume de poussiere pale qui s'epaissit le long du rai et lumiere qui se rechauffe, sans or ; le tourbillon est plutot une brume qu'une spirale ; visage jamais visible
+
+## 2026-11-06 — S3-05
+- Image JNml7orOq4 + vidéo WDx2WoAcXe, 920 crédits. QC : Grenier stable (aucune personne), poussiere pale qui roule depuis la fenetre dans le rai ; RESERVE : des 3,7 s une ligne orangee lumineuse court le long des poutres du plafond (effet artificiel proche d'une bande lumineuse), a corriger ou a couper ; pas d'or ni de paillettes sinon
+
+## 2026-11-06 — S3-06
+- Image jUpKSyDLD0 + vidéo lJXr75Qgv9, 920 crédits. QC : Les lignes de dunes se dessinent progressivement sur le mur nu, silhouettes de dos et petits drapeaux, mur/plafond/sol stables ; les traits deviennent assez sombres (presque noirs) en fin de plan, moins delicats que l'image ; cadrage plus large ; aucun or, texte ni portrait

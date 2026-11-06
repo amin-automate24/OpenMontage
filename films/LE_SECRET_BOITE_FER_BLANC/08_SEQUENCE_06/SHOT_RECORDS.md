@@ -62,3 +62,11 @@
 | Vidéo | `SyoggnAUb8`, Kling 3.0 Omni 1080p 9 s, 855 cr |
 | QC | REFAIT (start=end frame, Kling 3.0) : plan tres stable, le drapeau pend a cote de la fenetre a moucharabieh (comme demande), poussiere et lumiere douces, coffre/cuvette/chaise. Reserves : piece differente de l'image de depart (fenetre en arc, mur fissure), drapeau rose delave et etoile vert tres sombre (presque noire) : les couleurs rouge/vert du film sont a renforcer a l'etalonnage ; mouvement presque nul (fidele a l'intention de calme). |
 | Statut | ⏳ en attente de décision du réalisateur |
+
+## S6-10
+| Champ | Valeur |
+|---|---|
+| Image de départ | `tC9tEOumZJ` (65 cr) |
+| Vidéo | `VXlVoc6MMU`, Kling 3.0 Omni 1080p 9 s, 855 cr |
+| QC | Reprise etoile (start=end) : l'etoile est bien un pentagramme entrelace vert fin (conforme), mais Kling a encore recompose : drapeau grand ouvert devant la fenetre, autre piece. Non retenu. RETENU : image fixe retouchee tC9tEOumZJ (etoile conforme, piece inchangee) + push-in lent + poussiere au montage. |
+| Statut | ⏳ en attente de décision du réalisateur |

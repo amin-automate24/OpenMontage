@@ -518,3 +518,6 @@
 
 ## 2026-11-06 — S6-10
 - Image None + vidéo SyoggnAUb8, 855 crédits. QC : REFAIT (start=end frame, Kling 3.0) : plan tres stable, le drapeau pend a cote de la fenetre a moucharabieh (comme demande), poussiere et lumiere douces, coffre/cuvette/chaise. Reserves : piece differente de l'image de depart (fenetre en arc, mur fissure), drapeau rose delave et etoile vert tres sombre (presque noire) : les couleurs rouge/vert du film sont a renforcer a l'etalonnage ; mouvement presque nul (fidele a l'intention de calme).
+
+## 2026-11-06 — S6-10
+- Image tC9tEOumZJ + vidéo VXlVoc6MMU, 920 crédits. QC : Reprise etoile (start=end) : l'etoile est bien un pentagramme entrelace vert fin (conforme), mais Kling a encore recompose : drapeau grand ouvert devant la fenetre, autre piece. Non retenu. RETENU : image fixe retouchee tC9tEOumZJ (etoile conforme, piece inchangee) + push-in lent + poussiere au montage.

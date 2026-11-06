@@ -160,4 +160,4 @@ S6-10_VIDEO_v2,video,S6-10 video v2 etoile pleine - remplacee par v3,REFUSE,Syog
 S6-10_START_v3,image,S6-10 image fixe retouchee etoile conforme (retenue),VALIDE,tC9tEOumZJ,,lot autorise
 S6-10_VIDEO_v3,video,S6-10 video v3 etoile OK mais scene recomposee (alt non retenue),REFUSE,VXlVoc6MMU,,
 S6-02_START,image,S6-02 image de depart v2,VALIDE,If4IPIntvE,,lot autorise
-S6-02_VIDEO,video,S6-02 video v2 main enfant,EN_ATTENTE,6Au6ujYiJO,,
+S6-02_VIDEO,video,S6-02 video v2 main enfant,VALIDE,6Au6ujYiJO,,

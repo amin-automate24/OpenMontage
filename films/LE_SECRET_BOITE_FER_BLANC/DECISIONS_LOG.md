@@ -120,3 +120,6 @@ Realisateur : VALIDER S3-10 v4 (Corans 1975) et S5-01 v2 (civils) ; audit Coran 
 
 ## 2026-11-07 Etalonnage v1 (propose, non rendu)
 Reglages 12_EDITING/film_grades.py (GRADES_V1) : S3 dore, S5 plus chaud, S6-01 assombri/rechauffe (s efface a 9 s), rouge des drapeaux renforce (S3-S6), S6-10 drapeau plus rouge et etoile plus lisible. Planche avant/apres : 12_EDITING/GRADE_PREVIEWS/grade_v1_avant_apres.png. Audit Coran : Coran de la boite (S6-07/08) vert fonce use a cartouche dore, plausible ; ARCH_04 = photo d archive reelle ; S1/S2 sans Coran visible. Aucun changement. En attente de validation de l etalonnage.
+
+## 2026-11-07 Etalonnage VALIDE + introduction et generique
+Realisateur : VALIDER L ETALONNAGE ; ajouter une introduction au debut et un generique a la fin. Fait (0 credit) : cartons texte sur fond noir (12_EDITING/build_cards.py -> CARDS/INTRO_v1.mp4 8,5 s, CARDS/CREDITS_v1.mp4 50 s defilant) ; sons : theme de Yassine M1 (ouverture 0-8,5 s ; generique = suite de M1 depuis 22 s) via MIX_INTRO_v1 / MIX_CREDITS_v1 ; assemblage build_film_assembly_v2.py (grades film_grades.GRADES_V1) -> 13_FINAL_EXPORT/FILM_v5_ETALONNE.mp4 : 494,6 s (8 min 14), -20,4 LUFS, crete -0,9 dBFS. Generique sans nom de realisateur (a fournir). En attente de validation.

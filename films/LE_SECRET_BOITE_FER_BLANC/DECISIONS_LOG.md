@@ -136,3 +136,6 @@ Copie de travail integree : 13_FINAL_EXPORT/FILM_v6_GENERIQUE_FIN.mp4 (502,9 s, 
 ## 2026-11-07 Noms du generique + export final
 Realisateur : VALIDE image, musique, rythme du generique. Noms : "Ziad Sound Effects" -> Musique et conception sonore ; "Ziad Prod" -> Production ; "Ziad Rai" -> Realisation, Scenario, Direction artistique, Creation des personnages, Creation des decors, Animation, Montage. Ligne "Realise avec l aide de l intelligence artificielle" conservee. Export avec version 720p pour le partage.
 Livrables (13_FINAL_EXPORT/) : LE_SECRET_BOITE_FER_BLANC_FINAL_1080p.mp4 (master, 1920x1080 24 i/s, H.264 + AAC 256k, 502,9 s, -20,3 LUFS, crete -0,9 dBFS, controle d integrite OK) ; LE_SECRET_BOITE_FER_BLANC_PARTAGE_720p.mp4 (1280x720, 95,7 Mo, AAC 160k, memes niveaux). Sources : GENERIQUE_FIN_video_v3 + MIX_GENERIQUE_FIN_v2 + build_film_assembly_v4.py. Versions anterieures FILM_v1..v6 conservees. Copie hors du conteneur : en attente de l autorisation du realisateur (videos exclues de git).
+
+## 2026-11-07 Livraison Dropbox et conservation
+Export copie dans Dropbox /LE_SECRET_BOITE_FER_BLANC/ (autorisation du realisateur) : PARTAGE_720p.mp4 (95677704 o) et FINAL_1080p.mp4 (985886305 o), tailles confirmees par l API. Realisateur : GARDER les anciennes versions FILM_v1..v6 (aucune suppression). Jeton Dropbox a revoquer par l utilisateur.

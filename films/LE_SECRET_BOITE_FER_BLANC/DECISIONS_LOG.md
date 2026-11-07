@@ -107,3 +107,6 @@ Reprises realisees (cout 580 cr sur plafond 1000) : S3-10 v2 (image Lwdw5OeswO a
 Realisateur : un Coran n est pas porte par la main de l homme de dos (livre flottant). Reprise v3 dans le plafond 1000 (utilise 580).
 
 S3-10 v3 (Corans tenus en main, XmOhIURBfo) : 290 cr, reprises fidelite 870/1000. Montage EDL_S3_v3, son MIX_S3_v3, film FILM_v3_BROUILLON.mp4. En attente de validation.
+
+## 2026-11-07 Regle visuelle : aspect du Coran en 1975
+Realisateur : le Coran de S3-10 v3 est trop neuf ; references reelles 1975 fournies (photos d archives de la Marche Verte). Regle retenue : petits livrets aux couvertures SOMBRES (brun fonce, noir ou bordeaux sombre), usees, cornes pliees, avec un cartouche ovale clair orne de motifs geometriques SANS texte lisible ; tenus ouverts face au public ou fermes ; jamais verts vifs ni neufs. Les photos reelles ne sont pas envoyees comme references d image (visages de personnes reelles) : on decrit l objet dans les prompts. Reprise S3-10 v4 proposee (290 cr), en attente d autorisation ; verifier ensuite la coherence du Coran de la boite (S1, S2, S6) et ARCH_04.

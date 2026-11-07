@@ -142,3 +142,7 @@ Export copie dans Dropbox /LE_SECRET_BOITE_FER_BLANC/ (autorisation du realisate
 
 ## 2026-11-07 Miniature YouTube
 Miniature 1280x720 JPG (346 Ko) creee a la demande, 0 credit : 13_FINAL_EXPORT/MINIATURE_YOUTUBE_v1.jpg (script 12_EDITING/GENERIQUE_FIN/build_miniature.py, image du generique huiQ9h2vqL). Titre arabe + LA MARCHE VERTE + Le Secret de la boite en fer blanc. En attente de validation.
+
+## 2026-11-07 Image miniature (plan pres)
+Realisateur : miniature avec Yassine et son grand-pere main dans la main face a la fenetre et au drapeau suspendu, en plan pres. AUTORISE IMAGE MINIATURE PLAFOND 200.
+Image miniature 8a4FTtMIrU (65 cr, plafond 200) : Yassine et son grand-pere main dans la main devant la fenetre et le drapeau suspendu, plan pres (mains verifiees : pas de deformation). Miniature 13_FINAL_EXPORT/MINIATURE_YOUTUBE_v4.jpg (v1 image generique, v2/v3 essais conserves). En attente de validation.

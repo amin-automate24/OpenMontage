@@ -187,3 +187,5 @@ M6_generique_fin_v1,audio,Musique originale instrumentale du generique de fin (L
 GENERIQUE_FIN_VIDEO_v2,video,Generique de fin La Marche Verte 58.3 s,REMPLACE,,,12_EDITING/GENERIQUE_FIN
 GENERIQUE_FIN_VIDEO_v3,video,Generique de fin avec noms (Ziad),VALIDE,,,12_EDITING/GENERIQUE_FIN
 MINIATURE_YOUTUBE_v1,image,Miniature YouTube 1280x720 (image du generique + titre AR/FR),EN_ATTENTE,,,13_FINAL_EXPORT/MINIATURE_YOUTUBE_v1.jpg - 0 credit
+MINIATURE_IMAGE_v1,image,Image miniature plan pres main dans la main,EN_ATTENTE,8a4FTtMIrU,,autorise plafond 200
+MINIATURE_YOUTUBE_v4,image,Miniature YouTube v4 (v2 et v3 avec defaut de fondu conservees),EN_ATTENTE,,,13_FINAL_EXPORT/MINIATURE_YOUTUBE_v4.jpg

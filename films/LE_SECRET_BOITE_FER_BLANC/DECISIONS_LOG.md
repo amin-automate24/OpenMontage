@@ -114,3 +114,9 @@ Realisateur : le Coran de S3-10 v3 est trop neuf ; references reelles 1975 fourn
 ## 2026-11-07 AUTORISE REPRISE S3-10 PLAFOND 600 (Corans 1975)
 
 S3-10 v4 (Corans 1975 sombres/uses, DoU8hiRpcl) : 290 cr (plafond 600). EDL_S3_v4, MIX_S3_v4, FILM_v4_BROUILLON.mp4. En attente de validation. Reserve : un livret tire vers le bleu.
+
+## 2026-11-07 VALIDATION
+Realisateur : VALIDER S3-10 v4 (Corans 1975) et S5-01 v2 (civils) ; audit Coran de la boite (S1, S2, S6, ARCH_04) accorde ; etalonnage accorde.
+
+## 2026-11-07 Etalonnage v1 (propose, non rendu)
+Reglages 12_EDITING/film_grades.py (GRADES_V1) : S3 dore, S5 plus chaud, S6-01 assombri/rechauffe (s efface a 9 s), rouge des drapeaux renforce (S3-S6), S6-10 drapeau plus rouge et etoile plus lisible. Planche avant/apres : 12_EDITING/GRADE_PREVIEWS/grade_v1_avant_apres.png. Audit Coran : Coran de la boite (S6-07/08) vert fonce use a cartouche dore, plausible ; ARCH_04 = photo d archive reelle ; S1/S2 sans Coran visible. Aucun changement. En attente de validation de l etalonnage.

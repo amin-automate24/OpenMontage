@@ -30,7 +30,7 @@ S3-06,S3,0:45-0:54,Traits d'or se dessinent sur le mur nu,a creer,lJXr75Qgv9,VAL
 S3-07,S3,0:54-1:03,"La fresque se colore (desert, foule, drapeaux)",a creer,jUpKO5lLD0,VALIDE,920,Valide par le realisateur 2026-11-06
 S3-08,S3,1:03-1:12,La fresque s'anime,a creer,Lwek3QKswO,VALIDE,920,Valide par le realisateur 2026-11-06
 S3-09,S3,1:12-1:21,Yassine tend la main vers la fresque,a creer,Lwekz1hswO,VALIDE,920,Valide par le realisateur 2026-11-06
-S3-10,S3,1:21-1:30,Le mur se dilate : le desert envahit le cadre,a creer,DoU8hiRpcl,EN_ATTENTE_DECISION,920,"v4 Kling2.6: Corans sombres/uses a cartouche ovale clair, tenus en main ; un livret tire vers le bleu"
+S3-10,S3,1:21-1:30,Le mur se dilate : le desert envahit le cadre,a creer,DoU8hiRpcl,VALIDE,920,"v4 Kling2.6: Corans sombres/uses a cartouche ovale clair, tenus en main ; un livret tire vers le bleu"
 S3-03b,S3,0:18-0:27,RETAKE de S3-03 : grains en apesanteur qui montent de la paume,a creer,s7dka2Il8e,VALIDE,920,Valide 2026-11-06 : lecture inversee (copie S3-03b_REVERSED_copy.mp4) pour S3-03 ; original s7dka2Il8e conserve
 S4-01,S4,0:00-0:09,Sortie du blanc : le desert apparait,a creer,6Auy9ZNiJO,VALIDE,920,"Desert voile de blanc qui se dissipe, ciel bleu pale qui apparait, vent sur le sable, colonne de marcheurs minuscule a l'horizon presque immobile ; ca"
 S4-02,S4,0:09-0:18,Foule de dos vers l'horizon,a creer,4RfJipS9Aa,VALIDE,920,"Foule de dos qui avance vers l'horizon, drapeaux rouges a etoile verte qui ondulent, camions et tentes au loin, vent et poussiere, stable ; reserve : "
@@ -43,7 +43,7 @@ S4-08,S4,1:03-1:12,Grand-pere jeune sourit,a creer,O6hUfZuynm,VALIDE,920,"Grand-
 S4-09,S4,1:12-1:21,Il ramasse une poignee de sable,a creer,3zF9xyUREY,VALIDE,920,"Les mains en coupe laissent filer le sable fin jusqu'a etre vides, sable naturel sans or, cinq doigts conserves, pieds de la foule et drapeaux flous ;"
 S4-10,S4,1:21-1:30,Sable emporte par le vent,a creer,P3a7xLM42C,VALIDE,920,"Colonne de marcheurs vue de loin dans les dunes, voiles de sable pousses par le vent, drapeaux rouges qui ondulent, lumiere doree rasante qui monte ; "
 S4-11,S4,1:30-1:39,"Camion americain charge de monde, drapeaux froisses, tentes au fond (ajout option)",a creer,s7dxdY1l8e,REFUSE,920,Plan retire du montage : remplace par insert archive ARCHIVE_06 (reprises video echouees)
-S5-01,S5,0:00-0:09,"La foule ralentit et s'eclaircit, vent qui tombe",a creer,LwdwKjzswO,EN_ATTENTE_DECISION,920,"v2 Kling2.6: civils en groupes irreguliers, familles/enfants, pas de rang militaire; brume peu epaissie"
+S5-01,S5,0:00-0:09,"La foule ralentit et s'eclaircit, vent qui tombe",a creer,LwdwKjzswO,VALIDE,920,"v2 Kling2.6: civils en groupes irreguliers, familles/enfants, pas de rang militaire; brume peu epaissie"
 S5-02,S5,0:09-0:18,"Grand-pere jeune s'arrete net, de dos",a creer,ksVLEDl16B,VALIDE,290,Kling 2.6 5s start seul : foule de dos qui avance dans le bon sens + maintien zoom lent ; image fixe vQ3uM3Ja47 en repli
 S5-03,S5,0:18-0:27,"Yassine (grenier) leve les yeux, profil",a creer,hu6tNUdvqL,VALIDE,225,Reprise video Kling 2.6 5s start=end (identite) ; image fixe fidele en repli
 S5-04,S5,0:27-0:36,"Grand-pere jeune tourne la tete, 3/4",a creer,0eLWg0fTfW,VALIDE,225,Reprise video Kling 2.6 5s start=end (identite) ; image fixe fidele en repli

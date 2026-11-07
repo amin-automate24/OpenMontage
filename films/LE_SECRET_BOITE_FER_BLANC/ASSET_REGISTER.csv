@@ -182,6 +182,7 @@ S3-10_START_v3,image,S3-10 image de depart Corans tenus en main,REMPLACE,gOoy7Ru
 S3-10_VIDEO_v3,video,S3-10 video v3 Kling 2.6 Corans tenus,REMPLACE,XmOhIURBfo,,reprise autorisee
 S3-10_START_v4,image,S3-10 image de depart Corans 1975,VALIDE,lJBO9MRgv9,,reprise autorisee
 S3-10_VIDEO_v4,video,S3-10 video v4 Kling 2.6 Corans 1975,VALIDE,DoU8hiRpcl,,reprise autorisee
-GENERIQUE_IMAGE_v1,image,Image finale Marche Verte pour generique de fin,EN_ATTENTE,huiQ9h2vqL,,autorise plafond 200
-M6_generique_fin_v1,audio,Musique originale instrumentale du generique de fin (Lyria 3 Pro),EN_ATTENTE,fHZq3WbCDY,,remplace Sawt Al Hassan (non libre de droits) sur demande du realisateur
-GENERIQUE_FIN_VIDEO_v2,video,Generique de fin La Marche Verte 58.3 s,EN_ATTENTE,,,12_EDITING/GENERIQUE_FIN
+GENERIQUE_IMAGE_v1,image,Image finale Marche Verte pour generique de fin,VALIDE,huiQ9h2vqL,,autorise plafond 200
+M6_generique_fin_v1,audio,Musique originale instrumentale du generique de fin (Lyria 3 Pro),VALIDE,fHZq3WbCDY,,remplace Sawt Al Hassan (non libre de droits) sur demande du realisateur
+GENERIQUE_FIN_VIDEO_v2,video,Generique de fin La Marche Verte 58.3 s,REMPLACE,,,12_EDITING/GENERIQUE_FIN
+GENERIQUE_FIN_VIDEO_v3,video,Generique de fin avec noms (Ziad),VALIDE,,,12_EDITING/GENERIQUE_FIN

@@ -1,0 +1,18 @@
+{
+ "project": "..",
+ "output": "MIX_GENERIQUE_FIN_v2",
+ "video": "12_EDITING/GENERIQUE_FIN/GENERIQUE_FIN_video_v3.mp4",
+ "target_lufs": -21,
+ "tracks": [
+  {
+   "label": "M6 generique de fin (musique originale generee, instrumentale)",
+   "file": "11_AUDIO/MUSIC/M6_generique_fin_v1_fHZq3WbCDY.mp3",
+   "start": 0,
+   "dur": 58.3,
+   "fade_in": 0.3,
+   "fade_out": 3.0,
+   "norm_whole": true,
+   "lufs": -21
+  }
+ ]
+}

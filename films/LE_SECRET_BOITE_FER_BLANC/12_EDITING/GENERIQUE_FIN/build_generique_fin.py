@@ -13,10 +13,10 @@ FRB = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 FRR = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
 FRI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 W, H = 1920, 1080
-ROLES = [  # (groupe, debut, fin, [(role, nom provisoire)])
-    (1, 24.0, 29.6, [("RÉALISATION", "[Nom]"), ("SCÉNARIO", "[Nom]"), ("DIRECTION ARTISTIQUE", "[Nom]")]),
-    (2, 30.0, 35.6, [("CRÉATION DES PERSONNAGES", "[Nom]"), ("CRÉATION DES DÉCORS", "[Nom]"), ("ANIMATION", "[Nom]")]),
-    (3, 36.0, 41.8, [("MONTAGE", "[Nom]"), ("MUSIQUE ET CONCEPTION SONORE", "[Nom]"), ("PRODUCTION", "[Nom / Société]")]),
+ROLES = [  # (groupe, debut, fin, [(role, nom)])
+    (1, 24.0, 29.6, [("RÉALISATION", "Ziad Rai"), ("SCÉNARIO", "Ziad Rai"), ("DIRECTION ARTISTIQUE", "Ziad Rai")]),
+    (2, 30.0, 35.6, [("CRÉATION DES PERSONNAGES", "Ziad Rai"), ("CRÉATION DES DÉCORS", "Ziad Rai"), ("ANIMATION", "Ziad Rai")]),
+    (3, 36.0, 41.8, [("MONTAGE", "Ziad Rai"), ("MUSIQUE ET CONCEPTION SONORE", "Ziad Sound Effects"), ("PRODUCTION", "Ziad Prod")]),
 ]
 def font(p, s, ar=False):
     return ImageFont.truetype(p, s, layout_engine=ImageFont.Layout.RAQM) if ar else ImageFont.truetype(p, s)

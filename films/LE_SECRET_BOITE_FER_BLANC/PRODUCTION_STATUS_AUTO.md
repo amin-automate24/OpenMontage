@@ -1,9 +1,9 @@
 # PRODUCTION_STATUS_AUTO (genere par film_ops status --write, ne pas editer)
 
 ```
-shots: {'VALIDE': 55, 'VALIDE_PLAN_LARGE': 1, 'REFUSE': 3, 'EN_ATTENTE_DECISION': 3, 'A_FAIRE': 2}
-Magnific spent (ledger): 67865 | balance (chained): 19245.0
-pending decisions: ['S5-02', 'S5-03', 'S5-04']
+shots: {'VALIDE': 61, 'VALIDE_PLAN_LARGE': 1, 'REFUSE': 3}
+Magnific spent (ledger): 69380 | balance (chained): 17200.0
+pending decisions: []
 ```
 
-pending: 2 items | estimated 1620 cr | approved 1620 cr | balance 19245.0
+pending: 2 items | estimated 1620 cr | approved 1620 cr | balance 17200.0

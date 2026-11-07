@@ -102,3 +102,8 @@ Realisateur : VALIDER. Montage S6_cut_v4_BROUILLON_v3.mp4 (EDL_S6_v6), son MIX_S
 ## 2026-11-06 Reprises S3-10 et S5-01 (fidelite historique)
 Realisateur : S3-10 sans Corans (seulement drapeaux) ; S5-01 colonne de marcheurs en rang militaire alors que la marche est pacifique et civile. AUTORISE REPRISES S3-10 ET S5-01 PLAFOND 1000. Plan : images nano-banana puis Kling 2.6 5 s start seul.
 Reprises realisees (cout 580 cr sur plafond 1000) : S3-10 v2 (image Lwdw5OeswO avec Corans verts/bordeaux sans ecriture + Kling 2.6 Cq2qIUkEEy, ralenti x1,6, fondu blanc), S5-01 v2 (image WDjD277cXe civils en groupes irreguliers + Kling 2.6 LwdwKjzswO, ralenti x1,6). Montages EDL_S3_v2 / EDL_S5_v9 ; sons MIX_S3_v2 / MIX_S5_v9 (memes pistes d'ambiance). Film : 13_FINAL_EXPORT/FILM_v2_BROUILLON.mp4 (437,5 s). En attente de validation.
+
+## 2026-11-06 S3-10 v2 : defaut Corans
+Realisateur : un Coran n est pas porte par la main de l homme de dos (livre flottant). Reprise v3 dans le plafond 1000 (utilise 580).
+
+S3-10 v3 (Corans tenus en main, XmOhIURBfo) : 290 cr, reprises fidelite 870/1000. Montage EDL_S3_v3, son MIX_S3_v3, film FILM_v3_BROUILLON.mp4. En attente de validation.

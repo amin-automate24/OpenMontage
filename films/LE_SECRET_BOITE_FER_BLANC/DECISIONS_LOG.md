@@ -127,3 +127,8 @@ Realisateur : VALIDER L ETALONNAGE ; ajouter une introduction au debut et un gen
 ## 2026-11-07 Mission generique de fin (Sawt Al Hassan)
 Realisateur : nouvelle image dediee ; AUTORISE IMAGE GENERIQUE PLAFOND 200. Fichier instrumental Sawt Al Hassan ABSENT du projet : demande de fourniture + confirmation des droits ; aucune musique de remplacement.
 Image generique huiQ9h2vqL generee (65 cr, plafond 200) : 12_EDITING/GENERIQUE_FIN/GEN_image_finale_v1.png. En attente du fichier audio Sawt Al Hassan et des droits.
+
+## 2026-11-07 Generique de fin "La Marche Verte"
+Realisateur : Sawt Al Hassan n existe pas en libre de droits -> choisir un morceau libre de droit. Decision : musique ORIGINALE generee (Magnific Lyria 3 Pro, 160 cr, dans l autorisation audio plafond 5000 ; cumul audio ~2305) M6_generique_fin_v1_fHZq3WbCDY.mp3 (58,3 s, instrumentale, aucune oeuvre tierce) ; aucune musique existante telechargee.
+Sequence 58,3 s dans 12_EDITING/GENERIQUE_FIN/ (build_generique_fin.py, GEN_image_finale_v1.png huiQ9h2vqL, GENERIQUE_FIN_video_v2.mp4) ; son MIX_GENERIQUE_FIN_v1 (-21 LUFS, fondu final) ; chronologie calee sur la musique (entree 2 s, montee, sommet 30-48 s, resolution 50-56 s) : titre AR/FR 6,0-22,5 ; mention 12,5 ; credits 24,0 / 30,0 / 36,0 ; carton final 45,8 (عاش المغرب / Vive le Maroc) ; fondu noir 54-58,3. Noms = champs provisoires [Nom]. Mention discrete "Realise avec l aide de l intelligence artificielle" ajoutee (verite).
+Copie de travail integree : 13_FINAL_EXPORT/FILM_v6_GENERIQUE_FIN.mp4 (502,9 s, -20,3 LUFS, crete -0,9 dBFS). FILM_v5_ETALONNE conserve (ancien generique de 50 s). En attente de validation.

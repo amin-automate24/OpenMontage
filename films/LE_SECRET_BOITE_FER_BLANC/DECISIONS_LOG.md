@@ -139,3 +139,6 @@ Livrables (13_FINAL_EXPORT/) : LE_SECRET_BOITE_FER_BLANC_FINAL_1080p.mp4 (master
 
 ## 2026-11-07 Livraison Dropbox et conservation
 Export copie dans Dropbox /LE_SECRET_BOITE_FER_BLANC/ (autorisation du realisateur) : PARTAGE_720p.mp4 (95677704 o) et FINAL_1080p.mp4 (985886305 o), tailles confirmees par l API. Realisateur : GARDER les anciennes versions FILM_v1..v6 (aucune suppression). Jeton Dropbox a revoquer par l utilisateur.
+
+## 2026-11-07 Miniature YouTube
+Miniature 1280x720 JPG (346 Ko) creee a la demande, 0 credit : 13_FINAL_EXPORT/MINIATURE_YOUTUBE_v1.jpg (script 12_EDITING/GENERIQUE_FIN/build_miniature.py, image du generique huiQ9h2vqL). Titre arabe + LA MARCHE VERTE + Le Secret de la boite en fer blanc. En attente de validation.

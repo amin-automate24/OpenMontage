@@ -123,3 +123,7 @@ Reglages 12_EDITING/film_grades.py (GRADES_V1) : S3 dore, S5 plus chaud, S6-01 a
 
 ## 2026-11-07 Etalonnage VALIDE + introduction et generique
 Realisateur : VALIDER L ETALONNAGE ; ajouter une introduction au debut et un generique a la fin. Fait (0 credit) : cartons texte sur fond noir (12_EDITING/build_cards.py -> CARDS/INTRO_v1.mp4 8,5 s, CARDS/CREDITS_v1.mp4 50 s defilant) ; sons : theme de Yassine M1 (ouverture 0-8,5 s ; generique = suite de M1 depuis 22 s) via MIX_INTRO_v1 / MIX_CREDITS_v1 ; assemblage build_film_assembly_v2.py (grades film_grades.GRADES_V1) -> 13_FINAL_EXPORT/FILM_v5_ETALONNE.mp4 : 494,6 s (8 min 14), -20,4 LUFS, crete -0,9 dBFS. Generique sans nom de realisateur (a fournir). En attente de validation.
+
+## 2026-11-07 Mission generique de fin (Sawt Al Hassan)
+Realisateur : nouvelle image dediee ; AUTORISE IMAGE GENERIQUE PLAFOND 200. Fichier instrumental Sawt Al Hassan ABSENT du projet : demande de fourniture + confirmation des droits ; aucune musique de remplacement.
+Image generique huiQ9h2vqL generee (65 cr, plafond 200) : 12_EDITING/GENERIQUE_FIN/GEN_image_finale_v1.png. En attente du fichier audio Sawt Al Hassan et des droits.

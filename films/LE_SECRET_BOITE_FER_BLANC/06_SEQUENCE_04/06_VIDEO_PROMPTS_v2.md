@@ -1,0 +1,3 @@
+# S4 — Prompts v2 (costumes d'après les notes 1975)
+> Remplace les costumes de 06_VIDEO_PROMPTS.md (conservé). Les photos du réalisateur ne sont PAS utilisées comme références de génération. Références : ENV_03 nV1wWtcYQD · ENV_04 dt73mmpXSL · S3-10 cpjG5aP0eP · GPJ_01 xSD3eRCjfW · GPJ_03 u5AwD9qQLD · GPJ_04 dt7bWk8XSL · PRP_03 KL0XB8gkqp · PRP_05 u5AVFJqQLD.
+> Costume foule : vestes et manteaux de laine rayée, capes brunes et grises sur les épaules, blancs cassés, grands foulards blancs, turbans, bonnets en tricot, fez rouge ; drapeaux rouges à étoile verte, froissés, sur longues hampes de bois brutes. Foule de dos ou de loin ; aucun texte, logo, plaque, arme, portrait ; camions sans marque.

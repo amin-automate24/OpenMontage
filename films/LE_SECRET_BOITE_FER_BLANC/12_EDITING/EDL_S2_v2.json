@@ -1,0 +1,71 @@
+{
+ "output": "S2_cut_v2.mp4",
+ "fade_in": 0.5,
+ "fade_out": 1.0,
+ "clips": [
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-01_Tds9dQEVNR.mp4",
+   "in": 0,
+   "out": 7.0,
+   "label": "S2-01"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-02_nV1JDSEYQD.mp4",
+   "in": 0,
+   "out": 5.5,
+   "label": "S2-02",
+   "transition": "dissolve",
+   "dur": 0.8
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-03b_bxWoSG15Y2.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S2-03b"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-04_xSDv4VfjfW.mp4",
+   "in": 0,
+   "out": 8.5,
+   "label": "S2-04"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-05_aF3TLCqfSh.mp4",
+   "in": 0,
+   "out": 7.0,
+   "label": "S2-05"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-06_cpjPxzd0eP.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S2-06"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-07_N2Exumh6D9.mp4",
+   "in": 0,
+   "out": 6.5,
+   "label": "S2-07"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-08_jUpad5cLD0.mp4",
+   "in": 0,
+   "out": 6.3,
+   "label": "S2-08"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-09_yivKE7rPW9.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S2-09",
+   "transition": "dissolve",
+   "dur": 0.6
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S2/S2-10_mENWcDShJQ.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S2-10"
+  }
+ ]
+}

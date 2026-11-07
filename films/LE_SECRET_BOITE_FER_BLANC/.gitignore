@@ -1,0 +1,11 @@
+# Médias lourds : conservés hors git (Dropbox / Drive). Les prompts, fiches et rapports sont versionnés.
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.aif
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.exr

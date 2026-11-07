@@ -1,0 +1,102 @@
+{
+ "project": "..",
+ "output": "MIX_S6_v1",
+ "video": "12_EDITING/S6_cut_v4_BROUILLON.mp4",
+ "target_lufs": -20,
+ "tracks": [
+  {
+   "label": "grenier (avant le couvercle)",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "start": 0,
+   "dur": 60.2,
+   "loop": true,
+   "smooth": true,
+   "lufs": -56,
+   "fade_in": 1.5,
+   "fade_out": 0.6
+  },
+  {
+   "label": "medina lointaine (avant le couvercle)",
+   "file": "11_AUDIO/AMBIENCE/AMB_medina_patio_loop30_4RCNLTA9Aa.mp3",
+   "in": 3,
+   "start": 4.0,
+   "dur": 56.2,
+   "loop": true,
+   "smooth": true,
+   "lufs": -64,
+   "fade_in": 4.0,
+   "fade_out": 0.6
+  },
+  {
+   "label": "grenier (apres le silence)",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "in": 9,
+   "start": 62.0,
+   "dur": 15.7,
+   "loop": true,
+   "smooth": true,
+   "lufs": -56,
+   "fade_in": 1.5,
+   "fade_out": 5.0
+  },
+  {
+   "label": "S6-02 sable qui retombe (filet continu, bas)",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s4_sable_doigts_Sy8JfiXUb8.mp3",
+   "start": 9.4,
+   "dur": 6.0,
+   "lufs": -42,
+   "fade_in": 0.8,
+   "fade_out": 1.2
+  },
+  {
+   "label": "M1 reprise theme de Yassine",
+   "file": "11_AUDIO/MUSIC/M1_theme_yassine_v1_s7XgFrRl8e.mp3",
+   "in": 2.0,
+   "start": 12.0,
+   "dur": 20.0,
+   "norm_whole": true,
+   "lufs": -37,
+   "fade_in": 4.0,
+   "fade_out": 4.0
+  },
+  {
+   "label": "M5 transmission (A, avant le couvercle)",
+   "file": "11_AUDIO/MUSIC/M5_theme_transmission_v1_3zHA9yrREY.mp3",
+   "in": 32.9,
+   "start": 26.0,
+   "dur": 34.2,
+   "norm_whole": true,
+   "lufs": -35,
+   "fade_in": 3.5,
+   "fade_out": 0.6
+  },
+  {
+   "label": "S6-08 couvercle (clac cale 60,95 s)",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s6_couvercle_boite_XmOmFUwBfo.mp3",
+   "start": 59.58,
+   "dur": 2.0,
+   "lufs": -30
+  },
+  {
+   "label": "M5 transmission (B, apres le silence : resolution)",
+   "file": "11_AUDIO/MUSIC/M5_theme_transmission_v1_3zHA9yrREY.mp3",
+   "in": 69.1,
+   "start": 62.2,
+   "dur": 15.5,
+   "norm_whole": true,
+   "lufs": -35,
+   "fade_in": 1.2,
+   "fade_out": 2.5
+  },
+  {
+   "label": "appel a la priere tres lointain (inintelligible)",
+   "file": "11_AUDIO/AMBIENCE/AMB_appel_priere_tres_lointain_VXgXaLEMMU.mp3",
+   "start": 62.8,
+   "dur": 14.0,
+   "smooth": true,
+   "lufs": -66,
+   "fade_in": 4.0,
+   "fade_out": 5.0
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+id,type,name,status,magnific_id,midjourney_image_id,notes
+YAS_01_MASTER,personnage,Yassine portrait face,VALIDE,lJXZ1eLgv9,1567617911202250752,maitre d'identite
+YAS_04,personnage,Yassine en pied,VALIDE,ksTNOsY16B,,costume complet
+GPJ_01_MASTER,personnage,Grand-pere jeune 1975,VALIDE,xSD3eRCjfW,1567642357866692608,
+GPA_01_MASTER,personnage,Grand-pere age,VALIDE,N2EeRSy6D9,1567650788069605376,grain de beauté sous l'oeil gauche
+PRP_01_MASTER,objet,Boite fermee,VALIDE,MBgFtiCDCm,1567652509986586624,
+PRP_02_OPEN_v2,objet,Boite ouverte,VALIDE,cpj7UuQ0eP,,
+PRP_03_FLAG,objet,Drapeau,VALIDE,KL0XB8gkqp,,
+PRP_04_QURAN_v2,objet,Coran (medaillon geometrique),VALIDE,YMrU95CWeC,,jamais d'ecriture
+PRP_05_SAND_v2,objet,Sable,VALIDE,u5AVFJqQLD,,
+PRP_06_TASBIH,objet,Chapelet,VALIDE,u5AVLoyQLD,1567987435642552320,
+ENV_01_MASTER,decor,Grenier plan large,VALIDE,JNmF1txOq4,1567996397930676224,
+ENV_01b,decor,Grenier coin du coffre,VALIDE,hu6nDG3vqL,,
+ENV_01c,decor,Grenier mur nu fresque,VALIDE,ksToCwi16B,,
+ENV_02_MASTER,decor,Patio plan large,VALIDE,lJXareYgv9,1567998181042552832,
+ENV_02b,decor,Patio banc,VALIDE,KL0BHjPkqp,,
+ENV_02c,decor,Patio pied de l'escalier,VALIDE,WDx7GLXcXe,,
+ENV_03_MASTER,decor,Desert 1975,VALIDE,nV1wWtcYQD,1567999630984085504,
+ENV_03b,decor,Sable au ras du sol,PROPOSE_NON_LANCE,,,65 credits
+ENV_04_MASTER,decor,Foule 6 nov 1975,VALIDE,dt73mmpXSL,1568000968996421632,etoiles des drapeaux peu lisibles
+S1-01_VIDEO_v2,video,Patio vide,VALIDE,dt73qaYXSL,,
+S1-03_VIDEO,video,Grand-pere plan large,VALIDE,YMr7QgGWeC,,
+S1-02_VIDEO,video,Fontaine,EN_ATTENTE,jUphXBNLD0,,
+S1-04_START,image,Mains et chapelet (image de depart),VALIDE,ksT85Ch16B,,validee 2026-11-05
+S1-04_VIDEO,video,Mains et chapelet,VALIDE,yiv54N8PW9,,"coupe de fin a ~8,0 s au montage"
+S1-05_START,image,S1-05 image de depart,VALIDE,p8Ui8usehw,,genere dans le lot S1
+S1-05_VIDEO,video,S1-05 video,VALIDE,ksTIsfm16B,,
+S1-06_START,image,S1-06 image de depart,VALIDE,N2ErGgV6D9,,genere dans le lot S1
+S1-06_VIDEO,video,S1-06 video,NON_RETENU,CqZVKJGEEy,,remplace par S1-06b_VIDEO
+S1-07_START,image,S1-07 image de depart,VALIDE,iGQjcvu3uK,,genere dans le lot S1
+S1-07_VIDEO,video,S1-07 video,VALIDE,bxWBSkV5Y2,,
+S1-08_START,image,S1-08 image de depart,VALIDE,O6hbz9qynm,,genere dans le lot S1
+S1-08_VIDEO,video,S1-08 video,VALIDE,9ZC1cEJNYZ,,
+S1-09_START,image,S1-09 image de depart,VALIDE,5jcoyLhKxe,,genere dans le lot S1
+S1-09_VIDEO,video,S1-09 video,VALIDE,w4IFz5v7EI,,
+S1-10_START,image,S1-10 image de depart,VALIDE,aF30lDdfSh,,genere dans le lot S1
+S1-10_VIDEO,video,S1-10 video,VALIDE,5jco9wfKxe,,
+S1-06b_START,image,S1-06b image de depart,VALIDE,jUpvtQzLD0,,alternative a S1-06
+S1-06b_VIDEO,video,S1-06b video (alternative),VALIDE,79tHQW1JAL,,"retenu pour S1-06, couper a ~5 s"
+S1_ROUGH_CUT_v1,montage,"Montage S1 v1 (85,33 s, 1920x1080, 24 i/s, sans son)",A_VALIDER,,,"12_EDITING/S1_rough_cut_v1.mp4 ; coupes S1-04 a 8 s, S1-06b a 5 s ; fondu entree/sortie 0,5 s ; hors git"
+S2-01_START,image,S2-01 image de depart,VALIDE,JNmF1txOq4,,image existante
+S2-01_VIDEO,video,S2-01 video,VALIDE,Tds9dQEVNR,,
+S2-02_START,image,S2-02 image de depart,VALIDE,6AujzdOiJO,,lot autorise
+S2-02_VIDEO,video,S2-02 video,VALIDE,nV1JDSEYQD,,
+S2-03_START,image,S2-03 image de depart,VALIDE,5jc8gLFKxe,,lot autorise
+S2-03_VIDEO,video,S2-03 video,NON_RETENU,tC9YFPDmZJ,,
+S2-03b_START,image,S2-03b image de depart,VALIDE,rgMhOOZxtc,,lot autorise
+S2-03b_VIDEO,video,S2-03b video,VALIDE,bxWoSG15Y2,,
+S2-04_START,image,S2-04 image de depart,VALIDE,aF3TrbsfSh,,lot autorise
+S2-04_VIDEO,video,S2-04 video,VALIDE,xSDv4VfjfW,,
+S2-05_START,image,S2-05 image de depart,VALIDE,5jc8OXZKxe,,lot autorise
+S2-05_VIDEO,video,S2-05 video,VALIDE,aF3TLCqfSh,,
+S2-06_START,image,S2-06 image de depart,VALIDE,5jc8WdsKxe,,lot autorise
+S2-06_VIDEO,video,S2-06 video,VALIDE,cpjPxzd0eP,,
+S2-07_START,image,S2-07 image de depart,VALIDE,ksTtVUd16B,,lot autorise
+S2-07_VIDEO,video,S2-07 video,VALIDE,N2Exumh6D9,,
+S2-08_START,image,S2-08 image de depart,VALIDE,eIwRJyedqL,,lot autorise
+S2-08_VIDEO,video,S2-08 video,VALIDE,jUpad5cLD0,,
+S2-09_START,image,S2-09 image de depart,VALIDE,w4IHvuR7EI,,lot autorise
+S2-09_VIDEO,video,S2-09 video,VALIDE,yivKE7rPW9,,
+S2-10_START_v1,image,S2-10 image de depart v1 (identite non conforme),REFUSE,JNmbEZFOq4,,"garcon d'environ 11-12 ans, visage allonge, cicatrice non visible ; video non lancee"
+S2-10_START_v2,image,S2-10 image de depart v2,REMPLACE,s7dCaqsl8e,,identite plausible ; accessoire different (coffre en bois lumineux au lieu de la boite en fer blanc)
+S2-10_START_v3,image,S2-10 image de depart v3,RETOUCHE,nV1JJ1lYQD,,"boite au sol, lumiere naturelle, identite plausible ; pantalon bleu au lieu de beige"
+S2-10_START,image,S2-10 image de depart,VALIDE,WDxyPLQcXe,,lot autorise
+S2-10_VIDEO,video,S2-10 video,VALIDE,mENWcDShJQ,,
+S2_ROUGH_CUT_v1,montage,"Montage S2 v1 (87,71 s, 1920x1080, 24 i/s, sans son)",A_REFAIRE,,,"12_EDITING/S2_rough_cut_v1.mp4 ; S2-08 coupe a 6,3 s ; S2-10 en attente de validation ; fondu 0,5 s entree/sortie ; hors git ; le realisateur demande une refonte, consignes a venir"

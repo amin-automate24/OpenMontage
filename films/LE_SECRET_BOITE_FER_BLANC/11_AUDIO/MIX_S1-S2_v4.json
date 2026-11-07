@@ -1,0 +1,137 @@
+{
+ "project": "..",
+ "output": "MIX_S1-S2_final_v4",
+ "video": "12_EDITING/FILM_S1-S2_cut_v1.mp4",
+ "target_lufs": -20,
+ "tracks": [
+  {
+   "label": "ambiance medina patio",
+   "file": "11_AUDIO/AMBIENCE/AMB_medina_patio_loop30_4RCNLTA9Aa.mp3",
+   "start": 0,
+   "dur": 66,
+   "loop": true,
+   "lufs": -44,
+   "fade_in": 1.5,
+   "fade_out": 2.5
+  },
+  {
+   "label": "ambiance grenier A",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "start": 64,
+   "dur": 55.5,
+   "loop": true,
+   "lufs": -44,
+   "fade_in": 2.0,
+   "fade_out": 1.0
+  },
+  {
+   "label": "ambiance grenier B (apres silence)",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "in": 3,
+   "start": 123.4,
+   "dur": 17,
+   "loop": true,
+   "lufs": -44,
+   "fade_in": 1.5,
+   "fade_out": 3.0
+  },
+  {
+   "label": "M1 theme Yassine",
+   "file": "11_AUDIO/MUSIC/M1_theme_yassine_v1_s7XgFrRl8e.mp3",
+   "start": 12.9,
+   "dur": 73.5,
+   "lufs": -35,
+   "fade_in": 3,
+   "fade_out": 5
+  },
+  {
+   "label": "M1 reprise douce",
+   "file": "11_AUDIO/MUSIC/M1_theme_yassine_v1_s7XgFrRl8e.mp3",
+   "in": 2,
+   "start": 131.0,
+   "dur": 9.4,
+   "lufs": -38,
+   "fade_in": 2,
+   "fade_out": 3.5
+  },
+  {
+   "label": "S1-02 gouttes",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s1_eau_gouttes_iGFRUPK3uK.mp3",
+   "start": 7.5,
+   "dur": 5.5,
+   "lufs": -30
+  },
+  {
+   "label": "S1-07 marche craque",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s1_marche_craque_6AQ3SNniJO.mp3",
+   "start": 43.2,
+   "dur": 3,
+   "lufs": -28
+  },
+  {
+   "label": "S2-09 boite ouvre + drapeau",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_boite_ouvre_drapeau_cpLT3vb0eP.mp3",
+   "start": 122.2,
+   "dur": 2.4,
+   "lufs": -28,
+   "in": 3.6
+  },
+  {
+   "label": "S2-10 souffle enfant",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_souffle_enfant_TdlMZCiVNR.mp3",
+   "start": 131.4,
+   "dur": 6,
+   "lufs": -40,
+   "fade_in": 0.5,
+   "fade_out": 1.5
+  },
+  {
+   "label": "S1-04 perles (suit la main)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s1-04_perles_20.9.wav",
+   "start": 20.9,
+   "dur": 7.1
+  },
+  {
+   "label": "S1-05 pas (suit la marche)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s1-05_pas_28.2.wav",
+   "start": 28.2,
+   "dur": 7.4
+  },
+  {
+   "label": "S1-08 escalier (suit la montee)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s1-08_escalier_46.0.wav",
+   "start": 46.0,
+   "dur": 7.8
+  },
+  {
+   "label": "S1-10 porte (suit la porte)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s1-10_porte_61.8.wav",
+   "start": 61.8,
+   "dur": 3.4
+  },
+  {
+   "label": "S2-03b/04 pas (suivent la marche)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s2-03b-04_pas_77.0.wav",
+   "start": 77.0,
+   "dur": 17.4
+  },
+  {
+   "label": "S2-05 tapis (suit la main)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s2-05_tapis_94.6.wav",
+   "start": 94.6,
+   "dur": 6.4
+  },
+  {
+   "label": "S2-06 coffre (suit le couvercle)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s2-06_coffre_101.6.wav",
+   "start": 101.6,
+   "dur": 7.9
+  },
+  {
+   "label": "S2-08 glisse (suit la boite)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s2-08_glisse_117.3.wav",
+   "start": 117.3,
+   "dur": 2.7
+  }
+ ]
+}

@@ -150,3 +150,6 @@ Miniature v5 (demande : ecriture du haut plus petite, minimaliste, style plus hi
 
 ## 2026-11-08 Teaser TikTok
 Teaser vertical 1080x1920 de 34,7 s (0 credit) : 9 plans extraits du master etalonne (foule S3-10, enfant et boite S2-10, grain de sable S3-02, poussiere doree S3-05/06, fresque S3-08, foule S4-02, drapeau S4-04, regard S5-07, main sur la boite S6-08) + carton final ; fond flou + plan 16:9 centre ; legendes FR (et titre arabe) ; musique M6 (montee) a -14 LUFS, crete -2,6 dBFS. 13_FINAL_EXPORT/TEASER_TIKTOK_v1.mp4 (19,8 Mo) + legende. Carton final : "Ce soir a 19h - YouTube : Ziad Rai" (a ajuster selon l heure reelle). Scripts 12_EDITING/TEASER_TIKTOK/. En attente de validation.
+
+## 2026-11-08 Teaser : ouverture
+Signalement : une video ne s ouvre plus (fichier non precise). Controle d integrite OK sur TEASER, master 1080p et 720p. Teaser v1 avait le moov en fin de fichier : remux sans reencodage faststart -> TEASER_TIKTOK_v1_compatible.mp4.

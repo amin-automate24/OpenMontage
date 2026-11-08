@@ -162,3 +162,6 @@ Realisateur : film deja publie. Teaser v2 : carton final "Disponible sur YouTube
 
 ## 2026-11-08 Teaser v2 envoye dans Dropbox
 TEASER_TIKTOK_v2.mp4 (19810286 o) et TEASER_TIKTOK_v2_legende.txt (639 o) envoyes dans /LE_SECRET_BOITE_FER_BLANC/ ; tailles confirmees par l API. Jeton a revoquer.
+
+## 2026-11-08 Logos et bannieres
+Demande : envoyer les logos et bannieres. Aucun existant dans le projet (assets/logo.png = outil OpenMontage, sans rapport). Crees (0 credit) dans 13_FINAL_EXPORT/BRANDING/ : LOGO_LA_MARCHE_VERTE_transparent.png et fond noir (2000x800), BANNIERE_YOUTUBE_2560x1440.jpg (zone sure centrale), AVATAR_LA_MARCHE_VERTE_800x800.jpg ; script 12_EDITING/GENERIQUE_FIN/build_branding.py. Le logo de la chaine Ziad Rai existe deja cote YouTube (non fourni).

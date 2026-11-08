@@ -153,3 +153,6 @@ Teaser vertical 1080x1920 de 34,7 s (0 credit) : 9 plans extraits du master etal
 
 ## 2026-11-08 Teaser : ouverture
 Signalement : une video ne s ouvre plus (fichier non precise). Controle d integrite OK sur TEASER, master 1080p et 720p. Teaser v1 avait le moov en fin de fichier : remux sans reencodage faststart -> TEASER_TIKTOK_v1_compatible.mp4.
+
+## 2026-11-08 Teaser envoye dans Dropbox
+TEASER_TIKTOK_v1_compatible.mp4 (19804817 o) envoye dans /LE_SECRET_BOITE_FER_BLANC/ (taille confirmee par l API). Jeton a revoquer par l utilisateur ; supprimer les anciens secrets Dropbox de l environnement.

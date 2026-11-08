@@ -156,3 +156,6 @@ Signalement : une video ne s ouvre plus (fichier non precise). Controle d integr
 
 ## 2026-11-08 Teaser envoye dans Dropbox
 TEASER_TIKTOK_v1_compatible.mp4 (19804817 o) envoye dans /LE_SECRET_BOITE_FER_BLANC/ (taille confirmee par l API). Jeton a revoquer par l utilisateur ; supprimer les anciens secrets Dropbox de l environnement.
+
+## 2026-11-08 Teaser v2 : la video est deja publiee sur YouTube
+Realisateur : film deja publie. Teaser v2 : carton final "Disponible sur YouTube - Ziad Rai" (au lieu de "Ce soir a 19h"), meme montage et meme musique ; 13_FINAL_EXPORT/TEASER_TIKTOK_v2.mp4 (faststart) + TEASER_TIKTOK_v2_legende.txt. v1 conservee. 0 credit.

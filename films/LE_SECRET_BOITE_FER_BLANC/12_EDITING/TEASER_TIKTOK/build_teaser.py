@@ -27,6 +27,7 @@ CLIPS = [
  (421.8, 4.2, [("Ce que l’on transmet", SI, 56, WHITE, False), ("ne s’oublie jamais.", SI, 56, GOLD, False)], False),
 ]
 END_DUR = 5.2
+END_LINE = sys.argv[2] if len(sys.argv) > 2 else "Ce soir à 19h · YouTube : Ziad Rai"
 def font(p, s, ar=False):
     return ImageFont.truetype(p, s, layout_engine=ImageFont.Layout.RAQM) if ar else ImageFont.truetype(p, s)
 def draw_c(d, s, f, y, fill, ar=False, spacing=0):
@@ -52,7 +53,7 @@ def end_png(path):
     draw_c(d, "المسيرة الخضراء", font(AR, 120, True), 205, GOLD, ar=True)
     draw_c(d, "LA MARCHE VERTE", font(SR, 54), 360, WHITE, spacing=16)
     draw_c(d, "Un court-métrage", font(SI, 44), 1300, WHITE)
-    draw_c(d, "Ce soir à 19h · YouTube : Ziad Rai", font(SR, 46), 1380, GOLD)
+    draw_c(d, END_LINE, font(SR, 46), 1380, GOLD)
     draw_c(d, "عاش المغرب", font(AR, 84, True), 1500, GOLD, ar=True)
     im.save(path)
 def main(out):

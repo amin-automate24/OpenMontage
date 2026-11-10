@@ -1,7 +1,7 @@
 const {chromium}=require('playwright');const path=require('path'),fs=require('fs');
 const html='file://'+path.resolve(process.argv[2]);const out=process.argv[3];fs.mkdirSync(out,{recursive:true});
 const T=[2,4.9,5.1,9.9,10.1,14,17,19.9,20.1,24.9,25.1,28].concat(process.argv.slice(4).map(Number));
-const F=(t)=>{setTime(t);const r=[];const vis=[...document.querySelectorAll('.scene')].map(s=>[s.id,+getComputedStyle(s).opacity]);
+const F=async (t)=>{await setTimeAsync(t);const r=[];const vis=[...document.querySelectorAll('.scene')].map(s=>[s.id,+getComputedStyle(s).opacity]);
 const on=vis.filter(v=>v[1]>0.01);
 for(const [id,op] of on){const sc=document.getElementById(id);
  const els=[...sc.querySelectorAll('h1,.sub,.bub,.chip,.badge,.row,.ok,.tag,.cta,.contact,.photo,.car,img.logo,.phone>div:not(.bub):not(.car):not(.ok)')].filter(e=>+getComputedStyle(e).opacity>0.05||!e.classList.contains('it'));

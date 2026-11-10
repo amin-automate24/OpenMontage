@@ -36,7 +36,7 @@ img.logo{width:620px;height:620px;object-fit:contain}
 <div class="scene" id="s1">
  <div class="top"><h1>Combien de clients perdez-vous <em>pendant que vous êtes occupé&nbsp;?</em></h1></div>
  <div class="mid">
-  <div class="photo it" data-t="0" style="height:520px"><img class="kb" src="../assets/images/parking_tCNchifmZJ.png" style="object-position:50% 62%"></div>
+  <div class="photo it" data-t="0" style="height:520px"><img class="vid" data-clip="s1" src="../assets/video/frames/s1/0001.jpg" style="object-position:50% 70%"></div>
   <div class="phone it" data-t="0.6">
    <div class="bub cl">Salam, wach had tomobil mazala disponible?</div>
    <div style="align-self:flex-start;font-size:32px;color:#9fb0d0">✓✓ Lu · 14:32</div>
@@ -50,7 +50,7 @@ img.logo{width:620px;height:620px;object-fit:contain}
 <div class="scene" id="s2">
  <div class="top"><h1>Votre assistant <em>WhatsApp IA.</em></h1><div class="badge it" data-t="0.2">Exemple de démonstration</div></div>
  <div class="mid">
-  <div class="photo it" data-t="0" style="height:380px"><img class="kb" src="../assets/images/phone_p8wZdiXehw.png" style="object-position:50% 55%"></div>
+  <div class="photo it" data-t="0" style="height:380px"><img class="vid" data-clip="s2" src="../assets/video/frames/s2/0001.jpg" style="object-position:50% 58%"></div>
   <div class="phone">
    <div class="bub cl it" data-t="0.5">Salam, wach had tomobil mazala disponible?</div>
    <div class="bub bot it" data-t="1.6">Salam! Marhba bik. Ah, tomobil mazala disponible. Wach bghiti les détails?</div>
@@ -78,7 +78,7 @@ img.logo{width:620px;height:620px;object-fit:contain}
 <div class="scene" id="s4">
  <div class="top"><h1 style="font-size:58px">Votre garage répond.<br><em>Même quand vous ne pouvez pas.</em></h1><div class="badge it" data-t="0.2">Exemple de démonstration</div></div>
  <div class="mid">
-  <div class="photo it" data-t="0" style="height:420px"><img class="kb" src="../assets/images/night_8a4YtctIrU.png" style="object-position:50% 28%"></div>
+  <div class="photo it" data-t="0" style="height:420px"><img class="vid" data-clip="s4" src="../assets/video/frames/s4/0001.jpg" style="object-position:50% 45%"></div>
   <div class="row it" data-t="0.4">🌙 <span>23:14 — <b>garage fermé</b></span></div>
   <div class="row it" data-t="1.3">💬 <span>Nouveau message client</span></div>
   <div class="row it" data-t="2.2">🤖 <span>L'assistant répond <b>automatiquement</b></span></div>
@@ -108,9 +108,11 @@ function setTime(t){
    const p=ease(clamp((t-a-parseFloat(i.dataset.t))/0.45));
    i.style.opacity=p; i.style.transform=`scale(${0.94+0.06*p}) translateY(${(1-p)*14}px)`;
   });
+  el.querySelectorAll('img.vid').forEach(im=>{const n=Math.min(151,Math.max(1,Math.floor((t-a)*30)+1));if(im.dataset.n!=n){im.dataset.n=n;im.src=`../assets/video/frames/${im.dataset.clip}/${String(n).padStart(4,'0')}.jpg`;}});
   el.querySelectorAll('img.kb').forEach(im=>{const k=clamp((t-a)/(b-a)); im.style.transform=`scale(${1.04+0.08*k})`;});
  }
 }
 setTime(0);
+window.setTimeAsync=async t=>{setTime(t);await Promise.all([...document.querySelectorAll('img.vid')].map(i=>i.decode().catch(()=>{})));};
 </script>
 </body></html>

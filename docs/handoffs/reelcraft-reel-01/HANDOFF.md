@@ -112,3 +112,15 @@ Changements par rapport à v3 :
 - Émojis 😬 (S1) et 🚗 (S3) remplacés par les photos `tCNchifmZJ` et `79m5OhKJAL` ; photos `p8wZdiXehw` (S2) et `8a4YtctIrU` (S4) ajoutées.
 
 `reel_final.html` attend les images dans `../assets/images/` (`parking_tCNchifmZJ.png`, `phone_p8wZdiXehw.png`, `parking2_79m5OhKJAL.png`, `night_8a4YtctIrU.png`, `logo.png`) : les retélécharger via Magnific, sans écrire les liens signés dans le dépôt.
+
+## 10. Mise à jour : clips Kling intégrés (session du 2026-11-10)
+
+| Élément | Valeur |
+|---|---|
+| Vidéo | `assets/reelcraft_reel_final.mp4` (clips Kling en S1, S2, S4 ; S3 reste une photo) |
+| Version précédente | `assets/reelcraft_reel_final_photos_seules.mp4` |
+| Audio | Inchangé (−14,4 LUFS, crête −1,3 dBFS, voix à 0,3 / 5,3 / 10,3 / 20,3 / 25,3 s) |
+
+Pour rendre `final/reel_final.html`, il faut des séquences d'images extraites des clips Kling : `ffmpeg -i <clip>.mp4 -vf "fps=30,scale=960:-2" -q:v 3 assets/video/frames/<s1|s2|s4>/%04d.jpg`, avec les clips `P3fr6jl42C` (S1), `VXgidpOMMU` (S2), `ksVhLOs16B` (S4) retéléchargés depuis Magnific. `render.js` et `qc.js` appellent `setTimeAsync(t)`, qui attend le décodage de l'image.
+
+Vérifié : les voix et la musique de Reel Studio sont identiques octet pour octet à celles de Magnific. La « musique 30 s » de Reel Studio fait en réalité 27,45 s.

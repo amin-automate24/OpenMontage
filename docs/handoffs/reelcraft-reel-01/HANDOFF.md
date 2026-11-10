@@ -93,3 +93,22 @@ python3 docs/handoffs/reelcraft-reel-01/src/render_frames.py <dossier> 4.9 5.1 1
 ```
 
 `reel_v3.html` expose `setTime(t)` : chaque image est rendue de façon déterministe à l'instant `t`.
+
+## 9. Version finale (session du 2026-11-10)
+
+| Élément | Valeur |
+|---|---|
+| Vidéo | `assets/reelcraft_reel_final.mp4` (H.264 1080×1920, 30 fps, 30 s, AAC stéréo) |
+| Composition | `final/reel_final.html` (v3 + photos Magnific en cadres dédiés, zoom lent) |
+| Rendu | `final/render.js` (Node Playwright → ffmpeg) ; contrôle : `final/qc.js` |
+| Projet OpenMontage | `projects/reelcraft-reel-01/` (pipeline `animation`, runtime `ffmpeg`, non versionné) |
+| Voix | 5 clips Magnific normalisés à −20 LUFS, débuts mesurés 0,33 / 5,33 / 10,33 / 20,33 / 25,33 s |
+| Musique | `Sy8HOqVUb8` étirée à 30 s (atempo 0,915), 12,7 à 13,5 dB sous la voix, remontée progressive après 25 s |
+| Master | −14,4 LUFS intégré, crête −1,3 dBFS |
+
+Changements par rapport à v3 :
+- Fondus : sortie sur [b−0,15 ; b], entrée sur [a+0,02 ; a+0,10]. En v3, l'écran était entièrement vide à 4,9 / 9,9 / 19,9 / 24,9 s.
+- Logo S5 visible dès 25,0 s (en v3, écran vide à 25,1 s).
+- Émojis 😬 (S1) et 🚗 (S3) remplacés par les photos `tCNchifmZJ` et `79m5OhKJAL` ; photos `p8wZdiXehw` (S2) et `8a4YtctIrU` (S4) ajoutées.
+
+`reel_final.html` attend les images dans `../assets/images/` (`parking_tCNchifmZJ.png`, `phone_p8wZdiXehw.png`, `parking2_79m5OhKJAL.png`, `night_8a4YtctIrU.png`, `logo.png`) : les retélécharger via Magnific, sans écrire les liens signés dans le dépôt.

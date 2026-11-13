@@ -19,5 +19,6 @@ if(on.length>1) r.push(['DEUX_SCENES',on]); if(on.length==0) r.push(['ECRAN_VIDE
 return r;};
 (async()=>{const b=await chromium.launch();const pg=await b.newPage({viewport:{width:1080,height:1920}});
 await pg.goto(html);await pg.waitForTimeout(800);
+if(process.env.PHONE) await pg.evaluate(p=>{document.getElementById('phone').textContent=p},process.env.PHONE);
 for(const t of T){const r=await pg.evaluate(F,t);await pg.screenshot({path:`${out}/t${t.toFixed(2).padStart(5,'0')}.png`});console.log('t='+t,JSON.stringify(r));}
 await b.close();})();

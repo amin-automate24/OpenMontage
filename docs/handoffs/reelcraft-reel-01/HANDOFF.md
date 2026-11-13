@@ -124,3 +124,7 @@ Changements par rapport à v3 :
 Pour rendre `final/reel_final.html`, il faut des séquences d'images extraites des clips Kling : `ffmpeg -i <clip>.mp4 -vf "fps=30,scale=960:-2" -q:v 3 assets/video/frames/<s1|s2|s4>/%04d.jpg`, avec les clips `P3fr6jl42C` (S1), `VXgidpOMMU` (S2), `ksVhLOs16B` (S4) retéléchargés depuis Magnific. `render.js` et `qc.js` appellent `setTimeAsync(t)`, qui attend le décodage de l'image.
 
 Vérifié : les voix et la musique de Reel Studio sont identiques octet pour octet à celles de Magnific. La « musique 30 s » de Reel Studio fait en réalité 27,45 s.
+
+## 11. Numéro de contact (S5)
+
+`final/reel_final.html` garde le texte `[NUMÉRO]` dans `<b id="phone">`. Le numéro réel est injecté au rendu par la variable d'environnement `PHONE` (lue par `render.js` et `qc.js`) : `PHONE='…' node final/render.js <html> <audio.wav> <sortie.mp4>`. Le numéro n'est écrit dans aucun fichier du dépôt. Il apparaît à 27,1 s, en 56 px, dans la zone de sécurité.

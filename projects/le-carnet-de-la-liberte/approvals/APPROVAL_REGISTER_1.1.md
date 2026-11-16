@@ -81,3 +81,6 @@ Références : REF-00 style, Amina 1944 / 1953 verrouillées, père REF-03, E4. 
 
 ## P2 VERROUILLÉ artistiquement (16/11), sous réserve du contrôle historique final
 Images P2 : empreintes dans `generation_log.json` et `approval_register.json`. Inscriptions locales (SH16 manifeste en illustration pédagogique, SH19, SH24) : `references/p2/post/` (clips, calques, SHA-256 enregistrés). Originaux intacts. **P3 préparé** (`prompts/P3_PREPARED_NOT_EXECUTED.md`, 520 cr), non autorisé. 0 génération, 0 crédit.
+
+## P2 — correction typographique SH16/SH19 (16/11)
+Textes redessinés à la résolution 1080p (nets, en perspective, hors reliure/bords) ; SH24 inchangé ; empreintes mises à jour dans `approval_register.json`. 0 génération, 0 crédit.

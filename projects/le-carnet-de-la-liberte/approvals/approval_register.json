@@ -206,27 +206,27 @@
       "post_inscriptions": {
         "SH16_composite_final.png": {
           "file": "references/p2/post/SH16_composite_final.png",
-          "sha256": "fc8daaaddcb4cbe2731326d360af58e87d4055acc9ec9bf79472a0e6b2209bb2"
+          "sha256": "93ebc930747af43c30e18b743b22aa08fd2f0eeb6e3a7c3e58589d8f100ba68c"
         },
         "SH16_text_layer_final.png": {
           "file": "references/p2/post/SH16_text_layer_final.png",
-          "sha256": "ee2085e291fd467186ca71fb5c406f4baf7a667dde1ec9dd347c957eb5aefe9b"
+          "sha256": "cbb4bf60918bd32f18f50a94a68c18d5b30a0d07b8d530fbf5dc2045e331f634"
         },
         "SH16_composite_v001.mp4": {
           "file": "references/p2/post/SH16_composite_v001.mp4",
-          "sha256": "47f0f0470fad085d80c02286e7370190fc4664a1dcb0127e96294ba19752a352"
+          "sha256": "4f2ce5ae1152f7e4b6f3c756d354a766b084c1a95e88098c730f329543872815"
         },
         "SH19_composite_final.png": {
           "file": "references/p2/post/SH19_composite_final.png",
-          "sha256": "f5572574d3f44e71ed0762fc43bab31aa359b5f2f20e8d3435e9c620249b600f"
+          "sha256": "4e7a2cf97125b2a962d6832aab3dc199374f96d3a75c7082859f368a45acfcf0"
         },
         "SH19_text_layer_final.png": {
           "file": "references/p2/post/SH19_text_layer_final.png",
-          "sha256": "6ed98b5f4cf26f3364a69bcd574800c48346381bc08fc65889f01df181b9791d"
+          "sha256": "78842a4649ca03e32d49d4ee3882c10b5d5b863ec6477654d0c56cf87ecc9425"
         },
         "SH19_composite_v001.mp4": {
           "file": "references/p2/post/SH19_composite_v001.mp4",
-          "sha256": "6b49ec985e79c05ed2e16f554a4e727856cc7ac1cd2a033cab561f90734edbb3"
+          "sha256": "0ad3b849f5f3b920af971fcd6d0d270d323490953642f053595862579a50a066"
         },
         "SH24_composite_final.png": {
           "file": "references/p2/post/SH24_composite_final.png",
@@ -242,15 +242,16 @@
         }
       },
       "inscriptions": {
-        "SH16": "Manifeste de l'indépendance / 11 janvier 1944 + caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
-        "SH19": "Un jour, mon pays sera libre.",
+        "SH16": "Manifeste de / l'indépendance — / 11 janvier 1944 (serif d'imprimerie, 3 lignes) + caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
+        "SH19": "Un jour, mon pays / sera libre. (même manuscrit que SH10/SH24)",
         "SH24": "Nous garderons espoir."
       },
       "legibility": {
-        "SH16": "OK (zoom 4x, ~30 px at 1080p)",
-        "SH19": "readable only at zoom 3.2x; first words small (perspective); full legibility carried by SH20 card",
-        "SH24": "OK (~25 px at 1080p)"
-      }
+        "SH16": "OK à 1080p (texte net rendu à la résolution du plan, zoom 4x, lecture stable ≥ 2,2 s)",
+        "SH19": "OK à 1080p (zoom 6,5x, texte sur page gauche loin de la reliure, lecture stable ≥ 3 s)",
+        "SH24": "validé, inchangé"
+      },
+      "typography_fix": "2026-11-16: text now drawn at output resolution per frame (sharp), originals untouched; SH24 not modified"
     }
   },
   "uploads": [

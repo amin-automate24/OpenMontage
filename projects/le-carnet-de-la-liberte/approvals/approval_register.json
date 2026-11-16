@@ -5,8 +5,8 @@
     "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
     "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
   },
-  "credits_consumed": 1300,
-  "paid_calls": 20,
+  "credits_consumed": 1820,
+  "paid_calls": 28,
   "planning_ceiling_credits": 2000,
   "planning_ceiling_is_authorization": false,
   "authorizations": [
@@ -44,6 +44,13 @@
       "scope": "Batch P2: 9 images (SH13-16,19,21,22,24,25), strict cap 585 Magnific credits",
       "status": "granted_and_fully_used",
       "spent": 585,
+      "no_retakes": true
+    },
+    {
+      "id": "AUTH-06",
+      "scope": "Batch P3: 8 images (SH17, SH27-32, SH34), strict cap 520 Magnific credits",
+      "status": "granted_and_fully_used",
+      "spent": 520,
       "no_retakes": true
     }
   ],
@@ -83,7 +90,7 @@
   "scenario_b_credits": 5515,
   "scenario_b_is_authorization": false,
   "reserve_last_of_men_min_credits": 4643,
-  "magnific_balance_after": 8858,
+  "magnific_balance_after": 8338,
   "film_duration_s": 276,
   "screenplay_working_version": "1.2",
   "locked_references": {
@@ -306,7 +313,7 @@
     }
   ],
   "p3": {
-    "status": "prepared, ready for authorization, not executed",
+    "status": "generated, awaiting grouped visual validation",
     "images": 8,
     "cost_credits": 520,
     "balance_now": 8858,

@@ -96,3 +96,14 @@ Apparition partielle de « SERA LIBRE. » = balayage d'écriture gauche→droite
 
 ## SH19 / P2 CLÔTURÉS DÉFINITIVEMENT (16/11)
 Montage : `SH19_edit_6.50s.mp4` (case 109,0–115,5 s remplie exactement), phrase complète maintenue 3,1 s (≥ 2 s). Fichiers d'origine conservés. **P3 prêt** : 8 images, 520 cr, solde après P3 = 8 338 (réserve THE LAST OF MEN ≥ 4 643 respectée). Non autorisé, non lancé.
+
+## AUTH-06 — Lot P3 (16/11) : 8 images × 65 = **520 / 520 cr**, aucune reprise
+- SH17_document_illustre_v001 — `references/p3/SH17_document_illustre_v001.png` — SHA-256 `499cdb3f4253fd09…`
+- SH27_foule_rabat1955_v001 — `references/p3/SH27_foule_rabat1955_v001.png` — SHA-256 `6a602c3e57ebd03a…`
+- SH28_amina_pere_foule_v001 — `references/p3/SH28_amina_pere_foule_v001.png` — SHA-256 `11a1a9c907036636…`
+- SH29_trone_symbolique_v001 — `references/p3/SH29_trone_symbolique_v001.png` — SHA-256 `cedc13365acc9ad2…`
+- SH30_amina_ecrit_1955_v001 — `references/p3/SH30_amina_ecrit_1955_v001.png` — SHA-256 `02c661c9a4617e62…`
+- SH31_negociations_symboliques_v001 — `references/p3/SH31_negociations_symboliques_v001.png` — SHA-256 `958c57822b9a0d18…`
+- SH32_pere_amina_nouvelle_v001 — `references/p3/SH32_pere_amina_nouvelle_v001.png` — SHA-256 `820f22ee0e952cd0…`
+- SH34_amina_ferme_carnet_v001 — `references/p3/SH34_amina_ferme_carnet_v001.png` — SHA-256 `351fd5aa9781638d…`
+Aucun drapeau généré (mâts vides, vectoriel en post) ; aucun visage du souverain ; SH17/29/31 = illustrations pédagogiques, non archives. Statut : **en attente de validation groupée**. Total projet : 1 820 cr ; solde attendu 8 338 (à vérifier). P4, clips, audio : non autorisés.

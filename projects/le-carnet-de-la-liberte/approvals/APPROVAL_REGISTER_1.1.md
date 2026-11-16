@@ -66,3 +66,15 @@ REF-03 père, REF-04 maîtresse, E4 intérieur 1940s, SH01, SH10, SH26, SH38 (`r
 - composite_clip: `references/p1/post/SH10_composite_v001.mp4` SHA-256 `9b3cddca847436d4…`
 - master_1080p: `references/p1/post/SH10_master_1080p_v001.mp4` SHA-256 `2f14f92463a20a17…`
 Recomposition finale : `scripts/compose_sh10.py --master` (1080p depuis la source 2752×1536, lecture stable 1,8 s). 0 génération, 0 crédit.
+
+## AUTH-05 — Lot P2 (16/11) : 9 images × 65 = **585 / 585 cr**, aucune reprise
+- SH13_rue1944_v001 — `references/p2/SH13_rue1944_v001.png` — SHA-256 `bcc61d956b76cdf8…`
+- SH14_amina_pere_marche_v001 — `references/p2/SH14_amina_pere_marche_v001.png` — SHA-256 `95ee6a0cd25f522c…`
+- SH15_pere_explique_v001 — `references/p2/SH15_pere_explique_v001.png` — SHA-256 `c2a0326d4854a3e3…`
+- SH16_table_feuille_v001 — `references/p2/SH16_table_feuille_v001.png` — SHA-256 `37a7a829929027c7…`
+- SH19_amina11_ecrit_v001 — `references/p2/SH19_amina11_ecrit_v001.png` — SHA-256 `9a9643c1e041a62a…`
+- SH21_maison1953_soir_v001 — `references/p2/SH21_maison1953_soir_v001.png` — SHA-256 `ea3d760592243438…`
+- SH22_radio_v001 — `references/p2/SH22_radio_v001.png` — SHA-256 `07724d672a418aa4…`
+- SH24_amina20_ecrit_v001 — `references/p2/SH24_amina20_ecrit_v001.png` — SHA-256 `b59fce091dae64b0…`
+- SH25_fenetre_v001 — `references/p2/SH25_fenetre_v001.png` — SHA-256 `7e7a855d6bdfebc3…`
+Références : REF-00 style, Amina 1944 / 1953 verrouillées, père REF-03, E4. SH14–15 ont SH13 pour décor. Statut : **en attente de validation groupée**. Total projet : 1 300 cr ; solde attendu 8 858 (à vérifier). Rue et djellaba d'extérieur = reconstitution fictive à confirmer (H12), non authentifiée. P3/P4, clips, audio : non autorisés.

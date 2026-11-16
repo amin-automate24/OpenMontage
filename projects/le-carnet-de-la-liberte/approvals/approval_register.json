@@ -5,8 +5,8 @@
     "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
     "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
   },
-  "credits_consumed": 715,
-  "paid_calls": 11,
+  "credits_consumed": 1300,
+  "paid_calls": 20,
   "planning_ceiling_credits": 2000,
   "planning_ceiling_is_authorization": false,
   "authorizations": [
@@ -37,6 +37,13 @@
       "scope": "Batch P1: 7 images, strict cap 455 Magnific credits",
       "status": "granted_and_fully_used",
       "spent": 455,
+      "no_retakes": true
+    },
+    {
+      "id": "AUTH-05",
+      "scope": "Batch P2: 9 images (SH13-16,19,21,22,24,25), strict cap 585 Magnific credits",
+      "status": "granted_and_fully_used",
+      "spent": 585,
       "no_retakes": true
     }
   ],
@@ -75,7 +82,7 @@
   "scenario_b_credits": 5515,
   "scenario_b_is_authorization": false,
   "reserve_last_of_men_min_credits": 4643,
-  "magnific_balance_after": 9443,
+  "magnific_balance_after": 8858,
   "film_duration_s": 276,
   "screenplay_working_version": "1.2",
   "locked_references": {
@@ -158,6 +165,14 @@
     {
       "creation_id": "LwoP4S4swO",
       "note": "locked Amina 1955-56 crop uploaded as reference (hidden, no cost)"
+    },
+    {
+      "creation_id": "DoJhk2Opcl",
+      "note": "locked Amina 1944 child crop (hidden)"
+    },
+    {
+      "creation_id": "rgdJGCCxtc",
+      "note": "locked Amina 1953 crop (hidden)"
     }
   ]
 }

@@ -75,7 +75,8 @@
     "GATE-2-rest",
     "GATE-3",
     "GATE-4",
-    "H12-Amina-costumes"
+    "H12-Amina-costumes",
+    "P3 authorization"
   ],
   "version": "1.1",
   "planning_reference_scenario": "B",
@@ -158,6 +159,97 @@
           "file": "references/p1/post/SH10_master_1080p_v001.mp4",
           "sha256": "2f14f92463a20a17d7102887d732004767c16a3b25eff710000297c50b3b0cab"
         }
+      }
+    },
+    "P2": {
+      "locked": "2026-11-16",
+      "validated_by_user": "artistically",
+      "reserve": "subject to final historical control (H12)",
+      "images": {
+        "SH13_rue1944_v001": {
+          "file": "references/p2/SH13_rue1944_v001.png",
+          "sha256": "bcc61d956b76cdf80ae9f3dcc8e45f98924a7ed58ec0b738c5799c3af82b4b2c"
+        },
+        "SH14_amina_pere_marche_v001": {
+          "file": "references/p2/SH14_amina_pere_marche_v001.png",
+          "sha256": "95ee6a0cd25f522c7b62ab8acb1c1fa5d97f3604e3dac01b43e9455598952704"
+        },
+        "SH15_pere_explique_v001": {
+          "file": "references/p2/SH15_pere_explique_v001.png",
+          "sha256": "c2a0326d4854a3e3a201bfac88592ad05c1b1503eefc2ad8cb7fcbb642c33868"
+        },
+        "SH16_table_feuille_v001": {
+          "file": "references/p2/SH16_table_feuille_v001.png",
+          "sha256": "37a7a829929027c7daaf7bfbd729a944ac560faa388c6cc7b39959e15ae3b197"
+        },
+        "SH19_amina11_ecrit_v001": {
+          "file": "references/p2/SH19_amina11_ecrit_v001.png",
+          "sha256": "9a9643c1e041a62a7b2cb73263a205420463b8240687698a220386e80e9ea41b"
+        },
+        "SH21_maison1953_soir_v001": {
+          "file": "references/p2/SH21_maison1953_soir_v001.png",
+          "sha256": "ea3d760592243438b46c373933ae455e3844a4de59507ad8bdd2a0fc18fc4105"
+        },
+        "SH22_radio_v001": {
+          "file": "references/p2/SH22_radio_v001.png",
+          "sha256": "07724d672a418aa429054914272506e1ba3902cd895def151254aeba43fb5a3b"
+        },
+        "SH24_amina20_ecrit_v001": {
+          "file": "references/p2/SH24_amina20_ecrit_v001.png",
+          "sha256": "b59fce091dae64b0aaf193a9513597a805227c8802ad117a65010f67507a4e9d"
+        },
+        "SH25_fenetre_v001": {
+          "file": "references/p2/SH25_fenetre_v001.png",
+          "sha256": "7e7a855d6bdfebc3e79c6edca54450ecffe3cc4dc7b57c0aeba904c0b1b3d10c"
+        }
+      },
+      "post_inscriptions": {
+        "SH16_composite_final.png": {
+          "file": "references/p2/post/SH16_composite_final.png",
+          "sha256": "fc8daaaddcb4cbe2731326d360af58e87d4055acc9ec9bf79472a0e6b2209bb2"
+        },
+        "SH16_text_layer_final.png": {
+          "file": "references/p2/post/SH16_text_layer_final.png",
+          "sha256": "ee2085e291fd467186ca71fb5c406f4baf7a667dde1ec9dd347c957eb5aefe9b"
+        },
+        "SH16_composite_v001.mp4": {
+          "file": "references/p2/post/SH16_composite_v001.mp4",
+          "sha256": "47f0f0470fad085d80c02286e7370190fc4664a1dcb0127e96294ba19752a352"
+        },
+        "SH19_composite_final.png": {
+          "file": "references/p2/post/SH19_composite_final.png",
+          "sha256": "f5572574d3f44e71ed0762fc43bab31aa359b5f2f20e8d3435e9c620249b600f"
+        },
+        "SH19_text_layer_final.png": {
+          "file": "references/p2/post/SH19_text_layer_final.png",
+          "sha256": "6ed98b5f4cf26f3364a69bcd574800c48346381bc08fc65889f01df181b9791d"
+        },
+        "SH19_composite_v001.mp4": {
+          "file": "references/p2/post/SH19_composite_v001.mp4",
+          "sha256": "6b49ec985e79c05ed2e16f554a4e727856cc7ac1cd2a033cab561f90734edbb3"
+        },
+        "SH24_composite_final.png": {
+          "file": "references/p2/post/SH24_composite_final.png",
+          "sha256": "fa24a4e4495801faa75a1affa11b7d2dd4aeaec56c59f402391670e93769bfa7"
+        },
+        "SH24_text_layer_final.png": {
+          "file": "references/p2/post/SH24_text_layer_final.png",
+          "sha256": "f400d1991b9e5ca6716d75ee19a9bcb1d129974773a7def270877a13a17ddd46"
+        },
+        "SH24_composite_v001.mp4": {
+          "file": "references/p2/post/SH24_composite_v001.mp4",
+          "sha256": "54fe718d1221f1252f964a8ddfdb3676955d35ec42a89ff4b3ed22e67ef07a55"
+        }
+      },
+      "inscriptions": {
+        "SH16": "Manifeste de l'indépendance / 11 janvier 1944 + caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
+        "SH19": "Un jour, mon pays sera libre.",
+        "SH24": "Nous garderons espoir."
+      },
+      "legibility": {
+        "SH16": "OK (zoom 4x, ~30 px at 1080p)",
+        "SH19": "readable only at zoom 3.2x; first words small (perspective); full legibility carried by SH20 card",
+        "SH24": "OK (~25 px at 1080p)"
       }
     }
   },

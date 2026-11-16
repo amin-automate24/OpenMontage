@@ -78,3 +78,6 @@ Recomposition finale : `scripts/compose_sh10.py --master` (1080p depuis la sourc
 - SH24_amina20_ecrit_v001 — `references/p2/SH24_amina20_ecrit_v001.png` — SHA-256 `b59fce091dae64b0…`
 - SH25_fenetre_v001 — `references/p2/SH25_fenetre_v001.png` — SHA-256 `7e7a855d6bdfebc3…`
 Références : REF-00 style, Amina 1944 / 1953 verrouillées, père REF-03, E4. SH14–15 ont SH13 pour décor. Statut : **en attente de validation groupée**. Total projet : 1 300 cr ; solde attendu 8 858 (à vérifier). Rue et djellaba d'extérieur = reconstitution fictive à confirmer (H12), non authentifiée. P3/P4, clips, audio : non autorisés.
+
+## P2 VERROUILLÉ artistiquement (16/11), sous réserve du contrôle historique final
+Images P2 : empreintes dans `generation_log.json` et `approval_register.json`. Inscriptions locales (SH16 manifeste en illustration pédagogique, SH19, SH24) : `references/p2/post/` (clips, calques, SHA-256 enregistrés). Originaux intacts. **P3 préparé** (`prompts/P3_PREPARED_NOT_EXECUTED.md`, 520 cr), non autorisé. 0 génération, 0 crédit.

@@ -84,3 +84,6 @@ Images P2 : empreintes dans `generation_log.json` et `approval_register.json`. I
 
 ## P2 — correction typographique SH16/SH19 (16/11)
 Textes redessinés à la résolution 1080p (nets, en perspective, hors reliure/bords) ; SH24 inchangé ; empreintes mises à jour dans `approval_register.json`. 0 génération, 0 crédit.
+
+## P2 CLOS (16/11) après contrôle technique
+9/9 empreintes d'images conformes ; clips SH16/SH19/SH24 en 1920×1080 25 i/s ; SH16 et SH24 conservés ; SH19 : texte replacé (ancienne version gardée). **P3 préparé** (520 cr, `prompts/P3_PREPARED_NOT_EXECUTED.md`), non autorisé. Total projet : 1 300 cr, solde 8 858.

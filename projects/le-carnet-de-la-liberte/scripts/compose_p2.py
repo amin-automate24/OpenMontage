@@ -19,7 +19,7 @@ SHOTS = {
    zoom=(1.0,4.0,(1500,1045),0.2,2.8),
    caption=("ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",1.6)),
  "SH19": dict(src="SH19_amina11_ecrit_v001", dur=6.5, patch=None,
-   quad=[(1272,1251),(1397,1250),(1397,1287),(1272,1277)], inset=0.0,
+   quad=[(1274,1244),(1397,1238),(1397,1275),(1274,1270)], inset=0.0,
    lines=[("Un jour, mon pays",0.8,2.4),("sera libre.",2.4,3.4)],
    zoom=(1.0,6.5,(1345,1266),0.5,4.2), caption=None),
  "SH24": dict(src="SH24_amina20_ecrit_v001", dur=6.0, patch=None,

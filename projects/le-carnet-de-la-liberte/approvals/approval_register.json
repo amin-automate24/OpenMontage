@@ -218,15 +218,15 @@
         },
         "SH19_composite_final.png": {
           "file": "references/p2/post/SH19_composite_final.png",
-          "sha256": "4e7a2cf97125b2a962d6832aab3dc199374f96d3a75c7082859f368a45acfcf0"
+          "sha256": "0f0bc32dd7abf13790472aac2d7fc3973b4fe91492e1dfe874b559d595dfe167"
         },
         "SH19_text_layer_final.png": {
           "file": "references/p2/post/SH19_text_layer_final.png",
-          "sha256": "78842a4649ca03e32d49d4ee3882c10b5d5b863ec6477654d0c56cf87ecc9425"
+          "sha256": "d64d3299bd416202cd2b85bb09a88edc3404afbbbe8dd523dc93b639b550a221"
         },
         "SH19_composite_v001.mp4": {
           "file": "references/p2/post/SH19_composite_v001.mp4",
-          "sha256": "0ad3b849f5f3b920af971fcd6d0d270d323490953642f053595862579a50a066"
+          "sha256": "59c20a84782f310435af1b24a57b9f94a596f2d90849a4dc24431d89ebc8e649"
         },
         "SH24_composite_final.png": {
           "file": "references/p2/post/SH24_composite_final.png",
@@ -243,7 +243,7 @@
       },
       "inscriptions": {
         "SH16": "Manifeste de / l'indépendance — / 11 janvier 1944 (serif d'imprimerie, 3 lignes) + caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
-        "SH19": "Un jour, mon pays / sera libre. (même manuscrit que SH10/SH24)",
+        "SH19": "Un jour, mon pays / sera libre. (placement relevé et incliné pour suivre la page ; v001 précédente conservée en *_prev_placement.mp4)",
         "SH24": "Nous garderons espoir."
       },
       "legibility": {
@@ -251,7 +251,20 @@
         "SH19": "OK à 1080p (zoom 6,5x, texte sur page gauche loin de la reliure, lecture stable ≥ 3 s)",
         "SH24": "validé, inchangé"
       },
-      "typography_fix": "2026-11-16: text now drawn at output resolution per frame (sharp), originals untouched; SH24 not modified"
+      "typography_fix": "2026-11-16: text now drawn at output resolution per frame (sharp), originals untouched; SH24 not modified",
+      "status": "CLOSED after technical control (9/9 hashes OK, 3 clips 1080p25)"
+    },
+    "SH16": {
+      "validated_by_user": true,
+      "file": "references/p2/post/SH16_composite_v001.mp4",
+      "sha256": "4f2ce5ae1152f7e4b6f3c756d354a766b084c1a95e88098c730f329543872815",
+      "note": "kept as is"
+    },
+    "SH24": {
+      "validated_by_user": true,
+      "file": "references/p2/post/SH24_composite_v001.mp4",
+      "sha256": "54fe718d1221f1252f964a8ddfdb3676955d35ec42a89ff4b3ed22e67ef07a55",
+      "note": "kept as is"
     }
   },
   "uploads": [
@@ -267,5 +280,10 @@
       "creation_id": "rgdJGCCxtc",
       "note": "locked Amina 1953 crop (hidden)"
     }
-  ]
+  ],
+  "p3": {
+    "status": "prepared, not authorized",
+    "cost_credits": 520,
+    "file": "prompts/P3_PREPARED_NOT_EXECUTED.md"
+  }
 }

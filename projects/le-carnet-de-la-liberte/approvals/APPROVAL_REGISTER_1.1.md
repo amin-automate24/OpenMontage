@@ -93,3 +93,6 @@ Texte relevé et recentré ; marge basse mesurée ≥ 15.3 % et haute ≥ 21.2 %
 
 ## SH19 VALIDÉ DÉFINITIVEMENT (16/11)
 Apparition partielle de « SERA LIBRE. » = balayage d'écriture gauche→droite intentionnel (2,4→3,4 s) ; phrase complète et non déformée dès 3,4 s ; lisible 3,08 s (≥ 2 s). P2 reste clôturé. 0 génération, 0 crédit.
+
+## SH19 / P2 CLÔTURÉS DÉFINITIVEMENT (16/11)
+Montage : `SH19_edit_6.50s.mp4` (case 109,0–115,5 s remplie exactement), phrase complète maintenue 3,1 s (≥ 2 s). Fichiers d'origine conservés. **P3 prêt** : 8 images, 520 cr, solde après P3 = 8 338 (réserve THE LAST OF MEN ≥ 4 643 respectée). Non autorisé, non lancé.

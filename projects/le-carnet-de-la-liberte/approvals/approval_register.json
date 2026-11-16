@@ -260,7 +260,7 @@
         "SH24": "validé, inchangé"
       },
       "typography_fix": "2026-11-16: text now drawn at output resolution per frame (sharp), originals untouched; SH24 not modified",
-      "status": "CLOSED (SH19 definitively validated)"
+      "status": "CLOSED DEFINITIVELY"
     },
     "SH16": {
       "validated_by_user": true,
@@ -280,7 +280,15 @@
       "file": "references/p2/post/SH19_composite_v001.mp4",
       "sha256": "ad47f587a23a2bd2fb7f01de33aec55be7ab3720b00fb290351f278792ed6544",
       "control": "left-to-right handwriting wipe is intentional (line 2: 2.4-3.4 s); sentence complete and undeformed from 3.4 s; stable and legible 3.08 s (>= 2 s); identical shapes at 3.6/4.4/5.0/6.4 s",
-      "date": "2026-11-16"
+      "date": "2026-11-16",
+      "edit_master": {
+        "file": "references/p2/post/SH19_edit_6.50s.mp4",
+        "sha256": "267c5bcf8fd79c27aaaa25af6377342fc6651b31b7ecc99edd6f3de2b5e57e05",
+        "timeline": "SH19 01:49:00 → 01:55:12 (109.0–115.5 s, 6.5 s)",
+        "full_sentence_hold_s": 3.1,
+        "note": "last frame cloned +1 frame to fill the 6.5 s slot; original clip untouched"
+      },
+      "status": "CLOSED"
     }
   },
   "uploads": [
@@ -298,8 +306,13 @@
     }
   ],
   "p3": {
-    "status": "prepared, not authorized",
+    "status": "prepared, ready for authorization, not executed",
+    "images": 8,
     "cost_credits": 520,
+    "balance_now": 8858,
+    "balance_after_p3": 8338,
+    "reserve_last_of_men_min": 4643,
+    "reserve_respected": true,
     "file": "prompts/P3_PREPARED_NOT_EXECUTED.md"
   }
 }

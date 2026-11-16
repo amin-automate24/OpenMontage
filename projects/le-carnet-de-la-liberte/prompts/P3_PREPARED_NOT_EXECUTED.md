@@ -1,3 +1,8 @@
+# LOT P3 — PRÊT POUR AUTORISATION, NON EXÉCUTÉ
+
+> État au 16/11 : références verrouillées disponibles (Younes REF-01 v002, Amina 1955-56, père REF-03, E4, REF-00) ; P1/P2 clos ; coût 8 × 65 = 520 cr ; solde 8 858 → 8 338 après P3 (réserve THE LAST OF MEN ≥ 4 643 respectée). Validation visuelle groupée prévue après génération ; aucune reprise automatique.
+
+<!-- -->
 # LOT P3 — PRÉPARÉ, NON EXÉCUTÉ (8 images × 65 = **520 cr**, aucune reprise prévue)
 
 Réglages : Nano Banana 2.1 (`imagen-nano-banana-2-1`), 16:9, 2k, count 1. **Non autorisé** tant qu'aucune autorisation écrite « P3, plafond 520 » n'est donnée.

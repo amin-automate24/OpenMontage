@@ -333,16 +333,16 @@
         "SH29": "mention RECONSTITUTION SYMBOLIQUE — sans valeur documentaire",
         "SH31": "same mention + AI pseudo-text and signature masked"
       },
-      "SH17": "AI pseudo-text and signature masked; inscription 'PARTI DE L'ISTIQLAL' (cartouche) + 'Demande d'indépendance du Maroc' (descriptive, not a quotation); no date to avoid repetition with SH16; caption ILLUSTRATION PÉDAGOGIQUE",
+      "SH17": "AI pseudo-text masked; pedagogical inscription 'Manifeste de l'indépendance' (cartouche) + '— 11 janvier 1944 —'; caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive; previous Istiqlal version kept (*_prev_istiqlal)",
       "SH30": "notebook: 'Le chemin / a été long.' (screenplay line), handwriting reveal 1.0–3.0 s, readable 7 s",
       "post_files": {
         "SH17_composite_final.png": {
           "file": "references/p3/post/SH17_composite_final.png",
-          "sha256": "0444d095fb1ba12b20de7240fb2a8952f136d0c022aa140211a0012ffbc6a081"
+          "sha256": "4b7c58b1f6ecdbbc6bcb34160e1d5c054cfae209521879693233160be8a585b1"
         },
         "SH17_edit_1080p.png": {
           "file": "references/p3/post/SH17_edit_1080p.png",
-          "sha256": "145efbcd16e6729319621acdb9d4c919947ec32fb05391857b374aeda0819b5c"
+          "sha256": "37985eaabeeb844f587a7a0eb1e34cd8133c97bcedfbb7613e657f9b2c29c46a"
         },
         "SH29_composite_final.png": {
           "file": "references/p3/post/SH29_composite_final.png",
@@ -369,7 +369,10 @@
           "sha256": "96f06b785e3455f73e2552b271676b8728244150ccbf3d0d8014cadd22e401e7"
         }
       },
-      "status": "local corrections done, awaiting grouped validation"
+      "status": "local corrections done, awaiting grouped validation",
+      "SH29": "validated by user (symbolic-reconstitution mention)",
+      "SH31": "validated by user (symbolic-reconstitution mention)",
+      "SH30_check": "written 'Le chemin a été long.' = first sentence of Amina's screenplay line (scene 5, spoken while writing); reveal 1.0–3.0 s in sync with speech (A6 starts +1.0 s, ~1.6–1.9 s for this sentence); full text readable 7.0 s; clip 250 frames = 10.0 s slot (198.5–208.5 s); no change needed"
     }
   }
 }

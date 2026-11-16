@@ -41,11 +41,11 @@ CAP_SYM="RECONSTITUTION SYMBOLIQUE — sans valeur documentaire"
 
 def sh17():
     img=load("SH17_document_illustre_v001"); W,H=img.size
-    m=Image.new("L",(W,H),0); ImageDraw.Draw(m).polygon([(1000,688),(1645,640),(1650,596),(1800,588),(1915,1150),(1030,1125)],fill=255)
+    m=Image.new("L",(W,H),0); ImageDraw.Draw(m).polygon([(1000,676),(1645,628),(1650,596),(1815,588),(1930,1150),(1030,1125)],fill=255)
     img=median_clean(img,m,27)
     ink=np.array([60,38,22])/255.0
-    img,_=text_block(img,[(1050,393),(1658,328),(1664,385),(1055,450)],["PARTI DE L'ISTIQLAL"],ink)
-    img,_=text_block(img,[(1110,770),(1770,700),(1784,850),(1124,920)],["Demande d'indépendance","du Maroc"],ink)
+    img,_=text_block(img,[(1050,393),(1658,328),(1664,385),(1055,450)],["Manifeste de l'indépendance"],ink)
+    img,_=text_block(img,[(1180,790),(1700,735),(1708,830),(1188,885)],["— 11 janvier 1944 —"],ink)
     img.save(OUT/"SH17_composite_final.png"); caption_1080(img,CAP_ILL).save(OUT/"SH17_edit_1080p.png")
 
 def sh29():

@@ -110,3 +110,6 @@ Aucun drapeau généré (mâts vides, vectoriel en post) ; aucun visage du souve
 
 ## P3 — validation artistique + corrections locales (16/11)
 Validés : SH27, SH28, SH30, SH32, SH34. SH29/SH31 : mention « RECONSTITUTION SYMBOLIQUE — sans valeur documentaire » (SH31 : pseudo-texte et fausse signature IA masqués). SH17 : pseudo-texte IA masqué ; inscription « PARTI DE L'ISTIQLAL » + « Demande d'indépendance du Maroc » (description, pas une citation ; pas de date pour éviter la répétition avec SH16) ; mention illustration pédagogique. SH30 : « Le chemin a été long. » (clip 10 s). Originaux intacts ; empreintes dans `approval_register.json`. 0 génération, 0 crédit. En attente de validation groupée.
+
+## P3 — contrôle (16/11)
+SH29/SH31 validés. SH17 : inscription pédagogique « Manifeste de l'indépendance — 11 janvier 1944 » + mention de reconstitution (version Istiqlal conservée). SH30 : cohérent avec le scénario et le minutage, inchangé. 0 génération, 0 crédit.

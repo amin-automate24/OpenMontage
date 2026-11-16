@@ -113,3 +113,6 @@ Validés : SH27, SH28, SH30, SH32, SH34. SH29/SH31 : mention « RECONSTITUTION S
 
 ## P3 — contrôle (16/11)
 SH29/SH31 validés. SH17 : inscription pédagogique « Manifeste de l'indépendance — 11 janvier 1944 » + mention de reconstitution (version Istiqlal conservée). SH30 : cohérent avec le scénario et le minutage, inchangé. 0 génération, 0 crédit.
+
+## SH17 VERROUILLÉ — P3 CLOS (16/11)
+SH17 (Manifeste de l'indépendance — 11 janvier 1944 + mention pédagogique) validé ; original conservé. Contrôle technique : 8/8 images, 520 cr, empreintes OK, sorties 1080p, SH30 ['1920,1080,25/1,250', '10.000000']. SH29/SH30/SH31 conformes. Total projet 1 820 cr, solde 8 338. P4, clips, audio : non autorisés.

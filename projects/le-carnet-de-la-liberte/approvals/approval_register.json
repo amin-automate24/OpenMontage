@@ -296,6 +296,44 @@
         "note": "last frame cloned +1 frame to fill the 6.5 s slot; original clip untouched"
       },
       "status": "CLOSED"
+    },
+    "SH17": {
+      "validated_by_user": true,
+      "final": true,
+      "original": "references/p3/SH17_document_illustre_v001.png",
+      "original_sha256": "499cdb3f4253fd09f344fb2a84049a77ed0d78c09e5e6076318af82f8bd623ab",
+      "final_files": {
+        "SH17_composite_final.png": {
+          "file": "references/p3/post/SH17_composite_final.png",
+          "sha256": "4b7c58b1f6ecdbbc6bcb34160e1d5c054cfae209521879693233160be8a585b1"
+        },
+        "SH17_edit_1080p.png": {
+          "file": "references/p3/post/SH17_edit_1080p.png",
+          "sha256": "37985eaabeeb844f587a7a0eb1e34cd8133c97bcedfbb7613e657f9b2c29c46a"
+        }
+      },
+      "inscription": "Manifeste de l'indépendance — 11 janvier 1944",
+      "caption": "ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
+      "locked": "2026-11-16"
+    },
+    "SH29_p3": {
+      "conform_to_validations": true
+    },
+    "SH31_p3": {
+      "conform_to_validations": true
+    },
+    "SH30_p3": {
+      "conform_to_validations": true
+    },
+    "P3": {
+      "status": "CLOSED after technical control",
+      "images": 8,
+      "credits": 520,
+      "hashes_ok": true,
+      "clip_SH30": [
+        "1920,1080,25/1,250",
+        "10.000000"
+      ]
     }
   },
   "uploads": [
@@ -313,7 +351,7 @@
     }
   ],
   "p3": {
-    "status": "generated, awaiting grouped visual validation",
+    "status": "CLOSED after technical control",
     "images": 8,
     "cost_credits": 520,
     "balance_now": 8858,

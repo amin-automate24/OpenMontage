@@ -45,3 +45,6 @@ Total projet : **260 cr**. REF-00 et REF-02 non touchées. Aucune autre généra
 
 ## Validation — REF-01 v002 VERROUILLÉE (16/11)
 Référence officielle de Younes pour tous les futurs plans (visage, coiffure, expressions, proportions, tenue). SHA-256 `0a5f8b74532b10bf…`. v001 conservée, remplacée. 0 génération, 0 crédit.
+
+## Amina — sélections présentées (non verrouillées)
+REF-02 examinée seule : enfant 11 ans (A) et adulte 20–23 ans (B : 1953 gris-bleu / 1955-56 chaud) extraits sans régénération (`references/gate2_sample/selections/`). En attente de validation ; 0 crédit.

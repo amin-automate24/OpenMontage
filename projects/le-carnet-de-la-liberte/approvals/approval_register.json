@@ -218,15 +218,15 @@
         },
         "SH19_composite_final.png": {
           "file": "references/p2/post/SH19_composite_final.png",
-          "sha256": "0f0bc32dd7abf13790472aac2d7fc3973b4fe91492e1dfe874b559d595dfe167"
+          "sha256": "bbaf3a4cedf2fbf62aeca25c77b9d0e806e52b0200032a94d4985415c2605a21"
         },
         "SH19_text_layer_final.png": {
           "file": "references/p2/post/SH19_text_layer_final.png",
-          "sha256": "d64d3299bd416202cd2b85bb09a88edc3404afbbbe8dd523dc93b639b550a221"
+          "sha256": "2cde52f3661fccf1108fea994cb4c059c676c3c33858b28e10d317029ed20387"
         },
         "SH19_composite_v001.mp4": {
           "file": "references/p2/post/SH19_composite_v001.mp4",
-          "sha256": "59c20a84782f310435af1b24a57b9f94a596f2d90849a4dc24431d89ebc8e649"
+          "sha256": "ad47f587a23a2bd2fb7f01de33aec55be7ab3720b00fb290351f278792ed6544"
         },
         "SH24_composite_final.png": {
           "file": "references/p2/post/SH24_composite_final.png",
@@ -239,11 +239,19 @@
         "SH24_composite_v001.mp4": {
           "file": "references/p2/post/SH24_composite_v001.mp4",
           "sha256": "54fe718d1221f1252f964a8ddfdb3676955d35ec42a89ff4b3ed22e67ef07a55"
+        },
+        "SH19_margin_report.json": {
+          "file": "references/p2/post/SH19_margin_report.json",
+          "sha256": "cb25ca29b7acd99979af67cc171efe663c1114052746705aa21308968d0623e3"
+        },
+        "SH19_page_edges.json": {
+          "file": "references/p2/post/SH19_page_edges.json",
+          "sha256": "7dfc9381cc1cfefff6269f5ea8e7ca8073901494c24723d65abd93f458584061"
         }
       },
       "inscriptions": {
         "SH16": "Manifeste de / l'indépendance — / 11 janvier 1944 (serif d'imprimerie, 3 lignes) + caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
-        "SH19": "Un jour, mon pays / sera libre. (placement relevé et incliné pour suivre la page ; v001 précédente conservée en *_prev_placement.mp4)",
+        "SH19": "Un jour, mon pays / sera libre. — bloc recentré dans la zone la plus haute de la page (x 1310–1395) ; marges mesurées sur 108 images : bas ≥ 15.3 %, haut ≥ 21.2 % de la hauteur utile (exigence ≥ 8 %) ; versions précédentes conservées (*_prev_placement, *_prev2_placement)",
         "SH24": "Nous garderons espoir."
       },
       "legibility": {

@@ -87,3 +87,6 @@ Textes redessinés à la résolution 1080p (nets, en perspective, hors reliure/b
 
 ## P2 CLOS (16/11) après contrôle technique
 9/9 empreintes d'images conformes ; clips SH16/SH19/SH24 en 1920×1080 25 i/s ; SH16 et SH24 conservés ; SH19 : texte replacé (ancienne version gardée). **P3 préparé** (520 cr, `prompts/P3_PREPARED_NOT_EXECUTED.md`), non autorisé. Total projet : 1 300 cr, solde 8 858.
+
+## SH19 — correction finale (16/11)
+Texte relevé et recentré ; marge basse mesurée ≥ 15.3 % et haute ≥ 21.2 % de la hauteur utile sur toute la vidéo (108 images, contrôle automatique + vérification visuelle à 2,0/3,0/4,5/6,4 s, 1920×1080). Versions précédentes préservées. 0 génération, 0 crédit.

@@ -19,9 +19,10 @@ SHOTS = {
    zoom=(1.0,4.0,(1500,1045),0.2,2.8),
    caption=("ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",1.6)),
  "SH19": dict(src="SH19_amina11_ecrit_v001", dur=6.5, patch=None,
-   quad=[(1274,1244),(1397,1238),(1397,1275),(1274,1270)], inset=0.0,
+   quad=[(1310,1240),(1395,1247),(1395,1271),(1310,1262)], inset=0.0,
+   edges='SH19_page_edges.json', hu=55,
    lines=[("Un jour, mon pays",0.8,2.4),("sera libre.",2.4,3.4)],
-   zoom=(1.0,6.5,(1345,1266),0.5,4.2), caption=None),
+   zoom=(1.0,7.0,(1352,1262),0.5,4.2), caption=None),
  "SH24": dict(src="SH24_amina20_ecrit_v001", dur=6.0, patch=None,
    quad=[(1300,1310),(1650,1318),(1635,1428),(1190,1385)], inset=0.04,
    lines=[("Nous garderons espoir.",1.0,3.0)],
@@ -114,24 +115,34 @@ def run(name, cfg, clip=True):
         cols=np.where(a.max(axis=0)>0.1)[0]; flats.append((a,cols.min(),cols.max(),ln[1],ln[2]))
     base_pil=Image.fromarray((base*255).astype(np.uint8))
     ff=subprocess.Popen(["ffmpeg","-y","-v","error","-f","rawvideo","-pix_fmt","rgb24","-s","1920x1080","-r",str(FPS),"-i","-","-c:v","libx264","-preset","medium","-crf","14","-pix_fmt","yuv420p",str(OUT/f"{name}_composite_v001.mp4")],stdin=subprocess.PIPE)
-    cf=ImageFont.truetype(CAPF,30); xs=np.arange(FW2,dtype=np.float32)
+    cf=ImageFont.truetype(CAPF,30); xs=np.arange(FW2,dtype=np.float32); MARG=[]
+    if cfg.get('edges'):
+        import json; rows=json.load(open(OUT/cfg['edges'])); EX=np.array([r_[0] for r_ in rows],float); ET=np.array([r_[1] for r_ in rows],float); EB=np.array([r_[2] for r_ in rows],float)
     for f in range(n):
         t=f/FPS; u=np.clip((t-zs)/(ze-zs),0,1); u=u*u*(3-u*2); z=z0+(z1-z0)*u
         cw,ch=W/z,H/z; ox=min(max(W/2-cw/2+(cx-W/2)*u,0),W-cw); oy=min(max(H/2-ch/2+(cy-H/2)*u,0),H-ch); sc=1920/cw
         img=np.asarray(base_pil.resize((1920,1080),Image.LANCZOS,box=(ox,oy,ox+cw,oy+ch)),np.float32)/255.0
         fq=[((x-ox)*sc,(y-oy)*sc) for x,y in q]; co=homography(fq,[(0,0),(FW2,0),(FW2,FH2),(0,FH2)])
+        alu=np.zeros((1080,1920),np.float32)
         for a,lo,hi,t0,t1 in flats:
             pr=np.clip((t-t0)/(t1-t0),0,1)
             if pr<=0: continue
             m=np.clip((pr*1.12-(xs-lo)/max(hi-lo,1))/0.12,0,1)[None,:]
             al=np.asarray(Image.fromarray((a*m*255).astype(np.uint8)).transform((1920,1080),Image.PERSPECTIVE,co,Image.BICUBIC),np.float32)/255.0*0.95
-            img=img*(1-al[...,None])+img*ink*al[...,None]
+            img=img*(1-al[...,None])+img*ink*al[...,None]; alu=np.maximum(alu,al)
+        if cfg.get('edges') and alu.max()>0.3:
+            cols=np.where(alu.max(axis=0)>0.3)[0]; xo=ox+cols/sc
+            yb=(np.interp(xo,EX,EB)-oy)*sc; yt=(np.interp(xo,EX,ET)-oy)*sc; hu=cfg['hu']*sc
+            ib=np.array([np.where(alu[:,c]>0.3)[0].max() for c in cols]); it=np.array([np.where(alu[:,c]>0.3)[0].min() for c in cols])
+            MARG.append((t,float(((yb-ib)/hu).min()),float(((it-yt)/hu).min())))
         img=Image.fromarray((img*255).astype(np.uint8))
         if cfg["caption"] and t>=cfg["caption"][1]:
             d=ImageDraw.Draw(img,"RGBA"); txt=cfg["caption"][0]; w=d.textlength(txt,font=cf)
             d.rectangle([(1920-w)/2-24,980,(1920+w)/2+24,1040],fill=(0,0,0,170)); d.text((960,1010),txt,font=cf,fill=(255,235,200),anchor="mm")
         ff.stdin.write(img.tobytes())
     ff.stdin.close(); ff.wait()
+    if MARG:
+        import json; json.dump(dict(frames=len(MARG),min_bottom_margin_pct=round(100*min(m[1] for m in MARG),1),min_top_margin_pct=round(100*min(m[2] for m in MARG),1),per_frame=[(round(a,2),round(b*100,1),round(c*100,1)) for a,b,c in MARG]),open(OUT/f'{name}_margin_report.json','w'))
 
 if __name__=="__main__":
     sel=[a for a in sys.argv[1:] if a in SHOTS] or list(SHOTS)

@@ -69,5 +69,16 @@
   "reserve_last_of_men_min_credits": 4643,
   "magnific_balance_after": 9898,
   "film_duration_s": 276,
-  "screenplay_working_version": "1.2"
+  "screenplay_working_version": "1.2",
+  "locked_references": {
+    "REF-01": {
+      "version": "v002",
+      "file": "references/gate2_sample/REF-01_Younes_v002.png",
+      "sha256": "0a5f8b74532b10bf9650faad73c9bb168d0546b2f4879494ae6ef689aa9bdf95",
+      "creation_id": "s78P1jvl8e",
+      "locked": "2026-11-16",
+      "scope": "face, hair, expressions, proportions, school outfit (white collared shirt, navy sweater vest, navy trousers, sneakers, backpack)",
+      "v001_preserved": "references/gate2_sample/REF-01_Younes_v001.png (superseded, not deleted)"
+    }
+  }
 }

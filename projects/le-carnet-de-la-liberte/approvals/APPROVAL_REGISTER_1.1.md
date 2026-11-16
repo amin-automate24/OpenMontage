@@ -42,3 +42,6 @@ Aucune marge de reprise : toute régénération d'une référence exige une nouv
 |---|---|---|---|---|
 | 16/11 | AUTH-03 : correction de REF-01 (tenue de Younes) uniquement | REF-01 v002 | 65 | **9 898** (calculé : 9 963 − 65) |
 Total projet : **260 cr**. REF-00 et REF-02 non touchées. Aucune autre génération autorisée.
+
+## Validation — REF-01 v002 VERROUILLÉE (16/11)
+Référence officielle de Younes pour tous les futurs plans (visage, coiffure, expressions, proportions, tenue). SHA-256 `0a5f8b74532b10bf…`. v001 conservée, remplacée. 0 génération, 0 crédit.

@@ -14,7 +14,7 @@ Statut : **plan uniquement** — aucune image générée. Les prompts correspond
 
 | ID | Personnage | Âge / époque | Plans | Conception | Points d'attention |
 |---|---|---|---|---|---|
-| C-Younes | Younes | 10 ans, 2026 | SH01, 03, 05, 07, 09, 10, 35–37 | Cheveux bruns bouclés courts, grands yeux bruns, visage rond, sourcils mobiles ; chemise bleu clair, blouse blanche d'école en classe | Uniforme scolaire marocain à confirmer (blouse ?) |
+| C-Younes | Younes | 10 ans, 2026 | SH01, 03, 05, 07, 09, 10, 35–37 | **VERROUILLÉ — REF-01 v002 (16/11)** : cheveux bruns bouclés courts, grands yeux bruns, visage rond ; chemise blanche à col, pull sans manches bleu marine, pantalon marine, baskets, cartable (plus de blouse) | Tenue validée ; ne plus modifier |
 | C-Amina11 | Amina | 11 ans, 1944 | SH13, 14, 16, 18, 19 | Longue tresse brune, robe ocre simple, foulard crème léger | Costume féminin urbain 1944 à vérifier (H5) |
 | C-Amina20 | Amina | ≈ 20 ans, 1953 | SH21, 23, 24 | Même visage, traits affinés, foulard bleu-gris, tenue sobre | Teintes sourdes imposées par l'étalonnage |
 | C-Amina22/23 | Amina | ≈ 22–23 ans, 1955-56 | SH26, 28, 30, 32, 34 | Même visage, expression rayonnante, tenue plus claire et colorée | Progression chaleureuse vers 1956 |

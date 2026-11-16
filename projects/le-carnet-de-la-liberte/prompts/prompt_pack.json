@@ -2,7 +2,7 @@
   "style": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students",
   "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
   "characters": {
-    "C-Younes": "YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile",
+    "C-Younes": "YOUNES (LOCKED REF-01 v002): Moroccan boy, 10, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows; school outfit = white collared shirt, navy knitted sleeveless sweater vest, navy trousers, dark sneakers, small school backpack. NO white coat/smock. Always attach REF-01_Younes_v002 as character reference.",
     "C-Amina11": "AMINA aged 11 (1944): Moroccan girl, long dark braid, round face and the same warm brown eyes as Younes (family resemblance), simple ochre dress with a light cream headscarf [COSTUME TO VERIFY H5]",
     "C-Amina20": "AMINA aged 20 (1953): same face and eyes, slimmer features, hair covered with a soft muted-blue headscarf, simple modest dress in muted tones, thoughtful gaze [COSTUME TO VERIFY H5]",
     "C-Amina22": "AMINA aged 22-23 (1955-56): same face, radiant confident expression, warm coloured dress and light headscarf [COSTUME TO VERIFY H5]",
@@ -78,13 +78,14 @@
     {
       "shot": "SH01",
       "method": "STILL_CAM",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Wide establishing shot of a bright Moroccan primary-school classroom, a shaft of warm sunlight crossing the room, pupils seated at wooden desks seen from behind, a blackboard at the front, a small Moroccan flag in a corner, welcoming natural light. Lighting: natural welcoming light. Framing: WS. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile | THE TEACHER: woman in her 30s, warm smile, dark wavy shoulder-length hair, soft cardigan over a light blouse [headscarf choice = creative decision D6].",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Wide establishing shot of a bright Moroccan primary-school classroom, a shaft of warm sunlight crossing the room, pupils seated at wooden desks seen from behind, a blackboard at the front, a small Moroccan flag in a corner, welcoming natural light. Lighting: natural welcoming light. Framing: WS. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile | THE TEACHER: woman in her 30s, warm smile, dark wavy shoulder-length hair, soft cardigan over a light blouse [headscarf choice = creative decision D6].",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "E1 classroom_2026",
         "C-Younes",
-        "C-Maîtresse"
+        "C-Maîtresse",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": [
         "H10"
@@ -105,12 +106,13 @@
     {
       "shot": "SH03",
       "method": "STILL_CAM",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium close-up of Younes (10) at his desk, hand raised high, eager open expression, classroom blurred behind. Lighting: natural welcoming light. Framing: MCU. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile.",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium close-up of Younes (10) at his desk, hand raised high, eager open expression, classroom blurred behind. Lighting: natural welcoming light. Framing: MCU. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile.",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "E1 classroom_2026",
-        "C-Younes"
+        "C-Younes",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": []
     },
@@ -129,26 +131,28 @@
     {
       "shot": "SH05",
       "method": "STILL_CAM",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Close-up on Younes' face, hesitant then intrigued, eyes slightly lifted, soft rim light, shallow depth of field. Lighting: natural welcoming light. Framing: CU. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile.",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Close-up on Younes' face, hesitant then intrigued, eyes slightly lifted, soft rim light, shallow depth of field. Lighting: natural welcoming light. Framing: CU. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile.",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "E1 classroom_2026",
-        "C-Younes"
+        "C-Younes",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": []
     },
     {
       "shot": "SH07",
       "method": "I2V",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium shot, Younes kneeling in a warm family living room, lifting the lid of an old carved wooden box, afternoon light, a yellowed notebook and a faded photograph inside. Lighting: natural welcoming light. Framing: MS. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile.",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium shot, Younes kneeling in a warm family living room, lifting the lid of an old carved wooden box, afternoon light, a yellowed notebook and a faded photograph inside. Lighting: natural welcoming light. Framing: MS. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile.",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "E2 home_2026",
         "C-Younes",
         "P-boite_bois",
-        "P-carnet"
+        "P-carnet",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": []
     },
@@ -167,14 +171,15 @@
     {
       "shot": "SH09",
       "method": "STILL_CAM",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium two-shot in a family living room: Younes holding the notebook, his mother (mid 30s, warm) answering with a gentle proud smile. Lighting: natural welcoming light. Framing: MS 2-shot. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile | YOUNES' MOTHER: woman in her mid 30s, gentle proud smile, casual modern home clothes, dark hair tied back.",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium two-shot in a family living room: Younes holding the notebook, his mother (mid 30s, warm) answering with a gentle proud smile. Lighting: natural welcoming light. Framing: MS 2-shot. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile | YOUNES' MOTHER: woman in her mid 30s, gentle proud smile, casual modern home clothes, dark hair tied back.",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "E2 home_2026",
         "C-Younes",
         "C-Mère",
-        "P-carnet"
+        "P-carnet",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": [
         "H1"
@@ -183,12 +188,13 @@
     {
       "shot": "SH10",
       "method": "STILL_CAM",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Over-the-shoulder close-up of Younes' hands opening the notebook to a yellowed first page, page left blank - date composited later in handwriting. Lighting: natural welcoming light. Framing: CU. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile.",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Over-the-shoulder close-up of Younes' hands opening the notebook to a yellowed first page, page left blank - date composited later in handwriting. Lighting: natural welcoming light. Framing: CU. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile.",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "P-carnet",
-        "C-Younes"
+        "C-Younes",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": []
     },
@@ -480,40 +486,43 @@
     {
       "shot": "SH35",
       "method": "STILL_CAM",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Wide classroom shot, Younes standing at the front holding the notebook, classmates attentive, teacher at the side. Lighting: natural welcoming light. Framing: WS. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile | THE TEACHER: woman in her 30s, warm smile, dark wavy shoulder-length hair, soft cardigan over a light blouse [headscarf choice = creative decision D6].",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Wide classroom shot, Younes standing at the front holding the notebook, classmates attentive, teacher at the side. Lighting: natural welcoming light. Framing: WS. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile | THE TEACHER: woman in her 30s, warm smile, dark wavy shoulder-length hair, soft cardigan over a light blouse [headscarf choice = creative decision D6].",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "E1 classroom_2026",
         "C-Younes",
         "C-Maîtresse",
-        "P-carnet"
+        "P-carnet",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": []
     },
     {
       "shot": "SH36",
       "method": "STILL_CAM",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium close-up of Younes, earnest, proud, notebook in hands. Lighting: natural welcoming light. Framing: MCU. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile.",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium close-up of Younes, earnest, proud, notebook in hands. Lighting: natural welcoming light. Framing: MCU. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile.",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "E1 classroom_2026",
         "C-Younes",
-        "P-carnet"
+        "P-carnet",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": []
     },
     {
       "shot": "SH37",
       "method": "STILL_CAM",
-      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium shot, teacher and Younes, Younes then writing in his school notebook at his desk (cahier open, text composited). Lighting: natural welcoming light. Framing: MS. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, light-blue shirt and navy trousers (white school smock in class), small gap-toothed curious smile | THE TEACHER: woman in her 30s, warm smile, dark wavy shoulder-length hair, soft cardigan over a light blouse [headscarf choice = creative decision D6].",
+      "prompt": "Cinematic stylized 3D animated film, original character design (not copying any existing studio character), expressive faces, credible proportions, painterly PBR materials, soft volumetric light, shallow depth of field, 16:9, clean composition with safe margins, family-friendly, for Moroccan primary-school students. Medium shot, teacher and Younes, Younes then writing in his school notebook at his desk (cahier open, text composited). Lighting: natural welcoming light. Framing: MS. Leave all writing surfaces (blackboard, notebook pages, documents, flags) EMPTY or neutral: text, dates and flags are composited later. Characters: YOUNES: Moroccan boy, 10 years old, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows, white collared shirt, navy knitted sweater vest, navy trousers, school backpack [LOCKED REF-01 v002], small gap-toothed curious smile | THE TEACHER: woman in her 30s, warm smile, dark wavy shoulder-length hair, soft cardigan over a light blouse [headscarf choice = creative decision D6].",
       "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
       "references": [
         "REF-00 (style)",
         "E1 classroom_2026",
         "C-Younes",
-        "C-Maîtresse"
+        "C-Maîtresse",
+        "REF-01 v002 (locked)"
       ],
       "history_flags": []
     },

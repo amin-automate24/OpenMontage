@@ -36,3 +36,9 @@ Règles inchangées : une approbation écrite par étape ; l'une n'autorise jama
 | **Total projet** | | **195 / 195 autorisés** | Réserve THE LAST OF MEN : 9 963 disponibles, ≥ 4 643 intouchables |
 
 Aucune marge de reprise : toute régénération d'une référence exige une nouvelle autorisation.
+
+## Mise à jour — correction REF-01
+| Date | Autorisation | Poste | Crédits | Solde |
+|---|---|---|---|---|
+| 16/11 | AUTH-03 : correction de REF-01 (tenue de Younes) uniquement | REF-01 v002 | 65 | **9 898** (calculé : 9 963 − 65) |
+Total projet : **260 cr**. REF-00 et REF-02 non touchées. Aucune autre génération autorisée.

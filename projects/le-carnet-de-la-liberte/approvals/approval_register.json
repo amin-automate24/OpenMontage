@@ -5,8 +5,8 @@
     "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
     "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
   },
-  "credits_consumed": 195,
-  "paid_calls": 3,
+  "credits_consumed": 260,
+  "paid_calls": 4,
   "planning_ceiling_credits": 2000,
   "planning_ceiling_is_authorization": false,
   "authorizations": [
@@ -25,6 +25,12 @@
       "scope": "GATE-2 sample: 3 images (style, Younes, Amina), cap 195 Magnific credits",
       "status": "granted_and_fully_used",
       "spent": 195
+    },
+    {
+      "id": "AUTH-03",
+      "scope": "Correct REF-01 (Younes outfit) only: 1 image, 65 Magnific credits",
+      "status": "granted_and_used",
+      "spent": 65
     }
   ],
   "gates": [
@@ -61,7 +67,7 @@
   "scenario_b_credits": 5515,
   "scenario_b_is_authorization": false,
   "reserve_last_of_men_min_credits": 4643,
-  "magnific_balance_after": 9963,
+  "magnific_balance_after": 9898,
   "film_duration_s": 276,
   "screenplay_working_version": "1.2"
 }

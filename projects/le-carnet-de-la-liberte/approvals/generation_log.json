@@ -1,5 +1,51 @@
 [
- {"ref":"REF-00","tool":"Magnific images_generate","model":"imagen-nano-banana-2-1 (Nano Banana 2.1)","aspect":"16:9","resolution":"2k","credits":65,"creation_id":"fHGKnDqCDY","file":"references/gate2_sample/REF-00_style_board_v001.png","date":"2026-11-16"},
- {"ref":"REF-01","tool":"Magnific images_generate","model":"imagen-nano-banana-2-1 (Nano Banana 2.1)","aspect":"16:9","resolution":"2k","credits":65,"creation_id":"WDlXUlRcXe","style_reference":"fHGKnDqCDY","file":"references/gate2_sample/REF-01_Younes_v001.png","date":"2026-11-16"},
- {"ref":"REF-02","tool":"Magnific images_generate","model":"imagen-nano-banana-2-1 (Nano Banana 2.1)","aspect":"16:9","resolution":"2k","credits":65,"creation_id":"SymNaa7Ub8","style_reference":"fHGKnDqCDY","file":"references/gate2_sample/REF-02_Amina_v001.png","date":"2026-11-16"}
+ {
+  "ref": "REF-00",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1 (Nano Banana 2.1)",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "fHGKnDqCDY",
+  "file": "references/gate2_sample/REF-00_style_board_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "REF-01",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1 (Nano Banana 2.1)",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "WDlXUlRcXe",
+  "style_reference": "fHGKnDqCDY",
+  "file": "references/gate2_sample/REF-01_Younes_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "REF-02",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1 (Nano Banana 2.1)",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "SymNaa7Ub8",
+  "style_reference": "fHGKnDqCDY",
+  "file": "references/gate2_sample/REF-02_Amina_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "REF-01 v002",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "s78P1jvl8e",
+  "image_reference": "WDlXUlRcXe",
+  "style_reference": "fHGKnDqCDY",
+  "file": "references/gate2_sample/REF-01_Younes_v002.png",
+  "note": "outfit correction only; user instruction 2026-11-16",
+  "date": "2026-11-16"
+ }
 ]

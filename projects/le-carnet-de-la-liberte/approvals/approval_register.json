@@ -320,6 +320,56 @@
     "balance_after_p3": 8338,
     "reserve_last_of_men_min": 4643,
     "reserve_respected": true,
-    "file": "prompts/P3_PREPARED_NOT_EXECUTED.md"
+    "file": "prompts/P3_PREPARED_NOT_EXECUTED.md",
+    "validation": {
+      "artistic_ok": [
+        "SH27",
+        "SH28",
+        "SH30",
+        "SH32",
+        "SH34"
+      ],
+      "conditional": {
+        "SH29": "mention RECONSTITUTION SYMBOLIQUE — sans valeur documentaire",
+        "SH31": "same mention + AI pseudo-text and signature masked"
+      },
+      "SH17": "AI pseudo-text and signature masked; inscription 'PARTI DE L'ISTIQLAL' (cartouche) + 'Demande d'indépendance du Maroc' (descriptive, not a quotation); no date to avoid repetition with SH16; caption ILLUSTRATION PÉDAGOGIQUE",
+      "SH30": "notebook: 'Le chemin / a été long.' (screenplay line), handwriting reveal 1.0–3.0 s, readable 7 s",
+      "post_files": {
+        "SH17_composite_final.png": {
+          "file": "references/p3/post/SH17_composite_final.png",
+          "sha256": "0444d095fb1ba12b20de7240fb2a8952f136d0c022aa140211a0012ffbc6a081"
+        },
+        "SH17_edit_1080p.png": {
+          "file": "references/p3/post/SH17_edit_1080p.png",
+          "sha256": "145efbcd16e6729319621acdb9d4c919947ec32fb05391857b374aeda0819b5c"
+        },
+        "SH29_composite_final.png": {
+          "file": "references/p3/post/SH29_composite_final.png",
+          "sha256": "8d885fc1c45fa3a7dade2e12bffe3b82407f4201b4becefe9facbfde7597953d"
+        },
+        "SH29_edit_1080p.png": {
+          "file": "references/p3/post/SH29_edit_1080p.png",
+          "sha256": "ab437bc933b6dc4f06324c6599994568bd171f69ef9e7bac3a80ca561044e507"
+        },
+        "SH31_composite_final.png": {
+          "file": "references/p3/post/SH31_composite_final.png",
+          "sha256": "980bda7ea45113ac10e7c1a7328fb77428250a43754ba46f2a813150c904bf64"
+        },
+        "SH31_edit_1080p.png": {
+          "file": "references/p3/post/SH31_edit_1080p.png",
+          "sha256": "5f3a62ca2f0171519bad50e7f23bbe082775a44023e204cfc070a72ed3e69ada"
+        },
+        "SH30_composite_final.png": {
+          "file": "references/p3/post/SH30_composite_final.png",
+          "sha256": "283212b3fc9e5db9fca58174de98377846886c142277e0b1b79de505f4853bb2"
+        },
+        "SH30_composite_v001.mp4": {
+          "file": "references/p3/post/SH30_composite_v001.mp4",
+          "sha256": "96f06b785e3455f73e2552b271676b8728244150ccbf3d0d8014cadd22e401e7"
+        }
+      },
+      "status": "local corrections done, awaiting grouped validation"
+    }
   }
 }

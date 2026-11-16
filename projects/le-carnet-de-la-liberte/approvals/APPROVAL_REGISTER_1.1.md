@@ -107,3 +107,6 @@ Montage : `SH19_edit_6.50s.mp4` (case 109,0–115,5 s remplie exactement), phras
 - SH32_pere_amina_nouvelle_v001 — `references/p3/SH32_pere_amina_nouvelle_v001.png` — SHA-256 `820f22ee0e952cd0…`
 - SH34_amina_ferme_carnet_v001 — `references/p3/SH34_amina_ferme_carnet_v001.png` — SHA-256 `351fd5aa9781638d…`
 Aucun drapeau généré (mâts vides, vectoriel en post) ; aucun visage du souverain ; SH17/29/31 = illustrations pédagogiques, non archives. Statut : **en attente de validation groupée**. Total projet : 1 820 cr ; solde attendu 8 338 (à vérifier). P4, clips, audio : non autorisés.
+
+## P3 — validation artistique + corrections locales (16/11)
+Validés : SH27, SH28, SH30, SH32, SH34. SH29/SH31 : mention « RECONSTITUTION SYMBOLIQUE — sans valeur documentaire » (SH31 : pseudo-texte et fausse signature IA masqués). SH17 : pseudo-texte IA masqué ; inscription « PARTI DE L'ISTIQLAL » + « Demande d'indépendance du Maroc » (description, pas une citation ; pas de date pour éviter la répétition avec SH16) ; mention illustration pédagogique. SH30 : « Le chemin a été long. » (clip 10 s). Originaux intacts ; empreintes dans `approval_register.json`. 0 génération, 0 crédit. En attente de validation groupée.

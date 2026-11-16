@@ -60,7 +60,8 @@
     "D12",
     "GATE-2-rest",
     "GATE-3",
-    "GATE-4"
+    "GATE-4",
+    "H12-Amina-costumes"
   ],
   "version": "1.1",
   "planning_reference_scenario": "B",
@@ -79,6 +80,38 @@
       "locked": "2026-11-16",
       "scope": "face, hair, expressions, proportions, school outfit (white collared shirt, navy sweater vest, navy trousers, sneakers, backpack)",
       "v001_preserved": "references/gate2_sample/REF-01_Younes_v001.png (superseded, not deleted)"
+    },
+    "REF-02_source": {
+      "file": "references/gate2_sample/REF-02_Amina_v001.png",
+      "sha256": "e27572942ae2c3f5dc8a65520f870b2195a18096a282ae999fcf85562500add7",
+      "note": "original preserved, unmodified"
+    },
+    "AMINA_1944": {
+      "file": "references/locked/AMINA_1944_enfant_v001.png",
+      "sha256": "2f8b8712991a063c9561a578691197faedb20ce1a228c37d803a6e248cd99d2e",
+      "source": "references/gate2_sample/REF-02_Amina_v001.png",
+      "creation_id": "SymNaa7Ub8",
+      "appearance": "1944 enfant 11 ans, robe ocre, foulard crème",
+      "locked": "2026-11-16",
+      "historical_review": "H12 pending human confirmation before final use"
+    },
+    "AMINA_1953": {
+      "file": "references/locked/AMINA_1953_adulte_v001.png",
+      "sha256": "ff935ef0f95383e833f30e22f5e0fb1e5a2c5e3e9cd0b59d763d700dab57712d",
+      "source": "references/gate2_sample/REF-02_Amina_v001.png",
+      "creation_id": "SymNaa7Ub8",
+      "appearance": "1953 adulte, robe gris foncé, foulard bleu-gris",
+      "locked": "2026-11-16",
+      "historical_review": "H12 pending human confirmation before final use"
+    },
+    "AMINA_1955-56": {
+      "file": "references/locked/AMINA_1955-56_adulte_v001.png",
+      "sha256": "d70efc6d3651502f667e8037bdc8bdbf1be654fc40a816ea16aa8651a148bd98",
+      "source": "references/gate2_sample/REF-02_Amina_v001.png",
+      "creation_id": "SymNaa7Ub8",
+      "appearance": "1955-56 adulte, tenue ocre à motifs, foulard crème",
+      "locked": "2026-11-16",
+      "historical_review": "H12 pending human confirmation before final use"
     }
   }
 }

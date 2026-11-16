@@ -55,3 +55,11 @@ Charge dialogue / durée de scène :
 - **K1 — `carnet.py` introuvable** sur cette machine (recherche sur tout le disque). J'ai écrit un équivalent local : `scripts/carnet_animatic.py` (voir `scripts/`). Si vous disposez de votre `carnet.py`, indiquez où il se trouve ; je ne l'ai pas inventé.
 - **K2 — Voix locales** : Piper (voix françaises) bloqué par le réseau (403 sur Hugging Face) ; j'ai installé `espeak-ng` (gratuit, local) pour la voix de prévisualisation. Qualité robotique = suffisante pour le minutage, **inutilisable comme voix finale**.
 - **K3 — Pipeline OpenMontage** : le projet a été initialisé via `init_project` (pipeline `animation`). Les étapes de production (assets/compose) n'ont pas été lancées. Le choix du moteur de composition finale (Remotion / HyperFrames / FFmpeg) et du mode (templated vs atelier) est à valider (décision D9).
+
+## H12 — Plausibilité historique des costumes d'Amina (revue sans génération, **à confirmer par un relecteur humain** ; aucune source externe consultée)
+| Apparence | Verdict | Remarque |
+|---|---|---|
+| 1944 enfant : robe ocre + foulard crème | Plausible | Robe simple à manches longues OK ; foulard sur une fillette de 11 ans possible mais pas systématique. |
+| 1953 adulte : robe gris foncé + foulard bleu-gris | **Risque moyen (anachronisme de coiffage)** | Le foulard ajusté et drapé sous le menton rappelle un hijab contemporain ; en 1953 on attend plutôt un mouchoir/foulard noué plus lâche à l'intérieur, et en extérieur un haïk ou une djellaba. Couleur et sobriété cohérentes. |
+| 1955–56 adulte : tenue ocre à motifs + foulard crème | Plausible (tenue d'intérieur ou de fête) | Motifs géométriques OK ; pas pour les extérieurs sans vêtement de sortie. |
+**Règle d'usage :** intérieurs (SH21–26, 30, 32, 34) = apparences verrouillées telles quelles ; extérieurs (SH13–15 en 1944, SH27–28 foule de Rabat 1955) = **vêtement de sortie à valider** (haïk/djellaba) avant génération. Aucune régénération n'est lancée ; si le relecteur refuse, un ajustement sera proposé avec devis.

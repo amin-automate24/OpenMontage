@@ -3,10 +3,10 @@
   "negative": "photorealistic photograph, fake archival photo, text, letters, captions, gibberish writing, watermark, logo, real person likeness, celebrity, king portrait, weapons, violence, blood, scary, distorted hands, extra fingers, modern objects in historical scenes, anachronistic clothing",
   "characters": {
     "C-Younes": "YOUNES (LOCKED REF-01 v002): Moroccan boy, 10, short dark curly hair, warm brown eyes, round friendly face, expressive eyebrows; school outfit = white collared shirt, navy knitted sleeveless sweater vest, navy trousers, dark sneakers, small school backpack. NO white coat/smock. Always attach REF-01_Younes_v002 as character reference.",
-    "C-Amina11": "AMINA aged 11 (1944): Moroccan girl, long dark braid, round face and the same warm brown eyes as Younes (family resemblance), simple ochre dress with a light cream headscarf [COSTUME TO VERIFY H5]",
-    "C-Amina20": "AMINA aged 20 (1953): same face and eyes, slimmer features, hair covered with a soft muted-blue headscarf, simple modest dress in muted tones, thoughtful gaze [COSTUME TO VERIFY H5]",
-    "C-Amina22": "AMINA aged 22-23 (1955-56): same face, radiant confident expression, warm coloured dress and light headscarf [COSTUME TO VERIFY H5]",
-    "C-Amina23": "AMINA aged 22-23 (1955-56): same face, radiant confident expression, warm coloured dress and light headscarf [COSTUME TO VERIFY H5]",
+    "C-Amina11": "AMINA aged 11 (1944) [LOCKED AMINA_1944_enfant_v001]: long dark braid, ochre dress, cream headscarf. Attach reference file.",
+    "C-Amina20": "AMINA adult 1953 [LOCKED AMINA_1953_adulte_v001]: dark-gray dress, blue-gray headscarf. Attach reference file.",
+    "C-Amina22": "AMINA adult 1955-56 [LOCKED AMINA_1955-56_adulte_v001]: ochre patterned dress, cream headscarf. Attach reference file.",
+    "C-Amina23": "AMINA adult 1955-56 [LOCKED AMINA_1955-56_adulte_v001]: ochre patterned dress, cream headscarf. Attach reference file.",
     "C-Père": "AMINA'S FATHER (fictional): Moroccan man in his 40s, kind lined face, short greying beard, brown wool djellaba, red tarbouche/fez [COSTUME TO VERIFY H5], calm dignified posture; NOT a depiction of any historical person",
     "C-Maîtresse": "THE TEACHER: woman in her 30s, warm smile, dark wavy shoulder-length hair, soft cardigan over a light blouse [headscarf choice = creative decision D6]",
     "C-Mère": "YOUNES' MOTHER: woman in her mid 30s, gentle proud smile, casual modern home clothes, dark hair tied back"

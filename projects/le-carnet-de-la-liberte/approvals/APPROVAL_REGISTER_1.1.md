@@ -48,3 +48,10 @@ Référence officielle de Younes pour tous les futurs plans (visage, coiffure, e
 
 ## Amina — sélections présentées (non verrouillées)
 REF-02 examinée seule : enfant 11 ans (A) et adulte 20–23 ans (B : 1953 gris-bleu / 1955-56 chaud) extraits sans régénération (`references/gate2_sample/selections/`). En attente de validation ; 0 crédit.
+
+## Validation — Amina VERROUILLÉE (16/11), 3 apparences
+- 1944 enfant 11 ans, robe ocre, foulard crème — `references/locked/AMINA_1944_enfant_v001.png` — SHA-256 `2f8b8712991a063c9561a578691197faedb20ce1a228c37d803a6e248cd99d2e`
+- 1953 adulte, robe gris foncé, foulard bleu-gris — `references/locked/AMINA_1953_adulte_v001.png` — SHA-256 `ff935ef0f95383e833f30e22f5e0fb1e5a2c5e3e9cd0b59d763d700dab57712d`
+- 1955-56 adulte, tenue ocre à motifs, foulard crème — `references/locked/AMINA_1955-56_adulte_v001.png` — SHA-256 `d70efc6d3651502f667e8037bdc8bdbf1be654fc40a816ea16aa8651a148bd98`
+- Source REF-02 intacte — SHA-256 `e27572942ae2c3f5dc8a65520f870b2195a18096a282ae999fcf85562500add7`
+Usage final des costumes **soumis à revue historique H12** (voir docs/HISTORICAL_AND_TIMING_FLAGS_1.0.md). 0 génération, 0 crédit.

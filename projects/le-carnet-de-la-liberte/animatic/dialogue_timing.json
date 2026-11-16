@@ -99,16 +99,16 @@
     {
       "key": "M1",
       "speaker": "LA MÈRE",
-      "text": "À Amina, ton arrière-arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance.",
+      "text": "À Amina, ton arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance.",
       "shot": 9,
       "scene": 2,
       "start": 42.8,
-      "synth_dur": 5.87,
-      "end": 48.67,
+      "synth_dur": 5.46,
+      "end": 48.26,
       "shot_end": 50.5,
-      "slack_synth": 1.83,
-      "human_end_x1_2": 49.84,
-      "slack_human_x1_2": 0.66,
+      "slack_synth": 2.24,
+      "human_end_x1_2": 49.35,
+      "slack_human_x1_2": 1.15,
       "fits_synth": true,
       "fits_human_x1_2": true
     },
@@ -345,12 +345,12 @@
       "start": 250.2,
       "synth_dur": 2.06,
       "end": 252.26,
-      "shot_end": 252.5,
-      "slack_synth": 0.24,
+      "shot_end": 253.5,
+      "slack_synth": 1.24,
       "human_end_x1_2": 252.68,
-      "slack_human_x1_2": -0.18,
+      "slack_human_x1_2": 0.82,
       "fits_synth": true,
-      "fits_human_x1_2": false
+      "fits_human_x1_2": true
     },
     {
       "key": "Y4",
@@ -358,15 +358,15 @@
       "text": "Que l'indépendance est le résultat de longues années de lutte et de sacrifices. Et que nous devons en être dignes !",
       "shot": 36,
       "scene": 6,
-      "start": 252.7,
+      "start": 253.7,
       "synth_dur": 5.54,
-      "end": 258.24,
-      "shot_end": 259.0,
-      "slack_synth": 0.76,
-      "human_end_x1_2": 259.35,
-      "slack_human_x1_2": -0.35,
+      "end": 259.24,
+      "shot_end": 261.5,
+      "slack_synth": 2.26,
+      "human_end_x1_2": 260.35,
+      "slack_human_x1_2": 1.15,
       "fits_synth": true,
-      "fits_human_x1_2": false
+      "fits_human_x1_2": true
     },
     {
       "key": "T5",
@@ -374,13 +374,13 @@
       "text": "Comment ?",
       "shot": 37,
       "scene": 6,
-      "start": 259.1,
+      "start": 261.6,
       "synth_dur": 0.82,
-      "end": 259.92,
-      "shot_end": 265.5,
-      "slack_synth": 5.58,
-      "human_end_x1_2": 260.09,
-      "slack_human_x1_2": 5.41,
+      "end": 262.42,
+      "shot_end": 270.5,
+      "slack_synth": 8.08,
+      "human_end_x1_2": 262.59,
+      "slack_human_x1_2": 7.91,
       "fits_synth": true,
       "fits_human_x1_2": true
     },
@@ -390,13 +390,13 @@
       "text": "En étudiant, en respectant les autres et en construisant ensemble l'avenir de notre pays !",
       "shot": 37,
       "scene": 6,
-      "start": 260.0,
+      "start": 262.9,
       "synth_dur": 4.55,
-      "end": 264.55,
-      "shot_end": 265.5,
-      "slack_synth": 0.95,
-      "human_end_x1_2": 265.46,
-      "slack_human_x1_2": 0.04,
+      "end": 267.45,
+      "shot_end": 270.5,
+      "slack_synth": 3.05,
+      "human_end_x1_2": 268.36,
+      "slack_human_x1_2": 2.14,
       "fits_synth": true,
       "fits_human_x1_2": true
     }
@@ -413,10 +413,10 @@
     "2": {
       "title": "LE CARNET",
       "duration": 35.0,
-      "speech_synth": 8.3,
-      "speech_x1_2": 9.9,
-      "load_synth_pct": 24,
-      "load_human_pct": 28
+      "speech_synth": 7.8,
+      "speech_x1_2": 9.4,
+      "load_synth_pct": 22,
+      "load_human_pct": 27
     },
     "3": {
       "title": "LE RÊVE DE LIBERTÉ",
@@ -444,11 +444,11 @@
     },
     "6": {
       "title": "L'HÉRITAGE",
-      "duration": 20.0,
+      "duration": 26.0,
       "speech_synth": 13.0,
       "speech_x1_2": 15.6,
-      "load_synth_pct": 65,
-      "load_human_pct": 78
+      "load_synth_pct": 50,
+      "load_human_pct": 60
     }
   }
 }

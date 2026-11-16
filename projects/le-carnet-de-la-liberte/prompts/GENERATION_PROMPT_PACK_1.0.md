@@ -358,7 +358,7 @@ The window shutters swing open, warm golden daylight floods the room, Amina lift
 The crowd cheers and waves, flags ripple in a breeze, children bounce on shoulders, slow pull-out reveal; no individual is identifiable. Keep character identity and costume exactly as in the start frame. Stylized 3D look unchanged. No text, no new objects.
 ```
 
-### SH38 (écran 4.5 s)
+### SH38 (écran 5.5 s)
 ```
 The notebook closes softly, warm light blooms, a flag ripples gently in the background, very slow pull-out. Keep character identity and costume exactly as in the start frame. Stylized 3D look unchanged. No text, no new objects.
 ```

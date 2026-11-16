@@ -5,7 +5,7 @@ Timings follow the screenplay Draft 1.1 scene boundaries exactly (270 s).
 """
 
 FPS = 25
-TOTAL = 270.0
+TOTAL = 276.0
 
 SCENES = {
     1: dict(title="LA QUESTION", start=0.0, end=30.0, era="2026", palette="natural, welcoming classroom light"),
@@ -13,7 +13,7 @@ SCENES = {
     3: dict(title="LE RÊVE DE LIBERTÉ", start=65.0, end=120.0, era="1944", palette="warm ochre and sepia"),
     4: dict(title="LES JOURS DIFFICILES", start=120.0, end=175.0, era="1953", palette="muted blue-gray, restrained contrast"),
     5: dict(title="LE RETOUR DE L'ESPOIR", start=175.0, end=250.0, era="1955-56", palette="gradually warmer and brighter"),
-    6: dict(title="L'HÉRITAGE", start=250.0, end=270.0, era="2026", palette="natural, welcoming classroom light"),
+    6: dict(title="L'HÉRITAGE", start=250.0, end=276.0, era="2026", palette="natural, welcoming classroom light"),
 }
 
 # dialogue lines: key -> (speaker, text)
@@ -24,7 +24,7 @@ LINES = {
     "Y2": ("YOUNES", "Je… je ne connais pas toute l'histoire."),
     "T3": ("LA MAÎTRESSE", "Alors, découvre-la et raconte-la-nous demain !"),
     "Y3": ("YOUNES", "Maman ! À qui appartient ce carnet ?"),
-    "M1": ("LA MÈRE", "À Amina, ton arrière-arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance."),
+    "M1": ("LA MÈRE", "À Amina, ton arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance."),
     "A1": ("AMINA", "Papa, pourquoi tout le monde parle-t-il de liberté ?"),
     "P1": ("LE PÈRE", "Parce que notre pays vit sous le protectorat. Beaucoup de Marocains veulent qu'il retrouve son indépendance."),
     "P2": ("LE PÈRE", "Aujourd'hui, des nationalistes marocains ont présenté un document pour réclamer l'indépendance de notre pays."),
@@ -62,6 +62,7 @@ CAMERAS = {
     "pan_left": (1.08, 1.08, 1, 0),
 }
 
+# D6 (approved): teacher = contemporary Moroccan woman.
 # kind: P = principal, S = secondary (insert / transition / card)
 # method: STILL_CAM (still image + controlled camera move), I2V (full image-to-video clip),
 #         CARD_COMP (composited graphic, local, no generation), TRANSITION (local compositing)
@@ -180,7 +181,7 @@ SHOTS = [
       desc="Neuf années ont passé : Amina est une jeune femme d'environ vingt ans.", kf="Wide interior shot of the same home at dusk, muted blue-gray palette, Amina (20) and her father near an old radio on a shelf",
       assets=["E4 home_1940s (night)", "C-Amina20", "C-Père"], flags=["H5"]),
  dict(n=22, scene=4, kind="P", start=126.0, dur=8.0, framing="CU", cam="push_in_slow", method="STILL_CAM", set="home_night",
-      loc="INT. MAISON D'AMINA — SOIR — 1953", chars=[("Radio", 0.5, 0.7)], lines=[("R1", 0.5)], overlay=None,
+      loc="INT. MAISON D'AMINA — SOIR — 1953", chars=[("Radio", 0.5, 0.7)], lines=[("R1", 0.5)], overlay=dict(kind="lower_text", text="Reconstitution fictive"),
       desc="Une radio ancienne diffuse une annonce (reconstitution fictive).", kf="Close-up of an old 1950s tube radio with glowing dial in a dim room, blue-gray tones, no text on dial",
       assets=["E4 home_1940s (night)", "P-radio"], flags=["H8", "H6"]),
  dict(n=23, scene=4, kind="P", start=134.0, dur=11.5, framing="MS 2-shot", cam="push_in_slow", method="STILL_CAM", set="home_night",
@@ -242,7 +243,7 @@ SHOTS = [
           ("18 novembre 1955", "Discours du Trône."),
           ("2 mars 1956", "Reconnaissance française de l'indépendance."),
           ("7 avril 1956", "Fin du protectorat espagnol dans le Nord."),
-      ]),
+      ], footer="Le processus d'unification territoriale s'est poursuivi après 1956."),
       desc="Ligne du temps de six dates, maintenue à l'écran assez longtemps pour distinguer les dates principales.", kf="(No generation) Locally composited timeline graphic on parchment.",
       assets=["G-timeline"], flags=["H4", "H3"], trans_in="dissolve"),
  dict(n=34, scene=5, kind="P", start=239.5, dur=10.5, framing="CU", cam="push_in_slow", method="STILL_CAM", set="home_day",
@@ -250,20 +251,20 @@ SHOTS = [
       desc="Amina, doucement ; le carnet se referme.", kf="Close-up of Amina (23), serene, gently closing the notebook, warm bright light",
       assets=["E4 home_1940s (day, warm)", "C-Amina23", "P-carnet"], flags=[]),
  # ---------------- SCENE 6 ----------------
- dict(n=35, scene=6, kind="P", start=250.0, dur=2.5, framing="WS", cam="static", method="STILL_CAM", set="classroom",
+ dict(n=35, scene=6, kind="P", start=250.0, dur=3.5, framing="WS", cam="static", method="STILL_CAM", set="classroom",
       loc="INT. CLASSE — JOUR — 2026", chars=[("Younes", 0.5, 0.8), ("Élèves", 0.2, 0.5), ("Élèves", 0.8, 0.5)], lines=[("T4", 0.2)], overlay=None,
       desc="Younes devant ses camarades, il présente le carnet d'Amina.", kf="Wide classroom shot, Younes standing at the front holding the notebook, classmates attentive, teacher at the side",
       assets=["E1 classroom_2026", "C-Younes", "C-Maîtresse", "P-carnet"], flags=[], trans_in="dissolve"),
- dict(n=36, scene=6, kind="P", start=252.5, dur=6.5, framing="MCU", cam="push_in_slow", method="STILL_CAM", set="classroom",
+ dict(n=36, scene=6, kind="P", start=253.5, dur=8.0, framing="MCU", cam="push_in_slow", method="STILL_CAM", set="classroom",
       loc="INT. CLASSE — JOUR — 2026", chars=[("Younes", 0.5, 1.5)], lines=[("Y4", 0.2)], overlay=None,
       desc="Younes répond avec gravité.", kf="Medium close-up of Younes, earnest, proud, notebook in hands",
       assets=["E1 classroom_2026", "C-Younes", "P-carnet"], flags=[]),
- dict(n=37, scene=6, kind="P", start=259.0, dur=6.5, framing="MS", cam="push_in_slow", method="STILL_CAM", set="classroom",
-      loc="INT. CLASSE — JOUR — 2026", chars=[("Maîtresse", 0.3, 0.9), ("Younes", 0.7, 1.0)], lines=[("T5", 0.1), ("Y5", 1.0)],
+ dict(n=37, scene=6, kind="P", start=261.5, dur=9.0, framing="MS", cam="push_in_slow", method="STILL_CAM", set="classroom",
+      loc="INT. CLASSE — JOUR — 2026", chars=[("Maîtresse", 0.3, 0.9), ("Younes", 0.7, 1.0)], lines=[("T5", 0.1), ("Y5", 1.4)],
       overlay=dict(kind="handwriting", text="La liberté est un héritage. À nous de le préserver.", late=True),
       desc="« Comment ? » ; Younes répond, puis écrit dans son cahier.", kf="Medium shot, teacher and Younes, Younes then writing in his school notebook at his desk (cahier open, text composited)",
       assets=["E1 classroom_2026", "C-Younes", "C-Maîtresse"], flags=[]),
- dict(n=38, scene=6, kind="P", start=265.5, dur=4.5, framing="WS", cam="pull_out", method="I2V", set="flag",
+ dict(n=38, scene=6, kind="P", start=270.5, dur=5.5, framing="WS", cam="pull_out", method="I2V", set="flag",
       loc="PLAN FINAL — JOUR — 2026", chars=[], lines=[],
       overlay=dict(kind="title", text="LE CARNET DE LA LIBERTÉ", sub="18 NOVEMBRE — FÊTE DE L'INDÉPENDANCE DU MAROC", end="FIN"),
       desc="Le cahier se referme ; un drapeau marocain flotte dans la lumière ; titre.", kf="Closing school notebook in foreground, soft blurred Moroccan flag drifting in warm light behind (flag replaced by composited vector flag)",

@@ -1,10 +1,10 @@
 # TECHNICAL SHOT LIST 1.0 — LE CARNET DE LA LIBERTÉ
 
-Source : Screenplay Draft 1.1 (FR). Durée totale planifiée : **270.0 s = 4 min 30 s** (maximum absolu 300 s). Format 1920×1080, 25 i/s, 16:9.
+Source : Screenplay Draft 1.1 (FR). Durée totale planifiée : **276.0 s = 4 min 36 s (D1 approuvée)** (maximum absolu 300 s). Format 1920×1080, 25 i/s, 16:9.
 
 **38 plans** : 30 principaux (cible 20–30 respectée) + 8 secondaires (inserts, cartons, transitions locales, sans génération).
 
-**Méthodes de production** : 25 plans « image fixe + caméra », **5 plans image→vidéo** (SH07, SH11, SH26, SH27, SH38 = 34.0 s à l'écran, clips générés de 5 s), 8 cartons/transitions composités localement.
+**Méthodes de production** : 25 plans « image fixe + caméra », **5 plans image→vidéo** (SH07, SH11, SH26, SH27, SH38 = 35.0 s à l'écran, clips générés de 5 s), 8 cartons/transitions composités localement.
 
 Légende : **P** principal, **S** secondaire. Les timecodes sont `mm:ss:ff` (25 i/s). Les textes à l'écran (dates, cartons, drapeaux, calligraphie) sont **toujours composités en post-production**, jamais générés par l'IA.
 
@@ -26,7 +26,7 @@ Légende : **P** principal, **S** secondaire. Les timecodes sont `mm:ss:ff` (25 
 |---|---|---|---|---|---|---|---|---|---|---|
 | SH07 | P | 00:30:00 | 00:36:00 | 6.0 s | MS | push_in_slow | Image→vidéo (clip animé) | Younes ouvre une ancienne boîte en bois et découvre le carnet et une photographie. | E2 home_2026, C-Younes, P-boite_bois, P-carnet | — |
 | SH08 | P | 00:36:00 | 00:39:12 | 3.5 s | CU | push_in | Image fixe + mouvement caméra (local) | Gros plan sur la couverture : « AMINA — MES SOUVENIRS » et la photographie.<br>*À l'écran :* AMINA — MES SOUVENIRS | P-carnet, P-photo_famille | — |
-| SH09 | P | 00:39:12 | 00:50:12 | 11.0 s | MS 2-shot | push_in_slow | Image fixe + mouvement caméra (local) | Younes interroge sa mère, qui lui parle d'Amina.<br>**YOUNES** : « Maman ! À qui appartient ce carnet ? »<br>**LA MÈRE** : « À Amina, ton arrière-arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance. » | E2 home_2026, C-Younes, C-Mère, P-carnet | H1 |
+| SH09 | P | 00:39:12 | 00:50:12 | 11.0 s | MS 2-shot | push_in_slow | Image fixe + mouvement caméra (local) | Younes interroge sa mère, qui lui parle d'Amina.<br>**YOUNES** : « Maman ! À qui appartient ce carnet ? »<br>**LA MÈRE** : « À Amina, ton arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance. » | E2 home_2026, C-Younes, C-Mère, P-carnet | H1 |
 | SH10 | P | 00:50:12 | 00:56:12 | 6.0 s | CU | push_in | Image fixe + mouvement caméra (local) | Younes ouvre délicatement le carnet : première page « 11 JANVIER 1944 ».<br>*À l'écran :* 11 JANVIER 1944 | P-carnet, C-Younes | — |
 | SH11 | P | 00:56:12 | 01:01:12 | 5.0 s | CU | push_in | Image→vidéo (clip animé) | Un souffle de vent fait tourner les pages ; les photographies s'animent dans l'imagination de Younes.<br>*À l'écran :* 11 JANVIER 1944 | P-carnet | — |
 | SH12 | S | 01:01:12 | 01:05:00 | 3.5 s | TRAVELLING | push_in_strong | Transition composité (local) | Travelling avant dans la page : l'encre devient une rue marocaine des années 1940. | T-ink_morph, E3 street_1944 | — |
@@ -49,7 +49,7 @@ Légende : **P** principal, **S** secondaire. Les timecodes sont `mm:ss:ff` (25 
 | ID | K | TC in | TC out | Durée | Cadre | Caméra | Méthode | Contenu / dialogue | Assets | Revue |
 |---|---|---|---|---|---|---|---|---|---|---|
 | SH21 | P | 02:00:00 | 02:06:00 | 6.0 s | WS | push_in_slow | Image fixe + mouvement caméra (local) | Neuf années ont passé : Amina est une jeune femme d'environ vingt ans.<br>*À l'écran :* 20 AOÛT 1953 | E4 home_1940s (night), C-Amina20, C-Père | H5 |
-| SH22 | P | 02:06:00 | 02:14:00 | 8.0 s | CU | push_in_slow | Image fixe + mouvement caméra (local) | Une radio ancienne diffuse une annonce (reconstitution fictive).<br>**VOIX RADIO (reconstitution fictive)** : « Le sultan Mohammed Ben Youssef a été déposé et contraint à l'exil avec sa famille. » | E4 home_1940s (night), P-radio | H8, H6 |
+| SH22 | P | 02:06:00 | 02:14:00 | 8.0 s | CU | push_in_slow | Image fixe + mouvement caméra (local) | Une radio ancienne diffuse une annonce (reconstitution fictive).<br>**VOIX RADIO (reconstitution fictive)** : « Le sultan Mohammed Ben Youssef a été déposé et contraint à l'exil avec sa famille. »<br>*À l'écran :* Reconstitution fictive | E4 home_1940s (night), P-radio | H8, H6 |
 | SH23 | P | 02:14:00 | 02:25:12 | 11.5 s | MS 2-shot | push_in_slow | Image fixe + mouvement caméra (local) | Silence, puis Amina interroge son père ; il l'encourage.<br>**AMINA** : « Père… est-ce que notre rêve est terminé ? »<br>**LE PÈRE** : « Non, Amina. Malgré les épreuves, beaucoup de Marocains poursuivent la lutte pour l'indépendance. » | E4 home_1940s (night), C-Amina20, C-Père | — |
 | SH24 | P | 02:25:12 | 02:31:12 | 6.0 s | CU | push_in | Image fixe + mouvement caméra (local) | Amina regarde son carnet et écrit.<br>*À l'écran :* Nous garderons espoir. | E4 home_1940s (night), C-Amina20, P-carnet | — |
 | SH25 | S | 02:31:12 | 02:43:12 | 12.0 s | MONTAGE | static | Carton / graphique composité (local) | Les saisons défilent ; les feuilles du carnet portent 1953, 1954, 1955. | E4 window_seasons x3, P-carnet pages | — |
@@ -68,14 +68,14 @@ Légende : **P** principal, **S** secondaire. Les timecodes sont `mm:ss:ff` (25 
 | SH33 | S | 03:45:12 | 03:59:12 | 14.0 s | INSERT | static | Carton / graphique composité (local) | Ligne du temps de six dates, maintenue à l'écran assez longtemps pour distinguer les dates principales. | G-timeline | H4, H3 |
 | SH34 | P | 03:59:12 | 04:10:00 | 10.5 s | CU | push_in_slow | Image fixe + mouvement caméra (local) | Amina, doucement ; le carnet se referme.<br>**AMINA** : « J'espère que les enfants de demain se souviendront de notre histoire. » | E4 home_1940s (day, warm), C-Amina23, P-carnet | — |
 
-## SCÈNE 6 — L'HÉRITAGE  (04:10:00 → 04:30:00, 20 s) — ambiance : natural, welcoming classroom light
+## SCÈNE 6 — L'HÉRITAGE  (04:10:00 → 04:36:00, 26 s) — ambiance : natural, welcoming classroom light
 
 | ID | K | TC in | TC out | Durée | Cadre | Caméra | Méthode | Contenu / dialogue | Assets | Revue |
 |---|---|---|---|---|---|---|---|---|---|---|
-| SH35 | P | 04:10:00 | 04:12:12 | 2.5 s | WS | static | Image fixe + mouvement caméra (local) | Younes devant ses camarades, il présente le carnet d'Amina.<br>**LA MAÎTRESSE** : « Alors Younes, qu'as-tu appris ? » | E1 classroom_2026, C-Younes, C-Maîtresse, P-carnet | — |
-| SH36 | P | 04:12:12 | 04:19:00 | 6.5 s | MCU | push_in_slow | Image fixe + mouvement caméra (local) | Younes répond avec gravité.<br>**YOUNES** : « Que l'indépendance est le résultat de longues années de lutte et de sacrifices. Et que nous devons en être dignes ! » | E1 classroom_2026, C-Younes, P-carnet | — |
-| SH37 | P | 04:19:00 | 04:25:12 | 6.5 s | MS | push_in_slow | Image fixe + mouvement caméra (local) | « Comment ? » ; Younes répond, puis écrit dans son cahier.<br>**LA MAÎTRESSE** : « Comment ? »<br>**YOUNES** : « En étudiant, en respectant les autres et en construisant ensemble l'avenir de notre pays ! »<br>*À l'écran :* La liberté est un héritage. À nous de le préserver. | E1 classroom_2026, C-Younes, C-Maîtresse | — |
-| SH38 | P | 04:25:12 | 04:30:00 | 4.5 s | WS | pull_out | Image→vidéo (clip animé) | Le cahier se referme ; un drapeau marocain flotte dans la lumière ; titre.<br>*À l'écran :* LE CARNET DE LA LIBERTÉ | E1 classroom_2026, S-flag_vector, P-cahier | H5 |
+| SH35 | P | 04:10:00 | 04:13:12 | 3.5 s | WS | static | Image fixe + mouvement caméra (local) | Younes devant ses camarades, il présente le carnet d'Amina.<br>**LA MAÎTRESSE** : « Alors Younes, qu'as-tu appris ? » | E1 classroom_2026, C-Younes, C-Maîtresse, P-carnet | — |
+| SH36 | P | 04:13:12 | 04:21:12 | 8.0 s | MCU | push_in_slow | Image fixe + mouvement caméra (local) | Younes répond avec gravité.<br>**YOUNES** : « Que l'indépendance est le résultat de longues années de lutte et de sacrifices. Et que nous devons en être dignes ! » | E1 classroom_2026, C-Younes, P-carnet | — |
+| SH37 | P | 04:21:12 | 04:30:12 | 9.0 s | MS | push_in_slow | Image fixe + mouvement caméra (local) | « Comment ? » ; Younes répond, puis écrit dans son cahier.<br>**LA MAÎTRESSE** : « Comment ? »<br>**YOUNES** : « En étudiant, en respectant les autres et en construisant ensemble l'avenir de notre pays ! »<br>*À l'écran :* La liberté est un héritage. À nous de le préserver. | E1 classroom_2026, C-Younes, C-Maîtresse | — |
+| SH38 | P | 04:30:12 | 04:36:00 | 5.5 s | WS | pull_out | Image→vidéo (clip animé) | Le cahier se referme ; un drapeau marocain flotte dans la lumière ; titre.<br>*À l'écran :* LE CARNET DE LA LIBERTÉ | E1 classroom_2026, S-flag_vector, P-cahier | H5 |
 
 ## Continuité (personnages et décors récurrents)
 
@@ -117,11 +117,11 @@ Légende : **P** principal, **S** secondaire. Les timecodes sont `mm:ss:ff` (25 
 - **SH11** (5.0 s à l'écran, clip généré de 5 s) — Un souffle de vent fait tourner les pages ; les photographies s'animent dans l'imagination de Younes.
 - **SH26** (11.5 s à l'écran, clip généré de 5 s, prolongé par maintien/ralenti local) — Une fenêtre s'ouvre, la lumière revient ; voix hors champ ; Amina lève les yeux ; grande lumière.
 - **SH27** (7.0 s à l'écran, clip généré de 5 s, prolongé par maintien/ralenti local) — Une foule joyeuse accueille le retour du souverain ; drapeaux marocains.
-- **SH38** (4.5 s à l'écran, clip généré de 5 s) — Le cahier se referme ; un drapeau marocain flotte dans la lumière ; titre.
+- **SH38** (5.5 s à l'écran, clip généré de 5 s, prolongé par maintien/ralenti local) — Le cahier se referme ; un drapeau marocain flotte dans la lumière ; titre.
 
 Tous les autres plans sont des images fixes avec mouvements de caméra contrôlés (push-in, pull-out, pan) ou des graphiques locaux : pas de génération vidéo.
 
 ## Contrôles de durée
 
-- Somme des plans : 270.0 s ; scènes : 30 + 35 + 55 + 55 + 75 + 20 = 270 s ✔ (les bornes de scène du scénario sont respectées au plan près).
+- Somme des plans : 276.0 s ; scènes : 30 + 35 + 55 + 55 + 75 + 20 = 270 s ✔ (les bornes de scène du scénario sont respectées au plan près).
 - Voir `docs/HISTORICAL_AND_TIMING_FLAGS_1.0.md` pour l'analyse de rythme (la scène 6 est trop dense).

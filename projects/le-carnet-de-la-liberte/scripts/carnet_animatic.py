@@ -4,7 +4,7 @@
 Usage: python3 carnet_animatic.py [--no-video]
 Outputs (relative to project root):
   animatic/dialogue_mix.wav, animatic/dialogue_timing.json,
-  animatic/contact_sheet.png, animatic/ANIMATIC_1.0_LOCAL_PLACEHOLDER.mp4
+  animatic/contact_sheet.png, animatic/ANIMATIC_1.1_LOCAL_PLACEHOLDER.mp4
 Voices are INTERNAL espeak-ng placeholders - never publish.
 """
 import json, math, os, subprocess, sys, wave
@@ -178,11 +178,13 @@ def draw_overlay(d, s, pal, state=None, t=None):
         reveal = 1.2  # seconds between reveals
         shown = n if t is None else min(n, int(t / reveal) + 1)
         d.line([420, 260, 420, 260 + (n - 1) * 120 + 40], fill=(120, 80, 40), width=8)
+        if ov.get("footer") and shown >= n:
+            d.text((W // 2, 940), ov["footer"], font=font(30, bold=True), fill=(120, 40, 30), anchor="mm")
         for j, (dt, tx) in enumerate(items[:shown]):
             y = 270 + j * 120
             d.ellipse([402, y - 4, 438, y + 32], fill=(170, 60, 40))
-            d.text((480, y + 14), dt, font=font(46, bold=True), fill=(70, 40, 20), anchor="lm")
-            d.text((1010, y + 14), tx, font=font(38), fill=(50, 35, 25), anchor="lm")
+            d.text((480, y + 14), dt, font=font(44, bold=True), fill=(70, 40, 20), anchor="lm")
+            d.text((1000, y + 14), tx, font=font(32), fill=(50, 35, 25), anchor="lm")
     elif k == "title":
         d.rectangle([0, 0, W, H], fill=(0, 0, 0, 0))
     # flash_end / fade_out_end handled in frame loop
@@ -208,7 +210,7 @@ def make_hud(s):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     d.rectangle([0, 0, W, 54], fill=(0, 0, 0, 170))
-    d.text((16, 27), f"ANIMATIC 1.0 — PLACEHOLDER — voix synthétiques internes — NE PAS PUBLIER", font=font(22, bold=True), fill=(255, 210, 90), anchor="lm")
+    d.text((16, 27), f"ANIMATIC 1.1 — PLACEHOLDER — voix synthétiques internes — NE PAS PUBLIER", font=font(22, bold=True), fill=(255, 210, 90), anchor="lm")
     d.rectangle([0, H - 62, W, H], fill=(0, 0, 0, 170))
     meth = {"STILL_CAM": "image fixe + mouvement caméra", "I2V": "IMAGE→VIDÉO (clip animé)", "CARD_COMP": "carton/graphique local", "TRANSITION": "transition locale"}[s["method"]]
     d.text((16, H - 31), f"SH{s['n']:02d} [{s['kind']}] SC{s['scene']} | {s['framing']} | cam: {s['cam']} | {meth} | {s['loc']}", font=font(22), fill=(255, 255, 255), anchor="lm")
@@ -305,7 +307,7 @@ def render_video(timing):
            "-i", str(OUT / "dialogue_mix.wav"),
            "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p", "-r", str(FPS),
            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", "-shortest", "-movflags", "+faststart",
-           str(OUT / "ANIMATIC_1.0_LOCAL_PLACEHOLDER.mp4")]
+           str(OUT / "ANIMATIC_1.1_LOCAL_PLACEHOLDER.mp4")]
     ff = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     prev_last = None
     fnt_tc = font(30, bold=True)
@@ -356,7 +358,7 @@ def render_video(timing):
             fr = Image.alpha_composite(fr.convert("RGBA"), hud)
             d = ImageDraw.Draw(fr)
             gt = s["start"] + t
-            d.text((W - 16, 27), f"{tc(gt)} / 04:30:00   shot {s['n']:02d}/38", font=fnt_tc, fill=(255, 255, 255), anchor="rm")
+            d.text((W - 16, 27), f"{tc(gt)} / 04:36:00   shot {s['n']:02d}/38", font=fnt_tc, fill=(255, 255, 255), anchor="rm")
             # subtitle
             for tm in timing:
                 if tm["shot"] == s["n"] and tm["start"] <= gt <= tm["end"] + 0.25:

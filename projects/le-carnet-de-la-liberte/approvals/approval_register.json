@@ -1,20 +1,67 @@
 {
   "project": "le-carnet-de-la-liberte",
   "updated": "2026-11-16",
-  "screenplay": {"file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md", "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"},
-  "credits_consumed": 0,
-  "paid_calls": 0,
+  "screenplay": {
+    "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
+    "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
+  },
+  "credits_consumed": 195,
+  "paid_calls": 3,
   "planning_ceiling_credits": 2000,
   "planning_ceiling_is_authorization": false,
   "authorizations": [
-    {"id": "AUTH-00", "scope": "local preproduction (docs, shot list, local animatic, estimates)", "status": "granted"},
-    {"id": "AUTH-01", "scope": "free local tools only", "status": "granted"}
+    {
+      "id": "AUTH-00",
+      "scope": "local preproduction (docs, shot list, local animatic, estimates)",
+      "status": "granted"
+    },
+    {
+      "id": "AUTH-01",
+      "scope": "free local tools only",
+      "status": "granted"
+    },
+    {
+      "id": "AUTH-02",
+      "scope": "GATE-2 sample: 3 images (style, Younes, Amina), cap 195 Magnific credits",
+      "status": "granted_and_fully_used",
+      "spent": 195
+    }
   ],
   "gates": [
-    {"id": "GATE-1", "name": "Historical and visual references", "status": "not_requested"},
-    {"id": "GATE-2", "name": "Character and environment still-image generation", "status": "not_requested"},
-    {"id": "GATE-3", "name": "Image-to-video animation", "status": "not_requested"},
-    {"id": "GATE-4", "name": "Final audio and postproduction", "status": "not_requested"}
+    {
+      "id": "GATE-1",
+      "name": "Historical and visual references",
+      "status": "not_requested"
+    },
+    {
+      "id": "GATE-2",
+      "name": "Character and environment still-image generation",
+      "status": "sample_done_awaiting_visual_validation; rest_not_authorized"
+    },
+    {
+      "id": "GATE-3",
+      "name": "Image-to-video animation",
+      "status": "not_requested"
+    },
+    {
+      "id": "GATE-4",
+      "name": "Final audio and postproduction",
+      "status": "not_requested"
+    }
   ],
-  "pending_decisions": ["D1","D2","D3","D4","D5","D6","D7","D8","D9","D10","D11","D12"]
+  "pending_decisions": [
+    "D10",
+    "D12",
+    "GATE-2-rest",
+    "GATE-3",
+    "GATE-4"
+  ],
+  "version": "1.1",
+  "planning_reference_scenario": "B",
+  "scenario_b_credits": 5515,
+  "scenario_b_is_authorization": false,
+  "reserve_last_of_men_min_credits": 4643,
+  "magnific_balance_after": 9963,
+  "film_duration_s": 276,
+  "screenplay_working_version": "1.2"
 }

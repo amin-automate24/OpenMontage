@@ -58,3 +58,11 @@ Usage final des costumes **soumis à revue historique H12** (voir docs/HISTORICA
 
 ## AUTH-04 — Lot P1 (16/11) : 7 images × 65 = **455 / 455 cr**, aucune reprise
 REF-03 père, REF-04 maîtresse, E4 intérieur 1940s, SH01, SH10, SH26, SH38 (`references/p1/`, ids dans `generation_log.json`). Références utilisées : Younes REF-01 v002, Amina 1955-56 verrouillée, REF-00 style. Statut : **en attente de validation visuelle**. Total projet : 715 cr ; solde attendu 9 443 (à vérifier). P2–P4, clips, audio : non autorisés.
+
+## SH10 VERROUILLÉ (16/11) — composition et inscriptions validées
+- base_image: `references/p1/SH10_carnet_Younes_v001.png` SHA-256 `6644309ff5348d56…`
+- composite_final: `references/p1/post/SH10_composite_final.png` SHA-256 `6b5fb88a117e61ed…`
+- text_layer: `references/p1/post/SH10_text_layer_final.png` SHA-256 `136f6e094aff7b21…`
+- composite_clip: `references/p1/post/SH10_composite_v001.mp4` SHA-256 `9b3cddca847436d4…`
+- master_1080p: `references/p1/post/SH10_master_1080p_v001.mp4` SHA-256 `2f14f92463a20a17…`
+Recomposition finale : `scripts/compose_sh10.py --master` (1080p depuis la source 2752×1536, lecture stable 1,8 s). 0 génération, 0 crédit.

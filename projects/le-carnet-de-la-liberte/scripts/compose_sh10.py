@@ -77,21 +77,22 @@ def render_state(base,layers,t):
 
 def main():
     base,layers=build()
+    master="--master" in sys.argv
     fin=render_state(base,layers,99)
-    Image.fromarray((fin*255).astype(np.uint8)).save(OUT/"SH10_composite_final.png")
+    if not master: Image.fromarray((fin*255).astype(np.uint8)).save(OUT/"SH10_composite_final.png")
     # transparent text-only layer for Resolve (final state)
     H,W=base.shape[:2]; ov=np.zeros((H,W,4),np.uint8)
     for L in layers:
         y0,y1,x0,x1=L["bb"]; a=(L["a"]*0.93*255).astype(np.uint8)
         ov[y0:y1,x0:x1,:3]=(INK*255).astype(np.uint8); ov[y0:y1,x0:x1,3]=np.maximum(ov[y0:y1,x0:x1,3],a)
-    Image.fromarray(ov,"RGBA").save(OUT/"SH10_text_layer_final.png")
+    if not master: Image.fromarray(ov,"RGBA").save(OUT/"SH10_text_layer_final.png")
     if "--still" in sys.argv: return
-    cmd=["ffmpeg","-y","-v","error","-f","rawvideo","-pix_fmt","rgb24","-s","1920x1080","-r",str(FPS),"-i","-","-c:v","libx264","-preset","medium","-crf","18","-pix_fmt","yuv420p",str(OUT/"SH10_composite_v001.mp4")]
+    cmd=["ffmpeg","-y","-v","error","-f","rawvideo","-pix_fmt","rgb24","-s","1920x1080","-r",str(FPS),"-i","-","-c:v","libx264","-preset","medium","-crf","12" if master else "18","-pix_fmt","yuv420p",str(OUT/("SH10_master_1080p_v001.mp4" if master else "SH10_composite_v001.mp4"))]
     ff=subprocess.Popen(cmd,stdin=subprocess.PIPE); n=int(DUR*FPS)
     for f in range(n):
         t=f/FPS; img=Image.fromarray((render_state(base,layers,t)*255).astype(np.uint8))
         z=1.0+0.06*(f/(n-1)); cw,ch=W/z,H/z; ox,oy=(W-cw)/2,(H-ch)/2
-        img=img.transform((1920,1080),Image.EXTENT,(ox,oy,ox+cw,oy+ch),Image.BICUBIC)
+        img=img.resize((1920,1080),Image.LANCZOS,box=(ox,oy,ox+cw,oy+ch)) if master else img.transform((1920,1080),Image.EXTENT,(ox,oy,ox+cw,oy+ch),Image.BICUBIC)
         ff.stdin.write(img.tobytes())
     ff.stdin.close(); ff.wait()
 main()

@@ -119,6 +119,39 @@
       "appearance": "1955-56 adulte, tenue ocre à motifs, foulard crème",
       "locked": "2026-11-16",
       "historical_review": "H12 pending human confirmation before final use"
+    },
+    "SH10": {
+      "locked": "2026-11-16",
+      "validated_by_user": true,
+      "texts": [
+        "Amina — Mes souvenirs",
+        "11 janvier 1944",
+        "Nous rêvions d'un Maroc libre."
+      ],
+      "timing": "writing 0.3–4.2 s, stable reading hold 1.8 s (shot 6.0 s)",
+      "final_recomposition": "1920x1080 from the 2752x1536 base via scripts/compose_sh10.py --master (Lanczos, CRF 12); validated files untouched",
+      "files": {
+        "base_image": {
+          "file": "references/p1/SH10_carnet_Younes_v001.png",
+          "sha256": "6644309ff5348d56407afd4599f985b2f7252ccbd85a44bbf1ed1a4d6c0daead"
+        },
+        "composite_final": {
+          "file": "references/p1/post/SH10_composite_final.png",
+          "sha256": "6b5fb88a117e61edeeff8e594afdf338b9904b2f1699271abcbb1a914f2bd039"
+        },
+        "text_layer": {
+          "file": "references/p1/post/SH10_text_layer_final.png",
+          "sha256": "136f6e094aff7b21fc1495d1c4bbda491b6d886593b9f3653d5838b192351da2"
+        },
+        "composite_clip": {
+          "file": "references/p1/post/SH10_composite_v001.mp4",
+          "sha256": "9b3cddca847436d4e23b8c559ed1aa319d62f975ec70d217db5fbbf0521e9f35"
+        },
+        "master_1080p": {
+          "file": "references/p1/post/SH10_master_1080p_v001.mp4",
+          "sha256": "2f14f92463a20a17d7102887d732004767c16a3b25eff710000297c50b3b0cab"
+        }
+      }
     }
   },
   "uploads": [

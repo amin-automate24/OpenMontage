@@ -1,0 +1,294 @@
+"""Source of truth for LE CARNET DE LA LIBERTE - shot list 1.0.
+
+Everything (shot list, animatic, prompt pack, budget) derives from SHOTS.
+Timings follow the screenplay Draft 1.1 scene boundaries exactly (270 s).
+"""
+
+FPS = 25
+TOTAL = 270.0
+
+SCENES = {
+    1: dict(title="LA QUESTION", start=0.0, end=30.0, era="2026", palette="natural, welcoming classroom light"),
+    2: dict(title="LE CARNET", start=30.0, end=65.0, era="2026", palette="warm afternoon, natural"),
+    3: dict(title="LE RÊVE DE LIBERTÉ", start=65.0, end=120.0, era="1944", palette="warm ochre and sepia"),
+    4: dict(title="LES JOURS DIFFICILES", start=120.0, end=175.0, era="1953", palette="muted blue-gray, restrained contrast"),
+    5: dict(title="LE RETOUR DE L'ESPOIR", start=175.0, end=250.0, era="1955-56", palette="gradually warmer and brighter"),
+    6: dict(title="L'HÉRITAGE", start=250.0, end=270.0, era="2026", palette="natural, welcoming classroom light"),
+}
+
+# dialogue lines: key -> (speaker, text)
+LINES = {
+    "T1": ("LA MAÎTRESSE", "Les enfants, pourquoi célébrons-nous cette journée ?"),
+    "Y1": ("YOUNES", "Parce que le Maroc est devenu indépendant !"),
+    "T2": ("LA MAÎTRESSE", "Très bien ! Mais comment notre pays a-t-il obtenu son indépendance ?"),
+    "Y2": ("YOUNES", "Je… je ne connais pas toute l'histoire."),
+    "T3": ("LA MAÎTRESSE", "Alors, découvre-la et raconte-la-nous demain !"),
+    "Y3": ("YOUNES", "Maman ! À qui appartient ce carnet ?"),
+    "M1": ("LA MÈRE", "À Amina, ton arrière-arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance."),
+    "A1": ("AMINA", "Papa, pourquoi tout le monde parle-t-il de liberté ?"),
+    "P1": ("LE PÈRE", "Parce que notre pays vit sous le protectorat. Beaucoup de Marocains veulent qu'il retrouve son indépendance."),
+    "P2": ("LE PÈRE", "Aujourd'hui, des nationalistes marocains ont présenté un document pour réclamer l'indépendance de notre pays."),
+    "A2": ("AMINA", "Mais que signifie être indépendant ?"),
+    "P3": ("LE PÈRE", "C'est pouvoir décider de l'avenir de son pays, librement et avec souveraineté."),
+    "R1": ("VOIX RADIO (reconstitution fictive)", "Le sultan Mohammed Ben Youssef a été déposé et contraint à l'exil avec sa famille."),
+    "A4": ("AMINA", "Père… est-ce que notre rêve est terminé ?"),
+    "P4": ("LE PÈRE", "Non, Amina. Malgré les épreuves, beaucoup de Marocains poursuivent la lutte pour l'indépendance."),
+    "V1": ("VOIX HORS CHAMP", "Amina ! Le sultan revient au Maroc !"),
+    "A5": ("AMINA", "Il est revenu ! Notre espoir renaît !"),
+    "A6": ("AMINA", "Le chemin a été long. Mais nous approchons enfin de notre rêve."),
+    "P5": ("LE PÈRE", "Amina, la France vient de reconnaître officiellement l'indépendance du Maroc !"),
+    "A7": ("AMINA", "Tant de personnes ont espéré ce jour…"),
+    "A8": ("AMINA", "J'espère que les enfants de demain se souviendront de notre histoire."),
+    "T4": ("LA MAÎTRESSE", "Alors Younes, qu'as-tu appris ?"),
+    "Y4": ("YOUNES", "Que l'indépendance est le résultat de longues années de lutte et de sacrifices. Et que nous devons en être dignes !"),
+    "T5": ("LA MAÎTRESSE", "Comment ?"),
+    "Y5": ("YOUNES", "En étudiant, en respectant les autres et en construisant ensemble l'avenir de notre pays !"),
+}
+
+# voice settings for the INTERNAL placeholder TTS (espeak-ng) -> (variant, pitch, speed)
+VOICES = {
+    "T": ("fr+f3", 55, 150), "Y": ("fr+m2", 85, 165), "M": ("fr+f4", 50, 150),
+    "A1": ("fr+f2", 78, 160), "A2": ("fr+f2", 78, 160),
+    "A": ("fr+f2", 62, 150), "P": ("fr+m4", 30, 140), "R": ("fr+m1", 45, 145), "V": ("fr+m3", 40, 150),
+}
+
+CAMERAS = {
+    "static": (1.00, 1.00, 0, 0),
+    "push_in": (1.00, 1.08, 0, 0),
+    "push_in_slow": (1.00, 1.04, 0, 0),
+    "push_in_strong": (1.00, 1.20, 0, 0),
+    "pull_out": (1.08, 1.00, 0, 0),
+    "pan_right": (1.08, 1.08, -1, 0),
+    "pan_left": (1.08, 1.08, 1, 0),
+}
+
+# kind: P = principal, S = secondary (insert / transition / card)
+# method: STILL_CAM (still image + controlled camera move), I2V (full image-to-video clip),
+#         CARD_COMP (composited graphic, local, no generation), TRANSITION (local compositing)
+# set: placeholder background key.  chars: (label, x_frac, scale)
+# kf: English keyframe description for the prompt pack. motion: I2V motion prompt.
+SHOTS = [
+ # ---------------- SCENE 1 ----------------
+ dict(n=1, scene=1, kind="P", start=0.0, dur=3.5, framing="WS", cam="push_in_slow", method="STILL_CAM", set="classroom",
+      loc="INT. ÉCOLE PRIMAIRE — JOUR — 2026", chars=[("Élèves", 0.3, 0.5), ("Élèves", 0.7, 0.5)], lines=[], overlay=None,
+      desc="Plan d'établissement de la classe, un rayon de soleil traverse la salle.",
+      kf="Wide establishing shot of a bright Moroccan primary-school classroom, a shaft of warm sunlight crossing the room, pupils seated at wooden desks seen from behind, a blackboard at the front, a small Moroccan flag in a corner, welcoming natural light",
+      assets=["E1 classroom_2026", "C-Younes", "C-Maîtresse"], flags=["H10"]),
+ dict(n=2, scene=1, kind="P", start=3.5, dur=8.0, framing="MS", cam="push_in_slow", method="STILL_CAM", set="classroom",
+      loc="INT. ÉCOLE PRIMAIRE — JOUR — 2026", chars=[("Maîtresse", 0.45, 1.0)], lines=[("T1", 4.0)],
+      overlay=dict(kind="board", text="18 NOVEMBRE — FÊTE DE L'INDÉPENDANCE", reveal=(0.8, 3.2)),
+      desc="La maîtresse écrit la date au tableau puis pose sa question.",
+      kf="Medium shot of the kind young teacher at the blackboard, chalk in hand, turning slightly toward the class with a warm smile, board left empty (text will be composited later), soft window light",
+      assets=["E1 classroom_2026", "C-Maîtresse"], flags=[]),
+ dict(n=3, scene=1, kind="P", start=11.5, dur=3.5, framing="MCU", cam="push_in_slow", method="STILL_CAM", set="classroom",
+      loc="INT. ÉCOLE PRIMAIRE — JOUR — 2026", chars=[("Younes", 0.5, 1.5)], lines=[("Y1", 0.3)], overlay=None,
+      desc="Younes lève la main, enthousiaste.",
+      kf="Medium close-up of Younes (10) at his desk, hand raised high, eager open expression, classroom blurred behind",
+      assets=["E1 classroom_2026", "C-Younes"], flags=[]),
+ dict(n=4, scene=1, kind="P", start=15.0, dur=5.5, framing="MS", cam="static", method="STILL_CAM", set="classroom",
+      loc="INT. ÉCOLE PRIMAIRE — JOUR — 2026", chars=[("Maîtresse", 0.45, 1.0)], lines=[("T2", 0.3)], overlay=None,
+      desc="La maîtresse félicite puis relance la question.",
+      kf="Medium shot of the teacher beside her desk, encouraging smile turning to a thoughtful, probing look",
+      assets=["E1 classroom_2026", "C-Maîtresse"], flags=[]),
+ dict(n=5, scene=1, kind="P", start=20.5, dur=7.0, framing="CU", cam="push_in", method="STILL_CAM", set="classroom",
+      loc="INT. ÉCOLE PRIMAIRE — JOUR — 2026", chars=[("Younes", 0.5, 1.8)], lines=[("Y2", 0.3), ("T3", 3.3)], overlay=None,
+      desc="Gros plan sur le regard intrigué de Younes (la maîtresse répond hors champ).",
+      kf="Close-up on Younes' face, hesitant then intrigued, eyes slightly lifted, soft rim light, shallow depth of field",
+      assets=["E1 classroom_2026", "C-Younes"], flags=[]),
+ dict(n=6, scene=1, kind="S", start=27.5, dur=2.5, framing="INSERT", cam="push_in", method="TRANSITION", set="classroom",
+      loc="TRANSITION", chars=[], lines=[],
+      overlay=dict(kind="date_to_page", text="18 NOVEMBRE", sub="la date se fond dans une page de carnet"),
+      desc="La date du tableau se fond dans une page de carnet.",
+      kf="(No generation) Local composite: chalk date dissolves into a yellowed notebook page texture.",
+      assets=["T-page_dissolve"], flags=[], trans_in="dissolve"),
+ # ---------------- SCENE 2 ----------------
+ dict(n=7, scene=2, kind="P", start=30.0, dur=6.0, framing="MS", cam="push_in_slow", method="I2V", set="home2026",
+      loc="INT. MAISON FAMILIALE — APRÈS-MIDI — 2026", chars=[("Younes", 0.5, 1.0)], lines=[], overlay=None,
+      desc="Younes ouvre une ancienne boîte en bois et découvre le carnet et une photographie.",
+      kf="Medium shot, Younes kneeling in a warm family living room, lifting the lid of an old carved wooden box, afternoon light, a yellowed notebook and a faded photograph inside",
+      motion="Younes slowly lifts the wooden lid, curious, his face lit by a soft glow from the box; dust motes drift in sunlight; subtle push-in.",
+      assets=["E2 home_2026", "C-Younes", "P-boite_bois", "P-carnet"], flags=[]),
+ dict(n=8, scene=2, kind="P", start=36.0, dur=3.5, framing="CU", cam="push_in", method="STILL_CAM", set="home2026",
+      loc="INT. MAISON FAMILIALE — APRÈS-MIDI — 2026", chars=[], lines=[],
+      overlay=dict(kind="cover", text="AMINA — MES SOUVENIRS"),
+      desc="Gros plan sur la couverture : « AMINA — MES SOUVENIRS » et la photographie.",
+      kf="Close-up of an old leather notebook cover with worn corners, a faded sepia family photograph tucked beside it (face not legible), cover left blank - title composited later",
+      assets=["P-carnet", "P-photo_famille"], flags=[]),
+ dict(n=9, scene=2, kind="P", start=39.5, dur=11.0, framing="MS 2-shot", cam="push_in_slow", method="STILL_CAM", set="home2026",
+      loc="INT. MAISON FAMILIALE — APRÈS-MIDI — 2026", chars=[("Younes", 0.35, 1.0), ("Mère", 0.7, 1.0)], lines=[("Y3", 0.3), ("M1", 3.3)], overlay=None,
+      desc="Younes interroge sa mère, qui lui parle d'Amina.",
+      kf="Medium two-shot in a family living room: Younes holding the notebook, his mother (mid 30s, warm) answering with a gentle proud smile",
+      assets=["E2 home_2026", "C-Younes", "C-Mère", "P-carnet"], flags=["H1"]),
+ dict(n=10, scene=2, kind="P", start=50.5, dur=6.0, framing="CU", cam="push_in", method="STILL_CAM", set="home2026",
+      loc="INT. MAISON FAMILIALE — APRÈS-MIDI — 2026", chars=[("Younes", 0.3, 1.2)], lines=[],
+      overlay=dict(kind="page", text="11 JANVIER 1944"),
+      desc="Younes ouvre délicatement le carnet : première page « 11 JANVIER 1944 ».",
+      kf="Over-the-shoulder close-up of Younes' hands opening the notebook to a yellowed first page, page left blank - date composited later in handwriting",
+      assets=["P-carnet", "C-Younes"], flags=[]),
+ dict(n=11, scene=2, kind="P", start=56.5, dur=5.0, framing="CU", cam="push_in", method="I2V", set="home2026",
+      loc="INT. MAISON FAMILIALE — APRÈS-MIDI — 2026", chars=[], lines=[],
+      overlay=dict(kind="page", text="11 JANVIER 1944", sub="pages qui tournent"),
+      desc="Un souffle de vent fait tourner les pages ; les photographies s'animent dans l'imagination de Younes.",
+      kf="Close-up of the open notebook, pages caught by a breeze, warm golden light spilling from the pages (imagination, not time travel)",
+      motion="A gentle breeze flips the notebook pages one after another; warm golden light rises from the paper; tiny ink sparkles drift upward; slow push-in.",
+      assets=["P-carnet"], flags=[]),
+ dict(n=12, scene=2, kind="S", start=61.5, dur=3.5, framing="TRAVELLING", cam="push_in_strong", method="TRANSITION", set="street1944",
+      loc="TRANSITION", chars=[], lines=[],
+      overlay=dict(kind="ink_to_street"), desc="Travelling avant dans la page : l'encre devient une rue marocaine des années 1940.",
+      kf="(Local composite) Ink strokes on the notebook page morph into the 1944 street (uses E3 as destination).",
+      assets=["T-ink_morph", "E3 street_1944"], flags=[], trans_in="dissolve"),
+ # ---------------- SCENE 3 ----------------
+ dict(n=13, scene=3, kind="P", start=65.0, dur=5.5, framing="WS", cam="pan_right", method="STILL_CAM", set="street1944",
+      loc="EXT. VILLE MAROCAINE — JOUR — 1944", chars=[("Amina 11", 0.4, 0.55), ("Père", 0.5, 0.75), ("Habitants", 0.82, 0.6)], lines=[],
+      overlay=None, desc="Dans une rue ancienne, Amina (11 ans) marche avec son père ; des habitants discutent.",
+      kf="Wide shot of a narrow old Moroccan medina street in 1944, warm ochre light, Amina (11) walking beside her father, neighbours chatting in front of a house, no modern elements",
+      assets=["E3 street_1944", "C-Amina11", "C-Père"], flags=["H5", "H11"]),
+ dict(n=14, scene=3, kind="P", start=70.5, dur=6.5, framing="MS 2-shot", cam="push_in_slow", method="STILL_CAM", set="street1944",
+      loc="EXT. VILLE MAROCAINE — JOUR — 1944", chars=[("Amina 11", 0.38, 0.95), ("Père", 0.68, 1.15)], lines=[("A1", 0.5)], overlay=None,
+      desc="Amina interroge son père sur la liberté.", kf="Medium two-shot walking, Amina looking up at her father with curiosity",
+      assets=["E3 street_1944", "C-Amina11", "C-Père"], flags=[]),
+ dict(n=15, scene=3, kind="P", start=77.0, dur=9.0, framing="MS", cam="push_in_slow", method="STILL_CAM", set="street1944",
+      loc="EXT. VILLE MAROCAINE — JOUR — 1944", chars=[("Père", 0.5, 1.2)], lines=[("P1", 0.5)], overlay=None,
+      desc="Le père explique le protectorat et le désir d'indépendance.", kf="Medium shot of the father, calm and serious, explaining with a gentle gesture",
+      assets=["E3 street_1944", "C-Père"], flags=["H6"]),
+ dict(n=16, scene=3, kind="P", start=86.0, dur=5.0, framing="MS", cam="push_in_slow", method="STILL_CAM", set="home_day",
+      loc="INT. MAISON D'AMINA — JOUR — 1944", chars=[("Père", 0.4, 1.0), ("Amina 11", 0.7, 0.8)], lines=[], overlay=None,
+      desc="À la maison, le père dépose une feuille sur la table.", kf="Interior of a modest 1940s Moroccan home, father placing a single sheet of paper on a low wooden table, Amina watching, warm sepia light through a carved window",
+      assets=["E4 home_1940s", "C-Père", "C-Amina11"], flags=["H5"]),
+ dict(n=17, scene=3, kind="S", start=91.0, dur=8.5, framing="INSERT", cam="push_in_slow", method="CARD_COMP", set="document",
+      loc="INSERT — DOCUMENT ILLUSTRÉ", chars=[], lines=[("P2", 0.5)],
+      overlay=dict(kind="document", text="11 janvier 1944 — Manifeste de l'indépendance.", sub="ILLUSTRATION PÉDAGOGIQUE — non archive"),
+      desc="Insert : illustration éducative du document, légende datée.", kf="Illustrated educational document: aged paper with illegible stylised calligraphy lines, ornamental border, NO readable fake text, NOT an archival reproduction",
+      assets=["H-doc_manifeste"], flags=["H3b", "H5"], trans_in="dissolve"),
+ dict(n=18, scene=3, kind="P", start=99.5, dur=9.5, framing="MS 2-shot", cam="push_in_slow", method="STILL_CAM", set="home_day",
+      loc="INT. MAISON D'AMINA — JOUR — 1944", chars=[("Amina 11", 0.38, 0.9), ("Père", 0.68, 1.1)], lines=[("A2", 0.3), ("P3", 2.5)], overlay=None,
+      desc="Amina demande ce que signifie être indépendant ; le père répond.", kf="Medium two-shot at the table, Amina questioning, father answering with quiet conviction",
+      assets=["E4 home_1940s", "C-Amina11", "C-Père"], flags=[]),
+ dict(n=19, scene=3, kind="P", start=109.0, dur=6.5, framing="CU", cam="push_in", method="STILL_CAM", set="home_day",
+      loc="INT. MAISON D'AMINA — JOUR — 1944", chars=[("Amina 11", 0.4, 1.4)], lines=[],
+      overlay=dict(kind="handwriting", text="Un jour, mon pays sera libre."),
+      desc="Amina sourit et écrit dans son carnet ; la caméra se rapproche des mots.", kf="Close-up of Amina smiling while writing in the notebook with a pencil, page area left clear for composited handwriting",
+      assets=["E4 home_1940s", "C-Amina11", "P-carnet"], flags=[]),
+ dict(n=20, scene=3, kind="S", start=115.5, dur=4.5, framing="INSERT", cam="push_in_strong", method="TRANSITION", set="page",
+      loc="TRANSITION", chars=[], lines=[], overlay=dict(kind="pages_to", text="1953", sub="l'encre s'assombrit, les pages tournent"),
+      desc="L'encre s'assombrit ; les pages tournent jusqu'en 1953.", kf="(Local composite) Ink darkens, pages flip to 1953, warm to blue-gray grade shift.",
+      assets=["T-pages_flip"], flags=[], trans_in="dissolve"),
+ # ---------------- SCENE 4 ----------------
+ dict(n=21, scene=4, kind="P", start=120.0, dur=6.0, framing="WS", cam="push_in_slow", method="STILL_CAM", set="home_night",
+      loc="INT. MAISON D'AMINA — SOIR — 20 AOÛT 1953", chars=[("Amina 20", 0.35, 0.8), ("Père", 0.7, 0.9)], lines=[],
+      overlay=dict(kind="date_card", text="20 AOÛT 1953"),
+      desc="Neuf années ont passé : Amina est une jeune femme d'environ vingt ans.", kf="Wide interior shot of the same home at dusk, muted blue-gray palette, Amina (20) and her father near an old radio on a shelf",
+      assets=["E4 home_1940s (night)", "C-Amina20", "C-Père"], flags=["H5"]),
+ dict(n=22, scene=4, kind="P", start=126.0, dur=8.0, framing="CU", cam="push_in_slow", method="STILL_CAM", set="home_night",
+      loc="INT. MAISON D'AMINA — SOIR — 1953", chars=[("Radio", 0.5, 0.7)], lines=[("R1", 0.5)], overlay=None,
+      desc="Une radio ancienne diffuse une annonce (reconstitution fictive).", kf="Close-up of an old 1950s tube radio with glowing dial in a dim room, blue-gray tones, no text on dial",
+      assets=["E4 home_1940s (night)", "P-radio"], flags=["H8", "H6"]),
+ dict(n=23, scene=4, kind="P", start=134.0, dur=11.5, framing="MS 2-shot", cam="push_in_slow", method="STILL_CAM", set="home_night",
+      loc="INT. MAISON D'AMINA — SOIR — 1953", chars=[("Amina 20", 0.38, 1.0), ("Père", 0.68, 1.1)], lines=[("A4", 0.3), ("P4", 3.4)], overlay=None,
+      desc="Silence, puis Amina interroge son père ; il l'encourage.", kf="Medium two-shot, Amina anxious, father reassuring, low contrast blue-gray light",
+      assets=["E4 home_1940s (night)", "C-Amina20", "C-Père"], flags=[]),
+ dict(n=24, scene=4, kind="P", start=145.5, dur=6.0, framing="CU", cam="push_in", method="STILL_CAM", set="home_night",
+      loc="INT. MAISON D'AMINA — SOIR — 1953", chars=[("Amina 20", 0.4, 1.4)], lines=[],
+      overlay=dict(kind="handwriting", text="Nous garderons espoir."),
+      desc="Amina regarde son carnet et écrit.", kf="Close-up of Amina (20) writing in the notebook by lamplight, resolute expression, page area clear for composited handwriting",
+      assets=["E4 home_1940s (night)", "C-Amina20", "P-carnet"], flags=[]),
+ dict(n=25, scene=4, kind="S", start=151.5, dur=12.0, framing="MONTAGE", cam="static", method="CARD_COMP", set="page",
+      loc="MONTAGE — PASSAGE DU TEMPS", chars=[], lines=[],
+      overlay=dict(kind="montage", years=["1953", "1954", "1955"], seasons=["automne", "hiver", "printemps"]),
+      desc="Les saisons défilent ; les feuilles du carnet portent 1953, 1954, 1955.", kf="Three seasonal window views (autumn, winter, spring) as keyframes behind notebook pages dated 1953/1954/1955",
+      assets=["E4 window_seasons x3", "P-carnet pages"], flags=[], trans_in="dissolve"),
+ dict(n=26, scene=4, kind="P", start=163.5, dur=11.5, framing="MS", cam="push_in", method="I2V", set="window",
+      loc="INT. MAISON D'AMINA — JOUR — 1955", chars=[("Amina 22", 0.5, 1.0)], lines=[("V1", 3.0)],
+      overlay=dict(kind="flash_end"),
+      desc="Une fenêtre s'ouvre, la lumière revient ; voix hors champ ; Amina lève les yeux ; grande lumière.", kf="Medium shot of Amina (22) as a window shutter swings open and warm light floods in, her face lifting with hope",
+      motion="The window shutters swing open, warm golden daylight floods the room, Amina lifts her head toward the light, curtains stir; slow push-in; ends in a soft bloom of white light.",
+      assets=["E4 home_1940s (day, warm)", "C-Amina22"], flags=[]),
+ # ---------------- SCENE 5 ----------------
+ dict(n=27, scene=5, kind="P", start=175.0, dur=7.0, framing="WS", cam="pull_out", method="I2V", set="rabat",
+      loc="EXT. RABAT — JOUR — 16 NOVEMBRE 1955", chars=[("Foule", 0.25, 0.5), ("Foule", 0.5, 0.55), ("Foule", 0.75, 0.5)], lines=[],
+      overlay=dict(kind="lower_text", text="16 novembre 1955 — Retour du sultan Mohammed Ben Youssef."),
+      desc="Une foule joyeuse accueille le retour du souverain ; drapeaux marocains.", kf="Wide shot of a joyful crowd in Rabat, families, children on shoulders, Moroccan flags waving (flags will be replaced by composited vector flags), warm bright light, the sovereign NOT shown",
+      motion="The crowd cheers and waves, flags ripple in a breeze, children bounce on shoulders, slow pull-out reveal; no individual is identifiable.",
+      assets=["E5 rabat_1955", "S-flag_vector"], flags=["H5", "H6", "H7"]),
+ dict(n=28, scene=5, kind="P", start=182.0, dur=7.5, framing="MS 2-shot", cam="push_in_slow", method="STILL_CAM", set="rabat",
+      loc="EXT. RABAT — JOUR — 1955", chars=[("Amina 22", 0.38, 1.0), ("Père", 0.68, 1.1)], lines=[("A5", 0.5)], overlay=None,
+      desc="Amina rejoint son père dans la foule ; il lui serre la main.", kf="Medium two-shot in the crowd, Amina radiant, father gently squeezing her hand",
+      assets=["E5 rabat_1955", "C-Amina22", "C-Père"], flags=[]),
+ dict(n=29, scene=5, kind="S", start=189.5, dur=9.0, framing="INSERT", cam="push_in_slow", method="CARD_COMP", set="page",
+      loc="TRANSITION — PAGE DU CARNET", chars=[], lines=[],
+      overlay=dict(kind="page_illus", text="18 NOVEMBRE 1955", caption="« Le sultan annonce une nouvelle étape vers l'indépendance. »", sub="ILLUSTRATION PÉDAGOGIQUE — non archive"),
+      desc="Page « 18 NOVEMBRE 1955 » : illustration historique du discours du Trône + texte pédagogique.", kf="Symbolic educational illustration of a throne-day ceremony: empty ornate throne, palace architecture, crowd silhouettes; NO portrait of the sovereign, NO quote",
+      assets=["H-illus_18nov", "P-carnet page"], flags=["H3", "H6"], trans_in="dissolve"),
+ dict(n=30, scene=5, kind="P", start=198.5, dur=10.0, framing="CU", cam="push_in", method="STILL_CAM", set="home_day",
+      loc="INT. MAISON D'AMINA — JOUR — 1955", chars=[("Amina 22", 0.4, 1.4)], lines=[("A6", 1.0)],
+      overlay=dict(kind="handwriting", text="Le chemin a été long."),
+      desc="Amina écrit dans son carnet.", kf="Close-up of Amina (22) writing, hopeful, bright warm light",
+      assets=["E4 home_1940s (day, warm)", "C-Amina22", "P-carnet"], flags=[]),
+ dict(n=31, scene=5, kind="S", start=208.5, dur=8.0, framing="INSERT", cam="push_in_slow", method="CARD_COMP", set="page",
+      loc="TRANSITION — PAGE SUIVANTE", chars=[], lines=[],
+      overlay=dict(kind="page_illus", text="2 MARS 1956", caption="", sub="ILLUSTRATION SYMBOLIQUE — non archive"),
+      desc="Page « 2 MARS 1956 » : illustration symbolique des négociations et d'un document officiel.", kf="Symbolic illustration: two abstract delegations at a table with an official document, flags as vector overlays; no recognisable real person",
+      assets=["H-illus_2mars", "P-carnet page"], flags=["H4", "H5"], trans_in="dissolve"),
+ dict(n=32, scene=5, kind="P", start=216.5, dur=9.0, framing="MS 2-shot", cam="push_in_slow", method="STILL_CAM", set="home_day",
+      loc="INT. MAISON D'AMINA — JOUR — 2 MARS 1956", chars=[("Père", 0.35, 1.1), ("Amina 23", 0.68, 1.0)], lines=[("P5", 0.3), ("A7", 5.2)], overlay=None,
+      desc="Le père annonce la reconnaissance ; Amina ferme les yeux, émue, serre son carnet.", kf="Medium two-shot, father delivering news with joy, Amina closing her eyes, hugging the notebook to her chest",
+      assets=["E4 home_1940s (day, warm)", "C-Amina23", "C-Père"], flags=["H4"]),
+ dict(n=33, scene=5, kind="S", start=225.5, dur=14.0, framing="INSERT", cam="static", method="CARD_COMP", set="timeline",
+      loc="INSERT — LIGNE DU TEMPS", chars=[], lines=[],
+      overlay=dict(kind="timeline", items=[
+          ("11 janvier 1944", "Manifeste de l'indépendance."),
+          ("20 août 1953", "Exil du souverain."),
+          ("16 novembre 1955", "Son retour."),
+          ("18 novembre 1955", "Discours du Trône."),
+          ("2 mars 1956", "Reconnaissance française de l'indépendance."),
+          ("7 avril 1956", "Fin du protectorat espagnol dans le Nord."),
+      ]),
+      desc="Ligne du temps de six dates, maintenue à l'écran assez longtemps pour distinguer les dates principales.", kf="(No generation) Locally composited timeline graphic on parchment.",
+      assets=["G-timeline"], flags=["H4", "H3"], trans_in="dissolve"),
+ dict(n=34, scene=5, kind="P", start=239.5, dur=10.5, framing="CU", cam="push_in_slow", method="STILL_CAM", set="home_day",
+      loc="INT. MAISON D'AMINA — JOUR — 1956", chars=[("Amina 23", 0.5, 1.5)], lines=[("A8", 1.0)], overlay=dict(kind="fade_out_end"),
+      desc="Amina, doucement ; le carnet se referme.", kf="Close-up of Amina (23), serene, gently closing the notebook, warm bright light",
+      assets=["E4 home_1940s (day, warm)", "C-Amina23", "P-carnet"], flags=[]),
+ # ---------------- SCENE 6 ----------------
+ dict(n=35, scene=6, kind="P", start=250.0, dur=2.5, framing="WS", cam="static", method="STILL_CAM", set="classroom",
+      loc="INT. CLASSE — JOUR — 2026", chars=[("Younes", 0.5, 0.8), ("Élèves", 0.2, 0.5), ("Élèves", 0.8, 0.5)], lines=[("T4", 0.2)], overlay=None,
+      desc="Younes devant ses camarades, il présente le carnet d'Amina.", kf="Wide classroom shot, Younes standing at the front holding the notebook, classmates attentive, teacher at the side",
+      assets=["E1 classroom_2026", "C-Younes", "C-Maîtresse", "P-carnet"], flags=[], trans_in="dissolve"),
+ dict(n=36, scene=6, kind="P", start=252.5, dur=6.5, framing="MCU", cam="push_in_slow", method="STILL_CAM", set="classroom",
+      loc="INT. CLASSE — JOUR — 2026", chars=[("Younes", 0.5, 1.5)], lines=[("Y4", 0.2)], overlay=None,
+      desc="Younes répond avec gravité.", kf="Medium close-up of Younes, earnest, proud, notebook in hands",
+      assets=["E1 classroom_2026", "C-Younes", "P-carnet"], flags=[]),
+ dict(n=37, scene=6, kind="P", start=259.0, dur=6.5, framing="MS", cam="push_in_slow", method="STILL_CAM", set="classroom",
+      loc="INT. CLASSE — JOUR — 2026", chars=[("Maîtresse", 0.3, 0.9), ("Younes", 0.7, 1.0)], lines=[("T5", 0.1), ("Y5", 1.0)],
+      overlay=dict(kind="handwriting", text="La liberté est un héritage. À nous de le préserver.", late=True),
+      desc="« Comment ? » ; Younes répond, puis écrit dans son cahier.", kf="Medium shot, teacher and Younes, Younes then writing in his school notebook at his desk (cahier open, text composited)",
+      assets=["E1 classroom_2026", "C-Younes", "C-Maîtresse"], flags=[]),
+ dict(n=38, scene=6, kind="P", start=265.5, dur=4.5, framing="WS", cam="pull_out", method="I2V", set="flag",
+      loc="PLAN FINAL — JOUR — 2026", chars=[], lines=[],
+      overlay=dict(kind="title", text="LE CARNET DE LA LIBERTÉ", sub="18 NOVEMBRE — FÊTE DE L'INDÉPENDANCE DU MAROC", end="FIN"),
+      desc="Le cahier se referme ; un drapeau marocain flotte dans la lumière ; titre.", kf="Closing school notebook in foreground, soft blurred Moroccan flag drifting in warm light behind (flag replaced by composited vector flag)",
+      motion="The notebook closes softly, warm light blooms, a flag ripples gently in the background, very slow pull-out.",
+      assets=["E1 classroom_2026", "S-flag_vector", "P-cahier"], flags=["H5"]),
+]
+
+
+def validate():
+    t = 0.0
+    problems = []
+    for s in SHOTS:
+        if abs(s["start"] - t) > 1e-6:
+            problems.append(f"gap/overlap before shot {s['n']}: expected {t}, got {s['start']}")
+        t = round(s["start"] + s["dur"], 3)
+        sc = SCENES[s["scene"]]
+        if s["start"] < sc["start"] - 1e-6 or s["start"] + s["dur"] > sc["end"] + 1e-6:
+            problems.append(f"shot {s['n']} outside scene {s['scene']} window")
+    if abs(t - TOTAL) > 1e-6:
+        problems.append(f"total {t} != {TOTAL}")
+    return problems
+
+
+if __name__ == "__main__":
+    p = validate()
+    print("OK" if not p else p)
+    print("shots", len(SHOTS), "principal", sum(s["kind"] == "P" for s in SHOTS), "secondary", sum(s["kind"] == "S" for s in SHOTS))
+    print("I2V", [s["n"] for s in SHOTS if s["method"] == "I2V"])

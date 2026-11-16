@@ -1,0 +1,20 @@
+{
+  "project": "le-carnet-de-la-liberte",
+  "updated": "2026-11-16",
+  "screenplay": {"file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md", "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"},
+  "credits_consumed": 0,
+  "paid_calls": 0,
+  "planning_ceiling_credits": 2000,
+  "planning_ceiling_is_authorization": false,
+  "authorizations": [
+    {"id": "AUTH-00", "scope": "local preproduction (docs, shot list, local animatic, estimates)", "status": "granted"},
+    {"id": "AUTH-01", "scope": "free local tools only", "status": "granted"}
+  ],
+  "gates": [
+    {"id": "GATE-1", "name": "Historical and visual references", "status": "not_requested"},
+    {"id": "GATE-2", "name": "Character and environment still-image generation", "status": "not_requested"},
+    {"id": "GATE-3", "name": "Image-to-video animation", "status": "not_requested"},
+    {"id": "GATE-4", "name": "Final audio and postproduction", "status": "not_requested"}
+  ],
+  "pending_decisions": ["D1","D2","D3","D4","D5","D6","D7","D8","D9","D10","D11","D12"]
+}

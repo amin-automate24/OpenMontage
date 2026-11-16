@@ -90,3 +90,6 @@ Textes redessinés à la résolution 1080p (nets, en perspective, hors reliure/b
 
 ## SH19 — correction finale (16/11)
 Texte relevé et recentré ; marge basse mesurée ≥ 15.3 % et haute ≥ 21.2 % de la hauteur utile sur toute la vidéo (108 images, contrôle automatique + vérification visuelle à 2,0/3,0/4,5/6,4 s, 1920×1080). Versions précédentes préservées. 0 génération, 0 crédit.
+
+## SH19 VALIDÉ DÉFINITIVEMENT (16/11)
+Apparition partielle de « SERA LIBRE. » = balayage d'écriture gauche→droite intentionnel (2,4→3,4 s) ; phrase complète et non déformée dès 3,4 s ; lisible 3,08 s (≥ 2 s). P2 reste clôturé. 0 génération, 0 crédit.

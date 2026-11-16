@@ -260,7 +260,7 @@
         "SH24": "validé, inchangé"
       },
       "typography_fix": "2026-11-16: text now drawn at output resolution per frame (sharp), originals untouched; SH24 not modified",
-      "status": "CLOSED after technical control (9/9 hashes OK, 3 clips 1080p25)"
+      "status": "CLOSED (SH19 definitively validated)"
     },
     "SH16": {
       "validated_by_user": true,
@@ -273,6 +273,14 @@
       "file": "references/p2/post/SH24_composite_v001.mp4",
       "sha256": "54fe718d1221f1252f964a8ddfdb3676955d35ec42a89ff4b3ed22e67ef07a55",
       "note": "kept as is"
+    },
+    "SH19": {
+      "validated_by_user": true,
+      "final": true,
+      "file": "references/p2/post/SH19_composite_v001.mp4",
+      "sha256": "ad47f587a23a2bd2fb7f01de33aec55be7ab3720b00fb290351f278792ed6544",
+      "control": "left-to-right handwriting wipe is intentional (line 2: 2.4-3.4 s); sentence complete and undeformed from 3.4 s; stable and legible 3.08 s (>= 2 s); identical shapes at 3.6/4.4/5.0/6.4 s",
+      "date": "2026-11-16"
     }
   },
   "uploads": [

@@ -47,5 +47,89 @@
   "file": "references/gate2_sample/REF-01_Younes_v002.png",
   "note": "outfit correction only; user instruction 2026-11-16",
   "date": "2026-11-16"
+ },
+ {
+  "ref": "REF-03_Pere_v001",
+  "batch": "P1",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "kspwwmk16B",
+  "file": "references/p1/REF-03_Pere_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "REF-04_Maitresse_v001",
+  "batch": "P1",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "s7844Qbl8e",
+  "file": "references/p1/REF-04_Maitresse_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "E4_interieur1940s_v001",
+  "batch": "P1",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "nVLdd96YQD",
+  "file": "references/p1/E4_interieur1940s_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "SH01_classe_v001",
+  "batch": "P1",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "P3uGGgA42C",
+  "file": "references/p1/SH01_classe_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "SH10_carnet_Younes_v001",
+  "batch": "P1",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "tC3HqZjmZJ",
+  "file": "references/p1/SH10_carnet_Younes_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "SH26_fenetre_Amina_v001",
+  "batch": "P1",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "xSXOyIZjfW",
+  "file": "references/p1/SH26_fenetre_Amina_v001.png",
+  "date": "2026-11-16"
+ },
+ {
+  "ref": "SH38_cahier_final_v001",
+  "batch": "P1",
+  "tool": "Magnific images_generate",
+  "model": "imagen-nano-banana-2-1",
+  "aspect": "16:9",
+  "resolution": "2k",
+  "credits": 65,
+  "creation_id": "VXwtm4gMMU",
+  "file": "references/p1/SH38_cahier_final_v001.png",
+  "date": "2026-11-16"
  }
 ]

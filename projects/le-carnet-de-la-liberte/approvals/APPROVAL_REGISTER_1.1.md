@@ -55,3 +55,6 @@ REF-02 examinée seule : enfant 11 ans (A) et adulte 20–23 ans (B : 1953 gris-
 - 1955-56 adulte, tenue ocre à motifs, foulard crème — `references/locked/AMINA_1955-56_adulte_v001.png` — SHA-256 `d70efc6d3651502f667e8037bdc8bdbf1be654fc40a816ea16aa8651a148bd98`
 - Source REF-02 intacte — SHA-256 `e27572942ae2c3f5dc8a65520f870b2195a18096a282ae999fcf85562500add7`
 Usage final des costumes **soumis à revue historique H12** (voir docs/HISTORICAL_AND_TIMING_FLAGS_1.0.md). 0 génération, 0 crédit.
+
+## AUTH-04 — Lot P1 (16/11) : 7 images × 65 = **455 / 455 cr**, aucune reprise
+REF-03 père, REF-04 maîtresse, E4 intérieur 1940s, SH01, SH10, SH26, SH38 (`references/p1/`, ids dans `generation_log.json`). Références utilisées : Younes REF-01 v002, Amina 1955-56 verrouillée, REF-00 style. Statut : **en attente de validation visuelle**. Total projet : 715 cr ; solde attendu 9 443 (à vérifier). P2–P4, clips, audio : non autorisés.

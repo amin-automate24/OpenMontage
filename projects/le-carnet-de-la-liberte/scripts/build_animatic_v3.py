@@ -2,7 +2,7 @@
 """Remontage phase 1 (autorisé 17/11) — built on build_animatic_v2 (QC1 state), which is NOT modified.
 Changes: (1) camera grammar per shot (static for dialogue, lateral tracks/pans where motivated, push-ins kept only where
 motivated); (2) dissolves kept only for time/era passages (SH06, SH12, SH20, SH25, SH27 from white, SH35), hard cuts elsewhere;
-(3) SH16 mention and SH33 timeline text enlarged (local overlay). Same shots, same durations, same overlays/cartons, no grade.
+(3) SH16 mention and SH33 timeline descriptions/note enlarged (local overlay). Same shots, same durations, same overlays/cartons, no grade.
 Usage: build_animatic_v3.py --out-name X.mp4 [--range t0 t1]  (refuses to overwrite)."""
 import sys, json, subprocess
 from pathlib import Path
@@ -33,16 +33,21 @@ def make_overlay(s, img, t):
         d.rounded_rectangle((960-w/2-30, 962, 960+w/2+30, 1052), 14, fill=(28, 22, 16, 235)); d.text((960, 1007), txt, font=fo, fill=(255, 240, 205), anchor="mm")
     return img
 B.make_overlay = make_overlay
-_font = B.CA.font
-def big_font(sz, bold=False, serif=False, italic=False):   # SH33 only: descriptions 28 -> 34 px, note 30 -> 34 px, dates 44 -> 48 px
-    sz = {28: 34, 30: 34, 44: 48}.get(sz, sz); return _font(sz, bold, serif, italic)
-_rb = B.CA.render_base
-def render_base(s, t=None):
-    if s["n"] != 33: return _rb(s, t)
-    B.CA.font = big_font
-    try: return _rb(s, t)
-    finally: B.CA.font = _font
-B.CA.render_base = render_base
+_dov = B.CA.draw_overlay
+def draw_overlay(d, s, pal, state=None, t=None):   # SH33 only: same timeline, larger descriptions (28 -> 32 px) and note (30 -> 34 px),
+    ov = s.get("overlay") or {}                       # dates 44 -> 42 px and descriptions at x 960 so nothing touches or leaves the panel
+    if s["n"] != 33 or ov.get("kind") != "timeline": return _dov(d, s, pal, state, t)
+    F = B.CA.font; W = B.CA.W; items = ov["items"]; n = len(items)
+    d.text((W // 2, 140), "LIGNE DU TEMPS", font=F(60, serif=True, bold=True), fill=(80, 50, 30), anchor="mm")
+    shown = n if t is None else min(n, int(t / 1.2) + 1)
+    d.line([420, 260, 420, 260 + (n - 1) * 120 + 40], fill=(120, 80, 40), width=8)
+    if ov.get("footer") and shown >= n: d.text((W // 2, 940), ov["footer"], font=F(34, bold=True), fill=(120, 40, 30), anchor="mm")
+    for j, (dt, tx) in enumerate(items[:shown]):
+        y = 270 + j * 120
+        d.ellipse([402, y - 4, 438, y + 32], fill=(170, 60, 40))
+        d.text((480, y + 14), dt, font=F(42, bold=True), fill=(70, 40, 20), anchor="lm")
+        d.text((960, y + 14), tx, font=F(32), fill=(50, 35, 25), anchor="lm")
+B.CA.draw_overlay = draw_overlay
 
 def retime():   # PROPOSITION SH25/SH33 (comparaison seulement) : -3 s chacun, rendus à SH26/SH34 ; durée totale et répliques inchangées
     for x in B.SHOTS:

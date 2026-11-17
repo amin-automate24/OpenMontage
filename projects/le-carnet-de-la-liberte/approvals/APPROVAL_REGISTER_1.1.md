@@ -165,3 +165,10 @@ Sur copies (`references/p3/post/SH27_flags_v002.png`, `SH28_flags_v002.png` ; or
 
 ## SH27/SH28 v003 — portraits photographiques authentiques (17/11), préparation locale, NON VALIDÉE
 Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), CC0 1.0 (fiche Commons archivée, JPG archivé et empreinte SHA-256 vérifiée par le script) — `references/p3/historical_sources/`. Compositing local sur copies : `references/p3/post/SH27_flags_portraits_v003.png` (2 portraits) et `SH28_flags_portraits_v003.png` (1 portrait en arrière-plan), drapeaux v002 conservés ; v001, v002 et le master inchangés ; transformations géométriques seules sur la photo (aucune génération ni retouche du visage). Comparaisons 1080p : `references/p3/control/COMPARAISON_SH2*_v003_1080p.jpg`. Les portraits apparaissent comme des photographies dans une reconstitution fictive, non comme une archive de la foule. 0 crédit. Aucune intégration au master avant nouvelle validation.
+
+## 2026-11-17 — SH27/SH28 micro-ajustement v004 (portraits) — NON VALIDÉ
+- Source : v002 drapeaux + photo archivée Anefo 905-8914 (CC0), transformations géométriques seules ; visage non modifié ; aucun crédit IA.
+- SH27 v004 : cartes relevées sur murs/arrière-plan (pixels modifiés dans la zone foule : 123 977 → 49 996) ; visages de la foule dégagés ; drapeaux intacts.
+- SH28 v004 : portrait élargi 105→140 px, reste en arrière-plan.
+- v003 conservée (non écrasée). Comparaisons : references/p3/control/COMPARAISON_SH27_v003_v004_1080p.jpg, COMPARAISON_SH28_v003_v004_1080p.jpg.
+- Recommandation : valider v004 (en attente de l'accord écrit). Aucune intégration au master, aucun export final.

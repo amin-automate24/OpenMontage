@@ -129,3 +129,6 @@ Références : style REF-00, Younes REF-01 v002, maîtresse REF-04, classe SH01,
 
 ## P4 — validation artistique + corrections locales (17/11)
 SH02 : inscription à la craie ; SH08 : titre sur la couverture ; SH37 : gros plan local (classe en profondeur de champ, cartable hors focus) pour la continuité avec SH35 (classe pleine, inchangé). Originaux intacts, empreintes dans `approval_register.json`. 0 génération, 0 crédit. En attente de validation et clôture.
+
+## AUTH-08 — SH03 v002 (17/11) : 1 régénération × 65 = **65 cr** (aucune reprise)
+Correction locale impossible (Younes face caméra, tableau derrière lui). v002 : regard et visage vers le tableau/la maîtresse ; v001 conservée ; SHA-256 `f56c8a350aa01fb9…`. Total projet : 2 340 cr ; solde attendu 7 818 (à vérifier). En attente de validation.

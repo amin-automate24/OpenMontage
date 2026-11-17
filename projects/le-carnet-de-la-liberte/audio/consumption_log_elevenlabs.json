@@ -19,6 +19,15 @@
    "expected_counter": 1256,
    "unexplained_chars": 23,
    "note": "Écart de 23 caractères entre le total facturé par génération (1181) et le compteur du compte (+1204). Non expliqué ; à vérifier dans l'historique ElevenLabs. Plafond autorisé 1 240 respecté dans les deux lectures (1181 / 1204)."
+  },
+  {
+   "batch": "TEST_Y3_TIMOTHEE",
+   "voice": "Timothée - Jeune Narrateur Calme",
+   "chars_billed_per_generation": 36,
+   "takes": 1,
+   "counter_read_after": 1279,
+   "note": "compteur lu juste après la génération : 1279 (inchangé, mise à jour différée possible) ; à revérifier. Écart de 23 caractères antérieur toujours non expliqué.",
+   "file": "audio/voices_test/Y3_timothee_m2_take1.mp3"
   }
  ],
  "counter_now": 1279,

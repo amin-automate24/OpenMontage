@@ -143,5 +143,10 @@
  "Y_repli_Gaspard_Chevallier": {
   "status": "NON_GENERE",
   "note": "voix ElevenLabs FR la plus jeune du casting, repli conservé ; 323 caractères pour Y1–Y5 en 1 prise ; aucune génération sans accord et plafond écrits ; pas de Voice Design"
+ },
+ "Y3_test_Timothee": {
+  "status": "TEST_A_VALIDER",
+  "file": "audio/voices_test/Y3_timothee_m2_take1.mp3",
+  "note": "non validé automatiquement ; Y1–Y5 restent voix de repère dans M4.1"
  }
 }

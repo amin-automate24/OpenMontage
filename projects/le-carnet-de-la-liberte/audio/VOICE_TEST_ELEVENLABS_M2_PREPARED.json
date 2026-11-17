@@ -1,0 +1,20 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "date": "2026-11-17",
+  "provider": "ElevenLabs direct (connecteur, plan Starter actif)",
+  "account_check": {"tier": "starter", "status": "active", "characters_used": 0, "character_limit": 40000, "overage": "0 USD"},
+  "model": "eleven_multilingual_v2",
+  "language_code": "fr",
+  "casting_source": "audio/elevenlabs_script_multilingual_v2.json (inchangé)",
+  "lines": [
+    {"key": "Y3", "voice": "Jules - Warm French Storyteller", "voice_id": "CjIhvq3lIJsoH2c65cKR",
+     "text": "Maman ! À qui appartient ce carnet ?", "chars": 36,
+     "voice_settings": {"stability": 0.35, "similarity_boost": 0.8, "style": 0.45, "speed": 1.05, "use_speaker_boost": true}},
+    {"key": "A7", "voice": "Julia - Warm French Narrator", "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+     "text": "Tant de personnes ont espéré ce jour...", "chars": 37,
+     "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.4, "speed": 1.0, "use_speaker_boost": true}}
+  ],
+  "cost": "73 caractères par prise (1 crédit/caractère en Multilingual v2) ; connecteur = 2 prises par défaut -> 146 caractères, soit 0,37 % du quota mensuel ; 0 € (inclus dans l'abonnement)",
+  "rights": "Plan payant Starter = licence commerciale ; voix de la Voice Library (non clonées, aucune imitation)",
+  "output": "audio/voices_test/ puis, après validation, audio/voices_final/<KEY>.wav lu par assemble_audio.py (pipeline FFmpeg/EDL Resolve inchangé)"
+}

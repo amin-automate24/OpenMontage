@@ -172,3 +172,9 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - SH28 v004 : portrait élargi 105→140 px, reste en arrière-plan.
 - v003 conservée (non écrasée). Comparaisons : references/p3/control/COMPARAISON_SH27_v003_v004_1080p.jpg, COMPARAISON_SH28_v003_v004_1080p.jpg.
 - Recommandation : valider v004 (en attente de l'accord écrit). Aucune intégration au master, aucun export final.
+
+## 2026-11-17 — SH27/SH28 v003 VALIDÉES par l'utilisateur (verrouillage)
+- Validé : SH27_flags_portraits_v003.png, SH28_flags_portraits_v003.png (v004 non retenue, conservée).
+- Verrouillées : references/locked/SH27_flags_portraits_v003_LOCKED.png (sha256 be6abc15…), SH28_flags_portraits_v003_LOCKED.png (sha256 877d5b38…), lecture seule, copies identiques aux v003.
+- scripts/build_animatic_v2.py : SH27/SH28 pointent vers les LOCKED ; options --out-name/--report-name (refus si fichier existant).
+- Rendu de contrôle NON FINAL en cours (nouveaux noms, aucun écrasement). 0 € ; aucune IA ; aucun export final sans accord explicite.

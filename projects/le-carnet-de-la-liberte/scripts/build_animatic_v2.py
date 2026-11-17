@@ -24,7 +24,7 @@ IMG = {  # shot -> source image / clip  (SH03 = v006 LOCKED 17/11, v005 conserv�
  15: P("references/p2/SH15_pere_explique_v001.png"), 16: P("references/p2/SH16_table_feuille_v001.png"),
  21: P("references/p2/SH21_maison1953_soir_v001.png"), 22: P("references/p2/SH22_radio_v001.png"),
  25: P("references/p2/SH25_fenetre_v001.png"), 26: P("references/p1/SH26_fenetre_Amina_v001.png"),
- 27: P("references/p3/SH27_foule_rabat1955_v001.png"), 28: P("references/p3/SH28_amina_pere_foule_v001.png"),
+ 27: P("references/locked/SH27_flags_portraits_v003_LOCKED.png"), 28: P("references/locked/SH28_flags_portraits_v003_LOCKED.png"),  # validé 17/11 (v001 et v002 conservés)
  29: P("references/p3/post/SH29_composite_final.png"), 31: P("references/p3/post/SH31_composite_final_v002_clean.png"),  # v002: 2 taches retouchées localement (original conservé)
  32: P("references/p3/SH32_pere_amina_nouvelle_v001.png"), 34: P("references/p3/SH34_amina_ferme_carnet_v001.png"),
  35: P("references/p4/SH35_classe_presentation_v001.png"), 37: P("references/p4/post/SH37_composite_final.png"),
@@ -144,8 +144,10 @@ def main():
     if "--shots" in sys.argv: only = {int(x) for x in sys.argv[sys.argv.index("--shots")+1].split(",")}
     if "--frames" in sys.argv: limit = float(sys.argv[sys.argv.index("--frames")+1])
     OUT.mkdir(exist_ok=True)
+    for k in ("--out-name","--report-name"):
+        if k in sys.argv and (OUT/sys.argv[sys.argv.index(k)+1]).exists(): sys.exit("refus : fichier existant, aucun écrasement")
     timing = json.loads((OUT/"dialogue_timing.json").read_text())["lines"]
-    out = OUT/("MASTER_CLEAN_1080p_video_prep.mp4" if clean else "ANIMATIC_2.0_partial.mp4" if only else ("ANIMATIC_2.0_test.mp4" if limit else "ANIMATIC_2.0_276s.mp4"))
+    out = OUT/(sys.argv[sys.argv.index("--out-name")+1] if "--out-name" in sys.argv else "MASTER_CLEAN_1080p_video_prep.mp4" if clean else "ANIMATIC_2.0_partial.mp4" if only else ("ANIMATIC_2.0_test.mp4" if limit else "ANIMATIC_2.0_276s.mp4"))
     ff = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{FW}x{FH}", "-r", str(FPS), "-i", "-",
                            *([] if (only or clean) else ["-i", str(OUT/"dialogue_mix.wav")]), "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", "-r", str(FPS),
                            *(["-an"] if (only or clean) else ["-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", "-shortest"]), "-movflags", "+faststart", str(out)], stdin=subprocess.PIPE)
@@ -182,7 +184,7 @@ def main():
         if rd: rd.close()
         report.append({"shot": n, "start": s["start"], "dur": s["dur"], "source": "clip" if n in CLIP else ("custom" if n in (6, 12, 20, 25, 33, 38) else ("crop" if n in CROP else "image"))})
     ff.stdin.close(); ff.wait()
-    (OUT/("master_clean_report.json" if clean else "animatic_2.0_report.json")).write_text(json.dumps(report, indent=1))
+    (OUT/(sys.argv[sys.argv.index("--report-name")+1] if "--report-name" in sys.argv else "master_clean_report.json" if clean else "animatic_2.0_report.json")).write_text(json.dumps(report, indent=1))
     print("done", out)
 
 if __name__ == "__main__":

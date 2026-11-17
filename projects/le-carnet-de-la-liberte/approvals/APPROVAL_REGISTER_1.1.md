@@ -183,3 +183,10 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Local : animatic/MASTER_CANDIDATE_NON_FINAL_M7B.1_SH27-28_v003_1080p.mp4 (127 892 399 o, SHA-256 1988fc0da018ac4f…b5fca) + MASTER_CLEAN_1080p_video_prep_SH27_28_v003.mp4 ; anciens masters intacts. QC : docs/QC_MASTER_CANDIDATE_M7B.1_SH27-28_v003.md.
 - Dropbox (déposé sur demande, vérifié par content_hash + SHA-256 après re-téléchargement) : /LE_CARNET_DE_LA_LIBERTE/MASTER_CANDIDATE/{MASTER_CANDIDATE_NON_FINAL.mp4, MASTER_CANDIDATE_NON_FINAL_FR.srt, QC_MASTER_CANDIDATE_NON_FINAL.md}.
 - 0 € ; aucune IA ; aucun FINAL ni publication. Validation explicite requise.
+
+## 2026-11-17 — Corrections QC1 (autorisées) — MASTER_CANDIDATE_NON_FINAL_QC1 — NON FINAL
+- SH27 : SH27_flags_portraits_v006.png (portrait droit −50 px, même photo d'archive, aucun visage modifié ; v005 écartée car elle masquait un drapeau) + caméra SH27 recentrée +80 px ; carton ajusté à 42 pt (tient dans son bandeau). SH28 v003 LOCKED inchangée.
+- SH29 : guillemets retirés, texte identique.
+- Audio M7B.2 (depuis M7B.1, automation de gain uniquement) : 169–182 s −2,3 dB ; passages calmes SH10–12 et SH33 relevés (min −36,5→−31,5 et −39,0→−33,7 LUFS). Master : −16,0 LUFS, crête −1,1 dBTP, LRA 15,8 LU.
+- SRT : animatic/SUBTITLES_FR_QC1.srt (32 sous-titres, ≤ 41 car./ligne, 0 chevauchement, fin ≤ voix +0,8 s, texte identique ; 3 sous-titres > 17 car./s, imposés par le débit de la voix).
+- Fichier : animatic/MASTER_CANDIDATE_NON_FINAL_QC1_1080p.mp4 (SHA-256 dc63810a…8023), check_delivery OK. Masters précédents préservés. 0 € ; aucune IA ; aucun FINAL.

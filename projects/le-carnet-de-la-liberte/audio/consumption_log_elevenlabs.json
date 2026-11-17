@@ -28,6 +28,21 @@
    "counter_read_after": 1279,
    "note": "compteur lu juste après la génération : 1279 (inchangé, mise à jour différée possible) ; à revérifier. Écart de 23 caractères antérieur toujours non expliqué.",
    "file": "audio/voices_test/Y3_timothee_m2_take1.mp3"
+  },
+  {
+   "batch": "Y1_Y2_Y4_Y5_TIMOTHEE",
+   "voice": "Timothée - Jeune Narrateur Calme",
+   "authorized_cap_chars": 300,
+   "chars_billed_per_generation": {
+    "Y1": 43,
+    "Y2": 41,
+    "Y4": 115,
+    "Y5": 90,
+    "total": 289
+   },
+   "takes": 1,
+   "files": "audio/voices_younes_timothee/",
+   "note": "Y3 = test existant (36 car., déjà compté). Aucune relance. Compteur du compte à revérifier (mise à jour différée constatée)."
   }
  ],
  "counter_now": 1279,

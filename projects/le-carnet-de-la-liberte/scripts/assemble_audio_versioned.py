@@ -44,9 +44,10 @@ def main():
     place = []; spans = []; dlg_l = np.zeros(n, np.float32); dlg_r = np.zeros(n, np.float32); env = np.zeros(n, np.float32); used = []
     for L in lines:
         k = L["key"]; fin = A/"voices_final"/f"{k}.wav"; tmp = R/"animatic/voices"/f"{k}.wav"
-        vd = A/sys.argv[sys.argv.index("--voices-dir")+1]/f"{k}.wav" if "--voices-dir" in sys.argv else None
+        vds = [A/d/f"{k}.wav" for d in sys.argv[sys.argv.index("--voices-dir")+1].split(",")] if "--voices-dir" in sys.argv else []
+        vd = next((q for q in vds if q.exists()), None)   # plusieurs dossiers possibles, le premier trouvé l'emporte
         if fin.exists(): src, kind = fin, "final_dir"
-        elif vd is not None and vd.exists(): src, kind = vd, "voices_dir"
+        elif vd is not None: src, kind = vd, "voices_dir"
         else: src, kind = tmp, "temp"
         used.append((k, kind))
         RADIO_V2 = "highpass=f=320,lowpass=f=3300,equalizer=f=1600:width_type=o:width=1.2:g=5,acompressor=threshold=-20dB:ratio=4:attack=5:release=80,acrusher=bits=10:mode=log:aa=1:mix=0.15,aecho=0.8:0.6:18:0.12"

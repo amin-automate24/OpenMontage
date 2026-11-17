@@ -11,3 +11,9 @@ Moyens de débloquer : (a) me redonner l'accès plus tard (la limite de débit s
 
 ## Mise à jour (17/11, fin de journée)
 Référence communiquée par l'utilisateur : Nationaal Archief / Anefo n° **905-8914**, licence indiquée CC0 1.0 (fiche Commons « Mohammed V (1953).jpg »). Tentative unique de vérification de la fiche (API Commons) : **429 Too Many Requests** — aucun JPG récupéré, aucune preuve archivée par moi. Statut : **référence déclarée, NON VÉRIFIÉE par mes outils** ; aucune intégration. Les drapeaux seuls (SH27/SH28 v002) sont conservés. Pas de nouvelle tentative répétitive (règle utilisateur). Déblocage : dépôt par l'utilisateur de l'original JPG + page de licence (PDF) dans ce dossier, ou nouvel essai quand la limite de débit de l'adresse partagée sera levée.
+
+
+## Mise à jour finale (17/11) — VÉRIFIÉE et ARCHIVÉE
+Fichiers fournis par l'utilisateur et archivés ici : `Mohammed_V_1953_Anefo_905-8914_original.jpg` (886 × 1 182 px, 240 872 octets ≈ 235 KB, EXIF Leaf Aptus 22 — conformes aux valeurs de la fiche ; SHA-256 `3f2c5ece…d48d31`), `Commons_File_Mohammed_V_1953_page.pdf` et `.txt`, `MOHAMMED_V_1953_PROVENANCE.json`.
+Correspondance : la fiche Commons (version `oldid=1257609662`) indique « Cropped from Fotocollectie Anefo, Nationaal Archief, Den Haag, nummertoegang 2.24.01.09, bestanddeelnummer **905-8914** », date ≈ 18/08/1953, auteur « Fotograaf onbekend / Anefo », original 886 × 1 182 px / 235 KB, **licence CC0 1.0 Universal**. Le JPG correspond (dimensions, taille, métadonnées). Réserve : la fiche précise que le tag « partenariat » n'indique pas le statut de droit d'auteur ; la licence est la mention CC0 de la fiche ; je n'ai pas pu consulter la notice du Nationaal Archief elle-même (accès non autorisé), la correspondance repose sur la fiche PDF fournie.
+Usage : portraits imprimés dans une **reconstitution fictive** ; visage jamais généré ni retouché (transformations géométriques seules).

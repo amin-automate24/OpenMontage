@@ -126,3 +126,6 @@ SH17 (Manifeste de l'indépendance — 11 janvier 1944 + mention pédagogique) v
 - SH35_classe_presentation_v001 — `references/p4/SH35_classe_presentation_v001.png` — SHA-256 `302fec6117746000…`
 - SH37_maitresse_younes_cahier_v001 — `references/p4/SH37_maitresse_younes_cahier_v001.png` — SHA-256 `1ffd610f3979b40d…`
 Références : style REF-00, Younes REF-01 v002, maîtresse REF-04, classe SH01, carnet SH10 ; la mère est créée dans SH09 (fictive). SH07 sert de décor à SH08/SH09. Tableau et couverture du carnet laissés vierges (textes en post). Statut : **en attente de validation groupée**. Total projet : 2 275 cr ; solde attendu 7 883 (à vérifier). Clips, audio : non autorisés.
+
+## P4 — validation artistique + corrections locales (17/11)
+SH02 : inscription à la craie ; SH08 : titre sur la couverture ; SH37 : gros plan local (classe en profondeur de champ, cartable hors focus) pour la continuité avec SH35 (classe pleine, inchangé). Originaux intacts, empreintes dans `approval_register.json`. 0 génération, 0 crédit. En attente de validation et clôture.

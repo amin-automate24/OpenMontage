@@ -421,6 +421,42 @@
     }
   },
   "p4": {
-    "status": "generated, awaiting grouped visual validation"
+    "status": "local corrections done, awaiting validation/closure",
+    "corrections": {
+      "SH02": "chalk text '18 NOVEMBRE — / FÊTE DE L'INDÉPENDANCE' on the blackboard (frontal), legible at 1080p",
+      "SH08": "cover title 'AMINA — / MES SOUVENIRS' (serif, perspective on the cover)",
+      "SH35_SH37": "continuity: SH35 unchanged (full class); SH37 = local close-up (1.7x) on Younes writing, classroom defocused (shallow DoF), teacher off-screen (T5 voice-over), backpack put out of focus",
+      "backpack": "worn at the desk (inconsistent with SH03 where bags hang on chairs); cannot be removed cleanly locally (inpainting smeared) -> defocused; option: regenerate SH37 later (65 cr) with explicit authorization"
+    },
+    "post_files": {
+      "SH02_composite_final.png": {
+        "file": "references/p4/post/SH02_composite_final.png",
+        "sha256": "e5832aa7780a69818bf44378d687379e86594ddd1eecd14b2d0ae897be8b64b0"
+      },
+      "SH02_edit_1080p.png": {
+        "file": "references/p4/post/SH02_edit_1080p.png",
+        "sha256": "7c2745cf0d2596515fbaea32552538788852991f3c11d623d6a087a3610b2937"
+      },
+      "SH08_composite_final.png": {
+        "file": "references/p4/post/SH08_composite_final.png",
+        "sha256": "6249d35daf71b49d6f27b426cbfbea535f2743229be622095d02a4fccbbdc31d"
+      },
+      "SH08_edit_1080p.png": {
+        "file": "references/p4/post/SH08_edit_1080p.png",
+        "sha256": "a35eb664eb912d14369e997e23f52746e71383cc96f37b942446833e29006a92"
+      },
+      "SH37_composite_final.png": {
+        "file": "references/p4/post/SH37_composite_final.png",
+        "sha256": "160f2da20e7662d121617238f692a4c281c111e4bb8b95e9eb043b5f6eb539fa"
+      },
+      "SH37_edit_1080p.png": {
+        "file": "references/p4/post/SH37_edit_1080p.png",
+        "sha256": "160f2da20e7662d121617238f692a4c281c111e4bb8b95e9eb043b5f6eb539fa"
+      },
+      "SH37_composite_full.png": {
+        "file": "references/p4/post/SH37_composite_full.png",
+        "sha256": "72957d1ab3548e929ac7006b84422c9f23193802c6e288843100e807140e4fc5"
+      }
+    }
   }
 }

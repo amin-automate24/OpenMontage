@@ -25,6 +25,10 @@ def lufs(p):
     import re
     o = subprocess.run(["ffmpeg", "-nostats", "-i", str(p), "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
     return float(re.findall(r"I:\s+(-?[\d.]+) LUFS", o)[-1])
+def lufs_proc(p, af):
+    import tempfile
+    with tempfile.NamedTemporaryFile(suffix=".wav") as t:
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(p), "-af", af, t.name], check=True); return lufs(t.name)
 def main():
     ver = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("--") else None
     if not ver: sys.exit("version required, e.g. v2")
@@ -45,11 +49,12 @@ def main():
         elif vd is not None and vd.exists(): src, kind = vd, "voices_dir"
         else: src, kind = tmp, "temp"
         used.append((k, kind))
-        af = "highpass=f=450,lowpass=f=3000,acrusher=bits=9:mode=log:aa=1:mix=0.35" if L["character"] == "VOIX RADIO" and (kind == "temp" or "--radio-fx" in sys.argv) else None
+        RADIO_V2 = "highpass=f=320,lowpass=f=3300,equalizer=f=1600:width_type=o:width=1.2:g=5,acompressor=threshold=-20dB:ratio=4:attack=5:release=80,acrusher=bits=10:mode=log:aa=1:mix=0.15,aecho=0.8:0.6:18:0.12"
+        af = (RADIO_V2 if "--radio-v2" in sys.argv else "highpass=f=450,lowpass=f=3000,acrusher=bits=9:mode=log:aa=1:mix=0.35") if L["character"] == "VOIX RADIO" and (kind == "temp" or "--radio-fx" in sys.argv or "--radio-v2" in sys.argv) else None
         at = rh.get(k, {}).get("atempo_max"); af2 = (af+"," if af else "")+f"atempo={at}" if at else af
         x = dec(src, af2)
         if "--lufs-balance" in sys.argv:
-            I = lufs(src); g = -23.0 - I; x = x*10**((g + GAIN_DB.get(L["character"], 0))/20); place.append({"key": k, "lufs_src": I, "gain_db": round(g, 2)})
+            I = lufs(src) if not (af and "--radio-v2" in sys.argv) else lufs_proc(src, af); g = -23.0 - I; x = x*10**((g + GAIN_DB.get(L["character"], 0))/20); place.append({"key": k, "lufs_src": I, "gain_db": round(g, 2)})
         else: x = x/(np.abs(x).max()+1e-9)*0.5*10**(GAIN_DB.get(L["character"], 0)/20)
         st0 = rh.get(k, {}).get("start_s", L["start_s"]); spans.append((k, st0, st0+len(x)/SR, kind))
         i0 = int(rh.get(k, {}).get("start_s", L["start_s"])*SR); p = PAN.get(L["character"], 0.0); gl = np.cos((p+1)*np.pi/4); gr = np.sin((p+1)*np.pi/4)
@@ -63,13 +68,19 @@ def main():
         e = min(len(seg), n-i0); ambi[i0:i0+e] += seg[:e]*10**(-33/20)
     music = np.zeros(n, np.float32); mus = sorted((R/"music_library").glob("*.*")) if (R/"music_library").exists() else []
     if mus: m = dec(mus[0]); e = min(len(m), n); music[:e] = m[:e]/(np.abs(m).max()+1e-9)*10**(-22/20)
-    bus = (ambi+music)*duck
-    L = dlg_l+bus; Rr = dlg_r+bus; st = np.stack([L, Rr], 1); st = st/max(1.0, np.abs(st).max()/0.89)
+    if "--ambience-wav" in sys.argv:
+        aw = A/sys.argv[sys.argv.index("--ambience-wav")+1]
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(aw), "-ac", "2", "-ar", str(SR), "-f", "f32le", "-"], check=True, capture_output=True).stdout
+        st2 = np.frombuffer(raw, dtype=np.float32).reshape(-1, 2); bl = np.zeros(n, np.float32); br = np.zeros(n, np.float32); e = min(n, len(st2)); bl[:e] = st2[:e, 0]; br[:e] = st2[:e, 1]
+        bl = (bl+music)*duck; br = (br+music)*duck; bus = (bl+br)/2
+    else:
+        bus = (ambi+music)*duck; bl = br = bus
+    L = dlg_l+bl; Rr = dlg_r+br; st = np.stack([L, Rr], 1); st = st/max(1.0, np.abs(st).max()/0.89)
     (OUT/"stems").mkdir(exist_ok=True)
     def wr(p, a):
         with wave.open(str(p), "wb") as w_: w_.setnchannels(2); w_.setsampwidth(2); w_.setframerate(SR); w_.writeframes((np.clip(a, -1, 1)*32767).astype(np.int16).tobytes())
-    wr(OUT/"stems/dialogue.wav", np.stack([dlg_l, dlg_r], 1)); wr(OUT/"stems/ambience_music_ducked.wav", np.stack([bus, bus], 1)); wr(OUT/"mix_premaster.wav", st)
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(OUT/"mix_premaster.wav"), "-af", "loudnorm=I=-16:TP=-1.5:LRA=9", "-ar", "48000", "-ac", "2", str(OUT/f"MIX_276s_{ver}.wav")], check=True)
+    wr(OUT/"stems/dialogue.wav", np.stack([dlg_l, dlg_r], 1)); wr(OUT/"stems/ambience_music_ducked.wav", np.stack([bl, br], 1)); wr(OUT/"mix_premaster.wav", st)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(OUT/"mix_premaster.wav"), "-af", "loudnorm=I=-16:TP=-1.5:LRA=9" + (",alimiter=limit=0.82:level=disabled:attack=1:release=50" if "--limiter" in sys.argv else ""), "-ar", "48000", "-ac", "2", str(OUT/f"MIX_276s_{ver}.wav")], check=True)
     (OUT/"mix_report.json").write_text(json.dumps({"version": ver, "rhythm_applied": sorted(rh), "provisional_voices": {k: v["status"] for k, v in prov.items()}, "lines": len(lines), "sources": used, "levels": place, "spans": [(k, round(a, 2), round(b, 2), kd) for k, a, b, kd in sorted(spans, key=lambda t: t[1])], "overlaps": [(a[0], b[0], round(a[2]-b[1], 2)) for i, a in enumerate(sorted(spans, key=lambda t: t[1])) for b in sorted(spans, key=lambda t: t[1])[i+1:] if b[1] < a[2]], "flags": sys.argv[2:], "music": [str(m.name) for m in mus[:1]], "ducking_db": -9}, indent=1))
     print("mix ok", sum(1 for _, s in used if s == "final"), "final /", len(used), "lines; music:", [m.name for m in mus[:1]])
 if __name__ == "__main__": main()

@@ -24,7 +24,7 @@ IMG = {  # shot -> source image / clip
  21: P("references/p2/SH21_maison1953_soir_v001.png"), 22: P("references/p2/SH22_radio_v001.png"),
  25: P("references/p2/SH25_fenetre_v001.png"), 26: P("references/p1/SH26_fenetre_Amina_v001.png"),
  27: P("references/p3/SH27_foule_rabat1955_v001.png"), 28: P("references/p3/SH28_amina_pere_foule_v001.png"),
- 29: P("references/p3/post/SH29_composite_final.png"), 31: P("references/p3/post/SH31_composite_final.png"),
+ 29: P("references/p3/post/SH29_composite_final.png"), 31: P("references/p3/post/SH31_composite_final_v002_clean.png"),  # v002: 2 taches retouchées localement (original conservé)
  32: P("references/p3/SH32_pere_amina_nouvelle_v001.png"), 34: P("references/p3/SH34_amina_ferme_carnet_v001.png"),
  35: P("references/p4/SH35_classe_presentation_v001.png"), 37: P("references/p4/post/SH37_composite_final.png"),
  38: P("references/p1/SH38_cahier_final_v001.png"), 17: P("references/p3/post/SH17_composite_final.png"),
@@ -88,6 +88,10 @@ def make_overlay(s, img, t):
         card(d, (420, 70, 1500, 200), "18 NOVEMBRE 1955", fnt(DJ, 74), fill=(238, 224, 184, 235), ink=(80, 50, 30))
         d.rounded_rectangle((200, 880, 1720, 960), 18, fill=(0, 0, 0, 185)); d.text((960, 920), "« Le sultan annonce une nouvelle étape vers l'indépendance. »", font=fnt(DS, 40), fill=(255, 245, 220), anchor="mm")
     if n == 31: card(d, (520, 70, 1400, 200), "2 MARS 1956", fnt(DJ, 74), fill=(238, 224, 184, 235), ink=(80, 50, 30))
+    if n in (17, 31):  # QC M3 : mention « non archive » (H3b / H4-H5), sur toute la durée du plan
+        txt = s["overlay"]["sub"]; fo = fnt(DS, 38); w = d.textlength(txt, font=fo)
+        y = 62 if n == 17 else 960   # SH17 : haut (sous-titres en bas) ; SH31 : bas (aucune réplique)
+        d.rounded_rectangle((960-w/2-34, y, 960+w/2+34, y+66), 16, fill=(15, 15, 15, 215)); d.text((960, y+33), txt, font=fo, fill=(255, 238, 200), anchor="mm")
     if n == 26 and t > s["dur"]-1.5:
         a = min(1, (t-(s["dur"]-1.5))/1.5); img = Image.blend(img, Image.new("RGB", (FW, FH), (255, 255, 255)), a*a)
     if n == 34 and t > s["dur"]-1.0:
@@ -150,6 +154,7 @@ def main():
         if only and s["n"] not in only: continue
         n = s["n"]; nfr = int(round(s["dur"]*FPS)); rd = ClipReader(CLIP[n]) if n in CLIP else None
         tr = int(0.5*FPS) if (s.get("trans_in") == "dissolve" or n in (7, 13, 21, 27)) and prev is not None else 0
+        if n == 31: tr = 0   # QC M3 : plus de fondu enchaîné depuis SH30 (l'écriture de SH30 transparaissait) -> ouverture au noir 0,4 s
         for f in range(nfr):
             t = f/FPS; u = f/max(1, nfr-1); fr = None
             if rd is not None: fr = rd.next()
@@ -161,6 +166,7 @@ def main():
                     z0, z1 = CAMZ[s["cam"]]; fr = cam_frame(load(IMG[n]), z0, z1, (W0/2, H0/2), (W0/2, H0/2), u)
             fr = make_overlay(s, fr.copy(), t)
             if f < tr and prev is not None: fr = Image.blend(prev, fr, ease(f/tr))
+            if n == 31 and t < 0.4: fr = Image.blend(Image.new("RGB", (FW, FH), (0, 0, 0)), fr.convert("RGB"), ease(t/0.4))
             d = ImageDraw.Draw(fr, "RGBA"); gt = s["start"]+t
             d.text((14, 14), f"ANIMATIC 2.0 · voix de repère · SH{n:02d} · {CA.tc(gt)[:5]}", font=ft, fill=(255, 220, 120, 230))
             for tm in timing:

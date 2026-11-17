@@ -54,7 +54,7 @@ def main():
         at = rh.get(k, {}).get("atempo_max"); af2 = (af+"," if af else "")+f"atempo={at}" if at else af
         x = dec(src, af2)
         if "--lufs-balance" in sys.argv:
-            I = lufs(src) if not (af and "--radio-v2" in sys.argv) else lufs_proc(src, af); g = -23.0 - I; x = x*10**((g + GAIN_DB.get(L["character"], 0))/20); place.append({"key": k, "lufs_src": I, "gain_db": round(g, 2)})
+            I = lufs(src) if not (af and "--radio-v2" in sys.argv) else lufs_proc(src, af); g = -23.0 - I; g += float(dict(x.split(":") for x in sys.argv[sys.argv.index("--line-gain")+1].split(",")).get(k, 0)) if "--line-gain" in sys.argv else 0; x = x*10**((g + GAIN_DB.get(L["character"], 0))/20); place.append({"key": k, "lufs_src": I, "gain_db": round(g, 2)})
         else: x = x/(np.abs(x).max()+1e-9)*0.5*10**(GAIN_DB.get(L["character"], 0)/20)
         st0 = rh.get(k, {}).get("start_s", L["start_s"]); spans.append((k, st0, st0+len(x)/SR, kind))
         i0 = int(rh.get(k, {}).get("start_s", L["start_s"])*SR); p = PAN.get(L["character"], 0.0); gl = np.cos((p+1)*np.pi/4); gr = np.sin((p+1)*np.pi/4)

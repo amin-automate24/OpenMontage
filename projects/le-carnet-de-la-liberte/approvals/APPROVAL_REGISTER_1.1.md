@@ -135,3 +135,6 @@ Correction locale impossible (Younes face caméra, tableau derrière lui). v002 
 
 ## SH03 — correction locale du regard v003 (17/11)
 Iris de l'œil proche déplacé vers le haut-gauche (vers le visage de la maîtresse), ancienne zone reconstruite, paupières respectées ; identité, tenue, main levée, cadrage et décor inchangés ; v001 et v002 conservées. 0 génération, 0 crédit (total projet 2 340, solde 7 818). En attente de validation.
+
+## SH03 — v004 (17/11) : inclinaison locale de la tête + regard
+Tête et cheveux pivotés de 6° (menton vers le haut, vers la maîtresse), fond reconstruit, iris déjà décalés (v003). Limites : inclinaison dans le plan uniquement ; fine ligne de raccord à gauche du front et minuscule éclat au bout du nez visibles seulement en zoom. v001/v002/v003 conservées. 0 génération, 0 crédit. En attente de validation.

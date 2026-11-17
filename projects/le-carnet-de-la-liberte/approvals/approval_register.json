@@ -484,6 +484,30 @@
           }
         },
         "v002_preserved": "references/p4/SH03_younes_main_levee_v002.png"
+      },
+      "head_gaze_fix": {
+        "status": "v004 local head tilt (6° toward the front/up) + iris shift, awaiting validation",
+        "method": "head+hair rotated 6° clockwise about the neck, uncovered background rebuilt (blackboard copy / inpaint); previous iris fix kept; no AI, 0 credit",
+        "limits": "in-plane tilt only (no depth turn); faint seam line left of the forehead and a tiny speck at the nose tip, visible only when zoomed",
+        "files": {
+          "SH03_gaze_head_v004.png": {
+            "file": "references/p4/post/SH03_gaze_head_v004.png",
+            "sha256": "eaf6c49812f85d890b9c310931a4be3bcbafba1fa609c0b0388184d7b32664b9"
+          },
+          "SH03_gaze_head_v004_1080p.png": {
+            "file": "references/p4/post/SH03_gaze_head_v004_1080p.png",
+            "sha256": "b224b09a0c0291b9c55356b894672dc9a4b8a40e576277bc228318bac906e716"
+          },
+          "SH03_before_after_face.jpg": {
+            "file": "references/p4/post/SH03_before_after_face.jpg",
+            "sha256": "ba74830cbe451436bdba34cbc3c58a9e8bce981bab449bc0aa11d0ebd50ec408"
+          }
+        },
+        "previous_preserved": [
+          "references/p4/SH03_younes_main_levee_v001.png",
+          "references/p4/SH03_younes_main_levee_v002.png",
+          "references/p4/post/SH03_gaze_corrected_v003.png"
+        ]
       }
     }
   }

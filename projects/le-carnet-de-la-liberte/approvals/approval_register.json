@@ -427,7 +427,7 @@
     }
   },
   "p4": {
-    "status": "CLOSED except SH03 (SH02/SH08/SH37 local corrections done; SH03 needs AI edit, 65 cr, not authorized)",
+    "status": "OPEN: SH03 v005 awaiting visual validation (P4 not closed)",
     "corrections": {
       "SH02": "chalk text '18 NOVEMBRE — / FÊTE DE L'INDÉPENDANCE' on the blackboard (frontal), legible at 1080p",
       "SH08": "cover title 'AMINA — / MES SOUVENIRS' (serif, perspective on the cover)",
@@ -508,13 +508,47 @@
           "references/p4/SH03_younes_main_levee_v002.png",
           "references/p4/post/SH03_gaze_corrected_v003.png"
         ]
+      },
+      "v005": {
+        "status": "local calibrated correction, awaiting visual validation",
+        "method": "head+hair tilted 4° toward the front; iris offset calibrated by pixel measurement so the gaze angle matches the direction to the teacher's face (measured 14.0° vs target 12.1°; v002 was 18.6°, v004 overshot at 35.8°); eyelid shadow restored; no AI, 0 credit",
+        "limits": "in-plane only; faint seam left of forehead, nose-tip smear and a tiny white triangle at the upper lid visible only when zoomed",
+        "files": {
+          "SH03_gaze_head_v005.png": {
+            "file": "references/p4/post/SH03_gaze_head_v005.png",
+            "sha256": "9a4fdd3dd4d5ffb96cf694653c865649d9d913638da373300e9e39cd4d98ec1c"
+          },
+          "SH03_gaze_head_v005_1080p.png": {
+            "file": "references/p4/post/SH03_gaze_head_v005_1080p.png",
+            "sha256": "d0221ed293d906007b100e2e40178cee80d10825e3d4f7f0127cea39c6627961"
+          },
+          "SH03_gaze_proof_rays_v005.jpg": {
+            "file": "references/p4/post/SH03_gaze_proof_rays_v005.jpg",
+            "sha256": "4103b6b44e6c45548446b322d00dfe41347d8dd84efb5d9c1e5280c126b0afb9"
+          },
+          "SH03_before_after_v005_face_eyes.jpg": {
+            "file": "references/p4/post/SH03_before_after_v005_face_eyes.jpg",
+            "sha256": "487ecbc511192ed1f15125c6205a5405113c6007933d33705d54456580981a9a"
+          }
+        },
+        "previous_kept": [
+          "v001 (original, untouched by design)",
+          "v002 (AI regeneration, 65 cr)",
+          "v003",
+          "v004 (overshoot)"
+        ],
+        "ai_edit_if_insufficient": {
+          "credits": 65,
+          "file": "prompts/SH03_AI_EDIT_PROPOSAL.md",
+          "authorized": false
+        }
       }
     }
   },
   "animatic_2_0": {
     "file": "animatic/ANIMATIC_2.0_276s.mp4 (local, 123 MB, not committed; rebuild with scripts/build_animatic_v2.py)",
     "preview": "animatic/ANIMATIC_2.0_preview_720p.mp4",
-    "preview_sha256": "9c08f0c8aebfe91d0f9655b7e0b340245124270fc4668ac1049f22d3bfe3c988",
+    "preview_sha256": "2afb5fe3d66ec65fec807981990841d99188e3a95fbe76dc53b1fb9c13a54d92",
     "duration_s": 276.0,
     "format": "1920x1080 H.264 + AAC stereo 48 kHz",
     "delivery_check": "OK (<300 s)",
@@ -522,7 +556,8 @@
     "fixes_after_review": [
       "SH29 date card widened",
       "SH33 timeline spacing"
-    ]
+    ],
+    "sh03_version_used": "v005"
   },
   "pending_authorizations": {
     "SH03_AI_edit": {

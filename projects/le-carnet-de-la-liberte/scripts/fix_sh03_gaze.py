@@ -29,4 +29,10 @@ E=mk(ell=[C[0]-21,C[1]-28,C[0]+21,C[1]+28],blur=1.2)
 sh=lambda im:im.transform(im.size,Image.AFFINE,(1,0,-DX,0,1,-DY),Image.BICUBIC)
 iris=np.asarray(sh(img),np.float32); Es=np.asarray(sh(E),np.float32)/255.0
 ap=(Es*O_clip)[...,None]; out=base*(1-ap)+iris*ap
+# upper-eyelid shadow on the sclera (restores the soft dark band the old iris used to carry)
+Om=np.asarray(O_full)>0; ys,xs=np.where(Om)
+for x in np.unique(xs):
+    top=ys[xs==x].min(); yy=np.arange(top,top+14); w=np.exp(-(yy-top)/5.0)*0.45
+    col=out[yy,x,:]; bright=col.min(axis=1)>140
+    out[yy[bright],x,:]=col[bright]*(1-w[bright,None])+np.array([80,45,30],np.float32)*w[bright,None]
 Image.fromarray(np.clip(out,0,255).astype(np.uint8)).save(OUT/"SH03_gaze_corrected_v003.png"); print("ok",DX,DY)

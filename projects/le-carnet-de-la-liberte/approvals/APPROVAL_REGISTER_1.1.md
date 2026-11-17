@@ -141,3 +141,6 @@ Tête et cheveux pivotés de 6° (menton vers le haut, vers la maîtresse), fond
 
 ## Reprise prioritaire (17/11)
 Animatic 2.0 (276,0 s, 1080p H.264/AAC, contrôle de livraison OK) : toutes les images et compositions validées intégrées ; voix de repère. P4 clos sauf SH03 (édition IA 65 cr proposée, non lancée). Voix, 3 clips (975 cr), musique : plan et coûts dans `docs/PLAN_VOIX_CLIPS_EXPORT_2.0.md` ; rien n'est lancé. 0 crédit dépensé dans cette étape (total projet 2 340, solde 7 818).
+
+## SH03 v005 (17/11) — correction locale calibrée par mesure
+Regard mesuré : v002 18,6° / v004 35,8° (dépassement) / **v005 14,0° pour une cible de 12,1°** (direction pupille→visage de la maîtresse). Tête inclinée de 4°, paupière restaurée. v001 = original conservé (non modifié par conception). Animatic 2.0 mis à jour (SH03/SH05). P4 reste **ouvert** jusqu'à validation visuelle. 0 génération, 0 crédit ; édition IA (65 cr) toujours proposée, non autorisée.

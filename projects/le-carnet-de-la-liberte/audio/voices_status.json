@@ -1,0 +1,28 @@
+{
+ "A7": {
+  "voice": "Julia",
+  "status": "PROVISIONAL",
+  "file": "audio/voices_final/A7.wav",
+  "note": "copie provisoire du test ElevenLabs ; en attente de validation définitive"
+ },
+ "Y1": {
+  "status": "PENDING_HUMAN_RECORDING",
+  "source_in_mix": "temp espeak (animatic/voices)"
+ },
+ "Y2": {
+  "status": "PENDING_HUMAN_RECORDING",
+  "source_in_mix": "temp espeak (animatic/voices)"
+ },
+ "Y3": {
+  "status": "PENDING_HUMAN_RECORDING",
+  "source_in_mix": "temp espeak (animatic/voices)"
+ },
+ "Y4": {
+  "status": "PENDING_HUMAN_RECORDING",
+  "source_in_mix": "temp espeak (animatic/voices)"
+ },
+ "Y5": {
+  "status": "PENDING_HUMAN_RECORDING",
+  "source_in_mix": "temp espeak (animatic/voices)"
+ }
+}

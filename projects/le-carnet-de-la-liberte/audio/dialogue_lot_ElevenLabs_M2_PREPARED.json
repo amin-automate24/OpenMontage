@@ -1,0 +1,495 @@
+{
+ "status": "LOT_PREPARED_NOT_EXECUTED",
+ "date": "2026-11-17",
+ "model": "eleven_multilingual_v2",
+ "language_code": "fr",
+ "excluded": {
+  "Y1-Y5": "en attente d'enregistrement humain (voix provisoires espeak dans le montage)",
+  "A7": "Julia, validation provisoire (aucune régénération)"
+ },
+ "lines": [
+  {
+   "key": "T1",
+   "shot": "SH02",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "voice": "Marine - Warm and Captivating (parisienne, chaleureuse)",
+   "text": "Les enfants, pourquoi célébrons-nous cette journée ?",
+   "chars": 52,
+   "start_s": 7.5,
+   "window_end_s": 11.5,
+   "available_s": 4.0,
+   "est_duration_s": 4.0,
+   "margin_s": 0.0,
+   "settings_casting": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T1.wav"
+  },
+  {
+   "key": "T2",
+   "shot": "SH04",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "voice": "Marine - Warm and Captivating (parisienne, chaleureuse)",
+   "text": "Très bien ! Mais comment notre pays a-t-il obtenu son indépendance ?",
+   "chars": 68,
+   "start_s": 15.3,
+   "window_end_s": 20.5,
+   "available_s": 5.2,
+   "est_duration_s": 5.23,
+   "margin_s": -0.03,
+   "settings_casting": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T2.wav"
+  },
+  {
+   "key": "T3",
+   "shot": "SH05",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "voice": "Marine - Warm and Captivating (parisienne, chaleureuse)",
+   "text": "Alors, découvre-la et raconte-la-nous demain !",
+   "chars": 46,
+   "start_s": 23.8,
+   "window_end_s": 27.5,
+   "available_s": 3.7,
+   "est_duration_s": 3.54,
+   "margin_s": 0.16,
+   "settings_casting": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T3.wav"
+  },
+  {
+   "key": "M1",
+   "shot": "SH09",
+   "character": "LA MÈRE",
+   "voice_id": "YTo2sZG1bXw7WKVUQY93",
+   "voice": "Dahlia - Podcasts et livres audio (chaleureuse, élégante)",
+   "text": "À Amina, ton arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance.",
+   "chars": 88,
+   "start_s": 42.8,
+   "window_end_s": 50.5,
+   "available_s": 7.7,
+   "est_duration_s": 6.77,
+   "margin_s": 0.93,
+   "settings_casting": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/M1.wav"
+  },
+  {
+   "key": "A1",
+   "shot": "SH14",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "voice": "Julia - Warm French Narrator (jeune, chaude, douce)",
+   "text": "Papa, pourquoi tout le monde parle-t-il de liberté ?",
+   "chars": 52,
+   "start_s": 71.0,
+   "window_end_s": 77.0,
+   "available_s": 6.0,
+   "est_duration_s": 4.0,
+   "margin_s": 2.0,
+   "settings_casting": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A1.wav"
+  },
+  {
+   "key": "P1",
+   "shot": "SH15",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "voice": "Christophe - warm mature narration (mûre, rassurante)",
+   "text": "Parce que notre pays vit sous le protectorat. Beaucoup de Marocains veulent qu'il retrouve son indépendance.",
+   "chars": 108,
+   "start_s": 77.5,
+   "window_end_s": 86.0,
+   "available_s": 8.5,
+   "est_duration_s": 8.74,
+   "margin_s": -0.24,
+   "settings_casting": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P1.wav"
+  },
+  {
+   "key": "P2",
+   "shot": "SH17",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "voice": "Christophe - warm mature narration (mûre, rassurante)",
+   "text": "Aujourd'hui, des nationalistes marocains ont présenté un document pour réclamer l'indépendance de notre pays.",
+   "chars": 109,
+   "start_s": 91.5,
+   "window_end_s": 99.5,
+   "available_s": 8.0,
+   "est_duration_s": 8.83,
+   "margin_s": -0.83,
+   "settings_casting": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P2.wav"
+  },
+  {
+   "key": "A2",
+   "shot": "SH18",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "voice": "Julia - Warm French Narrator (jeune, chaude, douce)",
+   "text": "Mais que signifie être indépendant ?",
+   "chars": 36,
+   "start_s": 99.8,
+   "window_end_s": 109.0,
+   "available_s": 9.2,
+   "est_duration_s": 2.77,
+   "margin_s": 6.43,
+   "settings_casting": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A2.wav"
+  },
+  {
+   "key": "P3",
+   "shot": "SH18",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "voice": "Christophe - warm mature narration (mûre, rassurante)",
+   "text": "C'est pouvoir décider de l'avenir de son pays, librement et avec souveraineté.",
+   "chars": 78,
+   "start_s": 102.0,
+   "window_end_s": 109.0,
+   "available_s": 7.0,
+   "est_duration_s": 6.32,
+   "margin_s": 0.68,
+   "settings_casting": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P3.wav"
+  },
+  {
+   "key": "R1",
+   "shot": "SH22",
+   "character": "VOIX RADIO",
+   "voice_id": "kSNoLVC4Ox0vkBz1IKux",
+   "voice": "Damien Doré - Deep Narrator + filtre radio (post)",
+   "text": "Le sultan Mohammed Ben Youssef a été déposé et contraint à l'exil avec sa famille.",
+   "chars": 82,
+   "start_s": 126.5,
+   "window_end_s": 134.0,
+   "available_s": 7.5,
+   "est_duration_s": 6.64,
+   "margin_s": 0.86,
+   "settings_casting": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0.1,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/R1.wav"
+  },
+  {
+   "key": "A4",
+   "shot": "SH23",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "voice": "Julia - Warm French Narrator (jeune, chaude, douce)",
+   "text": "Père... est-ce que notre rêve est terminé ?",
+   "chars": 41,
+   "start_s": 134.3,
+   "window_end_s": 145.5,
+   "available_s": 11.2,
+   "est_duration_s": 3.15,
+   "margin_s": 8.05,
+   "settings_casting": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A4.wav"
+  },
+  {
+   "key": "P4",
+   "shot": "SH23",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "voice": "Christophe - warm mature narration (mûre, rassurante)",
+   "text": "Non, Amina. Malgré les épreuves, beaucoup de Marocains poursuivent la lutte pour l'indépendance.",
+   "chars": 96,
+   "start_s": 137.4,
+   "window_end_s": 145.5,
+   "available_s": 8.1,
+   "est_duration_s": 7.77,
+   "margin_s": 0.33,
+   "settings_casting": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P4.wav"
+  },
+  {
+   "key": "V1",
+   "shot": "SH26",
+   "character": "VOIX HORS CHAMP",
+   "voice_id": "R2zfCl7xyI0UyX6zoGu4",
+   "voice": "Dorian - Parisian (naturel, expressif)",
+   "text": "Amina ! Le sultan revient au Maroc !",
+   "chars": 36,
+   "start_s": 166.5,
+   "window_end_s": 175.0,
+   "available_s": 8.5,
+   "est_duration_s": 2.64,
+   "margin_s": 5.86,
+   "settings_casting": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.5,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/V1.wav"
+  },
+  {
+   "key": "A5",
+   "shot": "SH28",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "voice": "Julia - Warm French Narrator (jeune, chaude, douce)",
+   "text": "Il est revenu ! Notre espoir renaît !",
+   "chars": 37,
+   "start_s": 182.5,
+   "window_end_s": 189.5,
+   "available_s": 7.0,
+   "est_duration_s": 2.85,
+   "margin_s": 4.15,
+   "settings_casting": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A5.wav"
+  },
+  {
+   "key": "A6",
+   "shot": "SH30",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "voice": "Julia - Warm French Narrator (jeune, chaude, douce)",
+   "text": "Le chemin a été long. Mais nous approchons enfin de notre rêve.",
+   "chars": 63,
+   "start_s": 199.5,
+   "window_end_s": 208.5,
+   "available_s": 9.0,
+   "est_duration_s": 4.85,
+   "margin_s": 4.15,
+   "settings_casting": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A6.wav"
+  },
+  {
+   "key": "P5",
+   "shot": "SH32",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "voice": "Christophe - warm mature narration (mûre, rassurante)",
+   "text": "Amina, la France vient de reconnaître officiellement l'indépendance du Maroc !",
+   "chars": 78,
+   "start_s": 216.8,
+   "window_end_s": 225.5,
+   "available_s": 8.7,
+   "est_duration_s": 6.32,
+   "margin_s": 2.38,
+   "settings_casting": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P5.wav"
+  },
+  {
+   "key": "A8",
+   "shot": "SH34",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "voice": "Julia - Warm French Narrator (jeune, chaude, douce)",
+   "text": "J'espère que les enfants de demain se souviendront de notre histoire.",
+   "chars": 69,
+   "start_s": 240.5,
+   "window_end_s": 250.0,
+   "available_s": 9.5,
+   "est_duration_s": 5.31,
+   "margin_s": 4.19,
+   "settings_casting": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A8.wav"
+  },
+  {
+   "key": "T4",
+   "shot": "SH35",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "voice": "Marine - Warm and Captivating (parisienne, chaleureuse)",
+   "text": "Alors Younes, qu'as-tu appris ?",
+   "chars": 31,
+   "start_s": 250.2,
+   "window_end_s": 253.5,
+   "available_s": 3.3,
+   "est_duration_s": 2.38,
+   "margin_s": 0.92,
+   "settings_casting": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T4.wav"
+  },
+  {
+   "key": "T5",
+   "shot": "SH37",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "voice": "Marine - Warm and Captivating (parisienne, chaleureuse)",
+   "text": "Comment ?",
+   "chars": 9,
+   "start_s": 261.6,
+   "window_end_s": 270.5,
+   "available_s": 8.9,
+   "est_duration_s": 0.69,
+   "margin_s": 8.21,
+   "settings_casting": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T5.wav"
+  }
+ ],
+ "totals": {
+  "lines": 19,
+  "chars_1_take": 1179,
+  "chars_2_takes": 2358,
+  "quota_remaining_before": 39925,
+  "quota_after_1_take": 38746
+ },
+ "cost": "1 caractère = 1 crédit (constaté sur 2 tests : 36+39). Lot 1 prise = 1179 caractères ; connecteur : 2 prises par défaut -> 2358 (à éviter, fixer 1 prise). Aucun coût en euros supplémentaire dans l'abonnement Starter ; dépassement 0 $ tant que < 40 000.",
+ "plafond_propose_caracteres": 1240,
+ "voices_checked_in_workspace": "5/5 voix du casting retrouvées dans la Voice Library (Christophe, Marine, Dahlia, Damien Doré, Dorian) + Julia",
+ "rights": "voix de bibliothèque sans clonage ni imitation ; licence commerciale Starter annoncée sur la page tarifs ElevenLabs, à confirmer dans les CGU ; VOIX RADIO = reconstitution fictive anonyme (filtre radio local, mention « Reconstitution »)",
+ "blockers": [
+  "Réglages du casting (stabilité/vitesse/style) non transmissibles par le connecteur : voix jouées avec réglages par défaut -> vitesse à corriger en post (atempo ±6 %)",
+  "Chevauchements d'estimation à arbitrer (voir overlaps)",
+  "Minutage estimé ±15 % tant que non généré"
+ ],
+ "overlaps_estimated": [
+  {
+   "a": "P2",
+   "b": "A2",
+   "overlap_s": 0.53
+  },
+  {
+   "a": "A2",
+   "b": "P3",
+   "overlap_s": 0.57
+  },
+  {
+   "a": "A4",
+   "b": "P4",
+   "overlap_s": 0.05
+  },
+  {
+   "a": "P5",
+   "b": "A7",
+   "overlap_s": 1.42
+  },
+  {
+   "a": "Y4",
+   "b": "T5",
+   "overlap_s": 0.52
+  }
+ ],
+ "tight_margins": [
+  {
+   "key": "T1",
+   "margin_s": 0.0
+  },
+  {
+   "key": "T2",
+   "margin_s": -0.03
+  },
+  {
+   "key": "T3",
+   "margin_s": 0.16
+  },
+  {
+   "key": "P1",
+   "margin_s": -0.24
+  },
+  {
+   "key": "P2",
+   "margin_s": -0.83
+  }
+ ]
+}

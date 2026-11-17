@@ -1,0 +1,18 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "date": "2026-11-17",
+  "provider": "Magnific audio_tts",
+  "model": "eleven_v3",
+  "stability": 0.4,
+  "lines": [
+    {"key": "Y3", "character": "Younes (10 ans)", "voice": "Gaspard Chevallier (catalogue Magnific/ElevenLabs, FR, young male)", "voiceId": 1303,
+     "text": "[curious] Maman ! À qui appartient ce carnet ?", "credits_exact": 10,
+     "note": "Aucune voix enfant FR au catalogue : voix jeune adulte, à juger à l'écoute"},
+    {"key": "A7", "character": "Amina adulte", "voice": "Emma Simon (catalogue Magnific/ElevenLabs, FR, female)", "voiceId": 485,
+     "text": "[softly] Tant de personnes ont espéré ce jour…", "credits_exact": 10,
+     "alt_voice": "Louise Bernard (219)"}
+  ],
+  "total_credits_exact": 20,
+  "rights": "Voix de catalogue partagé (pas de clone, pas d'imitation). Licence d'usage selon CGU du plan Magnific : non vérifiable via les outils, à confirmer.",
+  "constraints": "Sortie dans audio/voices_test/ uniquement ; montage, MIX_276s et pistes existantes non modifiés."
+}

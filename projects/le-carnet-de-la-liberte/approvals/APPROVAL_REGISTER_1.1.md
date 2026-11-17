@@ -156,3 +156,6 @@ Décision de l'utilisateur : v006 retenue comme version candidate finale ; contr
 
 ## Musique (17/11) — candidate B, NON VALIDÉE
 Option B « Possible Dreams » (Eugenio Mininni, Mixkit) = candidate prioritaire, non validée ; option A « A Peaceful World » et M6.1 (sans musique) conservés. Repères MA, MB, MC→MD (prise continue), MF ; **ME supprimé** ; aucune musique sur SH22, SH23, SH29–33 (vérifié : niveau musical nul sur ces zones). Licence : Mixkit Stock Music Free License, texte + page archivés (`approvals/licenses/`), SHA-256 des fichiers vérifiés. **Restrictions** : projection scolaire et diffusion en ligne autorisées ; DVD/CD, TV/radio, Content ID interdits. 0 € dépensé. Aucun master FINAL avant validation artistique et écoute complète (aperçu `audio/mixes/M7B/ECOUTE_COMPLETE_M7B_NON_FINAL_360p.mp4`).
+
+## Musique B — candidat M7B.1 (17/11), NON FINAL
+Décision utilisateur : option B retenue comme base de finition (MA, MB, MC→MD, MF ; ME supprimé). M7B.1 = transitions électroniques atténuées, foule/musique/dialogues rééquilibrés (SH27–28), sortie musicale du titre adoucie (cos² 5 s). Détails : `audio/mixes/M7B.1/NOTES_M7B.1.md`. M6.1 sans musique, M7A, M7B et licence Mixkit archivée préservés. 0 € ; aucun master FINAL ni publication avant validation.

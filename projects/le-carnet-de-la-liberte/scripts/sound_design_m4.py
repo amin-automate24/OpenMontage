@@ -4,6 +4,7 @@ Writes audio/sfx_m4/ambience_foley_m4.wav (stereo 48 kHz) + audio/sfx_m4/cues_m4
 import json, wave, sys, numpy as np
 from pathlib import Path
 R = Path(__file__).resolve().parent.parent; OUT = R/"audio/sfx_m4"; SR = 48000; T = 276.0; N = int(T*SR)
+SOFT = "--soft" in sys.argv   # M7B.1 : transitions électroniques atténuées (mêmes tirages aléatoires)
 rng = np.random.default_rng(1956)
 sys.path.insert(0, str(Path(__file__).parent)); from shots_data import SHOTS
 SH = {s["n"]: (s["start"], s["start"]+s["dur"]) for s in SHOTS}
@@ -51,7 +52,7 @@ def murmur(d, nvoices=8, lo=250, hi=1400):
         sy = (rng.random(int(d*5)+2) > 0.45).astype(float); g = np.convolve(np.repeat(sy, int(SR/5)+1)[:n], np.hanning(2400)/1200, mode="same")
         c = rng.uniform(lo, hi); y += noise(d, c*0.7, c*1.5)*g.astype(np.float32)*slow_am(n, 0.3, 0.6)
     return y/(np.sqrt(np.mean(y**2))+1e-9)
-def whoosh(d, rising=True): n = int(d*SR); e = np.linspace(0, 1, n)**2 if rising else np.linspace(1, 0, n)**2; return (noise(d, 200, 3000)*e*np.sin(np.linspace(0, np.pi, n))).astype(np.float32)
+def whoosh(d, rising=True): n = int(d*SR); e = np.linspace(0, 1, n)**2 if rising else np.linspace(1, 0, n)**2; return (noise(d, 150 if SOFT else 200, 1400 if SOFT else 3000)*e*np.sin(np.linspace(0, np.pi, n))).astype(np.float32)
 # ===== Scene 1 — classe 2026 (0-30)
 bed(0, 30, 60, 380, -50, name="classe: ton de pièce chaud (lp 380 Hz)")
 put(murmur(30, 6, 300, 1100)*env(int(30*SR), 2, 2), 0, -55, 0.2, "classe: murmure lointain d'élèves (très bas)")
@@ -59,7 +60,7 @@ a, b = SH[2]; t = a+0.8
 while t < a+3.2: put(click(0.01, 2500, 7000), t, -36, -0.2); t += rng.uniform(0.08, 0.22)
 cues.append({"t": a+0.8, "dur": 2.4, "cue": "craie au tableau (SH02, pendant l'écriture de la date)", "gain_db": -36})
 put(thud(160, 0.12), SH[3][0]+0.1, -40, 0.15, "chaise/bras levé discret (SH03)")
-put(whoosh(2.0), SH[6][0]+0.3, -42, 0, "transition date -> page (SH06)")
+put(whoosh(2.0), SH[6][0]+0.3, -50 if SOFT else -42, 0, "transition date -> page (SH06)")
 # ===== Scene 2 — maison 2026 (30-65)
 bed(30, 61.5, 50, 300, -52, am_rate=0.1, name="maison 2026: ton de pièce")
 for k in range(int(30), int(61)):
@@ -70,7 +71,7 @@ put(page(0.5), SH[10][0]+0.8, -38, 0, "ouverture du carnet (SH10)")
 for i, dt in enumerate([0.4, 1.1, 1.8, 2.5, 3.3]): put(page(0.4), SH[11][0]+dt, -38-i, 0.1*(-1)**i)
 cues.append({"t": SH[11][0], "dur": 3.7, "cue": "pages qui tournent au souffle de vent (SH11)", "gain_db": -38})
 bed(SH[11][0], SH[11][1], 250, 900, -46, am_rate=0.6, am_depth=0.8, fade=1.0, name="souffle de vent (SH11)")
-put(whoosh(3.5), SH[12][0], -40, 0, "transition encre -> rue 1944 (SH12)")
+put(whoosh(3.5), SH[12][0], -48 if SOFT else -40, 0, "transition encre -> rue 1944 (SH12)")
 # ===== Scene 3 — rue 1944 (65-86) puis intérieur jour (86-120)
 bed(63.5, 86, 120, 900, -47, am_rate=0.25, name="rue 1944: air extérieur")
 put(murmur(21, 10, 250, 1300)*env(int(21*SR), 2, 2), 65, -49, -0.3, "rue 1944: habitants qui discutent (loin)")
@@ -91,8 +92,8 @@ t = 120.3
 while t < 163: put(cricket(), t, -50, rng.uniform(0.3, 0.8)); t += rng.uniform(0.6, 1.4)
 cues.append({"t": 120.3, "dur": 43, "cue": "grillons au loin (fenêtre)", "gain_db": -50})
 # radio (SH22): tuning, crackle + hum bed, switch off
-tt = np.arange(int(0.7*SR))/SR; tun = np.sin(2*np.pi*np.cumsum(np.linspace(900, 2600, len(tt)))/SR)*0.5+noise(0.7, 400, 3000)*0.5
-put(fft_band(tun.astype(np.float32), 400, 3200)*env(len(tt), 0.05, 0.2), 125.75, -38, 0, "radio : recherche de station (SH22)")
+tt = np.arange(int(0.7*SR))/SR; tun = np.sin(2*np.pi*np.cumsum(np.linspace(900, 2600, len(tt)))/SR)*(0.25 if SOFT else 0.5)+noise(0.7, 400, 3000)*0.5
+put(fft_band(tun.astype(np.float32), 500 if SOFT else 400, 2200 if SOFT else 3200)*env(len(tt), 0.05, 0.2), 125.75, -45 if SOFT else -38, 0, "radio : recherche de station (SH22)")
 d = SH[22][1]-126.4; n = int(d*SR); crk = noise(d, 2000, 6000)*0.25; imp = (rng.random(n) > 0.9993).astype(np.float32)*rng.uniform(1, 3, n).astype(np.float32)
 crk += fft_band(imp, 1500, 7000); hum = (np.sin(2*np.pi*50*np.arange(n)/SR)+0.4*np.sin(2*np.pi*150*np.arange(n)/SR)).astype(np.float32)*0.6
 put((crk+hum)*env(n, 0.3, 0.3), 126.4, -44, 0, "radio : souffle, craquements et ronflement 50 Hz sous l'annonce")
@@ -125,6 +126,6 @@ bed(270.5, 276.0, 200, 1500, -47, am_rate=0.6, am_depth=0.6, fade=1.0, name="ven
 fo = int(2.5*SR); L[-fo:] *= np.linspace(1, 0, fo); Rr[-fo:] *= np.linspace(1, 0, fo)
 st = np.stack([L, Rr], 1); pk = np.abs(st).max(); st = st*min(1.0, 0.5/pk)
 OUT.mkdir(parents=True, exist_ok=True)
-with wave.open(str(OUT/"ambience_foley_m4.wav"), "wb") as w: w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(st, -1, 1)*32767).astype(np.int16).tobytes())
-json.dump({"seed": 1956, "rights": "synthèse procédurale locale (numpy), aucun échantillon tiers ; droits détenus par le projet", "peak_scale": round(float(min(1.0, 0.5/pk)), 3), "cues": sorted(cues, key=lambda c: c["t"])}, open(OUT/"cues_m4.json", "w"), ensure_ascii=False, indent=1)
+with wave.open(str(OUT/("ambience_foley_m4_1.wav" if SOFT else "ambience_foley_m4.wav")), "wb") as w: w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(st, -1, 1)*32767).astype(np.int16).tobytes())
+json.dump({"seed": 1956, "rights": "synthèse procédurale locale (numpy), aucun échantillon tiers ; droits détenus par le projet", "peak_scale": round(float(min(1.0, 0.5/pk)), 3), "cues": sorted(cues, key=lambda c: c["t"])}, open(OUT/("cues_m4_1.json" if SOFT else "cues_m4.json"), "w"), ensure_ascii=False, indent=1)
 print("ok", len(cues), "cues")

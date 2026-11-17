@@ -15,9 +15,9 @@ import font_amatic_sc; AM = str(Path(font_amatic_sc.__file__).parent/"files/Amat
 fnt = lambda p, s: ImageFont.truetype(p, s)
 
 P = lambda *a: R.joinpath(*a)
-IMG = {  # shot -> source image / clip
+IMG = {  # shot -> source image / clip  (SH03 = v006 LOCKED 17/11, v005 conservée)
  1: P("references/p1/SH01_classe_v001.png"), 2: P("references/p4/post/SH02_composite_final.png"),
- 3: P("references/p4/post/SH03_gaze_head_v006.png")  # LOCKED 17/11 (v005 conservée), 7: P("references/p4/SH07_younes_boite_v001.png"),
+ 3: P("references/p4/post/SH03_gaze_head_v006.png"), 7: P("references/p4/SH07_younes_boite_v001.png"),
  8: P("references/p4/post/SH08_composite_final.png"), 9: P("references/p4/SH09_younes_mere_v001.png"),
  13: P("references/p2/SH13_rue1944_v001.png"), 14: P("references/p2/SH14_amina_pere_marche_v001.png"),
  15: P("references/p2/SH15_pere_explique_v001.png"), 16: P("references/p2/SH16_table_feuille_v001.png"),

@@ -1,0 +1,130 @@
+{
+ "project": "..",
+ "output": "MIX_S5_v2",
+ "video": "12_EDITING/S5_cut_v2_BROUILLON.mp4",
+ "target_lufs": -20,
+ "tracks": [
+  {
+   "label": "vent S5-01/02",
+   "file": "11_AUDIO/AMBIENCE/AMB_vent_desert_stable_loop20_JNh4Q3SOq4.mp3",
+   "start": 0,
+   "dur": 17.8,
+   "loop": true,
+   "smooth": true,
+   "lufs": -55,
+   "fade_in": 1.0,
+   "fade_out": 2.0
+  },
+  {
+   "label": "foule qui s'estompe S5-01",
+   "file": "11_AUDIO/AMBIENCE/AMB_foule_lointaine_loop20_rgDsDCpxtc.mp3",
+   "start": 0,
+   "dur": 11,
+   "loop": true,
+   "smooth": true,
+   "lufs": -63,
+   "fade_in": 0.5,
+   "fade_out": 5.0
+  },
+  {
+   "label": "grenier S5-03",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "start": 17.0,
+   "dur": 8.7,
+   "loop": true,
+   "smooth": true,
+   "lufs": -56,
+   "fade_in": 1.0,
+   "fade_out": 1.2
+  },
+  {
+   "label": "vent S5-04",
+   "file": "11_AUDIO/AMBIENCE/AMB_vent_desert_stable_loop20_JNh4Q3SOq4.mp3",
+   "in": 4,
+   "start": 25.0,
+   "dur": 8.5,
+   "loop": true,
+   "smooth": true,
+   "lufs": -55,
+   "fade_in": 1.2,
+   "fade_out": 1.2
+  },
+  {
+   "label": "souffle S5-04 (avant le regard)",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_souffle_enfant_TdlMZCiVNR.mp3",
+   "start": 28.0,
+   "dur": 3.6,
+   "lufs": -44,
+   "fade_in": 0.6,
+   "fade_out": 1.0
+  },
+  {
+   "label": "S5-05 tic du grain (calé 37,0 s)",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s5_tic_grain_UPIOsjFwny.mp3",
+   "start": 35.97,
+   "dur": 2.0,
+   "lufs": -40
+  },
+  {
+   "label": "grenier S5-06",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "in": 6,
+   "start": 39.6,
+   "dur": 7.0,
+   "loop": true,
+   "smooth": true,
+   "lufs": -56,
+   "fade_in": 1.0,
+   "fade_out": 0.8
+  },
+  {
+   "label": "souffle retenu S5-06",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_souffle_enfant_TdlMZCiVNR.mp3",
+   "in": 0.5,
+   "start": 41.0,
+   "dur": 5.0,
+   "lufs": -44,
+   "fade_in": 0.8,
+   "fade_out": 1.2
+  },
+  {
+   "label": "vent S5-08/09 (retour apres le silence)",
+   "file": "11_AUDIO/AMBIENCE/AMB_vent_desert_stable_loop20_JNh4Q3SOq4.mp3",
+   "in": 8,
+   "start": 53.6,
+   "dur": 18.4,
+   "loop": true,
+   "smooth": true,
+   "lufs": -55,
+   "fade_in": 3.0,
+   "fade_out": 3.0
+  },
+  {
+   "label": "S5-08 sable dans la main (suit la main)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s5-08v2_sable_55.4.wav",
+   "start": 55.4,
+   "dur": 6.5
+  },
+  {
+   "label": "particules S5-09",
+   "file": "11_AUDIO/AMBIENCE/AMB_shimmer_particules_loop20_N2uRuEw6D9.mp3",
+   "start": 61.4,
+   "dur": 12.0,
+   "loop": true,
+   "smooth": true,
+   "lufs": -58,
+   "fade_in": 2.5,
+   "fade_out": 2.5
+  },
+  {
+   "label": "M5 theme de transmission",
+   "file": "11_AUDIO/MUSIC/M5_theme_transmission_v1_3zHA9yrREY.mp3",
+   "start": 52.8,
+   "dur": 22.6,
+   "norm_whole": true,
+   "lufs": -35,
+   "fade_in": 3.5,
+   "fade_out": 4.5
+  }
+ ]
+}

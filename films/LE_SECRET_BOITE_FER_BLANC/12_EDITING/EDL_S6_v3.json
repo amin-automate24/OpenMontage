@@ -1,0 +1,85 @@
+{
+ "output": "S6_cut_v3_BROUILLON.mp4",
+ "fade_in": 0.0,
+ "fade_out": 0.0,
+ "clips": [
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S6/S6-01_fHRaLYsCDY.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S6-01"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S6/S6-02_v2_6Au6ujYiJO.mp4",
+   "in": 0,
+   "out": 8.0,
+   "label": "S6-02 v2",
+   "transition": "dissolve",
+   "dur": 0.8
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S6/S6-03_dt7erOLXSL.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S6-03",
+   "transition": "dissolve",
+   "dur": 0.8
+  },
+  {
+   "file": "12_EDITING/S6_assets/S6-04_porte_pushin_v1.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S6-04 (image fixe)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S6_assets/S6-05_yassine_pushin_v1.mp4",
+   "in": 0,
+   "out": 8.0,
+   "label": "S6-05 (image fixe)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S6_assets/S6-06_grandpere_pushin_v1.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S6-06 (image fixe)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S6_assets/S6-07_boite_pushin_v1.mp4",
+   "in": 0,
+   "out": 8.0,
+   "label": "S6-07 (image fixe)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S6_assets/S6-08_v4_k26_hold_v1.mp4",
+   "in": 0,
+   "out": 7.5,
+   "label": "S6-08 v4 (Kling 2.6 anime fidele)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S6_assets/S6-09_deux_pushin_v1.mp4",
+   "in": 0,
+   "out": 10.0,
+   "label": "S6-09 (image fixe)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S6_assets/S6-10_drapeau_pushin_v1.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S6-10 (image fixe retouchee, fondu noir)",
+   "transition": "dissolve",
+   "dur": 1.2
+  }
+ ]
+}

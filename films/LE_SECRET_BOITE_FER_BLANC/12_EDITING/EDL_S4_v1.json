@@ -1,0 +1,20 @@
+{
+ "output": "S4_cut_v1_BROUILLON.mp4",
+ "fade_in": 0.5,
+ "fade_out": 0.1,
+ "clips": [
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-01_6Auy9ZNiJO.mp4","in":0,"out":9.0,"label":"S4-01"},
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-02_4RfJipS9Aa.mp4","in":0,"out":8.0,"label":"S4-02","transition":"dissolve","dur":0.6},
+  {"file":"12_EDITING/S4_assets/ARCH_05_foule_drapeaux.mp4","in":0,"out":4.0,"label":"ARCHIVE-05","transition":"dissolve","dur":0.8},
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-03_SyoLNZwUb8.mp4","in":0,"out":7.0,"label":"S4-03","transition":"dissolve","dur":0.8},
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-04_iGQ4DeC3uK.mp4","in":0,"out":8.0,"label":"S4-04"},
+  {"file":"12_EDITING/S4_assets/ARCH_04_coran_portrait.mp4","in":0,"out":4.0,"label":"ARCHIVE-04","transition":"dissolve","dur":0.8},
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-05_eIwVb9gdqL.mp4","in":0,"out":8.0,"label":"S4-05","transition":"dissolve","dur":0.8},
+  {"file":"12_EDITING/S4_assets/S4-06_still_pushin_v1.mp4","in":0,"out":7.0,"label":"S4-06 (image fixe)","transition":"dissolve","dur":0.8},
+  {"file":"12_EDITING/S4_assets/ARCH_06_camion_ford.mp4","in":0,"out":4.0,"label":"ARCHIVE-06","transition":"dissolve","dur":0.8},
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-07_vQiI9CEa47.mp4","in":0,"out":8.0,"label":"S4-07","transition":"dissolve","dur":0.8},
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-08_O6hUfZuynm.mp4","in":0,"out":6.0,"label":"S4-08 (coupe 6s)"},
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-09_3zF9xyUREY.mp4","in":0,"out":8.0,"label":"S4-09","transition":"dissolve","dur":0.6},
+  {"file":"09_MAGNIFIC_GENERATIONS/S4/S4-10_P3a7xLM42C.mp4","in":0,"out":9.0,"label":"S4-10"}
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "project": "..",
+ "output": "MIX_S4_v1",
+ "video": "12_EDITING/S4_cut_v2.mp4",
+ "target_lufs": -20,
+ "tracks": [
+  {
+   "label": "M4 theme 1975 (segment 1)",
+   "file": "11_AUDIO/MUSIC/M4_theme_1975_v1_ksVjBga16B.mp3",
+   "in": 0,
+   "start": 0,
+   "dur": 15.6,
+   "lufs": -35,
+   "fade_in": 2.5,
+   "fade_out": 1.0
+  },
+  {
+   "label": "M4 theme 1975 (segment 2)",
+   "file": "11_AUDIO/MUSIC/M4_theme_1975_v1_ksVjBga16B.mp3",
+   "in": 19.6,
+   "start": 19.6,
+   "dur": 13.4,
+   "lufs": -35,
+   "fade_in": 1.0,
+   "fade_out": 1.0
+  },
+  {
+   "label": "M4 theme 1975 (segment 3)",
+   "file": "11_AUDIO/MUSIC/M4_theme_1975_v1_ksVjBga16B.mp3",
+   "in": 37.0,
+   "start": 37.0,
+   "dur": 12.6,
+   "lufs": -35,
+   "fade_in": 1.0,
+   "fade_out": 1.0
+  },
+  {
+   "label": "M4 theme 1975 (segment 4)",
+   "file": "11_AUDIO/MUSIC/M4_theme_1975_v1_ksVjBga16B.mp3",
+   "in": 53.6,
+   "start": 53.6,
+   "dur": 29.6,
+   "lufs": -35,
+   "fade_in": 1.2,
+   "fade_out": 3.0
+  },
+  {
+   "label": "ambiance vent desert",
+   "file": "11_AUDIO/AMBIENCE/AMB_vent_desert_stable_loop20_JNh4Q3SOq4.mp3",
+   "start": 0,
+   "dur": 83.2,
+   "loop": true,
+   "lufs": -43,
+   "fade_in": 1.5,
+   "fade_out": 3.0
+  },
+  {
+   "label": "foule lointaine inintelligible",
+   "file": "11_AUDIO/AMBIENCE/AMB_foule_lointaine_loop20_rgDsDCpxtc.mp3",
+   "start": 8.0,
+   "dur": 74.0,
+   "loop": true,
+   "lufs": -47,
+   "fade_in": 3.0,
+   "fade_out": 3.0
+  },
+  {
+   "label": "moteurs lointains (S4-06)",
+   "file": "11_AUDIO/AMBIENCE/AMB_moteurs_lointains_loop20_DoUX4mypcl.mp3",
+   "start": 41.5,
+   "dur": 10.0,
+   "loop": true,
+   "lufs": -48,
+   "fade_in": 2.0,
+   "fade_out": 2.0
+  },
+  {
+   "label": "S4-03 pas sur le sable (suivent la marche)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s4-03_pas_18.8.wav",
+   "start": 18.8,
+   "dur": 7.0
+  },
+  {
+   "label": "S4-04 drapeau (suit le mouvement)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s4-04_drapeau_25.8.wav",
+   "start": 25.8,
+   "dur": 8.0
+  },
+  {
+   "label": "S4-09 sable entre les doigts (suit la main)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s4-09_sable_66.2.wav",
+   "start": 66.2,
+   "dur": 8.0
+  },
+  {
+   "label": "S4-10 vent qui emporte le sable",
+   "file": "11_AUDIO/AMBIENCE/AMB_vent_desert_monte_s7XUXXol8e.mp3",
+   "in": 2.0,
+   "start": 74.2,
+   "dur": 9.0,
+   "lufs": -41,
+   "fade_in": 3.0,
+   "fade_out": 2.0
+  }
+ ]
+}

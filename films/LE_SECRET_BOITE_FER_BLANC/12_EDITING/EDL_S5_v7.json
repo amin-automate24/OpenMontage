@@ -1,0 +1,79 @@
+{
+ "output": "S5_cut_v7_BROUILLON.mp4",
+ "fade_in": 0.5,
+ "fade_out": 0.0,
+ "clips": [
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S5/S5-01_lJXLiLFgv9.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S5-01"
+  },
+  {
+   "file": "12_EDITING/S5_assets/S5-02_k26_foule_sens_ok_v2.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S5-02 (Kling 2.6 : foule de dos qui avance, bon sens)",
+   "transition": "dissolve",
+   "dur": 0.8
+  },
+  {
+   "file": "12_EDITING/S5_assets/S5-03_k26_anime_v1.mp4",
+   "in": 0,
+   "out": 8.0,
+   "label": "S5-03 (Kling 2.6 anime, Yassine pull marine)"
+  },
+  {
+   "file": "12_EDITING/S5_assets/S5-04_k26_anime_v1.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S5-04 (Kling 2.6 anime, moustache)"
+  },
+  {
+   "file": "12_EDITING/S5_assets/S5-05_grain_pushin_v1.mp4",
+   "in": 0,
+   "out": 7.0,
+   "label": "S5-05 (image fixe)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S5_assets/S5-06_yassine_pushin_v1.mp4",
+   "in": 0,
+   "out": 8.0,
+   "label": "S5-06 (image fixe)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S5_assets/S5-07_regard_pushin_v1.mp4",
+   "in": 0,
+   "out": 10.0,
+   "label": "S5-07 (image fixe, LE REGARD)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S5/S5-08_Eb2fmhduuO.mp4",
+   "in": 0,
+   "out": 6.8,
+   "label": "S5-08 (coupe 6,8 s : avant la deformation du poing)",
+   "transition": "dissolve",
+   "dur": 1.0
+  },
+  {
+   "file": "12_EDITING/S5_assets/S5-09_dissolution_v1.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S5-09 (montage)",
+   "transition": "dissolve",
+   "dur": 0.6
+  },
+  {
+   "file": "12_EDITING/S5_assets/S5-10_blanc_v1.mp4",
+   "in": 0,
+   "out": 5.0,
+   "label": "S5-10 (fondu blanc)"
+  }
+ ]
+}

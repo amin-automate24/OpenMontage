@@ -1,0 +1,260 @@
+# Production log — LE SECRET DE LA BOÎTE EN FER BLANC
+
+| Date (UTC) | Type | Entrée |
+|---|---|---|
+| 2026-11-04 | op | Structure du projet créée (13 dossiers) |
+| 2026-11-04 | tool | Audit en lecture seule : Magnific (0 crédit ; Kling 3.0 Omni 855 cr/plan 9 s 1080p ; Seedance 2.5 7 110 cr ; SFX 15 cr/3 s ; musique 90 s 1 800 cr), Midjourney MCP (V8.2, statut officiel non vérifiable), ElevenLabs, Dropbox/Drive |
+| 2026-11-04 | decision | Procédure Midjourney manuelle recommandée par défaut (connecteur non officiel probable) — en attente du réalisateur |
+| 2026-11-04 | op | Bible de production v0.1, fiche Yassine et prompt YAS_01 rédigés — aucune génération lancée |
+| 2026-11-04 | todo | Validation : bible, structure S1–S6, procédure Midjourney, budget Magnific, prompt YAS_01 |
+| 2026-11-04 | decision | Réalisateur : VALIDE bible, structure S1–S6, prompt YAS_01 ; choisit le connecteur Midjourney ; crédits Magnific achetés (20 000 constatés, plan Premium) |
+| 2026-11-04 | tool | Midjourney V8.2 fast — YAS_01 grille v1 (task 7fee43a2…, 0,401 crédit), terminé en 154 s |
+| 2026-11-04 | error | Téléchargement local impossible : platform2.cdn.acedata.cloud et pikaso.cdnpk.net refusés par la politique réseau du conteneur |
+| 2026-11-04 | file | Contournement : 4 images importées dans Magnific (projet LE_SECRET_BOITE_FER_BLANC) via import d'URL côté serveur |
+| 2026-11-04 | qc | YAS_01 v1 : v1_3 recommandée (seule avec cicatrice au bon endroit) — voir YAS_01_QC.md |
+| 2026-11-04 | decision | Réalisateur : VALIDER YAS_01 v1_1 comme référence maîtresse |
+| 2026-11-04 | tool | Midjourney upscale U1 (task 8f9c5094…) ; seed de la grille 4033502968 |
+| 2026-11-04 | decision | Réalisateur : OUI, fiche Yassine alignée sur YAS_01 v1_1 (cicatrice sur le côté droit du front) |
+| 2026-11-04 | tool | Upscale U1 terminé (0,12 crédit, 928×1232) → importé dans Magnific `lJXZ1eLgv9` = YAS_01_MASTER |
+| 2026-11-04 | todo | Prompt YAS_02 (trois-quarts, image prompt + --iw 1.5) en attente de validation |
+| 2026-11-04 | tool | Réalisateur : VALIDER prompt YAS_02 → Midjourney V8.2 fast, task d1b43b57-4a7f-4e3f-9b6d-efa2f7c1ed3f |
+| 2026-11-04 | tool | YAS_02 grille v1 terminée (task d1b43b57…, image_id 1567619452424421376, 0,401 crédit) |
+| 2026-11-04 | error | Incident transitoire du contrôle de sécurité automatique des actions : import Magnific retardé |
+| 2026-11-04 | file | YAS_02 v1 importée dans Magnific (bxWyxqU5Y2, iGQez2l3uK, eIwHtmUdqL, bxWyjgi5Y2) |
+| 2026-11-04 | qc | YAS_02 v1 : identité OK, angle trois-quarts non atteint, cicatrice inversée → REFAIRE recommandé |
+| 2026-11-04 | tool | Réalisateur : REFAIRE YAS_02 avec plan B → Midjourney V8.2 fast, --iw 1.0, task e0c927b7-1c59-4a5c-b9e3-d602a8b642b1 |
+| 2026-11-04 | tool | YAS_02 v2 terminée (task e0c927b7…, 0,401 crédit) → Magnific P3aTYWH42C, CqZgjgCEEy, lJX2in2gv9, u5AUs9AQLD |
+| 2026-11-04 | qc | YAS_02 v2 : v2_3 recommandée (vrai trois-quarts, cicatrice bon côté, axe du regard conforme) ; défaut : liseré clair sur le contour |
+| 2026-11-04 | decision | Réalisateur : VALIDER YAS_02 v2_3 (retouche du liseré : à confirmer) |
+| 2026-11-04 | tool | Midjourney upscale U3 (task e3ac31cb-a67b-4012-87d0-e0403fc167ec) ; seed de la grille v2 572238788 |
+| 2026-11-04 | file | YAS_02 U3 terminé (0,12 crédit, 928×1232) → Magnific rgM6NLZxtc ; liseré clair toujours présent après upscale |
+| 2026-11-04 | decision | Réalisateur : OUI, retouche du liseré YAS_02 (Magnific images_retouch, 10 crédits) |
+| 2026-11-04 | file | Masque du liseré créé (928×1232, oreille → cou, cils et col du pull exclus) : 10_VISUAL_EFFECTS/MASKS/YAS_02_halo_mask.png (non versionné) |
+| 2026-11-04 | error | Envoi du masque vers Magnific impossible : ak-data.magnific.com refusé par la politique réseau du conteneur. Aucune retouche lancée, aucun crédit dépensé |
+| 2026-11-04 | tool | Réalisateur : option A → Midjourney Vary Region sur YAS_02 upscalée (image_id 1567623027032588288) avec le masque du liseré, task e213e596-e451-4272-b97d-77554425abae |
+| 2026-11-04 | error | Vary Region Midjourney échoué (« The mask could not be read »), sans coût. Cause probable : masque recopié à la main en base64 (4 240 caractères), erreur de transcription très probable |
+| 2026-11-04 | decision | Pas de nouvel essai à l'aveugle (masque RVB : 6 628 caractères, même risque). Alternative évaluée : masque créé côté serveur par Magnific (images_segment 35 cr + images_retouch ~75 cr estimés) — en attente du réalisateur |
+| 2026-11-04 | tool | Réalisateur : option D → Magnific images_segment (SAM 3.1), 35 crédits, masque yiv0FR8PW9 : liseré oreille → cou uniquement, conforme |
+| 2026-11-04 | tool | Magnific images_retouch (precise, replace) sur YAS_02 avec le masque SAM — 75 crédits — résultat MBguPm8DCm |
+| 2026-11-04 | qc | ÉCHEC : liseré inchangé (écart moyen 0,35/255 dans la zone, 0 ailleurs). Hypothèse : masque trop fin (1–3 px), le mode « précis » reconstruit le même bord. YAS_02_UPSCALE reste la référence. Crédits Magnific dépensés à ce jour : 110 |
+| 2026-11-04 | decision | Réalisateur : option C — YAS_02_3Q conservée telle quelle, usage limité à la référence d'identité (jamais image de départ) |
+| 2026-11-04 | op | Prompt YAS_03 (profil vers la droite, 2 références, --iw 1.0, anti-liseré) rédigé — en attente de validation |
+| 2026-11-04 | tool | Réalisateur : VALIDER prompt YAS_03 → Midjourney V8.2 fast, task 14ad3568-6106-4783-890d-e8fea7f9e7ce |
+| 2026-11-04 | tool | YAS_03 v1 terminée (task 14ad3568…, 0,401 crédit, 174 s) → Magnific xSDiEKejfW, dt7qzeRXSL, O6hcx4Qynm, ksT9fgv16B |
+| 2026-11-04 | qc | YAS_03 v1 : profil non atteint (trois-quarts 20–30°) ; aucun liseré ; v1_1 = trois-quarts propre vers la droite (bonus) → REFAIRE recommandé |
+| 2026-11-04 | decision | Réalisateur : VALIDE point 1 → YAS_03 v1_1 conservée comme trois-quarts propre YAS_02b ; upscale U1 lancé (task 90882f88-2d85-480f-ab93-6d145109dee3), seed 2315460870. Profil : non relancé (en attente) |
+| 2026-11-04 | file | YAS_02b U1 terminé (0,12 crédit, 928×1232) → Magnific jUp3HnALD0 ; propre, sans liseré |
+| 2026-11-04 | decision | Réalisateur : PASSER LE PROFIL (YAS_03) |
+| 2026-11-04 | op | Prompt YAS_04 (vue en pied, MASTER seule, --iw 0.5, --ar 2:3) rédigé — en attente de validation |
+| 2026-11-04 | decision | Réalisateur : MODIFIER YAS_04 → « conserver le visage de référence » ; méthode A choisie (zoom out ×2 puis ×2 sur YAS_01_MASTER, visage non régénéré) |
+| 2026-11-04 | tool | Midjourney zoom_out_2x sur MASTER (image_id 1567617911202250752), task 397e826a-ac5b-40a6-a83f-17830b57db64 |
+| 2026-11-04 | tool | YAS_04 zoom ×2 n°1 terminé (task 397e826a…, image_id 1567632894589927424, 0,401 crédit) → Magnific 1lVNK9Nr4r, 3zFd6BBREY, WDxvnQrcXe, ovyKXgE829 |
+| 2026-11-04 | qc | Zoom 1 : visage identique au MASTER sur les 4 ; cadre jusqu'aux hanches (2e zoom nécessaire) ; v1 bord noir à gauche ; coutures brun-rouge discrètes aux épaules sur les 4 ; v4 recommandée (la plus propre, fenêtre motivant la lumière) |
+| 2026-11-04 | decision | Réalisateur : coutures brun-rouge aux épaules CONSERVÉES → ajoutées au costume et au descripteur canonique de Yassine |
+| 2026-11-04 | decision | Réalisateur : VALIDER zoom1 v4 → upscale U4 (task 93b8f2b3-857a-4f13-93ff-737ab0ad9880) puis 2e zoom ×2 |
+| 2026-11-04 | tool | Upscale U4 terminé (0,12 crédit, image_id 1567633727243157504) |
+| 2026-11-04 | tool | 2e zoom ×2 lancé (task cd0d8241-886d-4c05-8214-e735b599e5cb) |
+| 2026-11-04 | tool | 2e zoom ×2 terminé (task cd0d8241…, image_id 1567634133406973952, 0,401 crédit) → Magnific fHRgu2TCDY, p8UHXysehw, ksTNxBy16B, u5AwHDHQLD |
+| 2026-11-04 | qc | Zoom 2 : visage identique ✅ ; MAIS cadre arrêté aux genoux (pieds absents) ❌, pantalon marine au lieu de beige ❌, fine bordure blanche autour des 4 images ❌ ; v3 la plus propre |
+| 2026-11-04 | decision | Réalisateur : plan validé sur zoom2 v3 (upscale → pan down → retouche rectangle pantalon/chaussures). Étape 1 upscale U3 : task 192e1c17-f72e-4054-aa28-5012dc838e48 |
+| 2026-11-04 | tool | Étape 1 : upscale U3 terminé (0,12 crédit, image_id 1567634719598706688) |
+| 2026-11-04 | tool | Étape 2 : pan_down lancé (task d4ae321b-0ed5-4317-a233-da2f8a3feb8f) |
+| 2026-11-04 | tool | Étape 2 : pan_down terminé (task d4ae321b…, image_id 1567635143084998656, 0,401 crédit) → Magnific Eb2U5RRuuO, p8UHIw5ehw, fHRgqGcCDY, If4rCZEtvE |
+| 2026-11-04 | qc | Pan down : pieds visibles ✅ ; visage identique ✅ ; MAIS la bordure blanche de l'image précédente devient une bande blanche horizontale au milieu des 4 images ❌ ; pantalon toujours marine ❌ ; v2/v3 pieds nus, v1/v4 chaussettes sombres ❌ ; jambes un peu longues |
+| 2026-11-04 | decision | Réalisateur : VALIDE retouche bas du corps sur pan v1 → upscale U1 (task 0929ead9-e396-4169-8775-da10509ac231) puis Vary Region rectangle |
+| 2026-11-04 | tool | Upscale U1 terminé (0,12 crédit, 784×1552, image_id 1567635839536594944) |
+| 2026-11-04 | tool | Vary Region, masque rectangle 1 bit (532 caractères, y ≥ 56,5 %) : masque ACCEPTÉ, task 26deff0f-c4ff-49c4-93c2-0b779b504d90 |
+| 2026-11-04 | tool | Vary Region terminé (task 26deff0f…, image_id 1567636350620925952, 0,401 crédit) → Magnific 8aP1F6qIrU, iGQd0kd3uK, O6h0AHwynm, If4rHYutvE |
+| 2026-11-04 | qc | Retouche bas du corps RÉUSSIE : bande blanche supprimée, pantalon beige, baskets blanches usées, raccord invisible, visage intact. Reste : fin cadre blanc extérieur (à rogner). v1 recommandée (baskets les plus nettement blanches, posture naturelle) |
+| 2026-11-04 | decision | Réalisateur : VALIDER YAS_04 fix v1 → upscale U1 (task 75f39014-6d4c-4585-82b5-899f234b4fd1) |
+| 2026-11-04 | file | YAS_04 U1 terminé (0,12 crédit, 784×1552) → Magnific ksTNOsY16B = YAS_04_FULLBODY. Coût total de la chaîne YAS_04 : ≈ 2,1 crédits Midjourney |
+| 2026-11-04 | decision | Réalisateur : option A → YAS_05 assemblée localement (sans génération) |
+| 2026-11-04 | op | Proposition YAS_06 (5 expressions via Vary Region sur MASTER, test émerveillement d'abord) rédigée — en attente |
+| 2026-11-04 | qc | Réalisateur : YAS_02b ne ressemble pas au MASTER → RETIRÉE des références. Mon QC initial l'avait validée à tort (visage régénéré : plus rond, plus jeune, sourcils plus arqués). Leçon : comparer systématiquement côte à côte avec le MASTER avant de recommander |
+| 2026-11-04 | file | YAS_05 v2 assemblée sans YAS_02b (en pied + MASTER + YAS_02) |
+| 2026-11-04 | tool | Réalisateur : lancer le test YAS_06a (émerveillement) → Vary Region sur MASTER (image_id 1567617911202250752), masque rectangle traits du visage (492 caractères), task 7c396355-ef29-4194-bb2d-f5364cfcf68e |
+| 2026-11-04 | decision | Réalisateur : YAS_02 gardée telle quelle (liseré non corrigé, usage identité uniquement) |
+| 2026-11-04 | decision | Réalisateur : VALIDER YAS_05 v2 |
+| 2026-11-04 | tool | YAS_06a terminé (task 7c396355…, image_id 1567638554706706432, 0,401 crédit) |
+| 2026-11-04 | file | YAS_06a → Magnific lJXAzGYgv9, yivTMeNPW9, WDxaCH8cXe, lJXAzMAgv9 |
+| 2026-11-04 | qc | YAS_06a (comparaison côte à côte avec le MASTER, même échelle) : émerveillement réussi sur les 4, MAIS dérive d'identité sur les 4 — yeux nettement agrandis et arrondis, cils plus épais, visage plus jeune ; taches de lumière dorée artificielles (surtout v2). Aucune recommandée. Cause : consigne « eyes wide open » + « golden light reflected » + masque englobant les yeux |
+| 2026-11-04 | tool | Réalisateur : VALIDE nouvel essai YAS_06a v2 → Vary Region sur MASTER, masque 2 zones sourcils + bouche (yeux exclus, 420 caractères), sans reflet de lumière, task 06b0b6f6-a48e-4d0b-8fdc-daa840cc266e |
+| 2026-11-04 | tool | YAS_06a v2 terminé (task 06b0b6f6…, image_id 1567639699818807296, 0,401 crédit) → Magnific TdsE5OGVNR, N2EpIxh6D9, WDxaHN1cXe, gOBGTKiSXO |
+| 2026-11-04 | qc | YAS_06a v2 (côte à côte, même échelle) : identité PRÉSERVÉE sur les 4 (yeux, nez intacts) ; MAIS expression très discrète — lèvres entrouvertes, sourcils à peine levés ; v1 la plus expressive. Limite : sans les yeux, l'émerveillement reste faible |
+| 2026-11-04 | decision | Réalisateur : VALIDE YAS_06a v1 (émerveillement discret), clôture de YAS_06, passage au grand-père jeune |
+| 2026-11-04 | file | YAS_06a U1 (0,12 crédit) → Magnific rgMiYa4xtc. Références de Yassine TERMINÉES |
+| 2026-11-04 | op | Fiche du grand-père jeune et prompt GPJ_01 rédigés (moustache et air de famille à valider) — aucune génération |
+| 2026-11-04 | decision | Réalisateur : air de famille OUI (yeux en amande brun foncé à longs cils, sourcils épais, par le texte uniquement). Moustache : en attente |
+| 2026-11-04 | tool | Réalisateur : moustache OUI + VALIDER GPJ_01 → Midjourney V8.2 fast, task d3781bb8-694b-4a10-9d0b-2afa06bdd0e1 |
+| 2026-11-04 | tool | GPJ_01 terminé (task d3781bb8…, image_id 1567641762636234752, 0,401 crédit) → Magnific 0eLCLyHTfW, UP8n8H2wny, vQisiDqa47, lJXAX5Dgv9 |
+| 2026-11-04 | qc | GPJ_01 : v1 sourire le plus chaleureux mais ~27 ans ; v2 âge juste (~22), grain de beauté sous l'œil gauche, cheveux années 70 → recommandée ; v3 grain de beauté du mauvais côté ; v4 paraît ~30 ans, fermé. Air de famille avec Yassine : modéré sur les 4 (sourcils épais oui, yeux plus petits) |
+| 2026-11-04 | decision | Réalisateur : VALIDER GPJ_01 v2 → upscale U2 (task da3a9e54-c753-4529-bf6e-4e61d16a8e6d), seed 3106447964 |
+| 2026-11-04 | file | GPJ_01 U2 terminé (0,12 crédit, 928×1232) → Magnific xSD3eRCjfW = GPJ_01_MASTER |
+| 2026-11-04 | decision | Réalisateur : VALIDE méthode GPJ_03 (élargissement depuis GPJ_01_MASTER + correction rectangle si besoin ; chaussures : babouches ou sandales de cuir). Étape 1 zoom ×2 : task 0ce7a756-d9e1-4b94-ba96-39a7132ee3f5 |
+| 2026-11-04 | tool | GPJ_03 zoom ×2 n°1 terminé (task 0ce7a756…, image_id 1567643129597657088, 0,401 crédit) → Magnific p8UHPobehw, LweZI7jswO, xSD3oOxjfW, iGQdKVm3uK |
+| 2026-11-04 | qc | GPJ zoom 1 : visage identique sur les 4 ; djellaba à capuche avec couture centrale brodée, rayures cohérentes ; cadre jusqu'à la taille (2e élargissement nécessaire) ; v1 la plus propre (fond net, rayures régulières) → recommandée |
+| 2026-11-04 | decision | Réalisateur : VALIDE GPJ zoom1 v1 + suite (upscale → zoom ×2 → pan down/correction si besoin). Upscale U1 : task 77b461e6-5437-4147-81ef-f9bb225fb19d |
+| 2026-11-04 | tool | GPJ upscale U1 terminé (0,12 crédit, image_id 1567643892231176192) |
+| 2026-11-04 | tool | GPJ 2e zoom ×2 lancé (task eaf9e449-2092-4b00-975a-b484a2d1b06e) |
+| 2026-11-04 | tool | GPJ 2e zoom ×2 terminé (task eaf9e449…, image_id 1567644378502004736, 0,401 crédit) → Magnific If4rAG6tvE, LweZhfQswO, bxWPdtZ5Y2, xSD3tQXjfW |
+| 2026-11-04 | qc | GPJ zoom 2 : Midjourney a représenté le personnage ASSIS sur les 4 (v1 derrière un comptoir de zellige, v2 en tailleur sur un matelas, v3 en tailleur sur une banquette de zellige, v4 derrière une table). Visage identique, aucune bordure. Pas de vue debout en pied. v3 la plus réussie (djellaba entière, pose naturelle, décor marocain authentique) |
+| 2026-11-04 | decision | Réalisateur : « 3 » → interprété comme garder la version 3 (assis, costume complet) ; pas de relance pour l'instant. Upscale U3 : task 52d3c6f5-051b-46c2-b7e8-3d8d51a5a451 |
+| 2026-11-04 | file | GPJ U3 terminé (0,12 crédit) → Magnific u5AwD9qQLD = GPJ_03_SEATED_FULL |
+| 2026-11-04 | decision | Réalisateur : VALIDE l'ordre → sourire GPJ_04 maintenant, vue debout confiée aux modèles vidéo, puis grand-père âgé |
+| 2026-11-04 | tool | GPJ_04 sourire : Vary Region sur GPJ_01_MASTER (image_id 1567642357866692608), masque bouche + bas des joues (yeux et grain de beauté exclus, 392 caractères), task e6465426-b53a-4379-878e-c38e7ed9a09f |
+| 2026-11-04 | tool | GPJ_04 terminé (task e6465426…, image_id 1567646480364208128, 0,401 crédit) → Magnific N2EpgPM6D9, BhOKWXxoQR, XmJ5WoiBfo, TdsEZeAVNR |
+| 2026-11-04 | qc | GPJ_04 (côte à côte, même échelle) : sourire franc réussi sur les 4, identité préservée (yeux, nez, grain de beauté intacts). v2 recommandée (moustache la plus fidèle, sourire naturel) |
+| 2026-11-04 | decision | Réalisateur : VALIDER GPJ_04 v2 |
+| 2026-11-04 | file | GPJ_04 U2 terminé (0,12 crédit) → Magnific dt7bWk8XSL = GPJ_04_SMILE. Références du grand-père jeune TERMINÉES |
+| 2026-11-04 | op | Fiche du grand-père âgé, méthode de vieillissement (image de référence GPJ_01_MASTER, --iw 1.5) et prompt GPA_01 rédigés — aucune génération |
+| 2026-11-04 | decision | Réalisateur : grand-père âgé — djellaba brun grisé OK, taqiya NON, chapelet en bois OUI (accessoire S1, référence d'objet dédiée). Prompt GPA_01 : validation explicite attendue |
+| 2026-11-04 | tool | Réalisateur : VALIDER GPA_01 → Midjourney V8.2 fast, image de référence GPJ_01_MASTER --iw 1.5, task 1927c4fa-3fae-4795-b2e1-b3b4d486bf1e |
+| 2026-11-04 | tool | GPA_01 terminé (task 1927c4fa…, image_id 1567648742687899648) → Magnific Eb2UvdfuuO, BhOKp0aoQR, aF3ltoofSh, gOBGjjOSXO |
+| 2026-11-04 | qc | GPA_01 : vieillissement INSUFFISANT sur les 4 (paraissent 45–55 ans, cheveux encore foncés ; moustache blanche OK, djellaba brun grisé OK). Grain de beauté au bon endroit uniquement sur v3. Ressemblance avec le jeune : correcte. Cause : --iw 1.5 recopie trop la jeunesse. Aucune validable comme 73 ans |
+| 2026-11-04 | decision | Réalisateur : VALIDE le plan de vieillissement en deux temps (U3 de GPA_01 comme étape ~50 ans, puis génération --iw 1.0 + signes d'âge renforcés). Étape 1 : task 776eb6c1-bf92-4bd9-b500-aeca4ebedc47 |
+| 2026-11-04 | tool | Étape 1 : GPA_01 U3 terminé (0,12 crédit, image_id 1567649191411318784) = étape intermédiaire ~50 ans |
+| 2026-11-04 | tool | Étape 2 : GPA_01 v2 lancé — image de référence étape intermédiaire --iw 1.0, signes d'âge renforcés, --no dark hair / middle-aged face ; task fb8dd1cd-8c6d-43fe-8d21-42118ab5a02f |
+| 2026-11-04 | tool | GPA_01 v2 terminé (task fb8dd1cd…, image_id 1567650023758364672, 0,401 crédit) → Magnific p8UqX5Cehw, 1lVijAZr4r, xSDRsYWjfW, P3aMNtR42C |
+| 2026-11-04 | qc | GPA_01 v2 (côte à côte avec le jeune) : vieillissement réussi (≈ 65–70 ans, cheveux gris-blanc, rides profondes). Grain de beauté : bon côté sur v1 et v3, mauvais côté sur v2, deux grains sur v4. v3 recommandée (âge le plus crédible, ossature et nez cohérents avec le jeune) |
+| 2026-11-04 | decision | Réalisateur : VALIDER GPA_01 v2 n°3 → upscale U3 (task 8f16711e-5160-436d-9b36-19c15d08a31e), seed 4047429917 |
+| 2026-11-04 | file | GPA_01 U3 terminé (0,12 crédit, 928×1232) → Magnific N2EeRSy6D9 = GPA_01_MASTER |
+| 2026-11-04 | decision | Réalisateur : passer aux OBJETS. Fiche des objets et prompt PRP_01 (boîte fermée) rédigés — aucune génération |
+| 2026-11-04 | tool | Réalisateur : VALIDER PRP_01 → Midjourney V8.2 fast, task 8ab3756e-2229-471b-8cd7-c97f650cb7fb |
+| 2026-11-04 | tool | PRP_01 terminé (task 8ab3756e…, image_id 1567651967856017408, 0,401 crédit) → Magnific Eb2wkLjuuO, N2EezMD6D9, gOBz4zASXO, Eb2wkJ7uuO |
+| 2026-11-04 | qc | PRP_01 : aucun texte sur les 4 ✅. v1 motif floral lisible, trace de doigt dans la poussière, rai de lumière → recommandée ; v2 trop profonde (proportions) ; v3 très usée, bonnes proportions → alternative ; v4 motif presque effacé |
+| 2026-11-04 | decision | Réalisateur : VALIDER PRP_01 v1 → upscale U1 (task 78f9c3a8-0a41-460a-809e-eb3cf7f2abd5), seed 3943399178 |
+| 2026-11-04 | file | PRP_01 U1 terminé (0,12 crédit, 1232×928) → Magnific MBgFtiCDCm = PRP_01_MASTER. Proposition PRP_02 (retouche par zone couvercle + contenu) rédigée |
+| 2026-11-04 | decision | Réalisateur : VALIDER PRP_02 |
+| 2026-11-04 | op | Masque PRP_02 : le rectangle donnait des répétitions longues (2 recopies fausses, NON envoyées, détectées par comparaison automatique). Masque final en trapèze couvrant couvercle + espace au-dessus (1324 caractères), recopié ligne par ligne et vérifié IDENTIQUE avant envoi |
+| 2026-11-04 | tool | PRP_02 Vary Region sur PRP_01_MASTER (image_id 1567652509986586624), task 65312644-0934-4e74-86fd-dad630b66cc5 |
+| 2026-11-04 | error | PRP_02 Vary Region ÉCHEC sans coût : « The canvas size does not match the image size ». Masque lu (copie vérifiée correcte), mais dimensions 1232×928 refusées pour cette image paysage (les portraits 928×1232 étaient acceptés) |
+| 2026-11-04 | op | Alternative évaluée : Magnific Nano Banana 2.1 (édition d'image avec PRP_01_MASTER en référence), coût simulé ≈ 65 crédits Magnific — en attente du réalisateur |
+| 2026-11-05 | decision | Réalisateur : option A — PRP_02 via Magnific Nano Banana 2.1 (édition avec PRP_01_MASTER en référence) |
+| 2026-11-05 | tool | Magnific images_generate imagen-nano-banana-2-1, 1 image 4:3 2k, 65 crédits → Magnific iGQ1qrd3uK |
+| 2026-11-05 | qc | PRP_02 : même boîte (motif, rouille, planche, lumière) ✅ ; couvercle relevé, motif intérieur ✅ ; drapeau plié rouge passé, étoile verte ✅ ; Coran de poche vert usé, fermé, ornement sans texte lisible ✅ ; sable dans un tissu blanc noué ✅ mais aspect un peu « métal doré » plutôt que sable fin ⚠️ ; la tache de poussière du couvercle extérieur réapparaît sur l'intérieur ⚠️ (mineur). Aucun texte |
+| 2026-11-05 | decision | Réalisateur : VALIDER PRP_02 telle quelle (sable non corrigé) |
+| 2026-11-05 | decision | Réalisateur : VALIDER + corriger le sable (revient sur la validation telle quelle) ; approche des gros plans d'objets validée |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, correction du sable sur PRP_02 (référence iGQ1qrd3uK), 65 crédits → cpj7UuQ0eP |
+| 2026-11-05 | qc | Sable désormais fin et granuleux, quelques grains s'échappent jusqu'à la planche ✅ ; reste de l'image conservé |
+| 2026-11-05 | decision | Réalisateur : OUI — PRP_02_OPEN v2 (sable corrigé, cpj7UuQ0eP) remplace la v1 |
+| 2026-11-05 | decision | Réalisateur : VALIDER prompt PRP_03 (gros plan du drapeau) |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_02_OPEN v2, 65 crédits → KL0XB8gkqp |
+| 2026-11-05 | qc | PRP_03 : même drapeau que la boîte ✅ ; coton usé, effilochure, petit accroc ✅ ; grains de sable sur le tissu ✅ ; étoile verte en pentagramme à contour, partiellement visible sur le pli ✅ (traits épais, entrelacement peu lisible, branches déformées par le pli ⚠️) ; bord de la boîte net au premier plan au lieu de flou (mineur) ; aucun texte |
+| 2026-11-05 | decision | Réalisateur : VALIDER PRP_03 telle quelle (étoile non corrigée) |
+| 2026-11-05 | decision | Réalisateur : option A pour PRP_04 (Coran posé seul dans la boîte) |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_02_OPEN v2, 65 crédits → jUptC0fLD0 |
+| 2026-11-05 | qc | PRP_04 : même Coran que la boîte ✅ ; couverture verte usée, tranche jaunie, posé droit avec soin ✅ ; grains de sable sur la couverture ✅ ; drapeau et sac de sable cohérents ✅ ; aucun texte lisible ✅ — MAIS le médaillon central contient des traits pseudo-calligraphiques (illisibles, pas de vraie écriture) malgré la consigne « no calligraphy » ⚠️ à arbitrer par le réalisateur (respect du livre sacré) |
+| 2026-11-05 | decision | Réalisateur : option B — remplacer le médaillon pseudo-calligraphique du Coran par un motif géométrique |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_04 v1 jUptC0fLD0, 65 crédits → YMrU95CWeC (l'attente du résultat a été interrompue par le réalisateur ; génération vérifiée terminée, pas de relance) |
+| 2026-11-05 | qc | PRP_04 v2 : médaillon remplacé par une étoile à huit branches entrelacée, purement géométrique ✅ ; aucun trait d'écriture, ornements d'angle en arabesques végétales ✅ ; reste de l'image conservé (livre, drapeau, sable, boîte) ✅ |
+| 2026-11-05 | decision | Réalisateur : VALIDER PRP_04 v2 (médaillon géométrique) |
+| 2026-11-05 | decision | Réalisateur : VALIDER prompt PRP_05 (gros plan du sable) |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_02_OPEN v2, 65 crédits → MBgPTFbDCm (attente interrompue par le réalisateur ; génération vérifiée terminée, pas de relance) |
+| 2026-11-05 | qc | PRP_05 : macro du sable dans le même tissu de coton blanc ✅ ; grains individuels visibles, lumière chaude de gauche ✅ ; quelques grains en suspension ✅ ; naturel, sans étincelles ✅ — MAIS grains assez gros et réguliers, aspect proche du sucre roux / semoule plutôt que d'un sable fin presque poudreux ⚠️ ; doré un peu plus pâle que dans PRP_02 ⚠️ |
+| 2026-11-05 | decision | Réalisateur : option B — corriger le sable de PRP_05 |
+| 2026-11-05 | tool | Magnific Nano Banana 2.1, référence PRP_05 v1 MBgPTFbDCm, 65 crédits → u5AVFJqQLD |
+| 2026-11-05 | qc | PRP_05 v2 : sable fin, irrégulier, presque poudreux, grains de tailles variées avec quelques grains sombres (réaliste), voile de poussière en suspension ✅ ; se lit comme du sable de dune ✅ ; même tissu, cadrage et lumière ✅ ; teinte plus ocre-ambre que dorée ⚠️ (l'éclat doré pourra être renforcé à l'étalonnage et dans les effets) |
+| 2026-11-05 | decision | Réalisateur : VALIDER PRP_05 v2 (teinte ocre-ambre conservée) |
+| 2026-11-05 | tool | Réalisateur : VALIDER prompt PRP_06 (chapelet) → Midjourney V8.2 fast, task d9e6c88a-6b04-4f7d-9d4b-ae5dc1cfeb31 |
+| 2026-11-05 | tool | PRP_06 terminé (task d9e6c88a…, image_id 1567986004172734464, 0,401 crédit) → Magnific ovyZCi9829, BhORfZCoQR, xSDt7acjfW, N2EkzlW6D9 |
+| 2026-11-05 | qc | PRP_06 : bois sombre poli, patine, gland de fil sombre, planche de cèdre, lumière cohérente ✅ ; aucun métal/plastique/texte/main ✅ ; MAIS les 4 montrent environ 99 à 108 perles, pas 33 ⚠️ (99 = 3×33 = chapelet musulman complet, plausible) ; v3 la plus lisible (une boucle régulière, séparateur et gland nets) → recommandée ; v2 très dense (3 boucles) ; v4 gland éloigné |
+| 2026-11-05 | decision | Réalisateur : VALIDER PRP_06 v3 → upscale U3 (task a61734e6-b58c-465c-8e3d-d4cb8d0ae00f). Nombre de perles ≈ 99 accepté (3×33) |
+| 2026-11-05 | file | PRP_06 U3 terminé (0,12 crédit, 1232×928) → Magnific u5AVLoyQLD = PRP_06_TASBIH. Références des objets TERMINÉES |
+| 2026-11-05 | decision | Réalisateur : VALIDER le passage aux décors, en commençant par le grenier |
+| 2026-11-05 | op | Fiche du grenier (ENV_01) et prompt Midjourney (plan large 16:9, fenêtre à gauche) rédigés — aucune génération. Note : le connecteur Midjourney est en cours de reconnexion à l'instant |
+| 2026-11-05 | tool | Réalisateur : VALIDER prompt ENV_01 (grenier) → Midjourney V8.2 fast 16:9, task 381ab97a-334a-4505-b2ed-ba4bac27c4bc |
+
+## 2026-11-05 — ENV_01 grenier : grille reçue et QC
+- Tâche Midjourney 381ab97a-334a-4505-b2ed-ba4bac27c4bc (0,401 crédit). 4 recadrages importés dans Magnific : 1=p8UN3Fzehw, 2=gOBfunQSXO, 3=UP8EFMPwny, 4=s7dvCTel8e (aucun coût de génération Magnific).
+- QC : 1 = fenêtre gauche OK, rai ambré net avec poussière, poutres cèdre, chaux écaillée, coffre bas coin droit, porte+escalier au fond ; sol plutôt terre battue que terracotta. 2 = très photoréaliste, rai de lumière faible, coffre droit OK. 3 = murs nus clairs (bon support fresque) mais lumière peu ambrée. 4 = REJETÉE : seconde ouverture lumineuse à droite (viole « une seule fenêtre »).
+- Recommandation : 1 (ambiance) ; alternative 2. En attente de VALIDER N.
+
+## 2026-11-05 — ENV_01 validé
+- Décision du réalisateur : VALIDER 1. Upscale U1 : task b4aa874a-a95a-418f-86bf-1c7c41d76e1e (0,12 crédit Midjourney), 1456×816. Importé dans Magnific : JNmF1txOq4.
+- Prochaines étapes proposées : ENV_01b (coin du coffre), ENV_01c (mur nu pour la fresque). Aucune génération lancée.
+
+## 2026-11-05 — ENV_01b et ENV_01c générés (séquentiel)
+- ENV_01b hu6nDG3vqL (65 cr) et ENV_01c ksToCwi16B (65 cr), Nano Banana 2.1, référence ENV_01_MASTER JNmF1txOq4. Total Magnific : 130 crédits. Dossier cible non appliqué : les résultats sont dans le projet Personnel.
+- QC : même pièce reconnaissable, aucun texte, aucun câble. Réserves : coffre ENV_01b plus clair que le MASTER ; ENV_01c lumière frontale. En attente de validation.
+
+## 2026-11-05 — ENV_01b et ENV_01c validés
+- Réponse du réalisateur : « VALIDER » (les deux). Réserve acceptée : coffre ENV_01b plus clair que le MASTER (à corriger en VFX/étalonnage si besoin). GRENIER : RÉFÉRENCES TERMINÉES. Aucune génération lancée.
+
+## 2026-11-05 — ENV_02 patio : fiche et prompt proposés
+- Fiche ENV_02_PATIO_SHEET.md rédigée (bible C). Aucune génération lancée, en attente du VALIDER du prompt.
+
+## 2026-11-05 — ENV_02 patio : grille reçue et QC
+- Tâche Midjourney 17cb0454-5a5b-4698-b7d3-d9af9b64af33 (image_id 1567997803047682048), 2048×1146, split_images était désactivé : grille importée dans Magnific (VXlPnpiMMU) puis découpée avec images_split_grid (0 crédit). Tuiles : 1=bxWdE6S5Y2, 2=rgMIq2axtc, 3=bxWdEiU5Y2, 4=jUpm5zeLD0.
+- QC : 1 = belle, banc à gauche, escalier à droite, mais bandeau sombre parasite au bord droit, bassin plat. 2 = la meilleure : fontaine zellige vert/blanc, banc à coussins, escalier de bois à droite, aucune inscription, lumière chaude de gauche. 3 = sombre, belle fontaine, lumière zénithale forte. 4 = lumineuse, escalier peu lisible à droite. Aucun texte lisible sur les 4.
+- Recommandation : 2. En attente de VALIDER N.
+
+## 2026-11-05 — ENV_02 validé
+- Décision : VALIDER 2. Upscale U2 task 1f870c31-e8bd-4256-81b7-9ef675320ccf (0,12 crédit), 1456×816, importé dans Magnific : lJXareYgv9. Aucune autre génération lancée.
+
+## 2026-11-05 — ENV_02b et ENV_02c générés (séquentiel)
+- ENV_02b KL0BHjPkqp et ENV_02c WDx7GLXcXe (65 cr chacun, 130 au total), Nano Banana 2.1, référence ENV_02_MASTER lJXareYgv9. En attente de validation.
+
+## 2026-11-05 — ENV_02b et ENV_02c validés
+- Réponse : « VALIDER » (les deux). PATIO : RÉFÉRENCES TERMINÉES (ENV_02, 02b, 02c). Décors de Fès terminés. Aucune génération lancée.
+
+## 2026-11-05 — ENV_03 désert : fiche et prompt proposés
+- Fiche ENV_03_DESERT_SHEET.md rédigée (bible C, F, H). Aucune génération lancée.
+
+## 2026-11-05 — ENV_03 désert : grille reçue et QC
+- Tâche Midjourney 3b1edf75-040f-4be9-90b7-e992159724e8 (image_id 1567999258685079552, 0,401 crédit), 2048×1146. Grille importée dans Magnific (hu6nmG7vqL), découpée gratuitement. Tuiles : 1=gOBflbzSXO, 2=P3abyLS42C, 3=1lV8kEir4r, 4=LwehjHCswO.
+- QC : aucune personne, drapeau, texte, ligne électrique ni route. 1 = dunes basses au premier plan, profondeur, voile de sable, 4 camions minuscules à l'horizon (la plus cinématographique). 2 = sable rosé, plat, ligne de camions. 3 = sable doré proche de la palette #D9B98A, plat, camions à gauche. 4 = plat, sable rosé, camions groupés au centre droit, traces de roues. Soleil de dos/droite moins net sur toutes (ombres peu marquées).
+- Recommandation : 1 ; alternative 3 (palette). En attente de VALIDER N.
+
+## 2026-11-05 — ENV_03 validé
+- Décision : VALIDER 1. Upscale U1 task da686f5a-9495-4720-8b93-3962cdd606b5 (0,12 crédit), 1456×816, importé dans Magnific : nV1wWtcYQD. Aucune autre génération lancée.
+
+## 2026-11-05 — ENV_03b et ENV_04 : fiches et prompts proposés
+- ENV_03b ajouté à ENV_03_DESERT_SHEET.md (Nano Banana, 65 cr). ENV_04_FOULE_SHEET.md rédigée avec garde-fous bible H. Aucune génération lancée.
+
+## 2026-11-05 — ENV_04 foule : grille reçue et QC
+- Tâche Midjourney d0ffed55-766e-4789-914f-fadd08a22537 (image_id 1568000351863308288, 0,401 crédit), 2048×1146. Grille importée dans Magnific (ovy2mWT829), découpée gratuitement. Tuiles : 1=LwevUl7swO, 2=P3a5iN942C, 3=WDxJMTkcXe, 4=XmJRt8cBfo.
+- QC garde-fous : foules vues de dos/de loin, aucun portrait, aucun texte, aucune arme ni uniforme, camions bâchés et tentes sans marque. 1 = ampleur maximale (foule à perte de vue), 2 drapeaux seulement, étoiles peu lisibles ; 2 = drapeaux nombreux, soleil à droite, étoile du grand drapeau peu nette ; 3 = dense, drapeaux à hauteurs variées, camions et tentes lisibles ; 4 = foule plus clairsemée, drapeaux les plus nets (étoile verte lisible), bon pour intégrer le grand-père. Visages de profil partiels aux bords sur 1 et 3 (pas de gros plans).
+- Recommandation : 1 (ampleur) ; alternative 4 (drapeaux et espace). Défauts de drapeaux à corriger au besoin. En attente de VALIDER N.
+
+## 2026-11-05 — ENV_04 validé
+- Décision : VALIDER 1. Upscale U1 task 1e53ce31-78d1-4301-b590-8de6f8855722 (0,12 crédit), 1456×816, importé dans Magnific : dt73mmpXSL. Aucune autre génération lancée. ENV_03b (sable au ras du sol) reste proposée, non validée.
+
+## 2026-11-05 — Phase 3 : découpage S1 proposé
+- 03_SEQUENCE_01/05_STORYBOARD.md rédigé (10 plans × 9 s). Aucune génération lancée. Coûts estimés : images de départ ≈ 585 cr, animation Kling ≈ 8 550 (1080p) / 6 300 (720p) en une passe.
+
+## 2026-11-05 — S1 découpage validé
+- Décision du réalisateur : « VALIDER SCENE SILENCIEUSE PLEIN CADRE ». Découpage S1 validé, aucun dialogue, 16:9 plein cadre.
+- Prompts des images de départ et des vidéos des plans 1 à 4 rédigés (06_VIDEO_PROMPTS.md). Aucune génération lancée.
+
+## 2026-11-05 — TEST 1 : S1-01 (Kling 3.0 Omni, 1080p, 9 s)
+- Autorisation : « VALIDER TEST 1 ». Génération unique, creation If4GFLQtvE, 855 crédits. Solde après : voir message.
+- QC : décor non fidèle au MASTER (dérive d'architecture), push-in trop fort, jet de fontaine exagéré en fin de plan, pas d'oiseau. Pas de défaut grave sinon. v1 non validée. Aucune reprise lancée sans accord.
+
+## 2026-11-05 — S1-01 reprise v2 (Kling 3.0 Omni, 1080p, 9 s)
+- Autorisation : « REPRISE 1080p ». Creation dt73qaYXSL, 855 crédits (total plan S1-01 : 1 710). Solde attendu ≈ 17 465.
+- QC : décor stable, push-in à peine perceptible, plus de colonne d'eau. Cadrage un peu plus large que le MASTER. Recommandé ; en attente de validation.
+
+## 2026-11-05 — S1-01 validé
+- Décision : VALIDER v2 (Magnific dt73qaYXSL). Aucune génération lancée. Prochaine étape proposée : TEST 2 (plan S1-03), non lancé.
+
+## 2026-11-05 — S1-03 image de départ v1
+- Autorisation : « VALIDER IMAGE S1-03 ». Creation tC9zsgymZJ, 65 crédits (solde ≈ 17 400). QC : voir SHOT_RECORDS.md. Aucune vidéo lancée.
+
+## 2026-11-05 — S1-03 image de départ v2
+- Autorisation : « MODIFIER IMAGE ». Creation P3a5d9542C, 65 crédits (solde ≈ 17 335). Yeux mi-clos obtenus, visage encore peu dans l'ombre. Aucune vidéo lancée.
+
+## 2026-11-05 — S1-03 vidéo v1 (Kling 3.0 Omni, 1080p, 9 s)
+- Autorisation : « VALIDER IMAGE v2 + LANCER VIDEO ». Image v2 P3a5d9542C validée. Creation YMr7QgGWeC, 855 crédits (solde ≈ 16 480).
+- QC : stable mais cadrage recomposé plus large que l'image de départ ; visage trop petit pour juger l'identité. En attente de décision.
+
+## 2026-11-05 — S1-03 image de départ v3 (serrée)
+- Autorisation : « REPRISE SERRÉE ». Creation gOBCdN9SXO, 65 crédits (solde ≈ 16 415). Cadrage serré obtenu ; ressemblance approximative, grain de beauté absent. Aucune vidéo lancée.
+
+## 2026-11-05 — S1-03 décision
+- Décision : « PLAN LARGE ». S1-03 = vidéo Magnific YMr7QgGWeC (plan large, visage non identifiable). Image v3 gOBCdN9SXO non utilisée. Coût total S1-03 : 65 + 65 + 855 + 65 = 1 050 crédits. Aucune génération lancée.
+
+## 2026-11-05 — S1-02 image de départ v1
+- Autorisation : « VALIDER IMAGE S1-02 ». Creation w4IQt107EI, 65 crédits (solde ≈ 16 350). Aucune vidéo lancée.
+
+## 2026-11-05 — S1-02 vidéo v1 (Kling 3.0 Omni, 1080p, 9 s)
+- Autorisation : « VALIDER IMAGE + LANCER VIDÉO S1-02 ». Creation jUphXBNLD0, 855 crédits (solde ≈ 15 495). QC : stable, reflets et ondulations, gouttes discrètes, fond simplifié. Recommandée ; en attente de validation.

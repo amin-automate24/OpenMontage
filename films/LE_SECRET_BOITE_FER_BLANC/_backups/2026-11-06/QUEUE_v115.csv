@@ -1,0 +1,136 @@
+id,shot,kind,model,est_credits,approved,status
+Q01,S1-04,image,imagen-nano-banana-2-1,65,1,DONE
+Q02,S1-04,video,kling-omni3 1080p 9s,855,1,DONE
+Q03,S1-05,image,imagen-nano-banana-2-1,65,1,DONE
+Q04,S1-05,video,kling-omni3 1080p 9s,855,1,DONE
+Q05,S1-06,image,imagen-nano-banana-2-1,65,1,DONE
+Q06,S1-06,video,kling-omni3 1080p 9s,855,1,DONE
+Q07,S1-07,image,imagen-nano-banana-2-1,65,1,DONE
+Q08,S1-07,video,kling-omni3 1080p 9s,855,1,DONE
+Q09,S1-08,image,imagen-nano-banana-2-1,65,1,DONE
+Q10,S1-08,video,kling-omni3 1080p 9s,855,1,DONE
+Q11,S1-09,image,imagen-nano-banana-2-1,65,1,DONE
+Q12,S1-09,video,kling-omni3 1080p 9s,855,1,DONE
+Q13,S1-10,image,imagen-nano-banana-2-1,65,1,DONE
+Q14,S1-10,video,kling-omni3 1080p 9s,855,1,DONE
+Q15,S1-06b,image,imagen-nano-banana-2-1,65,1,DONE
+Q16,S1-06b,video,kling-omni3 1080p 9s,855,1,DONE
+Q17,S2-01,video,kling-omni3 1080p 9s,855,1,DONE
+Q18,S2-02,image,imagen-nano-banana-2-1,65,1,DONE
+Q19,S2-02,video,kling-omni3 1080p 9s,855,1,DONE
+Q20,S2-03,image,imagen-nano-banana-2-1,65,1,DONE
+Q21,S2-03,video,kling-omni3 1080p 9s,855,1,DONE
+Q22,S2-04,image,imagen-nano-banana-2-1,65,1,DONE
+Q23,S2-04,video,kling-omni3 1080p 9s,855,1,DONE
+Q24,S2-05,image,imagen-nano-banana-2-1,65,1,DONE
+Q25,S2-05,video,kling-omni3 1080p 9s,855,1,DONE
+Q26,S2-06,image,imagen-nano-banana-2-1,65,1,DONE
+Q27,S2-06,video,kling-omni3 1080p 9s,855,1,DONE
+Q28,S2-07,image,imagen-nano-banana-2-1,65,1,DONE
+Q29,S2-07,video,kling-omni3 1080p 9s,855,1,DONE
+Q30,S2-08,image,imagen-nano-banana-2-1,65,1,DONE
+Q31,S2-08,video,kling-omni3 1080p 9s,855,1,DONE
+Q32,S2-09,image,imagen-nano-banana-2-1,65,1,DONE
+Q33,S2-09,video,kling-omni3 1080p 9s,855,1,DONE
+Q34,S2-10,image,imagen-nano-banana-2-1,65,1,DONE
+Q35,S2-10,video,kling-omni3 1080p 9s,855,1,DONE
+Q36,S2-03b,image,imagen-nano-banana-2-1,65,1,DONE
+Q37,S2-03b,video,kling-omni3 1080p 9s,855,1,DONE
+Q38,S2-10,image,imagen-nano-banana-2-1,65,1,DONE
+Q39,S2-10,image,imagen-nano-banana-2-1,65,1,DONE
+Q40,S2-10,video,kling-omni3 1080p 9s,855,1,DONE
+Q41,S2-10,image,imagen-nano-banana-2-1,65,1,DONE
+Q42,S3-01,image,imagen-nano-banana-2-1,65,1,DONE
+Q43,S3-01,video,kling-omni3 1080p 9s,855,1,DONE
+Q44,S3-02,image,imagen-nano-banana-2-1,65,1,DONE
+Q45,S3-02,video,kling-omni3 1080p 9s,855,1,DONE
+Q46,S3-03,image,imagen-nano-banana-2-1,65,1,DONE
+Q47,S3-03,video,kling-omni3 1080p 9s,855,1,DONE
+Q48,S3-04,image,imagen-nano-banana-2-1,65,1,DONE
+Q49,S3-04,video,kling-omni3 1080p 9s,855,1,DONE
+Q50,S3-05,image,imagen-nano-banana-2-1,65,1,DONE
+Q51,S3-05,video,kling-omni3 1080p 9s,855,1,DONE
+Q52,S3-06,image,imagen-nano-banana-2-1,65,1,DONE
+Q53,S3-06,video,kling-omni3 1080p 9s,855,1,DONE
+Q54,S3-07,image,imagen-nano-banana-2-1,65,1,DONE
+Q55,S3-07,video,kling-omni3 1080p 9s,855,1,DONE
+Q56,S3-08,image,imagen-nano-banana-2-1,65,1,DONE
+Q57,S3-08,video,kling-omni3 1080p 9s,855,1,DONE
+Q58,S3-09,image,imagen-nano-banana-2-1,65,1,DONE
+Q59,S3-09,video,kling-omni3 1080p 9s,855,1,DONE
+Q60,S3-10,image,imagen-nano-banana-2-1,65,1,DONE
+Q61,S3-10,video,kling-omni3 1080p 9s,855,1,DONE
+Q62,S3-03b,image,imagen-nano-banana-2-1,65,1,DONE
+Q63,S3-03b,video,kling-omni3 1080p 9s,855,1,DONE
+Q64,S4-01,image,imagen-nano-banana-2-1,65,1,DONE
+Q65,S4-01,video,kling-omni3 1080p 9s,855,1,DONE
+Q66,S4-02,image,imagen-nano-banana-2-1,65,1,DONE
+Q67,S4-02,video,kling-omni3 1080p 9s,855,1,DONE
+Q68,S4-03,image,imagen-nano-banana-2-1,65,1,DONE
+Q69,S4-03,video,kling-omni3 1080p 9s,855,1,DONE
+Q70,S4-04,image,imagen-nano-banana-2-1,65,1,DONE
+Q71,S4-04,video,kling-omni3 1080p 9s,855,1,DONE
+Q72,S4-05,image,imagen-nano-banana-2-1,65,1,DONE
+Q73,S4-05,video,kling-omni3 1080p 9s,855,1,DONE
+Q74,S4-06,image,imagen-nano-banana-2-1,65,1,DONE
+Q75,S4-06,video,kling-omni3 1080p 9s,855,1,DONE
+Q76,S4-07,image,imagen-nano-banana-2-1,65,1,DONE
+Q77,S4-07,video,kling-omni3 1080p 9s,855,1,DONE
+Q78,S4-08,image,imagen-nano-banana-2-1,65,1,DONE
+Q79,S4-08,video,kling-omni3 1080p 9s,855,1,DONE
+Q80,S4-09,image,imagen-nano-banana-2-1,65,1,DONE
+Q81,S4-09,video,kling-omni3 1080p 9s,855,1,DONE
+Q82,S4-10,image,imagen-nano-banana-2-1,65,1,DONE
+Q83,S4-10,video,kling-omni3 1080p 9s,855,1,DONE
+Q84,S4-11,image,imagen-nano-banana-2-1,65,1,DONE
+Q85,S4-11,video,kling-omni3 1080p 9s,855,1,DONE
+Q86,S4-06,image,imagen-nano-banana-2-1 (reprise civile),65,1,DONE
+Q87,S4-06,video,kling-omni3 1080p 9s (reprise),855,1,DONE
+Q88,S4-11,image,imagen-nano-banana-2-1 (reprise Ford),65,1,DONE
+Q89,S4-11,video,kling-omni3 1080p 9s (reprise),855,1,DONE
+Q90,S5-01,image,imagen-nano-banana-2-1,65,1,DONE
+Q91,S5-01,video,kling-omni3 1080p 9s,855,1,DONE
+Q92,S5-02,image,imagen-nano-banana-2-1,65,1,DONE
+Q93,S5-02,video,kling-omni3 1080p 9s,855,1,DONE
+Q94,S5-03,image,imagen-nano-banana-2-1,65,1,DONE
+Q95,S5-03,video,kling-omni3 1080p 9s,855,1,DONE
+Q96,S5-04,image,imagen-nano-banana-2-1,65,1,DONE
+Q97,S5-04,video,kling-omni3 1080p 9s,855,1,DONE
+Q98,S5-05,image,imagen-nano-banana-2-1,65,1,DONE
+Q99,S5-05,video,kling-omni3 1080p 9s,855,1,DONE
+Q100,S5-06,image,imagen-nano-banana-2-1,65,1,DONE
+Q101,S5-06,video,kling-omni3 1080p 9s,855,1,DONE
+Q102,S5-07,image,imagen-nano-banana-2-1,65,1,DONE
+Q103,S5-07,video,kling-omni3 1080p 9s,855,1,DONE
+Q104,S5-08,image,imagen-nano-banana-2-1,65,1,DONE
+Q105,S5-08,video,kling-omni3 1080p 9s,855,1,DONE
+Q106,S5-02,video,kling-omni3 1080p 9s (reprise),855,1,DONE
+Q107,S5-03,video,"kling-30 1080p 9s (reprise, test modele)",810,1,DONE
+Q108,S5-04,video,kling-30 1080p 9s,810,1,DONE
+Q109,S5-05,video,kling-30 1080p 9s,810,1,DONE
+Q110,S5-06,video,kling-30 1080p 9s,810,1,DONE
+Q111,S5-07,video,kling-30 1080p 9s,810,1,DONE
+Q112,S5-08,video,kling-30 1080p 9s,810,1,DONE
+Q120,S6-01,image,imagen-nano-banana-2-1,65,1,DONE
+Q121,S6-01,video,kling-30 1080p 9s,810,1,DONE
+Q122,S6-02,image,imagen-nano-banana-2-1,65,1,DONE
+Q123,S6-02,video,kling-30 1080p 9s,810,1,DONE
+Q124,S6-03,image,imagen-nano-banana-2-1,65,1,DONE
+Q125,S6-03,video,kling-30 1080p 9s,810,1,DONE
+Q126,S6-04,image,imagen-nano-banana-2-1,65,1,DONE
+Q127,S6-04,video,kling-30 1080p 9s,810,1,PENDING
+Q128,S6-05,image,imagen-nano-banana-2-1,65,1,DONE
+Q129,S6-06,image,imagen-nano-banana-2-1,65,1,DONE
+Q130,S6-07,image,imagen-nano-banana-2-1,65,1,DONE
+Q131,S6-07,video,kling-30 1080p 9s,810,1,DONE
+Q132,S6-08,image,imagen-nano-banana-2-1,65,1,DONE
+Q133,S6-08,video,kling-30 1080p 9s,810,1,DONE
+Q134,S6-09,image,imagen-nano-banana-2-1,65,1,DONE
+Q135,S6-09,video,kling-30 1080p 9s,810,1,PENDING
+Q136,S6-10,image,imagen-nano-banana-2-1,65,1,DONE
+Q137,S6-10,video,kling-30 1080p 9s,810,1,DONE
+Q140,S6-08,image,"imagen-nano-banana-2-1 (refaire, image de depart couvercle ouvert)",65,1,DONE
+Q141,S6-08,video,"kling-30 1080p 9s (refaire, start+end frame)",810,1,DONE
+Q142,S6-10,video,"kling-30 1080p 9s (refaire, start+end frame)",810,1,DONE
+Q143,S6-10,image,images_retouch (etoile du drapeau),75,1,DONE
+Q144,S6-10,video,"kling-30 1080p 9s (v3, etoile corrigee, start=end)",810,1,PENDING

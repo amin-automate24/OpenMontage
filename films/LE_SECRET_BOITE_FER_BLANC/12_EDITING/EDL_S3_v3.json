@@ -1,0 +1,71 @@
+{
+ "output": "S3_cut_v1.mp4",
+ "fade_in": 0.5,
+ "fade_out": 0.1,
+ "clips": [
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-01_jUp5cJwLD0.mp4",
+   "in": 0,
+   "out": 7.0,
+   "label": "S3-01"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-02_jUp5pWRLD0.mp4",
+   "in": 0,
+   "out": 6.0,
+   "label": "S3-02",
+   "transition": "dissolve",
+   "dur": 0.6
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-03b_REVERSED_copy.mp4",
+   "in": 0,
+   "out": 8.0,
+   "label": "S3-03"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-04_O6hgSgPynm.mp4",
+   "in": 0,
+   "out": 8.0,
+   "label": "S3-04"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-05_WDx2WoAcXe.mp4",
+   "in": 0,
+   "out": 3.5,
+   "label": "S3-05"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-06_lJXr75Qgv9.mp4",
+   "in": 0,
+   "out": 8.0,
+   "label": "S3-06"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-07_jUpKO5lLD0.mp4",
+   "in": 0,
+   "out": 7.0,
+   "label": "S3-07"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-08_Lwek3QKswO.mp4",
+   "in": 0,
+   "out": 8.5,
+   "label": "S3-08"
+  },
+  {
+   "file": "09_MAGNIFIC_GENERATIONS/S3/S3-09_Lwekz1hswO.mp4",
+   "in": 0,
+   "out": 6.0,
+   "label": "S3-09"
+  },
+  {
+   "file": "12_EDITING/S3_assets/S3-10_v3_slow_whitefade_v1.mp4",
+   "in": 0,
+   "out": 9.0,
+   "label": "S3-10 v3 (Corans tenus)",
+   "transition": "dissolve",
+   "dur": 1.5
+  }
+ ]
+}

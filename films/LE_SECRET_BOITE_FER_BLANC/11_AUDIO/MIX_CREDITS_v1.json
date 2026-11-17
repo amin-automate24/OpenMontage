@@ -1,0 +1,17 @@
+{
+ "project": "..",
+ "output": "MIX_CREDITS_v1",
+ "video": "12_EDITING/CARDS/CREDITS_v1.mp4",
+ "target_lufs": -23,
+ "tracks": [
+  {
+   "label": "M1 theme de Yassine (suite, generique)",
+   "file": "11_AUDIO/MUSIC/M1_theme_yassine_v1_s7XgFrRl8e.mp3",
+   "in": 22,
+   "start": 0,
+   "dur": 50,
+   "fade_in": 2.5,
+   "fade_out": 6
+  }
+ ]
+}

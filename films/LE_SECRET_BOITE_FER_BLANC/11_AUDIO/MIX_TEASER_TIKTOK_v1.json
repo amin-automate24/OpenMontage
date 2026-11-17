@@ -1,0 +1,19 @@
+{
+ "project": "..",
+ "output": "MIX_TEASER_TIKTOK_v1",
+ "video": "12_EDITING/TEASER_TIKTOK/TEASER_TIKTOK_video_v1.mp4",
+ "target_lufs": -14,
+ "tracks": [
+  {
+   "label": "M6 generique de fin (montee) pour le teaser",
+   "file": "11_AUDIO/MUSIC/M6_generique_fin_v1_fHZq3WbCDY.mp3",
+   "in": 12,
+   "start": 0,
+   "dur": 34.7,
+   "fade_in": 0.5,
+   "fade_out": 2.6,
+   "norm_whole": true,
+   "lufs": -14
+  }
+ ]
+}

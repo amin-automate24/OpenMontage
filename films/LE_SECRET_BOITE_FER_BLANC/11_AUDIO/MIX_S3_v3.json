@@ -1,0 +1,97 @@
+{
+ "project": "..",
+ "output": "MIX_S3_v3",
+ "video": "12_EDITING/S3_cut_v1_v3.mp4",
+ "target_lufs": -20,
+ "tracks": [
+  {
+   "label": "ambiance grenier",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "start": 0,
+   "dur": 33,
+   "loop": true,
+   "lufs": -44,
+   "fade_in": 1.0,
+   "fade_out": 4.0
+  },
+  {
+   "label": "ambiance particules (shimmer)",
+   "file": "11_AUDIO/AMBIENCE/AMB_shimmer_particules_loop20_N2uRuEw6D9.mp3",
+   "start": 20.0,
+   "dur": 41,
+   "loop": true,
+   "lufs": -45,
+   "fade_in": 4.0,
+   "fade_out": 3.0
+  },
+  {
+   "label": "M3 textures de sable",
+   "file": "11_AUDIO/MUSIC/M3_textures_sable_v1_fHZQZ3ICDY.mp3",
+   "start": 12.0,
+   "dur": 56.9,
+   "lufs": -35,
+   "fade_in": 4.0,
+   "fade_out": 3.0
+  },
+  {
+   "label": "S3-01 tissu (suit les mains)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s3-01_tissu_0.0.wav",
+   "start": 0.0,
+   "dur": 6.4
+  },
+  {
+   "label": "S3-02 scintillement du grain",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s3_scintille_grain_Sy8J8hJUb8.mp3",
+   "start": 7.64,
+   "dur": 2.0,
+   "lufs": -36
+  },
+  {
+   "label": "S3-03 grains qui montent (suit les grains)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s3-03_grains_12.8.wav",
+   "start": 12.8,
+   "dur": 7.2
+  },
+  {
+   "label": "S3-04 souffle",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_souffle_enfant_TdlMZCiVNR.mp3",
+   "start": 22.0,
+   "dur": 5.0,
+   "lufs": -42,
+   "fade_in": 0.8,
+   "fade_out": 1.2
+  },
+  {
+   "label": "S3-06 traits de pigment (suivent le trace)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s3-06_traits_32.0.wav",
+   "start": 32.0,
+   "dur": 8.0
+  },
+  {
+   "label": "foule lointaine inintelligible",
+   "file": "11_AUDIO/AMBIENCE/AMB_foule_lointaine_loop20_rgDsDCpxtc.mp3",
+   "start": 46.0,
+   "dur": 14.0,
+   "loop": true,
+   "lufs": -46,
+   "fade_in": 3.0,
+   "fade_out": 2.5
+  },
+  {
+   "label": "S3-08 drapeaux (suivent le mouvement)",
+   "file": "11_AUDIO/SOUND_EFFECTS/GATED/G_s3-08_drapeaux_47.0.wav",
+   "start": 47.0,
+   "dur": 8.4
+  },
+  {
+   "label": "S3-10 vent qui monte",
+   "file": "11_AUDIO/AMBIENCE/AMB_vent_desert_monte_s7XUXXol8e.mp3",
+   "in": 8.0,
+   "start": 58.9,
+   "dur": 10.0,
+   "lufs": -40,
+   "fade_in": 4.0,
+   "fade_out": 0.6
+  }
+ ]
+}

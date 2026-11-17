@@ -1,0 +1,161 @@
+{
+ "project": "..",
+ "output": "MIX_S1-S2_sync",
+ "video": "12_EDITING/FILM_S1-S2_cut_v1.mp4",
+ "target_lufs": -18,
+ "tracks": [
+  {
+   "label": "ambiance medina patio",
+   "file": "11_AUDIO/AMBIENCE/AMB_medina_patio_loop30_4RCNLTA9Aa.mp3",
+   "start": 0,
+   "dur": 66,
+   "loop": true,
+   "lufs": -36,
+   "fade_in": 1.5,
+   "fade_out": 2.5
+  },
+  {
+   "label": "ambiance grenier A",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "start": 64,
+   "dur": 55.5,
+   "loop": true,
+   "lufs": -36,
+   "fade_in": 2.0,
+   "fade_out": 1.0
+  },
+  {
+   "label": "ambiance grenier B (apres silence)",
+   "file": "11_AUDIO/AMBIENCE/AMB_grenier_loop30_KLT1v4Hkqp.mp3",
+   "in": 3,
+   "start": 123.4,
+   "dur": 17,
+   "loop": true,
+   "lufs": -36,
+   "fade_in": 1.5,
+   "fade_out": 3.0
+  },
+  {
+   "label": "M1 theme Yassine",
+   "file": "11_AUDIO/MUSIC/M1_theme_yassine_v1_s7XgFrRl8e.mp3",
+   "start": 12.9,
+   "dur": 73.5,
+   "lufs": -30,
+   "fade_in": 3,
+   "fade_out": 5
+  },
+  {
+   "label": "M1 reprise douce",
+   "file": "11_AUDIO/MUSIC/M1_theme_yassine_v1_s7XgFrRl8e.mp3",
+   "in": 2,
+   "start": 131.0,
+   "dur": 9.4,
+   "lufs": -33,
+   "fade_in": 2,
+   "fade_out": 3.5
+  },
+  {
+   "label": "S1-02 gouttes",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s1_eau_gouttes_iGFRUPK3uK.mp3",
+   "start": 7.5,
+   "dur": 5.5,
+   "lufs": -30
+  },
+  {
+   "label": "S1-04 perles",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s1_perles_bois_jUesQk8LD0.mp3",
+   "start": 21.2,
+   "dur": 6,
+   "lufs": -30,
+   "fade_out": 0.5
+  },
+  {
+   "label": "S1-05 pas zellige",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s1_pas_zellige_EbAQBaauuO.mp3",
+   "start": 28.3,
+   "dur": 7.2,
+   "lufs": -31,
+   "fade_out": 0.7
+  },
+  {
+   "label": "S1-07 marche craque",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s1_marche_craque_6AQ3SNniJO.mp3",
+   "start": 43.2,
+   "dur": 3,
+   "lufs": -28
+  },
+  {
+   "label": "S1-08 escalier rampe",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s1_escalier_rampe_eI7XzexdqL.mp3",
+   "start": 46.0,
+   "dur": 8,
+   "lufs": -31,
+   "fade_out": 0.5
+  },
+  {
+   "label": "S1-10 porte grince",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s1_porte_grince_XmOoWoxBfo.mp3",
+   "start": 62.3,
+   "dur": 3.7,
+   "lufs": -28,
+   "fade_out": 1.0
+  },
+  {
+   "label": "S2-03b pas poussiere",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_pas_poussiere_mE6vDaThJQ.mp3",
+   "start": 77.2,
+   "dur": 8.5,
+   "lufs": -32,
+   "fade_out": 0.5
+  },
+  {
+   "label": "S2-05 tapis laine",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_tapis_laine_jUesFgfLD0.mp3",
+   "start": 95.0,
+   "dur": 5,
+   "lufs": -31
+  },
+  {
+   "label": "S2-06 coffre couvercle",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_coffre_couvercle_P3f9sY142C.mp3",
+   "start": 102.0,
+   "dur": 5,
+   "lufs": -29
+  },
+  {
+   "label": "S2-08 boite glisse",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_boite_glisse_P3f9sWr42C.mp3",
+   "start": 117.7,
+   "dur": 2.6,
+   "lufs": -30,
+   "fade_out": 0.4
+  },
+  {
+   "label": "S2-09 boite ouvre + drapeau",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_boite_ouvre_drapeau_cpLT3vb0eP.mp3",
+   "start": 122.2,
+   "dur": 2.4,
+   "lufs": -28,
+   "in": 3.6
+  },
+  {
+   "label": "S2-10 souffle enfant",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_souffle_enfant_TdlMZCiVNR.mp3",
+   "start": 131.4,
+   "dur": 6,
+   "lufs": -36,
+   "fade_in": 0.5,
+   "fade_out": 1.5
+  },
+  {
+   "label": "S2-04 pas (marche vers la lumiere)",
+   "file": "11_AUDIO/SOUND_EFFECTS/SFX_s2_pas_poussiere_mE6vDaThJQ.mp3",
+   "in": 2.0,
+   "start": 86.6,
+   "dur": 3.5,
+   "lufs": -34,
+   "fade_in": 0.3,
+   "fade_out": 0.8
+  }
+ ]
+}

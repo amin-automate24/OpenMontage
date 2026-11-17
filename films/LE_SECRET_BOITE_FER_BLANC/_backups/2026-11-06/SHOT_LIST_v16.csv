@@ -1,0 +1,23 @@
+shot,sequence,time,description,start_image,video,status,cost_credits,notes
+S1-01,S1,0:00-0:09,Patio vide lumiere d'apres-midi push-in tres leger,ENV_02_MASTER lJXareYgv9,dt73qaYXSL (v2),VALIDE,1710,v1 If4GFLQtvE non retenue (derive decor)
+S1-02,S1,0:09-0:18,Fontaine macro gouttes et reflets,w4IQt107EI,jUphXBNLD0,VALIDE,920,Valide par le realisateur 2026-11-05 ; camera plus basse que l'image de depart
+S1-03,S1,0:18-0:27,Grand-pere assoupi sur banc plan large,P3a5d9542C,YMr7QgGWeC,VALIDE_PLAN_LARGE,1050,Visage trop petit pour identite ; v3 serree gOBCdN9SXO non utilisee
+S1-04,S1,0:27-0:36,Mains et chapelet,a creer,yiv54N8PW9,VALIDE,920,"Valide 2026-11-05 avec coupe de la fin vers 8,0 s au montage (geste non demande de 8,2 a 8,8 s)"
+S1-05,S1,0:36-0:45,Yassine entre dans le patio (de dos/lointain),a creer,ksTIsfm16B,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-06,S1,0:45-0:54,Yassine regarde le grand-pere puis l'escalier (de dos),a creer,CqZVKJGEEy,VALIDE,920,"Remplace par S1-06b (79tHQW1JAL) coupe a ~5 s, decision du realisateur 2026-11-05 (option 1) ; v1 CqZVKJGEEy conservee non retenue"
+S1-07,S1,0:54-1:03,Baskets sur la premiere marche,a creer,bxWBSkV5Y2,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-08,S1,1:03-1:12,Yassine monte l'escalier (de dos),a creer,9ZC1cEJNYZ,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-09,S1,1:12-1:21,Vue plongeante du haut de l'escalier,a creer,w4IFz5v7EI,VALIDE,920,Valide par le realisateur 2026-11-05 tel quel (perspective deformee acceptee)
+S1-10,S1,1:21-1:30,Yassine pousse la porte du grenier lumiere ambree,a creer,5jco9wfKxe,VALIDE,920,Valide par le realisateur 2026-11-05
+S1-06b,S1,0:45-0:54,"ALTERNATIVE de S1-06 : grand-pere assis, Yassine strictement de dos",a creer,79tHQW1JAL,VALIDE,920,"Retenu pour S1-06 : garder 0 a ~5 s au montage (Yassine de dos, grand-pere assis) ; comble ~4 s a prevoir au montage"
+S2-01,S2,0:00-0:09,Grenier vide rai de lumiere,ENV_01_MASTER JNmF1txOq4,Tds9dQEVNR,VALIDE,855,Valide par le realisateur 2026-11-06
+S2-02,S2,0:09-0:18,Poussiere dans le rai (insert),a creer,nV1JDSEYQD,EN_ATTENTE_DECISION,920,"Decor stable, poussiere naturelle (image v1 ksTtlqm16B ecartee : trop doree) ; LIMITE : le macro demande est devenu un plan large du grenier avec fort"
+S2-03,S2,0:18-0:27,Yassine entre par la porte (de dos),a creer,tC9YFPDmZJ,REFUSE,920,v1 inversee (sort au lieu d'entrer) ; remplacee par S2-03b
+S2-04,S2,0:27-0:36,Yassine avance et regarde (de dos),a creer,xSDv4VfjfW,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-05,S2,0:36-0:45,Main sur un tapis roule (insert),a creer,aF3TLCqfSh,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-06,S2,0:45-0:54,Yassine s'agenouille devant le coffre,a creer,cpjPxzd0eP,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-07,S2,0:54-1:03,Boite en fer blanc dans le coffre (insert),a creer,N2Exumh6D9,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-08,S2,1:03-1:12,Mains posent la boite dans la lumiere,a creer,jUpad5cLD0,VALIDE,920,"Valide 2026-11-06 avec coupe a 6,3 s au montage (mains deformees de 6,5 a 8,8 s)"
+S2-09,S2,1:12-1:21,Ouverture du couvercle (3 objets),a creer,yivKE7rPW9,VALIDE,920,Valide par le realisateur 2026-11-06
+S2-10,S2,1:21-1:30,Yassine emerveille (test identite),a creer,a creer,EN_ATTENTE_DECISION,130,"image v2 s7dCaqsl8e : identite plausible (enfant ~9 ans, joues rondes) mais regarde le coffre en bois et non la boite en fer blanc ; video non lancee"
+S2-03b,S2,0:18-0:27,"RETAKE de S2-03 : Yassine avance depuis la porte vers la camera, petit, a contre-jour",a creer,bxWoSG15Y2,VALIDE,920,Valide par le realisateur 2026-11-06

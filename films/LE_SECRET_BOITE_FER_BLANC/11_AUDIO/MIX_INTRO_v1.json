@@ -1,0 +1,17 @@
+{
+ "project": "..",
+ "output": "MIX_INTRO_v1",
+ "video": "12_EDITING/CARDS/INTRO_v1.mp4",
+ "target_lufs": -24,
+ "tracks": [
+  {
+   "label": "M1 theme de Yassine (ouverture)",
+   "file": "11_AUDIO/MUSIC/M1_theme_yassine_v1_s7XgFrRl8e.mp3",
+   "in": 0,
+   "start": 0.4,
+   "dur": 8.1,
+   "fade_in": 2.5,
+   "fade_out": 2.8
+  }
+ ]
+}

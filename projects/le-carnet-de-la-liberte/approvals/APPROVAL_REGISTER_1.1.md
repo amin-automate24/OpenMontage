@@ -138,3 +138,6 @@ Iris de l'œil proche déplacé vers le haut-gauche (vers le visage de la maîtr
 
 ## SH03 — v004 (17/11) : inclinaison locale de la tête + regard
 Tête et cheveux pivotés de 6° (menton vers le haut, vers la maîtresse), fond reconstruit, iris déjà décalés (v003). Limites : inclinaison dans le plan uniquement ; fine ligne de raccord à gauche du front et minuscule éclat au bout du nez visibles seulement en zoom. v001/v002/v003 conservées. 0 génération, 0 crédit. En attente de validation.
+
+## Reprise prioritaire (17/11)
+Animatic 2.0 (276,0 s, 1080p H.264/AAC, contrôle de livraison OK) : toutes les images et compositions validées intégrées ; voix de repère. P4 clos sauf SH03 (édition IA 65 cr proposée, non lancée). Voix, 3 clips (975 cr), musique : plan et coûts dans `docs/PLAN_VOIX_CLIPS_EXPORT_2.0.md` ; rien n'est lancé. 0 crédit dépensé dans cette étape (total projet 2 340, solde 7 818).

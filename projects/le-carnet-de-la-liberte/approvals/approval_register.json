@@ -427,7 +427,7 @@
     }
   },
   "p4": {
-    "status": "local corrections done, awaiting validation/closure",
+    "status": "CLOSED except SH03 (SH02/SH08/SH37 local corrections done; SH03 needs AI edit, 65 cr, not authorized)",
     "corrections": {
       "SH02": "chalk text '18 NOVEMBRE — / FÊTE DE L'INDÉPENDANCE' on the blackboard (frontal), legible at 1080p",
       "SH08": "cover title 'AMINA — / MES SOUVENIRS' (serif, perspective on the cover)",
@@ -510,5 +510,38 @@
         ]
       }
     }
+  },
+  "animatic_2_0": {
+    "file": "animatic/ANIMATIC_2.0_276s.mp4 (local, 123 MB, not committed; rebuild with scripts/build_animatic_v2.py)",
+    "preview": "animatic/ANIMATIC_2.0_preview_720p.mp4",
+    "preview_sha256": "9c08f0c8aebfe91d0f9655b7e0b340245124270fc4668ac1049f22d3bfe3c988",
+    "duration_s": 276.0,
+    "format": "1920x1080 H.264 + AAC stereo 48 kHz",
+    "delivery_check": "OK (<300 s)",
+    "content": "all validated images and local compositions; 5 composited clips (SH10, SH16, SH19, SH24, SH30); temporary espeak voices; placeholders for the 3 priority clips (SH11, SH26, SH38) = animated stills",
+    "fixes_after_review": [
+      "SH29 date card widened",
+      "SH33 timeline spacing"
+    ]
+  },
+  "pending_authorizations": {
+    "SH03_AI_edit": {
+      "credits": 65,
+      "file": "prompts/SH03_AI_EDIT_PROPOSAL.md"
+    },
+    "three_clips": {
+      "credits": 975,
+      "clips": [
+        "SH11",
+        "SH26",
+        "SH38"
+      ]
+    },
+    "voices": {
+      "tts_full_pass_credits_approx": 308,
+      "tts_test_credits_approx": 119,
+      "or": "human actors (0 cr)"
+    },
+    "music": "free licensed track or Lyria 3 ~80 cr/clip"
   }
 }

@@ -184,7 +184,7 @@ def draw_overlay(d, s, pal, state=None, t=None):
             y = 270 + j * 120
             d.ellipse([402, y - 4, 438, y + 32], fill=(170, 60, 40))
             d.text((480, y + 14), dt, font=font(44, bold=True), fill=(70, 40, 20), anchor="lm")
-            d.text((1000, y + 14), tx, font=font(32), fill=(50, 35, 25), anchor="lm")
+            d.text((985, y + 14), tx, font=font(28), fill=(50, 35, 25), anchor="lm")
     elif k == "title":
         d.rectangle([0, 0, W, H], fill=(0, 0, 0, 0))
     # flash_end / fade_out_end handled in frame loop

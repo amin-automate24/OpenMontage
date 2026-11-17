@@ -147,3 +147,6 @@ Regard mesuré : v002 18,6° / v004 35,8° (dépassement) / **v005 14,0° pour u
 
 ## Audio 2.0 (17/11) — préparation
 Casting FR, script ElevenLabs Multilingual v2 par réplique, 2 répliques test (Y3, A7), EDL/repères Resolve, assemblage FFmpeg (test −16,9 LUFS). Solde ElevenLabs non vérifiable (permissions) ; Multilingual v2 absent de Magnific. **0 génération, 0 crédit.** Prochaine autorisation : test voix (voir `docs/AUDIO_CASTING_ET_MIX_2.0.md` §7).
+
+## SH03 v006 (17/11) — préparée, NON VALIDÉE
+Retouche locale de v005 (script `scripts/fix_sh03_v006.py`, 0 crédit, 0 génération) : bavure du bout du nez et raccord du mur à gauche du front uniquement ; yeux, sourcil, peau, bouche, cheveux vérifiés identiques (écart 0). Fichiers : `references/p4/post/SH03_gaze_head_v006.png` (+ `_1080p`), comparaison `references/p4/control/SH03_compare_v005_v006.png`. v005 intacte. En attente de votre validation visuelle. Voix de Younes : audition Y1/Y3 et kit d'intégration préparés ; repli Gaspard Chevallier non généré.

@@ -139,5 +139,9 @@
   "file": "audio/voices_m2_lot/wav/V1.wav",
   "note": "pas encore dans voices_final ni dans un mix",
   "in_mix": "M3 (contrôle, non final)"
+ },
+ "Y_repli_Gaspard_Chevallier": {
+  "status": "NON_GENERE",
+  "note": "voix ElevenLabs FR la plus jeune du casting, repli conservé ; 323 caractères pour Y1–Y5 en 1 prise ; aucune génération sans accord et plafond écrits ; pas de Voice Design"
  }
 }

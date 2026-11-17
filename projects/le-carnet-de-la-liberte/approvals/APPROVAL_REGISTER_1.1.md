@@ -116,3 +116,13 @@ SH29/SH31 validés. SH17 : inscription pédagogique « Manifeste de l'indépenda
 
 ## SH17 VERROUILLÉ — P3 CLOS (16/11)
 SH17 (Manifeste de l'indépendance — 11 janvier 1944 + mention pédagogique) validé ; original conservé. Contrôle technique : 8/8 images, 520 cr, empreintes OK, sorties 1080p, SH30 ['1920,1080,25/1,250', '10.000000']. SH29/SH30/SH31 conformes. Total projet 1 820 cr, solde 8 338. P4, clips, audio : non autorisés.
+
+## AUTH-07 — Lot P4 (17/11) : 7 images × 65 = **455 / 455 cr**, aucune reprise
+- SH02_maitresse_tableau_v001 — `references/p4/SH02_maitresse_tableau_v001.png` — SHA-256 `0ccaca3781fe712f…`
+- SH03_younes_main_levee_v001 — `references/p4/SH03_younes_main_levee_v001.png` — SHA-256 `347cd8afe41fbe79…`
+- SH07_younes_boite_v001 — `references/p4/SH07_younes_boite_v001.png` — SHA-256 `0d433d6d7d31534f…`
+- SH08_carnet_couverture_v001 — `references/p4/SH08_carnet_couverture_v001.png` — SHA-256 `ce5fa0640ea9c7a8…`
+- SH09_younes_mere_v001 — `references/p4/SH09_younes_mere_v001.png` — SHA-256 `ef8775ee0bd30c6b…`
+- SH35_classe_presentation_v001 — `references/p4/SH35_classe_presentation_v001.png` — SHA-256 `302fec6117746000…`
+- SH37_maitresse_younes_cahier_v001 — `references/p4/SH37_maitresse_younes_cahier_v001.png` — SHA-256 `1ffd610f3979b40d…`
+Références : style REF-00, Younes REF-01 v002, maîtresse REF-04, classe SH01, carnet SH10 ; la mère est créée dans SH09 (fictive). SH07 sert de décor à SH08/SH09. Tableau et couverture du carnet laissés vierges (textes en post). Statut : **en attente de validation groupée**. Total projet : 2 275 cr ; solde attendu 7 883 (à vérifier). Clips, audio : non autorisés.

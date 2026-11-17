@@ -5,8 +5,8 @@
     "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
     "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
   },
-  "credits_consumed": 1820,
-  "paid_calls": 28,
+  "credits_consumed": 2275,
+  "paid_calls": 35,
   "planning_ceiling_credits": 2000,
   "planning_ceiling_is_authorization": false,
   "authorizations": [
@@ -52,6 +52,13 @@
       "status": "granted_and_fully_used",
       "spent": 520,
       "no_retakes": true
+    },
+    {
+      "id": "AUTH-07",
+      "scope": "Batch P4: 7 images (SH02,03,35,37,07,08,09), strict cap 455 Magnific credits",
+      "status": "granted_and_fully_used",
+      "spent": 455,
+      "no_retakes": true
     }
   ],
   "gates": [
@@ -90,7 +97,7 @@
   "scenario_b_credits": 5515,
   "scenario_b_is_authorization": false,
   "reserve_last_of_men_min_credits": 4643,
-  "magnific_balance_after": 8338,
+  "magnific_balance_after": 7883,
   "film_duration_s": 276,
   "screenplay_working_version": "1.2",
   "locked_references": {
@@ -412,5 +419,8 @@
       "SH31": "validated by user (symbolic-reconstitution mention)",
       "SH30_check": "written 'Le chemin a été long.' = first sentence of Amina's screenplay line (scene 5, spoken while writing); reveal 1.0–3.0 s in sync with speech (A6 starts +1.0 s, ~1.6–1.9 s for this sentence); full text readable 7.0 s; clip 250 frames = 10.0 s slot (198.5–208.5 s); no change needed"
     }
+  },
+  "p4": {
+    "status": "generated, awaiting grouped visual validation"
   }
 }

@@ -8,3 +8,6 @@ Source indiquée par l'utilisateur : https://commons.wikimedia.org/wiki/File:Moh
 - Règles maintenues : le visage n'est jamais généré, reconstruit ni modifié (découpe, recadrage et mise à l'échelle seulement) ; sans vérification complète, aucune photographie n'entre dans le montage.
 
 Moyens de débloquer : (a) me redonner l'accès plus tard (la limite de débit se relâche) ; (b) déposer vous-même dans le dépôt le fichier original et la page de licence enregistrée (PDF) ; (c) autoriser nationaalarchief.nl pour retrouver la notice d'origine.
+
+## Mise à jour (17/11, fin de journée)
+Référence communiquée par l'utilisateur : Nationaal Archief / Anefo n° **905-8914**, licence indiquée CC0 1.0 (fiche Commons « Mohammed V (1953).jpg »). Tentative unique de vérification de la fiche (API Commons) : **429 Too Many Requests** — aucun JPG récupéré, aucune preuve archivée par moi. Statut : **référence déclarée, NON VÉRIFIÉE par mes outils** ; aucune intégration. Les drapeaux seuls (SH27/SH28 v002) sont conservés. Pas de nouvelle tentative répétitive (règle utilisateur). Déblocage : dépôt par l'utilisateur de l'original JPG + page de licence (PDF) dans ce dossier, ou nouvel essai quand la limite de débit de l'adresse partagée sera levée.

@@ -21,3 +21,10 @@ Même mix que M5 (voix, ambiances, bruitages, radio v2, A2/A4) avec chaîne « s
 4. Bus maître : compresseur doux (≈ 2:1) + limiteur −1 dBTP ; vérifier au Loudness Meter **−16 LUFS intégrés**, LRA ≤ 8–10 LU.
 5. Écoute de contrôle : haut-parleur de classe et repli mono ; pas de voix masquée par ambiance.
 6. Livraison (non autorisée à ce jour) : MP4 H.264/AAC 48 kHz stéréo, `scripts/check_delivery.py`.
+
+## Résultats (17/11/2026)
+- Rendu propre : `animatic/MASTER_CLEAN_1080p_video_prep.mp4` (1920×1080, 25 i/s, 276,12 s) ; contrôle visuel : aucun bandeau ni sous-titre ; mentions historiques présentes (SH17, SH22, SH31, SH33 + note H4, SH38).
+- Audio : M6 (1re chaîne : −16,9 LUFS) puis **M6.1** (`scripts/finish_master_audio.py`, deux passes) : **−16,0 LUFS intégrés, crête vraie −1,4 dBTP, LRA 17,4 LU** (M5 : −17,0 / −1,5 / 22,1). La LRA reste élevée car les passages d'ambiance seule (SH11, nuit 1953) sont nettement plus bas que les dialogues ; à relever dans Fairlight si la salle est bruyante.
+- Candidat de contrôle (local, 128 Mo, **NON FINAL**, non commité) : `animatic/MASTER_CANDIDATE_NON_FINAL_M6.1_1080p.mp4` — H.264/AAC stéréo, 276,0 s, `check_delivery.py` : tous critères OK. MP3 d'écoute : `audio/mixes/M6.1/MIX_276s_M6.1_ecoute.mp3`.
+- Musique : aucune piste sous licence documentée disponible -> version sans musique conservée.
+- M4.1, M5 et originaux non modifiés (sommes de contrôle vérifiées). Aucun export final.

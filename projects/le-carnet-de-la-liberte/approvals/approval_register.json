@@ -1,600 +1,617 @@
 {
-  "project": "le-carnet-de-la-liberte",
-  "updated": "2026-11-16",
-  "screenplay": {
-    "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
-    "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
+ "project": "le-carnet-de-la-liberte",
+ "updated": "2026-11-17",
+ "screenplay": {
+  "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
+  "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
+ },
+ "credits_consumed": 2340,
+ "paid_calls": 36,
+ "planning_ceiling_credits": 2000,
+ "planning_ceiling_is_authorization": false,
+ "authorizations": [
+  {
+   "id": "AUTH-00",
+   "scope": "local preproduction (docs, shot list, local animatic, estimates)",
+   "status": "granted"
   },
-  "credits_consumed": 2340,
-  "paid_calls": 36,
-  "planning_ceiling_credits": 2000,
-  "planning_ceiling_is_authorization": false,
-  "authorizations": [
-    {
-      "id": "AUTH-00",
-      "scope": "local preproduction (docs, shot list, local animatic, estimates)",
-      "status": "granted"
-    },
-    {
-      "id": "AUTH-01",
-      "scope": "free local tools only",
-      "status": "granted"
-    },
-    {
-      "id": "AUTH-02",
-      "scope": "GATE-2 sample: 3 images (style, Younes, Amina), cap 195 Magnific credits",
-      "status": "granted_and_fully_used",
-      "spent": 195
-    },
-    {
-      "id": "AUTH-03",
-      "scope": "Correct REF-01 (Younes outfit) only: 1 image, 65 Magnific credits",
-      "status": "granted_and_used",
-      "spent": 65
-    },
-    {
-      "id": "AUTH-04",
-      "scope": "Batch P1: 7 images, strict cap 455 Magnific credits",
-      "status": "granted_and_fully_used",
-      "spent": 455,
-      "no_retakes": true
-    },
-    {
-      "id": "AUTH-05",
-      "scope": "Batch P2: 9 images (SH13-16,19,21,22,24,25), strict cap 585 Magnific credits",
-      "status": "granted_and_fully_used",
-      "spent": 585,
-      "no_retakes": true
-    },
-    {
-      "id": "AUTH-06",
-      "scope": "Batch P3: 8 images (SH17, SH27-32, SH34), strict cap 520 Magnific credits",
-      "status": "granted_and_fully_used",
-      "spent": 520,
-      "no_retakes": true
-    },
-    {
-      "id": "AUTH-07",
-      "scope": "Batch P4: 7 images (SH02,03,35,37,07,08,09), strict cap 455 Magnific credits",
-      "status": "granted_and_fully_used",
-      "spent": 455,
-      "no_retakes": true
-    },
-    {
-      "id": "AUTH-08",
-      "scope": "Single regeneration of SH03 (gaze/orientation), exact cost 65 Magnific credits, no automatic retake",
-      "status": "granted_and_used",
-      "spent": 65
-    }
-  ],
-  "gates": [
-    {
-      "id": "GATE-1",
-      "name": "Historical and visual references",
-      "status": "not_requested"
-    },
-    {
-      "id": "GATE-2",
-      "name": "Character and environment still-image generation",
-      "status": "sample_done_awaiting_visual_validation; rest_not_authorized"
-    },
-    {
-      "id": "GATE-3",
-      "name": "Image-to-video animation",
-      "status": "not_requested"
-    },
-    {
-      "id": "GATE-4",
-      "name": "Final audio and postproduction",
-      "status": "not_requested"
-    }
-  ],
-  "pending_decisions": [
-    "D10",
-    "D12",
-    "GATE-2-rest",
-    "GATE-3",
-    "GATE-4",
-    "H12-Amina-costumes",
-    "P3 authorization"
-  ],
-  "version": "1.1",
-  "planning_reference_scenario": "B",
-  "scenario_b_credits": 5515,
-  "scenario_b_is_authorization": false,
-  "reserve_last_of_men_min_credits": 4643,
-  "magnific_balance_after": 7818,
-  "film_duration_s": 276,
-  "screenplay_working_version": "1.2",
-  "locked_references": {
-    "REF-01": {
-      "version": "v002",
-      "file": "references/gate2_sample/REF-01_Younes_v002.png",
-      "sha256": "0a5f8b74532b10bf9650faad73c9bb168d0546b2f4879494ae6ef689aa9bdf95",
-      "creation_id": "s78P1jvl8e",
-      "locked": "2026-11-16",
-      "scope": "face, hair, expressions, proportions, school outfit (white collared shirt, navy sweater vest, navy trousers, sneakers, backpack)",
-      "v001_preserved": "references/gate2_sample/REF-01_Younes_v001.png (superseded, not deleted)"
-    },
-    "REF-02_source": {
-      "file": "references/gate2_sample/REF-02_Amina_v001.png",
-      "sha256": "e27572942ae2c3f5dc8a65520f870b2195a18096a282ae999fcf85562500add7",
-      "note": "original preserved, unmodified"
-    },
-    "AMINA_1944": {
-      "file": "references/locked/AMINA_1944_enfant_v001.png",
-      "sha256": "2f8b8712991a063c9561a578691197faedb20ce1a228c37d803a6e248cd99d2e",
-      "source": "references/gate2_sample/REF-02_Amina_v001.png",
-      "creation_id": "SymNaa7Ub8",
-      "appearance": "1944 enfant 11 ans, robe ocre, foulard crème",
-      "locked": "2026-11-16",
-      "historical_review": "H12 pending human confirmation before final use"
-    },
-    "AMINA_1953": {
-      "file": "references/locked/AMINA_1953_adulte_v001.png",
-      "sha256": "ff935ef0f95383e833f30e22f5e0fb1e5a2c5e3e9cd0b59d763d700dab57712d",
-      "source": "references/gate2_sample/REF-02_Amina_v001.png",
-      "creation_id": "SymNaa7Ub8",
-      "appearance": "1953 adulte, robe gris foncé, foulard bleu-gris",
-      "locked": "2026-11-16",
-      "historical_review": "H12 pending human confirmation before final use"
-    },
-    "AMINA_1955-56": {
-      "file": "references/locked/AMINA_1955-56_adulte_v001.png",
-      "sha256": "d70efc6d3651502f667e8037bdc8bdbf1be654fc40a816ea16aa8651a148bd98",
-      "source": "references/gate2_sample/REF-02_Amina_v001.png",
-      "creation_id": "SymNaa7Ub8",
-      "appearance": "1955-56 adulte, tenue ocre à motifs, foulard crème",
-      "locked": "2026-11-16",
-      "historical_review": "H12 pending human confirmation before final use"
-    },
-    "SH10": {
-      "locked": "2026-11-16",
-      "validated_by_user": true,
-      "texts": [
-        "Amina — Mes souvenirs",
-        "11 janvier 1944",
-        "Nous rêvions d'un Maroc libre."
-      ],
-      "timing": "writing 0.3–4.2 s, stable reading hold 1.8 s (shot 6.0 s)",
-      "final_recomposition": "1920x1080 from the 2752x1536 base via scripts/compose_sh10.py --master (Lanczos, CRF 12); validated files untouched",
-      "files": {
-        "base_image": {
-          "file": "references/p1/SH10_carnet_Younes_v001.png",
-          "sha256": "6644309ff5348d56407afd4599f985b2f7252ccbd85a44bbf1ed1a4d6c0daead"
-        },
-        "composite_final": {
-          "file": "references/p1/post/SH10_composite_final.png",
-          "sha256": "6b5fb88a117e61edeeff8e594afdf338b9904b2f1699271abcbb1a914f2bd039"
-        },
-        "text_layer": {
-          "file": "references/p1/post/SH10_text_layer_final.png",
-          "sha256": "136f6e094aff7b21fc1495d1c4bbda491b6d886593b9f3653d5838b192351da2"
-        },
-        "composite_clip": {
-          "file": "references/p1/post/SH10_composite_v001.mp4",
-          "sha256": "9b3cddca847436d4e23b8c559ed1aa319d62f975ec70d217db5fbbf0521e9f35"
-        },
-        "master_1080p": {
-          "file": "references/p1/post/SH10_master_1080p_v001.mp4",
-          "sha256": "2f14f92463a20a17d7102887d732004767c16a3b25eff710000297c50b3b0cab"
-        }
-      }
-    },
-    "P2": {
-      "locked": "2026-11-16",
-      "validated_by_user": "artistically",
-      "reserve": "subject to final historical control (H12)",
-      "images": {
-        "SH13_rue1944_v001": {
-          "file": "references/p2/SH13_rue1944_v001.png",
-          "sha256": "bcc61d956b76cdf80ae9f3dcc8e45f98924a7ed58ec0b738c5799c3af82b4b2c"
-        },
-        "SH14_amina_pere_marche_v001": {
-          "file": "references/p2/SH14_amina_pere_marche_v001.png",
-          "sha256": "95ee6a0cd25f522c7b62ab8acb1c1fa5d97f3604e3dac01b43e9455598952704"
-        },
-        "SH15_pere_explique_v001": {
-          "file": "references/p2/SH15_pere_explique_v001.png",
-          "sha256": "c2a0326d4854a3e3a201bfac88592ad05c1b1503eefc2ad8cb7fcbb642c33868"
-        },
-        "SH16_table_feuille_v001": {
-          "file": "references/p2/SH16_table_feuille_v001.png",
-          "sha256": "37a7a829929027c7daaf7bfbd729a944ac560faa388c6cc7b39959e15ae3b197"
-        },
-        "SH19_amina11_ecrit_v001": {
-          "file": "references/p2/SH19_amina11_ecrit_v001.png",
-          "sha256": "9a9643c1e041a62a7b2cb73263a205420463b8240687698a220386e80e9ea41b"
-        },
-        "SH21_maison1953_soir_v001": {
-          "file": "references/p2/SH21_maison1953_soir_v001.png",
-          "sha256": "ea3d760592243438b46c373933ae455e3844a4de59507ad8bdd2a0fc18fc4105"
-        },
-        "SH22_radio_v001": {
-          "file": "references/p2/SH22_radio_v001.png",
-          "sha256": "07724d672a418aa429054914272506e1ba3902cd895def151254aeba43fb5a3b"
-        },
-        "SH24_amina20_ecrit_v001": {
-          "file": "references/p2/SH24_amina20_ecrit_v001.png",
-          "sha256": "b59fce091dae64b0aaf193a9513597a805227c8802ad117a65010f67507a4e9d"
-        },
-        "SH25_fenetre_v001": {
-          "file": "references/p2/SH25_fenetre_v001.png",
-          "sha256": "7e7a855d6bdfebc3e79c6edca54450ecffe3cc4dc7b57c0aeba904c0b1b3d10c"
-        }
-      },
-      "post_inscriptions": {
-        "SH16_composite_final.png": {
-          "file": "references/p2/post/SH16_composite_final.png",
-          "sha256": "93ebc930747af43c30e18b743b22aa08fd2f0eeb6e3a7c3e58589d8f100ba68c"
-        },
-        "SH16_text_layer_final.png": {
-          "file": "references/p2/post/SH16_text_layer_final.png",
-          "sha256": "cbb4bf60918bd32f18f50a94a68c18d5b30a0d07b8d530fbf5dc2045e331f634"
-        },
-        "SH16_composite_v001.mp4": {
-          "file": "references/p2/post/SH16_composite_v001.mp4",
-          "sha256": "4f2ce5ae1152f7e4b6f3c756d354a766b084c1a95e88098c730f329543872815"
-        },
-        "SH19_composite_final.png": {
-          "file": "references/p2/post/SH19_composite_final.png",
-          "sha256": "bbaf3a4cedf2fbf62aeca25c77b9d0e806e52b0200032a94d4985415c2605a21"
-        },
-        "SH19_text_layer_final.png": {
-          "file": "references/p2/post/SH19_text_layer_final.png",
-          "sha256": "2cde52f3661fccf1108fea994cb4c059c676c3c33858b28e10d317029ed20387"
-        },
-        "SH19_composite_v001.mp4": {
-          "file": "references/p2/post/SH19_composite_v001.mp4",
-          "sha256": "ad47f587a23a2bd2fb7f01de33aec55be7ab3720b00fb290351f278792ed6544"
-        },
-        "SH24_composite_final.png": {
-          "file": "references/p2/post/SH24_composite_final.png",
-          "sha256": "fa24a4e4495801faa75a1affa11b7d2dd4aeaec56c59f402391670e93769bfa7"
-        },
-        "SH24_text_layer_final.png": {
-          "file": "references/p2/post/SH24_text_layer_final.png",
-          "sha256": "f400d1991b9e5ca6716d75ee19a9bcb1d129974773a7def270877a13a17ddd46"
-        },
-        "SH24_composite_v001.mp4": {
-          "file": "references/p2/post/SH24_composite_v001.mp4",
-          "sha256": "54fe718d1221f1252f964a8ddfdb3676955d35ec42a89ff4b3ed22e67ef07a55"
-        },
-        "SH19_margin_report.json": {
-          "file": "references/p2/post/SH19_margin_report.json",
-          "sha256": "cb25ca29b7acd99979af67cc171efe663c1114052746705aa21308968d0623e3"
-        },
-        "SH19_page_edges.json": {
-          "file": "references/p2/post/SH19_page_edges.json",
-          "sha256": "7dfc9381cc1cfefff6269f5ea8e7ca8073901494c24723d65abd93f458584061"
-        }
-      },
-      "inscriptions": {
-        "SH16": "Manifeste de / l'indépendance — / 11 janvier 1944 (serif d'imprimerie, 3 lignes) + caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
-        "SH19": "Un jour, mon pays / sera libre. — bloc recentré dans la zone la plus haute de la page (x 1310–1395) ; marges mesurées sur 108 images : bas ≥ 15.3 %, haut ≥ 21.2 % de la hauteur utile (exigence ≥ 8 %) ; versions précédentes conservées (*_prev_placement, *_prev2_placement)",
-        "SH24": "Nous garderons espoir."
-      },
-      "legibility": {
-        "SH16": "OK à 1080p (texte net rendu à la résolution du plan, zoom 4x, lecture stable ≥ 2,2 s)",
-        "SH19": "OK à 1080p (zoom 6,5x, texte sur page gauche loin de la reliure, lecture stable ≥ 3 s)",
-        "SH24": "validé, inchangé"
-      },
-      "typography_fix": "2026-11-16: text now drawn at output resolution per frame (sharp), originals untouched; SH24 not modified",
-      "status": "CLOSED DEFINITIVELY"
-    },
-    "SH16": {
-      "validated_by_user": true,
-      "file": "references/p2/post/SH16_composite_v001.mp4",
-      "sha256": "4f2ce5ae1152f7e4b6f3c756d354a766b084c1a95e88098c730f329543872815",
-      "note": "kept as is"
-    },
-    "SH24": {
-      "validated_by_user": true,
-      "file": "references/p2/post/SH24_composite_v001.mp4",
-      "sha256": "54fe718d1221f1252f964a8ddfdb3676955d35ec42a89ff4b3ed22e67ef07a55",
-      "note": "kept as is"
-    },
-    "SH19": {
-      "validated_by_user": true,
-      "final": true,
-      "file": "references/p2/post/SH19_composite_v001.mp4",
-      "sha256": "ad47f587a23a2bd2fb7f01de33aec55be7ab3720b00fb290351f278792ed6544",
-      "control": "left-to-right handwriting wipe is intentional (line 2: 2.4-3.4 s); sentence complete and undeformed from 3.4 s; stable and legible 3.08 s (>= 2 s); identical shapes at 3.6/4.4/5.0/6.4 s",
-      "date": "2026-11-16",
-      "edit_master": {
-        "file": "references/p2/post/SH19_edit_6.50s.mp4",
-        "sha256": "267c5bcf8fd79c27aaaa25af6377342fc6651b31b7ecc99edd6f3de2b5e57e05",
-        "timeline": "SH19 01:49:00 → 01:55:12 (109.0–115.5 s, 6.5 s)",
-        "full_sentence_hold_s": 3.1,
-        "note": "last frame cloned +1 frame to fill the 6.5 s slot; original clip untouched"
-      },
-      "status": "CLOSED"
-    },
-    "SH17": {
-      "validated_by_user": true,
-      "final": true,
-      "original": "references/p3/SH17_document_illustre_v001.png",
-      "original_sha256": "499cdb3f4253fd09f344fb2a84049a77ed0d78c09e5e6076318af82f8bd623ab",
-      "final_files": {
-        "SH17_composite_final.png": {
-          "file": "references/p3/post/SH17_composite_final.png",
-          "sha256": "4b7c58b1f6ecdbbc6bcb34160e1d5c054cfae209521879693233160be8a585b1"
-        },
-        "SH17_edit_1080p.png": {
-          "file": "references/p3/post/SH17_edit_1080p.png",
-          "sha256": "37985eaabeeb844f587a7a0eb1e34cd8133c97bcedfbb7613e657f9b2c29c46a"
-        }
-      },
-      "inscription": "Manifeste de l'indépendance — 11 janvier 1944",
-      "caption": "ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
-      "locked": "2026-11-16"
-    },
-    "SH29_p3": {
-      "conform_to_validations": true
-    },
-    "SH31_p3": {
-      "conform_to_validations": true
-    },
-    "SH30_p3": {
-      "conform_to_validations": true
-    },
-    "P3": {
-      "status": "CLOSED after technical control",
-      "images": 8,
-      "credits": 520,
-      "hashes_ok": true,
-      "clip_SH30": [
-        "1920,1080,25/1,250",
-        "10.000000"
-      ]
-    }
+  {
+   "id": "AUTH-01",
+   "scope": "free local tools only",
+   "status": "granted"
   },
-  "uploads": [
-    {
-      "creation_id": "LwoP4S4swO",
-      "note": "locked Amina 1955-56 crop uploaded as reference (hidden, no cost)"
-    },
-    {
-      "creation_id": "DoJhk2Opcl",
-      "note": "locked Amina 1944 child crop (hidden)"
-    },
-    {
-      "creation_id": "rgdJGCCxtc",
-      "note": "locked Amina 1953 crop (hidden)"
-    }
-  ],
-  "p3": {
-    "status": "CLOSED after technical control",
-    "images": 8,
-    "cost_credits": 520,
-    "balance_now": 8858,
-    "balance_after_p3": 8338,
-    "reserve_last_of_men_min": 4643,
-    "reserve_respected": true,
-    "file": "prompts/P3_PREPARED_NOT_EXECUTED.md",
-    "validation": {
-      "artistic_ok": [
-        "SH27",
-        "SH28",
-        "SH30",
-        "SH32",
-        "SH34"
-      ],
-      "conditional": {
-        "SH29": "mention RECONSTITUTION SYMBOLIQUE — sans valeur documentaire",
-        "SH31": "same mention + AI pseudo-text and signature masked"
-      },
-      "SH17": "AI pseudo-text masked; pedagogical inscription 'Manifeste de l'indépendance' (cartouche) + '— 11 janvier 1944 —'; caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive; previous Istiqlal version kept (*_prev_istiqlal)",
-      "SH30": "notebook: 'Le chemin / a été long.' (screenplay line), handwriting reveal 1.0–3.0 s, readable 7 s",
-      "post_files": {
-        "SH17_composite_final.png": {
-          "file": "references/p3/post/SH17_composite_final.png",
-          "sha256": "4b7c58b1f6ecdbbc6bcb34160e1d5c054cfae209521879693233160be8a585b1"
-        },
-        "SH17_edit_1080p.png": {
-          "file": "references/p3/post/SH17_edit_1080p.png",
-          "sha256": "37985eaabeeb844f587a7a0eb1e34cd8133c97bcedfbb7613e657f9b2c29c46a"
-        },
-        "SH29_composite_final.png": {
-          "file": "references/p3/post/SH29_composite_final.png",
-          "sha256": "8d885fc1c45fa3a7dade2e12bffe3b82407f4201b4becefe9facbfde7597953d"
-        },
-        "SH29_edit_1080p.png": {
-          "file": "references/p3/post/SH29_edit_1080p.png",
-          "sha256": "ab437bc933b6dc4f06324c6599994568bd171f69ef9e7bac3a80ca561044e507"
-        },
-        "SH31_composite_final.png": {
-          "file": "references/p3/post/SH31_composite_final.png",
-          "sha256": "980bda7ea45113ac10e7c1a7328fb77428250a43754ba46f2a813150c904bf64"
-        },
-        "SH31_edit_1080p.png": {
-          "file": "references/p3/post/SH31_edit_1080p.png",
-          "sha256": "5f3a62ca2f0171519bad50e7f23bbe082775a44023e204cfc070a72ed3e69ada"
-        },
-        "SH30_composite_final.png": {
-          "file": "references/p3/post/SH30_composite_final.png",
-          "sha256": "283212b3fc9e5db9fca58174de98377846886c142277e0b1b79de505f4853bb2"
-        },
-        "SH30_composite_v001.mp4": {
-          "file": "references/p3/post/SH30_composite_v001.mp4",
-          "sha256": "96f06b785e3455f73e2552b271676b8728244150ccbf3d0d8014cadd22e401e7"
-        }
-      },
-      "status": "local corrections done, awaiting grouped validation",
-      "SH29": "validated by user (symbolic-reconstitution mention)",
-      "SH31": "validated by user (symbolic-reconstitution mention)",
-      "SH30_check": "written 'Le chemin a été long.' = first sentence of Amina's screenplay line (scene 5, spoken while writing); reveal 1.0–3.0 s in sync with speech (A6 starts +1.0 s, ~1.6–1.9 s for this sentence); full text readable 7.0 s; clip 250 frames = 10.0 s slot (198.5–208.5 s); no change needed"
-    }
+  {
+   "id": "AUTH-02",
+   "scope": "GATE-2 sample: 3 images (style, Younes, Amina), cap 195 Magnific credits",
+   "status": "granted_and_fully_used",
+   "spent": 195
   },
-  "p4": {
-    "status": "OPEN: SH03 v005 awaiting visual validation (P4 not closed)",
-    "corrections": {
-      "SH02": "chalk text '18 NOVEMBRE — / FÊTE DE L'INDÉPENDANCE' on the blackboard (frontal), legible at 1080p",
-      "SH08": "cover title 'AMINA — / MES SOUVENIRS' (serif, perspective on the cover)",
-      "SH35_SH37": "continuity: SH35 unchanged (full class); SH37 = local close-up (1.7x) on Younes writing, classroom defocused (shallow DoF), teacher off-screen (T5 voice-over), backpack put out of focus",
-      "backpack": "worn at the desk (inconsistent with SH03 where bags hang on chairs); cannot be removed cleanly locally (inpainting smeared) -> defocused; option: regenerate SH37 later (65 cr) with explicit authorization"
-    },
-    "post_files": {
-      "SH02_composite_final.png": {
-        "file": "references/p4/post/SH02_composite_final.png",
-        "sha256": "e5832aa7780a69818bf44378d687379e86594ddd1eecd14b2d0ae897be8b64b0"
-      },
-      "SH02_edit_1080p.png": {
-        "file": "references/p4/post/SH02_edit_1080p.png",
-        "sha256": "7c2745cf0d2596515fbaea32552538788852991f3c11d623d6a087a3610b2937"
-      },
-      "SH08_composite_final.png": {
-        "file": "references/p4/post/SH08_composite_final.png",
-        "sha256": "6249d35daf71b49d6f27b426cbfbea535f2743229be622095d02a4fccbbdc31d"
-      },
-      "SH08_edit_1080p.png": {
-        "file": "references/p4/post/SH08_edit_1080p.png",
-        "sha256": "a35eb664eb912d14369e997e23f52746e71383cc96f37b942446833e29006a92"
-      },
-      "SH37_composite_final.png": {
-        "file": "references/p4/post/SH37_composite_final.png",
-        "sha256": "160f2da20e7662d121617238f692a4c281c111e4bb8b95e9eb043b5f6eb539fa"
-      },
-      "SH37_edit_1080p.png": {
-        "file": "references/p4/post/SH37_edit_1080p.png",
-        "sha256": "160f2da20e7662d121617238f692a4c281c111e4bb8b95e9eb043b5f6eb539fa"
-      },
-      "SH37_composite_full.png": {
-        "file": "references/p4/post/SH37_composite_full.png",
-        "sha256": "72957d1ab3548e929ac7006b84422c9f23193802c6e288843100e807140e4fc5"
-      }
-    },
-    "SH03_fix": {
-      "status": "v002 generated, awaiting validation",
-      "file": "references/p4/SH03_younes_main_levee_v002.png",
-      "sha256": "f56c8a350aa01fb9a8286a1659a83466cbb40e8462e3b04d9b1f86d4fb011fab",
-      "v001_preserved": "references/p4/SH03_younes_main_levee_v001.png",
-      "local_fix": "impossible (face frontal to camera, board behind him: head/body must be turned)",
-      "gaze_local_fix": {
-        "status": "v003 local gaze correction, awaiting validation",
-        "method": "near eye only: old iris inpainted from sclera, iris pasted shifted (-3,-7 px, up/left) and clipped by eyelids; no AI, 0 credit",
-        "files": {
-          "SH03_gaze_corrected_v003.png": {
-            "file": "references/p4/post/SH03_gaze_corrected_v003.png",
-            "sha256": "22496d5624e6f32140a193f7d2b246374de5dc7b1aa7fc22c066fbf24c3cd752"
-          },
-          "SH03_gaze_corrected_v003_1080p.png": {
-            "file": "references/p4/post/SH03_gaze_corrected_v003_1080p.png",
-            "sha256": "2c741fb950fb42944c3426b36086592959743294447bf9ac10d3c721f37abaf3"
-          }
-        },
-        "v002_preserved": "references/p4/SH03_younes_main_levee_v002.png"
-      },
-      "head_gaze_fix": {
-        "status": "v004 local head tilt (6° toward the front/up) + iris shift, awaiting validation",
-        "method": "head+hair rotated 6° clockwise about the neck, uncovered background rebuilt (blackboard copy / inpaint); previous iris fix kept; no AI, 0 credit",
-        "limits": "in-plane tilt only (no depth turn); faint seam line left of the forehead and a tiny speck at the nose tip, visible only when zoomed",
-        "files": {
-          "SH03_gaze_head_v004.png": {
-            "file": "references/p4/post/SH03_gaze_head_v004.png",
-            "sha256": "eaf6c49812f85d890b9c310931a4be3bcbafba1fa609c0b0388184d7b32664b9"
-          },
-          "SH03_gaze_head_v004_1080p.png": {
-            "file": "references/p4/post/SH03_gaze_head_v004_1080p.png",
-            "sha256": "b224b09a0c0291b9c55356b894672dc9a4b8a40e576277bc228318bac906e716"
-          },
-          "SH03_before_after_face.jpg": {
-            "file": "references/p4/post/SH03_before_after_face.jpg",
-            "sha256": "ba74830cbe451436bdba34cbc3c58a9e8bce981bab449bc0aa11d0ebd50ec408"
-          }
-        },
-        "previous_preserved": [
-          "references/p4/SH03_younes_main_levee_v001.png",
-          "references/p4/SH03_younes_main_levee_v002.png",
-          "references/p4/post/SH03_gaze_corrected_v003.png"
-        ]
-      },
-      "v005": {
-        "status": "local calibrated correction, awaiting visual validation",
-        "method": "head+hair tilted 4° toward the front; iris offset calibrated by pixel measurement so the gaze angle matches the direction to the teacher's face (measured 14.0° vs target 12.1°; v002 was 18.6°, v004 overshot at 35.8°); eyelid shadow restored; no AI, 0 credit",
-        "limits": "in-plane only; faint seam left of forehead, nose-tip smear and a tiny white triangle at the upper lid visible only when zoomed",
-        "files": {
-          "SH03_gaze_head_v005.png": {
-            "file": "references/p4/post/SH03_gaze_head_v005.png",
-            "sha256": "9a4fdd3dd4d5ffb96cf694653c865649d9d913638da373300e9e39cd4d98ec1c"
-          },
-          "SH03_gaze_head_v005_1080p.png": {
-            "file": "references/p4/post/SH03_gaze_head_v005_1080p.png",
-            "sha256": "d0221ed293d906007b100e2e40178cee80d10825e3d4f7f0127cea39c6627961"
-          },
-          "SH03_gaze_proof_rays_v005.jpg": {
-            "file": "references/p4/post/SH03_gaze_proof_rays_v005.jpg",
-            "sha256": "4103b6b44e6c45548446b322d00dfe41347d8dd84efb5d9c1e5280c126b0afb9"
-          },
-          "SH03_before_after_v005_face_eyes.jpg": {
-            "file": "references/p4/post/SH03_before_after_v005_face_eyes.jpg",
-            "sha256": "487ecbc511192ed1f15125c6205a5405113c6007933d33705d54456580981a9a"
-          }
-        },
-        "previous_kept": [
-          "v001 (original, untouched by design)",
-          "v002 (AI regeneration, 65 cr)",
-          "v003",
-          "v004 (overshoot)"
-        ],
-        "ai_edit_if_insufficient": {
-          "credits": 65,
-          "file": "prompts/SH03_AI_EDIT_PROPOSAL.md",
-          "authorized": false
-        }
-      }
-    }
+  {
+   "id": "AUTH-03",
+   "scope": "Correct REF-01 (Younes outfit) only: 1 image, 65 Magnific credits",
+   "status": "granted_and_used",
+   "spent": 65
   },
-  "animatic_2_0": {
-    "file": "animatic/ANIMATIC_2.0_276s.mp4 (local, 123 MB, not committed; rebuild with scripts/build_animatic_v2.py)",
-    "preview": "animatic/ANIMATIC_2.0_preview_720p.mp4",
-    "preview_sha256": "2afb5fe3d66ec65fec807981990841d99188e3a95fbe76dc53b1fb9c13a54d92",
-    "duration_s": 276.0,
-    "format": "1920x1080 H.264 + AAC stereo 48 kHz",
-    "delivery_check": "OK (<300 s)",
-    "content": "all validated images and local compositions; 5 composited clips (SH10, SH16, SH19, SH24, SH30); temporary espeak voices; placeholders for the 3 priority clips (SH11, SH26, SH38) = animated stills",
-    "fixes_after_review": [
-      "SH29 date card widened",
-      "SH33 timeline spacing"
-    ],
-    "sh03_version_used": "v005"
+  {
+   "id": "AUTH-04",
+   "scope": "Batch P1: 7 images, strict cap 455 Magnific credits",
+   "status": "granted_and_fully_used",
+   "spent": 455,
+   "no_retakes": true
   },
-  "pending_authorizations": {
-    "SH03_AI_edit": {
-      "credits": 65,
-      "file": "prompts/SH03_AI_EDIT_PROPOSAL.md"
-    },
-    "three_clips": {
-      "credits": 975,
-      "clips": [
-        "SH11",
-        "SH26",
-        "SH38"
-      ]
-    },
-    "voices": {
-      "tts_full_pass_credits_approx": 308,
-      "tts_test_credits_approx": 119,
-      "or": "human actors (0 cr)"
-    },
-    "music": "free licensed track or Lyria 3 ~80 cr/clip"
+  {
+   "id": "AUTH-05",
+   "scope": "Batch P2: 9 images (SH13-16,19,21,22,24,25), strict cap 585 Magnific credits",
+   "status": "granted_and_fully_used",
+   "spent": 585,
+   "no_retakes": true
   },
-  "audio_2_0": {
-    "status": "prepared, nothing generated",
-    "casting_file": "audio/elevenlabs_script_multilingual_v2.json",
-    "test_lines": [
-      "Y3",
-      "A7"
-    ],
-    "test_chars": 73,
-    "elevenlabs_usage": "denied (connector permissions)",
-    "multilingual_v2_via_magnific": false,
-    "estimates": {
-      "elevenlabs_multilingual_v2_test_credits_approx": 73,
-      "magnific_eleven_v3_test_credits_approx": 15,
-      "full_film_magnific_v3_approx": 308
-    },
-    "mix_test": "-16.9 LUFS, peak -1.5 dBFS (temp voices)",
-    "edl": "timeline/LE_CARNET_276s_V1.edl"
+  {
+   "id": "AUTH-06",
+   "scope": "Batch P3: 8 images (SH17, SH27-32, SH34), strict cap 520 Magnific credits",
+   "status": "granted_and_fully_used",
+   "spent": 520,
+   "no_retakes": true
+  },
+  {
+   "id": "AUTH-07",
+   "scope": "Batch P4: 7 images (SH02,03,35,37,07,08,09), strict cap 455 Magnific credits",
+   "status": "granted_and_fully_used",
+   "spent": 455,
+   "no_retakes": true
+  },
+  {
+   "id": "AUTH-08",
+   "scope": "Single regeneration of SH03 (gaze/orientation), exact cost 65 Magnific credits, no automatic retake",
+   "status": "granted_and_used",
+   "spent": 65
   }
+ ],
+ "gates": [
+  {
+   "id": "GATE-1",
+   "name": "Historical and visual references",
+   "status": "not_requested"
+  },
+  {
+   "id": "GATE-2",
+   "name": "Character and environment still-image generation",
+   "status": "sample_done_awaiting_visual_validation; rest_not_authorized"
+  },
+  {
+   "id": "GATE-3",
+   "name": "Image-to-video animation",
+   "status": "not_requested"
+  },
+  {
+   "id": "GATE-4",
+   "name": "Final audio and postproduction",
+   "status": "not_requested"
+  }
+ ],
+ "pending_decisions": [
+  "D10",
+  "D12",
+  "GATE-2-rest",
+  "GATE-3",
+  "GATE-4",
+  "H12-Amina-costumes",
+  "P3 authorization"
+ ],
+ "version": "1.1",
+ "planning_reference_scenario": "B",
+ "scenario_b_credits": 5515,
+ "scenario_b_is_authorization": false,
+ "reserve_last_of_men_min_credits": 4643,
+ "magnific_balance_after": 7818,
+ "film_duration_s": 276,
+ "screenplay_working_version": "1.2",
+ "locked_references": {
+  "REF-01": {
+   "version": "v002",
+   "file": "references/gate2_sample/REF-01_Younes_v002.png",
+   "sha256": "0a5f8b74532b10bf9650faad73c9bb168d0546b2f4879494ae6ef689aa9bdf95",
+   "creation_id": "s78P1jvl8e",
+   "locked": "2026-11-16",
+   "scope": "face, hair, expressions, proportions, school outfit (white collared shirt, navy sweater vest, navy trousers, sneakers, backpack)",
+   "v001_preserved": "references/gate2_sample/REF-01_Younes_v001.png (superseded, not deleted)"
+  },
+  "REF-02_source": {
+   "file": "references/gate2_sample/REF-02_Amina_v001.png",
+   "sha256": "e27572942ae2c3f5dc8a65520f870b2195a18096a282ae999fcf85562500add7",
+   "note": "original preserved, unmodified"
+  },
+  "AMINA_1944": {
+   "file": "references/locked/AMINA_1944_enfant_v001.png",
+   "sha256": "2f8b8712991a063c9561a578691197faedb20ce1a228c37d803a6e248cd99d2e",
+   "source": "references/gate2_sample/REF-02_Amina_v001.png",
+   "creation_id": "SymNaa7Ub8",
+   "appearance": "1944 enfant 11 ans, robe ocre, foulard crème",
+   "locked": "2026-11-16",
+   "historical_review": "H12 pending human confirmation before final use"
+  },
+  "AMINA_1953": {
+   "file": "references/locked/AMINA_1953_adulte_v001.png",
+   "sha256": "ff935ef0f95383e833f30e22f5e0fb1e5a2c5e3e9cd0b59d763d700dab57712d",
+   "source": "references/gate2_sample/REF-02_Amina_v001.png",
+   "creation_id": "SymNaa7Ub8",
+   "appearance": "1953 adulte, robe gris foncé, foulard bleu-gris",
+   "locked": "2026-11-16",
+   "historical_review": "H12 pending human confirmation before final use"
+  },
+  "AMINA_1955-56": {
+   "file": "references/locked/AMINA_1955-56_adulte_v001.png",
+   "sha256": "d70efc6d3651502f667e8037bdc8bdbf1be654fc40a816ea16aa8651a148bd98",
+   "source": "references/gate2_sample/REF-02_Amina_v001.png",
+   "creation_id": "SymNaa7Ub8",
+   "appearance": "1955-56 adulte, tenue ocre à motifs, foulard crème",
+   "locked": "2026-11-16",
+   "historical_review": "H12 pending human confirmation before final use"
+  },
+  "SH10": {
+   "locked": "2026-11-16",
+   "validated_by_user": true,
+   "texts": [
+    "Amina — Mes souvenirs",
+    "11 janvier 1944",
+    "Nous rêvions d'un Maroc libre."
+   ],
+   "timing": "writing 0.3–4.2 s, stable reading hold 1.8 s (shot 6.0 s)",
+   "final_recomposition": "1920x1080 from the 2752x1536 base via scripts/compose_sh10.py --master (Lanczos, CRF 12); validated files untouched",
+   "files": {
+    "base_image": {
+     "file": "references/p1/SH10_carnet_Younes_v001.png",
+     "sha256": "6644309ff5348d56407afd4599f985b2f7252ccbd85a44bbf1ed1a4d6c0daead"
+    },
+    "composite_final": {
+     "file": "references/p1/post/SH10_composite_final.png",
+     "sha256": "6b5fb88a117e61edeeff8e594afdf338b9904b2f1699271abcbb1a914f2bd039"
+    },
+    "text_layer": {
+     "file": "references/p1/post/SH10_text_layer_final.png",
+     "sha256": "136f6e094aff7b21fc1495d1c4bbda491b6d886593b9f3653d5838b192351da2"
+    },
+    "composite_clip": {
+     "file": "references/p1/post/SH10_composite_v001.mp4",
+     "sha256": "9b3cddca847436d4e23b8c559ed1aa319d62f975ec70d217db5fbbf0521e9f35"
+    },
+    "master_1080p": {
+     "file": "references/p1/post/SH10_master_1080p_v001.mp4",
+     "sha256": "2f14f92463a20a17d7102887d732004767c16a3b25eff710000297c50b3b0cab"
+    }
+   }
+  },
+  "P2": {
+   "locked": "2026-11-16",
+   "validated_by_user": "artistically",
+   "reserve": "subject to final historical control (H12)",
+   "images": {
+    "SH13_rue1944_v001": {
+     "file": "references/p2/SH13_rue1944_v001.png",
+     "sha256": "bcc61d956b76cdf80ae9f3dcc8e45f98924a7ed58ec0b738c5799c3af82b4b2c"
+    },
+    "SH14_amina_pere_marche_v001": {
+     "file": "references/p2/SH14_amina_pere_marche_v001.png",
+     "sha256": "95ee6a0cd25f522c7b62ab8acb1c1fa5d97f3604e3dac01b43e9455598952704"
+    },
+    "SH15_pere_explique_v001": {
+     "file": "references/p2/SH15_pere_explique_v001.png",
+     "sha256": "c2a0326d4854a3e3a201bfac88592ad05c1b1503eefc2ad8cb7fcbb642c33868"
+    },
+    "SH16_table_feuille_v001": {
+     "file": "references/p2/SH16_table_feuille_v001.png",
+     "sha256": "37a7a829929027c7daaf7bfbd729a944ac560faa388c6cc7b39959e15ae3b197"
+    },
+    "SH19_amina11_ecrit_v001": {
+     "file": "references/p2/SH19_amina11_ecrit_v001.png",
+     "sha256": "9a9643c1e041a62a7b2cb73263a205420463b8240687698a220386e80e9ea41b"
+    },
+    "SH21_maison1953_soir_v001": {
+     "file": "references/p2/SH21_maison1953_soir_v001.png",
+     "sha256": "ea3d760592243438b46c373933ae455e3844a4de59507ad8bdd2a0fc18fc4105"
+    },
+    "SH22_radio_v001": {
+     "file": "references/p2/SH22_radio_v001.png",
+     "sha256": "07724d672a418aa429054914272506e1ba3902cd895def151254aeba43fb5a3b"
+    },
+    "SH24_amina20_ecrit_v001": {
+     "file": "references/p2/SH24_amina20_ecrit_v001.png",
+     "sha256": "b59fce091dae64b0aaf193a9513597a805227c8802ad117a65010f67507a4e9d"
+    },
+    "SH25_fenetre_v001": {
+     "file": "references/p2/SH25_fenetre_v001.png",
+     "sha256": "7e7a855d6bdfebc3e79c6edca54450ecffe3cc4dc7b57c0aeba904c0b1b3d10c"
+    }
+   },
+   "post_inscriptions": {
+    "SH16_composite_final.png": {
+     "file": "references/p2/post/SH16_composite_final.png",
+     "sha256": "93ebc930747af43c30e18b743b22aa08fd2f0eeb6e3a7c3e58589d8f100ba68c"
+    },
+    "SH16_text_layer_final.png": {
+     "file": "references/p2/post/SH16_text_layer_final.png",
+     "sha256": "cbb4bf60918bd32f18f50a94a68c18d5b30a0d07b8d530fbf5dc2045e331f634"
+    },
+    "SH16_composite_v001.mp4": {
+     "file": "references/p2/post/SH16_composite_v001.mp4",
+     "sha256": "4f2ce5ae1152f7e4b6f3c756d354a766b084c1a95e88098c730f329543872815"
+    },
+    "SH19_composite_final.png": {
+     "file": "references/p2/post/SH19_composite_final.png",
+     "sha256": "bbaf3a4cedf2fbf62aeca25c77b9d0e806e52b0200032a94d4985415c2605a21"
+    },
+    "SH19_text_layer_final.png": {
+     "file": "references/p2/post/SH19_text_layer_final.png",
+     "sha256": "2cde52f3661fccf1108fea994cb4c059c676c3c33858b28e10d317029ed20387"
+    },
+    "SH19_composite_v001.mp4": {
+     "file": "references/p2/post/SH19_composite_v001.mp4",
+     "sha256": "ad47f587a23a2bd2fb7f01de33aec55be7ab3720b00fb290351f278792ed6544"
+    },
+    "SH24_composite_final.png": {
+     "file": "references/p2/post/SH24_composite_final.png",
+     "sha256": "fa24a4e4495801faa75a1affa11b7d2dd4aeaec56c59f402391670e93769bfa7"
+    },
+    "SH24_text_layer_final.png": {
+     "file": "references/p2/post/SH24_text_layer_final.png",
+     "sha256": "f400d1991b9e5ca6716d75ee19a9bcb1d129974773a7def270877a13a17ddd46"
+    },
+    "SH24_composite_v001.mp4": {
+     "file": "references/p2/post/SH24_composite_v001.mp4",
+     "sha256": "54fe718d1221f1252f964a8ddfdb3676955d35ec42a89ff4b3ed22e67ef07a55"
+    },
+    "SH19_margin_report.json": {
+     "file": "references/p2/post/SH19_margin_report.json",
+     "sha256": "cb25ca29b7acd99979af67cc171efe663c1114052746705aa21308968d0623e3"
+    },
+    "SH19_page_edges.json": {
+     "file": "references/p2/post/SH19_page_edges.json",
+     "sha256": "7dfc9381cc1cfefff6269f5ea8e7ca8073901494c24723d65abd93f458584061"
+    }
+   },
+   "inscriptions": {
+    "SH16": "Manifeste de / l'indépendance — / 11 janvier 1944 (serif d'imprimerie, 3 lignes) + caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
+    "SH19": "Un jour, mon pays / sera libre. — bloc recentré dans la zone la plus haute de la page (x 1310–1395) ; marges mesurées sur 108 images : bas ≥ 15.3 %, haut ≥ 21.2 % de la hauteur utile (exigence ≥ 8 %) ; versions précédentes conservées (*_prev_placement, *_prev2_placement)",
+    "SH24": "Nous garderons espoir."
+   },
+   "legibility": {
+    "SH16": "OK à 1080p (texte net rendu à la résolution du plan, zoom 4x, lecture stable ≥ 2,2 s)",
+    "SH19": "OK à 1080p (zoom 6,5x, texte sur page gauche loin de la reliure, lecture stable ≥ 3 s)",
+    "SH24": "validé, inchangé"
+   },
+   "typography_fix": "2026-11-16: text now drawn at output resolution per frame (sharp), originals untouched; SH24 not modified",
+   "status": "CLOSED DEFINITIVELY"
+  },
+  "SH16": {
+   "validated_by_user": true,
+   "file": "references/p2/post/SH16_composite_v001.mp4",
+   "sha256": "4f2ce5ae1152f7e4b6f3c756d354a766b084c1a95e88098c730f329543872815",
+   "note": "kept as is"
+  },
+  "SH24": {
+   "validated_by_user": true,
+   "file": "references/p2/post/SH24_composite_v001.mp4",
+   "sha256": "54fe718d1221f1252f964a8ddfdb3676955d35ec42a89ff4b3ed22e67ef07a55",
+   "note": "kept as is"
+  },
+  "SH19": {
+   "validated_by_user": true,
+   "final": true,
+   "file": "references/p2/post/SH19_composite_v001.mp4",
+   "sha256": "ad47f587a23a2bd2fb7f01de33aec55be7ab3720b00fb290351f278792ed6544",
+   "control": "left-to-right handwriting wipe is intentional (line 2: 2.4-3.4 s); sentence complete and undeformed from 3.4 s; stable and legible 3.08 s (>= 2 s); identical shapes at 3.6/4.4/5.0/6.4 s",
+   "date": "2026-11-16",
+   "edit_master": {
+    "file": "references/p2/post/SH19_edit_6.50s.mp4",
+    "sha256": "267c5bcf8fd79c27aaaa25af6377342fc6651b31b7ecc99edd6f3de2b5e57e05",
+    "timeline": "SH19 01:49:00 → 01:55:12 (109.0–115.5 s, 6.5 s)",
+    "full_sentence_hold_s": 3.1,
+    "note": "last frame cloned +1 frame to fill the 6.5 s slot; original clip untouched"
+   },
+   "status": "CLOSED"
+  },
+  "SH17": {
+   "validated_by_user": true,
+   "final": true,
+   "original": "references/p3/SH17_document_illustre_v001.png",
+   "original_sha256": "499cdb3f4253fd09f344fb2a84049a77ed0d78c09e5e6076318af82f8bd623ab",
+   "final_files": {
+    "SH17_composite_final.png": {
+     "file": "references/p3/post/SH17_composite_final.png",
+     "sha256": "4b7c58b1f6ecdbbc6bcb34160e1d5c054cfae209521879693233160be8a585b1"
+    },
+    "SH17_edit_1080p.png": {
+     "file": "references/p3/post/SH17_edit_1080p.png",
+     "sha256": "37985eaabeeb844f587a7a0eb1e34cd8133c97bcedfbb7613e657f9b2c29c46a"
+    }
+   },
+   "inscription": "Manifeste de l'indépendance — 11 janvier 1944",
+   "caption": "ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive",
+   "locked": "2026-11-16"
+  },
+  "SH29_p3": {
+   "conform_to_validations": true
+  },
+  "SH31_p3": {
+   "conform_to_validations": true
+  },
+  "SH30_p3": {
+   "conform_to_validations": true
+  },
+  "P3": {
+   "status": "CLOSED after technical control",
+   "images": 8,
+   "credits": 520,
+   "hashes_ok": true,
+   "clip_SH30": [
+    "1920,1080,25/1,250",
+    "10.000000"
+   ]
+  },
+  "SH03": {
+   "version": "v006",
+   "file": "references/p4/post/SH03_gaze_head_v006.png",
+   "sha256": "6420f9c99267a5f04b8f3617bc1280ec175c4f1f9c8965118fcd163e5f2f3e4a",
+   "locked_at": "2026-11-17",
+   "status": "LOCKED by user decision; 1080p control: retouche discrète, regard vers la maîtresse visuellement acceptable (mesure 14,0° pour cible ≈12,7°, yeux identiques à v005)",
+   "preserved": {
+    "v001": {
+     "file": "references/p4/SH03_younes_main_levee_v001.png",
+     "sha256": "347cd8afe41fbe7912d0d33c295a2ff436f13234c0737696d43f056b19fca2c8"
+    },
+    "v005": {
+     "file": "references/p4/post/SH03_gaze_head_v005.png",
+     "sha256": "9a4fdd3dd4d5ffb96cf694653c865649d9d913638da373300e9e39cd4d98ec1c"
+    }
+   }
+  }
+ },
+ "uploads": [
+  {
+   "creation_id": "LwoP4S4swO",
+   "note": "locked Amina 1955-56 crop uploaded as reference (hidden, no cost)"
+  },
+  {
+   "creation_id": "DoJhk2Opcl",
+   "note": "locked Amina 1944 child crop (hidden)"
+  },
+  {
+   "creation_id": "rgdJGCCxtc",
+   "note": "locked Amina 1953 crop (hidden)"
+  }
+ ],
+ "p3": {
+  "status": "CLOSED after technical control",
+  "images": 8,
+  "cost_credits": 520,
+  "balance_now": 8858,
+  "balance_after_p3": 8338,
+  "reserve_last_of_men_min": 4643,
+  "reserve_respected": true,
+  "file": "prompts/P3_PREPARED_NOT_EXECUTED.md",
+  "validation": {
+   "artistic_ok": [
+    "SH27",
+    "SH28",
+    "SH30",
+    "SH32",
+    "SH34"
+   ],
+   "conditional": {
+    "SH29": "mention RECONSTITUTION SYMBOLIQUE — sans valeur documentaire",
+    "SH31": "same mention + AI pseudo-text and signature masked"
+   },
+   "SH17": "AI pseudo-text masked; pedagogical inscription 'Manifeste de l'indépendance' (cartouche) + '— 11 janvier 1944 —'; caption ILLUSTRATION PÉDAGOGIQUE — reconstitution, non archive; previous Istiqlal version kept (*_prev_istiqlal)",
+   "SH30": "notebook: 'Le chemin / a été long.' (screenplay line), handwriting reveal 1.0–3.0 s, readable 7 s",
+   "post_files": {
+    "SH17_composite_final.png": {
+     "file": "references/p3/post/SH17_composite_final.png",
+     "sha256": "4b7c58b1f6ecdbbc6bcb34160e1d5c054cfae209521879693233160be8a585b1"
+    },
+    "SH17_edit_1080p.png": {
+     "file": "references/p3/post/SH17_edit_1080p.png",
+     "sha256": "37985eaabeeb844f587a7a0eb1e34cd8133c97bcedfbb7613e657f9b2c29c46a"
+    },
+    "SH29_composite_final.png": {
+     "file": "references/p3/post/SH29_composite_final.png",
+     "sha256": "8d885fc1c45fa3a7dade2e12bffe3b82407f4201b4becefe9facbfde7597953d"
+    },
+    "SH29_edit_1080p.png": {
+     "file": "references/p3/post/SH29_edit_1080p.png",
+     "sha256": "ab437bc933b6dc4f06324c6599994568bd171f69ef9e7bac3a80ca561044e507"
+    },
+    "SH31_composite_final.png": {
+     "file": "references/p3/post/SH31_composite_final.png",
+     "sha256": "980bda7ea45113ac10e7c1a7328fb77428250a43754ba46f2a813150c904bf64"
+    },
+    "SH31_edit_1080p.png": {
+     "file": "references/p3/post/SH31_edit_1080p.png",
+     "sha256": "5f3a62ca2f0171519bad50e7f23bbe082775a44023e204cfc070a72ed3e69ada"
+    },
+    "SH30_composite_final.png": {
+     "file": "references/p3/post/SH30_composite_final.png",
+     "sha256": "283212b3fc9e5db9fca58174de98377846886c142277e0b1b79de505f4853bb2"
+    },
+    "SH30_composite_v001.mp4": {
+     "file": "references/p3/post/SH30_composite_v001.mp4",
+     "sha256": "96f06b785e3455f73e2552b271676b8728244150ccbf3d0d8014cadd22e401e7"
+    }
+   },
+   "status": "local corrections done, awaiting grouped validation",
+   "SH29": "validated by user (symbolic-reconstitution mention)",
+   "SH31": "validated by user (symbolic-reconstitution mention)",
+   "SH30_check": "written 'Le chemin a été long.' = first sentence of Amina's screenplay line (scene 5, spoken while writing); reveal 1.0–3.0 s in sync with speech (A6 starts +1.0 s, ~1.6–1.9 s for this sentence); full text readable 7.0 s; clip 250 frames = 10.0 s slot (198.5–208.5 s); no change needed"
+  }
+ },
+ "p4": {
+  "status": "CLOSED: SH03 v006 locked (17/11)",
+  "corrections": {
+   "SH02": "chalk text '18 NOVEMBRE — / FÊTE DE L'INDÉPENDANCE' on the blackboard (frontal), legible at 1080p",
+   "SH08": "cover title 'AMINA — / MES SOUVENIRS' (serif, perspective on the cover)",
+   "SH35_SH37": "continuity: SH35 unchanged (full class); SH37 = local close-up (1.7x) on Younes writing, classroom defocused (shallow DoF), teacher off-screen (T5 voice-over), backpack put out of focus",
+   "backpack": "worn at the desk (inconsistent with SH03 where bags hang on chairs); cannot be removed cleanly locally (inpainting smeared) -> defocused; option: regenerate SH37 later (65 cr) with explicit authorization"
+  },
+  "post_files": {
+   "SH02_composite_final.png": {
+    "file": "references/p4/post/SH02_composite_final.png",
+    "sha256": "e5832aa7780a69818bf44378d687379e86594ddd1eecd14b2d0ae897be8b64b0"
+   },
+   "SH02_edit_1080p.png": {
+    "file": "references/p4/post/SH02_edit_1080p.png",
+    "sha256": "7c2745cf0d2596515fbaea32552538788852991f3c11d623d6a087a3610b2937"
+   },
+   "SH08_composite_final.png": {
+    "file": "references/p4/post/SH08_composite_final.png",
+    "sha256": "6249d35daf71b49d6f27b426cbfbea535f2743229be622095d02a4fccbbdc31d"
+   },
+   "SH08_edit_1080p.png": {
+    "file": "references/p4/post/SH08_edit_1080p.png",
+    "sha256": "a35eb664eb912d14369e997e23f52746e71383cc96f37b942446833e29006a92"
+   },
+   "SH37_composite_final.png": {
+    "file": "references/p4/post/SH37_composite_final.png",
+    "sha256": "160f2da20e7662d121617238f692a4c281c111e4bb8b95e9eb043b5f6eb539fa"
+   },
+   "SH37_edit_1080p.png": {
+    "file": "references/p4/post/SH37_edit_1080p.png",
+    "sha256": "160f2da20e7662d121617238f692a4c281c111e4bb8b95e9eb043b5f6eb539fa"
+   },
+   "SH37_composite_full.png": {
+    "file": "references/p4/post/SH37_composite_full.png",
+    "sha256": "72957d1ab3548e929ac7006b84422c9f23193802c6e288843100e807140e4fc5"
+   }
+  },
+  "SH03_fix": {
+   "status": "v002 generated, awaiting validation",
+   "file": "references/p4/SH03_younes_main_levee_v002.png",
+   "sha256": "f56c8a350aa01fb9a8286a1659a83466cbb40e8462e3b04d9b1f86d4fb011fab",
+   "v001_preserved": "references/p4/SH03_younes_main_levee_v001.png",
+   "local_fix": "impossible (face frontal to camera, board behind him: head/body must be turned)",
+   "gaze_local_fix": {
+    "status": "v003 local gaze correction, awaiting validation",
+    "method": "near eye only: old iris inpainted from sclera, iris pasted shifted (-3,-7 px, up/left) and clipped by eyelids; no AI, 0 credit",
+    "files": {
+     "SH03_gaze_corrected_v003.png": {
+      "file": "references/p4/post/SH03_gaze_corrected_v003.png",
+      "sha256": "22496d5624e6f32140a193f7d2b246374de5dc7b1aa7fc22c066fbf24c3cd752"
+     },
+     "SH03_gaze_corrected_v003_1080p.png": {
+      "file": "references/p4/post/SH03_gaze_corrected_v003_1080p.png",
+      "sha256": "2c741fb950fb42944c3426b36086592959743294447bf9ac10d3c721f37abaf3"
+     }
+    },
+    "v002_preserved": "references/p4/SH03_younes_main_levee_v002.png"
+   },
+   "head_gaze_fix": {
+    "status": "v004 local head tilt (6° toward the front/up) + iris shift, awaiting validation",
+    "method": "head+hair rotated 6° clockwise about the neck, uncovered background rebuilt (blackboard copy / inpaint); previous iris fix kept; no AI, 0 credit",
+    "limits": "in-plane tilt only (no depth turn); faint seam line left of the forehead and a tiny speck at the nose tip, visible only when zoomed",
+    "files": {
+     "SH03_gaze_head_v004.png": {
+      "file": "references/p4/post/SH03_gaze_head_v004.png",
+      "sha256": "eaf6c49812f85d890b9c310931a4be3bcbafba1fa609c0b0388184d7b32664b9"
+     },
+     "SH03_gaze_head_v004_1080p.png": {
+      "file": "references/p4/post/SH03_gaze_head_v004_1080p.png",
+      "sha256": "b224b09a0c0291b9c55356b894672dc9a4b8a40e576277bc228318bac906e716"
+     },
+     "SH03_before_after_face.jpg": {
+      "file": "references/p4/post/SH03_before_after_face.jpg",
+      "sha256": "ba74830cbe451436bdba34cbc3c58a9e8bce981bab449bc0aa11d0ebd50ec408"
+     }
+    },
+    "previous_preserved": [
+     "references/p4/SH03_younes_main_levee_v001.png",
+     "references/p4/SH03_younes_main_levee_v002.png",
+     "references/p4/post/SH03_gaze_corrected_v003.png"
+    ]
+   },
+   "v005": {
+    "status": "local calibrated correction, awaiting visual validation",
+    "method": "head+hair tilted 4° toward the front; iris offset calibrated by pixel measurement so the gaze angle matches the direction to the teacher's face (measured 14.0° vs target 12.1°; v002 was 18.6°, v004 overshot at 35.8°); eyelid shadow restored; no AI, 0 credit",
+    "limits": "in-plane only; faint seam left of forehead, nose-tip smear and a tiny white triangle at the upper lid visible only when zoomed",
+    "files": {
+     "SH03_gaze_head_v005.png": {
+      "file": "references/p4/post/SH03_gaze_head_v005.png",
+      "sha256": "9a4fdd3dd4d5ffb96cf694653c865649d9d913638da373300e9e39cd4d98ec1c"
+     },
+     "SH03_gaze_head_v005_1080p.png": {
+      "file": "references/p4/post/SH03_gaze_head_v005_1080p.png",
+      "sha256": "d0221ed293d906007b100e2e40178cee80d10825e3d4f7f0127cea39c6627961"
+     },
+     "SH03_gaze_proof_rays_v005.jpg": {
+      "file": "references/p4/post/SH03_gaze_proof_rays_v005.jpg",
+      "sha256": "4103b6b44e6c45548446b322d00dfe41347d8dd84efb5d9c1e5280c126b0afb9"
+     },
+     "SH03_before_after_v005_face_eyes.jpg": {
+      "file": "references/p4/post/SH03_before_after_v005_face_eyes.jpg",
+      "sha256": "487ecbc511192ed1f15125c6205a5405113c6007933d33705d54456580981a9a"
+     }
+    },
+    "previous_kept": [
+     "v001 (original, untouched by design)",
+     "v002 (AI regeneration, 65 cr)",
+     "v003",
+     "v004 (overshoot)"
+    ],
+    "ai_edit_if_insufficient": {
+     "credits": 65,
+     "file": "prompts/SH03_AI_EDIT_PROPOSAL.md",
+     "authorized": false
+    }
+   }
+  }
+ },
+ "animatic_2_0": {
+  "file": "animatic/ANIMATIC_2.0_276s.mp4 (local, 123 MB, not committed; rebuild with scripts/build_animatic_v2.py)",
+  "preview": "animatic/ANIMATIC_2.0_preview_720p.mp4",
+  "preview_sha256": "2afb5fe3d66ec65fec807981990841d99188e3a95fbe76dc53b1fb9c13a54d92",
+  "duration_s": 276.0,
+  "format": "1920x1080 H.264 + AAC stereo 48 kHz",
+  "delivery_check": "OK (<300 s)",
+  "content": "all validated images and local compositions; 5 composited clips (SH10, SH16, SH19, SH24, SH30); temporary espeak voices; placeholders for the 3 priority clips (SH11, SH26, SH38) = animated stills",
+  "fixes_after_review": [
+   "SH29 date card widened",
+   "SH33 timeline spacing"
+  ],
+  "sh03_version_used": "v005"
+ },
+ "pending_authorizations": {
+  "SH03_AI_edit": {
+   "credits": 65,
+   "file": "prompts/SH03_AI_EDIT_PROPOSAL.md"
+  },
+  "three_clips": {
+   "credits": 975,
+   "clips": [
+    "SH11",
+    "SH26",
+    "SH38"
+   ]
+  },
+  "voices": {
+   "tts_full_pass_credits_approx": 308,
+   "tts_test_credits_approx": 119,
+   "or": "human actors (0 cr)"
+  },
+  "music": "free licensed track or Lyria 3 ~80 cr/clip"
+ },
+ "audio_2_0": {
+  "status": "prepared, nothing generated",
+  "casting_file": "audio/elevenlabs_script_multilingual_v2.json",
+  "test_lines": [
+   "Y3",
+   "A7"
+  ],
+  "test_chars": 73,
+  "elevenlabs_usage": "denied (connector permissions)",
+  "multilingual_v2_via_magnific": false,
+  "estimates": {
+   "elevenlabs_multilingual_v2_test_credits_approx": 73,
+   "magnific_eleven_v3_test_credits_approx": 15,
+   "full_film_magnific_v3_approx": 308
+  },
+  "mix_test": "-16.9 LUFS, peak -1.5 dBFS (temp voices)",
+  "edl": "timeline/LE_CARNET_276s_V1.edl"
+ }
 }

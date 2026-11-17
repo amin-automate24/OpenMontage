@@ -150,3 +150,6 @@ Casting FR, script ElevenLabs Multilingual v2 par réplique, 2 répliques test (
 
 ## SH03 v006 (17/11) — préparée, NON VALIDÉE
 Retouche locale de v005 (script `scripts/fix_sh03_v006.py`, 0 crédit, 0 génération) : bavure du bout du nez et raccord du mur à gauche du front uniquement ; yeux, sourcil, peau, bouche, cheveux vérifiés identiques (écart 0). Fichiers : `references/p4/post/SH03_gaze_head_v006.png` (+ `_1080p`), comparaison `references/p4/control/SH03_compare_v005_v006.png`. v005 intacte. En attente de votre validation visuelle. Voix de Younes : audition Y1/Y3 et kit d'intégration préparés ; repli Gaspard Chevallier non généré.
+
+## SH03 v006 — VERROUILLÉE (17/11)
+Décision de l'utilisateur : v006 retenue comme version candidate finale ; contrôle 1080p (planche `SH03_preview_1080p_v005_v006_face.png` + plan complet) : retouche discrète, regard vers la maîtresse visuellement acceptable. **Référence retenue pour le montage final** : `references/p4/post/SH03_gaze_head_v006.png` — SHA-256 `6420f9c99267a5f04b8f3617bc1280ec175c4f1f9c8965118fcd163e5f2f3e4a`. Préservées : v005 `9a4fdd3dd4d5ffb9…`, v001 `347cd8afe41fbe79…` (inchangées). P4 clos. 0 crédit. Animatic existant non re-rendu (SH03 v006 sera intégrée au prochain rendu demandé).

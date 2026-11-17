@@ -1,0 +1,23 @@
+{
+  "status": "PROPOSAL_NOT_EXECUTED",
+  "date": "2026-11-17",
+  "decisions": {"A7_Julia": "conservée comme référence provisoire (aucune régénération)", "Y3_Jules": "refusé (voix trop adulte) ; fichiers conservés"},
+  "library_search": "Voix FR jeunes/masculines/animation/cute/upbeat parcourues : aucune voix d'enfant française (Leon, Hugo, Noé, Roaninho = jeunes adultes). Aucun garçon de 10 ans.",
+  "proposal": {
+    "tool": "ElevenLabs Voice Design (eleven_ttv_v3), 3 aperçus, puis sauvegarde d'un seul",
+    "voice_description": "Garçon français de 10 ans, accent standard de France, voix aiguë et claire d'enfant, naturelle, curieuse et lumineuse, diction scolaire légèrement hésitante, débit vif mais pas précipité, sans voix d'adulte ni caricature de dessin animé.",
+    "preview_text_from_script": "Que l'indépendance est le résultat de longues années de lutte et de sacrifices. Et que nous devons en être dignes !",
+    "preview_text_key": "Y4 (115 caractères, texte existant du casting, minimum exigé 100)",
+    "language": "fr", "guidance_scale": 5, "loudness": 0.5, "seed": "non fixé (fixer après choix pour reproductibilité)",
+    "cost_design": "Non vérifiable par les outils (pas de mode estimation) : à confirmer dans le compte ElevenLabs avant autorisation. Un aperçu = 1 appel, ne pas relancer.",
+    "voice_slots": "1 emplacement utilisé sur 10 disponibles lors de la sauvegarde"
+  },
+  "test_y3_after_design": {
+    "model": "eleven_multilingual_v2", "language_code": "fr", "takes": 1,
+    "text": "Maman ! À qui appartient ce carnet ?", "chars": 36,
+    "cost": "36 caractères (≈0,09 % du quota Starter 40 000 ; consommé à ce jour : 75)",
+    "voice_settings_casting": {"stability": 0.35, "similarity_boost": 0.8, "style": 0.45, "speed": 1.05, "use_speaker_boost": true},
+    "note": "réglages du casting non transmissibles via le connecteur (cf. test précédent) : voix jouée avec ses réglages par défaut"
+  },
+  "preserved": "casting existant et fichiers voices_test inchangés (Y3_jules_m2_take1.mp3 conservé comme témoin refusé)"
+}

@@ -178,3 +178,8 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Verrouillées : references/locked/SH27_flags_portraits_v003_LOCKED.png (sha256 be6abc15…), SH28_flags_portraits_v003_LOCKED.png (sha256 877d5b38…), lecture seule, copies identiques aux v003.
 - scripts/build_animatic_v2.py : SH27/SH28 pointent vers les LOCKED ; options --out-name/--report-name (refus si fichier existant).
 - Rendu de contrôle NON FINAL en cours (nouveaux noms, aucun écrasement). 0 € ; aucune IA ; aucun export final sans accord explicite.
+
+## 2026-11-17 — Master candidat M7B.1 + SH27/SH28 v003 — NON FINAL
+- Local : animatic/MASTER_CANDIDATE_NON_FINAL_M7B.1_SH27-28_v003_1080p.mp4 (127 892 399 o, SHA-256 1988fc0da018ac4f…b5fca) + MASTER_CLEAN_1080p_video_prep_SH27_28_v003.mp4 ; anciens masters intacts. QC : docs/QC_MASTER_CANDIDATE_M7B.1_SH27-28_v003.md.
+- Dropbox (déposé sur demande, vérifié par content_hash + SHA-256 après re-téléchargement) : /LE_CARNET_DE_LA_LIBERTE/MASTER_CANDIDATE/{MASTER_CANDIDATE_NON_FINAL.mp4, MASTER_CANDIDATE_NON_FINAL_FR.srt, QC_MASTER_CANDIDATE_NON_FINAL.md}.
+- 0 € ; aucune IA ; aucun FINAL ni publication. Validation explicite requise.

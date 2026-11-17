@@ -1,0 +1,330 @@
+{
+ "seed": 1956,
+ "rights": "M4.1 synthétique (droits du projet) + enregistrements réels Mixkit, Mixkit Sound Effects Free License (approvals/licenses/SFX_LICENSES.json)",
+ "scale": "identique M4.1",
+ "cues": [
+  {
+   "t": 0,
+   "dur": 30,
+   "cue": "classe: ton de pièce chaud (lp 380 Hz)",
+   "gain_db": -50
+  },
+  {
+   "t": 0,
+   "dur": 30.0,
+   "cue": "classe: murmure lointain d'élèves (très bas)",
+   "gain_db": -55
+  },
+  {
+   "t": 4.3,
+   "dur": 2.4,
+   "cue": "craie au tableau (SH02, pendant l'écriture de la date)",
+   "gain_db": -36
+  },
+  {
+   "t": 11.6,
+   "dur": 0.12,
+   "cue": "chaise/bras levé discret (SH03)",
+   "gain_db": -40
+  },
+  {
+   "t": 28.1,
+   "dur": 1.25,
+   "cue": "transition craie -> page : vraie page qui tourne (SH06)",
+   "gain_db": -42,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 30,
+   "dur": 31.5,
+   "cue": "maison 2026: ton de pièce",
+   "gain_db": -52
+  },
+  {
+   "t": 30,
+   "dur": 31,
+   "cue": "horloge tic-tac discret 1 Hz",
+   "gain_db": -50
+  },
+  {
+   "t": 30.8,
+   "dur": 0.8,
+   "cue": "boîte en bois : charnière (SH07)",
+   "gain_db": -38
+  },
+  {
+   "t": 31.7,
+   "dur": 0.2,
+   "cue": "boîte : couvercle posé",
+   "gain_db": -38
+  },
+  {
+   "t": 51.3,
+   "dur": 3.02,
+   "cue": "ouverture du carnet (SH10)",
+   "gain_db": -42,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 56.0,
+   "dur": 6.0,
+   "cue": "souffle de vent réel (SH11)",
+   "gain_db": -45,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 56.5,
+   "dur": 3.7,
+   "cue": "pages qui tournent au souffle de vent (SH11)",
+   "gain_db": -38
+  },
+  {
+   "t": 56.8,
+   "dur": 4.62,
+   "cue": "pages qui tournent (SH11)",
+   "gain_db": -43,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 61.7,
+   "dur": 4.5,
+   "cue": "transition encre -> rue 1944 : brise réelle (SH12)",
+   "gain_db": -46,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 62.5,
+   "dur": 23.5,
+   "cue": "oiseaux réels, rue 1944 (J-cut sous SH12)",
+   "gain_db": -47,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 63.5,
+   "dur": 22.5,
+   "cue": "rue 1944: air extérieur",
+   "gain_db": -47
+  },
+  {
+   "t": 64.0,
+   "dur": 22.63,
+   "cue": "rue 1944 : habitants au loin (réel, filtré, J-cut 1 s)",
+   "gain_db": -52,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 65.0,
+   "dur": 12.0,
+   "cue": "pas sur la pierre (Amina et son père)",
+   "gain_db": -45
+  },
+  {
+   "t": 65.3,
+   "dur": 12.33,
+   "cue": "pas réels sur la pierre (Amina et son père)",
+   "gain_db": -41,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 65.5,
+   "dur": 19.5,
+   "cue": "oiseaux épars (rue)",
+   "gain_db": -46
+  },
+  {
+   "t": 86,
+   "dur": 34,
+   "cue": "intérieur jour 1944: ton de pièce",
+   "gain_db": -53
+  },
+  {
+   "t": 87.0,
+   "dur": 0.87,
+   "cue": "feuille posée sur la table (SH16)",
+   "gain_db": -38,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 109.6,
+   "dur": 5.42,
+   "cue": "écriture réelle sur le carnet (SH19)",
+   "gain_db": -42,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 115.5,
+   "dur": 3.5,
+   "cue": "pages -> 1953 (SH20)",
+   "gain_db": -39
+  },
+  {
+   "t": 119.0,
+   "dur": 45.0,
+   "cue": "grillons réels dehors, par la fenêtre (J-cut 1 s sous SH20)",
+   "gain_db": -53,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 120,
+   "dur": 43.5,
+   "cue": "nuit 1953: intérieur feutré",
+   "gain_db": -54
+  },
+  {
+   "t": 120.3,
+   "dur": 43,
+   "cue": "grillons au loin (fenêtre)",
+   "gain_db": -50
+  },
+  {
+   "t": 125.75,
+   "dur": 0.7,
+   "cue": "radio : recherche de station (SH22)",
+   "gain_db": -45
+  },
+  {
+   "t": 126.4,
+   "dur": 7.6,
+   "cue": "radio : souffle, craquements et ronflement 50 Hz sous l'annonce",
+   "gain_db": -44
+  },
+  {
+   "t": 133.95,
+   "dur": 0.02,
+   "cue": "radio éteinte : clic (début du silence SH23)",
+   "gain_db": -34
+  },
+  {
+   "t": 146.3,
+   "dur": 4.92,
+   "cue": "écriture réelle (SH24)",
+   "gain_db": -42,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 151.0,
+   "dur": 13.0,
+   "cue": "saisons : vent réel (SH25)",
+   "gain_db": -50,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 151.5,
+   "dur": 12,
+   "cue": "pages du carnet 1953-1955 (SH25)",
+   "gain_db": -40
+  },
+  {
+   "t": 163.8,
+   "dur": 0.9,
+   "cue": "fenêtre qui s'ouvre (SH26)",
+   "gain_db": -37
+  },
+  {
+   "t": 164.0,
+   "dur": 11.0,
+   "cue": "rumeur réelle derrière la fenêtre, qui monte (SH26, J-cut vers SH27)",
+   "gain_db": -38,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 174.0,
+   "dur": 18.12,
+   "cue": "foule réelle, Rabat 1955 (SH27-28 ; L-cut 1,5 s sur SH29)",
+   "gain_db": -35,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 176.0,
+   "dur": 7.12,
+   "cue": "acclamations réelles",
+   "gain_db": -36,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 176.2,
+   "dur": 6,
+   "cue": "3 vagues d'acclamations",
+   "gain_db": -37
+  },
+  {
+   "t": 179.6,
+   "dur": 5.62,
+   "cue": "ovation réelle",
+   "gain_db": -38,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 189.5,
+   "dur": 60.5,
+   "cue": "intérieur 1955-56: ton de pièce",
+   "gain_db": -53
+  },
+  {
+   "t": 189.9,
+   "dur": 1.25,
+   "cue": "page 18 novembre 1955 (SH29)",
+   "gain_db": -40,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 205.0,
+   "dur": 3.42,
+   "cue": "écriture réelle (SH30)",
+   "gain_db": -43,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 208.7,
+   "dur": 0.87,
+   "cue": "page 2 mars 1956 (SH31)",
+   "gain_db": -40,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 225.7,
+   "dur": 1.92,
+   "cue": "ligne du temps : entrée (SH33)",
+   "gain_db": -41,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 248.3,
+   "dur": 0.3,
+   "cue": "le carnet se referme (SH34)",
+   "gain_db": -36
+  },
+  {
+   "t": 250,
+   "dur": 20.5,
+   "cue": "classe: ton de pièce",
+   "gain_db": -50
+  },
+  {
+   "t": 250,
+   "dur": 20.0,
+   "cue": "classe: murmure très bas",
+   "gain_db": -56
+  },
+  {
+   "t": 267.7,
+   "dur": 3.02,
+   "cue": "Younes écrit (réel, SH37)",
+   "gain_db": -42,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 270.0,
+   "dur": 6.0,
+   "cue": "vent léger réel (SH38)",
+   "gain_db": -44,
+   "source": "Mixkit (enregistrement réel)"
+  },
+  {
+   "t": 270.7,
+   "dur": 0.2,
+   "cue": "le cahier se referme (SH38)",
+   "gain_db": -38
+  }
+ ]
+}

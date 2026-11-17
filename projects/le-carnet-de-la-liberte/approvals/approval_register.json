@@ -578,5 +578,23 @@
       "or": "human actors (0 cr)"
     },
     "music": "free licensed track or Lyria 3 ~80 cr/clip"
+  },
+  "audio_2_0": {
+    "status": "prepared, nothing generated",
+    "casting_file": "audio/elevenlabs_script_multilingual_v2.json",
+    "test_lines": [
+      "Y3",
+      "A7"
+    ],
+    "test_chars": 73,
+    "elevenlabs_usage": "denied (connector permissions)",
+    "multilingual_v2_via_magnific": false,
+    "estimates": {
+      "elevenlabs_multilingual_v2_test_credits_approx": 73,
+      "magnific_eleven_v3_test_credits_approx": 15,
+      "full_film_magnific_v3_approx": 308
+    },
+    "mix_test": "-16.9 LUFS, peak -1.5 dBFS (temp voices)",
+    "edl": "timeline/LE_CARNET_276s_V1.edl"
   }
 }

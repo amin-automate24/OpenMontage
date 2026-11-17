@@ -1,0 +1,601 @@
+{
+ "model": "eleven_multilingual_v2",
+ "language": "fr",
+ "note": "Aucun tag audio (réservé à v3/v4). Pauses : ponctuation, points de suspension, <break time=\"0.5s\" />.",
+ "cast": {
+  "YOUNES": {
+   "role": "Younes, 10 ans",
+   "voice": "À CONCEVOIR (Voice Design : garçon français ~10 ans, curieux, lumineux) ou jeune comédien ; aucune voix d'enfant dans la liste FR",
+   "fallback": {
+    "name": "Jules - Warm French Storyteller",
+    "voice_id": "CjIhvq3lIJsoH2c65cKR"
+   },
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.45,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   }
+  },
+  "AMINA": {
+   "role": "Amina 11 → 23 ans",
+   "voice": "Julia - Warm French Narrator (jeune, chaude, douce)",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "note": "enfant (A1, A2) : même voix, diction plus légère ; adulte (A4–A8) : plus posée, émotion contenue"
+  },
+  "LE PÈRE": {
+   "role": "père d'Amina, 40–50 ans",
+   "voice": "Christophe - warm mature narration (mûre, rassurante)",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   }
+  },
+  "LA MAÎTRESSE": {
+   "role": "enseignante contemporaine",
+   "voice": "Marine - Warm and Captivating (parisienne, chaleureuse)",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   }
+  },
+  "LA MÈRE": {
+   "role": "mère de Younes",
+   "voice": "Dahlia - Podcasts et livres audio (chaleureuse, élégante)",
+   "voice_id": "YTo2sZG1bXw7WKVUQY93",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   }
+  },
+  "VOIX RADIO": {
+   "role": "reconstitution fictive, anonyme (jamais une imitation)",
+   "voice": "Damien Doré - Deep Narrator + filtre radio (post)",
+   "voice_id": "kSNoLVC4Ox0vkBz1IKux",
+   "settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0.1,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   }
+  },
+  "VOIX HORS CHAMP": {
+   "role": "voisin qui crie la nouvelle",
+   "voice": "Dorian - Parisian (naturel, expressif)",
+   "voice_id": "R2zfCl7xyI0UyX6zoGu4",
+   "settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.5,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   }
+  }
+ },
+ "lines": [
+  {
+   "key": "T1",
+   "shot": "SH02",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "model": "eleven_multilingual_v2",
+   "start_s": 7.5,
+   "window_end_s": 11.5,
+   "available_s": 4.0,
+   "chars": 52,
+   "text": "Les enfants, pourquoi célébrons-nous cette journée ?",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T1.wav"
+  },
+  {
+   "key": "Y1",
+   "shot": "SH03",
+   "character": "YOUNES",
+   "voice_id": null,
+   "model": "eleven_multilingual_v2",
+   "start_s": 11.8,
+   "window_end_s": 15.0,
+   "available_s": 3.2,
+   "chars": 43,
+   "text": "Parce que le Maroc est devenu indépendant !",
+   "voice_settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.45,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/Y1.wav"
+  },
+  {
+   "key": "T2",
+   "shot": "SH04",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "model": "eleven_multilingual_v2",
+   "start_s": 15.3,
+   "window_end_s": 20.5,
+   "available_s": 5.2,
+   "chars": 68,
+   "text": "Très bien ! Mais comment notre pays a-t-il obtenu son indépendance ?",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T2.wav"
+  },
+  {
+   "key": "Y2",
+   "shot": "SH05",
+   "character": "YOUNES",
+   "voice_id": null,
+   "model": "eleven_multilingual_v2",
+   "start_s": 20.8,
+   "window_end_s": 27.5,
+   "available_s": 6.7,
+   "chars": 39,
+   "text": "Je... je ne connais pas toute l'histoire.",
+   "voice_settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.45,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/Y2.wav"
+  },
+  {
+   "key": "T3",
+   "shot": "SH05",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "model": "eleven_multilingual_v2",
+   "start_s": 23.8,
+   "window_end_s": 27.5,
+   "available_s": 3.7,
+   "chars": 46,
+   "text": "Alors, découvre-la et raconte-la-nous demain !",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T3.wav"
+  },
+  {
+   "key": "Y3",
+   "shot": "SH09",
+   "character": "YOUNES",
+   "voice_id": null,
+   "model": "eleven_multilingual_v2",
+   "start_s": 39.8,
+   "window_end_s": 50.5,
+   "available_s": 10.7,
+   "chars": 36,
+   "text": "Maman ! À qui appartient ce carnet ?",
+   "voice_settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.45,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/Y3.wav"
+  },
+  {
+   "key": "M1",
+   "shot": "SH09",
+   "character": "LA MÈRE",
+   "voice_id": "YTo2sZG1bXw7WKVUQY93",
+   "model": "eleven_multilingual_v2",
+   "start_s": 42.8,
+   "window_end_s": 50.5,
+   "available_s": 7.7,
+   "chars": 88,
+   "text": "À Amina, ton arrière-grand-mère. Elle a vécu les années de la lutte pour l'indépendance.",
+   "voice_settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/M1.wav"
+  },
+  {
+   "key": "A1",
+   "shot": "SH14",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "model": "eleven_multilingual_v2",
+   "start_s": 71.0,
+   "window_end_s": 77.0,
+   "available_s": 6.0,
+   "chars": 52,
+   "text": "Papa, pourquoi tout le monde parle-t-il de liberté ?",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A1.wav"
+  },
+  {
+   "key": "P1",
+   "shot": "SH15",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "model": "eleven_multilingual_v2",
+   "start_s": 77.5,
+   "window_end_s": 86.0,
+   "available_s": 8.5,
+   "chars": 108,
+   "text": "Parce que notre pays vit sous le protectorat. Beaucoup de Marocains veulent qu'il retrouve son indépendance.",
+   "voice_settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P1.wav"
+  },
+  {
+   "key": "P2",
+   "shot": "SH17",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "model": "eleven_multilingual_v2",
+   "start_s": 91.5,
+   "window_end_s": 99.5,
+   "available_s": 8.0,
+   "chars": 109,
+   "text": "Aujourd'hui, des nationalistes marocains ont présenté un document pour réclamer l'indépendance de notre pays.",
+   "voice_settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P2.wav"
+  },
+  {
+   "key": "A2",
+   "shot": "SH18",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "model": "eleven_multilingual_v2",
+   "start_s": 99.8,
+   "window_end_s": 109.0,
+   "available_s": 9.2,
+   "chars": 36,
+   "text": "Mais que signifie être indépendant ?",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A2.wav"
+  },
+  {
+   "key": "P3",
+   "shot": "SH18",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "model": "eleven_multilingual_v2",
+   "start_s": 102.0,
+   "window_end_s": 109.0,
+   "available_s": 7.0,
+   "chars": 78,
+   "text": "C'est pouvoir décider de l'avenir de son pays, librement et avec souveraineté.",
+   "voice_settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P3.wav"
+  },
+  {
+   "key": "R1",
+   "shot": "SH22",
+   "character": "VOIX RADIO",
+   "voice_id": "kSNoLVC4Ox0vkBz1IKux",
+   "model": "eleven_multilingual_v2",
+   "start_s": 126.5,
+   "window_end_s": 134.0,
+   "available_s": 7.5,
+   "chars": 82,
+   "text": "Le sultan Mohammed Ben Youssef a été déposé et contraint à l'exil avec sa famille.",
+   "voice_settings": {
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0.1,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/R1.wav"
+  },
+  {
+   "key": "A4",
+   "shot": "SH23",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "model": "eleven_multilingual_v2",
+   "start_s": 134.3,
+   "window_end_s": 145.5,
+   "available_s": 11.2,
+   "chars": 41,
+   "text": "Père... est-ce que notre rêve est terminé ?",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A4.wav"
+  },
+  {
+   "key": "P4",
+   "shot": "SH23",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "model": "eleven_multilingual_v2",
+   "start_s": 137.4,
+   "window_end_s": 145.5,
+   "available_s": 8.1,
+   "chars": 96,
+   "text": "Non, Amina. Malgré les épreuves, beaucoup de Marocains poursuivent la lutte pour l'indépendance.",
+   "voice_settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P4.wav"
+  },
+  {
+   "key": "V1",
+   "shot": "SH26",
+   "character": "VOIX HORS CHAMP",
+   "voice_id": "R2zfCl7xyI0UyX6zoGu4",
+   "model": "eleven_multilingual_v2",
+   "start_s": 166.5,
+   "window_end_s": 175.0,
+   "available_s": 8.5,
+   "chars": 36,
+   "text": "Amina ! Le sultan revient au Maroc !",
+   "voice_settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.5,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/V1.wav"
+  },
+  {
+   "key": "A5",
+   "shot": "SH28",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "model": "eleven_multilingual_v2",
+   "start_s": 182.5,
+   "window_end_s": 189.5,
+   "available_s": 7.0,
+   "chars": 37,
+   "text": "Il est revenu ! Notre espoir renaît !",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A5.wav"
+  },
+  {
+   "key": "A6",
+   "shot": "SH30",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "model": "eleven_multilingual_v2",
+   "start_s": 199.5,
+   "window_end_s": 208.5,
+   "available_s": 9.0,
+   "chars": 63,
+   "text": "Le chemin a été long. Mais nous approchons enfin de notre rêve.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A6.wav"
+  },
+  {
+   "key": "P5",
+   "shot": "SH32",
+   "character": "LE PÈRE",
+   "voice_id": "OnAVVmObDih9VLFfY0Y8",
+   "model": "eleven_multilingual_v2",
+   "start_s": 216.8,
+   "window_end_s": 225.5,
+   "available_s": 8.7,
+   "chars": 78,
+   "text": "Amina, la France vient de reconnaître officiellement l'indépendance du Maroc !",
+   "voice_settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 0.95,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/P5.wav"
+  },
+  {
+   "key": "A7",
+   "shot": "SH32",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "model": "eleven_multilingual_v2",
+   "start_s": 221.7,
+   "window_end_s": 225.5,
+   "available_s": 3.8,
+   "chars": 37,
+   "text": "Tant de personnes ont espéré ce jour...",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A7.wav"
+  },
+  {
+   "key": "A8",
+   "shot": "SH34",
+   "character": "AMINA",
+   "voice_id": "mNu8EQcIlFZdOJs7yfhe",
+   "model": "eleven_multilingual_v2",
+   "start_s": 240.5,
+   "window_end_s": 250.0,
+   "available_s": 9.5,
+   "chars": 69,
+   "text": "J'espère que les enfants de demain se souviendront de notre histoire.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/A8.wav"
+  },
+  {
+   "key": "T4",
+   "shot": "SH35",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "model": "eleven_multilingual_v2",
+   "start_s": 250.2,
+   "window_end_s": 253.5,
+   "available_s": 3.3,
+   "chars": 31,
+   "text": "Alors Younes, qu'as-tu appris ?",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T4.wav"
+  },
+  {
+   "key": "Y4",
+   "shot": "SH36",
+   "character": "YOUNES",
+   "voice_id": null,
+   "model": "eleven_multilingual_v2",
+   "start_s": 253.7,
+   "window_end_s": 261.5,
+   "available_s": 7.8,
+   "chars": 115,
+   "text": "Que l'indépendance est le résultat de longues années de lutte et de sacrifices. Et que nous devons en être dignes !",
+   "voice_settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.45,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/Y4.wav"
+  },
+  {
+   "key": "T5",
+   "shot": "SH37",
+   "character": "LA MAÎTRESSE",
+   "voice_id": "Uzw1MMvdK6ceBzGkH2Lq",
+   "model": "eleven_multilingual_v2",
+   "start_s": 261.6,
+   "window_end_s": 270.5,
+   "available_s": 8.9,
+   "chars": 9,
+   "text": "Comment ?",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.3,
+    "speed": 1.0,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/T5.wav"
+  },
+  {
+   "key": "Y5",
+   "shot": "SH37",
+   "character": "YOUNES",
+   "voice_id": null,
+   "model": "eleven_multilingual_v2",
+   "start_s": 262.9,
+   "window_end_s": 270.5,
+   "available_s": 7.6,
+   "chars": 90,
+   "text": "En étudiant, en respectant les autres et en construisant ensemble l'avenir de notre pays !",
+   "voice_settings": {
+    "stability": 0.35,
+    "similarity_boost": 0.8,
+    "style": 0.45,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   },
+   "output": "audio/voices_final/Y5.wav"
+  }
+ ],
+ "test_lines": [
+  "Y3",
+  "A7"
+ ]
+}

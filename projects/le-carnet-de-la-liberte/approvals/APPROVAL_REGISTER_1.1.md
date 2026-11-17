@@ -144,3 +144,6 @@ Animatic 2.0 (276,0 s, 1080p H.264/AAC, contrôle de livraison OK) : toutes les 
 
 ## SH03 v005 (17/11) — correction locale calibrée par mesure
 Regard mesuré : v002 18,6° / v004 35,8° (dépassement) / **v005 14,0° pour une cible de 12,1°** (direction pupille→visage de la maîtresse). Tête inclinée de 4°, paupière restaurée. v001 = original conservé (non modifié par conception). Animatic 2.0 mis à jour (SH03/SH05). P4 reste **ouvert** jusqu'à validation visuelle. 0 génération, 0 crédit ; édition IA (65 cr) toujours proposée, non autorisée.
+
+## Audio 2.0 (17/11) — préparation
+Casting FR, script ElevenLabs Multilingual v2 par réplique, 2 répliques test (Y3, A7), EDL/repères Resolve, assemblage FFmpeg (test −16,9 LUFS). Solde ElevenLabs non vérifiable (permissions) ; Multilingual v2 absent de Magnific. **0 génération, 0 crédit.** Prochaine autorisation : test voix (voir `docs/AUDIO_CASTING_ET_MIX_2.0.md` §7).

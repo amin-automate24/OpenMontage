@@ -24,5 +24,100 @@
  "Y5": {
   "status": "PENDING_HUMAN_RECORDING",
   "source_in_mix": "temp espeak (animatic/voices)"
+ },
+ "T1": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/T1.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "T2": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/T2.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "T3": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/T3.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "T4": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/T4.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "T5": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/T5.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "M1": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/M1.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "A1": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/A1.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "A2": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/A2.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "A4": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/A4.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "A5": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/A5.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "A6": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/A6.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "A8": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/A8.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "P1": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/P1.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "P2": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/P2.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "P3": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/P3.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "P4": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/P4.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "P5": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/P5.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "R1": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/R1.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
+ },
+ "V1": {
+  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "file": "audio/voices_m2_lot/wav/V1.wav",
+  "note": "pas encore dans voices_final ni dans un mix"
  }
 }

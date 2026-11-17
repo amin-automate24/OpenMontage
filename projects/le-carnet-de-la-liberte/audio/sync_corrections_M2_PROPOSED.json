@@ -1,0 +1,24 @@
+{
+ "status": "PROPOSED_NOT_APPLIED",
+ "basis": "durées réelles mesurées (audio/voices_m2_lot/lot_report.json), scénario et textes inchangés",
+ "p2": "OK : 5,90 s pour une fenêtre de 8,0 s (marge +2,10 s). L'estimation de dépassement était fausse : Christophe parle plus vite qu'estimé à vitesse par défaut.",
+ "p5_a7": "OK sans correction : P5 finit à 221,49 s, A7 (Julia, provisoire) commence à 221,70 s : écart 0,21 s, serré mais sans chevauchement. Option de confort : décaler A7 à 221,95 s (fenêtre jusqu'à 225,5 s, A7 = 2,95 s).",
+ "corrections": {
+  "P3": {
+   "start_s": 102.25,
+   "why": "A2 finit à 102,21 s et P3 commence à 102,0 s (chevauchement 0,21 s)"
+  },
+  "P4": {
+   "start_s": 137.7,
+   "why": "A4 finit à 137,74 s et P4 commence à 137,4 s (chevauchement 0,24 s)"
+  }
+ },
+ "optional": {
+  "A7": {
+   "start_s": 221.95
+  },
+  "Y1": "voir audio/rhythm_corrections_Y1_Y4_PROPOSED.json (humain)",
+  "Y4": "idem"
+ },
+ "level_note": "équilibrer les niveaux dans Fairlight (voix d'adulte vs enfant), -16 LUFS réservé au mix final"
+}

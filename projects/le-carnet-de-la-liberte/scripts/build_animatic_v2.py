@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Animatic 2.0 (276 s): real validated images + local compositions + temporary voices. Local only, no network, no credits.
 Usage: python3 build_animatic_v2.py [--frames N]  (N = render only first N seconds for a quick test)
-Output: animatic/ANIMATIC_2.0_276s.mp4, animatic/animatic_2.0_report.json"""
+Output: animatic/ANIMATIC_2.0_276s.mp4, animatic/animatic_2.0_report.json
+--clean : rendu propre (aucun bandeau technique, aucun sous-titre incrusté, vidéo seule, 1080p) -> animatic/MASTER_CLEAN_1080p_video_prep.mp4 + master_clean_report.json (n'écrase rien)"""
 import sys, json, subprocess, numpy as np
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -139,15 +140,15 @@ class ClipReader:
     def close(self): self.p.stdout.close(); self.p.kill()
 
 def main():
-    limit = None; only = None
+    limit = None; only = None; clean = "--clean" in sys.argv
     if "--shots" in sys.argv: only = {int(x) for x in sys.argv[sys.argv.index("--shots")+1].split(",")}
     if "--frames" in sys.argv: limit = float(sys.argv[sys.argv.index("--frames")+1])
     OUT.mkdir(exist_ok=True)
     timing = json.loads((OUT/"dialogue_timing.json").read_text())["lines"]
-    out = OUT/("ANIMATIC_2.0_partial.mp4" if only else ("ANIMATIC_2.0_test.mp4" if limit else "ANIMATIC_2.0_276s.mp4"))
+    out = OUT/("MASTER_CLEAN_1080p_video_prep.mp4" if clean else "ANIMATIC_2.0_partial.mp4" if only else ("ANIMATIC_2.0_test.mp4" if limit else "ANIMATIC_2.0_276s.mp4"))
     ff = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{FW}x{FH}", "-r", str(FPS), "-i", "-",
-                           *([] if only else ["-i", str(OUT/"dialogue_mix.wav")]), "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", "-r", str(FPS),
-                           *(["-an"] if only else ["-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", "-shortest"]), "-movflags", "+faststart", str(out)], stdin=subprocess.PIPE)
+                           *([] if (only or clean) else ["-i", str(OUT/"dialogue_mix.wav")]), "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", "-r", str(FPS),
+                           *(["-an"] if (only or clean) else ["-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", "-shortest"]), "-movflags", "+faststart", str(out)], stdin=subprocess.PIPE)
     fs = fnt(DS, 38); ft = fnt(DS, 24); prev = None; report = []
     for s in SHOTS:
         if limit and s["start"] > limit: break
@@ -167,19 +168,21 @@ def main():
             fr = make_overlay(s, fr.copy(), t)
             if f < tr and prev is not None: fr = Image.blend(prev, fr, ease(f/tr))
             if n == 31 and t < 0.4: fr = Image.blend(Image.new("RGB", (FW, FH), (0, 0, 0)), fr.convert("RGB"), ease(t/0.4))
-            d = ImageDraw.Draw(fr, "RGBA"); gt = s["start"]+t
-            d.text((14, 14), f"ANIMATIC 2.0 · voix de repère · SH{n:02d} · {CA.tc(gt)[:5]}", font=ft, fill=(255, 220, 120, 230))
-            for tm in timing:
-                if tm["shot"] == n and tm["start"] <= gt <= tm["end"]+0.25:
-                    ls = CA.wrap(f"{tm['speaker']} : « {tm['text']} »", fs, 1700, d); y0 = FH-60-46*len(ls)
-                    d.rectangle([100, y0-10, FW-100, FH-40], fill=(0, 0, 0, 165))
-                    for i, ln in enumerate(ls): d.text((FW//2, y0+20+i*46), ln, font=fs, fill=(255, 255, 255), anchor="mm")
+            gt = s["start"]+t
+            if not clean:
+                d = ImageDraw.Draw(fr, "RGBA"); gt = s["start"]+t
+                d.text((14, 14), f"ANIMATIC 2.0 · voix de repère · SH{n:02d} · {CA.tc(gt)[:5]}", font=ft, fill=(255, 220, 120, 230))
+                for tm in timing:
+                    if tm["shot"] == n and tm["start"] <= gt <= tm["end"]+0.25:
+                        ls = CA.wrap(f"{tm['speaker']} : « {tm['text']} »", fs, 1700, d); y0 = FH-60-46*len(ls)
+                        d.rectangle([100, y0-10, FW-100, FH-40], fill=(0, 0, 0, 165))
+                        for i, ln in enumerate(ls): d.text((FW//2, y0+20+i*46), ln, font=fs, fill=(255, 255, 255), anchor="mm")
             ff.stdin.write(fr.convert("RGB").tobytes())
         prev = fr.convert("RGB")
         if rd: rd.close()
         report.append({"shot": n, "start": s["start"], "dur": s["dur"], "source": "clip" if n in CLIP else ("custom" if n in (6, 12, 20, 25, 33, 38) else ("crop" if n in CROP else "image"))})
     ff.stdin.close(); ff.wait()
-    (OUT/"animatic_2.0_report.json").write_text(json.dumps(report, indent=1))
+    (OUT/("master_clean_report.json" if clean else "animatic_2.0_report.json")).write_text(json.dumps(report, indent=1))
     print("done", out)
 
 if __name__ == "__main__":

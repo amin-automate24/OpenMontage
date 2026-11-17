@@ -24,7 +24,7 @@ IMG = {  # shot -> source image / clip  (SH03 = v006 LOCKED 17/11, v005 conserv�
  15: P("references/p2/SH15_pere_explique_v001.png"), 16: P("references/p2/SH16_table_feuille_v001.png"),
  21: P("references/p2/SH21_maison1953_soir_v001.png"), 22: P("references/p2/SH22_radio_v001.png"),
  25: P("references/p2/SH25_fenetre_v001.png"), 26: P("references/p1/SH26_fenetre_Amina_v001.png"),
- 27: P("references/locked/SH27_flags_portraits_v003_LOCKED.png"), 28: P("references/locked/SH28_flags_portraits_v003_LOCKED.png"),  # validé 17/11 (v001 et v002 conservés)
+ 27: P("references/p3/post/SH27_flags_portraits_v006.png"), 28: P("references/locked/SH28_flags_portraits_v003_LOCKED.png"),  # validé 17/11 (v001 et v002 conservés)
  29: P("references/p3/post/SH29_composite_final.png"), 31: P("references/p3/post/SH31_composite_final_v002_clean.png"),  # v002: 2 taches retouchées localement (original conservé)
  32: P("references/p3/SH32_pere_amina_nouvelle_v001.png"), 34: P("references/p3/SH34_amina_ferme_carnet_v001.png"),
  35: P("references/p4/SH35_classe_presentation_v001.png"), 37: P("references/p4/post/SH37_composite_final.png"),
@@ -38,6 +38,7 @@ CLIP = {10: P("references/p1/post/SH10_master_1080p_v001.mp4"), 16: P("reference
 CROP = {4: (IMG[2], 2.0, 2.0, (1000, 760), (1000, 760)), 5: (IMG[3], 2.3, 2.7, (1850, 640), (1850, 640)),
         11: (IMG[10], 1.0, 1.25, (1376, 768), (1376, 768)), 18: (IMG[16], 1.5, 1.7, (1500, 960), (1500, 960)),
         23: (IMG[21], 1.8, 2.0, (1500, 900), (1500, 900)), 36: (IMG[35], 2.6, 3.0, (1040, 560), (1040, 560))}
+CROP[27] = (IMG[27], 1.08, 1.0, (1456, 768), (1456, 768))   # QC 17/11 : pull_out SH27 recentré +80 px (portrait droit entièrement dans le cadre)
 CAMZ = {"static": (1.0, 1.0), "push_in": (1.0, 1.08), "push_in_slow": (1.0, 1.04), "push_in_strong": (1.0, 1.2),
         "pull_out": (1.08, 1.0), "pan_right": (1.08, 1.08), "pan_left": (1.08, 1.08)}
 _cache = {}
@@ -84,10 +85,13 @@ def make_overlay(s, img, t):
     n = s["n"]; d = ImageDraw.Draw(img, "RGBA")
     if n == 21: card(d, (560, 90, 1360, 230), "20 AOÛT 1953", fnt(DS, 78))
     if n == 22: card(d, (560, 90, 1360, 190), "Reconstitution fictive", fnt(DS, 56))
-    if n == 27: d.rounded_rectangle((160, 80, 1760, 210), 20, fill=(20, 20, 20, 225)); d.text((960, 145), "16 novembre 1955 — Retour du sultan Mohammed Ben Youssef.", font=fnt(DS, 46), fill=(255, 245, 220), anchor="mm")
+    if n == 27:
+        t27 = "16 novembre 1955 — Retour du sultan Mohammed Ben Youssef."; fs27 = 46
+        while d.textlength(t27, font=fnt(DS, fs27)) > 1600-2*40: fs27 -= 1   # QC 17/11 : le texte tient dans le bandeau (marge 40 px)
+        d.rounded_rectangle((160, 80, 1760, 210), 20, fill=(20, 20, 20, 225)); d.text((960, 145), t27, font=fnt(DS, fs27), fill=(255, 245, 220), anchor="mm")
     if n == 29:
         card(d, (420, 70, 1500, 200), "18 NOVEMBRE 1955", fnt(DJ, 74), fill=(238, 224, 184, 235), ink=(80, 50, 30))
-        d.rounded_rectangle((200, 880, 1720, 960), 18, fill=(0, 0, 0, 185)); d.text((960, 920), "« Le sultan annonce une nouvelle étape vers l'indépendance. »", font=fnt(DS, 40), fill=(255, 245, 220), anchor="mm")
+        d.rounded_rectangle((200, 880, 1720, 960), 18, fill=(0, 0, 0, 185)); d.text((960, 920), "Le sultan annonce une nouvelle étape vers l'indépendance.", font=fnt(DS, 40), fill=(255, 245, 220), anchor="mm")
     if n == 31: card(d, (520, 70, 1400, 200), "2 MARS 1956", fnt(DJ, 74), fill=(238, 224, 184, 235), ink=(80, 50, 30))
     if n in (17, 31):  # QC M3 : mention « non archive » (H3b / H4-H5), sur toute la durée du plan
         txt = s["overlay"]["sub"]; fo = fnt(DS, 38); w = d.textlength(txt, font=fo)

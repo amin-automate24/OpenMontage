@@ -43,6 +43,13 @@
    "takes": 1,
    "files": "audio/voices_younes_timothee/",
    "note": "Y3 = test existant (36 car., déjà compté). Aucune relance. Compteur du compte à revérifier (mise à jour différée constatée)."
+  },
+  {
+   "batch": "RECONCILIATION_17_11",
+   "counter_now": 1604,
+   "expected": "1279 + 36 (Y3 Timothée) + 289 (Y1,Y2,Y4,Y5) = 1604",
+   "match": true,
+   "note": "Les 325 caractères de la phase Timothée sont comptés exactement ; l'écart de 23 caractères antérieur (lot M2) reste non expliqué. Reste 38 396 sur 40 000."
   }
  ],
  "counter_now": 1279,

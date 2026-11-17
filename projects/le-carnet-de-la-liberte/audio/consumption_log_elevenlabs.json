@@ -1,0 +1,26 @@
+{
+ "provider": "ElevenLabs Starter",
+ "quota_chars": 40000,
+ "entries": [
+  {
+   "batch": "VOICE_TEST_M2",
+   "chars_billed": 75,
+   "counter_after": 75
+  },
+  {
+   "batch": "VOICE_DESIGN_Y3",
+   "chars_billed": 0,
+   "note": "bloqué par filtre de sécurité, compteur inchangé (75)"
+  },
+  {
+   "batch": "LOT_M2_19_REPLIQUES",
+   "chars_billed_per_generation": 1181,
+   "counter_after": 1279,
+   "expected_counter": 1256,
+   "unexplained_chars": 23,
+   "note": "Écart de 23 caractères entre le total facturé par génération (1181) et le compteur du compte (+1204). Non expliqué ; à vérifier dans l'historique ElevenLabs. Plafond autorisé 1 240 respecté dans les deux lectures (1181 / 1204)."
+  }
+ ],
+ "counter_now": 1279,
+ "remaining": 38721
+}

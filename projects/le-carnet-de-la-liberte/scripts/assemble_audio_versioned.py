@@ -27,7 +27,10 @@ def main():
     OUT = A/"mixes"/ver
     if OUT.exists(): sys.exit(f"{OUT} exists: choose a new version")
     OUT.mkdir(parents=True)
-    rh = json.loads((A/"rhythm_corrections_Y1_Y4_PROPOSED.json").read_text())["corrections"] if "--rhythm" in sys.argv else {}
+    rh = {}
+    if "--rhythm" in sys.argv: rh.update(json.loads((A/"rhythm_corrections_Y1_Y4_PROPOSED.json").read_text())["corrections"])
+    if "--rhythm-file" in sys.argv:
+        for f in sys.argv[sys.argv.index("--rhythm-file")+1].split(","): rh.update(json.loads((A/f).read_text())["corrections"])
     prov = json.loads((A/"voices_status.json").read_text()) if (A/"voices_status.json").exists() else {}
     lines = json.loads((A/"elevenlabs_script_multilingual_v2.json").read_text())["lines"]; n = int(TOTAL*SR)
     dlg_l = np.zeros(n, np.float32); dlg_r = np.zeros(n, np.float32); env = np.zeros(n, np.float32); used = []

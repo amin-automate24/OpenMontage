@@ -1,0 +1,14 @@
+{
+ "status": "PROPOSED_NOT_APPLIED",
+ "note": "Corrections locales A2/A4 : on décale les répliques du Père (P3, P4) qui chevauchaient ; A7 non décalée (décision à l'écoute).",
+ "corrections": {
+  "P3": {
+   "start_s": 102.25,
+   "why": "A2 finit à 102,21 s ; P3 commençait à 102,0 s"
+  },
+  "P4": {
+   "start_s": 137.7,
+   "why": "A4 finit à 137,74 s ; P4 commençait à 137,4 s"
+  }
+ }
+}

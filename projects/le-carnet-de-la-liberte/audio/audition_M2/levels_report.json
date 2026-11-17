@@ -1,0 +1,206 @@
+{
+ "version": "v1",
+ "target_lufs_listening_copy": -23.0,
+ "lines": [
+  {
+   "key": "T1",
+   "character": "LA MAÎTRESSE",
+   "band_start_s": 0.0,
+   "band_end_s": 2.69,
+   "lufs_original": -21.2,
+   "true_peak_original_dbfs": -7.0,
+   "gain_listening_copy_db": -1.8,
+   "note": ""
+  },
+  {
+   "key": "T2",
+   "character": "LA MAÎTRESSE",
+   "band_start_s": 3.69,
+   "band_end_s": 7.92,
+   "lufs_original": -19.8,
+   "true_peak_original_dbfs": -4.8,
+   "gain_listening_copy_db": -3.2,
+   "note": ""
+  },
+  {
+   "key": "T3",
+   "character": "LA MAÎTRESSE",
+   "band_start_s": 8.92,
+   "band_end_s": 11.47,
+   "lufs_original": -20.9,
+   "true_peak_original_dbfs": -5.8,
+   "gain_listening_copy_db": -2.1,
+   "note": ""
+  },
+  {
+   "key": "T4",
+   "character": "LA MAÎTRESSE",
+   "band_start_s": 12.47,
+   "band_end_s": 14.15,
+   "lufs_original": -21.7,
+   "true_peak_original_dbfs": -7.8,
+   "gain_listening_copy_db": -1.3,
+   "note": ""
+  },
+  {
+   "key": "T5",
+   "character": "LA MAÎTRESSE",
+   "band_start_s": 15.15,
+   "band_end_s": 16.03,
+   "lufs_original": -21.9,
+   "true_peak_original_dbfs": -7.9,
+   "gain_listening_copy_db": -1.1,
+   "note": ""
+  },
+  {
+   "key": "M1",
+   "character": "LA MÈRE",
+   "band_start_s": 17.03,
+   "band_end_s": 22.04,
+   "lufs_original": -27.7,
+   "true_peak_original_dbfs": -14.1,
+   "gain_listening_copy_db": 4.7,
+   "note": ""
+  },
+  {
+   "key": "A1",
+   "character": "AMINA",
+   "band_start_s": 23.04,
+   "band_end_s": 26.85,
+   "lufs_original": -25.9,
+   "true_peak_original_dbfs": -8.2,
+   "gain_listening_copy_db": 2.9,
+   "note": ""
+  },
+  {
+   "key": "A2",
+   "character": "AMINA",
+   "band_start_s": 27.85,
+   "band_end_s": 30.27,
+   "lufs_original": -29.4,
+   "true_peak_original_dbfs": -13.1,
+   "gain_listening_copy_db": 6.4,
+   "note": ""
+  },
+  {
+   "key": "A4",
+   "character": "AMINA",
+   "band_start_s": 31.27,
+   "band_end_s": 34.61,
+   "lufs_original": -30.1,
+   "true_peak_original_dbfs": -12.2,
+   "gain_listening_copy_db": 7.1,
+   "note": ""
+  },
+  {
+   "key": "A5",
+   "character": "AMINA",
+   "band_start_s": 35.61,
+   "band_end_s": 38.58,
+   "lufs_original": -26.6,
+   "true_peak_original_dbfs": -11.3,
+   "gain_listening_copy_db": 3.6,
+   "note": ""
+  },
+  {
+   "key": "A6",
+   "character": "AMINA",
+   "band_start_s": 39.58,
+   "band_end_s": 44.6,
+   "lufs_original": -29.2,
+   "true_peak_original_dbfs": -11.3,
+   "gain_listening_copy_db": 6.2,
+   "note": ""
+  },
+  {
+   "key": "A8",
+   "character": "AMINA",
+   "band_start_s": 45.6,
+   "band_end_s": 49.87,
+   "lufs_original": -32.7,
+   "true_peak_original_dbfs": -12.7,
+   "gain_listening_copy_db": 9.7,
+   "note": ""
+  },
+  {
+   "key": "A7",
+   "character": "AMINA",
+   "band_start_s": 50.87,
+   "band_end_s": 53.8,
+   "lufs_original": -26.2,
+   "true_peak_original_dbfs": -11.2,
+   "gain_listening_copy_db": 3.2,
+   "note": "A7 = référence provisoire (voices_final/A7.wav), non régénérée"
+  },
+  {
+   "key": "P1",
+   "character": "LE PÈRE",
+   "band_start_s": 54.8,
+   "band_end_s": 60.32,
+   "lufs_original": -17.3,
+   "true_peak_original_dbfs": -1.1,
+   "gain_listening_copy_db": -5.7,
+   "note": ""
+  },
+  {
+   "key": "P2",
+   "character": "LE PÈRE",
+   "band_start_s": 61.32,
+   "band_end_s": 67.22,
+   "lufs_original": -18.7,
+   "true_peak_original_dbfs": -3.0,
+   "gain_listening_copy_db": -4.3,
+   "note": ""
+  },
+  {
+   "key": "P3",
+   "character": "LE PÈRE",
+   "band_start_s": 68.22,
+   "band_end_s": 73.05,
+   "lufs_original": -17.5,
+   "true_peak_original_dbfs": -1.5,
+   "gain_listening_copy_db": -5.5,
+   "note": ""
+  },
+  {
+   "key": "P4",
+   "character": "LE PÈRE",
+   "band_start_s": 74.05,
+   "band_end_s": 80.41,
+   "lufs_original": -17.8,
+   "true_peak_original_dbfs": -2.1,
+   "gain_listening_copy_db": -5.2,
+   "note": ""
+  },
+  {
+   "key": "P5",
+   "character": "LE PÈRE",
+   "band_start_s": 81.41,
+   "band_end_s": 86.1,
+   "lufs_original": -16.5,
+   "true_peak_original_dbfs": -1.3,
+   "gain_listening_copy_db": -6.5,
+   "note": ""
+  },
+  {
+   "key": "R1",
+   "character": "VOIX RADIO",
+   "band_start_s": 87.1,
+   "band_end_s": 92.21,
+   "lufs_original": -18.6,
+   "true_peak_original_dbfs": -1.9,
+   "gain_listening_copy_db": -4.4,
+   "note": ""
+  },
+  {
+   "key": "V1",
+   "character": "VOIX HORS CHAMP",
+   "band_start_s": 93.21,
+   "band_end_s": 95.16,
+   "lufs_original": -16.9,
+   "true_peak_original_dbfs": -1.7,
+   "gain_listening_copy_db": -6.1,
+   "note": ""
+  }
+ ]
+}

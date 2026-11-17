@@ -25,3 +25,10 @@ M6.1 reste le master candidat **sans musique** (NON FINAL) et sert de repli ; il
 ## Décisions nécessaires
 - Choisir : (1) téléchargement gratuit avec archivage de licence, (2) Lyria 3 à 80 crédits, ou (3) rester sans musique.
 - Valider les 6 repères ci-dessus (ou en retirer, par exemple ME).
+
+## Sélection (17/11/2026) — 2 pistes gratuites Mixkit, licence archivée
+- Source : Mixkit (Envato), **Mixkit Stock Music Free License** — texte et page archivés dans `approvals/licenses/` ; métadonnées, SHA-256 et date de téléchargement : `approvals/licenses/MUSIC_LICENSES.json`. Coût 0 €, aucun abonnement, aucun crédit IA. Accès réseau ajouté pour mixkit.co et assets.mixkit.co uniquement.
+- Droits : usage éducatif et diffusion en ligne (web, YouTube, réseaux, VOD en ligne) **autorisés** ; **interdits** : DVD/CD, diffusion TV/radio, Content ID, remix musical. La projection scolaire relève de l'usage éducatif autorisé.
+- A : « A Peaceful World » — Michael Ramir C. (World, 1:47), `assets/music/mixkit/mixkit_1051_a_peaceful_world.mp3`.
+- B : « Possible Dreams » — Eugenio Mininni (Classical, 2:39), `assets/music/mixkit/mixkit_599_possible_dreams.mp3`.
+- Essais NON FINALS : `audio/mixes/M7A/` et `audio/mixes/M7B/` (−16,0 LUFS, −1,4 dBTP), extraits 86 s `ESSAI_M7x_NON_FINAL_360p.mp4` / `.mp3` (0:44–1:10, 2:26–3:12, 4:22–4:36). MC→MD = une seule prise continue (aucun double morceau), légère montée de 1,5 dB à 2:55. ME non utilisé (facultatif). Garde-fous vérifiés : aucune musique sur SH22 ni SH33. M6.1 (sans musique) intact = repli.

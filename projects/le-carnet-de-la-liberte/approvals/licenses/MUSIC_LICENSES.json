@@ -1,0 +1,59 @@
+{
+ "source": "Mixkit (Envato)",
+ "license_name": "Mixkit Stock Music Free License",
+ "license_url": "https://mixkit.co/license/#musicFree",
+ "license_text_url": "https://mixkit.co/license/modal/musicFree/",
+ "license_summary_fr": "Mixkit Stock Music Free License (texte relevé le 17/11/2026 sur https://mixkit.co/license/modal/musicFree/, copie HTML archivée) :\nAutorisé : podcasts, vidéos sur réseaux sociaux, publicités en ligne, usages éducatifs (Educational Purposes), vidéos YouTube ; usage commercial et non commercial gratuit ; télécharger, copier, modifier, distribuer et diffuser publiquement sur toute plateforme web/sociale, y compris la vidéo à la demande en ligne.\nNon autorisé : CD et DVD, diffusion TV et radio, jeux vidéo ; remixer (ou intégrer dans une piste purement musicale), revendiquer la paternité, enregistrer sur un service de gestion de droits (Content ID).\nRéclamation éventuelle : transmettre à team@mixkit.co. Conditions complémentaires : Mixkit User Terms.",
+ "rights_check": {
+  "projection_scolaire": "OUI (usage éducatif listé comme autorisé)",
+  "diffusion_en_ligne": "OUI (web, réseaux sociaux, YouTube, VOD en ligne)",
+  "attention": "PAS de DVD/CD, PAS de diffusion TV/radio, PAS d'enregistrement Content ID ; si le film doit passer à la TV ou sur DVD, remplacer la musique"
+ },
+ "cost": "0 € (aucun abonnement, aucun crédit)",
+ "tracks": [
+  {
+   "@id": "A Peaceful World",
+   "@type": "MusicRecording",
+   "name": "A Peaceful World",
+   "genre": "World",
+   "byArtist": "Michael Ramir C.",
+   "duration": "PT1M47S",
+   "url": "https://assets.mixkit.co/music/1051/1051.mp3",
+   "waveformUrl": "https://assets.mixkit.co/music/1051/1051-waveform.json",
+   "copyrightNotice": "Mixkit Stock Music Free License",
+   "encodingFormat": "audio/mpeg",
+   "isAccessibleForFree": true,
+   "license": "https://mixkit.co/license/#musicFree",
+   "publisher": {
+    "@id": "https://mixkit.co/#organization"
+   },
+   "datePublished": "2020-01-28",
+   "listing_page": "https://mixkit.co/free-stock-music/tag/arabic/",
+   "local_file": "assets/music/mixkit/mixkit_1051_a_peaceful_world.mp3",
+   "sha256": "3bf64f1643bb21e541cb5c812eda3f4a34bf90f3af7ec12f709f6d0061cc372e",
+   "downloaded_utc": "2026-11-17T15:19:21Z"
+  },
+  {
+   "@id": "Possible Dreams",
+   "@type": "MusicRecording",
+   "name": "Possible Dreams",
+   "genre": "Classical",
+   "byArtist": "Eugenio Mininni",
+   "duration": "PT2M39S",
+   "url": "https://assets.mixkit.co/music/599/599.mp3",
+   "waveformUrl": "https://assets.mixkit.co/music/599/599-waveform.json",
+   "copyrightNotice": "Mixkit Stock Music Free License",
+   "encodingFormat": "audio/mpeg",
+   "isAccessibleForFree": true,
+   "license": "https://mixkit.co/license/#musicFree",
+   "publisher": {
+    "@id": "https://mixkit.co/#organization"
+   },
+   "datePublished": "2020-01-28",
+   "listing_page": "https://mixkit.co/free-stock-music/classical/",
+   "local_file": "assets/music/mixkit/mixkit_599_possible_dreams.mp3",
+   "sha256": "ee6d055c20cccda716b6b63a154ef0dc825195b7061dc439abb8a623973f4798",
+   "downloaded_utc": "2026-11-17T15:19:21Z"
+  }
+ ]
+}

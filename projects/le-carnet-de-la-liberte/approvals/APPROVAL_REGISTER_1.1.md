@@ -132,3 +132,6 @@ SH02 : inscription à la craie ; SH08 : titre sur la couverture ; SH37 : gros pl
 
 ## AUTH-08 — SH03 v002 (17/11) : 1 régénération × 65 = **65 cr** (aucune reprise)
 Correction locale impossible (Younes face caméra, tableau derrière lui). v002 : regard et visage vers le tableau/la maîtresse ; v001 conservée ; SHA-256 `f56c8a350aa01fb9…`. Total projet : 2 340 cr ; solde attendu 7 818 (à vérifier). En attente de validation.
+
+## SH03 — correction locale du regard v003 (17/11)
+Iris de l'œil proche déplacé vers le haut-gauche (vers le visage de la maîtresse), ancienne zone reconstruite, paupières respectées ; identité, tenue, main levée, cadrage et décor inchangés ; v001 et v002 conservées. 0 génération, 0 crédit (total projet 2 340, solde 7 818). En attente de validation.

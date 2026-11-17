@@ -469,7 +469,22 @@
       "file": "references/p4/SH03_younes_main_levee_v002.png",
       "sha256": "f56c8a350aa01fb9a8286a1659a83466cbb40e8462e3b04d9b1f86d4fb011fab",
       "v001_preserved": "references/p4/SH03_younes_main_levee_v001.png",
-      "local_fix": "impossible (face frontal to camera, board behind him: head/body must be turned)"
+      "local_fix": "impossible (face frontal to camera, board behind him: head/body must be turned)",
+      "gaze_local_fix": {
+        "status": "v003 local gaze correction, awaiting validation",
+        "method": "near eye only: old iris inpainted from sclera, iris pasted shifted (-3,-7 px, up/left) and clipped by eyelids; no AI, 0 credit",
+        "files": {
+          "SH03_gaze_corrected_v003.png": {
+            "file": "references/p4/post/SH03_gaze_corrected_v003.png",
+            "sha256": "22496d5624e6f32140a193f7d2b246374de5dc7b1aa7fc22c066fbf24c3cd752"
+          },
+          "SH03_gaze_corrected_v003_1080p.png": {
+            "file": "references/p4/post/SH03_gaze_corrected_v003_1080p.png",
+            "sha256": "2c741fb950fb42944c3426b36086592959743294447bf9ac10d3c721f37abaf3"
+          }
+        },
+        "v002_preserved": "references/p4/SH03_younes_main_levee_v002.png"
+      }
     }
   }
 }

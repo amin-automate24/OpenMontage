@@ -1,9 +1,10 @@
 {
  "A7": {
   "voice": "Julia",
-  "status": "PROVISIONAL",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_final/A7.wav",
-  "note": "copie provisoire du test ElevenLabs ; en attente de validation définitive"
+  "note": "copie provisoire du test ElevenLabs ; en attente de validation définitive",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "Y1": {
   "status": "PENDING_HUMAN_RECORDING",
@@ -26,98 +27,117 @@
   "source_in_mix": "temp espeak (animatic/voices)"
  },
  "T1": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/T1.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "T2": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/T2.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "T3": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/T3.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "T4": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/T4.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "T5": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/T5.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "M1": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/M1.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "A1": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/A1.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "A2": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/A2.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "A4": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/A4.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "A5": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/A5.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "A6": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/A6.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "A8": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/A8.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "P1": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/P1.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "P2": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/P2.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "P3": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/P3.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "P4": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/P4.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "P5": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/P5.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "R1": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/R1.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  },
  "V1": {
-  "status": "GENERATED_M2_PENDING_VALIDATION",
+  "status": "VALIDATION_PROVISOIRE",
   "file": "audio/voices_m2_lot/wav/V1.wav",
-  "note": "pas encore dans voices_final ni dans un mix"
+  "note": "pas encore dans voices_final ni dans un mix",
+  "in_mix": "M3 (contrôle, non final)"
  }
 }

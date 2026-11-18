@@ -243,3 +243,8 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Inchangés : voix A5/V1 (voix/fond 16,5 / 15,1 dB), musique B, autres bruitages ; mix identique à M9T2.1 hors 188–191 s (médiane 0,0 dB). −16,0 LUFS, −1,2 dBTP.
 - Scripts : sound_design_m7b_test.py, music_finish_m9t22.py, audio_qc_m9t22.py ; mix : audio/mixes/M9T2.2/MIX_276s_M9T2.2.wav ; extrait : audio/mixes/M9T2.2/extrait_comparatif/. QC1, QC2, M9T2.1 et anciens mixes intacts ; 0 € ; aucune IA ; aucun FINAL.
 - Note : le bruit de page de SH29 (existant, 189,7 s) devient plus audible sans la foule.
+
+## 2026-11-19 — Dernier raccord audio M9T2.3 (SH28→SH29) — NON FINAL
+- Entrée SH27 : M9T2.2 retenue, inchangée (stem 173–187,5 s identique). Seule la queue de foule change : gain (cos²)^0,45 de 188,0 à 190,0 s (fin à 190,0 s, inaudible dès 190,1 s) ; ton de pièce SH29 non modifié (un décalage de durée aurait déplacé les tirages aléatoires suivants).
+- Creux avant le bruit de page (189,7 s) : M9T2.2 −41,6 dB → −32,4 dB (QC1 −31,0) ; remontée 19,1 → 9,7 dB (QC1 7,6). A5, V1 (voix/fond 16,5 / 15,1 dB), musique B, autres bruitages : stems identiques ; −16,0 LUFS, −1,2 dBTP. Effet de la normalisation dynamique : −0,46 dB sur 192–198 s (SH29).
+- Scripts : sound_design_m7c_test.py, music_finish_m9t23.py, audio_qc_m9t23.py ; mix : audio/mixes/M9T2.3/ ; extrait : audio/mixes/M9T2.3/extrait_raccord/. QC2 et tous les mixes précédents intacts ; 0 € ; aucune IA ; aucun FINAL.

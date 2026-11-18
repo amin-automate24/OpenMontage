@@ -232,3 +232,8 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Retenu : V1 APRÈS (musique et rumeur −3 dB sous 166,3–169,6 s). Foule réelle SH27/28 conservée comme candidate, acclamations atténuées. Autres bruitages M9T.1 (rue 1944, grillons, SH06/SH12, −2 dB sous A1) NON appliqués. Dialogues, musique B, silences préservés ; QC1, QC2, M9T.1 intacts.
 - M9T2.1 (sound_design_m7_test.py, music_finish_m9t2.py, audio_qc_m9t2.py) : −16,0 LUFS, −1,2 dBTP ; acclamations −8 dB, filtrées 250–3200 Hz ; énergie 3–8 kHz (176–181 s) : QC1 −37,4 / M9T.1 −43,1 / M9T2.1 −48,3 dB ; fenêtre des acclamations −1,4 dB vs M9T.1 ; A5 inchangée.
 - Extraits : audio/mixes/M9T2.1/extrait_SH27-28/ (MP3 comparatif 3 versions ; MP4 image QC2 + son M9T2.1, 174–190 s). 0 € ; aucune IA ; aucun FINAL.
+
+## 2026-11-19 — Contrôle final foule M9T2.1 (mesures, rien modifié)
+- M9T2.1 reste candidate sonore privilégiée pour SH27/28, NON VALIDÉE définitivement. Images QC2, drapeaux, portraits : non touchés ; aucune intégration, aucun rendu complet.
+- A5 (182,5–185,2) : voix/fond 15,5 → 16,5 dB (bande voix 300–3400 Hz : 15,1 → 17,1 dB). Acclamations (176–182 s) : stem foule plat (±0,8 dB), 3–8 kHz −48,3 dB (QC1 −37,4) ; aucun pic sportif restant. V1 : musique −3,0 dB confirmée. Autres passages : écart ≤ 0,25 dB vs QC1 (gain global de normalisation).
+- Anomalies objectives (non corrigées, hors périmètre autorisé) : (1) bosse d'entrée de la foule 174,3–175,0 s (+4 dB, −33,5 dBFS stem) à la jonction SH26→SH27 ; (2) queue de foule 190,0–191,0 s : −28,7 dBFS contre −32,8 dBFS dans QC1 (+4 dB, L-cut de 1 s sur SH29).

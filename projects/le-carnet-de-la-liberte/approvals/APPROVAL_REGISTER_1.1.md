@@ -259,3 +259,6 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Alignement : M9T2.3 en retard de 47 éch. (mesuré sur 7 passages, corrélation 1,000 après correction). Calage de niveau : −0,060 dB (163,5 s) → −0,173 dB (193,0 s).
 - Contrôles : vidéo QC2 recopiée (empreinte vidéo identique) ; audio décodé identique à QC2 de 0 à 163,7 s ; V1 et A5 à décalage 0 vs QC2 ; −16,1 LUFS, −1,1 dBTP, LRA 15,8 LU ; durée audio 276,0 s ; check_delivery OK ; erreur de codage AAC vs WAV source identique (−52,6 / −52,5 dBFS) ; sauts aux raccords ≤ 0,019.
 - Non intégré (reste QC1) : rue 1944, grillons, SH06, SH12, autres M8.1/M9T.1. QC1, QC2, anciens mixes intacts ; 0 € ; aucune IA ; aucun FINAL.
+
+## 2026-11-19 — Dernier contrôle SON1 (fenêtres 179,5–180,5 et 188,5–189,5 s)
+- Diagnostic objectif : docs/DIAGNOSTIC_SON1_FENETRES_179-189.md. Aucun défaut établi (clic, discontinuité, saturation, excès aigu) ; variations dues à l'entrée/sortie de prises de foule filtrées, à la fin de la musique B et à la queue de foule (pas aux raccords d'intégration). Recommandation : conserver QC2 SON1 tel quel. Rien modifié ; QC2 SON1 et anciens masters intacts ; 0 € ; aucun FINAL.

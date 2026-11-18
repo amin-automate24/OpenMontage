@@ -3,15 +3,17 @@
 (Mohammed V et son fils Moulay Hassan, Hôtel de Crillon, Paris, 5 août 1931 ; domaine public). Seules opérations : recadrage hors
 annotations d'inventaire, projection en perspective dans le tirage existant, tonalité sépia globale, vignette et grain légers.
 Aucun visage généré ni retouché. Écrit un nouveau fichier ; l'original SH08_composite_final.png est conservé."""
+import sys
 import numpy as np
 from pathlib import Path
 from PIL import Image, ImageFilter, ImageDraw
 R = Path(__file__).resolve().parent.parent
 SRC = R/"references/p4/post/SH08_composite_final.png"; PH = R/"references/p4/post/sh08_photo_archive/BnF_Rol_156948_btv1b53248904z_1920px.jpg"
-OUT = R/"references/p4/post/SH08_composite_photo_BnF_Rol156948_v002.png"
+CROP = tuple(int(v) for v in sys.argv[sys.argv.index("--crop")+1].split(",")) if "--crop" in sys.argv else (400, 80, 1700, 1104)   # recadrage dans le fichier 1920 px
+OUT = R/"references/p4/post"/(sys.argv[sys.argv.index("--out")+1] if "--out" in sys.argv else "SH08_composite_photo_BnF_Rol156948_v002.png")
 assert not OUT.exists(), "refus d'écraser"
 src = Image.open(SRC).convert("RGB"); A = np.asarray(src).astype(np.float32); W, H = src.size
-ph = Image.open(PH).convert("L").crop((400, 80, 1700, 1104)); w, h = ph.size
+ph = Image.open(PH).convert("L").crop(CROP); w, h = ph.size
 dst = [(1852, 726), (2282, 788), (2108, 1116), (1502, 1058)]          # TL, TR, BR, BL de l'émulsion du tirage (jusqu'au bord crème)
 M, b = [], []
 for (x, y), (u, v) in zip(dst, [(0, 0), (w, 0), (w, h), (0, h)]):

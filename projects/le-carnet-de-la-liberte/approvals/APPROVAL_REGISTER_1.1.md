@@ -212,3 +212,10 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 ## 2026-11-18 — Clarification QC2 (utilisateur) — liste v2 des substitutions, NON appliquée
 - P2 : frise v3c retenue, durées QC1 conservées (SH33 14 s, SH34 10,5 s), tenue finale adaptée (apparition 1,5 s/entrée, vue complète stable 5 s, sans réplique dans SH33). P3 : SH27 −1,5 s, SH28 avancé (maquette validée). SH26 : QC1 intégral, sans recul. SH12–16 : améliorations visuelles retenues uniquement. SH25/26 : QC1, raccord sonore sans correction. Mix QC1 (M7B.2) conservé ; M8.1 non validé.
 - Liste : docs/SUBSTITUTIONS_PREVUES_QC1_vers_QC2_v2.md (v1 conservée). Cohérence : 38 plans contigus, 276,0 s, 0 réplique hors plan. Intégration au master : en attente d'autorisation explicite ; aucun rendu ; 0 € ; aucune IA ; aucun FINAL.
+
+## 2026-11-18 — Intégration autorisée : MASTER_CANDIDATE_NON_FINAL_QC2 (NON FINAL)
+- Fichier : animatic/MASTER_CANDIDATE_NON_FINAL_QC2_1080p.mp4 (vidéo animatic/qc2/MASTER_CLEAN_1080p_video_QC2.mp4, script scripts/build_qc2.py) ; substitutions = docs/SUBSTITUTIONS_PREVUES_QC1_vers_QC2_v2.md uniquement.
+- Audio : piste AAC de QC1 recopiée sans réencodage (MD5 audio identique). check_delivery : OK (1920x1080, H.264/AAC stéréo, 276,1 s).
+- Contrôle image par plan (différence QC1/QC2) : seuls SH13–16, SH27, SH28, SH33 changent (+ 0,5 s de fondu d'entrée SH29 qui hérite de la dernière image de SH28) ; 30 autres plans identiques ; SH25/26/34 = QC1. 38 plans, 6903 images.
+- A5 (182,5) dans SH28 (180,5–189,5) ; portraits Anefo, drapeaux et carton SH27 visibles ; frise SH33 v3c complète de 9,0 à 14,0 s (titre seul 0–1,5 s).
+- QC1, références verrouillées, anciennes versions intacts ; 0 € ; aucune IA ; aucun FINAL ni publication.

@@ -227,3 +227,8 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 ## 2026-11-18 — Test sonore ciblé QC2 (NON FINAL, non appliqué)
 - Lit M6 test (scripts/sound_design_m6_test.py : SH06 page, SH12 brise, rue 1944 pas + oiseaux, nuit 1953 grillons, foule 1955 ; sans réverbération ; SH11/SH25 = QC1) ; mix M9T → M9T.1 (scripts/music_finish_m9_test.py, audio_qc_m9t.py) : −16,0 LUFS, −1,2 dBTP.
 - MP3 AVANT/APRÈS : audio/mixes/M9T.1/TEST_SONORE_QC2_AVANT-QC1_APRES-M9T.mp3 ; index : docs/TEST_SONORE_QC2_INDEX.md. QC1/QC2 et leur mix inchangés ; 0 € ; aucune IA.
+
+## 2026-11-19 — Décisions audio M9T.1 (utilisateur) — extrait SH27/28 corrigé, NON FINAL
+- Retenu : V1 APRÈS (musique et rumeur −3 dB sous 166,3–169,6 s). Foule réelle SH27/28 conservée comme candidate, acclamations atténuées. Autres bruitages M9T.1 (rue 1944, grillons, SH06/SH12, −2 dB sous A1) NON appliqués. Dialogues, musique B, silences préservés ; QC1, QC2, M9T.1 intacts.
+- M9T2.1 (sound_design_m7_test.py, music_finish_m9t2.py, audio_qc_m9t2.py) : −16,0 LUFS, −1,2 dBTP ; acclamations −8 dB, filtrées 250–3200 Hz ; énergie 3–8 kHz (176–181 s) : QC1 −37,4 / M9T.1 −43,1 / M9T2.1 −48,3 dB ; fenêtre des acclamations −1,4 dB vs M9T.1 ; A5 inchangée.
+- Extraits : audio/mixes/M9T2.1/extrait_SH27-28/ (MP3 comparatif 3 versions ; MP4 image QC2 + son M9T2.1, 174–190 s). 0 € ; aucune IA ; aucun FINAL.

@@ -47,10 +47,11 @@ dAtt = (F6a[a1-L0:b1-L0] - F6[a1-L0:b1-L0])                                     
 assert np.abs(An[sec(27.9, 29.7)] - F6[sec(27.9, 29.7)]).max() < 4, "ducking inattendu en SH06"
 dOld = An[a1-L0:b1-L0] - Aq[a1-L0:b1-L0] + dAtt                                    # (page atténuée - ancien whoosh M4.1)
 # gain mix/ambiance : régression de (B-Q) sur (An-Aq) retardé, fenêtre de la page, avec dérive epsilon*Q
-X = np.stack([(An[a1-L0:b1-L0, 0] - Aq[a1-L0:b1-L0, 0]), Q[a1:b1, 0]], 1); y = Ba[a1:b1, 0] - Q[a1:b1, 0]; coef = np.linalg.lstsq(X, y, rcond=None)[0]; G0 = coef[0]
-rep["z1_fit"] = {"G_M9T1": float(G0), "G_dB": float(20*np.log10(abs(G0))), "drift_eps": float(coef[1])}
+pk_mix = np.abs(Ba[sec(28.40, 28.50)]).max(); pk_amb = np.abs(An[sec(28.40, 28.50).start-L0:sec(28.40, 28.50).stop-L0]).max(); G0 = pk_mix/pk_amb   # rapport crête mix M9T.1 / crête ambiance (la régression est faussée par la dérive du loudnorm)
+assert 5 < G0 < 20, f"gain mix/ambiance inattendu {G0}"
+rep["z1_fit"] = {"G_M9T1": float(G0), "G_dB": float(20*np.log10(abs(G0))), "note": "regression monoregresseur"}
 def z1_with(G): return Q[a1:b1] + G*dOld
-lo, hi = 0.8*G0, 1.3*G0; G1 = G0
+lo, hi = 0.5*G0, 2.0*G0; G1 = G0
 for _ in range(40):                                                               # bissection : crête 28,40–28,50 s = -11,4 dBFS (niveau validé)
     mid = (lo+hi)/2; pk = 20*np.log10(np.abs(z1_with(mid)[sec(28.40, 28.50).start-a1:sec(28.40, 28.50).stop-a1]).max()/32768)
     lo, hi = (mid, hi) if pk < -11.4 else (lo, mid); G1 = mid

@@ -33,3 +33,7 @@ A (scolaire) : QC3 SON2 + générique, sous-titres incrustés (ASS ci-dessus). B
 - Carton 1 (inchangé, 0,5–5,8 s) ; carton 2 devise 5,8–8,9 s (76 px / arabe Amiri 96 px, filet doré, pleinement lisible ≈ 1,7 s) ; carton 3 archives 8,8–13,0 s (titre Cinzel 36 px ; crédits 52 px + source 42 px, blocs espacés ; pleinement lisible ≈ 2,7 s) ; fondu au noir 12,3–13,0 s. Muet.
 - Contrôles : arabe correct (liaisons, virgules arabes ; signe de « الله » dégagé du filet), marges ≥ 155 px (zone de sécurité ≥ 96 px), fondus sans saut (variation max 20/255 par image), fin du film → noir → carton 1 sans superposition.
 - Crédit BnF uniquement dans la variante « avec BnF », à n'utiliser que si SH08 v003b est intégrée et ses conditions clarifiées.
+
+## Générique V005 — minutage du carton 3 (18/11, décision A(b))
+`scripts/build_generique_fin_v005_minutage.py` (dérivé de v005 ; v005 conservée) : `--carton3-fin 15.6 --credit-condense --sans-credit-photo` → `GENERIQUE_FIN_v005_minutage_c3_6s_sans_BnF.mp4` (16,28 s, 407 images) ; maquette avec les 5 dernières secondes du film : `MAQUETTE_FIN_FILM_PLUS_GENERIQUE_v005_minutage_sans_BnF.mp4` (21,28 s). Cartons 1 et 2, fondus, devise bilingue et silence inchangés ; carton 3 pleinement lisible 9,56–15,68 s (6,12 s mesurés), crédit condensé (Anefo 1953 / Nationaal Archief, La Haye / CC0 : ≈ 89 car. → ≈ 14,5 car/s). Film complet prévu : 276,12 + 16,28 = 292,40 s (hors 0,12 s de silence de raccord).
+Sous-titres : v001 + correction v002 du cue 10 validées (synchronisation vérifiée).

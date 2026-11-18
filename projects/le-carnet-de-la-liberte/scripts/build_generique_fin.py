@@ -21,12 +21,12 @@ def bg():
 BG = bg()
 def ease(x): x = min(1, max(0, x)); return x*x*(3-2*x)
 # éléments : (texte, police, taille, couleur, y, t_in, t_out, espacement des lettres, direction)
-L = [("LE CARNET DE LA LIBERTÉ", CIN5, 62, GOLD, 300, 0.9, 5.7, 6, None),
-     ("Court-métrage écrit, réalisé et produit par", COR5, 46, IVORY, 455, 1.5, 5.7, 0, None),
-     ("AMIN BENHIDA", CIN7, 116, IVORY, 560, 1.9, 5.7, 10, None),
-     ("Enseignant à l’École communautaire de Tiddas", COR5, 44, IVORY, 690, 2.5, 5.7, 0, None),
-     ("Dieu, la Patrie, le Roi", COR6, 66, GOLD, 395, 6.3, 9.3, 1, None),
-     ("الله، الوطن، الملك", AMI, 84, GOLD, 520, 6.6, 9.3, 0, "rtl")]
+L = [("LE CARNET DE LA LIBERTÉ", CIN5, 62, GOLD, 300, 0.5, 5.2, 6, None),
+     ("Court-métrage écrit, réalisé et produit par", COR5, 46, IVORY, 455, 1.0, 5.2, 0, None),
+     ("AMIN BENHIDA", CIN7, 116, IVORY, 560, 1.4, 5.2, 10, None),
+     ("Enseignant à l’École communautaire de Tiddas", COR5, 44, IVORY, 690, 1.9, 5.2, 0, None),
+     ("Dieu, la Patrie, le Roi", COR6, 66, GOLD, 395, 5.8, 9.3, 1, None),
+     ("الله، الوطن، الملك", AMI, 84, GOLD, 520, 6.0, 9.3, 0, "rtl")]
 CREDIT_HEAD = "Archives photographiques"
 CREDIT_PHOTO = ["Photographie : Mohammed V et son fils Moulay Hassan, Paris, 5 août 1931 — Agence Rol.",
                 "Source : gallica.bnf.fr / Bibliothèque nationale de France."]
@@ -45,15 +45,15 @@ def frame(t):
         al = ease((t-ti)/0.8)*(1-ease((t-to)/0.6)); dy = 14*(1-ease((t-ti)/1.2))       # fondu + légère montée
         if al > 0: img = Image.alpha_composite(img, text_layer(txt, font, size, col, y, al, sp, dr, dy))
     # filets dorés
-    for (y, ti, to) in ((370, 1.2, 5.7), (465, 6.5, 9.3)):
+    for (y, ti, to) in ((370, 0.8, 5.2), (465, 6.0, 9.3)):
         al = ease((t-ti)/0.8)*(1-ease((t-to)/0.6)); wl = 260*ease((t-ti)/1.0)
         if al > 0:
             lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(lay).line([(W/2-wl, y), (W/2+wl, y)], fill=GOLD+(int(200*al),), width=2); img = Image.alpha_composite(img, lay)
-    al = ease((t-7.0)/0.8)*(1-ease((t-9.3)/0.6))
+    al = ease((t-6.3)/0.7)*(1-ease((t-9.3)/0.6))   # v004 : crédits visibles ≈ 3 s (au lieu de 1,5 s)
     if al > 0:
-        lines = (CREDIT_PHOTO if PHOTO else []) + CREDIT_ANEFO; y0 = 1000-len(lines)*46
-        img = Image.alpha_composite(img, text_layer(CREDIT_HEAD, CIN5, 26, GOLD, y0-44, al*0.9, 3, None))
-        for i, s_ in enumerate(lines): img = Image.alpha_composite(img, text_layer(s_, COR5, 36, IVORY, y0+i*46, al*0.88, 0, None))
+        lines = (CREDIT_PHOTO if PHOTO else []) + CREDIT_ANEFO; y0 = 1004-len(lines)*52
+        img = Image.alpha_composite(img, text_layer(CREDIT_HEAD, CIN5, 28, GOLD, y0-48, al*0.9, 3, None))
+        for i, s_ in enumerate(lines): img = Image.alpha_composite(img, text_layer(s_, COR5, 40, IVORY, y0+i*52, al*0.92, 0, None))
     out = img.convert("RGB")
     if t > 9.3: out = Image.blend(out, Image.new("RGB", (W, H), (0, 0, 0)), ease((t-9.3)/0.7))
     if t < 0.6: out = Image.blend(Image.new("RGB", (W, H), (0, 0, 0)), out, ease(t/0.6))

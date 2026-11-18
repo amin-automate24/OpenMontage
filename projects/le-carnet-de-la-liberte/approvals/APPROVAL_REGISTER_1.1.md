@@ -219,3 +219,7 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Contrôle image par plan (différence QC1/QC2) : seuls SH13–16, SH27, SH28, SH33 changent (+ 0,5 s de fondu d'entrée SH29 qui hérite de la dernière image de SH28) ; 30 autres plans identiques ; SH25/26/34 = QC1. 38 plans, 6903 images.
 - A5 (182,5) dans SH28 (180,5–189,5) ; portraits Anefo, drapeaux et carton SH27 visibles ; frise SH33 v3c complète de 9,0 à 14,0 s (titre seul 0–1,5 s).
 - QC1, références verrouillées, anciennes versions intacts ; 0 € ; aucune IA ; aucun FINAL ni publication.
+
+## 2026-11-18 — QC2 enregistré comme RÉFÉRENCE VISUELLE CANDIDATE (NON FINALE)
+- Conformité visuelle SH33, SH27/28, SH25/26 confirmée (révision ChatGPT Work, décision utilisateur). Plans validés figés ; QC1, références historiques archivées et originaux conservés. Aucun remontage, aucune IA, aucun nouvel export.
+- Comparaison mix QC1 / M8.1 (mesures, rien appliqué) : docs/COMPARAISON_MIX_QC1_vs_M8.1.md.

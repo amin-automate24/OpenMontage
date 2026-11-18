@@ -6,3 +6,7 @@
 5. **Crédit recommandé (générique)** : « Photographie : Mohammed V et son fils Moulay Hassan, Paris, 5 août 1931 — Agence Rol. Source : gallica.bnf.fr / Bibliothèque nationale de France. »
 Sources primaires : https://gallica.bnf.fr/ark:/12148/btv1b53248904z ; https://catalogue.bnf.fr/ark:/12148/cb47065604x ; https://commons.wikimedia.org/wiki/File:5-8-31,_le_sultan_du_Maroc_et_son_fils_Moulay_Hassan_-_btv1b53248904z.jpg
 Projet d'inscription : `approvals/PROJET_INSCRIPTION_SH08_BnF_Rol156948.md` (non inscrit). Rien d'intégré ; QC3 SON2 intact.
+
+## Complément 18/11 — finalisation SH08 (v003b)
+- Notices BnF/Gallica et catalogue : inaccessibles depuis cette session (gallica.bnf.fr et catalogue.bnf.fr non autorisés par le réseau). Seule la notice BnF reprise par Commons a été lue (titre, Rol 156948, 05/08/1931, EI-13 (1781), ark btv1b53248904z, étiquettes PD-France + PD-1996). Droits : à confirmer sur la notice Gallica avant publication.
+- Comparatif v003b : `animatic/qc2/COMPARATIF_SH08_v003b_AVANT_APRES.mp4` + planche ; visages de Mohammed V (~40 px) et Moulay Hassan reconnaissables ; hors tirage, image identique au master (écart moyen 1,2/255). QC3 SON2 intact, aucun rendu complet.

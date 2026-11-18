@@ -197,3 +197,9 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - P3 SH27 raccourci de 1,5 s : SH27 175,0–180,5 ; SH28 180,5–189,5 ; V1 (166,5) et A5 (182,5) inchangés ; portraits (photo archivée Anefo 905-8914), drapeaux et carton intacts.
 - P4 SH25 sortie 1,5 s plus tôt : SH25 151,5–162,0 ; SH26 162,0–175,0 ; V1 (166,5) inchangée ; musique MC→MD inchangée ; dernière page sonore de SH25 (162,3 s) déborde de 0,3 s sur SH26, à recaler si validé.
 - Durée totale 276 s inchangée ; QC1 et références verrouillées intacts ; 0 € ; aucune IA.
+
+## 2026-11-18 — Décisions Work : P2/P3 retenues, P4 non validée
+- P2 SH33–34 (frise corrigée v3c) : RETENUE, candidate visuellement validée ; frise figée (plus de modification).
+- P3 SH27/28 : RETENUE comme candidate visuelle. Traçabilité vérifiée sans recherche : photo Anefo 905-8914 (SHA-256 3f2c5ece…d48d31, CC0 1.0, oldid 1257609662) archivée dans references/p3/historical_sources/ ; script compose_sh27_sh28_portraits.py contrôle l'empreinte.
+- P4 SH25/26 : NON VALIDÉE. Extrait complet SH25 (fin) / SH26 / SH27 (début), film 156–181 s : animatic/remontage_v3/COMPARAISON_P4_SH25-27_extrait_complet.mp4 (AVANT QC1 + son M7B.2 puis APRÈS P4 + son M8.1). Durées : AVANT SH25 12,0 s / SH26 11,5 s ; APRÈS SH25 10,5 s / SH26 13,0 s (sortie −1,5 s, SH26 +1,5 s) ; SH27 175,0 et totaux inchangés. Raccord sonore mesuré : musique MC→MD (−20 dBFS) masque les bruitages (≈ −42 dB) ; page SH25 de 161,8 (0,2 s avant la coupe 162,0) jusqu'à 163,4 ; écart M8.1/M7B.2 ≤ 1 dB, saut d'échantillon maximal 0,025 (pas de clic) -> NON gênant, conservé pour écoute humaine ; aucun changement audio. Écart pages/changements de carte : QC1 +0,6/+0,4 s ; P4 −0,8/−0,5 s.
+- QC1, références verrouillées, anciens extraits : intacts ; 0 € ; aucune IA ; aucune intégration au master.

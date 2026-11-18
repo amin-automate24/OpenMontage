@@ -253,3 +253,9 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Validé artistiquement : entrée de foule M9T2.2 et raccord SH28→SH29 M9T2.3 → références sonores SH27–29 figées (plus de correction sur cette séquence).
 - Plan : docs/PLAN_INTEGRATION_AUDIO_QC2.md (portion 163,5–193,0 s ; alignement −47 échantillons ; encodage AAC unique ; vidéo QC2 recopiée). Non validé, reste QC1 : rue 1944, grillons, SH06, SH12, autres M8.1/M9T.1.
 - QC1, QC2, anciens mixes, voix, musique B, images verrouillées intacts ; aucun nouveau son, rendu, 0 € ; aucun FINAL.
+
+## 2026-11-19 — Intégration audio QC2 SON1 (autorisée) — NON FINAL
+- Fichier : animatic/MASTER_CANDIDATE_NON_FINAL_QC2_SON1_1080p.mp4 (non commité, 125 Mo) ; script scripts/integrate_audio_qc2_son1.py ; WAV audio/mixes/QC2_SON1/MIX_276s_QC2_SON1.wav. Zone 163,5–193,0 s (raccords 1 s cos²/sin², sources corrélées) ; hors zone : QC1 identique à l'échantillon près.
+- Alignement : M9T2.3 en retard de 47 éch. (mesuré sur 7 passages, corrélation 1,000 après correction). Calage de niveau : −0,060 dB (163,5 s) → −0,173 dB (193,0 s).
+- Contrôles : vidéo QC2 recopiée (empreinte vidéo identique) ; audio décodé identique à QC2 de 0 à 163,7 s ; V1 et A5 à décalage 0 vs QC2 ; −16,1 LUFS, −1,1 dBTP, LRA 15,8 LU ; durée audio 276,0 s ; check_delivery OK ; erreur de codage AAC vs WAV source identique (−52,6 / −52,5 dBFS) ; sauts aux raccords ≤ 0,019.
+- Non intégré (reste QC1) : rue 1944, grillons, SH06, SH12, autres M8.1/M9T.1. QC1, QC2, anciens mixes intacts ; 0 € ; aucune IA ; aucun FINAL.

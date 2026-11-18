@@ -237,3 +237,9 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - M9T2.1 reste candidate sonore privilégiée pour SH27/28, NON VALIDÉE définitivement. Images QC2, drapeaux, portraits : non touchés ; aucune intégration, aucun rendu complet.
 - A5 (182,5–185,2) : voix/fond 15,5 → 16,5 dB (bande voix 300–3400 Hz : 15,1 → 17,1 dB). Acclamations (176–182 s) : stem foule plat (±0,8 dB), 3–8 kHz −48,3 dB (QC1 −37,4) ; aucun pic sportif restant. V1 : musique −3,0 dB confirmée. Autres passages : écart ≤ 0,25 dB vs QC1 (gain global de normalisation).
 - Anomalies objectives (non corrigées, hors périmètre autorisé) : (1) bosse d'entrée de la foule 174,3–175,0 s (+4 dB, −33,5 dBFS stem) à la jonction SH26→SH27 ; (2) queue de foule 190,0–191,0 s : −28,7 dBFS contre −32,8 dBFS dans QC1 (+4 dB, L-cut de 1 s sur SH29).
+
+## 2026-11-19 — Finition audio M9T2.2 (deux micro-corrections autorisées) — NON FINAL
+- (1) Entrée de la foule 174,3–175,0 s adoucie : rampe lisse, bosse +5,6 → +2,6 dB au-dessus du niveau établi, niveau établi inchangé (−38,5 dB stem). (2) Queue de la foule : fondu cos² 188,0–190,0 s, inaudible à 190,0 s (QC1 : coupure à 190,0 + fondu 1,5 s).
+- Inchangés : voix A5/V1 (voix/fond 16,5 / 15,1 dB), musique B, autres bruitages ; mix identique à M9T2.1 hors 188–191 s (médiane 0,0 dB). −16,0 LUFS, −1,2 dBTP.
+- Scripts : sound_design_m7b_test.py, music_finish_m9t22.py, audio_qc_m9t22.py ; mix : audio/mixes/M9T2.2/MIX_276s_M9T2.2.wav ; extrait : audio/mixes/M9T2.2/extrait_comparatif/. QC1, QC2, M9T2.1 et anciens mixes intacts ; 0 € ; aucune IA ; aucun FINAL.
+- Note : le bruit de page de SH29 (existant, 189,7 s) devient plus audible sans la foule.

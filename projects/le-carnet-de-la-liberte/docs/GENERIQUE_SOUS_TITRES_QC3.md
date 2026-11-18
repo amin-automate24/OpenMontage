@@ -14,3 +14,11 @@
 - Aperçu incrusté (7 scènes, 126 s) : `animatic/qc2/APERCU_SOUS_TITRES_QC3_v001.mp4` + planche.
 ## Livrables prévus après autorisation
 A (scolaire) : QC3 SON2 + générique, sous-titres incrustés (ASS ci-dessus). B (cinéma/YouTube) : QC3 SON2 + générique, sans incrustation + SRT séparé. 1920×1080, 25 fps ; 276,12 s + 10,0 s.
+
+## Mise à jour 18/11 — maquettes définitives (décisions utilisateur)
+- « FIN » conservé dans SH38 (plan inchangé). Générique 10 s muet, deux cartons.
+- `GENERIQUE_FIN_v003.mp4` (avec crédit photo SH08) et `GENERIQUE_FIN_v003_sans_photo_SH08.mp4` (à utiliser tant que SH08 v003b n'est pas intégré) ; maquettes avec les 5 dernières secondes du film : `MAQUETTE_FIN_FILM_PLUS_GENERIQUE_v003*.mp4` ; planche `GENERIQUE_FIN_v003_planche.jpg`.
+- Bloc « ARCHIVES PHOTOGRAPHIQUES » en bas du carton 2 (36 px, chiffres alignés, « CC0 » lisible) : 3 lignes avec la photo BnF, 1 ligne sans ; le carton n'est pas surchargé (titre et devise inchangés).
+- Crédit Anefo vérifié sur la fiche Commons archivée (`references/p3/historical_sources/`, oldid 1257609662) : « Fotograaf Onbekend / Anefo », vers le 18 août 1953, Nationaal Archief, inv. 2.24.01.09, n° 905-8914, CC0 1.0. CC0 n'impose aucune attribution : le crédit est une courtoisie. La notice primaire du Nationaal Archief (handle) n'a pas été consultée depuis cette session.
+- BnF : d'après des sources secondaires (réponse ministérielle 2013, extraits des conditions Gallica), la réutilisation non commerciale est libre avec mention de la source et la réutilisation commerciale relève d'une licence ; la page officielle des conditions n'a pas pu être lue ici. Aucune obligation de licence n'est affirmée : à vérifier sur gallica.bnf.fr avant toute diffusion monétisée.
+- Sous-titres : v001 retenu. Réplique 10 (19,1 car/s, 2 lignes courtes de 24 et 21 car.) : vérifiée à l'image ; option `SUBTITLES_FR_QC3_v002_option_cue10.srt` = seule modification, début à 77,15 s (juste après la coupe SH14/SH15 à 77,08 s, 0,45 s avant la voix) → 17,0 car/s, sans désynchroniser la réplique suivante. Aperçu : `APERCU_SOUS_TITRES_v002_cue10_rue1944.mp4`.

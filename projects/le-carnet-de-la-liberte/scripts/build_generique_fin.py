@@ -27,15 +27,17 @@ L = [("LE CARNET DE LA LIBERTÉ", CIN5, 62, GOLD, 300, 0.9, 5.7, 6, None),
      ("Enseignant à l’École communautaire de Tiddas", COR5, 44, IVORY, 690, 2.5, 5.7, 0, None),
      ("Dieu, la Patrie, le Roi", COR6, 66, GOLD, 395, 6.3, 9.3, 1, None),
      ("الله، الوطن، الملك", AMI, 84, GOLD, 520, 6.6, 9.3, 0, "rtl")]
-CREDIT = ["Photographie : Mohammed V et son fils Moulay Hassan, Paris, 5 août 1931 — Agence Rol.",
-          "Source : gallica.bnf.fr / Bibliothèque nationale de France."]
+CREDIT_HEAD = "Archives photographiques"
+CREDIT_PHOTO = ["Photographie : Mohammed V et son fils Moulay Hassan, Paris, 5 août 1931 — Agence Rol.",
+                "Source : gallica.bnf.fr / Bibliothèque nationale de France."]
+CREDIT_ANEFO = ["Portraits brandis par la foule : Anefo, août 1953 — Nationaal Archief, La Haye (CC0)."]
 def text_layer(txt, font, size, col, y, alpha, spacing, direction, dy=0):
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay); f = F(font, size)
     if spacing:
         ws = [d.textlength(ch, font=f) for ch in txt]; tw = sum(ws)+spacing*(len(txt)-1); x = W/2-tw/2
         for ch, w_ in zip(txt, ws): d.text((x, y+dy), ch, font=f, fill=col+(int(255*alpha),), anchor="lm"); x += w_+spacing
     else:
-        d.text((W/2, y+dy), txt, font=f, fill=col+(int(255*alpha),), anchor="mm", direction=direction)
+        d.text((W/2, y+dy), txt, font=f, fill=col+(int(255*alpha),), anchor="mm", direction=direction, features=None if direction else ["lnum"])   # chiffres alignés (lisibilité, « CC0 »)
     return lay
 def frame(t):
     img = BG.copy()
@@ -47,10 +49,11 @@ def frame(t):
         al = ease((t-ti)/0.8)*(1-ease((t-to)/0.6)); wl = 260*ease((t-ti)/1.0)
         if al > 0:
             lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(lay).line([(W/2-wl, y), (W/2+wl, y)], fill=GOLD+(int(200*al),), width=2); img = Image.alpha_composite(img, lay)
-    if PHOTO:
-        al = ease((t-7.0)/0.8)*(1-ease((t-9.3)/0.6))
-        if al > 0:
-            for i, s in enumerate(CREDIT): img = Image.alpha_composite(img, text_layer(s, COR5, 36, IVORY, 836+i*48, al*0.85, 0, None))
+    al = ease((t-7.0)/0.8)*(1-ease((t-9.3)/0.6))
+    if al > 0:
+        lines = (CREDIT_PHOTO if PHOTO else []) + CREDIT_ANEFO; y0 = 1000-len(lines)*46
+        img = Image.alpha_composite(img, text_layer(CREDIT_HEAD, CIN5, 26, GOLD, y0-44, al*0.9, 3, None))
+        for i, s_ in enumerate(lines): img = Image.alpha_composite(img, text_layer(s_, COR5, 36, IVORY, y0+i*46, al*0.88, 0, None))
     out = img.convert("RGB")
     if t > 9.3: out = Image.blend(out, Image.new("RGB", (W, H), (0, 0, 0)), ease((t-9.3)/0.7))
     if t < 0.6: out = Image.blend(Image.new("RGB", (W, H), (0, 0, 0)), out, ease(t/0.6))

@@ -248,3 +248,8 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Entrée SH27 : M9T2.2 retenue, inchangée (stem 173–187,5 s identique). Seule la queue de foule change : gain (cos²)^0,45 de 188,0 à 190,0 s (fin à 190,0 s, inaudible dès 190,1 s) ; ton de pièce SH29 non modifié (un décalage de durée aurait déplacé les tirages aléatoires suivants).
 - Creux avant le bruit de page (189,7 s) : M9T2.2 −41,6 dB → −32,4 dB (QC1 −31,0) ; remontée 19,1 → 9,7 dB (QC1 7,6). A5, V1 (voix/fond 16,5 / 15,1 dB), musique B, autres bruitages : stems identiques ; −16,0 LUFS, −1,2 dBTP. Effet de la normalisation dynamique : −0,46 dB sur 192–198 s (SH29).
 - Scripts : sound_design_m7c_test.py, music_finish_m9t23.py, audio_qc_m9t23.py ; mix : audio/mixes/M9T2.3/ ; extrait : audio/mixes/M9T2.3/extrait_raccord/. QC2 et tous les mixes précédents intacts ; 0 € ; aucune IA ; aucun FINAL.
+
+## 2026-11-19 — Validation du raccord M9T2.3 et de l'entrée M9T2.2 ; plan d'intégration (NON appliqué)
+- Validé artistiquement : entrée de foule M9T2.2 et raccord SH28→SH29 M9T2.3 → références sonores SH27–29 figées (plus de correction sur cette séquence).
+- Plan : docs/PLAN_INTEGRATION_AUDIO_QC2.md (portion 163,5–193,0 s ; alignement −47 échantillons ; encodage AAC unique ; vidéo QC2 recopiée). Non validé, reste QC1 : rue 1944, grillons, SH06, SH12, autres M8.1/M9T.1.
+- QC1, QC2, anciens mixes, voix, musique B, images verrouillées intacts ; aucun nouveau son, rendu, 0 € ; aucun FINAL.

@@ -13,8 +13,8 @@ def frame_custom(s, t):
     if s["n"] != 6: return _fc(s, t)
     u = t/s["dur"]
     a = B.cam_frame(B.load(B.IMG[2]), 2.6, 3.0, (1650, 520), (1650, 520), u)          # même cadrage tableau que QC2
-    p = B.paper(); fr = Image.blend(a, p, B.ease(float(np.clip((t-0.40)/0.90, 0, 1))))   # 1) la craie disparaît sous la page (27,9–28,8 s)
-    k = B.ease(float(np.clip((t-1.30)/0.40, 0, 1)))                                    # 2) PUIS « 18 novembre » apparaît (28,8–29,2 s) : aucune superposition
+    p = B.paper(); fr = Image.blend(a, p, B.ease(float(np.clip((t-0.30)/0.60, 0, 1))))   # 1) la craie disparaît sous la page (27,9–28,8 s)
+    k = B.ease(float(np.clip((t-0.90)/0.30, 0, 1)))                                    # 2) v2 : PUIS « 18 novembre » apparaît (28,4–28,7 s), pleinement lisible 28,7–30,0 s
     if k > 0:
         lay = Image.new("RGBA", fr.size, (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
         d.text((B.FW//2, B.FH//2), "18 novembre", font=B.fnt(B.AM, 200), fill=(70, 42, 24, int(255*k)), anchor="mm")

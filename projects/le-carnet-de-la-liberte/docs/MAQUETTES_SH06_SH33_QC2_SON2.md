@@ -3,3 +3,7 @@ Script : `scripts/mockup_qc2_sh06_sh33.py` (chaîne build_qc2, seuls SH06 et le 
 - SH06 (27,5–30,0 s, durée inchangée) : superposition confirmée dans QC2 SON2 (carton sombre « 18 novembre » fondu sur la craie de 27,6 à ~29,4 s). APRÈS : la craie disparaît sous la page de 27,9 à 28,8 s, puis « 18 novembre » apparaît de 28,8 à 29,2 s ; aucune image ne montre les deux textes. La page Mixkit (28,1–28,93 s) accompagne désormais le passage tableau → page. Dernières images identiques à QC2 SON2.
 - SH33 (225,5–239,5 s, 14 s inchangés) : apparitions à 0,6 / 1,4 / 2,3 / 3,3 / 4,5 / 6,0 s (AVANT 1,5 → 9,0 s) ; frise complète + note à 231,5 s, donc 8,0 s de lecture (AVANT 5,0 s). Six dates et légendes inchangées ; fondu d'entrée repris du master ; images 231,5–239,5 s identiques au master. Aucun son lié aux apparitions (seul repère sonore : 225,7 s).
 - Audio des comparatifs = QC2 SON2 inchangé. Aucun master modifié.
+
+## Mise à jour — SH33 validé ; SH06 retiming v2 (maquette, non intégrée)
+SH33 : validé par l'utilisateur (frise complète 231,5–239,5 s = 8,0 s, raccord d'entrée repris du master).
+SH06 v2 : craie effacée 27,8–28,4 s ; carton « 18 novembre » 28,4–28,7 s ; pleinement lisible 28,7–30,0 s (1,3 s ; mesuré : craie résiduelle < 3 dès 28,38 s, texte plein dès 28,66 s) ; fondu 0,5 s vers SH07 conservé et identique au master (écart ≤ 1,6). Durée du plan inchangée ; audio non touché. Comparatif : `animatic/qc2/COMPARATIF_SH06_v2_AVANT_APRES.mp4` + planche ; Dropbox `…/MAQUETTES_QC2_SON2/`. Intégration prévue : QC3 SON2 NON FINAL, après validation de SH06.

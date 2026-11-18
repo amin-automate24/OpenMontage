@@ -223,3 +223,7 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 ## 2026-11-18 — QC2 enregistré comme RÉFÉRENCE VISUELLE CANDIDATE (NON FINALE)
 - Conformité visuelle SH33, SH27/28, SH25/26 confirmée (révision ChatGPT Work, décision utilisateur). Plans validés figés ; QC1, références historiques archivées et originaux conservés. Aucun remontage, aucune IA, aucun nouvel export.
 - Comparaison mix QC1 / M8.1 (mesures, rien appliqué) : docs/COMPARAISON_MIX_QC1_vs_M8.1.md.
+
+## 2026-11-18 — Test sonore ciblé QC2 (NON FINAL, non appliqué)
+- Lit M6 test (scripts/sound_design_m6_test.py : SH06 page, SH12 brise, rue 1944 pas + oiseaux, nuit 1953 grillons, foule 1955 ; sans réverbération ; SH11/SH25 = QC1) ; mix M9T → M9T.1 (scripts/music_finish_m9_test.py, audio_qc_m9t.py) : −16,0 LUFS, −1,2 dBTP.
+- MP3 AVANT/APRÈS : audio/mixes/M9T.1/TEST_SONORE_QC2_AVANT-QC1_APRES-M9T.mp3 ; index : docs/TEST_SONORE_QC2_INDEX.md. QC1/QC2 et leur mix inchangés ; 0 € ; aucune IA.

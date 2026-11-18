@@ -190,3 +190,10 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - Audio M7B.2 (depuis M7B.1, automation de gain uniquement) : 169–182 s −2,3 dB ; passages calmes SH10–12 et SH33 relevés (min −36,5→−31,5 et −39,0→−33,7 LUFS). Master : −16,0 LUFS, crête −1,1 dBTP, LRA 15,8 LU.
 - SRT : animatic/SUBTITLES_FR_QC1.srt (32 sous-titres, ≤ 41 car./ligne, 0 chevauchement, fin ≤ voix +0,8 s, texte identique ; 3 sous-titres > 17 car./s, imposés par le débit de la voix).
 - Fichier : animatic/MASTER_CANDIDATE_NON_FINAL_QC1_1080p.mp4 (SHA-256 dc63810a…8023), check_delivery OK. Masters précédents préservés. 0 € ; aucune IA ; aucun FINAL.
+
+## 2026-11-18 — Révision Work : maquettes P2–P4 (NON FINALES, non appliquées)
+- SH12–16 APRÈS (v3) : retenu comme candidat approuvé visuellement (décision utilisateur) ; préservé.
+- P2 SH33–34 : frise v3c (dates 42 px / légendes 32 px à x 960, aucun contact, 2 mars 1956 dans le cadre), textes et dates inchangés ; SH33 225,5–236,5 (11 s), SH34 236,5–250,0 ; A8 inchangée (240,5).
+- P3 SH27 raccourci de 1,5 s : SH27 175,0–180,5 ; SH28 180,5–189,5 ; V1 (166,5) et A5 (182,5) inchangés ; portraits (photo archivée Anefo 905-8914), drapeaux et carton intacts.
+- P4 SH25 sortie 1,5 s plus tôt : SH25 151,5–162,0 ; SH26 162,0–175,0 ; V1 (166,5) inchangée ; musique MC→MD inchangée ; dernière page sonore de SH25 (162,3 s) déborde de 0,3 s sur SH26, à recaler si validé.
+- Durée totale 276 s inchangée ; QC1 et références verrouillées intacts ; 0 € ; aucune IA.

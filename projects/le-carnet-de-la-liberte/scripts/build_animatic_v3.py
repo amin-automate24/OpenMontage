@@ -57,6 +57,11 @@ def retime():   # PROPOSITION SH25/SH33 (comparaison seulement) : -3 s chacun, r
         if x["n"] == 34: x["start"] = 236.5; x["dur"] = 13.5
 def main():
     if "--retime" in sys.argv: retime()
+    a = sys.argv                                  # maquettes de rythme ciblées : --shot N START DUR (répétable), durée totale inchangée
+    for k in [i for i, x in enumerate(a) if x == "--shot"]:
+        n, st, du = int(a[k+1]), float(a[k+2]), float(a[k+3])
+        for x in B.SHOTS:
+            if x["n"] == n: x["start"], x["dur"] = st, du
     a = sys.argv; name = a[a.index("--out-name")+1]; out = B.OUT/"remontage_v3"/name
     if out.exists(): sys.exit("refus : fichier existant")
     t0, t1 = (float(a[a.index("--range")+1]), float(a[a.index("--range")+2])) if "--range" in a else (0.0, 1e9)

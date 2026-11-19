@@ -272,3 +272,8 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 - **Sous-titres** : QC3 v001 + correction v002 du cue 10 (77,15 s).
 - **Exports** : `deliverables/NON_FINAL/LE_CARNET_DE_LA_LIBERTE_SCOLAIRE_NON_FINAL_1080p.mp4` (incrustés) et `…_CINEMA_NON_FINAL_1080p.mp4` + `…_CINEMA_NON_FINAL_FR.srt`. Son = mix validé QC2 SON2.
 - Limites : NON FINAL ; aucune publication, projection publique ni YouTube ; 0 € ; aucune IA ; anciens masters intacts.
+
+## 2026-11-19 — Quiz « LE DÉFI DE LA LIBERTÉ » v2 : autorisation de passage FINAL (AUTH-QUIZ-FINAL-2026-11-19)
+- **Autorisation explicite du propriétaire du projet** : copie FINAL du quiz approuvé v2, sans réencodage ni altération (octet pour octet). Source : `deliverables/QUIZ_SCOLAIRE_2026-11-20/PROPOSITION_v2_NON_FINAL/LE_DEFI_DE_LA_LIBERTE_QUIZ_NON_FINAL_v2_1080p.mp4` ; fichier FINAL : `deliverables/QUIZ_SCOLAIRE_2026-11-20/FINAL/LE_DEFI_DE_LA_LIBERTE_QUIZ_FINAL_1080p.mp4` ; SHA-256 `87f0203d2e4fad44b2f27b1f2ee5205af9c02c520cd5a0cf23ebb9e033473aee`.
+- **Portée : le quiz uniquement.** SCOLAIRE v4 et CINÉMA v4 inchangés et non déclarés FINAL ; v1 du quiz, v2 NON FINAL et versions précédentes conservées ; 0 € ; aucune IA ; aucun nouveau rendu.
+- **Réserves conservées** : droits de la photographie SH08 (BnF/Rol 156948) toujours EN ATTENTE ; projet non déclaré juridiquement libre de droits ; aucune publication ni diffusion externe autorisée ; lecture sur projecteur et écoute directe du carillon non vérifiées indépendamment.

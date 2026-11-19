@@ -166,3 +166,32 @@ def test_download_requires_destination(monkeypatch):
     monkeypatch.setattr(ov.urllib.request, "urlopen", _FakeNet(_payload()))
     res = OpenverseSearch().execute({"q": "rain", "download": [0]})
     assert not res.success and "project_id" in res.error
+
+
+def test_license_filter_and_checks(monkeypatch):
+    payload = {"result_count": 2, "page_count": 1, "results": [
+        _result(license="cc0", license_version="1.0"),
+        _result(id="x2", license="by-nc-nd", license_version="4.0"),
+    ]}
+    net = _FakeNet(payload)
+    monkeypatch.setattr(ov.urllib.request, "urlopen", net)
+    res = OpenverseSearch().execute({"q": "street", "license": "cc0,by"})
+    query = urllib.parse.parse_qs(urllib.parse.urlparse(net.calls[0].full_url).query)
+    assert query["license"] == ["cc0,by"]
+    cc0, nc_nd = (r["license_check"] for r in res.data["results"])
+    assert cc0["preferred"] and cc0["restrictions"] == []
+    assert not nc_nd["preferred"]
+    assert any("non-commercial" in x for x in nc_nd["restrictions"])
+    assert any("no derivatives" in x for x in nc_nd["restrictions"])
+    assert "unverified" in cc0["status"]
+
+
+def test_register_mode_skips_credits(monkeypatch, tmp_path):
+    monkeypatch.setattr(ov.urllib.request, "urlopen", _FakeNet(_payload()))
+    res = OpenverseSearch().execute(
+        {"q": "rain", "download": [0], "project_id": "p", "write_credits": False}
+    )
+    assert res.success, res.error
+    assert not (tmp_path / "projects/p/credits.md").exists()
+    entry = res.data["downloads"][0]["register_entry"]
+    assert len(entry["sha256"]) == 64 and entry["license_verified_on_source_page"] is False

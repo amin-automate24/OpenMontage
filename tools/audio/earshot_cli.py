@@ -11,6 +11,12 @@ re-implemented here. This wrapper only shells out to its CLI with `--json` for:
                    over id / notes. No models.
 - ``sfx_render`` — `earshot sfx render ID -o OUT.wav [--dur --apex --pitch ...]`:
                    one bank sound rendered to a 24-bit WAV, audited. No models.
+- ``measure``    — `earshot measure FILE [--start --end]`: objective meters only
+                   (LUFS, true peak, LRA, envelope, spectrum). No models.
+- ``describe``   — `earshot describe FILE [--start --end]`: model-based tags (CLAP /
+                   AudioSet). Machine perception, not human listening.
+- ``timeline``   — `earshot timeline FILE [--video V] [--from --to]`: events, sections,
+                   loudness and sync of sound to picture cuts (model-based tags).
 
 For many calls in one session, the Earshot MCP server (`claude mcp add earshot
 -- earshot mcp`) keeps the models loaded; this tool is for pipeline steps.
@@ -60,12 +66,13 @@ class Earshot(BaseTool):
 
     agent_skills = []
 
-    capabilities = ["critique_mix", "search_sfx_bank", "render_sfx"]
+    capabilities = ["critique_mix", "measure_audio", "describe_audio", "audio_timeline", "search_sfx_bank", "render_sfx"]
     supports = {
-        "operations": ["critique", "sfx_search", "sfx_render"],
+        "operations": ["critique", "measure", "describe", "timeline", "sfx_search", "sfx_render"],
         "video_sync_check": True,
         "offline": True,
-        "models_required_for": ["critique"],
+        "models_required_for": ["critique", "describe", "timeline"],
+        "evidence_kinds": {"measured": ["measure"], "model_inferred": ["describe", "timeline", "critique"]},
     }
     best_for = [
         "a measured critique of the final mix (loudness, arc, sync to cuts) with timestamped fixes",
@@ -86,10 +93,12 @@ class Earshot(BaseTool):
         "properties": {
             "operation": {
                 "type": "string",
-                "enum": ["critique", "sfx_search", "sfx_render"],
+                "enum": ["critique", "measure", "describe", "timeline", "sfx_search", "sfx_render"],
             },
-            # critique
-            "input_path": {"type": "string", "description": "critique: soundtrack or film to score."},
+            # critique / measure / describe / timeline
+            "input_path": {"type": "string", "description": "Audio or video file to analyse."},
+            "start": {"type": "number", "description": "measure/describe/timeline: window start (s)."},
+            "end": {"type": "number", "description": "measure/describe/timeline: window end (s)."},
             "video_path": {"type": "string", "description": "critique: the picture the soundtrack is for."},
             "profile_path": {"type": "string", "description": "critique: profile JSON from `earshot profile` (default: bundled 7 launch films)."},
             "fast": {"type": "boolean", "default": False, "description": "critique: skip the AudioSet and realness passes."},
@@ -135,6 +144,8 @@ class Earshot(BaseTool):
         try:
             if op == "critique":
                 args, artifacts = self._critique_args(inputs)
+            elif op in ("measure", "describe", "timeline"):
+                args, artifacts = self._analysis_args(op, inputs)
             elif op == "sfx_search":
                 args, artifacts = self._search_args(inputs)
             elif op == "sfx_render":
@@ -183,6 +194,22 @@ class Earshot(BaseTool):
             args += ["--profile", inputs["profile_path"]]
         if inputs.get("fast"):
             args.append("--fast")
+        return args, []
+
+    @staticmethod
+    def _analysis_args(op: str, inputs: dict[str, Any]) -> tuple[list[str], list[str]]:
+        path = inputs.get("input_path")
+        if not path or not Path(path).exists():
+            raise ValueError(f"{op} needs an existing 'input_path' (got {path!r}).")
+        args = [op, path, "--json"]
+        # timeline names its window --from/--to; measure and describe use --start/--end
+        start_flag, end_flag = ("--from", "--to") if op == "timeline" else ("--start", "--end")
+        if inputs.get("start") is not None:
+            args += [start_flag, str(inputs["start"])]
+        if inputs.get("end") is not None:
+            args += [end_flag, str(inputs["end"])]
+        if op == "timeline" and inputs.get("video_path"):
+            args += ["--video", inputs["video_path"]]
         return args, []
 
     @staticmethod

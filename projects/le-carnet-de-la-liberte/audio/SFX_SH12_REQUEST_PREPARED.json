@@ -1,0 +1,29 @@
+{
+  "status": "PREPARED_NOT_EXECUTED — BLOQUÉ (fournisseur indisponible)",
+  "date": "2026-11-19",
+  "provider": "SFX Reel (sfxreel.com) — Video to SFX",
+  "provider_status": "Indisponible : aucune API, CLI ni serveur MCP documentés (interface web seulement) ; aucun outil sfxreel dans le registre OpenMontage ; SFXREEL_API_KEY absent.",
+  "shot": "SH12 — TRANSITION encre → rue marocaine 1944 (fondu 0,5 s intégré), pas de dialogue",
+  "source": {
+    "master": "FINITION_DAVINCI_2026-11-19/LE_CARNET_DE_LA_LIBERTE_CINEMA_NON_FINAL_v3_1080p.mp4 (lecture seule, content_hash Dropbox vérifié 8ab0a78e…)",
+    "window_s": [61.56, 65.08],
+    "frames": [1539, 1627],
+    "input_to_send": "extrait IMAGE SEULE (sans piste audio) 3,52 s, MP4 H.264 1080p25 — à produire au moment de l'exécution",
+    "why_picture_only": "Le service renvoie une piste unique (dialogue conservé, musique retirée). Envoyer l'audio du master mélangerait le mix QC2 SON2 aplati à la sortie ; l'image seule donne des SFX séparés et remplaçables."
+  },
+  "prompt": "Encre qui coule et s'étale sur papier ancien, puis rue de médina marocaine des années 1940 qui s'éveille : pas lointains, sabots, voix de foule indistinctes. Pas de musique.",
+  "negative_prompt": "musique, voix intelligibles, circulation moderne, klaxons, moteurs, sirènes",
+  "output": {
+    "path": "audio/sfx_candidates/SH12/SH12_sfxreel_take1.wav",
+    "format": "WAV 48 kHz stéréo (à convertir si le service livre un autre format)",
+    "rule": "Nouveau fichier candidat uniquement ; aucun fichier existant remplacé ; non intégré au film sans validation écrite."
+  },
+  "cost_estimate": {
+    "basis": "Tarif publié sfxreel.com (relevé 19/11/2026) : 1 crédit/seconde, arrondi à la seconde supérieure ; plus petit pack Starter 99 crédits = 9,90 USD (achat unique).",
+    "credits": 4,
+    "usd_prorata": 0.40,
+    "minimum_purchase_usd": 9.90
+  },
+  "approval_required": "Autorisation écrite + plafond dans approvals/APPROVAL_REGISTER_1.1.md et approval_register.json avant toute exécution (règle projet n° 7). Ce fichier n'autorise rien.",
+  "alternatives_not_used": "Runway generate_sound_effect (mirelo-sfx-2, 2 crédits/s ≈ 8 crédits) et Magnific video_soundfx existent dans cette session ; changement de fournisseur = décision utilisateur, non exécuté."
+}

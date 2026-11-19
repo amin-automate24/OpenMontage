@@ -216,6 +216,27 @@ ffprobe -v quiet -print_format json -show_format -show_streams final.mp4
 
 **If issues are found:** identify the cause (missing images, wrong timing, rendering glitch) and fix before presenting to user.
 
+### 8b. Audio QC With `earshot` (final_review, propose only)
+
+Run on the final mix or an extract of it; never edit the mix from its output.
+
+| Operation | Evidence | Use for |
+|---|---|---|
+| `measure` | measured (no models) | LUFS, true peak, LRA, noise floor, bands |
+| `timeline` (+ `video_path`) | model-inferred tags, measured timing | events, silences, sync of sound to cuts |
+| `describe` | model-inferred (CLAP/AST) | what a passage "sounds like" — hints only |
+| `critique` | mixed | scorecard vs 7 commercial launch films; not a genre reference for drama/education, and it scores nothing under 3 s |
+
+Report measured values and model readings in separate columns; Earshot is
+machine analysis, not listening. Also check mono fold-down (classroom
+speakers), e.g. `ffmpeg -af "pan=mono|c0=0.5*c0+0.5*c1,ebur128"`. Write
+findings into the project's existing review document format as proposals.
+
+Video-to-SFX generation, when a provider is configured, runs after picture
+lock on a picture-only clip (so the flattened mix is not baked in), writes to
+a new candidate folder, never replaces approved audio, and needs a written
+cost approval before any paid call.
+
 ### 9. Use Render Metadata
 
 Recommended metadata keys:

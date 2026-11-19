@@ -10,6 +10,7 @@ R = Path(__file__).resolve().parent.parent; FD = R/"assets/fonts/ofl"; W, H, FPS
 T3 = float(sys.argv[sys.argv.index("--carton3-fin")+1]) if "--carton3-fin" in sys.argv else 12.3   # fin pleine du carton 3 (défaut v005 = 12,3 s)
 DUR = T3+0.7
 CONDENSE = "--credit-condense" in sys.argv
+C1R = "--carton1-rapide" in sys.argv; C1T = {300: 0.20, 455: 0.30, 560: 0.40, 690: 0.50}   # départs du carton 1 (titre, mention, nom, fonction)
 a = sys.argv; OUT = R/a[a.index("--out")+1]; PHOTO = "--sans-credit-photo" not in a
 assert not OUT.exists(), "refus d'écraser"
 F = lambda f, s: ImageFont.truetype(str(FD/f), s, layout_engine=ImageFont.Layout.RAQM)
@@ -52,10 +53,12 @@ def text_layer(txt, font, size, col, y, alpha, spacing, direction, dy=0):
 def frame(t):
     img = BG.copy()
     for (txt, font, size, col, y, ti, to, sp, dr) in L:
-        al = ease((t-ti)/0.8)*(1-ease((t-to)/0.6)); dy = 14*(1-ease((t-ti)/1.2))       # fondu + légère montée
+        fi, mo = (0.45, 0.6) if (C1R and to == 5.2) else (0.8, 1.2)                       # --carton1-rapide : entrée du carton 1 raccourcie
+        ti = C1T.get(y, ti) if (C1R and to == 5.2) else ti
+        al = ease((t-ti)/fi)*(1-ease((t-to)/0.6)); dy = 14*(1-ease((t-ti)/mo))       # fondu + légère montée
         if al > 0: img = Image.alpha_composite(img, text_layer(txt, font, size, col, y, al, sp, dr, dy))
     # filets dorés
-    for (y, ti, to) in ((370, 0.8, 5.2), (538, 6.0, 8.3)):
+    for (y, ti, to) in ((370, 0.3 if C1R else 0.8, 5.2), (538, 6.0, 8.3)):
         al = ease((t-ti)/0.8)*(1-ease((t-to)/0.6)); wl = (300 if y == 538 else 260)*ease((t-ti)/1.0)
         if al > 0:
             lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(lay).line([(W/2-wl, y), (W/2+wl, y)], fill=GOLD+(int(200*al),), width=2); img = Image.alpha_composite(img, lay)

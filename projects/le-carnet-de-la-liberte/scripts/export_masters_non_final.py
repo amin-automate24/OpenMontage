@@ -7,7 +7,8 @@ import subprocess, sys
 from pathlib import Path
 R = Path(__file__).resolve().parent.parent; A = R/"animatic"; O = R/"deliverables/NON_FINAL"
 MASTER = A/"MASTER_CANDIDATE_NON_FINAL_QC3_SON2_1080p.mp4"; SH08 = A/"qc2/MAQUETTE_SH08_v003b_APRES_raw.mp4"
-GEN = A/"qc2/GENERIQUE_FIN_v005_minutage_BnF_Anefo_c3_12s6.mp4"; WAV = R/"audio/mixes/QC2_SON2/MIX_276s_QC2_SON2.wav"
+GEN = A/("qc2/GENERIQUE_FIN_v005_minutage_BnF_Anefo_c3_12s6_c1rapide.mp4" if "--v2" in sys.argv else "qc2/GENERIQUE_FIN_v005_minutage_BnF_Anefo_c3_12s6.mp4")
+SUF = "_v2" if "--v2" in sys.argv else ""; WAV = R/"audio/mixes/QC2_SON2/MIX_276s_QC2_SON2.wav"
 ASS = A/"SUBTITLES_FR_QC3_v002_option_cue10_style1080.ass"
 SH08_T0 = 36.04                                 # 1re image du plan SH08 dans QC3 (image 901)
 N_FILM, N_GEN = 6903, 572; TOTAL = (N_FILM+N_GEN)/25
@@ -23,7 +24,7 @@ def run(name, subs):
            "-metadata", "title=LE CARNET DE LA LIBERTÉ — NON FINAL (contrôle interne)", "-metadata", "comment=NON FINAL — diffusion non autorisée", str(out)]
     subprocess.run(cmd, check=True); print("écrit", out)
 O.mkdir(parents=True, exist_ok=True)
-run("LE_CARNET_DE_LA_LIBERTE_SCOLAIRE_NON_FINAL_1080p.mp4", True)
-run("LE_CARNET_DE_LA_LIBERTE_CINEMA_NON_FINAL_1080p.mp4", False)
-srt = O/"LE_CARNET_DE_LA_LIBERTE_CINEMA_NON_FINAL_FR.srt"; assert not srt.exists()
+run(f"LE_CARNET_DE_LA_LIBERTE_SCOLAIRE_NON_FINAL{SUF}_1080p.mp4", True)
+run(f"LE_CARNET_DE_LA_LIBERTE_CINEMA_NON_FINAL{SUF}_1080p.mp4", False)
+srt = O/f"LE_CARNET_DE_LA_LIBERTE_CINEMA_NON_FINAL{SUF}_FR.srt"; assert not srt.exists()
 srt.write_bytes((A/"SUBTITLES_FR_QC3_v002_option_cue10.srt").read_bytes()); print("écrit", srt)

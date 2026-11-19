@@ -33,6 +33,8 @@ L = [("LE CARNET DE LA LIBERTÉ", CIN5, 62, GOLD, 300, 0.5, 5.2, 6, None),
 CREDIT_HEAD = "Archives photographiques"
 CREDIT_PHOTO = ("Photographie : Mohammed V et son fils Moulay Hassan, Paris, 5 août 1931 — Agence Rol.",
                 "Source : gallica.bnf.fr / Bibliothèque nationale de France.")
+if "--credit-condense" in sys.argv:   # version condensée (lecture ≤ 15 car/s) : identification, agence et source conservées
+    CREDIT_PHOTO = ("Mohammed V et son fils Moulay Hassan — Paris, 5 août 1931", "Agence Rol — Source : gallica.bnf.fr / BnF")
 CREDIT_ANEFO = ("Portraits brandis par la foule : photographie Anefo, août 1953.",
                 "Nationaal Archief, La Haye — domaine public (CC0).") if "--credit-condense" not in sys.argv else (
                 "Portraits historiques : photographie Anefo, 1953", "Source : Nationaal Archief, La Haye — CC0")

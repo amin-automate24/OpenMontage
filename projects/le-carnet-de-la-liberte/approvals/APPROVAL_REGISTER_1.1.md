@@ -262,3 +262,13 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 
 ## 2026-11-19 — Dernier contrôle SON1 (fenêtres 179,5–180,5 et 188,5–189,5 s)
 - Diagnostic objectif : docs/DIAGNOSTIC_SON1_FENETRES_179-189.md. Aucun défaut établi (clic, discontinuité, saturation, excès aigu) ; variations dues à l'entrée/sortie de prises de foule filtrées, à la fin de la musique B et à la queue de foule (pas aux raccords d'intégration). Recommandation : conserver QC2 SON1 tel quel. Rien modifié ; QC2 SON1 et anciens masters intacts ; 0 € ; aucun FINAL.
+
+## 2026-11-19 — Autorisation limitée d'intégration et d'export NON FINAL (contrôle interne uniquement)
+- **SH08 v003b — intégration technique (candidate)** : `references/p4/post/SH08_composite_photo_BnF_Rol156948_v003b_genoux.png` sur les seules images du plan SH08 (36,04–39,56 s ; durée, cadrage, coffre, carnet inchangés).
+  - Source : « 5-8-31, le sultan du Maroc et son fils Moulay Hassan », photographie de presse, Agence Rol (commanditaire), cliché Rol 156948 ; 5 août 1931, Hôtel de Crillon, Paris ; BnF, Estampes et photographie, EI-13 (1781) ; Gallica ark:/12148/btv1b53248904z ; notice cb47065604x ; copie `references/p4/post/sh08_photo_archive/BnF_Rol_156948_btv1b53248904z_1920px.jpg`.
+  - **Statut des droits : EN ATTENTE.** Commons : étiquettes PD-France et PD-1996 ; notice Gallica et conditions officielles BnF non consultées (hôtes bloqués). L'intégration ne vaut pas autorisation de diffusion.
+  - Règle permanente étendue (photos authentiques de Mohammed V, aucun visage généré ni retouché) : Anefo 905-8914 (SH27–28) et BnF Rol 156948 (SH08).
+- **Générique V005 (minutage)** : 3 cartons ; carton 3 « Archives photographiques » BnF + Anefo, crédits condensés (188 car.), lisibles 12,6 s (≈ 15 car/s) ; durée 22,88 s ; muet ; « FIN » de SH38 conservé.
+- **Sous-titres** : QC3 v001 + correction v002 du cue 10 (77,15 s).
+- **Exports** : `deliverables/NON_FINAL/LE_CARNET_DE_LA_LIBERTE_SCOLAIRE_NON_FINAL_1080p.mp4` (incrustés) et `…_CINEMA_NON_FINAL_1080p.mp4` + `…_CINEMA_NON_FINAL_FR.srt`. Son = mix validé QC2 SON2.
+- Limites : NON FINAL ; aucune publication, projection publique ni YouTube ; 0 € ; aucune IA ; anciens masters intacts.

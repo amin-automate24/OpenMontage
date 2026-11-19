@@ -1,6 +1,6 @@
 {
  "project": "le-carnet-de-la-liberte",
- "updated": "2026-11-17",
+ "updated": "2026-11-19",
  "screenplay": {
   "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
   "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
@@ -65,6 +65,14 @@
    "scope": "Single regeneration of SH03 (gaze/orientation), exact cost 65 Magnific credits, no automatic retake",
    "status": "granted_and_used",
    "spent": 65
+  },
+  {
+   "id": "AUTH-NF-2026-11-19",
+   "scope": "Intégration technique SH08 v003b (photo BnF/Agence Rol 156948, droits EN ATTENTE), générique V005 minutage (BnF+Anefo), sous-titres QC3 v001+v002 cue 10, exports SCOLAIRE et CINÉMA NON FINAL pour contrôle interne",
+   "status": "granted_internal_only",
+   "publication": "non autorisée",
+   "rights_status_SH08": "pending (Gallica/BnF conditions not consulted)",
+   "spent": 0
   }
  ],
  "gates": [

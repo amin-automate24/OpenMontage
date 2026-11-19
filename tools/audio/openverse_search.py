@@ -119,6 +119,33 @@ class OpenverseSearch(BaseTool):
                     "access level; anonymous callers get a smaller cap."
                 ),
             },
+            "license": {
+                "type": "string",
+                "description": (
+                    "Comma-separated licenses: by, by-nc, by-nc-nd, by-nc-sa, by-nd, "
+                    "by-sa, cc0, nc-sampling+, pdm, sampling+. E.g. 'cc0,by' for "
+                    "public domain + attribution-only."
+                ),
+            },
+            "accept_restricted_license": {
+                "type": "boolean",
+                "default": False,
+                "description": (
+                    "Explicit review exception. By default results under NC, ND, SA or "
+                    "sampling licenses are filtered out and cannot be downloaded. Set true "
+                    "(together with an explicit 'license') only after a human approved the "
+                    "restricted license for this project."
+                ),
+            },
+            "write_credits": {
+                "type": "boolean",
+                "default": True,
+                "description": (
+                    "Append attributions to credits.md (forced false when the project has approvals/licenses/). Set false for projects that keep "
+                    "a licence register instead; each download then returns a "
+                    "register_entry (file, sha256, source_url, license) to record."
+                ),
+            },
             "source": {
                 "type": "string",
                 "description": (
@@ -156,7 +183,7 @@ class OpenverseSearch(BaseTool):
         cpu_cores=1, ram_mb=256, vram_mb=0, disk_mb=200, network_required=True
     )
     retry_policy = RetryPolicy(max_retries=2, retryable_errors=["rate_limit", "timeout"])
-    idempotency_key_fields = ["q", "media_type", "license_type", "source", "page_size"]
+    idempotency_key_fields = ["q", "media_type", "license_type", "license", "source", "page_size"]
     side_effects = [
         "calls the Openverse API",
         "writes downloaded media into the project asset folder",
@@ -169,6 +196,7 @@ class OpenverseSearch(BaseTool):
     ]
 
     _BASE_URL = "https://api.openverse.org/v1"
+    _DEFAULT_LICENSES = "cc0,pdm,by"
     # Descriptive agent with a project URL: some file hosts (e.g. Wikimedia) throttle generic ones.
     _USER_AGENT = "OpenMontage/0.1 (https://github.com/calesthio/OpenMontage; openverse_search tool)"
     _MEDIA_PATHS = {"audio": "audio", "image": "images"}
@@ -206,9 +234,12 @@ class OpenverseSearch(BaseTool):
                 error=f"media_type must be 'audio' or 'image', got {media_type!r}.",
             )
 
+        accept_restricted = bool(inputs.get("accept_restricted_license"))
         try:
             payload = self._search(inputs, query, media_type)
             results = [self._shape(r) for r in payload.get("results", [])]
+            if not accept_restricted:   # safeguard 3: NC / ND / SA / sampling excluded by default
+                results = [r for r in results if not r["license_check"]["restricted"]]
 
             downloads: list[dict[str, Any]] = []
             selections = inputs.get("download") or []
@@ -220,11 +251,22 @@ class OpenverseSearch(BaseTool):
                         data={"results": results},
                     )
                 dest_dir, credits_path = self._destinations(inputs, media_type)
+                write_credits = inputs.get("write_credits", True) and not self._uses_register(inputs)  # safeguard 1
                 for sel in selections:
                     result = self._select(results, sel)
+                    if result["license_check"]["restricted"] and not accept_restricted:
+                        raise PermissionError(
+                            f"{result['id']} has a restricted license ({result['license']}); a human must "
+                            "approve it first (accept_restricted_license: true)."
+                        )
                     path = self._download(result, dest_dir)
-                    self._append_credit(credits_path, result, path)
-                    downloads.append({**result, "local_path": str(path)})
+                    if write_credits:
+                        self._append_credit(credits_path, result, path)
+                    downloads.append({
+                        **result,
+                        "local_path": str(path),
+                        "register_entry": self._register_entry(result, path),
+                    })
         except Exception as e:  # noqa: BLE001 — surface any failure as a ToolResult
             return ToolResult(
                 success=False,
@@ -242,8 +284,14 @@ class OpenverseSearch(BaseTool):
             "results": results,
             "downloads": downloads,
         }
-        if downloads:
+        if downloads and write_credits:
             data["credits_file"] = str(credits_path)
+        if downloads:
+            data["download_dir"] = str(dest_dir)
+            data["licence_register_note"] = (
+                "Files are candidates only: verify the license on source_url, get approval, then record the "
+                "register_entry in the project's licence register by hand. Nothing was registered or moved to production."
+            )
         return ToolResult(
             success=True,
             data=data,
@@ -324,9 +372,11 @@ class OpenverseSearch(BaseTool):
 
     def _search(self, inputs: dict[str, Any], query: str, media_type: str) -> dict[str, Any]:
         params: dict[str, Any] = {"q": query, "page_size": int(inputs.get("page_size", 20))}
-        for key in ("license_type", "source"):
+        for key in ("license_type", "license", "source"):
             if inputs.get(key):
                 params[key] = inputs[key]
+        if not inputs.get("license") and not inputs.get("accept_restricted_license"):
+            params["license"] = self._DEFAULT_LICENSES      # safeguard 3: no NC / ND / SA unless reviewed
         url = f"{self._BASE_URL}/{self._MEDIA_PATHS[media_type]}/?{urllib.parse.urlencode(params)}"
         return self._get_json(url)
 
@@ -371,6 +421,34 @@ class OpenverseSearch(BaseTool):
             "filetype": r.get("filetype"),
             "duration_ms": r.get("duration"),
             "attribution": attribution,
+            "license_check": cls._license_check(r.get("license")),
+        }
+
+    # What each Openverse license code implies. A search hit is not permission:
+    # the source page must still be checked (license shown there, uploader, samples).
+    @staticmethod
+    def _license_check(code: str | None) -> dict[str, Any]:
+        code = (code or "").lower()
+        restrictions = []
+        if code not in ("cc0", "pdm"):
+            restrictions.append("attribution required")
+        if "nc" in code.split("-") or code.startswith("nc-"):
+            restrictions.append("non-commercial only")
+        if "nd" in code.split("-"):
+            restrictions.append("no derivatives (no edits, mixing may count as adaptation)")
+        if "sa" in code.split("-"):
+            restrictions.append("share-alike: adapted work must use the same license")
+        if "sampling" in code:
+            restrictions.append("sampling license: check terms on the source page")
+        if not code:
+            restrictions.append("license unknown")
+        restricted = any(("non-commercial" in r or "no derivatives" in r or "share-alike" in r or "sampling" in r)
+                         for r in restrictions) or not code
+        return {
+            "restrictions": restrictions,
+            "restricted": restricted,
+            "preferred": code in ("cc0", "pdm", "by"),
+            "status": "unverified: open source_url and confirm the license before use",
         }
 
     # ------------------------------------------------------------------
@@ -382,10 +460,18 @@ class OpenverseSearch(BaseTool):
         project_root = Path("projects") / project_id if project_id else None
         if inputs.get("output_dir"):
             dest = Path(inputs["output_dir"])
+            if "candidates" not in dest.parts:      # safeguard 2: never download into production folders
+                raise ValueError("output_dir must be inside a 'candidates' directory (non-production).")
         else:
-            dest = project_root / "assets" / self._ASSET_DIRS[media_type]
+            dest = project_root / "assets" / "candidates" / self._ASSET_DIRS[media_type]
         credits = (project_root or dest) / "credits.md"
         return dest, credits
+
+    @staticmethod
+    def _uses_register(inputs: dict[str, Any]) -> bool:
+        """True when the project keeps approvals/licenses/ (its register replaces credits.md)."""
+        pid = inputs.get("project_id")
+        return bool(pid) and (Path("projects") / pid / "approvals" / "licenses").is_dir()
 
     @staticmethod
     def _select(results: list[dict[str, Any]], sel: int | str) -> dict[str, Any]:
@@ -436,6 +522,24 @@ class OpenverseSearch(BaseTool):
             return cls._FILETYPE_ALIASES.get(guessed.lstrip("."), guessed.lstrip("."))
         suffix = Path(urllib.parse.urlparse(result["url"]).path).suffix.lstrip(".").lower()
         return suffix or "bin"
+
+    @staticmethod
+    def _register_entry(result: dict[str, Any], local_path: Path) -> dict[str, Any]:
+        import datetime, hashlib
+        return {
+            "openverse_id": result["id"],
+            "title": result["title"],
+            "creator": result["creator"],
+            "file": str(local_path),
+            "sha256": hashlib.sha256(local_path.read_bytes()).hexdigest(),
+            "source_url": result.get("source_url"),
+            "file_url": result.get("url"),
+            "license": result["license"],
+            "license_url": result.get("license_url"),
+            "attribution": result["attribution"],
+            "retrieved": datetime.date.today().isoformat(),
+            "license_verified_on_source_page": False,
+        }
 
     @staticmethod
     def _append_credit(credits_path: Path, result: dict[str, Any], local_path: Path) -> None:

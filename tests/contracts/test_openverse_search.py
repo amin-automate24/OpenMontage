@@ -8,7 +8,7 @@ hold:
    client_credentials POST, cached across calls, and refreshed once on a 401.
 3. Every result carries url/title/creator/license/license_url/source_url and
    an attribution string; HTML-escaped names are decoded.
-4. Downloads land in projects/<id>/assets/audio, use a real extension (Jamendo
+4. Downloads land in projects/<id>/assets/candidates/audio, use a real extension (Jamendo
    reports "mp32"), and append each attribution to credits.md exactly once.
 """
 
@@ -100,7 +100,7 @@ def test_anonymous_search_shapes_results(monkeypatch):
     assert res.data["auth_mode"] == "anonymous"
     assert len(net.calls) == 1 and net.calls[0].get_header("Authorization") is None
     query = urllib.parse.parse_qs(urllib.parse.urlparse(net.calls[0].full_url).query)
-    assert query == {"q": ["rain"], "page_size": ["5"], "license_type": ["commercial"]}
+    assert query == {"q": ["rain"], "page_size": ["5"], "license_type": ["commercial"], "license": ["cc0,pdm,by"]}
     item = res.data["results"][0]
     for key in ("url", "title", "creator", "license", "license_url", "source_url", "attribution"):
         assert item[key]
@@ -155,7 +155,7 @@ def test_download_writes_asset_and_credits_once(monkeypatch, tmp_path):
 
     assert first.success and second.success, (first.error, second.error)
     path = tmp_path / first.artifacts[0]
-    assert path.parent == tmp_path / "projects/the-last-of-men/assets/audio"
+    assert path.parent == tmp_path / "projects/the-last-of-men/assets/candidates/audio"
     assert path.suffix == ".mp3"
     credits = (tmp_path / "projects/the-last-of-men/credits.md").read_text()
     assert credits.count("Guitar Mix (Rain)") == 1
@@ -166,3 +166,86 @@ def test_download_requires_destination(monkeypatch):
     monkeypatch.setattr(ov.urllib.request, "urlopen", _FakeNet(_payload()))
     res = OpenverseSearch().execute({"q": "rain", "download": [0]})
     assert not res.success and "project_id" in res.error
+
+
+def test_license_filter_and_checks(monkeypatch):
+    payload = {"result_count": 2, "page_count": 1, "results": [
+        _result(license="cc0", license_version="1.0"),
+        _result(id="x2", license="by-nc-nd", license_version="4.0"),
+    ]}
+    net = _FakeNet(payload)
+    monkeypatch.setattr(ov.urllib.request, "urlopen", net)
+    res = OpenverseSearch().execute({"q": "street", "license": "cc0,by", "accept_restricted_license": True})
+    query = urllib.parse.parse_qs(urllib.parse.urlparse(net.calls[0].full_url).query)
+    assert query["license"] == ["cc0,by"]
+    cc0, nc_nd = (r["license_check"] for r in res.data["results"])
+    assert cc0["preferred"] and cc0["restrictions"] == []
+    assert not nc_nd["preferred"]
+    assert any("non-commercial" in x for x in nc_nd["restrictions"])
+    assert any("no derivatives" in x for x in nc_nd["restrictions"])
+    assert "unverified" in cc0["status"]
+
+
+def test_register_mode_skips_credits(monkeypatch, tmp_path):
+    monkeypatch.setattr(ov.urllib.request, "urlopen", _FakeNet(_payload()))
+    res = OpenverseSearch().execute(
+        {"q": "rain", "download": [0], "project_id": "p", "write_credits": False}
+    )
+    assert res.success, res.error
+    assert not (tmp_path / "projects/p/credits.md").exists()
+    entry = res.data["downloads"][0]["register_entry"]
+    assert len(entry["sha256"]) == 64 and entry["license_verified_on_source_page"] is False
+
+
+# --- safeguards for projects that keep approvals/licenses/ (SFX_LICENSES.json) ---
+
+def _register_project(tmp_path, pid="film"):
+    (tmp_path / "projects" / pid / "approvals" / "licenses").mkdir(parents=True)
+
+
+def test_register_project_never_writes_credits_even_if_asked(monkeypatch, tmp_path):
+    _register_project(tmp_path)
+    monkeypatch.setattr(ov.urllib.request, "urlopen", _FakeNet(_payload()))
+    res = OpenverseSearch().execute(
+        {"q": "rain", "download": [0], "project_id": "film", "write_credits": True}
+    )
+    assert res.success, res.error
+    assert not (tmp_path / "projects/film/credits.md").exists()
+    assert "credits_file" not in res.data
+    assert "register_entry" in res.data["downloads"][0]
+    assert list((tmp_path / "projects/film/approvals/licenses").iterdir()) == []   # register untouched
+
+
+def test_downloads_go_to_candidates_only(monkeypatch, tmp_path):
+    monkeypatch.setattr(ov.urllib.request, "urlopen", _FakeNet(_payload()))
+    ok = OpenverseSearch().execute({"q": "rain", "download": [0], "project_id": "film"})
+    assert ok.success and "candidates" in ok.artifacts[0]
+    assert not (tmp_path / "projects/film/assets/audio").exists()
+    bad = OpenverseSearch().execute({"q": "rain", "download": [0], "output_dir": str(tmp_path / "assets/audio")})
+    assert not bad.success and "candidates" in bad.error
+
+
+def test_restricted_licenses_excluded_by_default(monkeypatch, tmp_path):
+    payload = {"result_count": 4, "page_count": 1, "results": [
+        _result(id="a", license="cc0", license_version="1.0"),
+        _result(id="b", license="by-nc", license_version="4.0"),
+        _result(id="c", license="by-nd", license_version="4.0"),
+        _result(id="d", license="by-sa", license_version="4.0"),
+    ]}
+    net = _FakeNet(payload)
+    monkeypatch.setattr(ov.urllib.request, "urlopen", net)
+    res = OpenverseSearch().execute({"q": "wind"})
+    query = urllib.parse.parse_qs(urllib.parse.urlparse(net.calls[0].full_url).query)
+    assert query["license"] == ["cc0,pdm,by"]                      # API-side default
+    assert [r["id"] for r in res.data["results"]] == ["a"]         # client-side filter
+
+
+def test_restricted_license_exception_needs_explicit_flag(monkeypatch, tmp_path):
+    payload = {"result_count": 1, "page_count": 1, "results": [_result(id="b", license="by-nc", license_version="4.0")]}
+    monkeypatch.setattr(ov.urllib.request, "urlopen", _FakeNet(payload))
+    refused = OpenverseSearch().execute({"q": "wind", "license": "by-nc", "download": [0], "project_id": "film"})
+    assert not refused.success                                      # filtered out -> nothing to download
+    allowed = OpenverseSearch().execute(
+        {"q": "wind", "license": "by-nc", "accept_restricted_license": True, "download": [0], "project_id": "film"}
+    )
+    assert allowed.success and allowed.data["downloads"][0]["license_check"]["restricted"] is True

@@ -96,6 +96,28 @@ When `animation_mode == "image_animation"`, each scene needs **2-3 images** for 
    ```
    **If you skip this step, the render will fail with missing file errors.** This is the #1 cause of render failures for new projects.
 
+### 1d. External Ambience And Foley (`openverse_search`)
+
+Search before generating: `openverse_search` (free, anonymous) with
+`media_type: "audio"` and `license: "cc0,by"` (CC0 first, then CC BY).
+Each result carries `license_check`; a hit is never permission.
+
+- Before accepting an asset, open its `source_url` and confirm the license,
+  uploader notes and content (period-wrong traffic, music or speech).
+- Read every `license_check.restrictions`; reject NC / ND / SA unless the
+  user approves that license for this film.
+- Safeguards built into the tool: downloads go only to
+  `projects/<id>/assets/candidates/` (never a production folder); NC / ND / SA /
+  sampling results are filtered out unless a human approved the exception
+  (`license` + `accept_restricted_license: true`); `credits.md` is never written
+  when the project has `approvals/licenses/` (the register replaces it).
+- If the project keeps a licence register (e.g. `approvals/licenses/*.json`),
+  add the returned `register_entry` to that register by hand, only after the
+  user approves the asset; the tool never edits the register. Use `credits.md`
+  only when it is the project's existing format.
+- Some source hosts refuse server downloads (403/429); the error names the
+  page so the user can download by hand.
+
 ### 2. Build Reusable Systems
 
 Create once:

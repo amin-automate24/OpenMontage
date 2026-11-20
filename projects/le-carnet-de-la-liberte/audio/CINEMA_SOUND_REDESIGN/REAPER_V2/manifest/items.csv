@@ -10,4 +10,5 @@ MUS_ALT,PH2_C_generique_v2b_pos275.00s.flac,275.000000,24.000,0.000,0.00,0.00,0.
 FOL_A,PH2_A_foley_air_pos36.00s.flac,36.000000,30.000,0.000,0.00,0.00,0.00,1,TEST A foley carnet + air d'encre — muet par défaut
 FOL_B,PH2_B_oiseau_pos163.90s.flac,163.900000,3.700,0.000,0.00,0.00,0.00,1,TEST B oiseau fenêtre — muet par défaut
 REF_MIX,REF_MIX_actuel_QC2_SON2_276s_sans_perte.flac,0.000000,276.000,0.000,0.00,0.00,0.00,1,REF mix actuel sans perte (muet)
-REF_MST,REF_master_FINAL_audio_299s_AAC_decode.flac,0.000000,299.000,0.000,0.00,0.00,0.00,1,REF master FINAL audio (muet)
+REF_MST,REF_master_FINAL_audio_part1_0-150s.flac,0.000000,150.000,0.000,0.00,0.00,0.00,1,REF master FINAL audio (1/2) muet
+REF_MST,REF_master_FINAL_audio_part2_150-299s.flac,150.000000,149.008,0.000,0.00,0.00,0.00,1,REF master FINAL audio (2/2) muet

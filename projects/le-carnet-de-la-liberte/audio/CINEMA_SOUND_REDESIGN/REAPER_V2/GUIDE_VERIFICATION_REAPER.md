@@ -1,14 +1,14 @@
 # Vérification de REAPER v2 sur votre PC Windows — pas à pas
 **Limite honnête :** je travaille dans un conteneur cloud sans REAPER ; je ne peux donc ni ouvrir le projet, ni constater le chargement des médias, des pistes, des marqueurs, des scripts ou des plugins. Vous allez les exécuter, et **vous me renvoyez deux fichiers** (rapport de diagnostic + export test). Je corrige ensuite uniquement ce qui est en écart. Rien n'est modifié sur le master CINÉMA FINAL, les tests A et B restent muets, aucune voix et aucun équilibre ne sont touchés.
 
-## 1. Télécharger `LE_CARNET_REAPER_V2.zip` (95 Mo) depuis cette conversation
+## 1. Télécharger les 6 archives `LE_CARNET_REAPER_V2_<n>sur6_*.zip` (14 à 25 Mo chacune) depuis cette conversation
 * Ouvrez la conversation dans le navigateur (claude.ai) sur le PC, pas dans l'application mobile : cliquez la pièce jointe `LE_CARNET_REAPER_V2.zip` → **Télécharger**.
 * Si le bouton manque ou si le fichier est tronqué : dites-le-moi, je le dépose sur votre Dropbox (un jeton valide est nécessaire) ou je le découpe en parties.
 * Vérification d'intégrité facultative (PowerShell) : `Get-FileHash .\LE_CARNET_REAPER_V2.zip -Algorithm SHA256` ; taille attendue **95 229 295 octets**.
 
 ## 2. Installer (3 min)
 1. Clic droit sur le zip → *Extraire tout…* dans `Documents\` → vous obtenez `Documents\REAPER_V2\`. **Ne déplacez pas** les dossiers `media`, `manifest`, `scripts`, `exports` : ils doivent rester à côté du `.RPP`.
-2. Ajoutez les scripts de vérification : dézippez `LE_CARNET_REAPER_V2_PATCH_VERIF.zip` (petit fichier joint) **dans `Documents\`** en acceptant de fusionner/remplacer : cela ajoute `scripts\04_verifier_environnement.lua`, `scripts\05_export_test_court.lua`, `scripts\03_controle_qc.py/.bat` corrigés et ce guide.
+2. Les scripts de vérification (`04_…`, `05_…`, `03_…` corrigé) et ce guide sont déjà dans l'archive n°1.
 
 ## 3. Ouvrir et construire le projet
 1. Double-clic sur `LE_CARNET_SOUND_V2.RPP`. Si REAPER signale des fichiers introuvables : *Browse…* → `REAPER_V2\media`.
@@ -18,7 +18,7 @@
 
 ## 4. Diagnostic automatique (30 s)
 *Load ReaScript…* → `scripts\04_verifier_environnement.lua` → *Run*. Le script ne modifie rien ; il compare 17 contrôles aux valeurs attendues et écrit `REAPER_V2\diagnostic_reaper.txt`.
-**Attendu :** 17 pistes · somme des dossiers 0 · 12 items · 0 média hors ligne · 73 marqueurs + 3 régions = 76 · tests A et B muets · 5 items muets (A, B, v2b, 2 REF) · ReaLimit sur le MASTER (seuil et plafond −1,0 dB) · ReaEQ, ReaComp, ReaVerbate, ReaLimit disponibles · points de volume sur DX, AMB, MUS. *(Une fréquence d'échantillonnage projet affichée à 0 signale seulement qu'elle suit le périphérique audio : réglez 48000 dans Options → Preferences → Audio → Device ou dans Project settings.)*
+**Attendu :** 17 pistes · somme des dossiers 0 · 13 items · 0 média hors ligne · 73 marqueurs + 3 régions = 76 · tests A et B muets · 6 items muets (A, B, v2b, REF mix, REF master 1/2 et 2/2) · ReaLimit sur le MASTER (seuil et plafond −1,0 dB) · ReaEQ, ReaComp, ReaVerbate, ReaLimit disponibles · points de volume sur DX, AMB, MUS. *(Une fréquence d'échantillonnage projet affichée à 0 signale seulement qu'elle suit le périphérique audio : réglez 48000 dans Options → Preferences → Audio → Device ou dans Project settings.)*
 → **Envoyez-moi `diagnostic_reaper.txt`** (glisser dans la conversation).
 
 ## 5. Export test court et non destructif

@@ -73,7 +73,8 @@ items += [("MUS", "PH2_C_generique_v2_pos273.00s.flac", 273.0, 26.0, 0.0, 0.0, 0
           ("FOL_A", "PH2_A_foley_air_pos36.00s.flac", 36.0, 30.0, 0.0, 0.0, 0.0, 0.0, 1, "TEST A foley carnet + air d'encre — muet par défaut"),
           ("FOL_B", "PH2_B_oiseau_pos163.90s.flac", 163.9, 3.7, 0.0, 0.0, 0.0, 0.0, 1, "TEST B oiseau fenêtre — muet par défaut"),
           ("REF_MIX", "REF_MIX_actuel_QC2_SON2_276s_sans_perte.flac", 0.0, 276.0, 0.0, 0.0, 0.0, 0.0, 1, "REF mix actuel sans perte (muet)"),
-          ("REF_MST", "REF_master_FINAL_audio_299s_AAC_decode.flac", 0.0, 299.0, 0.0, 0.0, 0.0, 0.0, 1, "REF master FINAL audio (muet)")]
+          ("REF_MST", "REF_master_FINAL_audio_part1_0-150s.flac", 0.0, 150.0, 0.0, 0.0, 0.0, 0.0, 1, "REF master FINAL audio (1/2) muet"),
+          ("REF_MST", "REF_master_FINAL_audio_part2_150-299s.flac", 150.0, 149.008, 0.0, 0.0, 0.0, 0.0, 1, "REF master FINAL audio (2/2) muet")]
 with open(MAN/"items.csv","w",newline="",encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(["track","file","position_s","length_s","source_offset_s","volume_db","fade_in_s","fade_out_s","mute","name"]); [w.writerow([*i[:2], f"{i[2]:.6f}", f"{i[3]:.3f}", f"{i[4]:.3f}", f"{i[5]:.2f}", f"{i[6]:.2f}", f"{i[7]:.2f}", i[8], i[9]]) for i in items]
 print(json.dumps(fid, indent=1, ensure_ascii=False))

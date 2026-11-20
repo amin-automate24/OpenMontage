@@ -2,7 +2,7 @@
 **À savoir :** ce projet a été préparé dans un environnement cloud Linux, sans REAPER. Il n'a **jamais été ouvert dans REAPER** ; les scripts Lua ont passé une vérification de syntaxe (Lua 5.4) et un test avec une API REAPER **simulée**, pas le vrai logiciel. Signalez-moi tout message d'erreur.
 
 ## 1. Installer le dossier (2 min)
-1. Dézippez `LE_CARNET_REAPER_V2.zip`, par exemple dans `Documents\LE_CARNET_REAPER_V2\`. **Gardez la structure** : `LE_CARNET_SOUND_V2.RPP`, `media\`, `manifest\`, `scripts\`, `exports\` côte à côte (chemins relatifs, aucun chemin personnel écrit en dur).
+1. Dézippez **les 6 archives** `LE_CARNET_REAPER_V2_<n>sur6_*.zip`, chacune par *Extraire tout…* dans `Documents\` (elles fusionnent dans `Documents\REAPER_V2\`). **Gardez la structure** : `LE_CARNET_SOUND_V2.RPP`, `media\`, `manifest\`, `scripts\`, `exports\` côte à côte (chemins relatifs, aucun chemin personnel écrit en dur).
 2. Facultatif pour le contrôle : FFmpeg et Python 3 installés et accessibles dans le PATH.
 
 ## 2. Ouvrir — voie A (recommandée) : fichier .RPP

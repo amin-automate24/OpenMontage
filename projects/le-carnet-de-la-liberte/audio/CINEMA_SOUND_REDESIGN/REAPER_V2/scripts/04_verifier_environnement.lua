@@ -25,7 +25,7 @@ for i = 0, reaper.CountMediaItems(0) - 1 do
   if tk then local src = reaper.GetMediaItemTake_Source(tk); local fn = reaper.GetMediaSourceFileName(src, ""); local len = reaper.GetMediaSourceLength(src)
     if not exists(fn) or len <= 0 then offline = offline + 1; bad[#bad+1] = fn end end
 end
-chk("Items", nitems, 12, nitems == 12); chk("Médias hors ligne (introuvables ou longueur nulle)", offline, 0, offline == 0); for _, b in ipairs(bad) do p("   manquant : " .. b) end
+chk("Items", nitems, 13, nitems == 13); chk("Médias hors ligne (introuvables ou longueur nulle)", offline, 0, offline == 0); for _, b in ipairs(bad) do p("   manquant : " .. b) end
 local _, nm, nr = reaper.CountProjectMarkers(0); chk("Marqueurs", nm, 73, nm == 73); chk("Régions (tests A/B/C)", nr, 3, nr == 3); chk("Total marqueurs + régions", nm + nr, 76, nm + nr == 76)
 local function allitemsmuted(sub)
   for i = 0, nt - 1 do if names[i]:find(sub, 1, true) then local tr = reaper.GetTrack(0, i); local n = reaper.CountTrackMediaItems(tr)
@@ -34,7 +34,7 @@ end
 for _, s in ipairs({"FOL test A", "FOL test B"}) do local m = allitemsmuted(s); chk("Test désactivé par défaut (item muet) : " .. s, m, "true", m == true) end
 -- items muets des tests A/B/générique v2b (le mute est porté par l'item)
 local muted = 0; for i = 0, reaper.CountMediaItems(0) - 1 do if reaper.GetMediaItemInfo_Value(reaper.GetMediaItem(0, i), "B_MUTE") == 1 then muted = muted + 1 end end
-chk("Items muets (A, B, v2b, 2 REF)", muted, 5, muted == 5)
+chk("Items muets (A, B, v2b, REF mix, REF master 1/2 et 2/2)", muted, 6, muted == 6)
 -- master
 local mt = reaper.GetMasterTrack(0); local mf = {}
 for f = 0, reaper.TrackFX_GetCount(mt) - 1 do local _, fn = reaper.TrackFX_GetFXName(mt, f, ""); mf[#mf+1] = fn

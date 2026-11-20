@@ -1,0 +1,365 @@
+<REAPER_PROJECT 0.1 "7.0/win64" 1763600000
+  RIPPLE 0
+  AUTOXFADE 129
+  SAMPLERATE 48000 0 0
+  TEMPO 120 4 4
+  CURSOR 0
+  ZOOM 20 0 0
+  PROJOFFS 0 0 0
+  LOOP 0
+  <NOTES 0
+    LE CARNET DE LA LIBERTE - Phase 2 sonore (PREPARATOIRE). Sources existantes uniquement. Non ouvert dans REAPER par l'auteur du paquet.
+    Les pistes REF (muettes) servent a comparer au master FINAL. Image : charger la video du master FINAL dans REAPER (Insert > Media file) sur une piste video ; ne jamais l'ecraser.
+  >
+  MARKER 1 0.0000 "Plan SH01 — Plan d'établissement de la classe, un rayon de sol" 0 0 1 R {ECBD120D-820E-44B7-9344-FED306A06787} 0
+  MARKER 2 3.5000 "Plan SH02 — La maîtresse écrit la date au tableau puis pose sa" 0 0 1 R {9FB19B6A-A540-4839-8BD0-67AE30C8DC4F} 0
+  MARKER 3 7.5200 "réplique 7.52" 0 0 1 R {43531D78-90D5-480E-86BE-771DCB39717D} 0
+  MARKER 4 11.5000 "Plan SH03 — Younes lève la main, enthousiaste." 0 0 1 R {1A8A9D8B-60BA-4F80-940E-4116FDA3533E} 0
+  MARKER 5 11.8400 "réplique 11.84" 0 0 1 R {8F4E31CA-6E86-4E29-B3F8-4A93790CEAAE} 0
+  MARKER 6 15.0000 "Plan SH04 — La maîtresse félicite puis relance la question." 0 0 1 R {9A0858BC-21B7-44B7-95F4-035EBC86D040} 0
+  MARKER 7 15.3300 "réplique 15.33" 0 0 1 R {9F64245D-9D8D-49A7-8C3D-98CFAE37ECBA} 0
+  MARKER 8 16.5200 "réplique 16.52" 0 0 1 R {53EA5E4F-BED0-4AF4-86D2-D8C7D145629B} 0
+  MARKER 9 20.5000 "Plan SH05 — Gros plan sur le regard intrigué de Younes (la maî" 0 0 1 R {330EF80E-EA7C-4D72-B85C-F4328C60FB4E} 0
+  MARKER 10 20.7600 "réplique 20.76" 0 0 1 R {8AA60584-C780-4D74-ABF5-E22B4B21212A} 0
+  MARKER 11 23.7700 "réplique 23.77" 0 0 1 R {9BA8E9D9-E5BA-4DA6-8DE0-43F67E3821EB} 0
+  MARKER 12 27.5000 "Plan SH06 — La date du tableau se fond dans une page de carnet" 0 0 1 R {12FA3C1C-7C17-4211-AB5C-0636DCA9C5F1} 0
+  MARKER 13 30.0000 "Plan SH07 — Younes ouvre une ancienne boîte en bois et découvr" 0 0 1 R {FB09DC84-81E3-415C-99E4-679EC3012F9B} 0
+  MARKER 14 36.0000 "Plan SH08 — Gros plan sur la couverture : « AMINA — MES SOUVEN" 0 0 1 R {477A2F58-2715-4B2E-A026-60D68E1DE410} 0
+  MARKER 15 36.0400 "Coupe SH08 (mesurée)" 0 0 1 R {4666428C-781C-4ABB-A3E2-3B227D328382} 0
+  MARKER 16 39.5000 "Plan SH09 — Younes interroge sa mère, qui lui parle d'Amina." 0 0 1 R {13F2BB94-3114-4622-BDC5-F33C4C2E5D17} 0
+  MARKER 17 39.8300 "réplique 39.83" 0 0 1 R {3D121075-1A8E-4A49-BFDD-C68339104A77} 0
+  MARKER 18 42.8000 "réplique 42.80" 0 0 1 R {B81B78C7-A2CF-4226-A325-B933DB470626} 0
+  MARKER 19 45.0400 "réplique 45.04" 0 0 1 R {5CF05046-66B4-4880-BABB-45D553F10ABC} 0
+  MARKER 20 50.5000 "Plan SH10 — Younes ouvre délicatement le carnet : première pag" 0 0 1 R {26A44611-C0C9-47F9-8E33-E33823BCB46E} 0
+  MARKER 21 56.5000 "Plan SH11 — Un souffle de vent fait tourner les pages ; les ph" 0 0 1 R {8951266D-49D4-4166-8443-0F78310CC303} 0
+  MARKER 22 61.5000 "Plan SH12 — Travelling avant dans la page : l'encre devient un" 0 0 1 R {2C803165-4E95-4B62-87B0-70175881A584} 0
+  MARKER 23 65.0000 "Plan SH13 — Dans une rue ancienne, Amina (11 ans) marche avec " 0 0 1 R {0F5F8FB5-2970-4727-9387-5D0BF5F2C4F9} 0
+  MARKER 24 70.5000 "Plan SH14 — Amina interroge son père sur la liberté." 0 0 1 R {ACEBDF1D-8A0D-47D5-9472-C89CE4EEA920} 0
+  MARKER 25 71.0400 "réplique 71.04" 0 0 1 R {81793A21-9F1E-47AE-8011-880A91C44BDA} 0
+  MARKER 26 77.0000 "Plan SH15 — Le père explique le protectorat et le désir d'indé" 0 0 1 R {F9146233-085F-4CB9-9C8A-8B9973E3AB12} 0
+  MARKER 27 77.5400 "réplique 77.54" 0 0 1 R {B95ADC8E-76AD-4E40-B6E7-3F05351764CA} 0
+  MARKER 28 86.0000 "Plan SH16 — À la maison, le père dépose une feuille sur la tab" 0 0 1 R {49994354-B65A-4B0A-A5F0-64566A861C23} 0
+  MARKER 29 91.0000 "Plan SH17 — Insert : illustration éducative du document, légen" 0 0 1 R {09FA045C-B608-4F32-A6DC-F2370C67A927} 0
+  MARKER 30 91.4900 "réplique 91.49" 0 0 1 R {39B8C648-1F86-4B22-96C4-7F0A3706A060} 0
+  MARKER 31 99.5000 "Plan SH18 — Amina demande ce que signifie être indépendant ; l" 0 0 1 R {7190924A-39DC-4BB5-88F3-E25D8DCB306B} 0
+  MARKER 32 99.8000 "réplique 99.80" 0 0 1 R {616CB6F3-EF33-4FBA-9D03-30A9B87CD700} 0
+  MARKER 33 102.2000 "réplique 102.20" 0 0 1 R {E76790CE-AA90-4E1C-A029-B09BBAD64F9B} 0
+  MARKER 34 105.7600 "réplique 105.76" 0 0 1 R {F28ACB21-3C33-4AB9-BA9F-6CD34CCA7575} 0
+  MARKER 35 109.0000 "Plan SH19 — Amina sourit et écrit dans son carnet ; la caméra " 0 0 1 R {AFFD2BF5-1E02-4473-95AE-7462CB52F63A} 0
+  MARKER 36 115.5000 "Plan SH20 — L'encre s'assombrit ; les pages tournent jusqu'en " 0 0 1 R {705DBD6D-1080-41E7-98CE-F632B43A7C83} 0
+  MARKER 37 120.0000 "Plan SH21 — Neuf années ont passé : Amina est une jeune femme " 0 0 1 R {8376B21B-B4CD-4431-B24A-D3F21A67CF33} 0
+  MARKER 38 126.0000 "Plan SH22 — Une radio ancienne diffuse une annonce (reconstitu" 0 0 1 R {62F3F6FE-B498-4DFE-B254-97A552768F36} 0
+  MARKER 39 126.4800 "réplique 126.48" 0 0 1 R {B5D1CE5C-D988-4BB8-B51B-E307FA94738C} 0
+  MARKER 40 134.0000 "Plan SH23 — Silence, puis Amina interroge son père ; il l'enco" 0 0 1 R {10730171-20C6-4311-9728-EAEC40AD8F4E} 0
+  MARKER 41 134.3600 "réplique 134.36" 0 0 1 R {18421A79-8E7E-4A95-A132-4C037E29FB86} 0
+  MARKER 42 135.1600 "réplique 135.16" 0 0 1 R {94DF9A23-453A-425E-9658-EF8A1A758C89} 0
+  MARKER 43 137.6400 "réplique 137.64" 0 0 1 R {5E174C4A-3332-4BFE-88EC-082A19E19350} 0
+  MARKER 44 139.3100 "réplique 139.31" 0 0 1 R {B7B6FF17-3730-4A9D-863F-7CADAE809264} 0
+  MARKER 45 145.5000 "Plan SH24 — Amina regarde son carnet et écrit." 0 0 1 R {8B957AB9-1914-47B6-8F0B-0858268243AA} 0
+  MARKER 46 151.5000 "Plan SH25 — Les saisons défilent ; les feuilles du carnet port" 0 0 1 R {58A185BA-8885-4155-8A9F-F0FD252C0EF1} 0
+  MARKER 47 163.5000 "Plan SH26 — Une fenêtre s'ouvre, la lumière revient ; voix hor" 0 0 1 R {2D0E5196-8C22-46CB-9FCF-20EE42C35CB0} 0
+  MARKER 48 163.5600 "Coupe SH26 (mesurée)" 0 0 1 R {9B9199CB-6473-4A5A-ADBF-DED53DEBD881} 0
+  MARKER 49 166.5100 "réplique 166.51" 0 0 1 R {F29D5D1E-B70C-4366-95F0-AF6336309264} 0
+  MARKER 50 175.0000 "Plan SH27 — Une foule joyeuse accueille le retour du souverain" 0 0 1 R {B9932799-07E6-4060-9ED2-8E537BB0F41B} 0
+  MARKER 51 182.0000 "Plan SH28 — Amina rejoint son père dans la foule ; il lui serr" 0 0 1 R {2F3CA35A-C16A-4F44-8E35-C9E59A179EED} 0
+  MARKER 52 182.5000 "réplique 182.50" 0 0 1 R {C6EC5AC4-1A17-4C98-96C4-60112A828803} 0
+  MARKER 53 189.5000 "Plan SH29 — Page « 18 NOVEMBRE 1955 » : illustration historiqu" 0 0 1 R {D024D165-20C5-48C6-8F19-102E0EF1C5F2} 0
+  MARKER 54 198.5000 "Plan SH30 — Amina écrit dans son carnet." 0 0 1 R {AB20ED7C-D585-4FC8-8CDE-4DE85F7E2787} 0
+  MARKER 55 199.5100 "réplique 199.51" 0 0 1 R {86B147D0-628A-47FF-8CA4-6027B04CA4DE} 0
+  MARKER 56 208.5000 "Plan SH31 — Page « 2 MARS 1956 » : illustration symbolique des" 0 0 1 R {23E9FA18-BBF8-4433-B0CE-B6B419AF0D66} 0
+  MARKER 57 216.5000 "Plan SH32 — Le père annonce la reconnaissance ; Amina ferme le" 0 0 1 R {AF2C12A2-EAC6-40CD-9533-6A5915ECFD24} 0
+  MARKER 58 216.7900 "réplique 216.79" 0 0 1 R {02A26F34-F6CF-447B-B1E8-5A9D237D7EE4} 0
+  MARKER 59 221.7600 "réplique 221.76" 0 0 1 R {0CAFE320-6C21-4E2D-AC99-8A3B2716770E} 0
+  MARKER 60 225.5000 "Plan SH33 — Ligne du temps de six dates, maintenue à l'écran a" 0 0 1 R {D4F99AEE-5267-48F8-911E-A5674B560E56} 0
+  MARKER 61 239.5000 "Plan SH34 — Amina, doucement ; le carnet se referme." 0 0 1 R {47C4F981-76C3-47F4-A3EB-885E41F395CA} 0
+  MARKER 62 240.5000 "réplique 240.50" 0 0 1 R {258FC657-3F82-4119-9FDC-B87E3AC3C87B} 0
+  MARKER 63 250.0000 "Plan SH35 — Younes devant ses camarades, il présente le carnet" 0 0 1 R {92247EF9-EBB3-4DCA-94D3-599CC69D869E} 0
+  MARKER 64 250.2100 "réplique 250.21" 0 0 1 R {C886D32C-F2EB-45D9-9798-CB8C6360D8EB} 0
+  MARKER 65 253.5000 "Plan SH36 — Younes répond avec gravité." 0 0 1 R {7DF11AD8-5420-49A3-B982-F12BE9DAC68E} 0
+  MARKER 66 253.6600 "réplique 253.66" 0 0 1 R {73CF8E26-6E58-4D2C-9CBE-1A69088CBA85} 0
+  MARKER 67 261.5000 "Plan SH37 — « Comment ? » ; Younes répond, puis écrit dans son" 0 0 1 R {35893AEA-B564-47C1-B9B5-F1DE7CADCA36} 0
+  MARKER 68 261.6300 "réplique 261.63" 0 0 1 R {3D405B3B-EAF3-48E7-A340-E30010D7834A} 0
+  MARKER 69 262.8600 "réplique 262.86" 0 0 1 R {438D274C-89E9-4D43-880E-6090D5F2D889} 0
+  MARKER 70 270.5000 "Plan SH38 — Le cahier se referme ; un drapeau marocain flotte " 0 0 1 R {3A22D409-7E8B-44EF-806A-E597C71BC0DC} 0
+  MARKER 71 276.1200 "Carton 1 (générique)" 0 0 1 R {AD0F0524-0F2F-4C4B-A089-0363FC464A76} 0
+  MARKER 72 282.0000 "Carton 2" 0 0 1 R {A063B0D9-240A-4DEB-83D1-072A963CD356} 0
+  MARKER 73 285.5000 "Carton 3" 0 0 1 R {1D60F8BE-E93F-4E8A-88EC-B521767555CD} 0
+  MARKER 74 30.0000 "TEST A ouverture du carnet" 1 0 1 B {46C79043-B5D4-41DF-9CBA-E90756E74672} 0
+  MARKER 74 65.0000 "" 1 0 1 B {0EF88A00-4260-455B-BE8A-2D8C99CB2D9A} 0
+  MARKER 75 160.0000 "TEST B séquence 1955" 1 0 1 B {58ED281B-80E1-40F1-8B85-3E1CDB4FEE92} 0
+  MARKER 75 190.0000 "" 1 0 1 B {B02CEB9D-C719-4A48-897D-E61638AA0E2B} 0
+  MARKER 76 268.0000 "TEST C générique" 1 0 1 B {0E1C772B-B5D2-4663-AA79-BCE8F3C960DC} 0
+  MARKER 76 299.0000 "" 1 0 1 B {4436BEEF-C958-4339-861E-C3E9EFEA3708} 0
+  <TRACK {F5F986E0-98DB-46AF-A50C-F3ADF2DFA941}
+    NAME "DX — DIALOGUES"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 1 1
+    NCHAN 2
+    MAINSEND 1 0
+  >
+  <TRACK {3145C856-4A20-41BF-A00A-7359C0C44356}
+    NAME "DX stem M6 (calé +47 éch.)"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 2 -1
+    NCHAN 2
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.000979
+      SNAPOFFS 0
+      LENGTH 276.000000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.000 0 1 0 0 0
+      FADEOUT 1 0.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "dialogue stem M6"
+      VOLPAN 1.000000 0 1 -1
+      SOFFS 0.000000
+      <SOURCE FLAC
+        FILE "media/DX_dialogue_stem_M6_276s.flac"
+      >
+    >
+  >
+  <TRACK {260252CB-2036-4497-8B97-322F40A03082}
+    NAME "AMB — AMBIANCES"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 1 1
+    NCHAN 2
+    MAINSEND 1 0
+  >
+  <TRACK {BB36F80E-7578-4925-B757-FD7C1BBD3031}
+    NAME "AMB+FOLEY M7c (mélangé)"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 2 -1
+    NCHAN 2
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 276.000000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.000 0 1 0 0 0
+      FADEOUT 1 0.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "ambience_foley_m7c"
+      VOLPAN 1.000000 0 1 -1
+      SOFFS 0.000000
+      <SOURCE FLAC
+        FILE "media/AMB_FOLEY_M7c_276s_melange.flac"
+      >
+    >
+  >
+  <TRACK {F13F195F-8924-4344-8E4C-CD94F046564E}
+    NAME "FX — FOLEY / SFX"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 1 1
+    NCHAN 2
+    MAINSEND 1 0
+  >
+  <TRACK {AD73832C-D389-413C-A25E-247E61702C33}
+    NAME "PH2-A foley carnet + air d'encre"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 0 0
+    NCHAN 2
+    MAINSEND 1 0
+    <ITEM
+      POSITION 36.000000
+      SNAPOFFS 0
+      LENGTH 30.000000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.000 0 1 0 0 0
+      FADEOUT 1 0.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "PH2 A"
+      VOLPAN 1.000000 0 1 -1
+      SOFFS 0.000000
+      <SOURCE FLAC
+        FILE "media/PH2_A_foley_air_pos36.00s.flac"
+      >
+    >
+  >
+  <TRACK {B79AA401-6605-4ED1-BED5-58BA95A18F34}
+    NAME "PH2-B oiseau fenêtre"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 2 -1
+    NCHAN 2
+    MAINSEND 1 0
+    <ITEM
+      POSITION 163.900000
+      SNAPOFFS 0
+      LENGTH 3.700000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.000 0 1 0 0 0
+      FADEOUT 1 0.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "PH2 B"
+      VOLPAN 1.000000 0 1 -1
+      SOFFS 0.000000
+      <SOURCE FLAC
+        FILE "media/PH2_B_oiseau_pos163.90s.flac"
+      >
+    >
+  >
+  <TRACK {CCB16C13-F4F0-4D27-AABD-0D80895FA840}
+    NAME "MX — MUSIQUE"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 1 1
+    NCHAN 2
+    MAINSEND 1 0
+  >
+  <TRACK {2860F50E-890A-4651-8DE7-B8B3A85687F3}
+    NAME "MX thème (cues Mixkit 599, M9T)"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 0 0
+    NCHAN 2
+    MAINSEND 1 0
+    <ITEM
+      POSITION 50.500000
+      SNAPOFFS 0
+      LENGTH 15.500000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 1.500 0 1 0 0 0
+      FADEOUT 1 1.500 0 1 0 0 0
+      MUTE 0 0
+      NAME "MA (offset 0 s)"
+      VOLPAN 0.245471 0 1 -1
+      SOFFS 0.000000
+      <SOURCE MP3
+        FILE "media/mixkit_599_possible_dreams.mp3"
+      >
+    >
+    <ITEM
+      POSITION 109.000000
+      SNAPOFFS 0
+      LENGTH 12.000000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 1.200 0 1 0 0 0
+      FADEOUT 1 2.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "MB (offset 110 s)"
+      VOLPAN 0.147911 0 1 -1
+      SOFFS 110.000000
+      <SOURCE MP3
+        FILE "media/mixkit_599_possible_dreams.mp3"
+      >
+    >
+    <ITEM
+      POSITION 151.500000
+      SNAPOFFS 0
+      LENGTH 38.000000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 3.000 0 1 0 0 0
+      FADEOUT 1 1.500 0 1 0 0 0
+      MUTE 0 0
+      NAME "MCMD (offset 15 s)"
+      VOLPAN 0.081283 0 1 -1
+      SOFFS 15.000000
+      <SOURCE MP3
+        FILE "media/mixkit_599_possible_dreams.mp3"
+      >
+    >
+    <ITEM
+      POSITION 268.000000
+      SNAPOFFS 0
+      LENGTH 8.000000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 1.000 0 1 0 0 0
+      FADEOUT 1 5.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "MF (offset 140 s)"
+      VOLPAN 0.186209 0 1 -1
+      SOFFS 140.000000
+      <SOURCE MP3
+        FILE "media/mixkit_599_possible_dreams.mp3"
+      >
+    >
+  >
+  <TRACK {B66095B8-DF2B-494C-AF52-20B134B6FE11}
+    NAME "PH2-C reprise du thème (générique)"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 0 0 0
+    ISBUS 2 -1
+    NCHAN 2
+    MAINSEND 1 0
+    <ITEM
+      POSITION 274.600000
+      SNAPOFFS 0
+      LENGTH 24.400000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.000 0 1 0 0 0
+      FADEOUT 1 0.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "PH2 C"
+      VOLPAN 1.000000 0 1 -1
+      SOFFS 0.000000
+      <SOURCE FLAC
+        FILE "media/PH2_C_musique_generique_pos274.60s.flac"
+      >
+    >
+  >
+  <TRACK {FEED8C89-15E4-49B9-A20A-F8164CAFCCAD}
+    NAME "REF mix actuel (sans perte, MUET)"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 1 0 0
+    ISBUS 0 0
+    NCHAN 2
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 276.000000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.000 0 1 0 0 0
+      FADEOUT 1 0.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "mix QC2_SON2"
+      VOLPAN 1.000000 0 1 -1
+      SOFFS 0.000000
+      <SOURCE FLAC
+        FILE "media/REF_MIX_actuel_QC2_SON2_276s_sans_perte.flac"
+      >
+    >
+  >
+  <TRACK {413086EA-AD9E-431D-BC96-ADA0F586539E}
+    NAME "REF master FINAL (AAC décodé, MUET)"
+    VOLPAN 1.000000 0 -1 -1 1
+    MUTESOLO 1 0 0
+    ISBUS 0 0
+    NCHAN 2
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 299.000000
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.000 0 1 0 0 0
+      FADEOUT 1 0.000 0 1 0 0 0
+      MUTE 0 0
+      NAME "master FINAL"
+      VOLPAN 1.000000 0 1 -1
+      SOFFS 0.000000
+      <SOURCE FLAC
+        FILE "media/REF_master_FINAL_audio_299s_AAC_decode.flac"
+      >
+    >
+  >
+>

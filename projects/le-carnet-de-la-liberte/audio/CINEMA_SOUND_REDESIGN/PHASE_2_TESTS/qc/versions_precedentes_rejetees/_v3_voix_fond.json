@@ -1,0 +1,58 @@
+{
+ "fond_mono_musique_generique_dB": {
+  "avant_traitement_largeur": -3.76,
+  "apres": -1.75
+ },
+ "lignes": [
+  {
+   "test": "A",
+   "réplique_s": 39.83,
+   "voix_isolée_dBFS_avant": -20.53,
+   "voix_isolée_dBFS_après": -20.53,
+   "fond_dBFS_avant": -22.44,
+   "fond_dBFS_après": -22.44,
+   "rapport_voix_fond_avant_dB": 1.91,
+   "rapport_voix_fond_après_dB": 1.91
+  },
+  {
+   "test": "A",
+   "réplique_s": 42.8,
+   "voix_isolée_dBFS_avant": -18.53,
+   "voix_isolée_dBFS_après": -18.53,
+   "fond_dBFS_avant": -21.41,
+   "fond_dBFS_après": -21.41,
+   "rapport_voix_fond_avant_dB": 2.88,
+   "rapport_voix_fond_après_dB": 2.88
+  },
+  {
+   "test": "A",
+   "réplique_s": 45.04,
+   "voix_isolée_dBFS_avant": -18.41,
+   "voix_isolée_dBFS_après": -18.41,
+   "fond_dBFS_avant": -22.0,
+   "fond_dBFS_après": -22.0,
+   "rapport_voix_fond_avant_dB": 3.59,
+   "rapport_voix_fond_après_dB": 3.59
+  },
+  {
+   "test": "B",
+   "réplique_s": 166.51,
+   "voix_isolée_dBFS_avant": -18.46,
+   "voix_isolée_dBFS_après": -18.46,
+   "fond_dBFS_avant": -22.49,
+   "fond_dBFS_après": -25.49,
+   "rapport_voix_fond_avant_dB": 4.03,
+   "rapport_voix_fond_après_dB": 7.03
+  },
+  {
+   "test": "B",
+   "réplique_s": 182.5,
+   "voix_isolée_dBFS_avant": -17.35,
+   "voix_isolée_dBFS_après": -17.35,
+   "fond_dBFS_avant": -23.85,
+   "fond_dBFS_après": -25.99,
+   "rapport_voix_fond_avant_dB": 6.5,
+   "rapport_voix_fond_après_dB": 8.63
+  }
+ ]
+}

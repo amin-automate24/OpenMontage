@@ -1,0 +1,4 @@
+A_ouverture_carnet — fenêtre 30.00–65.00 s du master (début/fin sur des images entières à 25 ips)
+- 36,20 s : froissement doux du carnet/de la photo (Mixkit 1103, crête −21 dBFS, 1,5 s) — SH08 gros plan sur la couverture
+- 60,70–65,90 s : souffle d'air filtré (Mixkit 2427, passe-bas 1,4 kHz, crête −31 dBFS) qui monte vers l'entrée dans l'encre (SH12 61,5 s)
+- 50,5–65,0 s : largeur stéréo du fond ramenée à 60 % (corrélation stéréo ~0 → positive), sonie du fond conservée (gain de compensation), fondus de 1 s, aucune voix dans cette fenêtre

@@ -1,0 +1,27 @@
+{
+ "gain_AMB_par_plan_lineaire_min_med_max": [
+  2.4,
+  6.68,
+  12.31
+ ],
+ "gain_musique_médian_par_repère_vs_piste_brute": {
+  "MA": 1.21,
+  "MB": 0.85,
+  "MCMD": 0.46,
+  "MF": 0.93
+ },
+ "gain_DX_par_replique_min_med_max": [
+  1.12,
+  1.71,
+  2.24
+ ],
+ "fidélité_globale_résidu_vs_mix_dB": -6.5,
+ "fidélité_par_section_dB": {
+  "0-50 s classe/maison": -5.7,
+  "50-110 s carnet + rue 1944": -6.3,
+  "110-165 s nuit 1953": -8.1,
+  "165-200 s Rabat 1955": -7.2,
+  "200-276 s fin": -6.0
+ },
+ "lecture": "résidu = mix − reconstruction ; −10 dB ≈ reconstruction proche, −3 dB ≈ approximative. Le mix final provient de plusieurs versions assemblées : la reconstruction est une BASE DE TRAVAIL, pas une copie."
+}

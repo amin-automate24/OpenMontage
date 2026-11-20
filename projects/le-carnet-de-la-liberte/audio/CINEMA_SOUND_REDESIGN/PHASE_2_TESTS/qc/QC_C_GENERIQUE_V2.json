@@ -1,0 +1,130 @@
+{
+ "AVANT": {
+  "I_LUFS": -16.2,
+  "LRA_LU": 18.6,
+  "TP_dBTP": -3.1,
+  "crête_échantillon_dBFS": -3.12,
+  "échantillons_écrêtés": 0,
+  "images_25ips": 775.0,
+  "court_terme_LUFS": {
+   "carton1_276-282_min/max": [
+    -154.7,
+    -36.0
+   ],
+   "carton2_282-285.5_min/max": [
+    -154.7,
+    -154.7
+   ],
+   "carton3_285.5-295_min/max": [
+    -154.7,
+    -154.7
+   ],
+   "296-298_min": -154.7
+  },
+  "ajout_seul_RMS_dBFS_277-295": null,
+  "ajout_seul_perte_mono_dB": null,
+  "plus_grand_saut_RMS_dB_par_s_apres_276": 0.0,
+  "blocs_100ms_sous_-60dBFS": [
+   275.7,
+   298.9,
+   233
+  ],
+  "identique_à_AVANT_avant_272.9_s": true
+ },
+ "v1": {
+  "I_LUFS": -16.7,
+  "LRA_LU": 28.9,
+  "TP_dBTP": -3.1,
+  "crête_échantillon_dBFS": -3.12,
+  "échantillons_écrêtés": 0,
+  "images_25ips": 775.0,
+  "court_terme_LUFS": {
+   "carton1_276-282_min/max": [
+    -67.2,
+    -36.0
+   ],
+   "carton2_282-285.5_min/max": [
+    -54.7,
+    -50.6
+   ],
+   "carton3_285.5-295_min/max": [
+    -57.1,
+    -41.9
+   ],
+   "296-298_min": -56.9
+  },
+  "ajout_seul_RMS_dBFS_277-295": -49.1,
+  "ajout_seul_perte_mono_dB": -1.75,
+  "plus_grand_saut_RMS_dB_par_s_apres_276": 15.7,
+  "blocs_100ms_sous_-60dBFS": [
+   275.7,
+   298.9,
+   118
+  ],
+  "identique_à_AVANT_avant_272.9_s": true
+ },
+ "v2": {
+  "I_LUFS": -19.1,
+  "LRA_LU": 11.6,
+  "TP_dBTP": -3.1,
+  "crête_échantillon_dBFS": -3.12,
+  "échantillons_écrêtés": 0,
+  "images_25ips": 775.0,
+  "court_terme_LUFS": {
+   "carton1_276-282_min/max": [
+    -25.2,
+    -19.4
+   ],
+   "carton2_282-285.5_min/max": [
+    -20.1,
+    -18.5
+   ],
+   "carton3_285.5-295_min/max": [
+    -23.7,
+    -18.4
+   ],
+   "296-298_min": -30.7
+  },
+  "ajout_seul_RMS_dBFS_277-295": -22.3,
+  "ajout_seul_perte_mono_dB": -1.35,
+  "plus_grand_saut_RMS_dB_par_s_apres_276": 9.2,
+  "blocs_100ms_sous_-60dBFS": [
+   298.6,
+   298.9,
+   4
+  ],
+  "identique_à_AVANT_avant_272.9_s": true
+ },
+ "v2b": {
+  "I_LUFS": -19.1,
+  "LRA_LU": 14.3,
+  "TP_dBTP": -3.1,
+  "crête_échantillon_dBFS": -3.12,
+  "échantillons_écrêtés": 0,
+  "images_25ips": 775.0,
+  "court_terme_LUFS": {
+   "carton1_276-282_min/max": [
+    -32.3,
+    -20.0
+   ],
+   "carton2_282-285.5_min/max": [
+    -20.1,
+    -18.5
+   ],
+   "carton3_285.5-295_min/max": [
+    -23.7,
+    -18.4
+   ],
+   "296-298_min": -30.8
+  },
+  "ajout_seul_RMS_dBFS_277-295": -22.6,
+  "ajout_seul_perte_mono_dB": -1.33,
+  "plus_grand_saut_RMS_dB_par_s_apres_276": 9.2,
+  "blocs_100ms_sous_-60dBFS": [
+   298.6,
+   298.9,
+   4
+  ],
+  "identique_à_AVANT_avant_272.9_s": true
+ }
+}

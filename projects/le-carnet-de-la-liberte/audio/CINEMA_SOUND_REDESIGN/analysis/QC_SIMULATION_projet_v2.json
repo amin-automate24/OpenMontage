@@ -1,0 +1,214 @@
+{
+ "fichier": "../analysis/SIMULATION_somme_projet_REAPER_v2_299s.flac",
+ "durée_s": 299.0,
+ "durée_ok_299s_±0,04": true,
+ "sonie_intégrée_LUFS": -17.2,
+ "LRA_LU": 17.7,
+ "crête_vraie_dBTP": 0.1,
+ "crête_vraie_ok_≤−1": false,
+ "crête_échantillon_dBFS": 0.0,
+ "écrêtage_probable": false,
+ "perte_mono_dB": -0.78,
+ "silences_>0,5s_sous_−60dBFS": [],
+ "dialogues_RMS_dBFS": [
+  {
+   "réplique_s": 7.52,
+   "export": -16.5,
+   "référence": -15.7,
+   "écart_dB": -0.8
+  },
+  {
+   "réplique_s": 11.84,
+   "export": -19.7,
+   "référence": -18.0,
+   "écart_dB": -1.7
+  },
+  {
+   "réplique_s": 15.33,
+   "export": -18.9,
+   "référence": -18.1,
+   "écart_dB": -0.8
+  },
+  {
+   "réplique_s": 16.52,
+   "export": -18.1,
+   "référence": -17.4,
+   "écart_dB": -0.7
+  },
+  {
+   "réplique_s": 20.76,
+   "export": -21.1,
+   "référence": -18.4,
+   "écart_dB": -2.7
+  },
+  {
+   "réplique_s": 23.77,
+   "export": -17.9,
+   "référence": -17.3,
+   "écart_dB": -0.6
+  },
+  {
+   "réplique_s": 39.83,
+   "export": -20.6,
+   "référence": -18.4,
+   "écart_dB": -2.2
+  },
+  {
+   "réplique_s": 42.8,
+   "export": -18.6,
+   "référence": -16.7,
+   "écart_dB": -1.9
+  },
+  {
+   "réplique_s": 45.04,
+   "export": -18.4,
+   "référence": -16.8,
+   "écart_dB": -1.6
+  },
+  {
+   "réplique_s": 71.04,
+   "export": -17.5,
+   "référence": -16.8,
+   "écart_dB": -0.7
+  },
+  {
+   "réplique_s": 77.54,
+   "export": -18.0,
+   "référence": -16.9,
+   "écart_dB": -1.1
+  },
+  {
+   "réplique_s": 91.49,
+   "export": -17.8,
+   "référence": -16.5,
+   "écart_dB": -1.3
+  },
+  {
+   "réplique_s": 99.8,
+   "export": -17.7,
+   "référence": -17.0,
+   "écart_dB": -0.7
+  },
+  {
+   "réplique_s": 102.2,
+   "export": -18.0,
+   "référence": -16.6,
+   "écart_dB": -1.4
+  },
+  {
+   "réplique_s": 105.76,
+   "export": -20.8,
+   "référence": -18.9,
+   "écart_dB": -1.9
+  },
+  {
+   "réplique_s": 126.48,
+   "export": -18.3,
+   "référence": -17.9,
+   "écart_dB": -0.4
+  },
+  {
+   "réplique_s": 134.36,
+   "export": -17.5,
+   "référence": -17.1,
+   "écart_dB": -0.4
+  },
+  {
+   "réplique_s": 135.16,
+   "export": -17.6,
+   "référence": -17.1,
+   "écart_dB": -0.5
+  },
+  {
+   "réplique_s": 137.64,
+   "export": -18.0,
+   "référence": -16.7,
+   "écart_dB": -1.3
+  },
+  {
+   "réplique_s": 139.31,
+   "export": -18.5,
+   "référence": -17.3,
+   "écart_dB": -1.2
+  },
+  {
+   "réplique_s": 166.51,
+   "export": -18.1,
+   "référence": -17.0,
+   "écart_dB": -1.1
+  },
+  {
+   "réplique_s": 182.5,
+   "export": -17.3,
+   "référence": -16.5,
+   "écart_dB": -0.8
+  },
+  {
+   "réplique_s": 199.51,
+   "export": -17.6,
+   "référence": -17.0,
+   "écart_dB": -0.6
+  },
+  {
+   "réplique_s": 216.79,
+   "export": -18.0,
+   "référence": -17.2,
+   "écart_dB": -0.8
+  },
+  {
+   "réplique_s": 221.76,
+   "export": -17.7,
+   "référence": -17.2,
+   "écart_dB": -0.5
+  },
+  {
+   "réplique_s": 240.5,
+   "export": -18.2,
+   "référence": -17.4,
+   "écart_dB": -0.8
+  },
+  {
+   "réplique_s": 250.21,
+   "export": -17.2,
+   "référence": -16.4,
+   "écart_dB": -0.8
+  },
+  {
+   "réplique_s": 253.66,
+   "export": -19.0,
+   "référence": -16.8,
+   "écart_dB": -2.2
+  },
+  {
+   "réplique_s": 261.63,
+   "export": -17.1,
+   "référence": -16.1,
+   "écart_dB": -1.0
+  },
+  {
+   "réplique_s": 262.86,
+   "export": -19.3,
+   "référence": -17.1,
+   "écart_dB": -2.2
+  }
+ ],
+ "dialogues_étendue_max_min_dB": 4.6,
+ "dialogues_étendue_référence_dB": 3.2,
+ "synchronisation_vs_référence": [
+  {
+   "fenêtre_s": 40.0,
+   "décalage_échantillons": 9,
+   "corrélation_normalisée": 0.853
+  },
+  {
+   "fenêtre_s": 170.0,
+   "décalage_échantillons": 1,
+   "corrélation_normalisée": 0.899
+  },
+  {
+   "fenêtre_s": 250.0,
+   "décalage_échantillons": 11,
+   "corrélation_normalisée": 0.828
+  }
+ ]
+}

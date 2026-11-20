@@ -1,0 +1,123 @@
+{
+ "source": "Mixkit (Envato)",
+ "license_name": "Mixkit Sound Effects Free License",
+ "license_url": "https://mixkit.co/license/#sfxFree",
+ "license_text_archive": "approvals/licenses/mixkit_sound_effects_free_license_2026-11-17.html",
+ "license_summary_fr": "Relevé le 17/11/2026 : usage gratuit commercial et non commercial ; autorisé pour usages éducatifs, cinéma, YouTube/réseaux sociaux, TV/radio, CD/DVD, VOD ; modification autorisée ; interdit : redistribuer le son seul (stock, outil, template), le revendiquer comme sien ou l'enregistrer sur un service de gestion de droits (Content ID). Aucune attribution exigée.",
+ "cost_eur": 0,
+ "used_in": "audio/sfx_m5/ambience_foley_m5.wav (M8 / M8.1)",
+ "items": [
+  {
+   "mixkit_id": 1101,
+   "title": "Single book paging",
+   "file": "assets/sfx/mixkit/mixkit_1101_single_book_paging.wav",
+   "sha256": "aee109c3ba12c3c62cefd93de0b24b9e507f309a4be6320d927fd39d8b147573",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/1101/1101.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 1103,
+   "title": "Stiff paper book paging",
+   "file": "assets/sfx/mixkit/mixkit_1103_stiff_paper_book_paging.wav",
+   "sha256": "c8ae3898502ec9bc54807adf7d0aa4551dfe92c4e67eed4c6712708b0e161293",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/1103/1103.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 1104,
+   "title": "Page turn single",
+   "file": "assets/sfx/mixkit/mixkit_1104_page_turn_single.wav",
+   "sha256": "d1ccce088b96216c6ed725c1b56333722ba77c658d2327fc7aef3e7f3b98640f",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/1104/1104.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 1105,
+   "title": "Big paper page turn",
+   "file": "assets/sfx/mixkit/mixkit_1105_big_paper_page_turn.wav",
+   "sha256": "5d72362b8084f98936f68d06c1b09b3f34718baededee190a6dc109a29188d79",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/1105/1105.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 1270,
+   "title": "Footsteps on stones loop",
+   "file": "assets/sfx/mixkit/mixkit_1270_footsteps_on_stones_loop.wav",
+   "sha256": "f53f43559a6e5b0117c2c49648481cd06759fe5af5c3166f2874f284ae85c45f",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/1270/1270.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 2368,
+   "title": "Signing on a paper",
+   "file": "assets/sfx/mixkit/mixkit_2368_signing_on_a_paper.wav",
+   "sha256": "74b3a69c93dbb0b9e97b5f1cd193c1812f47eb0f31c2df5828cd1e3678fa2b1b",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/2368/2368.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 2369,
+   "title": "Writing scribble on paper",
+   "file": "assets/sfx/mixkit/mixkit_2369_writing_scribble_on_paper.wav",
+   "sha256": "a90c05f557ef3334c4666b70de5e66cc5112bafcad8164573b932aa7380b31f5",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/2369/2369.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 2427,
+   "title": "Breeze through the trees",
+   "file": "assets/sfx/mixkit/mixkit_2427_breeze_through_the_trees.wav",
+   "sha256": "6c296823df198334cb2e96cecefa7c2492590cbbbbc2baf69e4f22bcb183373f",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/2427/2427.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 2472,
+   "title": "Morning birds",
+   "file": "assets/sfx/mixkit/mixkit_2472_morning_birds.wav",
+   "sha256": "b7e9563e2870827914373895a19a7954ba2fd1fd7b9a6143e0b0101de5c1c312",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/2472/2472.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 2475,
+   "title": "Crickets at night in nature",
+   "file": "assets/sfx/mixkit/mixkit_2475_crickets_at_night_in_nature.wav",
+   "sha256": "196451001da6cf7f042736235d0e37657addd3824fdbc1fc55b4167a510e8794",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/2475/2475.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 2658,
+   "title": "Wind blowing ambience",
+   "file": "assets/sfx/mixkit/mixkit_2658_wind_blowing_ambience.wav",
+   "sha256": "63e6d732995dfe4cc646ea1edc7d6352559e337b75106c72266a97edf0412d3f",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/2658/2658.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 364,
+   "title": "Big crowd talking loop",
+   "file": "assets/sfx/mixkit/mixkit_364_big_crowd_talking_loop.wav",
+   "sha256": "54669eec2b4b4fd4f2f7dd1e8f7a47c8498111801aaa07d6c109b0e707449906",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/364/364.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 437,
+   "title": "Small crowd ovation",
+   "file": "assets/sfx/mixkit/mixkit_437_small_crowd_ovation.wav",
+   "sha256": "e977854f7157f639f1a229d39989d96a5e1a1de496caa6a138adc4246382345f",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/437/437.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  },
+  {
+   "mixkit_id": 462,
+   "title": "Huge crowd cheering victory",
+   "file": "assets/sfx/mixkit/mixkit_462_huge_crowd_cheering_victory.wav",
+   "sha256": "f3866de3c920f3c9dd169dc12bd683c69075046822fe3d1f226786824cdfc36e",
+   "source_url": "https://assets.mixkit.co/active_storage/sfx/462/462.wav",
+   "listing_checked": "https://mixkit.co/free-sound-effects/ (catégories crowd, footsteps, bird, crickets, paper, wind) — 17/11/2026"
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "status": "GENERATED_19_OF_19",
+ "date": "2026-11-17",
+ "model": "eleven_multilingual_v2",
+ "takes_per_line": 1,
+ "credits_chars_consumed": 1181,
+ "lines": [
+  {
+   "key": "T1",
+   "character": "LA MAÎTRESSE",
+   "start_s": 7.5,
+   "window_end_s": 11.5,
+   "real_s": 2.69,
+   "real_end_s": 10.19,
+   "margin_s": 1.31,
+   "chars": 52,
+   "file": "audio/voices_m2_lot/wav/T1.wav"
+  },
+  {
+   "key": "T2",
+   "character": "LA MAÎTRESSE",
+   "start_s": 15.3,
+   "window_end_s": 20.5,
+   "real_s": 4.23,
+   "real_end_s": 19.53,
+   "margin_s": 0.97,
+   "chars": 68,
+   "file": "audio/voices_m2_lot/wav/T2.wav"
+  },
+  {
+   "key": "T3",
+   "character": "LA MAÎTRESSE",
+   "start_s": 23.8,
+   "window_end_s": 27.5,
+   "real_s": 2.55,
+   "real_end_s": 26.35,
+   "margin_s": 1.15,
+   "chars": 46,
+   "file": "audio/voices_m2_lot/wav/T3.wav"
+  },
+  {
+   "key": "M1",
+   "character": "LA MÈRE",
+   "start_s": 42.8,
+   "window_end_s": 50.5,
+   "real_s": 5.02,
+   "real_end_s": 47.82,
+   "margin_s": 2.68,
+   "chars": 88,
+   "file": "audio/voices_m2_lot/wav/M1.wav"
+  },
+  {
+   "key": "A1",
+   "character": "AMINA",
+   "start_s": 71.0,
+   "window_end_s": 77.0,
+   "real_s": 3.81,
+   "real_end_s": 74.81,
+   "margin_s": 2.19,
+   "chars": 52,
+   "file": "audio/voices_m2_lot/wav/A1.wav"
+  },
+  {
+   "key": "P1",
+   "character": "LE PÈRE",
+   "start_s": 77.5,
+   "window_end_s": 86.0,
+   "real_s": 5.53,
+   "real_end_s": 83.03,
+   "margin_s": 2.97,
+   "chars": 108,
+   "file": "audio/voices_m2_lot/wav/P1.wav"
+  },
+  {
+   "key": "P2",
+   "character": "LE PÈRE",
+   "start_s": 91.5,
+   "window_end_s": 99.5,
+   "real_s": 5.9,
+   "real_end_s": 97.4,
+   "margin_s": 2.1,
+   "chars": 109,
+   "file": "audio/voices_m2_lot/wav/P2.wav"
+  },
+  {
+   "key": "A2",
+   "character": "AMINA",
+   "start_s": 99.8,
+   "window_end_s": 109.0,
+   "real_s": 2.41,
+   "real_end_s": 102.21,
+   "margin_s": 6.79,
+   "chars": 36,
+   "file": "audio/voices_m2_lot/wav/A2.wav"
+  },
+  {
+   "key": "P3",
+   "character": "LE PÈRE",
+   "start_s": 102.0,
+   "window_end_s": 109.0,
+   "real_s": 4.83,
+   "real_end_s": 106.83,
+   "margin_s": 2.17,
+   "chars": 78,
+   "file": "audio/voices_m2_lot/wav/P3.wav"
+  },
+  {
+   "key": "R1",
+   "character": "VOIX RADIO",
+   "start_s": 126.5,
+   "window_end_s": 134.0,
+   "real_s": 5.11,
+   "real_end_s": 131.61,
+   "margin_s": 2.39,
+   "chars": 82,
+   "file": "audio/voices_m2_lot/wav/R1.wav"
+  },
+  {
+   "key": "A4",
+   "character": "AMINA",
+   "start_s": 134.3,
+   "window_end_s": 145.5,
+   "real_s": 3.34,
+   "real_end_s": 137.64,
+   "margin_s": 7.86,
+   "chars": 43,
+   "file": "audio/voices_m2_lot/wav/A4.wav"
+  },
+  {
+   "key": "P4",
+   "character": "LE PÈRE",
+   "start_s": 137.4,
+   "window_end_s": 145.5,
+   "real_s": 6.36,
+   "real_end_s": 143.76,
+   "margin_s": 1.74,
+   "chars": 96,
+   "file": "audio/voices_m2_lot/wav/P4.wav"
+  },
+  {
+   "key": "V1",
+   "character": "VOIX HORS CHAMP",
+   "start_s": 166.5,
+   "window_end_s": 175.0,
+   "real_s": 1.95,
+   "real_end_s": 168.45,
+   "margin_s": 6.55,
+   "chars": 36,
+   "file": "audio/voices_m2_lot/wav/V1.wav"
+  },
+  {
+   "key": "A5",
+   "character": "AMINA",
+   "start_s": 182.5,
+   "window_end_s": 189.5,
+   "real_s": 2.97,
+   "real_end_s": 185.47,
+   "margin_s": 4.03,
+   "chars": 37,
+   "file": "audio/voices_m2_lot/wav/A5.wav"
+  },
+  {
+   "key": "A6",
+   "character": "AMINA",
+   "start_s": 199.5,
+   "window_end_s": 208.5,
+   "real_s": 5.02,
+   "real_end_s": 204.52,
+   "margin_s": 3.98,
+   "chars": 63,
+   "file": "audio/voices_m2_lot/wav/A6.wav"
+  },
+  {
+   "key": "P5",
+   "character": "LE PÈRE",
+   "start_s": 216.8,
+   "window_end_s": 225.5,
+   "real_s": 4.69,
+   "real_end_s": 221.49,
+   "margin_s": 4.01,
+   "chars": 78,
+   "file": "audio/voices_m2_lot/wav/P5.wav"
+  },
+  {
+   "key": "A8",
+   "character": "AMINA",
+   "start_s": 240.5,
+   "window_end_s": 250.0,
+   "real_s": 4.27,
+   "real_end_s": 244.77,
+   "margin_s": 5.23,
+   "chars": 69,
+   "file": "audio/voices_m2_lot/wav/A8.wav"
+  },
+  {
+   "key": "T4",
+   "character": "LA MAÎTRESSE",
+   "start_s": 250.2,
+   "window_end_s": 253.5,
+   "real_s": 1.67,
+   "real_end_s": 251.87,
+   "margin_s": 1.63,
+   "chars": 31,
+   "file": "audio/voices_m2_lot/wav/T4.wav"
+  },
+  {
+   "key": "T5",
+   "character": "LA MAÎTRESSE",
+   "start_s": 261.6,
+   "window_end_s": 270.5,
+   "real_s": 0.88,
+   "real_end_s": 262.48,
+   "margin_s": 8.02,
+   "chars": 9,
+   "file": "audio/voices_m2_lot/wav/T5.wav"
+  }
+ ],
+ "overlaps_real": [
+  {
+   "a": "A2",
+   "b": "P3",
+   "overlap_s": 0.21
+  },
+  {
+   "a": "A4",
+   "b": "P4",
+   "overlap_s": 0.24
+  }
+ ],
+ "stored": "audio/voices_m2_lot/ (mp3 originaux) + wav/ (48 kHz mono 24 bits) ; voices_final non modifié ; MIX_276s.wav non modifié"
+}

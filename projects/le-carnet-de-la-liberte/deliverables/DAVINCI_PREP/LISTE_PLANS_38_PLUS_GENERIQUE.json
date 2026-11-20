@@ -1,0 +1,275 @@
+[
+ {
+  "n": 1,
+  "start": 0,
+  "frames": 88,
+  "transition": "coupe",
+  "lieu": "INT. ÉCOLE PRIMAIRE — JOUR — 2026"
+ },
+ {
+  "n": 2,
+  "start": 88,
+  "frames": 200,
+  "transition": "coupe",
+  "lieu": "INT. ÉCOLE PRIMAIRE — JOUR — 2026"
+ },
+ {
+  "n": 3,
+  "start": 288,
+  "frames": 88,
+  "transition": "coupe",
+  "lieu": "INT. ÉCOLE PRIMAIRE — JOUR — 2026"
+ },
+ {
+  "n": 4,
+  "start": 376,
+  "frames": 138,
+  "transition": "coupe",
+  "lieu": "INT. ÉCOLE PRIMAIRE — JOUR — 2026"
+ },
+ {
+  "n": 5,
+  "start": 514,
+  "frames": 175,
+  "transition": "coupe",
+  "lieu": "INT. ÉCOLE PRIMAIRE — JOUR — 2026"
+ },
+ {
+  "n": 6,
+  "start": 689,
+  "frames": 62,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "TRANSITION"
+ },
+ {
+  "n": 7,
+  "start": 751,
+  "frames": 150,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "INT. MAISON FAMILIALE — APRÈS-MIDI — 2026"
+ },
+ {
+  "n": 8,
+  "start": 901,
+  "frames": 88,
+  "transition": "coupe",
+  "lieu": "INT. MAISON FAMILIALE — APRÈS-MIDI — 2026"
+ },
+ {
+  "n": 9,
+  "start": 989,
+  "frames": 275,
+  "transition": "coupe",
+  "lieu": "INT. MAISON FAMILIALE — APRÈS-MIDI — 2026"
+ },
+ {
+  "n": 10,
+  "start": 1264,
+  "frames": 150,
+  "transition": "coupe",
+  "lieu": "INT. MAISON FAMILIALE — APRÈS-MIDI — 2026"
+ },
+ {
+  "n": 11,
+  "start": 1414,
+  "frames": 125,
+  "transition": "coupe",
+  "lieu": "INT. MAISON FAMILIALE — APRÈS-MIDI — 2026"
+ },
+ {
+  "n": 12,
+  "start": 1539,
+  "frames": 88,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "TRANSITION"
+ },
+ {
+  "n": 13,
+  "start": 1627,
+  "frames": 138,
+  "transition": "coupe",
+  "lieu": "EXT. VILLE MAROCAINE — JOUR — 1944"
+ },
+ {
+  "n": 14,
+  "start": 1765,
+  "frames": 162,
+  "transition": "coupe",
+  "lieu": "EXT. VILLE MAROCAINE — JOUR — 1944"
+ },
+ {
+  "n": 15,
+  "start": 1927,
+  "frames": 225,
+  "transition": "coupe",
+  "lieu": "EXT. VILLE MAROCAINE — JOUR — 1944"
+ },
+ {
+  "n": 16,
+  "start": 2152,
+  "frames": 125,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — JOUR — 1944"
+ },
+ {
+  "n": 17,
+  "start": 2277,
+  "frames": 212,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "INSERT — DOCUMENT ILLUSTRÉ"
+ },
+ {
+  "n": 18,
+  "start": 2489,
+  "frames": 238,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — JOUR — 1944"
+ },
+ {
+  "n": 19,
+  "start": 2727,
+  "frames": 162,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — JOUR — 1944"
+ },
+ {
+  "n": 20,
+  "start": 2889,
+  "frames": 112,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "TRANSITION"
+ },
+ {
+  "n": 21,
+  "start": 3001,
+  "frames": 150,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "INT. MAISON D'AMINA — SOIR — 20 AOÛT 1953"
+ },
+ {
+  "n": 22,
+  "start": 3151,
+  "frames": 200,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — SOIR — 1953"
+ },
+ {
+  "n": 23,
+  "start": 3351,
+  "frames": 288,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — SOIR — 1953"
+ },
+ {
+  "n": 24,
+  "start": 3639,
+  "frames": 150,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — SOIR — 1953"
+ },
+ {
+  "n": 25,
+  "start": 3789,
+  "frames": 300,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "MONTAGE — PASSAGE DU TEMPS"
+ },
+ {
+  "n": 26,
+  "start": 4089,
+  "frames": 288,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — JOUR — 1955"
+ },
+ {
+  "n": 27,
+  "start": 4377,
+  "frames": 138,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "EXT. RABAT — JOUR — 16 NOVEMBRE 1955"
+ },
+ {
+  "n": 28,
+  "start": 4515,
+  "frames": 225,
+  "transition": "coupe",
+  "lieu": "EXT. RABAT — JOUR — 1955"
+ },
+ {
+  "n": 29,
+  "start": 4740,
+  "frames": 225,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "TRANSITION — PAGE DU CARNET"
+ },
+ {
+  "n": 30,
+  "start": 4965,
+  "frames": 250,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — JOUR — 1955"
+ },
+ {
+  "n": 31,
+  "start": 5215,
+  "frames": 200,
+  "transition": "coupe",
+  "lieu": "TRANSITION — PAGE SUIVANTE"
+ },
+ {
+  "n": 32,
+  "start": 5415,
+  "frames": 225,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — JOUR — 2 MARS 1956"
+ },
+ {
+  "n": 33,
+  "start": 5640,
+  "frames": 350,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "INSERT — LIGNE DU TEMPS"
+ },
+ {
+  "n": 34,
+  "start": 5990,
+  "frames": 262,
+  "transition": "coupe",
+  "lieu": "INT. MAISON D'AMINA — JOUR — 1956"
+ },
+ {
+  "n": 35,
+  "start": 6252,
+  "frames": 88,
+  "transition": "fondu 0,5 s intégré",
+  "lieu": "INT. CLASSE — JOUR — 2026"
+ },
+ {
+  "n": 36,
+  "start": 6340,
+  "frames": 200,
+  "transition": "coupe",
+  "lieu": "INT. CLASSE — JOUR — 2026"
+ },
+ {
+  "n": 37,
+  "start": 6540,
+  "frames": 225,
+  "transition": "coupe",
+  "lieu": "INT. CLASSE — JOUR — 2026"
+ },
+ {
+  "n": 38,
+  "start": 6765,
+  "frames": 138,
+  "transition": "coupe",
+  "lieu": "PLAN FINAL — JOUR — 2026"
+ },
+ {
+  "n": 39,
+  "start": 6903,
+  "frames": 572,
+  "transition": "coupe (générique V005)",
+  "lieu": "GÉNÉRIQUE"
+ }
+]

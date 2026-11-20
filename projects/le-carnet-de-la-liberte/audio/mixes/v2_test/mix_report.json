@@ -1,0 +1,121 @@
+{
+ "version": "v2_test",
+ "rhythm_applied": [
+  "T5",
+  "Y1",
+  "Y4"
+ ],
+ "provisional_voices": {
+  "A7": "PROVISIONAL",
+  "Y1": "PENDING_HUMAN_RECORDING",
+  "Y2": "PENDING_HUMAN_RECORDING",
+  "Y3": "PENDING_HUMAN_RECORDING",
+  "Y4": "PENDING_HUMAN_RECORDING",
+  "Y5": "PENDING_HUMAN_RECORDING"
+ },
+ "lines": 25,
+ "sources": [
+  [
+   "T1",
+   "temp"
+  ],
+  [
+   "Y1",
+   "temp"
+  ],
+  [
+   "T2",
+   "temp"
+  ],
+  [
+   "Y2",
+   "temp"
+  ],
+  [
+   "T3",
+   "temp"
+  ],
+  [
+   "Y3",
+   "temp"
+  ],
+  [
+   "M1",
+   "temp"
+  ],
+  [
+   "A1",
+   "temp"
+  ],
+  [
+   "P1",
+   "temp"
+  ],
+  [
+   "P2",
+   "temp"
+  ],
+  [
+   "A2",
+   "temp"
+  ],
+  [
+   "P3",
+   "temp"
+  ],
+  [
+   "R1",
+   "temp"
+  ],
+  [
+   "A4",
+   "temp"
+  ],
+  [
+   "P4",
+   "temp"
+  ],
+  [
+   "V1",
+   "temp"
+  ],
+  [
+   "A5",
+   "temp"
+  ],
+  [
+   "A6",
+   "temp"
+  ],
+  [
+   "P5",
+   "temp"
+  ],
+  [
+   "A7",
+   "final"
+  ],
+  [
+   "A8",
+   "temp"
+  ],
+  [
+   "T4",
+   "temp"
+  ],
+  [
+   "Y4",
+   "temp"
+  ],
+  [
+   "T5",
+   "temp"
+  ],
+  [
+   "Y5",
+   "temp"
+  ]
+ ],
+ "music": [],
+ "ducking_db": -9
+}

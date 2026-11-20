@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.8">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p25" frameDuration="1/25s" width="1920" height="1080" />
+    <asset id="v0" name="PLAN_SH01.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH01.mov" start="0s" duration="88/25s" hasVideo="1" format="r1" />
+    <asset id="v1" name="PLAN_SH02.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH02.mov" start="0s" duration="200/25s" hasVideo="1" format="r1" />
+    <asset id="v2" name="PLAN_SH03.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH03.mov" start="0s" duration="88/25s" hasVideo="1" format="r1" />
+    <asset id="v3" name="PLAN_SH04.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH04.mov" start="0s" duration="138/25s" hasVideo="1" format="r1" />
+    <asset id="v4" name="PLAN_SH05.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH05.mov" start="0s" duration="175/25s" hasVideo="1" format="r1" />
+    <asset id="v5" name="PLAN_SH06.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH06.mov" start="0s" duration="62/25s" hasVideo="1" format="r1" />
+    <asset id="v6" name="PLAN_SH07.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH07.mov" start="0s" duration="150/25s" hasVideo="1" format="r1" />
+    <asset id="v7" name="PLAN_SH08.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH08.mov" start="0s" duration="88/25s" hasVideo="1" format="r1" />
+    <asset id="v8" name="PLAN_SH09.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH09.mov" start="0s" duration="275/25s" hasVideo="1" format="r1" />
+    <asset id="v9" name="PLAN_SH10.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH10.mov" start="0s" duration="150/25s" hasVideo="1" format="r1" />
+    <asset id="v10" name="PLAN_SH11.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH11.mov" start="0s" duration="125/25s" hasVideo="1" format="r1" />
+    <asset id="v11" name="PLAN_SH12.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH12.mov" start="0s" duration="88/25s" hasVideo="1" format="r1" />
+    <asset id="v12" name="PLAN_SH13.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH13.mov" start="0s" duration="138/25s" hasVideo="1" format="r1" />
+    <asset id="v13" name="PLAN_SH14.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH14.mov" start="0s" duration="162/25s" hasVideo="1" format="r1" />
+    <asset id="v14" name="PLAN_SH15.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH15.mov" start="0s" duration="225/25s" hasVideo="1" format="r1" />
+    <asset id="v15" name="PLAN_SH16.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH16.mov" start="0s" duration="125/25s" hasVideo="1" format="r1" />
+    <asset id="v16" name="PLAN_SH17.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH17.mov" start="0s" duration="212/25s" hasVideo="1" format="r1" />
+    <asset id="v17" name="PLAN_SH18.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH18.mov" start="0s" duration="238/25s" hasVideo="1" format="r1" />
+    <asset id="v18" name="PLAN_SH19.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH19.mov" start="0s" duration="162/25s" hasVideo="1" format="r1" />
+    <asset id="v19" name="PLAN_SH20.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH20.mov" start="0s" duration="112/25s" hasVideo="1" format="r1" />
+    <asset id="v20" name="PLAN_SH21.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH21.mov" start="0s" duration="150/25s" hasVideo="1" format="r1" />
+    <asset id="v21" name="PLAN_SH22.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH22.mov" start="0s" duration="200/25s" hasVideo="1" format="r1" />
+    <asset id="v22" name="PLAN_SH23.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH23.mov" start="0s" duration="288/25s" hasVideo="1" format="r1" />
+    <asset id="v23" name="PLAN_SH24.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH24.mov" start="0s" duration="150/25s" hasVideo="1" format="r1" />
+    <asset id="v24" name="PLAN_SH25.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH25.mov" start="0s" duration="300/25s" hasVideo="1" format="r1" />
+    <asset id="v25" name="PLAN_SH26.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH26.mov" start="0s" duration="288/25s" hasVideo="1" format="r1" />
+    <asset id="v26" name="PLAN_SH27.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH27.mov" start="0s" duration="138/25s" hasVideo="1" format="r1" />
+    <asset id="v27" name="PLAN_SH28.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH28.mov" start="0s" duration="225/25s" hasVideo="1" format="r1" />
+    <asset id="v28" name="PLAN_SH29.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH29.mov" start="0s" duration="225/25s" hasVideo="1" format="r1" />
+    <asset id="v29" name="PLAN_SH30.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH30.mov" start="0s" duration="250/25s" hasVideo="1" format="r1" />
+    <asset id="v30" name="PLAN_SH31.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH31.mov" start="0s" duration="200/25s" hasVideo="1" format="r1" />
+    <asset id="v31" name="PLAN_SH32.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH32.mov" start="0s" duration="225/25s" hasVideo="1" format="r1" />
+    <asset id="v32" name="PLAN_SH33.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH33.mov" start="0s" duration="350/25s" hasVideo="1" format="r1" />
+    <asset id="v33" name="PLAN_SH34.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH34.mov" start="0s" duration="262/25s" hasVideo="1" format="r1" />
+    <asset id="v34" name="PLAN_SH35.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH35.mov" start="0s" duration="88/25s" hasVideo="1" format="r1" />
+    <asset id="v35" name="PLAN_SH36.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH36.mov" start="0s" duration="200/25s" hasVideo="1" format="r1" />
+    <asset id="v36" name="PLAN_SH37.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH37.mov" start="0s" duration="225/25s" hasVideo="1" format="r1" />
+    <asset id="v37" name="PLAN_SH38.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/PLAN_SH38.mov" start="0s" duration="138/25s" hasVideo="1" format="r1" />
+    <asset id="v38" name="GENERIQUE_V005.mov" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/PRORES/GENERIQUE_V005.mov" start="0s" duration="572/25s" hasVideo="1" format="r1" />
+    <asset id="a1" name="MIX_276s_QC2_SON2.wav" src="file:///C:/LE_CARNET_DE_LA_LIBERTE/MEDIA/MIX_276s_QC2_SON2.wav" start="0s" duration="6900/25s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000" />
+  </resources>
+  <library>
+    <event name="LE CARNET DE LA LIBERTE">
+      <project name="CARNET_TIMELINE_COMPLETE_PRORES_gabarit">
+        <sequence format="r1" duration="7475/25s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <asset-clip ref="v0" name="SH01" offset="0/25s" start="0s" duration="88/25s" format="r1" tcFormat="NDF">
+              <asset-clip ref="a1" name="MIX QC2 SON2 (validé)" lane="-1" offset="0s" start="0s" duration="6900/25s" />
+              <marker start="0s" duration="1/25s" value="SH01 — coupe — INT. ÉCOLE PRIMAIRE — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v1" name="SH02" offset="88/25s" start="0s" duration="200/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH02 — coupe — INT. ÉCOLE PRIMAIRE — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v2" name="SH03" offset="288/25s" start="0s" duration="88/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH03 — coupe — INT. ÉCOLE PRIMAIRE — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v3" name="SH04" offset="376/25s" start="0s" duration="138/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH04 — coupe — INT. ÉCOLE PRIMAIRE — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v4" name="SH05" offset="514/25s" start="0s" duration="175/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH05 — coupe — INT. ÉCOLE PRIMAIRE — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v5" name="SH06" offset="689/25s" start="0s" duration="62/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH06 — fondu 0,5 s intégré — TRANSITION" />
+            </asset-clip>
+            <asset-clip ref="v6" name="SH07" offset="751/25s" start="0s" duration="150/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH07 — fondu 0,5 s intégré — INT. MAISON FAMILIALE — APRÈS-MIDI — 2026" />
+            </asset-clip>
+            <asset-clip ref="v7" name="SH08" offset="901/25s" start="0s" duration="88/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH08 — coupe — INT. MAISON FAMILIALE — APRÈS-MIDI — 2026" />
+            </asset-clip>
+            <asset-clip ref="v8" name="SH09" offset="989/25s" start="0s" duration="275/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH09 — coupe — INT. MAISON FAMILIALE — APRÈS-MIDI — 2026" />
+            </asset-clip>
+            <asset-clip ref="v9" name="SH10" offset="1264/25s" start="0s" duration="150/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH10 — coupe — INT. MAISON FAMILIALE — APRÈS-MIDI — 2026" />
+            </asset-clip>
+            <asset-clip ref="v10" name="SH11" offset="1414/25s" start="0s" duration="125/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH11 — coupe — INT. MAISON FAMILIALE — APRÈS-MIDI — 2026" />
+            </asset-clip>
+            <asset-clip ref="v11" name="SH12" offset="1539/25s" start="0s" duration="88/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH12 — fondu 0,5 s intégré — TRANSITION" />
+            </asset-clip>
+            <asset-clip ref="v12" name="SH13" offset="1627/25s" start="0s" duration="138/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH13 — coupe — EXT. VILLE MAROCAINE — JOUR — 1944" />
+            </asset-clip>
+            <asset-clip ref="v13" name="SH14" offset="1765/25s" start="0s" duration="162/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH14 — coupe — EXT. VILLE MAROCAINE — JOUR — 1944" />
+            </asset-clip>
+            <asset-clip ref="v14" name="SH15" offset="1927/25s" start="0s" duration="225/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH15 — coupe — EXT. VILLE MAROCAINE — JOUR — 1944" />
+            </asset-clip>
+            <asset-clip ref="v15" name="SH16" offset="2152/25s" start="0s" duration="125/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH16 — coupe — INT. MAISON D'AMINA — JOUR — 1944" />
+            </asset-clip>
+            <asset-clip ref="v16" name="SH17" offset="2277/25s" start="0s" duration="212/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH17 — fondu 0,5 s intégré — INSERT — DOCUMENT ILLUSTRÉ" />
+            </asset-clip>
+            <asset-clip ref="v17" name="SH18" offset="2489/25s" start="0s" duration="238/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH18 — coupe — INT. MAISON D'AMINA — JOUR — 1944" />
+            </asset-clip>
+            <asset-clip ref="v18" name="SH19" offset="2727/25s" start="0s" duration="162/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH19 — coupe — INT. MAISON D'AMINA — JOUR — 1944" />
+            </asset-clip>
+            <asset-clip ref="v19" name="SH20" offset="2889/25s" start="0s" duration="112/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH20 — fondu 0,5 s intégré — TRANSITION" />
+            </asset-clip>
+            <asset-clip ref="v20" name="SH21" offset="3001/25s" start="0s" duration="150/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH21 — fondu 0,5 s intégré — INT. MAISON D'AMINA — SOIR — 20 AOÛT 1953" />
+            </asset-clip>
+            <asset-clip ref="v21" name="SH22" offset="3151/25s" start="0s" duration="200/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH22 — coupe — INT. MAISON D'AMINA — SOIR — 1953" />
+            </asset-clip>
+            <asset-clip ref="v22" name="SH23" offset="3351/25s" start="0s" duration="288/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH23 — coupe — INT. MAISON D'AMINA — SOIR — 1953" />
+            </asset-clip>
+            <asset-clip ref="v23" name="SH24" offset="3639/25s" start="0s" duration="150/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH24 — coupe — INT. MAISON D'AMINA — SOIR — 1953" />
+            </asset-clip>
+            <asset-clip ref="v24" name="SH25" offset="3789/25s" start="0s" duration="300/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH25 — fondu 0,5 s intégré — MONTAGE — PASSAGE DU TEMPS" />
+            </asset-clip>
+            <asset-clip ref="v25" name="SH26" offset="4089/25s" start="0s" duration="288/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH26 — coupe — INT. MAISON D'AMINA — JOUR — 1955" />
+            </asset-clip>
+            <asset-clip ref="v26" name="SH27" offset="4377/25s" start="0s" duration="138/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH27 — fondu 0,5 s intégré — EXT. RABAT — JOUR — 16 NOVEMBRE 1955" />
+            </asset-clip>
+            <asset-clip ref="v27" name="SH28" offset="4515/25s" start="0s" duration="225/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH28 — coupe — EXT. RABAT — JOUR — 1955" />
+            </asset-clip>
+            <asset-clip ref="v28" name="SH29" offset="4740/25s" start="0s" duration="225/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH29 — fondu 0,5 s intégré — TRANSITION — PAGE DU CARNET" />
+            </asset-clip>
+            <asset-clip ref="v29" name="SH30" offset="4965/25s" start="0s" duration="250/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH30 — coupe — INT. MAISON D'AMINA — JOUR — 1955" />
+            </asset-clip>
+            <asset-clip ref="v30" name="SH31" offset="5215/25s" start="0s" duration="200/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH31 — coupe — TRANSITION — PAGE SUIVANTE" />
+            </asset-clip>
+            <asset-clip ref="v31" name="SH32" offset="5415/25s" start="0s" duration="225/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH32 — coupe — INT. MAISON D'AMINA — JOUR — 2 MARS 1956" />
+            </asset-clip>
+            <asset-clip ref="v32" name="SH33" offset="5640/25s" start="0s" duration="350/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH33 — fondu 0,5 s intégré — INSERT — LIGNE DU TEMPS" />
+            </asset-clip>
+            <asset-clip ref="v33" name="SH34" offset="5990/25s" start="0s" duration="262/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH34 — coupe — INT. MAISON D'AMINA — JOUR — 1956" />
+            </asset-clip>
+            <asset-clip ref="v34" name="SH35" offset="6252/25s" start="0s" duration="88/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH35 — fondu 0,5 s intégré — INT. CLASSE — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v35" name="SH36" offset="6340/25s" start="0s" duration="200/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH36 — coupe — INT. CLASSE — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v36" name="SH37" offset="6540/25s" start="0s" duration="225/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH37 — coupe — INT. CLASSE — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v37" name="SH38" offset="6765/25s" start="0s" duration="138/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="SH38 — coupe — PLAN FINAL — JOUR — 2026" />
+            </asset-clip>
+            <asset-clip ref="v38" name="GENERIQUE" offset="6903/25s" start="0s" duration="572/25s" format="r1" tcFormat="NDF">
+              <marker start="0s" duration="1/25s" value="GENERIQUE — coupe (générique V005) — GÉNÉRIQUE" />
+            </asset-clip>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

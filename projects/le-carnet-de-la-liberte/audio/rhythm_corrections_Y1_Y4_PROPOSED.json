@@ -1,0 +1,22 @@
+{
+ "status": "PROPOSED_NOT_APPLIED",
+ "note": "Appliqué uniquement dans un mix versionné avec --rhythm ; scénario et textes inchangés ; durées de plans inchangées.",
+ "corrections": {
+  "Y1": {
+   "start_s": 11.6,
+   "max_end_s": 15.2,
+   "atempo_max": 1.05,
+   "why": "43 car. / 3,2 s ≈ 13,4 car./s ; T1 finit vers 11,5 s, le plan SH04 commence à 15,3 s : +0,4 s de fenêtre sans toucher au plan"
+  },
+  "T5": {
+   "start_s": 262.1,
+   "why": "« Comment ? » (9 car.) décalé de +0,5 s pour libérer la fin de Y4 ; Y5 reste à 262,9"
+  },
+  "Y4": {
+   "start_s": 253.6,
+   "max_end_s": 262.0,
+   "atempo_max": 1.04,
+   "why": "115 car. / 7,8 s ≈ 14,7 car./s ; fenêtre portée à 8,4 s (T4 finit vers 253,5 s)"
+  }
+ }
+}

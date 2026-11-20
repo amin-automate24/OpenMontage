@@ -1,0 +1,40 @@
+{
+ "version": "M7B",
+ "track": "assets/music/mixkit/mixkit_599_possible_dreams.mp3",
+ "cues": [
+  {
+   "cue": "MA",
+   "film_in": 50.5,
+   "film_out": 66.0,
+   "track_offset_s": 0,
+   "target_lufs": -31,
+   "gain_db": -12.2
+  },
+  {
+   "cue": "MB",
+   "film_in": 109.0,
+   "film_out": 121.0,
+   "track_offset_s": 110,
+   "target_lufs": -32,
+   "gain_db": -16.6
+  },
+  {
+   "cue": "MCMD",
+   "film_in": 151.5,
+   "film_out": 189.5,
+   "track_offset_s": 15,
+   "target_lufs": -32,
+   "gain_db": -21.8
+  },
+  {
+   "cue": "MF",
+   "film_in": 268.0,
+   "film_out": 276.0,
+   "track_offset_s": 140,
+   "target_lufs": -29,
+   "gain_db": -13.6
+  }
+ ],
+ "ducking_db": -9,
+ "guards": "no music on SH22 (126-134) and SH33 (225.5-239.5): verified"
+}

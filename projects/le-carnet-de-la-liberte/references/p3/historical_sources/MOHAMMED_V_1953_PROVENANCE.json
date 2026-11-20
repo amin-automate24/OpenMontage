@@ -1,0 +1,34 @@
+{
+ "title": "File:Mohammed V (1953).jpg",
+ "commons_url": "https://commons.wikimedia.org/wiki/File:Mohammed_V_(1953).jpg",
+ "commons_oldid": "1257609662",
+ "description_nl": "Frans Marokko hoofdpersonen: (...) Sultan Marokko",
+ "date": "1953-08-18 (ca.)",
+ "author": "Fotograaf Onbekend / Anefo",
+ "source": "Cropped from Fotocollectie Anefo (Nationaal Archief, Den Haag), nummertoegang 2.24.01.09, bestanddeelnummer 905-8914",
+ "source_handle": "https://proxy.handle.net/10648/a91157e0-d0b4-102d-bcf8-003048976d84",
+ "licence": "Creative Commons CC0 1.0 Universal Public Domain Dedication (as stated on the Commons page; Nationaal Archief partnership donation)",
+ "licence_note": "La page Commons précise que le tag partenariat n'indique pas le statut du droit d'auteur ; le tag CC0 est l'indication de licence.",
+ "declared_original": "886 × 1,182 pixels, 235 KB, image/jpeg",
+ "camera_metadata": "Leaf Aptus 22 ; Credit/Provider: Nationaal Archief",
+ "files": {
+  "jpg": {
+   "path": "Mohammed_V_1953_Anefo_905-8914_original.jpg",
+   "sha256": "3f2c5ece88094ca64ab94aa9e523060286b9d107b50c1f5777bbb0c221d48d31",
+   "size_bytes": 240872,
+   "dimensions": [
+    886,
+    1182
+   ]
+  },
+  "pdf": {
+   "path": "Commons_File_Mohammed_V_1953_page.pdf",
+   "sha256": "6f18659658440c02887bf49d74572c9276d54ac7b49405d6c4061a5ef220a65c"
+  },
+  "txt": {
+   "path": "Commons_File_Mohammed_V_1953_page.txt",
+   "sha256": "e83d3c509ea4610f9daa1e0549e4a7a4c30fd3e06e3674e44f573a1715fd2cd7"
+  }
+ },
+ "retrieved_by": "utilisateur (téléchargement manuel du JPG et de la page en PDF), archivés le 17/11/2026"
+}

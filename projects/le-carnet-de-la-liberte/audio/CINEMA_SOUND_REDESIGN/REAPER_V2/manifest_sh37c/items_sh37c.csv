@@ -1,0 +1,6 @@
+track_key,file,position_s,length_s,source_offset_s,volume_db,fade_in_s,fade_out_s,playrate,mute,name
+FOL_SH37,SH37_plume_reelle_mixkit_2369.wav,267.800,0.6000,0.000,-16.1,0.02,0.08,1.00,0,SH37 plume réelle — geste 1/4
+FOL_SH37,SH37_plume_reelle_mixkit_2369.wav,268.500,0.6186,0.000,-18.1,0.02,0.08,0.97,0,SH37 plume réelle — geste 2/4
+FOL_SH37,SH37_plume_reelle_mixkit_2369.wav,269.200,0.5769,0.000,-17.1,0.02,0.08,1.04,0,SH37 plume réelle — geste 3/4
+FOL_SH37,SH37_plume_reelle_mixkit_2369.wav,269.850,0.6061,0.000,-20.1,0.02,0.08,0.99,0,SH37 plume réelle — geste 4/4
+AMB_SH37,PH3_SH37_AMB_selectif_delta_pos267.00s.flac,267.000,4.000,0.000,0.0,0.0,0.0,1.00,0,"SH37 correction sélective (delta >2,1 kHz)"

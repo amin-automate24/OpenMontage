@@ -1,0 +1,35 @@
+{
+ "target_xy": [
+  925,
+  452
+ ],
+ "rows": [
+  {
+   "version": "v001 (original)",
+   "file": "references/p4/SH03_younes_main_levee_v001.png",
+   "pupil_xy": null,
+   "pupil_px": null,
+   "target_direction_deg": null
+  },
+  {
+   "version": "v002 (régénération IA)",
+   "file": "references/p4/SH03_younes_main_levee_v002.png",
+   "pupil_xy": [
+    1827.1,
+    661.4
+   ],
+   "pupil_px": 378,
+   "target_direction_deg": 13.1
+  },
+  {
+   "version": "v005 (correction locale)",
+   "file": "references/p4/post/SH03_gaze_head_v005.png",
+   "pupil_xy": [
+    1842.7,
+    658.7
+   ],
+   "pupil_px": 375,
+   "target_direction_deg": 12.7
+  }
+ ]
+}

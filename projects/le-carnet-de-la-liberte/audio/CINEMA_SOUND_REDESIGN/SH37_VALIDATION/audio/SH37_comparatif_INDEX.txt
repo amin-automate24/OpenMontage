@@ -1,0 +1,8 @@
+SH37 — comparatif A / B / C, fenêtre du film 267,000–273,000 s (identique pour les trois), 6,000 s chacune
+Repères : A = 1 bip, B = 2 bips, C = 3 bips (1 kHz, 0,12 s, −24 dBFS), puis 0,5 s de silence, puis la version ; 1,000 s de silence entre la fin d'une version et les bips de la suivante.
+  A : bips à  0.000 s (1 bip) · version de  0.620 s à  6.620 s
+  B : bips à  7.620 s (2 bips) · version de  8.480 s à 14.480 s
+  C : bips à 15.480 s (3 bips) · version de 16.580 s à 22.580 s
+Durée totale : 22.580 s.
+A : bruitage synthétique original (mix du master, inchangé) · B : bruitage atténué de −20 dB (267,45–270,65 s) · C : bruitage synthétique retiré (−60 dB) + plume réelle Mixkit 2369 (4 gestes), niveau discret.
+À écouter : le crépitement, la naturalité de la plume, l'équilibre avec la musique.

@@ -1,0 +1,44 @@
+{
+ "base": "QC2_SON1",
+ "zones": {
+  "Z1_SH06": [
+   27.8,
+   29.85
+  ],
+  "Z2_SH12_rue1944": [
+   61.5,
+   86.0
+  ]
+ },
+ "ambience_diff_segments_s": [
+  [
+   27.83,
+   29.8
+  ],
+  [
+   61.55,
+   85.99
+  ]
+ ],
+ "eps_db_anchors": {
+  "59.0-61.4": 0.082,
+  "86.5-89.0": -0.001
+ },
+ "z1_fit": {
+  "G_M9T1": 10.149615851192884,
+  "G_dB": 20.128992102394818,
+  "note": "regression monoregresseur"
+ },
+ "z1_gain": {
+  "G1": 10.803471848346177,
+  "G1_vs_G_M9T1_dB": 0.5422747893360992
+ },
+ "voix_A1_71-74_stem": "dialogue.wav inchangé (non touché) ; musique B inchangée (assert premaster)",
+ "pic_page_28.4-28.5_dBFS": -11.4,
+ "jonction_27.80_max_saut_ech": 152.0,
+ "jonction_29.85_max_saut_ech": 103.0,
+ "jonction_61.50_max_saut_ech": 211.00952570256985,
+ "jonction_86.00_max_saut_ech": 207.01356050330452,
+ "rms_dBFS_hors_zone_diff_vs_SON1": -240.0,
+ "sha256": "bc8718c7fd9352453dc4ff4eb3cbe83e4d3616a489426c48448273036aecfe6e"
+}

@@ -1,0 +1,19 @@
+{
+ "src": "references/p4/post/SH03_gaze_head_v005.png",
+ "dst": "references/p4/post/SH03_gaze_head_v006.png",
+ "changed_px": 11918,
+ "changed_bbox": [
+  1680,
+  487,
+  1760,
+  743
+ ],
+ "max_diff_in_protected_boxes": {
+  "oeil_proche": 0,
+  "oeil_lointain": 0,
+  "sourcil": 0,
+  "peau_joue_bouche": 0
+ },
+ "mask_nose_px": 1309,
+ "mask_wall_px": 10450
+}

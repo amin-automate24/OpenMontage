@@ -1,0 +1,6 @@
+C_generique_APRES_v2 — fenêtre 268,00–299,00 s (775 images)
+- Musique : Mixkit 599, CORPS de piste (offset 118.70→144.70 s, avant la décroissance d'éditeur de la piste, mesurée dès 144,8 s) ; entrée à 273,0 s en fondu enchaîné avec la queue de MF (qui s'éteint de 273 à 276 s)
+- Gain statique calé pour un plateau à -21.5 dBFS RMS sur 279–288 s (MF dans le mix : ≈ −17 dBFS) ; enveloppe lente : montée 273→278 s, plateau 278–288 s sur les cartons 1 et 2 (carton 3 dès 285,5 s), descente continue 288→299 s (−5,5 dB à 294 s, −14,5 dB à 297,5 s, −24,5 dB à 299 s) ; dynamiques internes de la musique conservées
+- Stéréo 60 % à sonie conservée ; fondu d'entrée 0,8 s ; fondu final 0,9 s déjà à bas niveau (aucune coupure)
+- v2b_respiration : même musique, entrée à 275,0 s (≈ 1 s de respiration après MF) au lieu d'un fondu enchaîné
+- v1 (C_generique_APRES.wav) conservée à l'identique ; aucun son généré ; l'image n'est pas modifiée

@@ -1,0 +1,57 @@
+{
+ "provider": "ElevenLabs Starter",
+ "quota_chars": 40000,
+ "entries": [
+  {
+   "batch": "VOICE_TEST_M2",
+   "chars_billed": 75,
+   "counter_after": 75
+  },
+  {
+   "batch": "VOICE_DESIGN_Y3",
+   "chars_billed": 0,
+   "note": "bloqué par filtre de sécurité, compteur inchangé (75)"
+  },
+  {
+   "batch": "LOT_M2_19_REPLIQUES",
+   "chars_billed_per_generation": 1181,
+   "counter_after": 1279,
+   "expected_counter": 1256,
+   "unexplained_chars": 23,
+   "note": "Écart de 23 caractères entre le total facturé par génération (1181) et le compteur du compte (+1204). Non expliqué ; à vérifier dans l'historique ElevenLabs. Plafond autorisé 1 240 respecté dans les deux lectures (1181 / 1204)."
+  },
+  {
+   "batch": "TEST_Y3_TIMOTHEE",
+   "voice": "Timothée - Jeune Narrateur Calme",
+   "chars_billed_per_generation": 36,
+   "takes": 1,
+   "counter_read_after": 1279,
+   "note": "compteur lu juste après la génération : 1279 (inchangé, mise à jour différée possible) ; à revérifier. Écart de 23 caractères antérieur toujours non expliqué.",
+   "file": "audio/voices_test/Y3_timothee_m2_take1.mp3"
+  },
+  {
+   "batch": "Y1_Y2_Y4_Y5_TIMOTHEE",
+   "voice": "Timothée - Jeune Narrateur Calme",
+   "authorized_cap_chars": 300,
+   "chars_billed_per_generation": {
+    "Y1": 43,
+    "Y2": 41,
+    "Y4": 115,
+    "Y5": 90,
+    "total": 289
+   },
+   "takes": 1,
+   "files": "audio/voices_younes_timothee/",
+   "note": "Y3 = test existant (36 car., déjà compté). Aucune relance. Compteur du compte à revérifier (mise à jour différée constatée)."
+  },
+  {
+   "batch": "RECONCILIATION_17_11",
+   "counter_now": 1604,
+   "expected": "1279 + 36 (Y3 Timothée) + 289 (Y1,Y2,Y4,Y5) = 1604",
+   "match": true,
+   "note": "Les 325 caractères de la phase Timothée sont comptés exactement ; l'écart de 23 caractères antérieur (lot M2) reste non expliqué. Reste 38 396 sur 40 000."
+  }
+ ],
+ "counter_now": 1279,
+ "remaining": 38721
+}

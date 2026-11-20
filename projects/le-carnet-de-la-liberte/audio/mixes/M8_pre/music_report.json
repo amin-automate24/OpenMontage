@@ -1,0 +1,54 @@
+{
+ "version": "M8",
+ "base": "M7B.1 (bed M5)",
+ "track": "assets/music/mixkit/mixkit_599_possible_dreams.mp3",
+ "cues": [
+  {
+   "cue": "MA",
+   "film_in": 50.5,
+   "film_out": 66.0,
+   "fade_in": 1.5,
+   "fade_out": 1.5,
+   "track_offset_s": 0,
+   "target_lufs": -31,
+   "gain_db": -12.2
+  },
+  {
+   "cue": "MB",
+   "film_in": 109.0,
+   "film_out": 121.0,
+   "fade_in": 1.2,
+   "fade_out": 2.0,
+   "track_offset_s": 110,
+   "target_lufs": -32,
+   "gain_db": -16.6
+  },
+  {
+   "cue": "MCMD",
+   "film_in": 151.5,
+   "film_out": 189.5,
+   "fade_in": 3.0,
+   "fade_out": 1.5,
+   "track_offset_s": 15,
+   "target_lufs": -32,
+   "gain_db": -21.8
+  },
+  {
+   "cue": "MF",
+   "film_in": 268.0,
+   "film_out": 276.0,
+   "fade_in": 1.0,
+   "fade_out": 5.0,
+   "track_offset_s": 140,
+   "target_lufs": -30,
+   "gain_db": -14.6
+  }
+ ],
+ "changes": [
+  "transitions électroniques : whooshes −8 dB et filtrés (150–1400 Hz), recherche de station radio −7 dB et plus étroite",
+  "foule SH27-28 : −2 dB statique, ducking sous voix −12 dB (au lieu de −9)",
+  "sortie musicale du titre : cos² sur 5 s (avant : rampe carrée 2,5 s)",
+  "ME supprimé"
+ ],
+ "guards": "aucune musique sur SH22, SH23, SH29-33 ni ME : vérifié"
+}

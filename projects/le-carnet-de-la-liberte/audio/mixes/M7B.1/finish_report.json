@@ -1,0 +1,9 @@
+{
+ "source": "M7B.1_pre",
+ "chain": "highpass=f=70,acompressor=threshold=-31dB:ratio=3:attack=15:release=400:makeup=5 | loudnorm 2-pass | alimiter",
+ "result": {
+  "integrated_lufs": -16.0,
+  "lra": 17.6,
+  "true_peak_dbtp": -1.4
+ }
+}

@@ -1,0 +1,230 @@
+[
+ {
+  "shot": 1,
+  "start": 0.0,
+  "dur": 3.5,
+  "source": "image"
+ },
+ {
+  "shot": 2,
+  "start": 3.5,
+  "dur": 8.0,
+  "source": "image"
+ },
+ {
+  "shot": 3,
+  "start": 11.5,
+  "dur": 3.5,
+  "source": "image"
+ },
+ {
+  "shot": 4,
+  "start": 15.0,
+  "dur": 5.5,
+  "source": "crop"
+ },
+ {
+  "shot": 5,
+  "start": 20.5,
+  "dur": 7.0,
+  "source": "crop"
+ },
+ {
+  "shot": 6,
+  "start": 27.5,
+  "dur": 2.5,
+  "source": "custom"
+ },
+ {
+  "shot": 7,
+  "start": 30.0,
+  "dur": 6.0,
+  "source": "image"
+ },
+ {
+  "shot": 8,
+  "start": 36.0,
+  "dur": 3.5,
+  "source": "image"
+ },
+ {
+  "shot": 9,
+  "start": 39.5,
+  "dur": 11.0,
+  "source": "image"
+ },
+ {
+  "shot": 10,
+  "start": 50.5,
+  "dur": 6.0,
+  "source": "clip"
+ },
+ {
+  "shot": 11,
+  "start": 56.5,
+  "dur": 5.0,
+  "source": "crop"
+ },
+ {
+  "shot": 12,
+  "start": 61.5,
+  "dur": 3.5,
+  "source": "custom"
+ },
+ {
+  "shot": 13,
+  "start": 65.0,
+  "dur": 5.5,
+  "source": "image"
+ },
+ {
+  "shot": 14,
+  "start": 70.5,
+  "dur": 6.5,
+  "source": "image"
+ },
+ {
+  "shot": 15,
+  "start": 77.0,
+  "dur": 9.0,
+  "source": "image"
+ },
+ {
+  "shot": 16,
+  "start": 86.0,
+  "dur": 5.0,
+  "source": "clip"
+ },
+ {
+  "shot": 17,
+  "start": 91.0,
+  "dur": 8.5,
+  "source": "image"
+ },
+ {
+  "shot": 18,
+  "start": 99.5,
+  "dur": 9.5,
+  "source": "crop"
+ },
+ {
+  "shot": 19,
+  "start": 109.0,
+  "dur": 6.5,
+  "source": "clip"
+ },
+ {
+  "shot": 20,
+  "start": 115.5,
+  "dur": 4.5,
+  "source": "custom"
+ },
+ {
+  "shot": 21,
+  "start": 120.0,
+  "dur": 6.0,
+  "source": "image"
+ },
+ {
+  "shot": 22,
+  "start": 126.0,
+  "dur": 8.0,
+  "source": "image"
+ },
+ {
+  "shot": 23,
+  "start": 134.0,
+  "dur": 11.5,
+  "source": "crop"
+ },
+ {
+  "shot": 24,
+  "start": 145.5,
+  "dur": 6.0,
+  "source": "clip"
+ },
+ {
+  "shot": 25,
+  "start": 151.5,
+  "dur": 12.0,
+  "source": "custom"
+ },
+ {
+  "shot": 26,
+  "start": 163.5,
+  "dur": 11.5,
+  "source": "image"
+ },
+ {
+  "shot": 27,
+  "start": 175.0,
+  "dur": 7.0,
+  "source": "image"
+ },
+ {
+  "shot": 28,
+  "start": 182.0,
+  "dur": 7.5,
+  "source": "image"
+ },
+ {
+  "shot": 29,
+  "start": 189.5,
+  "dur": 9.0,
+  "source": "image"
+ },
+ {
+  "shot": 30,
+  "start": 198.5,
+  "dur": 10.0,
+  "source": "clip"
+ },
+ {
+  "shot": 31,
+  "start": 208.5,
+  "dur": 8.0,
+  "source": "image"
+ },
+ {
+  "shot": 32,
+  "start": 216.5,
+  "dur": 9.0,
+  "source": "image"
+ },
+ {
+  "shot": 33,
+  "start": 225.5,
+  "dur": 14.0,
+  "source": "custom"
+ },
+ {
+  "shot": 34,
+  "start": 239.5,
+  "dur": 10.5,
+  "source": "image"
+ },
+ {
+  "shot": 35,
+  "start": 250.0,
+  "dur": 3.5,
+  "source": "image"
+ },
+ {
+  "shot": 36,
+  "start": 253.5,
+  "dur": 8.0,
+  "source": "crop"
+ },
+ {
+  "shot": 37,
+  "start": 261.5,
+  "dur": 9.0,
+  "source": "image"
+ },
+ {
+  "shot": 38,
+  "start": 270.5,
+  "dur": 5.5,
+  "source": "custom"
+ }
+]

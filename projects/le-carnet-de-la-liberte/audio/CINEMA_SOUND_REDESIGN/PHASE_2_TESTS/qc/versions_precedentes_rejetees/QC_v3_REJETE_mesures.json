@@ -1,0 +1,175 @@
+{
+ "A_ouverture_carnet": {
+  "durée_images_25ips": [
+   875.0,
+   875.0
+  ],
+  "crête_échantillon_dBFS": [
+   -2.7,
+   -2.7
+  ],
+  "échantillons_écrêtés": [
+   0,
+   0
+  ],
+  "sonie_avant": {
+   "I_LUFS": -17.3,
+   "LRA_LU": 14.9,
+   "true_peak_dBTP": -2.7
+  },
+  "sonie_après": {
+   "I_LUFS": -17.4,
+   "LRA_LU": 14.8,
+   "true_peak_dBTP": -2.7
+  },
+  "court_terme_max_et_P10_LUFS": {
+   "avant": [
+    -14.7,
+    -30.0
+   ],
+   "après": [
+    -14.7,
+    -29.9
+   ]
+  },
+  "écart_max_hors_zones_modifiées": 0.0,
+  "échantillons_identiques_hors_zones_%": 47.4,
+  "compat_mono_dB_global": [
+   -1.47,
+   -0.85
+  ],
+  "compat_mono_fenêtres": {
+   "SH10–12 fond sans voix": [
+    -3.59,
+    -1.75
+   ]
+  },
+  "dialogues": [
+   {
+    "réplique_s": 39.83,
+    "avant_dBFS": -18.36,
+    "après_dBFS": -18.36,
+    "écart_dB": 0.0
+   },
+   {
+    "réplique_s": 42.8,
+    "avant_dBFS": -16.72,
+    "après_dBFS": -16.72,
+    "écart_dB": 0.0
+   },
+   {
+    "réplique_s": 45.04,
+    "avant_dBFS": -16.83,
+    "après_dBFS": -16.83,
+    "écart_dB": 0.0
+   }
+  ]
+ },
+ "B_sequence_1955": {
+  "durée_images_25ips": [
+   750.0,
+   750.0
+  ],
+  "crête_échantillon_dBFS": [
+   -2.55,
+   -2.83
+  ],
+  "échantillons_écrêtés": [
+   0,
+   0
+  ],
+  "sonie_avant": {
+   "I_LUFS": -16.7,
+   "LRA_LU": 4.1,
+   "true_peak_dBTP": -2.5
+  },
+  "sonie_après": {
+   "I_LUFS": -16.9,
+   "LRA_LU": 3.8,
+   "true_peak_dBTP": -2.8
+  },
+  "court_terme_max_et_P10_LUFS": {
+   "avant": [
+    -14.0,
+    -18.7
+   ],
+   "après": [
+    -14.3,
+    -18.7
+   ]
+  },
+  "écart_max_hors_zones_modifiées": 0.0,
+  "échantillons_identiques_hors_zones_%": 38.7,
+  "compat_mono_dB_global": [
+   -2.3,
+   -2.1
+  ],
+  "compat_mono_fenêtres": {
+   "SH27 sans voix": [
+    -2.92,
+    -1.51
+   ]
+  },
+  "dialogues": [
+   {
+    "réplique_s": 166.51,
+    "avant_dBFS": -16.99,
+    "après_dBFS": -17.66,
+    "écart_dB": -0.66
+   },
+   {
+    "réplique_s": 182.5,
+    "avant_dBFS": -16.47,
+    "après_dBFS": -16.8,
+    "écart_dB": -0.32
+   }
+  ]
+ },
+ "C_generique": {
+  "durée_images_25ips": [
+   775.0,
+   775.0
+  ],
+  "crête_échantillon_dBFS": [
+   -3.12,
+   -3.12
+  ],
+  "échantillons_écrêtés": [
+   0,
+   0
+  ],
+  "sonie_avant": {
+   "I_LUFS": -16.2,
+   "LRA_LU": 18.6,
+   "true_peak_dBTP": -3.1
+  },
+  "sonie_après": {
+   "I_LUFS": -16.7,
+   "LRA_LU": 28.9,
+   "true_peak_dBTP": -3.1
+  },
+  "court_terme_max_et_P10_LUFS": {
+   "avant": [
+    -14.9,
+    -47.8
+   ],
+   "après": [
+    -14.9,
+    -61.8
+   ]
+  },
+  "écart_max_hors_zones_modifiées": 0.0,
+  "échantillons_identiques_hors_zones_%": 19.4,
+  "compat_mono_dB_global": [
+   -3.22,
+   -3.21
+  ],
+  "compat_mono_fenêtres": {
+   "générique": [
+    0.0,
+    -1.75
+   ]
+  },
+  "dialogues": []
+ }
+}

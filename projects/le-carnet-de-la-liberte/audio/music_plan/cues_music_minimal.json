@@ -1,0 +1,156 @@
+{
+ "status": "PLAN_ONLY_NO_TRACK_DOWNLOADED_OR_GENERATED",
+ "film_s": 276.0,
+ "music_seconds": 81.7,
+ "music_share_pct": 29.6,
+ "cues": [
+  {
+   "id": "MA",
+   "scene": 2,
+   "shots": "SH10-SH12",
+   "in": 50.5,
+   "out": 66.0,
+   "fade_in": 1.5,
+   "fade_out": 1.5,
+   "role": "thème du carnet (exposition) : ouverture du carnet, pages qui tournent, entrée dans l'encre",
+   "gain_db": -23,
+   "value": "merveille/magie de l'imagination, aucune voix pendant ce passage",
+   "dialogue_overlaps": []
+  },
+  {
+   "id": "MB",
+   "scene": 3,
+   "shots": "SH19-SH20",
+   "in": 109.0,
+   "out": 121.0,
+   "fade_in": 1.2,
+   "fade_out": 2.0,
+   "role": "thème (version chaude, solo oud) : Amina écrit « Un jour, mon pays sera libre. » puis pages vers 1953",
+   "gain_db": -24,
+   "value": "espoir d'enfant, aucune voix (P3 finit à 107,1 s)",
+   "dialogue_overlaps": []
+  },
+  {
+   "id": "MC",
+   "scene": 4,
+   "shots": "SH25-SH26",
+   "in": 151.5,
+   "out": 178.0,
+   "fade_in": 3.0,
+   "fade_out": 2.0,
+   "role": "thème (retour de la lumière) : saisons qui défilent puis fenêtre et grande lumière ; cordes qui montent",
+   "gain_db": -24,
+   "value": "retour de l'espoir ; V1 à 166,5 s sous la musique (ducking)",
+   "note": "commence APRÈS la fin de SH24 ; rien pendant SH22 (126-134) ni SH23 (silence, 134-145,5); recouvrement volontaire 175–178 s avec MD (fondu enchaîné)",
+   "dialogue_overlaps": [
+    "V1"
+   ]
+  },
+  {
+   "id": "MD",
+   "scene": 5,
+   "shots": "SH27-SH28",
+   "in": 175.0,
+   "out": 189.5,
+   "fade_in": 0.0,
+   "fade_out": 1.5,
+   "role": "thème (joie populaire, tempo plus vif) sous la foule",
+   "gain_db": -26,
+   "value": "liesse, A5 à 182,5 s sous la musique (ducking)",
+   "note": "enchaîne MC sans trou (MC sort à 178 s)",
+   "dialogue_overlaps": [
+    "A5"
+   ]
+  },
+  {
+   "id": "ME",
+   "scene": 5,
+   "shots": "SH34",
+   "in": 244.8,
+   "out": 250.0,
+   "fade_in": 1.5,
+   "fade_out": 1.0,
+   "role": "thème (calme) : le carnet se referme après A8",
+   "gain_db": -25,
+   "value": "transmission ; après la dernière réplique d'Amina (A8 finit à 244,8 s)",
+   "note": "rien pendant SH33 (225,5-239,5) ni SH29-SH32 (dialogues historiques et lisibilité)",
+   "dialogue_overlaps": []
+  },
+  {
+   "id": "MF",
+   "scene": 6,
+   "shots": "SH38",
+   "in": 268.0,
+   "out": 276.0,
+   "fade_in": 1.0,
+   "fade_out": 2.5,
+   "role": "résolution du thème sur le drapeau et le titre ; fin tenue",
+   "gain_db": -22,
+   "value": "héritage ; démarre juste après Y5 (finit à 267,9 s)",
+   "dialogue_overlaps": []
+  }
+ ],
+ "exclusions": [
+  {
+   "shots": "SH22",
+   "from": 126.0,
+   "to": 134.0,
+   "why": "radio, reconstitution fictive"
+  },
+  {
+   "shots": "SH23",
+   "from": 134.0,
+   "to": 145.5,
+   "why": "silence puis échange Amina/père"
+  },
+  {
+   "shots": "SH33",
+   "from": 225.5,
+   "to": 239.5,
+   "why": "ligne du temps à lire"
+  },
+  {
+   "shots": "SH29-SH32",
+   "from": 189.5,
+   "to": 225.5,
+   "why": "cartons historiques et dialogues A6/P5/A7"
+  },
+  {
+   "shots": "SH35-SH37",
+   "from": 250.0,
+   "to": 267.9,
+   "why": "Younes (T4,Y4,T5,Y5) intelligibilité"
+  },
+  {
+   "shots": "SH01-SH09",
+   "from": 0,
+   "to": 50.5,
+   "why": "scène 1 et dialogues Y3/M1"
+  },
+  {
+   "shots": "SH13-SH18",
+   "from": 66.0,
+   "to": 109.0,
+   "why": "rue 1944 et dialogues du père"
+  }
+ ],
+ "mix": {
+  "music_bus": {
+   "level": "gain_db par repère, mesuré en LUFS court terme ≈ −8 LU sous les dialogues (cible −22 à −26 LUFS)",
+   "ducking": {
+    "depth_db": -9,
+    "attack_ms": 250,
+    "release_ms": 600,
+    "sidechain": "bus dialogues",
+    "note": "identique à assemble_audio_versioned.py"
+   },
+   "eq": "coupe-bas 90 Hz, léger creux −2 dB vers 2–3 kHz pour laisser la place aux voix",
+   "stereo": "large (cordes) ; contrôle repli mono"
+  },
+  "master": {
+   "chain": "scripts/finish_master_audio.py (HP 70 Hz, compression 3:1, loudnorm 2 passes −16 LUFS, plafond −1 dBTP)",
+   "order": "musique mixée AVANT la chaîne de finition"
+  },
+  "fallback": "M6.1 (sans musique) conservé intact ; le fichier master candidat sans musique reste la version de repli"
+ }
+}

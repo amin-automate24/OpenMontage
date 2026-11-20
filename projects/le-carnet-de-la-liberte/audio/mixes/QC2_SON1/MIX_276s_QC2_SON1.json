@@ -1,0 +1,23 @@
+{
+ "base": "MIX_276s_M7B.2.wav",
+ "zone_s": [
+  163.5,
+  193.0
+ ],
+ "raccords_s": [
+  [
+   163.5,
+   164.5
+  ],
+  [
+   192.0,
+   193.0
+  ]
+ ],
+ "alignement_echantillons": 47,
+ "calage_niveau_dB": [
+  -0.06,
+  -0.173
+ ],
+ "source_zone": "MIX_276s_M9T2.3.wav"
+}

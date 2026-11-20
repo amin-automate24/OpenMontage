@@ -1,0 +1,39 @@
+shot,in_s,dur_s,S_min,S_med,S_max,M_max,dialogue,desc
+SH01,0.0,3.5,-35.0,-34.4,-33.8,-32.2,False,"Plan d'établissement de la classe, un rayon de soleil traver"
+SH02,3.5,8.0,-33.6,-29.6,-14.1,-11.2,True,La maîtresse écrit la date au tableau puis pose sa question.
+SH03,11.5,3.5,-19.5,-17.6,-15.5,-13.7,True,"Younes lève la main, enthousiaste."
+SH04,15.0,5.5,-21.3,-16.9,-15.2,-13.4,True,La maîtresse félicite puis relance la question.
+SH05,20.5,7.0,-18.5,-17.8,-15.9,-13.2,True,Gros plan sur le regard intrigué de Younes (la maîtresse rép
+SH06,27.5,2.5,-29.4,-24.5,-17.6,-25.1,False,La date du tableau se fond dans une page de carnet.
+SH07,30.0,6.0,-30.2,-27.4,-26.3,-22.9,False,Younes ouvre une ancienne boîte en bois et découvre le carne
+SH08,36.0,3.5,-30.2,-29.9,-29.7,-29.0,False,Gros plan sur la couverture : « AMINA — MES SOUVENIRS » et l
+SH09,39.5,11.0,-30.6,-17.6,-14.7,-12.5,True,"Younes interroge sa mère, qui lui parle d'Amina."
+SH10,50.5,6.0,-31.4,-20.5,-17.9,-15.5,False,Younes ouvre délicatement le carnet : première page « 11 JAN
+SH11,56.5,5.0,-24.4,-18.2,-16.5,-14.7,False,Un souffle de vent fait tourner les pages ; les photographie
+SH12,61.5,3.5,-22.9,-19.1,-15.7,-14.1,False,Travelling avant dans la page : l'encre devient une rue maro
+SH13,65.0,5.5,-21.6,-20.6,-15.6,-16.4,False,"Dans une rue ancienne, Amina (11 ans) marche avec son père ;"
+SH14,70.5,6.5,-21.2,-16.2,-13.7,-10.5,True,Amina interroge son père sur la liberté.
+SH15,77.0,9.0,-25.6,-15.9,-13.6,-12.0,True,Le père explique le protectorat et le désir d'indépendance.
+SH16,86.0,5.0,-32.4,-21.5,-20.7,-13.1,False,"À la maison, le père dépose une feuille sur la table."
+SH17,91.0,8.5,-32.9,-15.4,-13.2,-11.6,True,"Insert : illustration éducative du document, légende datée."
+SH18,99.5,9.5,-27.4,-15.9,-13.7,-12.1,True,Amina demande ce que signifie être indépendant ; le père rép
+SH19,109.0,6.5,-28.4,-19.3,-16.2,-14.8,False,Amina sourit et écrit dans son carnet ; la caméra se rapproc
+SH20,115.5,4.5,-16.7,-16.3,-16.0,-14.9,False,L'encre s'assombrit ; les pages tournent jusqu'en 1953.
+SH21,120.0,6.0,-33.2,-31.3,-16.8,-20.3,False,Neuf années ont passé : Amina est une jeune femme d'environ 
+SH22,126.0,8.0,-31.6,-16.6,-14.4,-13.0,True,Une radio ancienne diffuse une annonce (reconstitution ficti
+SH23,134.0,11.5,-29.9,-15.5,-14.0,-12.1,True,"Silence, puis Amina interroge son père ; il l'encourage."
+SH24,145.5,6.0,-26.7,-21.1,-19.5,-14.9,False,Amina regarde son carnet et écrit.
+SH25,151.5,12.0,-23.5,-20.7,-16.7,-15.0,False,"Les saisons défilent ; les feuilles du carnet portent 1953, "
+SH26,163.5,11.5,-18.8,-16.7,-14.8,-12.4,True,"Une fenêtre s'ouvre, la lumière revient ; voix hors champ ; "
+SH27,175.0,7.0,-20.2,-17.8,-17.3,-16.5,False,Une foule joyeuse accueille le retour du souverain ; drapeau
+SH28,182.0,7.5,-19.4,-15.3,-14.0,-10.8,True,Amina rejoint son père dans la foule ; il lui serre la main.
+SH29,189.5,9.0,-32.5,-30.1,-16.5,-22.5,False,Page « 18 NOVEMBRE 1955 » : illustration historique du disco
+SH30,198.5,10.0,-31.0,-17.4,-13.5,-11.2,True,Amina écrit dans son carnet.
+SH31,208.5,8.0,-33.2,-32.3,-20.8,-16.3,False,Page « 2 MARS 1956 » : illustration symbolique des négociati
+SH32,216.5,9.0,-33.7,-15.2,-13.8,-11.4,True,"Le père annonce la reconnaissance ; Amina ferme les yeux, ém"
+SH33,225.5,14.0,-30.1,-29.8,-18.2,-17.5,False,"Ligne du temps de six dates, maintenue à l'écran assez longt"
+SH34,239.5,10.5,-36.1,-20.2,-13.5,-11.7,True,"Amina, doucement ; le carnet se referme."
+SH35,250.0,3.5,-32.5,-17.0,-17.0,-11.3,True,"Younes devant ses camarades, il présente le carnet d'Amina."
+SH36,253.5,8.0,-20.8,-15.6,-13.7,-12.2,True,Younes répond avec gravité.
+SH37,261.5,9.0,-19.2,-15.9,-14.4,-12.1,True,"« Comment ? » ; Younes répond, puis écrit dans son cahier."
+SH38,270.5,5.5,-28.3,-16.2,-14.9,-14.0,False,Le cahier se referme ; un drapeau marocain flotte dans la lu

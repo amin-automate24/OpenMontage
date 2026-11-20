@@ -1,0 +1,8 @@
+# Rapport de contrôle — masters NON FINAL (19/11/2026) — contrôle interne uniquement, diffusion non autorisée
+1. Fichiers : SCOLAIRE (sous-titres incrustés, sha256 2ca5a7c0…) et CINÉMA (sans incrustation, sha256 19a0caeb…) + SRT FR séparé. 1920×1080, 25 fps, H.264 High yuv420p, AAC 48 kHz stéréo 192 kb/s ; durée exacte 299,000 s (7475 images = film 6903 + générique 572) ; 0 erreur de décodage ; check_delivery : < 300 s, tous critères techniques vrais.
+2. Montage : identique à QC3 SON2 image par image hors SH08 (écart ≤ 0,85/255, bruit de réencodage) ; SH08 = photo BnF/Agence Rol 156948 v003b sur les seules images 901–988 (36,04–39,56 s), conforme à la maquette validée (écart 0,46) ; SH07/SH09 inchangés.
+3. Son : mix validé QC2 SON2 (WAV source), décalage 0 échantillon, corrélation 0,9996 (AAC) ; −16,1 LUFS, LRA 15,8 LU, crête vraie −1,1 dBTP (identiques à QC3) ; silence 276,0–299,0 s (crête 8·10⁻⁶).
+4. Générique : V005, 3 cartons, muet, 22,88 s, identique au fichier source (écart 0,05) ; carton 3 BnF + Anefo condensés (188 car.) lisibles ≈ 12,6 s (≈ 15 car/s), corps 52/42 px ; « FIN » de SH38 conservé.
+5. Sous-titres : QC3 v001 + cue 10 v002 ; incrustation présente à 99 % des images attendues (écarts = détection automatique sur la cue 19 courte et bords d'une image, vérifiés visuellement) ; cue 10 visible dès 77,16 s ; aucun sous-titre après 269,0 s.
+6. Droits : SH08 = droits EN ATTENTE (notice Gallica et conditions officielles BnF non consultées) ; Anefo CC0. Inscrit au registre (AUTH-NF-2026-11-19).
+7. Limites : contrôles par mesure et images fixes ; aucune écoute ni visionnage intégral réalisés par l'agent. NON FINAL ; aucune publication.

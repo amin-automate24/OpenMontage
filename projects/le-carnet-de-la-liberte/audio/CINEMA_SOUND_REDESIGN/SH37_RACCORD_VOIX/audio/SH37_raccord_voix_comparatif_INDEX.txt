@@ -1,0 +1,10 @@
+SH37 — comparatif centré sur la fin de la voix de Younes (fin de parole ≈ 267,60 s) : fenêtre du film 265,000–273,000 s identique pour toutes les versions (8,000 s)
+Contexte : 2,6 s avant la fin de la voix, 2,7 s après la fin de la plume de synthèse (270,3 s).
+Repères : 1 bip = master actuel · 2 bips = C sélectif v1 (livré, non validé) · 3 bips = C sélectif v2 (correction proposée) · 4 bips = contrôle (v2 sans la plume réelle).
+1,000 s de silence entre les versions ; 0,5 s entre les bips et la version.
+  A (1 bip) bips à  0.000 s · version de  0.620 s à  8.620 s — master actuel (plume de synthèse d'origine)
+  C1 (2 bips) bips à  9.620 s · version de 10.480 s à 18.480 s — C sélectif v1 — livré, NON validé (gain unique)
+  C2 (3 bips) bips à 19.480 s · version de 20.580 s à 28.580 s — C sélectif v2 — correction localisée (gain temporel)
+  C2sp (4 bips) bips à 29.580 s · version de 30.920 s à 38.920 s — contrôle : v2 SANS la plume réelle (pour isoler la cause)
+Durée totale : 38.920 s.
+Dans chaque version, la voix de Younes finit à 2,60 s après le début de la version (267,60 s du film).

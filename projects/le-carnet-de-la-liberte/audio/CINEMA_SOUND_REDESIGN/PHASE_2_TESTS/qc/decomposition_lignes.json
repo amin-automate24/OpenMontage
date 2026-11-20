@@ -1,0 +1,246 @@
+{
+ "lines": [
+  {
+   "in_s": 7.52,
+   "out_s": 10.01,
+   "g_const": 1.954,
+   "g_local_min": 1.655,
+   "g_local_max": 3.908,
+   "RMS_reste_vs_mix_dB": -8.2
+  },
+  {
+   "in_s": 11.84,
+   "out_s": 13.8,
+   "g_const": 1.397,
+   "g_local_min": 1.131,
+   "g_local_max": 1.878,
+   "RMS_reste_vs_mix_dB": -5.1
+  },
+  {
+   "in_s": 15.33,
+   "out_s": 15.97,
+   "g_const": 1.593,
+   "g_local_min": 1.474,
+   "g_local_max": 3.186,
+   "RMS_reste_vs_mix_dB": -9.2
+  },
+  {
+   "in_s": 16.52,
+   "out_s": 19.37,
+   "g_const": 1.641,
+   "g_local_min": 1.295,
+   "g_local_max": 3.281,
+   "RMS_reste_vs_mix_dB": -8.7
+  },
+  {
+   "in_s": 20.76,
+   "out_s": 22.99,
+   "g_const": 1.121,
+   "g_local_min": 0.561,
+   "g_local_max": 1.807,
+   "RMS_reste_vs_mix_dB": -3.4
+  },
+  {
+   "in_s": 23.77,
+   "out_s": 26.17,
+   "g_const": 1.644,
+   "g_local_min": 1.49,
+   "g_local_max": 2.212,
+   "RMS_reste_vs_mix_dB": -9.0
+  },
+  {
+   "in_s": 39.83,
+   "out_s": 41.79,
+   "g_const": 1.178,
+   "g_local_min": 1.045,
+   "g_local_max": 2.005,
+   "RMS_reste_vs_mix_dB": -4.1
+  },
+  {
+   "in_s": 42.8,
+   "out_s": 44.65,
+   "g_const": 1.648,
+   "g_local_min": 1.509,
+   "g_local_max": 3.292,
+   "RMS_reste_vs_mix_dB": -4.7
+  },
+  {
+   "in_s": 45.04,
+   "out_s": 47.7,
+   "g_const": 1.441,
+   "g_local_min": 1.244,
+   "g_local_max": 2.882,
+   "RMS_reste_vs_mix_dB": -5.2
+  },
+  {
+   "in_s": 71.04,
+   "out_s": 74.54,
+   "g_const": 1.763,
+   "g_local_min": 1.225,
+   "g_local_max": 3.526,
+   "RMS_reste_vs_mix_dB": -11.2
+  },
+  {
+   "in_s": 77.54,
+   "out_s": 82.87,
+   "g_const": 1.708,
+   "g_local_min": 1.416,
+   "g_local_max": 3.417,
+   "RMS_reste_vs_mix_dB": -6.5
+  },
+  {
+   "in_s": 91.49,
+   "out_s": 97.29,
+   "g_const": 1.706,
+   "g_local_min": 1.402,
+   "g_local_max": 3.411,
+   "RMS_reste_vs_mix_dB": -5.9
+  },
+  {
+   "in_s": 99.8,
+   "out_s": 101.92,
+   "g_const": 1.781,
+   "g_local_min": 1.276,
+   "g_local_max": 3.147,
+   "RMS_reste_vs_mix_dB": -10.7
+  },
+  {
+   "in_s": 102.2,
+   "out_s": 105.49,
+   "g_const": 1.555,
+   "g_local_min": 1.257,
+   "g_local_max": 3.109,
+   "RMS_reste_vs_mix_dB": -5.8
+  },
+  {
+   "in_s": 105.76,
+   "out_s": 106.94,
+   "g_const": 1.821,
+   "g_local_min": 1.635,
+   "g_local_max": 3.643,
+   "RMS_reste_vs_mix_dB": -4.7
+  },
+  {
+   "in_s": 126.48,
+   "out_s": 131.43,
+   "g_const": 1.963,
+   "g_local_min": 1.685,
+   "g_local_max": 3.926,
+   "RMS_reste_vs_mix_dB": -10.1
+  },
+  {
+   "in_s": 134.36,
+   "out_s": 134.96,
+   "g_const": 1.331,
+   "g_local_min": 1.28,
+   "g_local_max": 2.53,
+   "RMS_reste_vs_mix_dB": -11.3
+  },
+  {
+   "in_s": 135.16,
+   "out_s": 137.37,
+   "g_const": 2.031,
+   "g_local_min": 1.331,
+   "g_local_max": 3.319,
+   "RMS_reste_vs_mix_dB": -10.4
+  },
+  {
+   "in_s": 137.64,
+   "out_s": 138.52,
+   "g_const": 1.679,
+   "g_local_min": 1.558,
+   "g_local_max": 2.522,
+   "RMS_reste_vs_mix_dB": -5.8
+  },
+  {
+   "in_s": 139.31,
+   "out_s": 143.91,
+   "g_const": 1.642,
+   "g_local_min": 1.323,
+   "g_local_max": 3.284,
+   "RMS_reste_vs_mix_dB": -6.7
+  },
+  {
+   "in_s": 166.51,
+   "out_s": 168.27,
+   "g_const": 2.238,
+   "g_local_min": 1.803,
+   "g_local_max": 4.259,
+   "RMS_reste_vs_mix_dB": -5.5
+  },
+  {
+   "in_s": 182.5,
+   "out_s": 185.23,
+   "g_const": 1.918,
+   "g_local_min": 0.959,
+   "g_local_max": 3.835,
+   "RMS_reste_vs_mix_dB": -7.4
+  },
+  {
+   "in_s": 199.51,
+   "out_s": 204.55,
+   "g_const": 1.907,
+   "g_local_min": 0.954,
+   "g_local_max": 3.815,
+   "RMS_reste_vs_mix_dB": -11.5
+  },
+  {
+   "in_s": 216.79,
+   "out_s": 221.3,
+   "g_const": 1.741,
+   "g_local_min": 1.328,
+   "g_local_max": 3.483,
+   "RMS_reste_vs_mix_dB": -7.7
+  },
+  {
+   "in_s": 221.76,
+   "out_s": 224.36,
+   "g_const": 1.797,
+   "g_local_min": 1.216,
+   "g_local_max": 3.595,
+   "RMS_reste_vs_mix_dB": -11.4
+  },
+  {
+   "in_s": 240.5,
+   "out_s": 244.81,
+   "g_const": 1.826,
+   "g_local_min": 0.913,
+   "g_local_max": 3.652,
+   "RMS_reste_vs_mix_dB": -9.8
+  },
+  {
+   "in_s": 250.21,
+   "out_s": 251.67,
+   "g_const": 1.85,
+   "g_local_min": 1.721,
+   "g_local_max": 2.542,
+   "RMS_reste_vs_mix_dB": -8.2
+  },
+  {
+   "in_s": 253.66,
+   "out_s": 260.45,
+   "g_const": 1.467,
+   "g_local_min": 0.733,
+   "g_local_max": 2.353,
+   "RMS_reste_vs_mix_dB": -4.2
+  },
+  {
+   "in_s": 261.63,
+   "out_s": 262.37,
+   "g_const": 1.904,
+   "g_local_min": 1.729,
+   "g_local_max": 2.626,
+   "RMS_reste_vs_mix_dB": -6.8
+  },
+  {
+   "in_s": 262.86,
+   "out_s": 267.99,
+   "g_const": 1.411,
+   "g_local_min": 0.706,
+   "g_local_max": 2.609,
+   "RMS_reste_vs_mix_dB": -4.2
+  }
+ ],
+ "lag_samples": 47,
+ "note": "gain LOCAL (fenêtres 120 ms, pas 20 ms, lissé) mixage/stem ; RMS_reste_vs_mix_dB = niveau du FOND dans la réplique par rapport au mix (plus bas = séparation plus nette ; contient aussi le vrai fond)"
+}

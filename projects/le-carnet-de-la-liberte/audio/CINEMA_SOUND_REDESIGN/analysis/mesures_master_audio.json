@@ -1,0 +1,669 @@
+{
+ "file": "deliverables/FINAL_CINEMA/LE_CARNET_DE_LA_LIBERTE_CINEMA_FINAL_1080p.mp4",
+ "duration_s": 299.008,
+ "sample_peak_dBFS": -1.25,
+ "clipped_samples": 0,
+ "stereo_corr_global": 0.706,
+ "band_energy_dB_rel": {
+  "<100Hz": -19.4,
+  "100-500": -1.4,
+  "500-2k": -7.0,
+  "2k-6k": -13.3,
+  ">6k": -19.5
+ },
+ "dialogue_lines_detected": 30,
+ "dialogue_lines": [
+  {
+   "in_s": 7.49,
+   "out_s": 10.18,
+   "dur_s": 2.68,
+   "rms_dBFS": -21.9,
+   "peak_dBFS": -6.1
+  },
+  {
+   "in_s": 11.83,
+   "out_s": 13.8,
+   "dur_s": 1.97,
+   "rms_dBFS": -23.2,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 15.34,
+   "out_s": 15.86,
+   "dur_s": 0.52,
+   "rms_dBFS": -24.1,
+   "peak_dBFS": -9.0
+  },
+  {
+   "in_s": 16.28,
+   "out_s": 19.02,
+   "dur_s": 2.74,
+   "rms_dBFS": -23.6,
+   "peak_dBFS": -6.1
+  },
+  {
+   "in_s": 20.81,
+   "out_s": 22.76,
+   "dur_s": 1.95,
+   "rms_dBFS": -24.3,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 23.79,
+   "out_s": 26.14,
+   "dur_s": 2.35,
+   "rms_dBFS": -20.8,
+   "peak_dBFS": -6.1
+  },
+  {
+   "in_s": 39.79,
+   "out_s": 41.98,
+   "dur_s": 2.19,
+   "rms_dBFS": -22.9,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 42.79,
+   "out_s": 44.91,
+   "dur_s": 2.12,
+   "rms_dBFS": -21.1,
+   "peak_dBFS": -6.1
+  },
+  {
+   "in_s": 45.29,
+   "out_s": 47.87,
+   "dur_s": 2.59,
+   "rms_dBFS": -22.7,
+   "peak_dBFS": -7.0
+  },
+  {
+   "in_s": 71.03,
+   "out_s": 73.72,
+   "dur_s": 2.69,
+   "rms_dBFS": -21.3,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 77.54,
+   "out_s": 80.09,
+   "dur_s": 2.55,
+   "rms_dBFS": -25.5,
+   "peak_dBFS": -7.3
+  },
+  {
+   "in_s": 80.53,
+   "out_s": 83.79,
+   "dur_s": 3.26,
+   "rms_dBFS": -25.7,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 91.49,
+   "out_s": 97.62,
+   "dur_s": 6.13,
+   "rms_dBFS": -24.0,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 99.79,
+   "out_s": 101.56,
+   "dur_s": 1.77,
+   "rms_dBFS": -20.9,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 102.01,
+   "out_s": 106.7,
+   "dur_s": 4.69,
+   "rms_dBFS": -24.1,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 126.5,
+   "out_s": 131.5,
+   "dur_s": 5.01,
+   "rms_dBFS": -28.2,
+   "peak_dBFS": -8.0
+  },
+  {
+   "in_s": 134.35,
+   "out_s": 136.66,
+   "dur_s": 2.32,
+   "rms_dBFS": -21.7,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 137.39,
+   "out_s": 138.58,
+   "dur_s": 1.19,
+   "rms_dBFS": -22.8,
+   "peak_dBFS": -6.6
+  },
+  {
+   "in_s": 139.0,
+   "out_s": 143.75,
+   "dur_s": 4.75,
+   "rms_dBFS": -25.1,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 166.49,
+   "out_s": 166.94,
+   "dur_s": 0.44,
+   "rms_dBFS": -23.5,
+   "peak_dBFS": -9.2
+  },
+  {
+   "in_s": 167.36,
+   "out_s": 168.84,
+   "dur_s": 1.47,
+   "rms_dBFS": -25.9,
+   "peak_dBFS": -9.2
+  },
+  {
+   "in_s": 182.49,
+   "out_s": 183.28,
+   "dur_s": 0.79,
+   "rms_dBFS": -21.8,
+   "peak_dBFS": -7.0
+  },
+  {
+   "in_s": 183.65,
+   "out_s": 184.88,
+   "dur_s": 1.22,
+   "rms_dBFS": -20.8,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 199.49,
+   "out_s": 203.09,
+   "dur_s": 3.6,
+   "rms_dBFS": -22.0,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 216.79,
+   "out_s": 223.79,
+   "dur_s": 7.0,
+   "rms_dBFS": -24.4,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 240.5,
+   "out_s": 243.89,
+   "dur_s": 3.39,
+   "rms_dBFS": -21.3,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 250.19,
+   "out_s": 251.89,
+   "dur_s": 1.7,
+   "rms_dBFS": -21.3,
+   "peak_dBFS": -6.1
+  },
+  {
+   "in_s": 253.73,
+   "out_s": 258.83,
+   "dur_s": 5.1,
+   "rms_dBFS": -22.9,
+   "peak_dBFS": -6.0
+  },
+  {
+   "in_s": 261.64,
+   "out_s": 262.05,
+   "dur_s": 0.41,
+   "rms_dBFS": -21.3,
+   "peak_dBFS": -6.1
+  },
+  {
+   "in_s": 262.89,
+   "out_s": 267.19,
+   "dur_s": 4.3,
+   "rms_dBFS": -22.8,
+   "peak_dBFS": -6.0
+  }
+ ],
+ "per_shot": [
+  {
+   "shot": "SH01",
+   "in_s": 0.0,
+   "out_s": 3.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -36.6,
+   "bed_rms_dBFS(ambiance+musique)": -46.9,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.27
+  },
+  {
+   "shot": "SH02",
+   "in_s": 3.5,
+   "out_s": 11.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -20.7,
+   "bed_rms_dBFS(ambiance+musique)": -47.4,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.98
+  },
+  {
+   "shot": "SH03",
+   "in_s": 11.5,
+   "out_s": 15.0,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -20.5,
+   "bed_rms_dBFS(ambiance+musique)": -48.4,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.99
+  },
+  {
+   "shot": "SH04",
+   "in_s": 15.0,
+   "out_s": 20.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -19.5,
+   "bed_rms_dBFS(ambiance+musique)": -48.5,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.99
+  },
+  {
+   "shot": "SH05",
+   "in_s": 20.5,
+   "out_s": 27.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -19.6,
+   "bed_rms_dBFS(ambiance+musique)": -48.7,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.98
+  },
+  {
+   "shot": "SH06",
+   "in_s": 27.5,
+   "out_s": 30.0,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -30.2,
+   "bed_rms_dBFS(ambiance+musique)": -46.1,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.24
+  },
+  {
+   "shot": "SH07",
+   "in_s": 30.0,
+   "out_s": 36.0,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -30.3,
+   "bed_rms_dBFS(ambiance+musique)": -45.8,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.29
+  },
+  {
+   "shot": "SH08",
+   "in_s": 36.0,
+   "out_s": 39.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -32.0,
+   "bed_rms_dBFS(ambiance+musique)": -45.4,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": -0.01
+  },
+  {
+   "shot": "SH09",
+   "in_s": 39.5,
+   "out_s": 50.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -19.5,
+   "bed_rms_dBFS(ambiance+musique)": -48.3,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.99
+  },
+  {
+   "shot": "SH10",
+   "in_s": 50.5,
+   "out_s": 56.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -22.8,
+   "bed_rms_dBFS(ambiance+musique)": -45.5,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": -0.11
+  },
+  {
+   "shot": "SH11",
+   "in_s": 56.5,
+   "out_s": 61.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -20.8,
+   "bed_rms_dBFS(ambiance+musique)": -45.4,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": -0.09
+  },
+  {
+   "shot": "SH12",
+   "in_s": 61.5,
+   "out_s": 65.0,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -18.9,
+   "bed_rms_dBFS(ambiance+musique)": -45.5,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": -0.18
+  },
+  {
+   "shot": "SH13",
+   "in_s": 65.0,
+   "out_s": 70.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -25.1,
+   "bed_rms_dBFS(ambiance+musique)": -46.3,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.49
+  },
+  {
+   "shot": "SH14",
+   "in_s": 70.5,
+   "out_s": 77.0,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -19.1,
+   "bed_rms_dBFS(ambiance+musique)": -47.9,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.98
+  },
+  {
+   "shot": "SH15",
+   "in_s": 77.0,
+   "out_s": 86.0,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -19.0,
+   "bed_rms_dBFS(ambiance+musique)": -48.0,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.97
+  },
+  {
+   "shot": "SH16",
+   "in_s": 86.0,
+   "out_s": 91.0,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -28.7,
+   "bed_rms_dBFS(ambiance+musique)": -46.1,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.74
+  },
+  {
+   "shot": "SH17",
+   "in_s": 91.0,
+   "out_s": 99.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -18.1,
+   "bed_rms_dBFS(ambiance+musique)": -49.0,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 1.0
+  },
+  {
+   "shot": "SH18",
+   "in_s": 99.5,
+   "out_s": 109.0,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -18.6,
+   "bed_rms_dBFS(ambiance+musique)": -48.8,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.99
+  },
+  {
+   "shot": "SH19",
+   "in_s": 109.0,
+   "out_s": 115.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -20.9,
+   "bed_rms_dBFS(ambiance+musique)": -46.2,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.11
+  },
+  {
+   "shot": "SH20",
+   "in_s": 115.5,
+   "out_s": 120.0,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -19.0,
+   "bed_rms_dBFS(ambiance+musique)": -46.1,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": -0.1
+  },
+  {
+   "shot": "SH21",
+   "in_s": 120.0,
+   "out_s": 126.0,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -33.8,
+   "bed_rms_dBFS(ambiance+musique)": -46.0,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.13
+  },
+  {
+   "shot": "SH22",
+   "in_s": 126.0,
+   "out_s": 134.0,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -19.9,
+   "bed_rms_dBFS(ambiance+musique)": -47.0,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 1.0
+  },
+  {
+   "shot": "SH23",
+   "in_s": 134.0,
+   "out_s": 145.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -18.6,
+   "bed_rms_dBFS(ambiance+musique)": -48.4,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 1.0
+  },
+  {
+   "shot": "SH24",
+   "in_s": 145.5,
+   "out_s": 151.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -27.0,
+   "bed_rms_dBFS(ambiance+musique)": -45.5,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.89
+  },
+  {
+   "shot": "SH25",
+   "in_s": 151.5,
+   "out_s": 163.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -22.0,
+   "bed_rms_dBFS(ambiance+musique)": -45.8,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.03
+  },
+  {
+   "shot": "SH26",
+   "in_s": 163.5,
+   "out_s": 175.0,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -19.4,
+   "bed_rms_dBFS(ambiance+musique)": -46.1,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.08
+  },
+  {
+   "shot": "SH27",
+   "in_s": 175.0,
+   "out_s": 182.0,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -20.9,
+   "bed_rms_dBFS(ambiance+musique)": -47.9,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.02
+  },
+  {
+   "shot": "SH28",
+   "in_s": 182.0,
+   "out_s": 189.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -17.7,
+   "bed_rms_dBFS(ambiance+musique)": -49.0,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.4
+  },
+  {
+   "shot": "SH29",
+   "in_s": 189.5,
+   "out_s": 198.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -32.5,
+   "bed_rms_dBFS(ambiance+musique)": -47.7,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.15
+  },
+  {
+   "shot": "SH30",
+   "in_s": 198.5,
+   "out_s": 208.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -19.7,
+   "bed_rms_dBFS(ambiance+musique)": -49.3,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.99
+  },
+  {
+   "shot": "SH31",
+   "in_s": 208.5,
+   "out_s": 216.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -31.8,
+   "bed_rms_dBFS(ambiance+musique)": -47.7,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.48
+  },
+  {
+   "shot": "SH32",
+   "in_s": 216.5,
+   "out_s": 225.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -18.2,
+   "bed_rms_dBFS(ambiance+musique)": -50.7,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.99
+  },
+  {
+   "shot": "SH33",
+   "in_s": 225.5,
+   "out_s": 239.5,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -31.0,
+   "bed_rms_dBFS(ambiance+musique)": -47.8,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.17
+  },
+  {
+   "shot": "SH34",
+   "in_s": 239.5,
+   "out_s": 250.0,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -21.1,
+   "bed_rms_dBFS(ambiance+musique)": -49.1,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.98
+  },
+  {
+   "shot": "SH35",
+   "in_s": 250.0,
+   "out_s": 253.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -20.1,
+   "bed_rms_dBFS(ambiance+musique)": -48.3,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.98
+  },
+  {
+   "shot": "SH36",
+   "in_s": 253.5,
+   "out_s": 261.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -17.5,
+   "bed_rms_dBFS(ambiance+musique)": -48.6,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 1.0
+  },
+  {
+   "shot": "SH37",
+   "in_s": 261.5,
+   "out_s": 270.5,
+   "has_dialogue": true,
+   "mix_rms_dBFS": -17.7,
+   "bed_rms_dBFS(ambiance+musique)": -48.1,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": 0.8
+  },
+  {
+   "shot": "SH38",
+   "in_s": 270.5,
+   "out_s": 276.0,
+   "has_dialogue": false,
+   "mix_rms_dBFS": -21.6,
+   "bed_rms_dBFS(ambiance+musique)": -45.9,
+   "short_term_LUFS_min": null,
+   "short_term_LUFS_max": null,
+   "stereo_corr": -0.22
+  }
+ ],
+ "silences_lt_-60dBFS_ge_0.3s": [
+  {
+   "in_s": 275.7,
+   "out_s": 299.0
+  }
+ ],
+ "ebur128_tail": [
+  "size=N/A time=00:04:49.57 bitrate=N/A speed= 193x    ",
+  "[out#0/null @ 0x5635fffc9680] video:0kB audio:56064kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown",
+  "size=N/A time=00:04:58.98 bitrate=N/A speed= 167x    ",
+  "[Parsed_ebur128_0 @ 0x563600057f00] Summary:",
+  "",
+  "  Integrated loudness:",
+  "    I:         -16.1 LUFS",
+  "    Threshold: -27.9 LUFS",
+  "",
+  "  Loudness range:",
+  "    LRA:        15.8 LU",
+  "    Threshold: -37.9 LUFS",
+  "    LRA low:   -30.1 LUFS",
+  "    LRA high:  -14.3 LUFS"
+ ]
+}

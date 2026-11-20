@@ -1,0 +1,186 @@
+{
+ "lines": [
+  {
+   "in_s": 7.52,
+   "out_s": 10.01,
+   "g": 1.954,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 11.84,
+   "out_s": 13.8,
+   "g": 1.397,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 15.33,
+   "out_s": 15.97,
+   "g": 1.593,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 16.52,
+   "out_s": 19.37,
+   "g": 1.641,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 20.76,
+   "out_s": 22.99,
+   "g": 1.121,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 23.77,
+   "out_s": 26.17,
+   "g": 1.644,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 39.83,
+   "out_s": 41.79,
+   "g": 1.178,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 42.8,
+   "out_s": 44.65,
+   "g": 1.648,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 45.04,
+   "out_s": 47.7,
+   "g": 1.441,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 71.04,
+   "out_s": 74.54,
+   "g": 1.763,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 77.54,
+   "out_s": 82.87,
+   "g": 1.708,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 91.49,
+   "out_s": 97.29,
+   "g": 1.706,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 99.8,
+   "out_s": 101.92,
+   "g": 1.781,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 102.2,
+   "out_s": 105.49,
+   "g": 1.555,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 105.76,
+   "out_s": 106.94,
+   "g": 1.821,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 126.48,
+   "out_s": 131.43,
+   "g": 1.963,
+   "corr_residu_voix": -0.0
+  },
+  {
+   "in_s": 134.36,
+   "out_s": 134.96,
+   "g": 1.331,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 135.16,
+   "out_s": 137.37,
+   "g": 2.031,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 137.64,
+   "out_s": 138.52,
+   "g": 1.679,
+   "corr_residu_voix": -0.001
+  },
+  {
+   "in_s": 139.31,
+   "out_s": 143.91,
+   "g": 1.642,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 166.51,
+   "out_s": 168.27,
+   "g": 2.238,
+   "corr_residu_voix": 0.002
+  },
+  {
+   "in_s": 182.5,
+   "out_s": 185.23,
+   "g": 1.918,
+   "corr_residu_voix": 0.002
+  },
+  {
+   "in_s": 199.51,
+   "out_s": 204.55,
+   "g": 1.907,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 216.79,
+   "out_s": 221.3,
+   "g": 1.741,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 221.76,
+   "out_s": 224.36,
+   "g": 1.797,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 240.5,
+   "out_s": 244.81,
+   "g": 1.826,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 250.21,
+   "out_s": 251.67,
+   "g": 1.85,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 253.66,
+   "out_s": 260.45,
+   "g": 1.467,
+   "corr_residu_voix": 0.0
+  },
+  {
+   "in_s": 261.63,
+   "out_s": 262.37,
+   "g": 1.904,
+   "corr_residu_voix": 0.001
+  },
+  {
+   "in_s": 262.86,
+   "out_s": 267.99,
+   "g": 1.411,
+   "corr_residu_voix": 0.0
+  }
+ ],
+ "lag_samples": 47,
+ "note": "g = gain mixage/stem par réplique ; corr_residu_voix proche de 0 = peu de voix résiduelle dans le FOND"
+}

@@ -1,0 +1,3 @@
+C_generique — fenêtre 268.00–299.00 s du master (début/fin sur des images entières à 25 ips)
+- 274,6–299,0 s : reprise progressive du thème (Mixkit 599, début de piste = exposition du thème, lue depuis 0 s), entrée sous la fin de MF, montée de −60 à −24,5 dB (re pleine échelle de la piste) jusqu'à ~292,6 s, sortie progressive jusqu'à 299,0 s ; largeur stéréo de la musique ramenée à 60 % à sonie conservée (compatibilité mono)
+- Aucune voix, aucun texte à l'écran modifié ; cartons 1 (276–282 s), 2 (282–285,5 s), 3 (285,5–299 s)

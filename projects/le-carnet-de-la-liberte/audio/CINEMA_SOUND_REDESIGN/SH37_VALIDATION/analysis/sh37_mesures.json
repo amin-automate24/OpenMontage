@@ -1,0 +1,123 @@
+{
+ "décomposition": {
+  "retard_éch": 47.7,
+  "gain_AMB_dB": 14.64,
+  "réduction_HF_4-8k_en_retirant_AMB_dB": -15.9
+ },
+ "plume_réelle": {
+  "gestes": [
+   [
+    267.8,
+    1.0,
+    0.0
+   ],
+   [
+    268.5,
+    0.97,
+    -2.0
+   ],
+   [
+    269.2,
+    1.04,
+    -1.0
+   ],
+   [
+    269.85,
+    0.99,
+    -4.0
+   ]
+  ],
+  "RMS_actif_dBFS": -42.0,
+  "crête_dBFS": -23.1,
+  "énergie_4-8k_dBFS_sur_267.7-270.3": -71.0
+ },
+ "A": {
+  "HF_4-8k_par_0.5s_dBFS": [
+   -47.3,
+   -45.7,
+   -31.4,
+   -33.7,
+   -32.1,
+   -29.6,
+   -37.8,
+   -46.0,
+   -47.6,
+   -49.7,
+   -52.7,
+   -56.5
+  ],
+  "RMS_267.7-270.3_dBFS": -19.2,
+  "crête_échantillon_dBFS": -3.12,
+  "écrêtés": 0,
+  "perte_mono_zone_dB": -2.44,
+  "I_LUFS": -15.9,
+  "TP_dBTP": -3.1
+ },
+ "B": {
+  "HF_4-8k_par_0.5s_dBFS": [
+   -47.3,
+   -45.7,
+   -43.8,
+   -48.2,
+   -47.2,
+   -45.9,
+   -49.7,
+   -46.0,
+   -47.6,
+   -49.7,
+   -52.7,
+   -56.6
+  ],
+  "RMS_267.7-270.3_dBFS": -19.5,
+  "crête_échantillon_dBFS": -3.08,
+  "écrêtés": 0,
+  "perte_mono_zone_dB": -2.61,
+  "I_LUFS": -16.0,
+  "TP_dBTP": -3.1,
+  "écart_max_vs_A_hors_zone": 3.192244801830668e-10,
+  "écart_RMS_vs_A_dans_zone_dBFS": -32.1,
+  "énergie_de_la_différence_par_bande_dBFS": {
+   "50-1000": -39.8,
+   "1000-2000": -53.7,
+   "2000-4000": -38.5,
+   "4000-8000": -34.3
+  },
+  "musique_50-2000Hz_RMS_zone_dBFS (A: -19.4)": -19.4
+ },
+ "C": {
+  "HF_4-8k_par_0.5s_dBFS": [
+   -47.3,
+   -45.7,
+   -47.4,
+   -49.8,
+   -46.3,
+   -47.9,
+   -48.3,
+   -46.0,
+   -47.6,
+   -49.7,
+   -52.7,
+   -56.6
+  ],
+  "RMS_267.7-270.3_dBFS": -19.5,
+  "crête_échantillon_dBFS": -3.05,
+  "écrêtés": 0,
+  "perte_mono_zone_dB": -2.6,
+  "I_LUFS": -16.0,
+  "TP_dBTP": -3.0,
+  "écart_max_vs_A_hors_zone": 9.576734127936248e-10,
+  "écart_RMS_vs_A_dans_zone_dBFS": -30.9,
+  "énergie_de_la_différence_par_bande_dBFS": {
+   "50-1000": -38.0,
+   "1000-2000": -47.0,
+   "2000-4000": -37.5,
+   "4000-8000": -33.4
+  },
+  "musique_50-2000Hz_RMS_zone_dBFS (A: -19.4)": -19.3
+ },
+ "fichier_livré_échantillons_différents_de_A_hors_zone_267.45-270.65": {
+  "B": 0,
+  "C": 0
+ },
+ "fichier_livré_durée_s": 22.58
+}

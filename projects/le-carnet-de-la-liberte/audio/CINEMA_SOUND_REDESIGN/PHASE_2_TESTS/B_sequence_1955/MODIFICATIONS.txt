@@ -1,0 +1,4 @@
+B_sequence_1955 — fenêtre 160.00–190.00 s du master (début/fin sur des images entières à 25 ips)
+- 164,10–167,30 s : premier chant d'oiseau à l'ouverture de la fenêtre (Mixkit 2472, crête −33 dBFS) — SH26
+- Réplique V1 (166,5 s) et A5 (182,5 s) : composante voix du mix relevée de +1,5 dB (les deux répliques de la fenêtre) ; fond inchangé (la séparation musique/ambiance du mix final n'est pas fiable : abaisser le fond sous la voix n'est donc pas testé)
+- 175,0–182,0 s (SH27, sans voix) : largeur stéréo du fond ramenée à 60 % à sonie conservée, fondus de 1 s

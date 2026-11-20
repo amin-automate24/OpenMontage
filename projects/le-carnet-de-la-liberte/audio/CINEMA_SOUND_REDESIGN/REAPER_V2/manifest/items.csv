@@ -1,0 +1,14 @@
+track,file,position_s,length_s,source_offset_s,volume_db,fade_in_s,fade_out_s,mute,name
+DX,DX_dialogue_stem_M6_276s.flac,0.000979,276.000,0.000,4.64,0.00,0.00,0,DX stem M6 (calé +47 éch.) — gain par réplique = enveloppe de la piste
+AMB,AMB_FOLEY_M7c_276s_melange.flac,0.000979,276.000,0.000,16.49,0.00,0.00,0,AMB+FOLEY M7c (mélangé) — gain par plan + ducking = enveloppe de la piste
+MUS,mixkit_599_possible_dreams.mp3,50.500000,15.500,0.000,1.66,1.50,1.50,0,MA (offset 0 s)
+MUS,mixkit_599_possible_dreams.mp3,109.000000,12.000,110.000,-1.45,1.20,2.00,0,MB (offset 110 s)
+MUS,mixkit_599_possible_dreams.mp3,151.500000,38.000,15.000,-6.83,3.00,1.50,0,MCMD (offset 15 s)
+MUS,mixkit_599_possible_dreams.mp3,268.000000,8.000,140.000,-0.66,1.00,5.00,0,MF (offset 140 s)
+MUS,PH2_C_generique_v2_pos273.00s.flac,273.000000,26.000,0.000,0.00,0.00,0.00,0,"GÉNÉRIQUE v2 (fondu enchaîné) — proposition, active"
+MUS_ALT,PH2_C_generique_v2b_pos275.00s.flac,275.000000,24.000,0.000,0.00,0.00,0.00,1,GÉNÉRIQUE v2b (respiration) — alternative muette
+FOL_A,PH2_A_foley_air_pos36.00s.flac,36.000000,30.000,0.000,0.00,0.00,0.00,1,TEST A foley carnet + air d'encre — muet par défaut
+FOL_B,PH2_B_oiseau_pos163.90s.flac,163.900000,3.700,0.000,0.00,0.00,0.00,1,TEST B oiseau fenêtre — muet par défaut
+REF_MIX,REF_MIX_actuel_QC2_SON2_276s_sans_perte.flac,0.000000,276.000,0.000,0.00,0.00,0.00,1,REF mix actuel sans perte (muet)
+REF_MST,REF_master_FINAL_audio_part1_0-150s.flac,0.000000,150.000,0.000,0.00,0.00,0.00,1,REF master FINAL audio (1/2) muet
+REF_MST,REF_master_FINAL_audio_part2_150-299s.flac,150.000000,149.008,0.000,0.00,0.00,0.00,1,REF master FINAL audio (2/2) muet

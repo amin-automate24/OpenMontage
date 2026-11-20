@@ -109,6 +109,30 @@
         "lecture continue de CINÉMA v5",
         "écoute directe"
       ]
+    },
+    {
+      "id": "AUTH-CINEMA-FINAL-2026-11-20",
+      "scope": "Création et validation du MASTER FINAL CINÉMA par remultiplexage sans réencodage de CINÉMA v5 (métadonnées nettoyées) ; paquet de publication YouTube préparé",
+      "granted_by": "propriétaire du projet (autorisation officielle écrite du 20/11/2026)",
+      "status": "granted_and_executed",
+      "spent": 0,
+      "owner_declared_approvals": "validations artistique, sonore, technique et commerciale déclarées approuvées par le propriétaire le 20/11/2026 ; les justificatifs ElevenLabs et Magnific ne sont pas archivés dans le projet",
+      "source": "deliverables/NON_FINAL_v5/LE_CARNET_DE_LA_LIBERTE_CINEMA_NON_FINAL_v5_1080p.mp4",
+      "source_sha256": "596d4a227c8753494f503e22eb12d9b1252411bdad4744abb1963f9a9ed5505e",
+      "final_file": "deliverables/FINAL_CINEMA/LE_CARNET_DE_LA_LIBERTE_CINEMA_FINAL_1080p.mp4",
+      "final_sha256": "0f72fc9ad6f82526af2a34d31fd34d52d1d48cea36c85835e5fedf38795c029d",
+      "final_size": 209562821,
+      "streams_identical_to_source": true,
+      "youtube_settings": {
+        "made_for_kids": true,
+        "altered_or_synthetic_disclosure": true
+      },
+      "not_authorized": [
+        "envoi sur YouTube",
+        "publication publique",
+        "modification de SCOLAIRE",
+        "nouveau montage ou génération"
+      ]
     }
   ],
   "gates": [

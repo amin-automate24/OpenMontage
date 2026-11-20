@@ -1,5 +1,5 @@
 # Paquet de publication YouTube — « Le Carnet de la Liberté » (édition CINÉMA v5) — version anonyme v3 (brouillon, rien publié)
-Ne contient ni nom de personne ni nom d'établissement. Remplace la v2 : la photographie BnF / Agence Rol est retirée du film ; ses crédits sont supprimés.
+Ne contient ni nom de personne ni nom d'établissement. Remplace la v2 (crédits mis à jour pour l'édition CINÉMA v5).
 
 ## Titre
 Le Carnet de la Liberté — Court-métrage d'animation sur l'indépendance du Maroc (1944–1956)

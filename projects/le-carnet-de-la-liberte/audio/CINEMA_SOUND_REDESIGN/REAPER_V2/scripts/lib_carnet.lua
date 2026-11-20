@@ -147,9 +147,9 @@ function C.volume_envelope(tr)
   end
   return env
 end
-function C.apply_envelopes()
+function C.apply_envelopes(csvname)
   local by = {}
-  for _, r in ipairs(C.read_csv(C.MAN .. "envelopes.csv")) do by[r.track] = by[r.track] or {}; table.insert(by[r.track], r) end
+  for _, r in ipairs(C.read_csv(C.MAN .. (csvname or "envelopes.csv"))) do by[r.track] = by[r.track] or {}; table.insert(by[r.track], r) end
   local total = 0
   for key, pts in pairs(by) do
     local tr = C.track_by_key(key)

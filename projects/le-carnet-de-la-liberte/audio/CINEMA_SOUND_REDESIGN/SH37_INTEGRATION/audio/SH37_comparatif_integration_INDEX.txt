@@ -1,0 +1,7 @@
+SH37 — comparatif d'intégration, fenêtre du film 265,000–275,000 s (identique pour les trois), 10,000 s chacune
+1 bip = master actuel · 2 bips = version C approuvée (atténuation globale) · 3 bips = version C sélective (proposée pour l'intégration)
+1,000 s de silence entre les versions ; 0,5 s de silence entre les bips et la version.
+  A (1 bip) bips à  0.000 s · version de  0.620 s à 10.620 s — master actuel (bruitage de synthèse)
+  Cg (2 bips) bips à 11.620 s · version de 12.480 s à 22.480 s — version C approuvée (atténuation globale AMB + plume réelle)
+  Cs (3 bips) bips à 23.480 s · version de 24.580 s à 34.580 s — version C sélective (atténuation > 2,1 kHz seulement + plume réelle)
+Durée totale : 34.580 s.

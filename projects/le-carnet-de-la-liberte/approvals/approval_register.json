@@ -1,6 +1,6 @@
 {
   "project": "le-carnet-de-la-liberte",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "screenplay": {
     "file": "docs/LE_CARNET_DE_LA_LIBERTE_SCREENPLAY_DRAFT_1.1_FR.md",
     "sha256": "8c3c6de7401d70adfc75c2574afadafed96bfd9d5abf2a8eaf020ea456d8af66"
@@ -89,6 +89,25 @@
       "not_independently_verified": [
         "lecture sur projecteur",
         "écoute directe du carillon"
+      ]
+    },
+    {
+      "id": "AUTH-CINEMA-V5-2026-11-20",
+      "scope": "Rendu R1–R3 de CINÉMA v5 NON FINAL : SH08 (images 901–988) = plan du master QC3 sans photo BnF/Rol 156948 ; générique v006 anonyme (carton 1 option A, aucun nom de personne ni d'établissement) ; crédit BnF supprimé (aucun actif CINÉMA conservé ne l'exige) ; structure, durée 299,000 s, 7 475 images, transitions et audio inchangés ; repli réencodage complet autorisé et utilisé (assemblage sélectif sans perte d'images impossible à garantir)",
+      "granted_by": "propriétaire du projet (autorisation explicite écrite du 20/11/2026)",
+      "status": "granted_and_executed",
+      "spent": 0,
+      "output": "deliverables/NON_FINAL_v5/LE_CARNET_DE_LA_LIBERTE_CINEMA_NON_FINAL_v5_1080p.mp4",
+      "sha256": "596d4a227c8753494f503e22eb12d9b1252411bdad4744abb1963f9a9ed5505e",
+      "scope_limit": "édition CINÉMA uniquement ; SCOLAIRE v4 (conserve la photo BnF), quiz, SRT et masters précédents inchangés",
+      "release_status": "NON FINAL ; aucune publication ; aucun FINAL",
+      "pending_evidence": [
+        "forfait ElevenLabs Starter actif le 17/11 et conditions des voix",
+        "forfait Magnific Plus et conditions commerciales des images (y compris la photo de famille générée de SH08)"
+      ],
+      "not_independently_verified": [
+        "lecture continue de CINÉMA v5",
+        "écoute directe"
       ]
     }
   ],

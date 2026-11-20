@@ -138,14 +138,16 @@
       "id": "AUTH-VIGNETTES-2026-11-20",
       "scope": "Conception de trois propositions de vignette YouTube pour CINÉMA FINAL ; aucune génération IA ni crédit dépensé (recomposition des plans composites du film) ; choix et validation par le propriétaire avant toute publication",
       "granted_by": "propriétaire du projet (message du 20/11/2026)",
-      "status": "executed_awaiting_owner_choice",
+      "status": "owner_choice_B_recorded",
       "spent": 0,
       "output_dir": "deliverables/FINAL_CINEMA/YOUTUBE_THUMBNAILS/",
       "not_authorized": [
         "téléversement ou publication YouTube",
         "modification du master FINAL",
         "achat de crédits ou d'abonnements"
-      ]
+      ],
+      "owner_choice": "B — Le carnet d'Amina (SH10), choisie par le propriétaire le 20/11/2026",
+      "public_file": "deliverables/FINAL_CINEMA/LE_CARNET_DE_LA_LIBERTE_vignette.jpg"
     }
   ],
   "gates": [

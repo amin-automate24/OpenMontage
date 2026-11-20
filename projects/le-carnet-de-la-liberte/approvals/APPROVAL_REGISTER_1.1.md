@@ -293,3 +293,6 @@ Photo : Nationaal Archief / Anefo, bestanddeelnummer 905-8914 (≈ 18/08/1953), 
 
 ## 2026-11-20 — Vignettes YouTube CINÉMA FINAL (AUTH-VIGNETTES-2026-11-20) — propositions livrées, choix du propriétaire en attente
 - Trois propositions dans `deliverables/FINAL_CINEMA/YOUTUBE_THUMBNAILS/` (A SH24, B SH10, C SH26), composées à partir des plans composites du film ; **aucune génération IA, 0 crédit** ; seul texte ajouté : « LE CARNET DE LA LIBERTÉ ». Master FINAL, SCOLAIRE v4 et quiz inchangés. Recommandation : B, puis A, puis C. Aucun envoi ni publication.
+
+## 2026-11-20 — Vignette officielle choisie (AUTH-VIGNETTES-2026-11-20)
+- **Choix du propriétaire : proposition B « Le carnet d'Amina »** (SH10). Fichier de publication : `deliverables/FINAL_CINEMA/LE_CARNET_DE_LA_LIBERTE_vignette.jpg` (copie octet pour octet, 1280×720, sans métadonnées). **Non téléversée** ; envoi et publication YouTube toujours non autorisés.
